@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ENT Studio · 检索验证</title><link rel="stylesheet" href="/assets/styles.css"><script defer src="/assets/app.js"></script></head>
+<body>
+<header><div class="brand"><span class="logo">E</span><span>ENT Studio<small>耳鼻喉知识检索工作台</small></span></div><a href="/audit" class="workbench-nav">资料与题目审核 →</a><span class="environment"><i></i> 本地开发验证</span></header>
+<main>
+<p><a href="/patients" class="workbench-nav">患者资料与授权 →</a></p>
+<section class="intro"><div><span class="eyebrow">RETRIEVAL WORKBENCH / 01</span><h1>从患者信息，找到证据。</h1><p>对照相关原文与引用，检查检索是否找对了资料。</p></div><div class="library"><span>开发资料库</span><strong id="library-count">连接中</strong><small id="library-state">正在检查本地组件</small></div></section>
+<div class="workspace">
+<aside><form id="query-form"><div class="section-heading"><h2>患者信息</h2><button type="button" id="sample" class="link-button">填入示例</button></div>
+<p class="hint">本地不保存输入；生成会发送模拟信息到DeepSeek。</p>
+<div class="field-row"><label>年龄 <span>*</span><input id="age" name="age" type="number" min="18" max="130" required placeholder="18岁以上"></label><label>持续时间<input name="duration" maxlength="30" placeholder="如：反复半年"></label></div>
+<label>主诉 <span>*</span><input id="chief" name="chief_complaint" maxlength="80" required placeholder="如：反复鼻塞、打喷嚏"></label>
+<label>相关病史 <small>选填</small><textarea name="history" maxlength="80" rows="2" placeholder="如：有过敏性鼻炎病史"></textarea></label>
+<label>补充记录 <small>选填</small><textarea name="pasted_text" maxlength="100" rows="2" placeholder="可粘贴简短、脱敏的检查或问诊记录"></textarea></label>
+<label>本次咨询问题 <span>*</span><textarea id="question" name="question" maxlength="160" rows="3" required placeholder="希望查找哪方面的资料？"></textarea></label>
+<div class="toggle-box"><label class="toggle-label"><input type="checkbox" name="compare_reranker" id="compare"><span>对比重排序结果</span></label><small>额外运行本地模型，可能需要数秒。</small></div>
+<div class="generation-options"><label class="toggle-label"><input type="checkbox" id="synthetic-consent"><span>仅用模拟信息，允许发送到DeepSeek</span></label><small id="generation-status">正在检查生成模型配置</small><button id="generate" class="generate-button" type="button" disabled>生成有引用的解释</button></div>
+<button id="submit" class="primary" type="submit">检索相关资料 <span>↗</span></button>
+<p id="form-message" class="message" role="status" aria-live="polite"></p>
+<button type="button" id="clear" class="clear-button">清空输入与结果</button></form>
+<div class="note"><strong>开发回答验证</strong><p>资料尚待临床审核。本页可验证引用解释；生成需模拟输入确认，结果仍待医学审核。</p></div></aside>
+<section class="results-area" aria-label="检索结果">
+<div class="results-bar"><h2>证据对照</h2><span id="run-status">等待检索</span></div>
+<div id="run-meta" class="run-meta" hidden></div>
+<section id="answer-panel" class="answer-panel" hidden aria-label="有引用的回答"></section>
+<div id="empty" class="empty"><div class="empty-symbol">⌕</div><h3>让问题与资料建立连接</h3><p>填写左侧信息，或使用示例开始检索。</p><div class="steps"><span>01 输入信息</span><b>→</b><span>02 找到原文</span><b>→</b><span>03 标记相关性</span></div></div>
+<div id="columns" class="columns" hidden><section><div class="column-heading"><h3>混合检索</h3><span id="baseline-count">0 条</span></div><div id="baseline"></div></section><section><div class="column-heading"><h3>重排序后</h3><span id="reranked-count">未启用</span></div><div id="reranked"><p class="placeholder">勾选左侧“对比重排序结果”后可查看。</p></div></section></div>
+<div class="feedback-note">审核标记仅记录资料标识和相关性，不保存患者输入，也不等于临床审核通过。</div>
+</section></div>
+</main><footer>ENT Studio / 本地检索验证 <span>资料 · 版本 · 引用可追溯</span></footer>
+</body></html>

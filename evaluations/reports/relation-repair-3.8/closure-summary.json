@@ -1,0 +1,362 @@
+{
+  "results_sha256": "f8abb754be9e7f3f583c29c9cc9f9160ae027035025be40ba56be1a983262c13",
+  "generation_deployment_manifest_matches": true,
+  "offline": {
+    "name": "pytest",
+    "errors": "0",
+    "failures": "0",
+    "skipped": "0",
+    "tests": "556",
+    "time": "46.081",
+    "timestamp": "2026-10-21T16:23:53.473850+08:00",
+    "hostname": "DESKTOP-T469ISO"
+  },
+  "transitions": [
+    {
+      "case_id": "GEN-ENT-030",
+      "previous_status": "answered",
+      "current_status": "answered",
+      "error_code": null
+    },
+    {
+      "case_id": "GEN-ENT-036",
+      "previous_status": "validation_failed",
+      "current_status": "answered",
+      "error_code": null
+    },
+    {
+      "case_id": "GEN-ENT-030-CONTEXT",
+      "previous_status": "answered",
+      "current_status": "answered",
+      "error_code": null
+    },
+    {
+      "case_id": "GEN-ENT-036-CONTEXT",
+      "previous_status": "answered",
+      "current_status": "answered",
+      "error_code": null
+    },
+    {
+      "case_id": "ANCHOR-TINNITUS-002",
+      "previous_status": "insufficient_evidence",
+      "current_status": "answered",
+      "error_code": null
+    },
+    {
+      "case_id": "ANCHOR-VOICE-003",
+      "previous_status": "insufficient_evidence",
+      "current_status": "validation_failed",
+      "error_code": "invalid_verification_schema"
+    }
+  ],
+  "known_bad_relation_replay": [
+    {
+      "claim_id": "GEN-ENT-030-CONTEXT/professional:0",
+      "error": "source_relation_shift"
+    },
+    {
+      "claim_id": "GEN-ENT-030-CONTEXT/patient_summary:0",
+      "error": "source_relation_shift"
+    }
+  ],
+  "display_items": [
+    {
+      "claim_id": "GEN-ENT-030/professional:0",
+      "claim": {
+        "text": "部分耳鸣者会感到耳鸣影响情绪，并影响睡眠或集中注意力的能力。",
+        "supports": [
+          {
+            "evidence_id": "E1",
+            "quote": "However, some people find that it affects their mood and their ability to sleep or concentrate."
+          }
+        ],
+        "input_fields": []
+      },
+      "clinical_approval": false,
+      "review_status": "pending_independent_medical_review"
+    },
+    {
+      "claim_id": "GEN-ENT-030/professional:1",
+      "claim": {
+        "text": "在失代偿性耳鸣中，耳鸣可对生活各方面造成重大影响，并可能导致或加重焦虑、睡眠障碍、注意力障碍、抑郁等共病。",
+        "supports": [
+          {
+            "evidence_id": "E2",
+            "quote": "Decompensated tinnitus: The ringing in the ears has a massive impact on all areas of life and leads to the development or aggravation of comorbidity (see Table 1; e.g. anxiety, sleep disorders, concentration disorders, depression)."
+          }
+        ],
+        "input_fields": []
+      },
+      "clinical_approval": false,
+      "review_status": "pending_independent_medical_review"
+    },
+    {
+      "claim_id": "GEN-ENT-030/patient_summary:0",
+      "claim": {
+        "text": "有些耳鸣的人会觉得耳鸣影响心情，也会影响睡觉或集中注意力的能力。",
+        "supports": [
+          {
+            "evidence_id": "E1",
+            "quote": "However, some people find that it affects their mood and their ability to sleep or concentrate."
+          }
+        ],
+        "input_fields": []
+      },
+      "clinical_approval": false,
+      "review_status": "pending_independent_medical_review"
+    },
+    {
+      "claim_id": "GEN-ENT-036/professional:0",
+      "claim": {
+        "text": "声音嘶哑时，嗓音可能表现为气息声、raspy或紧绷，也可能音量变小或音调变低。",
+        "supports": [
+          {
+            "evidence_id": "E1",
+            "quote": "If you are hoarse, your voice will sound breathy, raspy, or strained, or will be softer in volume or lower in pitch."
+          }
+        ],
+        "input_fields": []
+      },
+      "clinical_approval": false,
+      "review_status": "pending_independent_medical_review"
+    },
+    {
+      "claim_id": "GEN-ENT-036/input_explanation:0",
+      "claim": {
+        "text": "填写原话（未经临床确认）：问题：我说话声音粗哑、音量也变小，资料如何描述声音嘶哑？",
+        "supports": [],
+        "input_fields": [
+          "question"
+        ],
+        "source_kind": "patient_input",
+        "input_anchors": [
+          {
+            "field": "question",
+            "quote": "我说话声音粗哑、音量也变小，资料如何描述声音嘶哑？",
+            "state": "reported"
+          }
+        ]
+      },
+      "clinical_approval": false,
+      "review_status": "pending_independent_medical_review"
+    },
+    {
+      "claim_id": "GEN-ENT-036/patient_summary:0",
+      "claim": {
+        "text": "声音嘶哑时，嗓音可能表现为气息声、raspy或紧绷，也可能音量变小或音调变低。",
+        "supports": [
+          {
+            "evidence_id": "E1",
+            "quote": "If you are hoarse, your voice will sound breathy, raspy, or strained, or will be softer in volume or lower in pitch."
+          }
+        ],
+        "input_fields": []
+      },
+      "clinical_approval": false,
+      "review_status": "pending_independent_medical_review"
+    },
+    {
+      "claim_id": "GEN-ENT-030-CONTEXT/professional:0",
+      "claim": {
+        "text": "有些耳鸣者会感到耳鸣影响情绪，并影响睡眠或注意力。",
+        "supports": [
+          {
+            "evidence_id": "E1",
+            "quote": "However, some people find that it affects their mood and their ability to sleep or concentrate."
+          }
+        ],
+        "input_fields": []
+      },
+      "clinical_approval": false,
+      "review_status": "pending_independent_medical_review"
+    },
+    {
+      "claim_id": "GEN-ENT-030-CONTEXT/professional:1",
+      "claim": {
+        "text": "在严重病例中，耳鸣可导致焦虑或抑郁。",
+        "supports": [
+          {
+            "evidence_id": "E1",
+            "quote": "In severe cases, tinnitus can lead to anxiety or depression."
+          }
+        ],
+        "input_fields": []
+      },
+      "clinical_approval": false,
+      "review_status": "pending_independent_medical_review"
+    },
+    {
+      "claim_id": "GEN-ENT-030-CONTEXT/professional:2",
+      "claim": {
+        "text": "失代偿性耳鸣可伴随焦虑、睡眠障碍、注意力障碍、抑郁等共病。",
+        "supports": [
+          {
+            "evidence_id": "E2",
+            "quote": "Decompensated tinnitus: The ringing in the ears has a massive impact on all areas of life and leads to the development or aggravation of comorbidity (see Table 1; e.g. anxiety, sleep disorders, concentration disorders, depression)."
+          }
+        ],
+        "input_fields": []
+      },
+      "clinical_approval": false,
+      "review_status": "pending_independent_medical_review"
+    },
+    {
+      "claim_id": "GEN-ENT-030-CONTEXT/input_explanation:0",
+      "claim": {
+        "text": "填写原话（未经临床确认）：问题：我耳鸣后睡不好又难以集中注意力，资料描述了哪些生活影响？",
+        "supports": [],
+        "input_fields": [
+          "question"
+        ],
+        "source_kind": "patient_input",
+        "input_anchors": [
+          {
+            "field": "question",
+            "quote": "我耳鸣后睡不好又难以集中注意力，资料描述了哪些生活影响？",
+            "state": "reported"
+          }
+        ]
+      },
+      "clinical_approval": false,
+      "review_status": "pending_independent_medical_review"
+    },
+    {
+      "claim_id": "GEN-ENT-030-CONTEXT/patient_summary:0",
+      "claim": {
+        "text": "有些耳鸣的人会觉得耳鸣影响情绪，还会影响睡眠或注意力。",
+        "supports": [
+          {
+            "evidence_id": "E1",
+            "quote": "However, some people find that it affects their mood and their ability to sleep or concentrate."
+          }
+        ],
+        "input_fields": []
+      },
+      "clinical_approval": false,
+      "review_status": "pending_independent_medical_review"
+    },
+    {
+      "claim_id": "GEN-ENT-036-CONTEXT/professional:0",
+      "claim": {
+        "text": "声音嘶哑时，嗓音可能表现为气息声、raspy或紧张，也可能音量变小或音调变低。",
+        "supports": [
+          {
+            "evidence_id": "E1",
+            "quote": "If you are hoarse, your voice will sound breathy, raspy, or strained, or will be softer in volume or lower in pitch."
+          }
+        ],
+        "input_fields": []
+      },
+      "clinical_approval": false,
+      "review_status": "pending_independent_medical_review"
+    },
+    {
+      "claim_id": "GEN-ENT-036-CONTEXT/professional:1",
+      "claim": {
+        "text": "声音嘶哑常常是喉部声带问题的症状。",
+        "supports": [
+          {
+            "evidence_id": "E1",
+            "quote": "Hoarseness is often a symptom of problems in the vocal folds of the larynx."
+          }
+        ],
+        "input_fields": []
+      },
+      "clinical_approval": false,
+      "review_status": "pending_independent_medical_review"
+    },
+    {
+      "claim_id": "GEN-ENT-036-CONTEXT/input_explanation:0",
+      "claim": {
+        "text": "填写原话（未经临床确认）：问题：我说话声音粗哑、音量也变小，资料如何描述声音嘶哑？",
+        "supports": [],
+        "input_fields": [
+          "question"
+        ],
+        "source_kind": "patient_input",
+        "input_anchors": [
+          {
+            "field": "question",
+            "quote": "我说话声音粗哑、音量也变小，资料如何描述声音嘶哑？",
+            "state": "reported"
+          }
+        ]
+      },
+      "clinical_approval": false,
+      "review_status": "pending_independent_medical_review"
+    },
+    {
+      "claim_id": "GEN-ENT-036-CONTEXT/patient_summary:0",
+      "claim": {
+        "text": "声音嘶哑时，嗓音可能听起来气息声、raspy或紧张，也可能音量变小或音调变低。",
+        "supports": [
+          {
+            "evidence_id": "E1",
+            "quote": "If you are hoarse, your voice will sound breathy, raspy, or strained, or will be softer in volume or lower in pitch."
+          }
+        ],
+        "input_fields": []
+      },
+      "clinical_approval": false,
+      "review_status": "pending_independent_medical_review"
+    },
+    {
+      "claim_id": "ANCHOR-TINNITUS-002/professional:0",
+      "claim": {
+        "text": "失代偿性耳鸣会对生活各领域造成很大影响，并可能导致或加重焦虑、睡眠障碍、注意力障碍、抑郁等共病。",
+        "supports": [
+          {
+            "evidence_id": "E2",
+            "quote": "Decompensated tinnitus: The ringing in the ears has a massive impact on all areas of life and leads to the development or aggravation of comorbidity (see Table 1; e.g. anxiety, sleep disorders, concentration disorders, depression)."
+          }
+        ],
+        "input_fields": []
+      },
+      "clinical_approval": false,
+      "review_status": "pending_independent_medical_review"
+    },
+    {
+      "claim_id": "ANCHOR-TINNITUS-002/input_explanation:0",
+      "claim": {
+        "text": "耳鸣后睡不好、注意力难集中与原话记录相符，但失代偿性耳鸣这一表述来自资料，不据此判断个体诊断或因果。",
+        "supports": [
+          {
+            "evidence_id": "E2",
+            "quote": "Decompensated tinnitus: The ringing in the ears has a massive impact on all areas of life and leads to the development or aggravation of comorbidity (see Table 1; e.g. anxiety, sleep disorders, concentration disorders, depression)."
+          }
+        ],
+        "input_fields": [
+          "chief_complaint"
+        ],
+        "source_kind": "medical_comparison",
+        "input_anchors": [
+          {
+            "field": "chief_complaint",
+            "quote": "合成记录：耳鸣后睡不好，注意力难集中",
+            "state": "reported"
+          }
+        ]
+      },
+      "clinical_approval": false,
+      "review_status": "pending_independent_medical_review"
+    },
+    {
+      "claim_id": "ANCHOR-TINNITUS-002/patient_summary:0",
+      "claim": {
+        "text": "失代偿性耳鸣会在生活的很多方面造成很大影响，还可能引起或加重焦虑、睡眠障碍、注意力障碍、抑郁等问题。",
+        "supports": [
+          {
+            "evidence_id": "E2",
+            "quote": "Decompensated tinnitus: The ringing in the ears has a massive impact on all areas of life and leads to the development or aggravation of comorbidity (see Table 1; e.g. anxiety, sleep disorders, concentration disorders, depression)."
+          }
+        ],
+        "input_fields": []
+      },
+      "clinical_approval": false,
+      "review_status": "pending_independent_medical_review"
+    }
+  ],
+  "clinical_approval": false,
+  "scope": "Six targeted synthetic cases, not a new full 26-case run.",
+  "remaining": "One anchor case failed verifier schema; retained, not rerun or promoted."
+}

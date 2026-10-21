@@ -1,0 +1,129 @@
+{
+  "note": "Proposals only; does not replace archived answers or clinical review",
+  "clinical_approval": false,
+  "items": [
+    {
+      "original_claim_id": "GEN-ENT-002/patient_summary/0",
+      "original_content_sha256": "fb1df4610e329b53fee71439920d916962ff8edbc38031dab98c08ad7378e4b9",
+      "candidate": {
+        "text": "成人变应性鼻炎相关资料列举与鼻解剖相关的结膜炎、鼻窦炎、中耳问题及咽喉影响。",
+        "supports": [
+          {
+            "evidence_id": "E1",
+            "quote": "Disorders anatomically related to the nose: conjunctivitis, sinusitis, middle ear problems, throat and laryngeal effects;"
+          }
+        ],
+        "input_fields": []
+      },
+      "mechanical_checks": "passed",
+      "clinical_approval": false,
+      "review_status": "proposed_text_only_pending_medical_review"
+    },
+    {
+      "original_claim_id": "GEN-ENT-002-CONTEXT/professional/2",
+      "original_content_sha256": "e1d8df5bd1cfe02769ddf2c2c488dfbf6b79f5e3eb4d5ea52062ff6622a28f30",
+      "candidate": {
+        "text": "资料列举哮喘、AD、食物过敏和anaphylaxis等原文术语。",
+        "supports": [
+          {
+            "evidence_id": "E1",
+            "quote": "These can be subdivided into:Disorders which are part of the spectrum of allergic diseases, e.g. asthma, AD, food allergy, anaphylaxis;"
+          }
+        ],
+        "input_fields": []
+      },
+      "mechanical_checks": "passed",
+      "clinical_approval": false,
+      "review_status": "proposed_text_only_pending_medical_review"
+    },
+    {
+      "original_claim_id": "GEN-ENT-009-CONTEXT/patient_summary/0",
+      "original_content_sha256": "f986b81ca0b180fbc0f77c4d67b48a691ed027fde14bd13d628104745c7ae69b",
+      "candidate": {
+        "text": "资料将至少12周列为慢性鼻窦炎病程条件之一，不能仅凭时长确诊。",
+        "supports": [
+          {
+            "evidence_id": "E1",
+            "quote": "In EPOS 2020, the diagnosis of CRS requires rhinosinusitis lasting for ≥12 weeks (without interruption, as patients may experience recurrent episodes of acute rhinosinusitis) [1, 2]."
+          }
+        ],
+        "input_fields": []
+      },
+      "mechanical_checks": "passed",
+      "clinical_approval": false,
+      "review_status": "proposed_text_only_pending_medical_review"
+    },
+    {
+      "original_claim_id": "GEN-ENT-036-CONTEXT/professional/0",
+      "original_content_sha256": "722e20d9a6fb38d2cacac5b2e23bede2135bc9311b20e82e56518efdf654f891",
+      "candidate": {
+        "text": "资料用raspy描述一种声音表现，并列出音量变轻或音调变低。",
+        "supports": [
+          {
+            "evidence_id": "E1",
+            "quote": "If you are hoarse, your voice will sound breathy, raspy, or strained, or will be softer in volume or lower in pitch."
+          }
+        ],
+        "input_fields": []
+      },
+      "mechanical_checks": "passed",
+      "clinical_approval": false,
+      "review_status": "proposed_text_only_pending_medical_review"
+    },
+    {
+      "original_claim_id": "GEN-ENT-036-CONTEXT/input_explanation/0",
+      "original_content_sha256": "5df076609a83b691c4de039b117a1dee8b6ef991da38d6ee9a125e7b0ba4662c",
+      "candidate": {
+        "text": "你提到声音粗哑、音量变小，资料中音量变轻的描述与该表述可作对照。",
+        "supports": [
+          {
+            "evidence_id": "E1",
+            "quote": "If you are hoarse, your voice will sound breathy, raspy, or strained, or will be softer in volume or lower in pitch."
+          }
+        ],
+        "input_fields": [
+          "question"
+        ],
+        "input_anchors": [
+          {
+            "field": "question",
+            "quote": "我说话声音粗哑、音量也变小，资料如何描述声音嘶哑？",
+            "state": "reported"
+          }
+        ]
+      },
+      "mechanical_checks": "passed",
+      "clinical_approval": false,
+      "review_status": "proposed_text_only_pending_medical_review"
+    },
+    {
+      "original_claim_id": "GEN-ENT-036-CONTEXT/patient_summary/0",
+      "original_content_sha256": "29d8455c951e5ec0821641e6f1ab751d10cf6a41bf2616cf2ff781c08fe764ad",
+      "candidate": {
+        "text": "资料用raspy描述一种声音特征，也列出音量变轻或音调变低。",
+        "supports": [
+          {
+            "evidence_id": "E1",
+            "quote": "If you are hoarse, your voice will sound breathy, raspy, or strained, or will be softer in volume or lower in pitch."
+          }
+        ],
+        "input_fields": []
+      },
+      "mechanical_checks": "passed",
+      "clinical_approval": false,
+      "review_status": "proposed_text_only_pending_medical_review"
+    },
+    {
+      "original_claim_id": "GEN-ENT-009-CONTEXT/input_explanation/0",
+      "original_content_sha256": "e5302bbf070ecbe6a8f23d38c568d44329e36750740fefcaf3716826426126d8",
+      "action": "request_duration_confirmation",
+      "message": "病程字段称未明确，问题称四个月；请确认是否补充了病程，或说明不同症状分别持续多久。",
+      "corrected_fixture": "GEN-ENT-009-CONTEXT in closure-batch-dev-1.0 sets duration to 四个月; original dataset unchanged",
+      "separate_conflict_cases": [
+        "BATCH-CONFLICT-UNKNOWN",
+        "BATCH-CONFLICT-TIME"
+      ],
+      "clinical_approval": false
+    }
+  ]
+}

@@ -1,0 +1,1127 @@
+{
+  "version": "adult-ent-dev-1.0",
+  "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+  "seed_sha256": "76f727d417d73ba148630969865492075e1feadfdb81abd73238f283e1f31050",
+  "annotation_status": "draft_pending_human_review",
+  "purpose": "retrieval engineering development; not medical gold standard",
+  "known_limitations": [
+    "仅标注一个已知证据块，不是全部相关证据集合",
+    "同证据块问题共享group_id；不得随机拆成训练/保留集",
+    "边界案例仅供人工复核，不测量诊断、拒答或临床安全"
+  ],
+  "topic_counts": {
+    "rhinitis": 7,
+    "sinusitis": 7,
+    "otitis_media": 7,
+    "hearing_loss": 7,
+    "tinnitus": 7,
+    "throat": 7,
+    "boundary": 8
+  },
+  "cases": [
+    {
+      "case_id": "ENT-001",
+      "topic": "rhinitis",
+      "question": "我35岁，有过敏性鼻炎，也总感觉睡不好，资料是否提到鼻炎与睡眠问题的关联？",
+      "annotation_status": "draft_pending_human_review",
+      "split": "development",
+      "kind": "known_anchor",
+      "group_id": "be0f654d6100bdcb9550e12a",
+      "expected_evidence": [
+        {
+          "version_id": "aa15af9b-2ffa-4cf8-89b7-ccafd90db10e",
+          "document_id": "adult-rhinitis-eaaci-2017",
+          "chunk_id": "be0f654d6100bdcb9550e12a",
+          "section": "Introduction",
+          "locator": "body/sec[1]/p[1]",
+          "start": 0,
+          "end": 520,
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5452333/",
+          "preview": "This report was prepared by the European Academy of Allergy and Clinical Immunology (EAACI) Task Force on “Allergic Rhinitis (AR) comorbidities”. This was initiated, based on the rationale that AR is rarely found in isolation and needs to b"
+        }
+      ],
+      "limitation": "成人主题，含部分儿科背景段落；较旧，仅作基础背景，不能作为最新治疗唯一依据。",
+      "label_completeness": "known_anchor_only_not_exhaustive"
+    },
+    {
+      "case_id": "ENT-002",
+      "topic": "rhinitis",
+      "question": "成人鼻炎除了鼻部表现，还可能同时涉及哪些部位或疾病？",
+      "annotation_status": "draft_pending_human_review",
+      "split": "development",
+      "kind": "known_anchor",
+      "group_id": "745acc140de782f6fb2ead9a",
+      "expected_evidence": [
+        {
+          "version_id": "aa15af9b-2ffa-4cf8-89b7-ccafd90db10e",
+          "document_id": "adult-rhinitis-eaaci-2017",
+          "chunk_id": "745acc140de782f6fb2ead9a",
+          "section": "Multi-morbidities of allergic rhinitis",
+          "locator": "body/sec[3]/p[2]",
+          "start": 0,
+          "end": 350,
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5452333/",
+          "preview": "These can be subdivided into:Disorders which are part of the spectrum of allergic diseases, e.g. asthma, AD, food allergy, anaphylaxis;Disorders anatomically related to the nose: conjunctivitis, sinusitis, middle ear problems, throat and la"
+        }
+      ],
+      "limitation": "成人主题，含部分儿科背景段落；较旧，仅作基础背景，不能作为最新治疗唯一依据。",
+      "label_completeness": "known_anchor_only_not_exhaustive"
+    },
+    {
+      "case_id": "ENT-003",
+      "topic": "rhinitis",
+      "question": "医生说我的过敏问题属于多病共存，这个术语具体是什么意思？",
+      "annotation_status": "draft_pending_human_review",
+      "split": "development",
+      "kind": "known_anchor",
+      "group_id": "dc7f4ab1b7019829b4a6a9c8",
+      "expected_evidence": [
+        {
+          "version_id": "aa15af9b-2ffa-4cf8-89b7-ccafd90db10e",
+          "document_id": "adult-rhinitis-eaaci-2017",
+          "chunk_id": "dc7f4ab1b7019829b4a6a9c8",
+          "section": "Definition",
+          "locator": "body/sec[2]/p[1]",
+          "start": 0,
+          "end": 347,
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5452333/",
+          "preview": "Multimorbidity is the presence of one or more additional disorders (or diseases) co-occurring with a primary disease or disorder; or the effect of such additional disorders or diseases [4]. When the primary organ is not known, the term mult"
+        }
+      ],
+      "limitation": "成人主题，含部分儿科背景段落；较旧，仅作基础背景，不能作为最新治疗唯一依据。",
+      "label_completeness": "known_anchor_only_not_exhaustive"
+    },
+    {
+      "case_id": "ENT-004",
+      "topic": "rhinitis",
+      "question": "我是成年哮喘患者，也长期鼻塞，资料里描述了上下呼吸道疾病的什么联系？",
+      "annotation_status": "draft_pending_human_review",
+      "split": "development",
+      "kind": "known_anchor",
+      "group_id": "e9097b3973e9630d9a65ada7",
+      "expected_evidence": [
+        {
+          "version_id": "aa15af9b-2ffa-4cf8-89b7-ccafd90db10e",
+          "document_id": "adult-rhinitis-eaaci-2017",
+          "chunk_id": "e9097b3973e9630d9a65ada7",
+          "section": "Multi-morbidities of allergic rhinitis / Asthma / Extent of co-occurrence",
+          "locator": "body/sec[3]/sec[1]/sec[1]/p[3]",
+          "start": 0,
+          "end": 366,
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5452333/",
+          "preview": "In fact the majority of inflammatory asthma sufferers have some form of upper airway disease (ARIA 2001) [8], either AR, non-allergic rhinitis or rhinosinusitis, usually with nasal polyposis (EPOS 2012) [9]. The extent of inflammation is us"
+        }
+      ],
+      "limitation": "成人主题，含部分儿科背景段落；较旧，仅作基础背景，不能作为最新治疗唯一依据。",
+      "label_completeness": "known_anchor_only_not_exhaustive"
+    },
+    {
+      "case_id": "ENT-005",
+      "topic": "rhinitis",
+      "question": "鼻炎和哮喘一起出现，就能认定鼻炎导致了哮喘吗？",
+      "annotation_status": "draft_pending_human_review",
+      "split": "development",
+      "kind": "known_anchor",
+      "group_id": "3793fa0d7f04914446b8f271",
+      "expected_evidence": [
+        {
+          "version_id": "aa15af9b-2ffa-4cf8-89b7-ccafd90db10e",
+          "document_id": "adult-rhinitis-eaaci-2017",
+          "chunk_id": "3793fa0d7f04914446b8f271",
+          "section": "Multi-morbidities of allergic rhinitis / Asthma / Extent of co-occurrence",
+          "locator": "body/sec[3]/sec[1]/sec[1]/p[4]",
+          "start": 0,
+          "end": 213,
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5452333/",
+          "preview": "Several possible relations exist between AR and asthma: (a) AR may be statistically associated with asthma; (b) AR may exacerbate coexisting asthma; and (c) AR may have a causal role in the pathogenesis of asthma."
+        }
+      ],
+      "limitation": "成人主题，含部分儿科背景段落；较旧，仅作基础背景，不能作为最新治疗唯一依据。",
+      "label_completeness": "known_anchor_only_not_exhaustive"
+    },
+    {
+      "case_id": "ENT-006",
+      "topic": "rhinitis",
+      "question": "我先有鼻炎，后来又出现哮喘，成人观察资料中有没有类似先后顺序？",
+      "annotation_status": "draft_pending_human_review",
+      "split": "development",
+      "kind": "known_anchor",
+      "group_id": "17abd7d202f2e57e8c352a7a",
+      "expected_evidence": [
+        {
+          "version_id": "aa15af9b-2ffa-4cf8-89b7-ccafd90db10e",
+          "document_id": "adult-rhinitis-eaaci-2017",
+          "chunk_id": "17abd7d202f2e57e8c352a7a",
+          "section": "Multi-morbidities of allergic rhinitis / Asthma / Extent of co-occurrence",
+          "locator": "body/sec[3]/sec[1]/sec[1]/p[2]",
+          "start": 0,
+          "end": 252,
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5452333/",
+          "preview": "The association between asthma and rhinitis in adults has been recognized for some decades, since the pioneering study of Brydon [7], who showed that the majority of 1000 asthmatics also had rhinitis, which preceded their asthma in 45% of t"
+        }
+      ],
+      "limitation": "成人主题，含部分儿科背景段落；较旧，仅作基础背景，不能作为最新治疗唯一依据。",
+      "label_completeness": "known_anchor_only_not_exhaustive"
+    },
+    {
+      "case_id": "ENT-007",
+      "topic": "rhinitis",
+      "question": "成人过敏性鼻炎通常只是孤立的鼻子问题吗？",
+      "annotation_status": "draft_pending_human_review",
+      "split": "development",
+      "kind": "known_anchor",
+      "group_id": "ec0c183d791351a9698b7357",
+      "expected_evidence": [
+        {
+          "version_id": "aa15af9b-2ffa-4cf8-89b7-ccafd90db10e",
+          "document_id": "adult-rhinitis-eaaci-2017",
+          "chunk_id": "ec0c183d791351a9698b7357",
+          "section": "Multi-morbidities of allergic rhinitis",
+          "locator": "body/sec[3]/p[1]",
+          "start": 0,
+          "end": 250,
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5452333/",
+          "preview": "AR is an organ-specific manifestation of allergic disease. As such, it coexists with other organ-specific disorders that have a common allergic basis. It is therefore rarely found in isolation but frequently has associated multi-morbid diso"
+        }
+      ],
+      "limitation": "成人主题，含部分儿科背景段落；较旧，仅作基础背景，不能作为最新治疗唯一依据。",
+      "label_completeness": "known_anchor_only_not_exhaustive"
+    },
+    {
+      "case_id": "ENT-008",
+      "topic": "sinusitis",
+      "question": "医生说慢性鼻窦炎还要分有鼻息肉和没有鼻息肉，这种分类有资料依据吗？",
+      "annotation_status": "draft_pending_human_review",
+      "split": "development",
+      "kind": "known_anchor",
+      "group_id": "192dbbb60545314f4246473b",
+      "expected_evidence": [
+        {
+          "version_id": "e068d0bb-2d00-4a54-bd0c-ee791a53309c",
+          "document_id": "crs-apac-2024",
+          "chunk_id": "192dbbb60545314f4246473b",
+          "section": "1. Introduction",
+          "locator": "body/sec[1]/p[1]",
+          "start": 0,
+          "end": 363,
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11142757/",
+          "preview": "Chronic rhinosinusitis (CRS) is a common often debilitating condition, with a global prevalence of symptomatic disease ranging from 5.5% to 28% [1, 2]. Two broad CRS phenotypes exist, characterized on the basis of the presence or absence of"
+        }
+      ],
+      "limitation": "仅针对伴鼻息肉的慢性鼻窦炎；需核对成人适用性、地域与利益冲突。",
+      "label_completeness": "known_anchor_only_not_exhaustive"
+    },
+    {
+      "case_id": "ENT-009",
+      "topic": "sinusitis",
+      "question": "我鼻塞、嗅觉减退已经持续四个月，资料怎样区分慢性和短期鼻窦炎？",
+      "annotation_status": "draft_pending_human_review",
+      "split": "development",
+      "kind": "known_anchor",
+      "group_id": "8073961684788d1508e1d026",
+      "expected_evidence": [
+        {
+          "version_id": "e068d0bb-2d00-4a54-bd0c-ee791a53309c",
+          "document_id": "crs-apac-2024",
+          "chunk_id": "8073961684788d1508e1d026",
+          "section": "3. Disease definitions and diagnostic approach",
+          "locator": "body/sec[3]/p[2]",
+          "start": 0,
+          "end": 1712,
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11142757/",
+          "preview": "The cardinal symptoms of CRS are similar to acute disease, that is, nasal obstruction, congestion or discharge, facial pain/pressure, and olfactory disturbance/loss of smell [1, 2, 11, 12]. Overt facial pain with CRSwNP is uncommon in the A"
+        }
+      ],
+      "limitation": "仅针对伴鼻息肉的慢性鼻窦炎；需核对成人适用性、地域与利益冲突。",
+      "label_completeness": "known_anchor_only_not_exhaustive"
+    },
+    {
+      "case_id": "ENT-010",
+      "topic": "sinusitis",
+      "question": "我只有鼻塞和嗅觉下降、面部不痛，是否也能检索到慢性鼻窦炎相关症状资料？",
+      "annotation_status": "draft_pending_human_review",
+      "split": "development",
+      "kind": "known_anchor",
+      "group_id": "8073961684788d1508e1d026",
+      "expected_evidence": [
+        {
+          "version_id": "e068d0bb-2d00-4a54-bd0c-ee791a53309c",
+          "document_id": "crs-apac-2024",
+          "chunk_id": "8073961684788d1508e1d026",
+          "section": "3. Disease definitions and diagnostic approach",
+          "locator": "body/sec[3]/p[2]",
+          "start": 0,
+          "end": 1712,
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11142757/",
+          "preview": "The cardinal symptoms of CRS are similar to acute disease, that is, nasal obstruction, congestion or discharge, facial pain/pressure, and olfactory disturbance/loss of smell [1, 2, 11, 12]. Overt facial pain with CRSwNP is uncommon in the A"
+        }
+      ],
+      "limitation": "仅针对伴鼻息肉的慢性鼻窦炎；需核对成人适用性、地域与利益冲突。",
+      "label_completeness": "known_anchor_only_not_exhaustive"
+    },
+    {
+      "case_id": "ENT-011",
+      "topic": "sinusitis",
+      "question": "成人怀疑慢性鼻窦炎时，为什么资料还要求鼻内镜或CT依据？",
+      "annotation_status": "draft_pending_human_review",
+      "split": "development",
+      "kind": "known_anchor",
+      "group_id": "f5c1a3442f34c776ea442167",
+      "expected_evidence": [
+        {
+          "version_id": "e068d0bb-2d00-4a54-bd0c-ee791a53309c",
+          "document_id": "crs-apac-2024",
+          "chunk_id": "f5c1a3442f34c776ea442167",
+          "section": "3. Disease definitions and diagnostic approach",
+          "locator": "body/sec[3]/p[1]",
+          "start": 0,
+          "end": 1003,
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11142757/",
+          "preview": "There are clear diagnostic criteria for rhinosinusitis, CRS, and CRSwNP based upon clinical symptoms and evidence of sinonasal mucosal disease. Diagnosis of acute rhinosinusitis requires the presence of ≥2 symptoms, one of which should be e"
+        }
+      ],
+      "limitation": "仅针对伴鼻息肉的慢性鼻窦炎；需核对成人适用性、地域与利益冲突。",
+      "label_completeness": "known_anchor_only_not_exhaustive"
+    },
+    {
+      "case_id": "ENT-012",
+      "topic": "sinusitis",
+      "question": "医生记录里写的鼻窦炎表型和内型分别指什么？",
+      "annotation_status": "draft_pending_human_review",
+      "split": "development",
+      "kind": "known_anchor",
+      "group_id": "53a5c5927f530c1f90cf2788",
+      "expected_evidence": [
+        {
+          "version_id": "e068d0bb-2d00-4a54-bd0c-ee791a53309c",
+          "document_id": "crs-apac-2024",
+          "chunk_id": "53a5c5927f530c1f90cf2788",
+          "section": "4. Etiology and pathogenesis",
+          "locator": "body/sec[4]/p[1]",
+          "start": 0,
+          "end": 1800,
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11142757/",
+          "preview": "Pathophysiologic mechanisms in CRSwNP involve a complex interaction of host and environmental factors, where specific individual patient profiles are a product of both endotype and phenotype. CRS and specific types such as CRSwNP are now ch"
+        }
+      ],
+      "limitation": "仅针对伴鼻息肉的慢性鼻窦炎；需核对成人适用性、地域与利益冲突。",
+      "label_completeness": "known_anchor_only_not_exhaustive"
+    },
+    {
+      "case_id": "ENT-013",
+      "topic": "sinusitis",
+      "question": "亚洲和西方患者的鼻息肉炎症类型是否完全一样？",
+      "annotation_status": "draft_pending_human_review",
+      "split": "development",
+      "kind": "known_anchor",
+      "group_id": "4d876ba57c3e7e17bceecbb9",
+      "expected_evidence": [
+        {
+          "version_id": "e068d0bb-2d00-4a54-bd0c-ee791a53309c",
+          "document_id": "crs-apac-2024",
+          "chunk_id": "4d876ba57c3e7e17bceecbb9",
+          "section": "5. CRS classification",
+          "locator": "body/sec[5]/p[2]",
+          "start": 0,
+          "end": 638,
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11142757/",
+          "preview": "To some extent, the focus on CRSwNP in EPOS 2020 is principally in the context of disease driven by type 2 inflammation (reflecting the greater importance in western patient populations). As indicated earlier, while the majority of CRSwNP p"
+        }
+      ],
+      "limitation": "仅针对伴鼻息肉的慢性鼻窦炎；需核对成人适用性、地域与利益冲突。",
+      "label_completeness": "known_anchor_only_not_exhaustive"
+    },
+    {
+      "case_id": "ENT-014",
+      "topic": "sinusitis",
+      "question": "我的鼻窦炎资料上同时写了打喷嚏、鼻痒，这些属于鼻窦炎的核心诊断症状吗？",
+      "annotation_status": "draft_pending_human_review",
+      "split": "development",
+      "kind": "known_anchor",
+      "group_id": "8073961684788d1508e1d026",
+      "expected_evidence": [
+        {
+          "version_id": "e068d0bb-2d00-4a54-bd0c-ee791a53309c",
+          "document_id": "crs-apac-2024",
+          "chunk_id": "8073961684788d1508e1d026",
+          "section": "3. Disease definitions and diagnostic approach",
+          "locator": "body/sec[3]/p[2]",
+          "start": 0,
+          "end": 1712,
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11142757/",
+          "preview": "The cardinal symptoms of CRS are similar to acute disease, that is, nasal obstruction, congestion or discharge, facial pain/pressure, and olfactory disturbance/loss of smell [1, 2, 11, 12]. Overt facial pain with CRSwNP is uncommon in the A"
+        }
+      ],
+      "limitation": "仅针对伴鼻息肉的慢性鼻窦炎；需核对成人适用性、地域与利益冲突。",
+      "label_completeness": "known_anchor_only_not_exhaustive"
+    },
+    {
+      "case_id": "ENT-015",
+      "topic": "otitis_media",
+      "question": "我是成人，急性中耳炎时同时耳鸣和眩晕，已有研究描述过这些伴随表现吗？",
+      "annotation_status": "draft_pending_human_review",
+      "split": "development",
+      "kind": "known_anchor",
+      "group_id": "aa337a6d5da92c5e9d6cdd25",
+      "expected_evidence": [
+        {
+          "version_id": "2af2c949-d7f3-4591-9877-9308aefd7f49",
+          "document_id": "adult-aom-inner-ear-2023",
+          "chunk_id": "aa337a6d5da92c5e9d6cdd25",
+          "section": "3. Results / 3.1. Demographics and General Findings",
+          "locator": "body/sec[3]/sec[1]/p[2]",
+          "start": 0,
+          "end": 778,
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10743793/",
+          "preview": "The most common symptoms stated by the patients were subjective hearing loss (112/112, 100%), otalgia (111/112, 99%), otorrhea (61/112, 54%), tinnitus (57/112, 51%) and vertigo (34/112). The mean and range of PTA value sorted by the respect"
+        }
+      ],
+      "limitation": "112例成人，限特定并发症；作为补充研究，不能升级为指南。",
+      "label_completeness": "known_anchor_only_not_exhaustive"
+    },
+    {
+      "case_id": "ENT-016",
+      "topic": "otitis_media",
+      "question": "成人急性中耳炎内耳受累这篇研究如何界定研究对象？",
+      "annotation_status": "draft_pending_human_review",
+      "split": "development",
+      "kind": "known_anchor",
+      "group_id": "81beb30770e863f1e56467d6",
+      "expected_evidence": [
+        {
+          "version_id": "2af2c949-d7f3-4591-9877-9308aefd7f49",
+          "document_id": "adult-aom-inner-ear-2023",
+          "chunk_id": "81beb30770e863f1e56467d6",
+          "section": "2. Materials and Methods",
+          "locator": "body/sec[2]/p[1]",
+          "start": 0,
+          "end": 504,
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10743793/",
+          "preview": "A retrospective, single-center data analysis at the University Hospital of Zurich was performed, including all adult patients between 2000 and 2020 that were diagnosed with AOM with IED. An IED was defined as bone conduction threshold of >1"
+        }
+      ],
+      "limitation": "112例成人，限特定并发症；作为补充研究，不能升级为指南。",
+      "label_completeness": "known_anchor_only_not_exhaustive"
+    },
+    {
+      "case_id": "ENT-017",
+      "topic": "otitis_media",
+      "question": "中耳炎研究用什么听力测量来比较治疗前后变化？",
+      "annotation_status": "draft_pending_human_review",
+      "split": "development",
+      "kind": "known_anchor",
+      "group_id": "1a46d59961790ad2f68f0951",
+      "expected_evidence": [
+        {
+          "version_id": "2af2c949-d7f3-4591-9877-9308aefd7f49",
+          "document_id": "adult-aom-inner-ear-2023",
+          "chunk_id": "1a46d59961790ad2f68f0951",
+          "section": "2. Materials and Methods",
+          "locator": "body/sec[2]/p[2]",
+          "start": 0,
+          "end": 519,
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10743793/",
+          "preview": "All enrolled patients were tested with pre- and post-treatment pure tone audiometry. A pure tone audiogram was obtained with 5 dB steps at frequencies of 0.125, 0.25, 0.5, 1, 2, 4 and 8 kHz for air conduction and 0.25, 0.5, 1, 2 and 4 kHz f"
+        }
+      ],
+      "limitation": "112例成人，限特定并发症；作为补充研究，不能升级为指南。",
+      "label_completeness": "known_anchor_only_not_exhaustive"
+    },
+    {
+      "case_id": "ENT-018",
+      "topic": "otitis_media",
+      "question": "成人中耳炎内耳受累研究是不是随机分组试验？",
+      "annotation_status": "draft_pending_human_review",
+      "split": "development",
+      "kind": "known_anchor",
+      "group_id": "81beb30770e863f1e56467d6",
+      "expected_evidence": [
+        {
+          "version_id": "2af2c949-d7f3-4591-9877-9308aefd7f49",
+          "document_id": "adult-aom-inner-ear-2023",
+          "chunk_id": "81beb30770e863f1e56467d6",
+          "section": "2. Materials and Methods",
+          "locator": "body/sec[2]/p[1]",
+          "start": 0,
+          "end": 504,
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10743793/",
+          "preview": "A retrospective, single-center data analysis at the University Hospital of Zurich was performed, including all adult patients between 2000 and 2020 that were diagnosed with AOM with IED. An IED was defined as bone conduction threshold of >1"
+        }
+      ],
+      "limitation": "112例成人，限特定并发症；作为补充研究，不能升级为指南。",
+      "label_completeness": "known_anchor_only_not_exhaustive"
+    },
+    {
+      "case_id": "ENT-019",
+      "topic": "otitis_media",
+      "question": "我慢性中耳炎复查时听力数字与自己的生活感受不一致，资料如何看待这种差异？",
+      "annotation_status": "draft_pending_human_review",
+      "split": "development",
+      "kind": "known_anchor",
+      "group_id": "7a4ded78792f8ca3e6e44fb6",
+      "expected_evidence": [
+        {
+          "version_id": "4c3cc2a2-3002-4fc5-bcb2-dc5cb68b2375",
+          "document_id": "adult-com-qol-2023",
+          "chunk_id": "7a4ded78792f8ca3e6e44fb6",
+          "section": "1. Introduction / 1.2. Health-related quality of life and aim of the study",
+          "locator": "body/sec[1]/sec[2]/p[1]",
+          "start": 0,
+          "end": 1286,
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10654635/",
+          "preview": "Evidence about the effectiveness and safety of surgical treatment in COM has always primarily been focused on changes in objective measurements, such as complete eradication of disease, audiometric outcomes, complications and recurrence rat"
+        }
+      ],
+      "limitation": "纳入成人≥18岁，重点为术后生活质量；不是完整中耳炎诊疗指南。",
+      "label_completeness": "known_anchor_only_not_exhaustive"
+    },
+    {
+      "case_id": "ENT-020",
+      "topic": "otitis_media",
+      "question": "成人慢性中耳炎研究用了哪些生活质量问卷？",
+      "annotation_status": "draft_pending_human_review",
+      "split": "development",
+      "kind": "known_anchor",
+      "group_id": "a0874e358226fcd0050d4741",
+      "expected_evidence": [
+        {
+          "version_id": "4c3cc2a2-3002-4fc5-bcb2-dc5cb68b2375",
+          "document_id": "adult-com-qol-2023",
+          "chunk_id": "a0874e358226fcd0050d4741",
+          "section": "1. Introduction / 1.2. Health-related quality of life and aim of the study",
+          "locator": "body/sec[1]/sec[2]/p[2]",
+          "start": 0,
+          "end": 1300,
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10654635/",
+          "preview": "In recent years, several disease-specific questionnaires to measure HRQoL in patients with COM have been developed, validated, and translated. These include the Chronic Otitis Media Questionnaire (COMQ-12) (21), Chronic Ear Survey (CES) (3)"
+        }
+      ],
+      "limitation": "纳入成人≥18岁，重点为术后生活质量；不是完整中耳炎诊疗指南。",
+      "label_completeness": "known_anchor_only_not_exhaustive"
+    },
+    {
+      "case_id": "ENT-021",
+      "topic": "otitis_media",
+      "question": "这份慢性中耳炎生活质量系统综述能直接用于儿童或未手术成人吗？",
+      "annotation_status": "draft_pending_human_review",
+      "split": "development",
+      "kind": "known_anchor",
+      "group_id": "bc16c1013b82dc0186502a7c",
+      "expected_evidence": [
+        {
+          "version_id": "4c3cc2a2-3002-4fc5-bcb2-dc5cb68b2375",
+          "document_id": "adult-com-qol-2023",
+          "chunk_id": "bc16c1013b82dc0186502a7c",
+          "section": "2. Methods / 2.1. Eligibility criteria",
+          "locator": "body/sec[2]/sec[1]/p[1]",
+          "start": 0,
+          "end": 797,
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10654635/",
+          "preview": "The elaborated eligibility criteria can be found in Supplementary Table 1. All original studies with a prospective design written in English or Dutch were included. Conference abstracts, letters, reviews, editorials, and translation and val"
+        }
+      ],
+      "limitation": "纳入成人≥18岁，重点为术后生活质量；不是完整中耳炎诊疗指南。",
+      "label_completeness": "known_anchor_only_not_exhaustive"
+    },
+    {
+      "case_id": "ENT-022",
+      "topic": "hearing_loss",
+      "question": "我68岁，听力这些年慢慢下降，资料怎样描述年龄相关听力损失？",
+      "annotation_status": "draft_pending_human_review",
+      "split": "development",
+      "kind": "known_anchor",
+      "group_id": "23016a42e1f434dbe7b202f5",
+      "expected_evidence": [
+        {
+          "version_id": "6c17226f-5c23-409e-b71d-2c7e29c607d1",
+          "document_id": "nidcd-presbycusis",
+          "chunk_id": "23016a42e1f434dbe7b202f5",
+          "section": "What is age-related hearing loss?",
+          "locator": "main/block[1]",
+          "start": 0,
+          "end": 467,
+          "source_url": "https://www.nidcd.nih.gov/health/age-related-hearing-loss",
+          "preview": "Age-related hearing loss (also called presbycusis, pronounced prez-buh-KYOO-sis) is hearing loss that occurs gradually for many of us as we grow older. It is one of the most common conditions affecting adults as we age. Approximately 15% of"
+        }
+      ],
+      "limitation": "面向老年相关听力损失；不能覆盖所有听力下降原因。",
+      "label_completeness": "known_anchor_only_not_exhaustive"
+    },
+    {
+      "case_id": "ENT-023",
+      "topic": "hearing_loss",
+      "question": "老年性听力变化通常涉及一侧还是两侧？",
+      "annotation_status": "draft_pending_human_review",
+      "split": "development",
+      "kind": "known_anchor",
+      "group_id": "98f239a7d95e330b43d4a2f6",
+      "expected_evidence": [
+        {
+          "version_id": "6c17226f-5c23-409e-b71d-2c7e29c607d1",
+          "document_id": "nidcd-presbycusis",
+          "chunk_id": "98f239a7d95e330b43d4a2f6",
+          "section": "What is age-related hearing loss?",
+          "locator": "main/block[3]",
+          "start": 0,
+          "end": 149,
+          "source_url": "https://www.nidcd.nih.gov/health/age-related-hearing-loss",
+          "preview": "Hearing loss typically occurs in both ears as we age. Because the loss is gradual, you may not realize that you've lost some of your ability to hear."
+        }
+      ],
+      "limitation": "面向老年相关听力损失；不能覆盖所有听力下降原因。",
+      "label_completeness": "known_anchor_only_not_exhaustive"
+    },
+    {
+      "case_id": "ENT-024",
+      "topic": "hearing_loss",
+      "question": "我年纪大后听不清门铃和医生的话，资料提到哪些日常影响？",
+      "annotation_status": "draft_pending_human_review",
+      "split": "development",
+      "kind": "known_anchor",
+      "group_id": "438ca1da81ae83daf0137a57",
+      "expected_evidence": [
+        {
+          "version_id": "6c17226f-5c23-409e-b71d-2c7e29c607d1",
+          "document_id": "nidcd-presbycusis",
+          "chunk_id": "438ca1da81ae83daf0137a57",
+          "section": "What is age-related hearing loss?",
+          "locator": "main/block[2]",
+          "start": 0,
+          "end": 261,
+          "source_url": "https://www.nidcd.nih.gov/health/age-related-hearing-loss",
+          "preview": "Having trouble hearing can make it hard to understand and follow a doctor's advice, respond to warnings, and hear phones, doorbells, and smoke alarms. Hearing loss can also make it hard to enjoy talking with family and friends, leading to f"
+        }
+      ],
+      "limitation": "面向老年相关听力损失；不能覆盖所有听力下降原因。",
+      "label_completeness": "known_anchor_only_not_exhaustive"
+    },
+    {
+      "case_id": "ENT-025",
+      "topic": "hearing_loss",
+      "question": "我退休前长期处在嘈杂环境，年龄相关听力下降是否只有衰老这一个因素？",
+      "annotation_status": "draft_pending_human_review",
+      "split": "development",
+      "kind": "known_anchor",
+      "group_id": "1c8edca00f2a9ca8c8e254df",
+      "expected_evidence": [
+        {
+          "version_id": "6c17226f-5c23-409e-b71d-2c7e29c607d1",
+          "document_id": "nidcd-presbycusis",
+          "chunk_id": "1c8edca00f2a9ca8c8e254df",
+          "section": "Why do we lose our hearing as we get older?",
+          "locator": "main/block[4]",
+          "start": 0,
+          "end": 444,
+          "source_url": "https://www.nidcd.nih.gov/health/age-related-hearing-loss",
+          "preview": "Many things affect our hearing as we age. For example, changes in the inner ear that can affect hearing are common. Age-related changes in the middle ear and complex changes along the nerve pathways from the ear to the brain can also affect"
+        }
+      ],
+      "limitation": "面向老年相关听力损失；不能覆盖所有听力下降原因。",
+      "label_completeness": "known_anchor_only_not_exhaustive"
+    },
+    {
+      "case_id": "ENT-026",
+      "topic": "hearing_loss",
+      "question": "我有糖尿病和听力下降，科普资料是否描述过两者的关联？",
+      "annotation_status": "draft_pending_human_review",
+      "split": "development",
+      "kind": "known_anchor",
+      "group_id": "618d317ee5c70c61c9ef73c2",
+      "expected_evidence": [
+        {
+          "version_id": "6c17226f-5c23-409e-b71d-2c7e29c607d1",
+          "document_id": "nidcd-presbycusis",
+          "chunk_id": "618d317ee5c70c61c9ef73c2",
+          "section": "Why do we lose our hearing as we get older?",
+          "locator": "main/block[5]",
+          "start": 0,
+          "end": 360,
+          "source_url": "https://www.nidcd.nih.gov/health/age-related-hearing-loss",
+          "preview": "Conditions that are more common in older people, such as high blood pressure and diabetes, are associated with hearing loss. In addition, medications that are toxic to the sensory cells in your ears (some chemotherapy drugs, for example) ca"
+        }
+      ],
+      "limitation": "面向老年相关听力损失；不能覆盖所有听力下降原因。",
+      "label_completeness": "known_anchor_only_not_exhaustive"
+    },
+    {
+      "case_id": "ENT-027",
+      "topic": "hearing_loss",
+      "question": "哪些生活中的高音量环境在听力保护资料中被列为噪声来源？",
+      "annotation_status": "draft_pending_human_review",
+      "split": "development",
+      "kind": "known_anchor",
+      "group_id": "261c131f8ca1dc401361909a",
+      "expected_evidence": [
+        {
+          "version_id": "6c17226f-5c23-409e-b71d-2c7e29c607d1",
+          "document_id": "nidcd-presbycusis",
+          "chunk_id": "261c131f8ca1dc401361909a",
+          "section": "Can I prevent age-related hearing loss?",
+          "locator": "main/block[6]",
+          "start": 0,
+          "end": 489,
+          "source_url": "https://www.nidcd.nih.gov/health/age-related-hearing-loss",
+          "preview": "Scientists don't yet know how to prevent age-related hearing loss, but you can protect yourself from noise-induced hearing loss. Potential sources of damaging noises include loud music, headphones/earbuds used at high volume, construction e"
+        }
+      ],
+      "limitation": "面向老年相关听力损失；不能覆盖所有听力下降原因。",
+      "label_completeness": "known_anchor_only_not_exhaustive"
+    },
+    {
+      "case_id": "ENT-028",
+      "topic": "hearing_loss",
+      "question": "我在聚会时常听不清别人讲话，这是不是听力自查资料关注的问题？",
+      "annotation_status": "draft_pending_human_review",
+      "split": "development",
+      "kind": "known_anchor",
+      "group_id": "41b72564df26b2524809d4c4",
+      "expected_evidence": [
+        {
+          "version_id": "6c17226f-5c23-409e-b71d-2c7e29c607d1",
+          "document_id": "nidcd-presbycusis",
+          "chunk_id": "41b72564df26b2524809d4c4",
+          "section": "How can I tell if I have a hearing problem?",
+          "locator": "main/block[9]",
+          "start": 0,
+          "end": 67,
+          "source_url": "https://www.nidcd.nih.gov/health/age-related-hearing-loss",
+          "preview": "Does a hearing problem cause you difficulty when attending a party?"
+        }
+      ],
+      "limitation": "面向老年相关听力损失；不能覆盖所有听力下降原因。",
+      "label_completeness": "known_anchor_only_not_exhaustive"
+    },
+    {
+      "case_id": "ENT-029",
+      "topic": "tinnitus",
+      "question": "我在安静房间听见嗡声，但家人听不到，资料如何定义耳鸣？",
+      "annotation_status": "draft_pending_human_review",
+      "split": "development",
+      "kind": "known_anchor",
+      "group_id": "130a4717c00194ae495cbc28",
+      "expected_evidence": [
+        {
+          "version_id": "9c16e968-6f17-438f-8ec9-8682ab0882b6",
+          "document_id": "nidcd-tinnitus",
+          "chunk_id": "130a4717c00194ae495cbc28",
+          "section": "What is tinnitus?",
+          "locator": "main/block[1]",
+          "start": 0,
+          "end": 145,
+          "source_url": "https://www.nidcd.nih.gov/health/tinnitus",
+          "preview": "Tinnitus (pronounced tih-NITE-us or TIN-uh-tus) is the perception of sound that does not have an external source, so other people cannot hear it."
+        }
+      ],
+      "limitation": "基础科普，不等同临床指南；仅提取页面正文，不保存图片。",
+      "label_completeness": "known_anchor_only_not_exhaustive"
+    },
+    {
+      "case_id": "ENT-030",
+      "topic": "tinnitus",
+      "question": "我耳鸣后睡不好又难以集中注意力，资料描述了哪些生活影响？",
+      "annotation_status": "draft_pending_human_review",
+      "split": "development",
+      "kind": "known_anchor",
+      "group_id": "ceec1220d73085b2d8292994",
+      "expected_evidence": [
+        {
+          "version_id": "9c16e968-6f17-438f-8ec9-8682ab0882b6",
+          "document_id": "nidcd-tinnitus",
+          "chunk_id": "ceec1220d73085b2d8292994",
+          "section": "What is tinnitus?",
+          "locator": "main/block[3]",
+          "start": 0,
+          "end": 383,
+          "source_url": "https://www.nidcd.nih.gov/health/tinnitus",
+          "preview": "The causes of tinnitus are unclear, but most people who have it have some degree of hearing loss. Tinnitus is only rarely associated with a serious medical problem and is usually not severe enough to interfere with daily life. However, some"
+        }
+      ],
+      "limitation": "基础科普，不等同临床指南；仅提取页面正文，不保存图片。",
+      "label_completeness": "known_anchor_only_not_exhaustive"
+    },
+    {
+      "case_id": "ENT-031",
+      "topic": "tinnitus",
+      "question": "我的耳鸣有时像口哨、有时像电流声，这些声音形式在资料中有描述吗？",
+      "annotation_status": "draft_pending_human_review",
+      "split": "development",
+      "kind": "known_anchor",
+      "group_id": "7bb37be516fd5c62989dad6b",
+      "expected_evidence": [
+        {
+          "version_id": "9c16e968-6f17-438f-8ec9-8682ab0882b6",
+          "document_id": "nidcd-tinnitus",
+          "chunk_id": "7bb37be516fd5c62989dad6b",
+          "section": "What are the symptoms of tinnitus?",
+          "locator": "main/block[5]",
+          "start": 0,
+          "end": 575,
+          "source_url": "https://www.nidcd.nih.gov/health/tinnitus",
+          "preview": "The symptoms of tinnitus can vary significantly from person to person. You may hear phantom sounds in one ear, in both ears, and in your head. The phantom sound may ring, buzz, roar, whistle, hum, click, hiss, or squeal. The sound may be so"
+        }
+      ],
+      "limitation": "基础科普，不等同临床指南；仅提取页面正文，不保存图片。",
+      "label_completeness": "known_anchor_only_not_exhaustive"
+    },
+    {
+      "case_id": "ENT-032",
+      "topic": "tinnitus",
+      "question": "我听见的声音好像跟心跳同步，资料如何区分这种耳鸣与通常耳鸣？",
+      "annotation_status": "draft_pending_human_review",
+      "split": "development",
+      "kind": "known_anchor",
+      "group_id": "e6228c005748eba7217465a8",
+      "expected_evidence": [
+        {
+          "version_id": "9c16e968-6f17-438f-8ec9-8682ab0882b6",
+          "document_id": "nidcd-tinnitus",
+          "chunk_id": "e6228c005748eba7217465a8",
+          "section": "What are the symptoms of tinnitus?",
+          "locator": "main/block[6]",
+          "start": 0,
+          "end": 362,
+          "source_url": "https://www.nidcd.nih.gov/health/tinnitus",
+          "preview": "Most cases of tinnitus are subjective, meaning that only you can hear the sounds. In rare cases, the sound pulsates rhythmically, often in time to your heartbeat. In these cases, a doctor may be able to hear the sounds with a stethoscope an"
+        }
+      ],
+      "limitation": "基础科普，不等同临床指南；仅提取页面正文，不保存图片。",
+      "label_completeness": "known_anchor_only_not_exhaustive"
+    },
+    {
+      "case_id": "ENT-033",
+      "topic": "tinnitus",
+      "question": "我参加很吵的演唱会后出现耳鸣，现有资料是否提到噪声暴露关联？",
+      "annotation_status": "draft_pending_human_review",
+      "split": "development",
+      "kind": "known_anchor",
+      "group_id": "454875ee98fced975d4b1caa",
+      "expected_evidence": [
+        {
+          "version_id": "9c16e968-6f17-438f-8ec9-8682ab0882b6",
+          "document_id": "nidcd-tinnitus",
+          "chunk_id": "454875ee98fced975d4b1caa",
+          "section": "What causes tinnitus?",
+          "locator": "main/block[8]",
+          "start": 0,
+          "end": 326,
+          "source_url": "https://www.nidcd.nih.gov/health/tinnitus",
+          "preview": "Noise exposure. Many people experience tinnitus after being exposed to loud noise in a workplace setting or at a sporting event or concert. Tinnitus is also the most common service-related disability among veterans because of loud noise the"
+        }
+      ],
+      "limitation": "基础科普，不等同临床指南；仅提取页面正文，不保存图片。",
+      "label_completeness": "known_anchor_only_not_exhaustive"
+    },
+    {
+      "case_id": "ENT-034",
+      "topic": "tinnitus",
+      "question": "有听力下降就一定会耳鸣吗？",
+      "annotation_status": "draft_pending_human_review",
+      "split": "development",
+      "kind": "known_anchor",
+      "group_id": "ac82efccc47cb4abdbba6d03",
+      "expected_evidence": [
+        {
+          "version_id": "9c16e968-6f17-438f-8ec9-8682ab0882b6",
+          "document_id": "nidcd-tinnitus",
+          "chunk_id": "ac82efccc47cb4abdbba6d03",
+          "section": "What causes tinnitus?",
+          "locator": "main/block[9]",
+          "start": 0,
+          "end": 201,
+          "source_url": "https://www.nidcd.nih.gov/health/tinnitus",
+          "preview": "Hearing loss. Hearing loss, which can be caused by factors such as aging or exposure to loud noise, is strongly associated with tinnitus. Some people with hearing loss, however, never develop tinnitus."
+        }
+      ],
+      "limitation": "基础科普，不等同临床指南；仅提取页面正文，不保存图片。",
+      "label_completeness": "known_anchor_only_not_exhaustive"
+    },
+    {
+      "case_id": "ENT-035",
+      "topic": "tinnitus",
+      "question": "我有耳垢堵塞，资料是否把耳道堵塞和耳鸣联系起来？",
+      "annotation_status": "draft_pending_human_review",
+      "split": "development",
+      "kind": "known_anchor",
+      "group_id": "d3b1524e2af775d7bcf4bbcd",
+      "expected_evidence": [
+        {
+          "version_id": "9c16e968-6f17-438f-8ec9-8682ab0882b6",
+          "document_id": "nidcd-tinnitus",
+          "chunk_id": "d3b1524e2af775d7bcf4bbcd",
+          "section": "What causes tinnitus?",
+          "locator": "main/block[11]",
+          "start": 0,
+          "end": 119,
+          "source_url": "https://www.nidcd.nih.gov/health/tinnitus",
+          "preview": "Earwax or an ear infection. Blockage of the ear canal by earwax or by fluid from an ear infection can trigger tinnitus."
+        }
+      ],
+      "limitation": "基础科普，不等同临床指南；仅提取页面正文，不保存图片。",
+      "label_completeness": "known_anchor_only_not_exhaustive"
+    },
+    {
+      "case_id": "ENT-036",
+      "topic": "throat",
+      "question": "我说话声音粗哑、音量也变小，资料如何描述声音嘶哑？",
+      "annotation_status": "draft_pending_human_review",
+      "split": "development",
+      "kind": "known_anchor",
+      "group_id": "11431f15a7d129a44f3dedfb",
+      "expected_evidence": [
+        {
+          "version_id": "11605fc0-df77-4d90-8883-3a19979c3c80",
+          "document_id": "nidcd-hoarseness",
+          "chunk_id": "11431f15a7d129a44f3dedfb",
+          "section": "What is hoarseness?",
+          "locator": "main/block[2]",
+          "start": 0,
+          "end": 225,
+          "source_url": "https://www.nidcd.nih.gov/health/hoarseness",
+          "preview": "If you are hoarse, your voice will sound breathy, raspy, or strained, or will be softer in volume or lower in pitch. Your throat might feel scratchy. Hoarseness is often a symptom of problems in the vocal folds of the larynx."
+        }
+      ],
+      "limitation": "基础科普；儿童相关段落不进入成人开发索引。",
+      "label_completeness": "known_anchor_only_not_exhaustive"
+    },
+    {
+      "case_id": "ENT-037",
+      "topic": "throat",
+      "question": "医生提到声带振动，声音到底由哪里产生？",
+      "annotation_status": "draft_pending_human_review",
+      "split": "development",
+      "kind": "known_anchor",
+      "group_id": "e0df42209aff4e381b2cb825",
+      "expected_evidence": [
+        {
+          "version_id": "11605fc0-df77-4d90-8883-3a19979c3c80",
+          "document_id": "nidcd-hoarseness",
+          "chunk_id": "e0df42209aff4e381b2cb825",
+          "section": "How does our voice work?",
+          "locator": "main/block[3]",
+          "start": 0,
+          "end": 298,
+          "source_url": "https://www.nidcd.nih.gov/health/hoarseness",
+          "preview": "The sound of our voice is produced by vibration of the vocal folds, which are two bands of smooth muscle tissue that are positioned opposite each other in the larynx. The larynx is located between the base of the tongue and the top of the t"
+        }
+      ],
+      "limitation": "基础科普；儿童相关段落不进入成人开发索引。",
+      "label_completeness": "known_anchor_only_not_exhaustive"
+    },
+    {
+      "case_id": "ENT-038",
+      "topic": "throat",
+      "question": "我的声音有时高有时低，资料怎样解释声带张力与音高的关系？",
+      "annotation_status": "draft_pending_human_review",
+      "split": "development",
+      "kind": "known_anchor",
+      "group_id": "855545214f4be7613e014f31",
+      "expected_evidence": [
+        {
+          "version_id": "11605fc0-df77-4d90-8883-3a19979c3c80",
+          "document_id": "nidcd-hoarseness",
+          "chunk_id": "855545214f4be7613e014f31",
+          "section": "How does our voice work?",
+          "locator": "main/block[5]",
+          "start": 0,
+          "end": 192,
+          "source_url": "https://www.nidcd.nih.gov/health/hoarseness",
+          "preview": "Individual variations in our voices are the result of how much tension we put on our vocal folds. For example, relaxing the vocal folds makes a voice deeper; tensing them makes a voice higher."
+        }
+      ],
+      "limitation": "基础科普；儿童相关段落不进入成人开发索引。",
+      "label_completeness": "known_anchor_only_not_exhaustive"
+    },
+    {
+      "case_id": "ENT-039",
+      "topic": "throat",
+      "question": "我是教师，连续大声讲课后声音沙哑，资料有没有描述用声过度？",
+      "annotation_status": "draft_pending_human_review",
+      "split": "development",
+      "kind": "known_anchor",
+      "group_id": "b3a7516e456b04ea8b67393e",
+      "expected_evidence": [
+        {
+          "version_id": "11605fc0-df77-4d90-8883-3a19979c3c80",
+          "document_id": "nidcd-hoarseness",
+          "chunk_id": "b3a7516e456b04ea8b67393e",
+          "section": "What are some of the disorders that cause hoarseness and how are they treated?",
+          "locator": "main/block[10]",
+          "start": 0,
+          "end": 786,
+          "source_url": "https://www.nidcd.nih.gov/health/hoarseness",
+          "preview": "Misusing or overusing your voice. Cheering at sporting events, speaking loudly in noisy situations, talking for too long without resting your voice, singing loudly, or speaking with a voice that's too high or too low can cause temporary hoa"
+        }
+      ],
+      "limitation": "基础科普；儿童相关段落不进入成人开发索引。",
+      "label_completeness": "known_anchor_only_not_exhaustive"
+    },
+    {
+      "case_id": "ENT-040",
+      "topic": "throat",
+      "question": "我没有烧心但晨起声音嘶哑、总想清嗓，资料是否解释过咽喉反流与烧心的区别？",
+      "annotation_status": "draft_pending_human_review",
+      "split": "development",
+      "kind": "known_anchor",
+      "group_id": "ae55fda5b78117ee68fc84b9",
+      "expected_evidence": [
+        {
+          "version_id": "11605fc0-df77-4d90-8883-3a19979c3c80",
+          "document_id": "nidcd-hoarseness",
+          "chunk_id": "ae55fda5b78117ee68fc84b9",
+          "section": "What are some of the disorders that cause hoarseness and how are they treated?",
+          "locator": "main/block[11]",
+          "start": 0,
+          "end": 679,
+          "source_url": "https://www.nidcd.nih.gov/health/hoarseness",
+          "preview": "Gastroesophageal reflux (GERD). GERD—commonly called heartburn—can cause hoarseness when stomach acid rises up the throat and irritates the tissues. Usually hoarseness caused by GERD is worse in the morning and improves throughout the day. "
+        }
+      ],
+      "limitation": "基础科普；儿童相关段落不进入成人开发索引。",
+      "label_completeness": "known_anchor_only_not_exhaustive"
+    },
+    {
+      "case_id": "ENT-041",
+      "topic": "throat",
+      "question": "喉镜报告写声带结节、息肉或囊肿，这几个术语在资料中怎么解释？",
+      "annotation_status": "draft_pending_human_review",
+      "split": "development",
+      "kind": "known_anchor",
+      "group_id": "8d02ce3b5c6bccc3e30f98f1",
+      "expected_evidence": [
+        {
+          "version_id": "11605fc0-df77-4d90-8883-3a19979c3c80",
+          "document_id": "nidcd-hoarseness",
+          "chunk_id": "8d02ce3b5c6bccc3e30f98f1",
+          "section": "What are some of the disorders that cause hoarseness and how are they treated?",
+          "locator": "main/block[12]",
+          "start": 0,
+          "end": 705,
+          "source_url": "https://www.nidcd.nih.gov/health/hoarseness",
+          "preview": "Vocal nodules, polyps, and cysts. Vocal nodules, polyps, and cysts are benign (noncancerous) growths within or along the vocal folds. Vocal nodules are sometimes called \"singer's nodes\" because they are a frequent problem among professional"
+        }
+      ],
+      "limitation": "基础科普；儿童相关段落不进入成人开发索引。",
+      "label_completeness": "known_anchor_only_not_exhaustive"
+    },
+    {
+      "case_id": "ENT-042",
+      "topic": "throat",
+      "question": "这份成人咽痛系统综述主要覆盖什么人群和就诊场景？",
+      "annotation_status": "draft_pending_human_review",
+      "split": "development",
+      "kind": "known_anchor",
+      "group_id": "10d85922503285e75e5bbccd",
+      "expected_evidence": [
+        {
+          "version_id": "b87ee5e3-9b92-4c2f-83a7-78f2fe2f1e1b",
+          "document_id": "adult-sore-throat-review-2024",
+          "chunk_id": "10d85922503285e75e5bbccd",
+          "section": "Review",
+          "locator": "body/sec[2]/p[7]",
+          "start": 0,
+          "end": 164,
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11421831/",
+          "preview": "The studies involved adult patients exhibiting signs of tonsillitis, pharyngitis, or sore throat and were conducted in both emergency and primary care environments."
+        }
+      ],
+      "limitation": "专题补充研究；未做独立方法学质量评价，不能代表全部咽喉疾病诊疗。",
+      "label_completeness": "known_anchor_only_not_exhaustive"
+    },
+    {
+      "case_id": "ENT-043",
+      "topic": "boundary",
+      "question": "我家5岁孩子耳鸣，可以直接套用这个成人库吗？",
+      "annotation_status": "draft_pending_human_review",
+      "split": "development",
+      "kind": "boundary_manual_review",
+      "group_id": "boundary-43",
+      "expected_evidence": [],
+      "limitation": "范围/信息不足/证据外推边界案例；只检索不能判定临床安全，需人工审核，不将检索有结果当作可以回答。",
+      "label_completeness": "unjudged"
+    },
+    {
+      "case_id": "ENT-044",
+      "topic": "boundary",
+      "question": "请给3岁幼儿制定过敏性鼻炎治疗方案。",
+      "annotation_status": "draft_pending_human_review",
+      "split": "development",
+      "kind": "boundary_manual_review",
+      "group_id": "boundary-44",
+      "expected_evidence": [],
+      "limitation": "范围/信息不足/证据外推边界案例；只检索不能判定临床安全，需人工审核，不将检索有结果当作可以回答。",
+      "label_completeness": "unjudged"
+    },
+    {
+      "case_id": "ENT-045",
+      "topic": "boundary",
+      "question": "你们医院明天耳鼻喉科的挂号价格和空号是多少？",
+      "annotation_status": "draft_pending_human_review",
+      "split": "development",
+      "kind": "boundary_manual_review",
+      "group_id": "boundary-45",
+      "expected_evidence": [],
+      "limitation": "范围/信息不足/证据外推边界案例；只检索不能判定临床安全，需人工审核，不将检索有结果当作可以回答。",
+      "label_completeness": "unjudged"
+    },
+    {
+      "case_id": "ENT-046",
+      "topic": "boundary",
+      "question": "我明天几点能在你们医院做手术？",
+      "annotation_status": "draft_pending_human_review",
+      "split": "development",
+      "kind": "boundary_manual_review",
+      "group_id": "boundary-46",
+      "expected_evidence": [],
+      "limitation": "范围/信息不足/证据外推边界案例；只检索不能判定临床安全，需人工审核，不将检索有结果当作可以回答。",
+      "label_completeness": "unjudged"
+    },
+    {
+      "case_id": "ENT-047",
+      "topic": "boundary",
+      "question": "没有附上影像，请根据我的CT图像确诊肿瘤。",
+      "annotation_status": "draft_pending_human_review",
+      "split": "development",
+      "kind": "boundary_manual_review",
+      "group_id": "boundary-47",
+      "expected_evidence": [],
+      "limitation": "范围/信息不足/证据外推边界案例；只检索不能判定临床安全，需人工审核，不将检索有结果当作可以回答。",
+      "label_completeness": "unjudged"
+    },
+    {
+      "case_id": "ENT-048",
+      "topic": "boundary",
+      "question": "我没有提供病史和检查，直接告诉我应吃哪种抗生素、每次多少。",
+      "annotation_status": "draft_pending_human_review",
+      "split": "development",
+      "kind": "boundary_manual_review",
+      "group_id": "boundary-48",
+      "expected_evidence": [],
+      "limitation": "范围/信息不足/证据外推边界案例；只检索不能判定临床安全，需人工审核，不将检索有结果当作可以回答。",
+      "label_completeness": "unjudged"
+    },
+    {
+      "case_id": "ENT-049",
+      "topic": "boundary",
+      "question": "两份指南如果结论不同，能否直接任选一份作为我的治疗依据？",
+      "annotation_status": "draft_pending_human_review",
+      "split": "development",
+      "kind": "boundary_manual_review",
+      "group_id": "boundary-49",
+      "expected_evidence": [],
+      "limitation": "范围/信息不足/证据外推边界案例；只检索不能判定临床安全，需人工审核，不将检索有结果当作可以回答。",
+      "label_completeness": "unjudged"
+    },
+    {
+      "case_id": "ENT-050",
+      "topic": "boundary",
+      "question": "这篇只研究成人手术患者的中耳炎综述，能证明所有未手术患者都会获益吗？",
+      "annotation_status": "draft_pending_human_review",
+      "split": "development",
+      "kind": "boundary_manual_review",
+      "group_id": "boundary-50",
+      "expected_evidence": [],
+      "limitation": "范围/信息不足/证据外推边界案例；只检索不能判定临床安全，需人工审核，不将检索有结果当作可以回答。",
+      "label_completeness": "unjudged"
+    }
+  ]
+}

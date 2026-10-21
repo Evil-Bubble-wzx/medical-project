@@ -1,0 +1,986 @@
+{
+  "date": "2026-10-21",
+  "iteration": "release_frozen_iteration",
+  "run_directory": "evaluations/reports/closure-batch-3.3/live-release",
+  "assessment_type": "AI own-quote/source-population/synthetic-input development review, not medical approval",
+  "coverage": "complete_for_this_run",
+  "reviewed_run_rows": 26,
+  "answered_cases_reviewed": 9,
+  "displayed_item_count": 39,
+  "medical_claim_or_comparison_count": 38,
+  "patient_input_record_count": 1,
+  "counts": {
+    "supported_with_limits": 36,
+    "needs_review": 2,
+    "input_record_exact": 1
+  },
+  "results_sha256": "66d6cd8cf98cfb0ab7dc173b2bd33d7a79f85175a956edf6b53db6da477713fc",
+  "summary_sha256": "8f075b95147015fd218a41c659c68e3ee2a6ea9abb6a6754ae35047a0c0d656e",
+  "dataset_sha256": "f6a62bc8ca64d4fba0e7c6ec4acbd99bdedce465fe0f79c27c59e546e40fda41",
+  "freeze_release_sha256": "834b2e3f2611fd19bf5b8a720b2c1244e4b93e835939914061356b807e8b6210",
+  "evaluation_manifest": {
+    "schema_version": 2,
+    "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+    "corpus_sha256": "b7257e21c52be8d2ba35e448ee040b6238f88be801e91528916500758803ff3d",
+    "files": {
+      "configs/generation.json": "36e5bdb4e02540ea4c55c7045092f2cdaaca28d9bd13eacaebdbd2413f2ce03a",
+      "configs/retrieval.json": "e34ab0df834d6ab3c0489bd423dfe3207fddac178033bcf4eae9a511e5fb746c",
+      "requirements.lock": "49d1e80b91c9f60512877095e5d421b520b635b98d74848226244fa5ad0dad69",
+      "evaluations/datasets/closure-batch-dev-1.0.json": "f6a62bc8ca64d4fba0e7c6ec4acbd99bdedce465fe0f79c27c59e546e40fda41",
+      "scripts/evaluate_answer_generation.py": "e7154970a6947e4ba55ec17ef888f3025c830305c2f6d57838cb0e5e573056ba",
+      "backend/app/__init__.py": "a4a0866616da2bcdb9dd1d1fbb4f1efea39d306550fdd3cae0521b1608b97827",
+      "backend/app/adapters/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "backend/app/adapters/fakes.py": "1f4a148cda9ee4b8181177d32c299ce9c6c0d777605f7719f7ef9a5ce8bbe95f",
+      "backend/app/adapters/metrics.py": "d652fb2312c9fdd01b4bf5273267403051b67410b3a46806229c8b5b38260a1c",
+      "backend/app/api/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "backend/app/api/audit.py": "da640846466b4083547f546403d332deba7cfda6a2fab6fb480c66b2b0fa86c4",
+      "backend/app/api/business.py": "d21e5f01ecf00e3e0ef6276b403385842e0ee0ef222c7817fe15293bbc0ae7af",
+      "backend/app/api/development.py": "594005ef8622e7e1dc365b220b1d8b56a5fd2f493cb6f522237c251096484965",
+      "backend/app/api/main.py": "6f339075438fff889c3557d7cf9bb129521711ceb3872fba490a8b63269c08e8",
+      "backend/app/api/validation.py": "335eb9154b3d91f5a212d4aa4a17dc00ad094bad5b20816a8806ec71c2104d3c",
+      "backend/app/application/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "backend/app/application/business.py": "e81738e1dd0ba713ac148217277c262beb1c79a3ee91d81b88f5af16a45ef669",
+      "backend/app/application/consultation_queue.py": "46426aa529502634679c25262cd025b2168d237d85d947aa86f29a842c2b1b8d",
+      "backend/app/application/consultations.py": "0244026baac926c57c4830969daa49d653b1f7157e7be9f0bc0f3a632ba01856",
+      "backend/app/application/service.py": "1c2ecc75aa6a4ba766a94eac0d115df9c929e1879af8a5dfdc67c17567567a5a",
+      "backend/app/config.py": "5cff34f19c1a6c2f0496c4aacb75d1d865e9d36d61c2e3f8a79b108775e77867",
+      "backend/app/domain/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "backend/app/domain/errors.py": "bc7dea0480dae8b919f24ce17da8ce6e749e98aa7cfaf0a66bed2cc9417a82e8",
+      "backend/app/domain/models.py": "93e658b252886c3cc3bb6ca2a322de139f7dc6a3c3a8ed3362f1dbfbb76f6c63",
+      "backend/app/domain/ports.py": "c2e3f6ace304be6021a7ec646d9b1ccd3c8040d0442d4ceb135a7a2b91f57596",
+      "backend/app/domain/rules.py": "fa4d807191aee6df85945d65ad65f0ac13f78d70150dcc096adcb587b90231ef",
+      "backend/app/evaluation.py": "366c6e44e8134f4825b9afb20ca41a63b9b0067990b6dd72b2c78f8e46fbccba",
+      "backend/app/graphs/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "backend/app/graphs/workflow.py": "e37d64e59fb2b3f3b654c8354b5ef761fc5e9c4329d7f106ad19c29a88002275",
+      "backend/app/knowledge/__init__.py": "4a668e668f476a25b2fff5a8d44181f3e370ec19798910cce751f8ecff34f5ce",
+      "backend/app/knowledge/cli.py": "56b816d16871dc1ce91e38bb8ba129788f2992b07e3da6b52f13a9bfbbdb13c5",
+      "backend/app/knowledge/collect.py": "82b3a6977d72ae0db24c6bfaacba6455598d26c69156d597d458f7241169a4a2",
+      "backend/app/knowledge/development_registry.py": "083d170a5167893284f0b49aba3ffedf30cfa8b30cc3fac81dcaad001dbc76d2",
+      "backend/app/knowledge/governance.py": "a84e95693dca2fedcb8a14c7f773740aef83060d9661eeb0e1cda13074a1da87",
+      "backend/app/knowledge/library.py": "577cd88d3847f5c76fe0fc5bde86e6d92f4202dd7c4201252a22f5358ada5409",
+      "backend/app/knowledge/manage.py": "18d3f114fb513d81b5fa579cef7f1e1f0b1c566554c3c05efd93679db7a60394",
+      "backend/app/knowledge/parsing.py": "cf7cca9c8b09fc713367dd816bb629c87dfffda210d85f732e08b4d3a3f09230",
+      "backend/app/registry.py": "0dc301686395a4077a2c1d92ab054aea564dcc7f1a8da473be9055dfcbd626f0",
+      "backend/app/retrieval/__init__.py": "6d6ecdf592e0d1d367eceda55ca170152259888b1fb9959697ef03f6c78aae48",
+      "backend/app/retrieval/answer_workflow.py": "ec73ec41a2706396f9df4bc617fd877cca41fd6fb121528ed025a4a54fa79052",
+      "backend/app/retrieval/atomization.py": "1cd9c9d5326821c2daedca9d887c07f92aee9df14ff642bdc0543aeba3ed0d0f",
+      "backend/app/retrieval/audit_service.py": "0a736612b23f2e7246e3371f504000f2baa7e6c4ae9e9f5f439425db8b6ea668",
+      "backend/app/retrieval/benchmark.py": "31ec66a0030b0bcc147a420ab192c29b88ab7eb1eeddba80fa48c4cceeaf866e",
+      "backend/app/retrieval/claim_review.py": "5979a73c3ed00810c3c046f9e0418275cee0d9c25305d2d45a07728df966733e",
+      "backend/app/retrieval/cli.py": "aa115f0f621bc576a7774c5b66bb1626d3239c35a25c7573de0ae4928e565018",
+      "backend/app/retrieval/corpus.py": "234550c892079d6e40a9e0f574d6eaade8ace4d1de1412a17fa20eee5c23fb70",
+      "backend/app/retrieval/dataset.py": "37782fbf793e9770674ed07bc9a672aafdb4f8ee1d20def7621f801ff3910eb0",
+      "backend/app/retrieval/development_service.py": "f0bc53c697387af76fe2c2bc9564159c91a99b793648409bf4ec78acca5bdd65",
+      "backend/app/retrieval/embedding.py": "ee91d57f2764d63ab410bf770c3fe7dba01c2ad7cdb64a46052a4eb8630e1b96",
+      "backend/app/retrieval/engine.py": "9e55f242bfa3c4babf89fe90241bc3d27ec0c9aff2ed688937926c9d834f7552",
+      "backend/app/retrieval/evaluation_manifest.py": "135987fdcef635ec3fd74261fe3da41f5a245bb89379ad79c7322a509594e313",
+      "backend/app/retrieval/generation.py": "41e5d97d580f120ef43ff62b9d8dde6b7fd80dd4dd7aff03d6c3230af914d53c",
+      "backend/app/retrieval/input_anchor_report.py": "ffd880770227edb926f9293eae6eef2b9e4a6d81771c3197f1bc58d36af4d78b",
+      "backend/app/retrieval/input_fidelity.py": "c6e8a7196240a141ed699665d078fac40c2a1212ecaed9884ac673d9b9819ad5",
+      "backend/app/retrieval/label_sensitivity.py": "3f66bda1adc5f366c5bb6c23d9585b1bd4b94b627a4d36887ac7181b06511055",
+      "backend/app/retrieval/onnx_worker.py": "f5944dacf3f099ace62bf5197d85449a9a59a946813f3c8cead49e57c4bd2f0b",
+      "backend/app/retrieval/patient_queries.py": "a91ca352be4b981e76ed32d46fa35590d1815ff2a8dca627e45133dba0bb3260",
+      "backend/app/retrieval/patient_summary.py": "20ddc4dc9985f1552dc1280de0bf8df0c4472692527388276d603483654062bf",
+      "backend/app/retrieval/quote_catalog.py": "e482112fc1bad277b8eab725c72d5664733b9156b73e4b8280508adadd2df6d2",
+      "backend/app/retrieval/quote_repair.py": "97cb22ae11a2b34b44a0c155cc8d5e9493e3e8cf47d4fb7dfa3f38c3474d54a5",
+      "backend/app/retrieval/rerank_worker.py": "c4e386667013ad6332e6bed7cc81797c403a2db384134878c970368624e7e78f",
+      "backend/app/retrieval/reranking.py": "a4b47895a885bf0a6955013e15ad6fcb90ea8c0a49d1add681cd211044b2c548",
+      "backend/app/retrieval/review.py": "2837a6a17a870640d62ace7e60160ce29f7967bc2d582e1165acbfaf0805743e",
+      "backend/app/retrieval/review_archives.py": "72da1f564f2d5d0763e2b7146f30d2456ecbe335bb82c4044424f965218711c8",
+      "backend/app/retrieval/review_import.py": "c43d37178dcac75e1e293b79a66460d97eb6a945b4ba22b6aa8f03bb3622fee8",
+      "backend/app/retrieval/scope_guard.py": "2f93bdfdd0e7f0219e74f6cc7397fff2124838678b3aff51773d833826bdfca7",
+      "backend/app/retrieval/stratified_report.py": "72c69a6f2ece1ce4c7a81f19a831104474b2911f454fad405134eef1f85ac94f",
+      "backend/app/retrieval/text_quality.py": "e94c468998d9378632e0b526ec835691da122a008e4e85c7f5d4b4e2d9ec8fe3",
+      "backend/app/retrieval/validation_service.py": "93874fac707de8e41d6d717a59126f49e1649c7cde6cf50281060094fb7c8f6b",
+      "backend/app/retrieval/verification.py": "fd837400279179f7ed000bcc6f83e0fb931eb2c0f90ebe5938f5f1e7869140f7",
+      "backend/app/retrieval/workflow.py": "550d8b25728313d295c12e61de5a49e3c45d0167afab291629971ebb109b6a1d",
+      "models/mmarco-minilm-reranker/model-manifest.json": "4f1b57e064fae044f233d053bc84e9f4a12b00c150c9ce9fd9d6bca25ad23a73",
+      "models/multilingual-e5-small/model-manifest.json": "35e8e45ce7ce67953fab1702417c839d4b2d1ba0d83e44c7d71348df6e4159b1"
+    },
+    "sha256": "93134c1178397fb2727d354ed941f7ae0aa86e22565f311c33518fff2f6dc853"
+  },
+  "clinical_approval": false,
+  "human_review": "pending",
+  "claims": [
+    {
+      "claim_id": "GEN-ENT-002/professional/0",
+      "content_sha256": "455a1c274f4550b605ac52563058b13bb2697e3af2612b816c6101d4eef9ff4d",
+      "source_kind": "medical_claim",
+      "assessment": "supported_with_limits",
+      "issue": null,
+      "reason": "逐项列出哮喘、AD、食物过敏、anaphylaxis，保留未释义源词，没有将anaphylaxis泛化成笼统过敏反应或凭常识展开AD。适用范围依赖成人变应性鼻炎来源上下文，未医学审签。",
+      "own_quote_matches": true,
+      "input_anchor_check": "not_applicable",
+      "canonical_input_record_exact": null,
+      "text": "成人过敏性鼻炎相关疾病可包括属于过敏性疾病谱的哮喘、AD、食物过敏和anaphylaxis。",
+      "own_supports": [
+        {
+          "evidence_id": "E1",
+          "quote": "These can be subdivided into:Disorders which are part of the spectrum of allergic diseases, e.g. asthma, AD, food allergy, anaphylaxis;"
+        }
+      ],
+      "input_anchors": [],
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-002/professional/1",
+      "content_sha256": "3e5ffa7bc963a6bede262b1159b79b70ede8a27119e51adbea8daef2c86e70c5",
+      "source_kind": "medical_claim",
+      "assessment": "supported_with_limits",
+      "issue": null,
+      "reason": "解剖相关列项与原文对应，没有再次改为位置相邻或所有列项一起不适；共病框架来自来源范围，不是患者个人患病推断。",
+      "own_quote_matches": true,
+      "input_anchor_check": "not_applicable",
+      "canonical_input_record_exact": null,
+      "text": "成人过敏性鼻炎相关疾病可包括与鼻解剖相关的结膜炎、鼻窦炎、中耳问题、咽喉及喉部影响。",
+      "own_supports": [
+        {
+          "evidence_id": "E1",
+          "quote": "Disorders anatomically related to the nose: conjunctivitis, sinusitis, middle ear problems, throat and laryngeal effects;"
+        }
+      ],
+      "input_anchors": [],
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-002/professional/2",
+      "content_sha256": "0264bf9e5aaf9ca6c50144b6f721d9d7e725ccf2d35d7e064415fa2905e706b8",
+      "source_kind": "medical_claim",
+      "assessment": "supported_with_limits",
+      "issue": null,
+      "reason": "睡眠、注意力和行为继发影响对应原文列项，没有改成同一患者必然同时发生。",
+      "own_quote_matches": true,
+      "input_anchor_check": "not_applicable",
+      "canonical_input_record_exact": null,
+      "text": "成人过敏性鼻炎相关疾病可包括睡眠问题及其对注意力和行为的继发影响。",
+      "own_supports": [
+        {
+          "evidence_id": "E1",
+          "quote": "Sleep problems and secondary effects on concentration and behaviour;"
+        }
+      ],
+      "input_anchors": [],
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-002/professional/3",
+      "content_sha256": "77c3f940aca33087e6a5350e2e465fa50a369fef6cd41d7a845b9b6b0087c920",
+      "source_kind": "medical_claim",
+      "assessment": "supported_with_limits",
+      "issue": null,
+      "reason": "鼻甲肥大对应原文明确列项，成人变应性鼻炎框架来自来源范围，不表示患者有该情况。",
+      "own_quote_matches": true,
+      "input_anchor_check": "not_applicable",
+      "canonical_input_record_exact": null,
+      "text": "资料将鼻甲肥大列为成人过敏性鼻炎相关情况之一。",
+      "own_supports": [
+        {
+          "evidence_id": "E1",
+          "quote": "andTurbinate hypertrophy."
+        }
+      ],
+      "input_anchors": [],
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-002/professional/4",
+      "content_sha256": "3d8171b67f52662ba5a23460cfc53697a0e1708db701cdd9b56285347cf60f41",
+      "source_kind": "medical_claim",
+      "assessment": "supported_with_limits",
+      "issue": null,
+      "reason": "保留共现程度有争议、不同鼻窦炎亚型可能不同的原文限定；鼻炎基准人群依赖成人变应性鼻炎来源框架，不作患者个人同时患病判断。",
+      "own_quote_matches": true,
+      "input_anchor_check": "not_applicable",
+      "canonical_input_record_exact": null,
+      "text": "资料指出鼻炎与鼻窦炎的共现程度存在争议，且可能在急性鼻窦炎、慢性鼻窦炎和伴鼻息肉的慢性鼻窦炎之间有所不同。",
+      "own_supports": [
+        {
+          "evidence_id": "E3",
+          "quote": "The extent of co-occurrence of rhinosinusitis is disputed and is likely to be different in acute rhinosinusitis (ARS), chronic rhinosinusitis (CRS) and CRS with nasal polyposis."
+        }
+      ],
+      "input_anchors": [],
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-002/patient_summary/0",
+      "content_sha256": "d662c826bdbeb46da2f9ceaab3c6c52c42d36ccb5e0bee93cfa5540960f7f138",
+      "source_kind": "medical_claim",
+      "assessment": "supported_with_limits",
+      "issue": null,
+      "reason": "逐项列出哮喘、AD、食物过敏、anaphylaxis，保留未释义源词，没有将anaphylaxis泛化成笼统过敏反应或凭常识展开AD。适用范围依赖成人变应性鼻炎来源上下文，未医学审签。",
+      "own_quote_matches": true,
+      "input_anchor_check": "not_applicable",
+      "canonical_input_record_exact": null,
+      "text": "成人过敏性鼻炎相关疾病可能包括属于过敏性疾病谱的哮喘、AD、食物过敏和anaphylaxis。",
+      "own_supports": [
+        {
+          "evidence_id": "E1",
+          "quote": "These can be subdivided into:Disorders which are part of the spectrum of allergic diseases, e.g. asthma, AD, food allergy, anaphylaxis;"
+        }
+      ],
+      "input_anchors": [],
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-015/professional/0",
+      "content_sha256": "999043f6b3ad4ede0e1d29a5225120af4394de59bc7b46cf06bf3c9542c3e66e",
+      "source_kind": "medical_claim",
+      "assessment": "needs_review",
+      "issue": "population_scope_omission",
+      "reason": "研究来源为成人急性中耳炎伴内耳受累人群，生成句仅“中耳炎”而省略“急性”，可能使51%/32%被理解为所有中耳炎伴内耳受累成人。需保留急性人群限制，不能以数字逐字匹配替代范围判断。",
+      "own_quote_matches": true,
+      "input_anchor_check": "not_applicable",
+      "canonical_input_record_exact": null,
+      "text": "在因中耳炎伴内耳受累的成人患者中，研究分别报告51%有耳鸣、32%有眩晕。",
+      "own_supports": [
+        {
+          "evidence_id": "E1",
+          "quote": "There was also a high percentage of patients with tinnitus (51%) and vertigo (32%)."
+        }
+      ],
+      "input_anchors": [],
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-015/professional/1",
+      "content_sha256": "26d6ef325bba7349876dc6c887f152f8ca9674d01dfa1d24f8b7546edca9c681",
+      "source_kind": "medical_claim",
+      "assessment": "supported_with_limits",
+      "issue": null,
+      "reason": "按原列项描述症状与人数，保留耳鸣57/112及眩晕34/112，不借其他引句换算百分比或推定同时发生。",
+      "own_quote_matches": true,
+      "input_anchor_check": "not_applicable",
+      "canonical_input_record_exact": null,
+      "text": "该研究按症状分别报告，耳鸣为57/112，眩晕为34/112。",
+      "own_supports": [
+        {
+          "evidence_id": "E2",
+          "quote": "The most common symptoms stated by the patients were subjective hearing loss (112/112, 100%), otalgia (111/112, 99%), otorrhea (61/112, 54%), tinnitus (57/112, 51%) and vertigo (34/112)."
+        }
+      ],
+      "input_anchors": [],
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-015/input_explanation/0",
+      "content_sha256": "6203d9eb12e97b00f3b6d341246308034078c1bab7f8e94cddcd92b56f3a69ce",
+      "source_kind": "medical_comparison",
+      "assessment": "supported_with_limits",
+      "issue": null,
+      "reason": "age与question完整原话吻合，只是咨询伴随症状是否有研究，不把问题当个体确诊；医学引用分别列症状频率而非联合发生率，适用范围仍受急性研究人群限制。",
+      "own_quote_matches": true,
+      "input_anchor_check": "exact_full_fields_valid",
+      "canonical_input_record_exact": null,
+      "text": "患者自述为成人并询问急性中耳炎时耳鸣和眩晕的伴随表现是否被研究描述，该问题与上述成人中耳炎伴内耳受累研究的症状报告相关。",
+      "own_supports": [
+        {
+          "evidence_id": "E1",
+          "quote": "There was also a high percentage of patients with tinnitus (51%) and vertigo (32%)."
+        },
+        {
+          "evidence_id": "E2",
+          "quote": "The most common symptoms stated by the patients were subjective hearing loss (112/112, 100%), otalgia (111/112, 99%), otorrhea (61/112, 54%), tinnitus (57/112, 51%) and vertigo (34/112)."
+        }
+      ],
+      "input_anchors": [
+        {
+          "field": "age",
+          "quote": "35",
+          "state": "reported"
+        },
+        {
+          "field": "question",
+          "quote": "我是成人，急性中耳炎时同时耳鸣和眩晕，已有研究描述过这些伴随表现吗？",
+          "state": "reported"
+        }
+      ],
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-015/patient_summary/0",
+      "content_sha256": "c6b5b1d510fb03fd90b816a285af0df15d0e3ca4de30f73d1efaed2f6afb0072",
+      "source_kind": "medical_claim",
+      "assessment": "needs_review",
+      "issue": "population_scope_omission",
+      "reason": "摘要保留成人及内耳受累但省略来源的“急性”中耳炎限制。原引用仅给症状频率，人群靠题名确定，不能扩大到所有中耳炎。",
+      "own_quote_matches": true,
+      "input_anchor_check": "not_applicable",
+      "canonical_input_record_exact": null,
+      "text": "在因中耳炎并影响到内耳的成人患者中，研究报告分别有51%出现耳鸣、32%出现眩晕。",
+      "own_supports": [
+        {
+          "evidence_id": "E1",
+          "quote": "There was also a high percentage of patients with tinnitus (51%) and vertigo (32%)."
+        }
+      ],
+      "input_anchors": [],
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-025/professional/0",
+      "content_sha256": "9f0b05758fe54d333ff8f605773ee4641b9115c19d8e7a716117ab97b20ce674",
+      "source_kind": "medical_claim",
+      "assessment": "supported_with_limits",
+      "issue": null,
+      "reason": "多因素与年龄增长影响听力对应原句，没有补造患者既往疾病或宣称单一病因。",
+      "own_quote_matches": true,
+      "input_anchor_check": "not_applicable",
+      "canonical_input_record_exact": null,
+      "text": "资料指出，随年龄增长，听力会受到多种因素影响。",
+      "own_supports": [
+        {
+          "evidence_id": "E2",
+          "quote": "Many things affect our hearing as we age."
+        }
+      ],
+      "input_anchors": [],
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-025/professional/1",
+      "content_sha256": "cf5d1f0a17766b48e02c292d78067c0f6b6d8517721c30e53249093e7c6d970a",
+      "source_kind": "medical_claim",
+      "assessment": "supported_with_limits",
+      "issue": null,
+      "reason": "保留长期噪声和某些医学状况可能起作用的限定；不把可能相关写成该患者已证实病因。",
+      "own_quote_matches": true,
+      "input_anchor_check": "not_applicable",
+      "canonical_input_record_exact": null,
+      "text": "长期噪声暴露和某些医学状况也可能对年龄相关的听力变化起作用。",
+      "own_supports": [
+        {
+          "evidence_id": "E2",
+          "quote": "Long-term exposure to noise and some medical conditions can also play a role."
+        }
+      ],
+      "input_anchors": [],
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-025/professional/2",
+      "content_sha256": "b39bb8ba701ce6b889b9879098c6e616237302a9e7431f37e31eeb1cbe0840b2",
+      "source_kind": "medical_claim",
+      "assessment": "supported_with_limits",
+      "issue": null,
+      "reason": "高血压、糖尿病与听力损失的相关关系按原句转述，未改成因果或患者自身已有这些病。",
+      "own_quote_matches": true,
+      "input_anchor_check": "not_applicable",
+      "canonical_input_record_exact": null,
+      "text": "资料提到，老年人中更常见的高血压和糖尿病与听力损失相关。",
+      "own_supports": [
+        {
+          "evidence_id": "E3",
+          "quote": "Conditions that are more common in older people, such as high blood pressure and diabetes, are associated with hearing loss."
+        }
+      ],
+      "input_anchors": [],
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-025/patient_summary/0",
+      "content_sha256": "b1afb3fd3a10d46cba5d732afd95dd00f08c547d91fad97085e63f0c1e1c8f77",
+      "source_kind": "medical_claim",
+      "assessment": "supported_with_limits",
+      "issue": null,
+      "reason": "多因素与年龄增长影响听力对应原句，没有补造患者既往疾病或宣称单一病因。",
+      "own_quote_matches": true,
+      "input_anchor_check": "not_applicable",
+      "canonical_input_record_exact": null,
+      "text": "随着年龄增长，有很多因素会影响听力。",
+      "own_supports": [
+        {
+          "evidence_id": "E2",
+          "quote": "Many things affect our hearing as we age."
+        }
+      ],
+      "input_anchors": [],
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-030/professional/0",
+      "content_sha256": "1747c42e648a99d5ced17d0497a5547a6a996812fdda26a1ce0c92eb38a8545f",
+      "source_kind": "medical_claim",
+      "assessment": "supported_with_limits",
+      "issue": null,
+      "reason": "保留部分人群以及情绪、睡眠或集中注意力影响的范围，患者摘要未加入第二人称个体患病判断。",
+      "own_quote_matches": true,
+      "input_anchor_check": "not_applicable",
+      "canonical_input_record_exact": null,
+      "text": "资料指出部分耳鸣者会发现耳鸣影响情绪以及睡眠或集中注意力的能力。",
+      "own_supports": [
+        {
+          "evidence_id": "E1",
+          "quote": "However, some people find that it affects their mood and their ability to sleep or concentrate."
+        }
+      ],
+      "input_anchors": [],
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-030/professional/1",
+      "content_sha256": "803cc13869cfc08fd04a9fd8ddd9656cd69f71046ada5a9d814db3b4e520b7b1",
+      "source_kind": "medical_claim",
+      "assessment": "supported_with_limits",
+      "issue": null,
+      "reason": "保留严重病例、可导致及焦虑或抑郁限定，与归档原句一致；不是本次对原研究因果确定性的医学认证。",
+      "own_quote_matches": true,
+      "input_anchor_check": "not_applicable",
+      "canonical_input_record_exact": null,
+      "text": "资料提到严重情况下耳鸣可导致焦虑或抑郁。",
+      "own_supports": [
+        {
+          "evidence_id": "E1",
+          "quote": "In severe cases, tinnitus can lead to anxiety or depression."
+        }
+      ],
+      "input_anchors": [],
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-030/patient_summary/0",
+      "content_sha256": "4df79b6bcc3e8268f5e1c2acf08d7b5f4106b493688fc6a2262e37c87f5ab5a0",
+      "source_kind": "medical_claim",
+      "assessment": "supported_with_limits",
+      "issue": null,
+      "reason": "保留部分人群以及情绪、睡眠或集中注意力影响的范围，患者摘要未加入第二人称个体患病判断。",
+      "own_quote_matches": true,
+      "input_anchor_check": "not_applicable",
+      "canonical_input_record_exact": null,
+      "text": "资料指出，部分耳鸣者会发现耳鸣影响情绪以及睡眠或集中注意力的能力。",
+      "own_supports": [
+        {
+          "evidence_id": "E1",
+          "quote": "However, some people find that it affects their mood and their ability to sleep or concentrate."
+        }
+      ],
+      "input_anchors": [],
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-002-CONTEXT/professional/0",
+      "content_sha256": "c8f24044a7e6f55e2fdb454900264eaba853de71009a4a85118b4bdd949c6759",
+      "source_kind": "medical_claim",
+      "assessment": "supported_with_limits",
+      "issue": null,
+      "reason": "逐项列出哮喘、AD、食物过敏、anaphylaxis，保留未释义源词，没有将anaphylaxis泛化成笼统过敏反应或凭常识展开AD。适用范围依赖成人变应性鼻炎来源上下文，未医学审签。",
+      "own_quote_matches": true,
+      "input_anchor_check": "not_applicable",
+      "canonical_input_record_exact": null,
+      "text": "成人过敏性鼻炎可与属于过敏性疾病谱系的哮喘、AD、食物过敏和anaphylaxis分别相关。",
+      "own_supports": [
+        {
+          "evidence_id": "E1",
+          "quote": "These can be subdivided into:Disorders which are part of the spectrum of allergic diseases, e.g. asthma, AD, food allergy, anaphylaxis;"
+        }
+      ],
+      "input_anchors": [],
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-002-CONTEXT/professional/1",
+      "content_sha256": "7781ef5e8b8c8a4d533106a41802b3e44422a6cef5ca93196ddf1747b37f8137",
+      "source_kind": "medical_claim",
+      "assessment": "supported_with_limits",
+      "issue": null,
+      "reason": "解剖相关列项与原文对应，没有再次改为位置相邻或所有列项一起不适；共病框架来自来源范围，不是患者个人患病推断。",
+      "own_quote_matches": true,
+      "input_anchor_check": "not_applicable",
+      "canonical_input_record_exact": null,
+      "text": "资料还列出与鼻解剖相关的结膜炎、鼻窦炎、中耳问题以及咽喉和喉部影响。",
+      "own_supports": [
+        {
+          "evidence_id": "E1",
+          "quote": "Disorders anatomically related to the nose: conjunctivitis, sinusitis, middle ear problems, throat and laryngeal effects;"
+        }
+      ],
+      "input_anchors": [],
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-002-CONTEXT/professional/2",
+      "content_sha256": "1ed74efd1a0737a696785fc68ed4510484c0d6950307bdf36812c70d30f71b27",
+      "source_kind": "medical_claim",
+      "assessment": "supported_with_limits",
+      "issue": null,
+      "reason": "睡眠、注意力和行为继发影响对应原文列项，没有改成同一患者必然同时发生。",
+      "own_quote_matches": true,
+      "input_anchor_check": "not_applicable",
+      "canonical_input_record_exact": null,
+      "text": "资料还列出睡眠问题以及对注意力和行为的继发影响。",
+      "own_supports": [
+        {
+          "evidence_id": "E1",
+          "quote": "Sleep problems and secondary effects on concentration and behaviour;"
+        }
+      ],
+      "input_anchors": [],
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-002-CONTEXT/professional/3",
+      "content_sha256": "4a273ba10a2cb15b95b01369b3f3736e2f5c5f32080bee356bdcc67d43ca28cc",
+      "source_kind": "medical_claim",
+      "assessment": "supported_with_limits",
+      "issue": null,
+      "reason": "鼻甲肥大对应原文明确列项，成人变应性鼻炎框架来自来源范围，不表示患者有该情况。",
+      "own_quote_matches": true,
+      "input_anchor_check": "not_applicable",
+      "canonical_input_record_exact": null,
+      "text": "资料还列出鼻甲肥大。",
+      "own_supports": [
+        {
+          "evidence_id": "E1",
+          "quote": "andTurbinate hypertrophy."
+        }
+      ],
+      "input_anchors": [],
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-002-CONTEXT/patient_summary/0",
+      "content_sha256": "88b6164b6eb1b7fa8258492638ae48c108ccc23f2a61e2efcda05341cd50c999",
+      "source_kind": "medical_claim",
+      "assessment": "supported_with_limits",
+      "issue": null,
+      "reason": "逐项列出哮喘、AD、食物过敏、anaphylaxis，保留未释义源词，没有将anaphylaxis泛化成笼统过敏反应或凭常识展开AD。适用范围依赖成人变应性鼻炎来源上下文，未医学审签。",
+      "own_quote_matches": true,
+      "input_anchor_check": "not_applicable",
+      "canonical_input_record_exact": null,
+      "text": "成人过敏性鼻炎可能分别与哮喘、AD、食物过敏和anaphylaxis这些同属过敏性疾病谱系的问题有关。",
+      "own_supports": [
+        {
+          "evidence_id": "E1",
+          "quote": "These can be subdivided into:Disorders which are part of the spectrum of allergic diseases, e.g. asthma, AD, food allergy, anaphylaxis;"
+        }
+      ],
+      "input_anchors": [],
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-025-CONTEXT/professional/0",
+      "content_sha256": "c012421d527a8d8efd2ef3a4a75265d03e9aa4529dee8b6f96af7ddba0f9705b",
+      "source_kind": "medical_claim",
+      "assessment": "supported_with_limits",
+      "issue": null,
+      "reason": "多因素与年龄增长影响听力对应原句，没有补造患者既往疾病或宣称单一病因。",
+      "own_quote_matches": true,
+      "input_anchor_check": "not_applicable",
+      "canonical_input_record_exact": null,
+      "text": "随着年龄增长，听力受多种因素影响，并非只有衰老一种因素。",
+      "own_supports": [
+        {
+          "evidence_id": "E3",
+          "quote": "Many things affect our hearing as we age."
+        }
+      ],
+      "input_anchors": [],
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-025-CONTEXT/professional/1",
+      "content_sha256": "1e4bbb44c977ec8b8ab8d395b3c3487caaaab3a9cd910c81548e5c18c3bfacf2",
+      "source_kind": "medical_claim",
+      "assessment": "supported_with_limits",
+      "issue": null,
+      "reason": "保留长期噪声和某些医学状况可能起作用的限定；不把可能相关写成该患者已证实病因。",
+      "own_quote_matches": true,
+      "input_anchor_check": "not_applicable",
+      "canonical_input_record_exact": null,
+      "text": "长期暴露于噪声以及某些健康状况也可能起作用。",
+      "own_supports": [
+        {
+          "evidence_id": "E3",
+          "quote": "Long-term exposure to noise and some medical conditions can also play a role."
+        }
+      ],
+      "input_anchors": [],
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-025-CONTEXT/professional/2",
+      "content_sha256": "8456a5021de6392f1cd9ec7332ee3db4ca48147214875e80fd49f6d4168a8fe5",
+      "source_kind": "medical_claim",
+      "assessment": "supported_with_limits",
+      "issue": null,
+      "reason": "高血压、糖尿病与听力损失的相关关系按原句转述，未改成因果或患者自身已有这些病。",
+      "own_quote_matches": true,
+      "input_anchor_check": "not_applicable",
+      "canonical_input_record_exact": null,
+      "text": "老年期更常见的高血压和糖尿病与听力损失相关。",
+      "own_supports": [
+        {
+          "evidence_id": "E1",
+          "quote": "Conditions that are more common in older people, such as high blood pressure and diabetes, are associated with hearing loss."
+        }
+      ],
+      "input_anchors": [],
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-025-CONTEXT/professional/3",
+      "content_sha256": "1e49bf2d12b2fbd63902ea75fa77fab63bc8d1b106dcdd443d94f4f5201ac615",
+      "source_kind": "medical_claim",
+      "assessment": "supported_with_limits",
+      "issue": null,
+      "reason": "某些耳毒性药物可引起听力损失与原句一致；未给患者个体处方或补造其服药史。",
+      "own_quote_matches": true,
+      "input_anchor_check": "not_applicable",
+      "canonical_input_record_exact": null,
+      "text": "对耳内感觉细胞有毒性的某些药物可引起听力损失。",
+      "own_supports": [
+        {
+          "evidence_id": "E1",
+          "quote": "In addition, medications that are toxic to the sensory cells in your ears (some chemotherapy drugs, for example) can cause hearing loss."
+        }
+      ],
+      "input_anchors": [],
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-025-CONTEXT/input_explanation/0",
+      "content_sha256": "a6a56a7816da2b488e9aa28c7c576a559df69d8d2302cc6bda9a3d522c136f4e",
+      "source_kind": "medical_comparison",
+      "assessment": "supported_with_limits",
+      "issue": null,
+      "reason": "question完整原话有退休前长期嘈杂环境；解释区分长期噪声可能作用与个人确定因果，未提供个体诊断。",
+      "own_quote_matches": true,
+      "input_anchor_check": "exact_full_fields_valid",
+      "canonical_input_record_exact": null,
+      "text": "提问涉及长期噪声暴露与年龄相关听力下降的关系；",
+      "own_supports": [
+        {
+          "evidence_id": "E3",
+          "quote": "Long-term exposure to noise and some medical conditions can also play a role."
+        }
+      ],
+      "input_anchors": [
+        {
+          "field": "question",
+          "quote": "我退休前长期处在嘈杂环境，年龄相关听力下降是否只有衰老这一个因素？",
+          "state": "reported"
+        }
+      ],
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-025-CONTEXT/input_explanation/1",
+      "content_sha256": "126f00b910442d1a58dd38d2c90a11fec3559da171f22071ef46f59ea405c402",
+      "source_kind": "medical_comparison",
+      "assessment": "supported_with_limits",
+      "issue": null,
+      "reason": "question完整原话有退休前长期嘈杂环境；解释区分长期噪声可能作用与个人确定因果，未提供个体诊断。",
+      "own_quote_matches": true,
+      "input_anchor_check": "exact_full_fields_valid",
+      "canonical_input_record_exact": null,
+      "text": "资料提示长期噪声暴露也可能起作用，但为群体层面关联，不能据此判断个人病因。",
+      "own_supports": [
+        {
+          "evidence_id": "E3",
+          "quote": "Long-term exposure to noise and some medical conditions can also play a role."
+        }
+      ],
+      "input_anchors": [
+        {
+          "field": "question",
+          "quote": "我退休前长期处在嘈杂环境，年龄相关听力下降是否只有衰老这一个因素？",
+          "state": "reported"
+        }
+      ],
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-025-CONTEXT/patient_summary/0",
+      "content_sha256": "8cbbeb5156adb7a05480900f9137baaa90f278ff9c362015448846506095530a",
+      "source_kind": "medical_claim",
+      "assessment": "supported_with_limits",
+      "issue": null,
+      "reason": "多因素与年龄增长影响听力对应原句，没有补造患者既往疾病或宣称单一病因。",
+      "own_quote_matches": true,
+      "input_anchor_check": "not_applicable",
+      "canonical_input_record_exact": null,
+      "text": "随年龄增长，听力会受多种因素影响，不只是衰老。",
+      "own_supports": [
+        {
+          "evidence_id": "E3",
+          "quote": "Many things affect our hearing as we age."
+        }
+      ],
+      "input_anchors": [],
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-030-CONTEXT/professional/0",
+      "content_sha256": "dfa8cbd4502b68d864463db795ec1b36419256bceb55c9cce7a207dbb0053dd7",
+      "source_kind": "medical_claim",
+      "assessment": "supported_with_limits",
+      "issue": null,
+      "reason": "保留部分人群以及情绪、睡眠或集中注意力影响的范围，患者摘要未加入第二人称个体患病判断。",
+      "own_quote_matches": true,
+      "input_anchor_check": "not_applicable",
+      "canonical_input_record_exact": null,
+      "text": "部分耳鸣者会感到耳鸣影响情绪以及睡眠或集中注意力的能力。",
+      "own_supports": [
+        {
+          "evidence_id": "E1",
+          "quote": "However, some people find that it affects their mood and their ability to sleep or concentrate."
+        }
+      ],
+      "input_anchors": [],
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-030-CONTEXT/professional/1",
+      "content_sha256": "b590890919bbb5abef0b4c5b4a249f7f310679780ec2a42070335e882c0ab23b",
+      "source_kind": "medical_claim",
+      "assessment": "supported_with_limits",
+      "issue": null,
+      "reason": "保留失代偿性耳鸣及共病发生/加重的限定，没有把该研究分类强加给咨询者；因果措辞仅转述归档原文，不是本次独立医学证明。",
+      "own_quote_matches": true,
+      "input_anchor_check": "not_applicable",
+      "canonical_input_record_exact": null,
+      "text": "失代偿性耳鸣可伴随焦虑、睡眠障碍、注意力障碍、抑郁等共病的发生或加重。",
+      "own_supports": [
+        {
+          "evidence_id": "E2",
+          "quote": "Decompensated tinnitus: The ringing in the ears has a massive impact on all areas of life and leads to the development or aggravation of comorbidity (see Table 1; e.g. anxiety, sleep disorders, concentration disorders, depression)."
+        }
+      ],
+      "input_anchors": [],
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-030-CONTEXT/patient_summary/0",
+      "content_sha256": "1ba3e11a923f4a55f5ca574b96a0acebea412132652f766e3f08ac3535ce6b98",
+      "source_kind": "medical_claim",
+      "assessment": "supported_with_limits",
+      "issue": null,
+      "reason": "保留部分人群以及情绪、睡眠或集中注意力影响的范围，患者摘要未加入第二人称个体患病判断。",
+      "own_quote_matches": true,
+      "input_anchor_check": "not_applicable",
+      "canonical_input_record_exact": null,
+      "text": "有些耳鸣的人会发现，耳鸣会影响情绪，以及睡眠或集中注意力的能力。",
+      "own_supports": [
+        {
+          "evidence_id": "E1",
+          "quote": "However, some people find that it affects their mood and their ability to sleep or concentrate."
+        }
+      ],
+      "input_anchors": [],
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "ANCHOR-NOISE-001/professional/0",
+      "content_sha256": "fbeadf1ac04cfc4adbf3d132131eff2b2f937190d00af5c63c26373fee54e08d",
+      "source_kind": "medical_claim",
+      "assessment": "supported_with_limits",
+      "issue": null,
+      "reason": "保留长期噪声和某些医学状况可能起作用的限定；不把可能相关写成该患者已证实病因。",
+      "own_quote_matches": true,
+      "input_anchor_check": "not_applicable",
+      "canonical_input_record_exact": null,
+      "text": "资料指出长期暴露于噪声也可能对听力起作用。",
+      "own_supports": [
+        {
+          "evidence_id": "E5",
+          "quote": "Long-term exposure to noise and some medical conditions can also play a role."
+        }
+      ],
+      "input_anchors": [],
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "ANCHOR-NOISE-001/professional/1",
+      "content_sha256": "74271c475326d014ef62ebe4074ebe406a0f6801d8da8147ea4672d5784ee50c",
+      "source_kind": "medical_claim",
+      "assessment": "supported_with_limits",
+      "issue": null,
+      "reason": "只说噪声所致听力损失可防护，与原文后半句对应，不声称年龄相关听力损失已知可预防。",
+      "own_quote_matches": true,
+      "input_anchor_check": "not_applicable",
+      "canonical_input_record_exact": null,
+      "text": "资料提示噪声所致听力损失可以采取防护措施。",
+      "own_supports": [
+        {
+          "evidence_id": "E3",
+          "quote": "Scientists don't yet know how to prevent age-related hearing loss, but you can protect yourself from noise-induced hearing loss."
+        }
+      ],
+      "input_anchors": [],
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "ANCHOR-NOISE-001/patient_summary/0",
+      "content_sha256": "56d4c7275a192e882831a8172036f401100647230c8fb1d4ddcedb6a8d9a5459",
+      "source_kind": "medical_claim",
+      "assessment": "supported_with_limits",
+      "issue": null,
+      "reason": "保留长期噪声和某些医学状况可能起作用的限定；不把可能相关写成该患者已证实病因。",
+      "own_quote_matches": true,
+      "input_anchor_check": "not_applicable",
+      "canonical_input_record_exact": null,
+      "text": "长期暴露于噪声也可能对听力起作用。",
+      "own_supports": [
+        {
+          "evidence_id": "E5",
+          "quote": "Long-term exposure to noise and some medical conditions can also play a role."
+        }
+      ],
+      "input_anchors": [],
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "ANCHOR-TINNITUS-002/professional/0",
+      "content_sha256": "89893952c00a3fb07386779067e9451141e51ec96a2292b610049bd9799f936a",
+      "source_kind": "medical_claim",
+      "assessment": "supported_with_limits",
+      "issue": null,
+      "reason": "保留失代偿性耳鸣及共病发生/加重的限定，没有把该研究分类强加给咨询者；因果措辞仅转述归档原文，不是本次独立医学证明。",
+      "own_quote_matches": true,
+      "input_anchor_check": "not_applicable",
+      "canonical_input_record_exact": null,
+      "text": "资料将失代偿性耳鸣描述为对生活多个方面有巨大影响，并可能促成或加重共病，例如睡眠障碍和注意力障碍。",
+      "own_supports": [
+        {
+          "evidence_id": "E2",
+          "quote": "Decompensated tinnitus: The ringing in the ears has a massive impact on all areas of life and leads to the development or aggravation of comorbidity (see Table 1; e.g. anxiety, sleep disorders, concentration disorders, depression)."
+        }
+      ],
+      "input_anchors": [],
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "ANCHOR-TINNITUS-002/professional/1",
+      "content_sha256": "1bdf1cf6a6382bf87ab9c9f773eaf7f5009a4601ac9da9363970643ebaf423d1",
+      "source_kind": "medical_claim",
+      "assessment": "supported_with_limits",
+      "issue": null,
+      "reason": "痛苦体验有多个侧面且患者间不同与本条原句对应，不把主观性或个体差异变为统一结论。",
+      "own_quote_matches": true,
+      "input_anchor_check": "not_applicable",
+      "canonical_input_record_exact": null,
+      "text": "资料提到耳鸣的痛苦体验有多个侧面，且因患者而异。",
+      "own_supports": [
+        {
+          "evidence_id": "E6",
+          "quote": "Second, it is mostly purely subjective, which makes outcome measurement challenging, and third, suffering from tinnitus has many facets, which vary from patient to patient."
+        }
+      ],
+      "input_anchors": [],
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "ANCHOR-TINNITUS-002/input_explanation/0",
+      "content_sha256": "cbc5ded902ed202abb33478d76f96843c56ae2ea02c613267e0222af70907fde",
+      "source_kind": "patient_input",
+      "assessment": "input_record_exact",
+      "issue": null,
+      "reason": "与服务端从已验证完整原话重建的固定文本一致；reported与denied字段如实保留，否认眩晕未转为阳性。只计原话记录，不计医学引用或医学比较成功。",
+      "own_quote_matches": null,
+      "input_anchor_check": "exact_full_fields_valid",
+      "canonical_input_record_exact": true,
+      "text": "填写原话（未经临床确认）：主诉：合成记录：耳鸣后睡不好，注意力难集中；病史：否认眩晕",
+      "own_supports": [],
+      "input_anchors": [
+        {
+          "field": "chief_complaint",
+          "quote": "合成记录：耳鸣后睡不好，注意力难集中",
+          "state": "reported"
+        },
+        {
+          "field": "history",
+          "quote": "否认眩晕",
+          "state": "denied"
+        }
+      ],
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "ANCHOR-TINNITUS-002/patient_summary/0",
+      "content_sha256": "6e7d0112436e33d668308065961dd77e261e411639e6521a598b3dfc0ad67a28",
+      "source_kind": "medical_claim",
+      "assessment": "supported_with_limits",
+      "issue": null,
+      "reason": "保留失代偿性耳鸣及共病发生/加重的限定，没有把该研究分类强加给咨询者；因果措辞仅转述归档原文，不是本次独立医学证明。",
+      "own_quote_matches": true,
+      "input_anchor_check": "not_applicable",
+      "canonical_input_record_exact": null,
+      "text": "失代偿性耳鸣会对生活的方方面面造成很大影响，并可能促使或加重同时存在的其他问题，比如睡眠障碍和注意力障碍。",
+      "own_supports": [
+        {
+          "evidence_id": "E2",
+          "quote": "Decompensated tinnitus: The ringing in the ears has a massive impact on all areas of life and leads to the development or aggravation of comorbidity (see Table 1; e.g. anxiety, sleep disorders, concentration disorders, depression)."
+        }
+      ],
+      "input_anchors": [],
+      "clinical_approval": false
+    }
+  ],
+  "state_probe_outcomes": [
+    {
+      "case_id": "ANCHOR-NOISE-001",
+      "answer_status": "answered",
+      "error_code": null,
+      "input_explanations": 0,
+      "patient_input_records": 0,
+      "medical_comparisons": 0,
+      "anchor_states": []
+    },
+    {
+      "case_id": "ANCHOR-TINNITUS-002",
+      "answer_status": "answered",
+      "error_code": null,
+      "input_explanations": 1,
+      "patient_input_records": 1,
+      "medical_comparisons": 0,
+      "anchor_states": [
+        "denied",
+        "reported"
+      ]
+    },
+    {
+      "case_id": "ANCHOR-VOICE-003",
+      "answer_status": "validation_failed",
+      "error_code": "input_anchor_quote_mismatch",
+      "input_explanations": 0,
+      "patient_input_records": 0,
+      "medical_comparisons": 0,
+      "anchor_states": []
+    },
+    {
+      "case_id": "BATCH-STATE-DENIED",
+      "answer_status": "validation_failed",
+      "error_code": "source_scope_overreach",
+      "input_explanations": 0,
+      "patient_input_records": 0,
+      "medical_comparisons": 0,
+      "anchor_states": []
+    },
+    {
+      "case_id": "BATCH-STATE-UNKNOWN",
+      "answer_status": "validation_failed",
+      "error_code": "input_anchor_state_mismatch",
+      "input_explanations": 0,
+      "patient_input_records": 0,
+      "medical_comparisons": 0,
+      "anchor_states": []
+    },
+    {
+      "case_id": "BATCH-STATE-MIXED",
+      "answer_status": "validation_failed",
+      "error_code": "source_scope_overreach",
+      "input_explanations": 0,
+      "patient_input_records": 0,
+      "medical_comparisons": 0,
+      "anchor_states": []
+    }
+  ],
+  "limitations": [
+    "Patient-input exact record has no medical supports: quote match is null, not all-empty true; it is not medical_comparison success.",
+    "Source-language raspy/anaphylaxis/AD preservation does not prove patient readability or approved medical translation.",
+    "Own quote and anchor match do not prove medical validity or complete semantic fidelity.",
+    "Review covers only displayed material of this release iteration; earlier successes do not replace failures.",
+    "UNKNOWN and MIXED failed in this release; DENIED probe failed, although an anchor tinnitus case retained reported+denied as fixed input record.",
+    "Any later offline current-guard revalidation is separate from this archived release result, not its original generation or a new paid full run."
+  ]
+}

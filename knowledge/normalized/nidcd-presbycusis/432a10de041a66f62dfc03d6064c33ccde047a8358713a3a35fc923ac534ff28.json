@@ -1,0 +1,594 @@
+{
+  "paragraphs": [
+    {
+      "text": "Why do we lose our hearing as we get older?",
+      "section": "Overview",
+      "locator": "main/block[1]"
+    },
+    {
+      "text": "Can I prevent age-related hearing loss?",
+      "section": "Overview",
+      "locator": "main/block[2]"
+    },
+    {
+      "text": "How can I tell if I have a hearing problem?",
+      "section": "Overview",
+      "locator": "main/block[3]"
+    },
+    {
+      "text": "What should I do if I have trouble hearing?",
+      "section": "Overview",
+      "locator": "main/block[4]"
+    },
+    {
+      "text": "What treatments and devices can help?",
+      "section": "Overview",
+      "locator": "main/block[5]"
+    },
+    {
+      "text": "How can my friends and family help me?",
+      "section": "Overview",
+      "locator": "main/block[6]"
+    },
+    {
+      "text": "What research does NIDCD support on age-related hearing loss?",
+      "section": "Overview",
+      "locator": "main/block[7]"
+    },
+    {
+      "text": "Where can I find more information about age-related hearing loss?",
+      "section": "Overview",
+      "locator": "main/block[8]"
+    },
+    {
+      "text": "Age-related hearing loss (also called presbycusis, pronounced prez-buh-KYOO-sis) is hearing loss that occurs gradually for many of us as we grow older. It is one of the most common conditions affecting adults as we age. Approximately 15% of American adults (37.5 million) ages 18 and over report some trouble hearing, and about one in three people in the U.S. between the ages of 65 and 74 has hearing loss. Nearly half of those older than 75 have difficulty hearing.",
+      "section": "What is age-related hearing loss?",
+      "locator": "main/block[9]"
+    },
+    {
+      "text": "Having trouble hearing can make it hard to understand and follow a doctor's advice, respond to warnings, and hear phones, doorbells, and smoke alarms. Hearing loss can also make it hard to enjoy talking with family and friends, leading to feelings of isolation.",
+      "section": "What is age-related hearing loss?",
+      "locator": "main/block[10]"
+    },
+    {
+      "text": "Hearing loss typically occurs in both ears as we age. Because the loss is gradual, you may not realize that you've lost some of your ability to hear.",
+      "section": "What is age-related hearing loss?",
+      "locator": "main/block[11]"
+    },
+    {
+      "text": "Many things affect our hearing as we age. For example, changes in the inner ear that can affect hearing are common. Age-related changes in the middle ear and complex changes along the nerve pathways from the ear to the brain can also affect hearing. Long-term exposure to noise and some medical conditions can also play a role. In addition, new research suggests that certain genes make some people more susceptible to hearing loss as they age.",
+      "section": "Why do we lose our hearing as we get older?",
+      "locator": "main/block[12]"
+    },
+    {
+      "text": "Conditions that are more common in older people, such as high blood pressure and diabetes, are associated with hearing loss. In addition, medications that are toxic to the sensory cells in your ears (some chemotherapy drugs, for example) can cause hearing loss. Less commonly, abnormalities of the middle ear, such as otosclerosis, can worsen hearing with age.",
+      "section": "Why do we lose our hearing as we get older?",
+      "locator": "main/block[13]"
+    },
+    {
+      "text": "Scientists don't yet know how to prevent age-related hearing loss, but you can protect yourself from noise-induced hearing loss. Potential sources of damaging noises include loud music, headphones/earbuds used at high volume, construction equipment, fireworks, guns, lawn mowers, leaf blowers, and motorcycles. To help safeguard your hearing as you age, avoid loud noises, reduce the amount of time you're exposed to loud sounds, and protect your ears with earplugs or protective earmuffs.",
+      "section": "Can I prevent age-related hearing loss?",
+      "locator": "main/block[14]"
+    },
+    {
+      "text": "Ask yourself the following questions. If you answer “yes” to two or more of these questions, or “sometimes” to three or more of these questions, you could have hearing loss and should consider having your hearing checked.",
+      "section": "How can I tell if I have a hearing problem?",
+      "locator": "main/block[15]"
+    },
+    {
+      "text": "Does a hearing problem cause you difficulty when listening to TV or radio?",
+      "section": "How can I tell if I have a hearing problem?",
+      "locator": "main/block[16]"
+    },
+    {
+      "text": "Does a hearing problem cause you difficulty when attending a party?",
+      "section": "How can I tell if I have a hearing problem?",
+      "locator": "main/block[17]"
+    },
+    {
+      "text": "Does a hearing problem cause you to feel frustrated when talking to members of your family?",
+      "section": "How can I tell if I have a hearing problem?",
+      "locator": "main/block[18]"
+    },
+    {
+      "text": "Does a hearing problem cause you to feel left out when you are with a group of people?",
+      "section": "How can I tell if I have a hearing problem?",
+      "locator": "main/block[19]"
+    },
+    {
+      "text": "Does a hearing problem cause you difficulty when visiting friends, relatives, or neighbors?",
+      "section": "How can I tell if I have a hearing problem?",
+      "locator": "main/block[20]"
+    },
+    {
+      "text": "Do you feel challenged by a hearing problem?",
+      "section": "How can I tell if I have a hearing problem?",
+      "locator": "main/block[21]"
+    },
+    {
+      "text": "Do you feel that any difficulty with your hearing limits or hampers your personal or social life?",
+      "section": "How can I tell if I have a hearing problem?",
+      "locator": "main/block[22]"
+    },
+    {
+      "text": "Does a hearing problem cause you to feel uncomfortable when talking to friends?",
+      "section": "How can I tell if I have a hearing problem?",
+      "locator": "main/block[23]"
+    },
+    {
+      "text": "Does a hearing problem cause you to avoid groups of people?",
+      "section": "How can I tell if I have a hearing problem?",
+      "locator": "main/block[24]"
+    },
+    {
+      "text": "Does a hearing problem cause you to visit friends, relatives, or neighbors less often than you would like?",
+      "section": "How can I tell if I have a hearing problem?",
+      "locator": "main/block[25]"
+    },
+    {
+      "text": "Adapted from: Cassarly C, Matthews LJ, Simpson AN, Dubno JR. The Revised Hearing Handicap Inventory and Screening Tool Based on Psychometric Reevaluation of the Hearing Handicap Inventories for the Elderly and Adults. Ear Hear. 2020 Jan/Feb;41(1):95-105. doi: 10.1097/AUD.0000000000000746. PMID: 31124792; PMCID: PMC6864238.",
+      "section": "How can I tell if I have a hearing problem?",
+      "locator": "main/block[26]"
+    },
+    {
+      "text": "If you are concerned about your hearing, you have options for your next steps. Start by learning more about hearing loss. Depending on your symptoms, you might consider over-the-counter hearing aids. If your symptoms are complex, or if you have questions about next steps, consider seeking advice from a hearing health care provider. Primary care physicians, otolaryngologists, and audiologists can be important parts of your hearing health care. Each has a different type of training and expertise:",
+      "section": "What should I do if I have trouble hearing?",
+      "locator": "main/block[27]"
+    },
+    {
+      "text": "A primary care physician is a doctor who practices general medicine and is often our first stop for medical care. This health care provider can refer you to a specialist, if needed, and can also help to determine whether you have other medical conditions that can contribute to hearing loss.",
+      "section": "What should I do if I have trouble hearing?",
+      "locator": "main/block[28]"
+    },
+    {
+      "text": "An otolaryngologist (pronounced oh-toe-lair-in-GAH-luh-jist) is a doctor who specializes in diagnosing and treating diseases of the ear, nose, throat, and neck. An otolaryngologist, often called an ENT, will try to find out why you're having trouble hearing and offer treatment options. Otolaryngologists often work closely with and may refer you to an audiologist.",
+      "section": "What should I do if I have trouble hearing?",
+      "locator": "main/block[29]"
+    },
+    {
+      "text": "An audiologist (pronounced aw-dee-AH-luh-jist) has specialized training in identifying and measuring hearing loss, determining where along the auditory pathway there may be a problem with hearing, and recommending and providing certain hearing loss interventions, such as hearing aids.",
+      "section": "What should I do if I have trouble hearing?",
+      "locator": "main/block[30]"
+    },
+    {
+      "text": "Treatment will depend on the severity of your hearing loss, so some treatments or devices will work better for you than others. A number of devices and aids can help when you have hearing loss. Here are the most common ones:",
+      "section": "What treatments and devices can help?",
+      "locator": "main/block[31]"
+    },
+    {
+      "text": "Hearing aids are electronic instruments you wear in or behind your ear. They make sounds louder. For mild to moderate hearing loss, a new category of hearing aids for adults was established in 2022 by the U.S. Food and Drug Administration. These devices may be purchased over the counter (OTC) from retail or online outlets without seeing a health care professional or getting a hearing test. If you have tried an OTC hearing aid without success or have trouble hearing loud sounds, consult a hearing health professional, because your hearing loss may be more severe.",
+      "section": "What treatments and devices can help?",
+      "locator": "main/block[32]"
+    },
+    {
+      "text": "Cochlear implants. Cochlear (pronounced COKE-lee-ur) implants are small electronic devices that are surgically implanted in the inner ear and help provide a sense of sound to people who are profoundly deaf or have severe hearing loss.",
+      "section": "What treatments and devices can help?",
+      "locator": "main/block[33]"
+    },
+    {
+      "text": "Assistive listening devices include telephone and cellphone amplifying devices, apps for use with a smartphone or tablet, and closed-circuit systems (hearing loop systems) in some theaters, auditoriums, and places of worship.",
+      "section": "What treatments and devices can help?",
+      "locator": "main/block[34]"
+    },
+    {
+      "text": "You and your family can work together to make living with hearing loss easier. Here are some things you can do:",
+      "section": "How can my friends and family help me?",
+      "locator": "main/block[35]"
+    },
+    {
+      "text": "Tell your friends and family about your hearing loss. Explain which listening situations are hard for you.",
+      "section": "How can my friends and family help me?",
+      "locator": "main/block[36]"
+    },
+    {
+      "text": "Ask your friends and family to face you when they talk so that you can see their expressions and lip movements. This may help you to understand what they’re saying.",
+      "section": "How can my friends and family help me?",
+      "locator": "main/block[37]"
+    },
+    {
+      "text": "Ask people to speak louder, but not shout. You may need to ask them to slow down when they speak, or to speak more clearly.",
+      "section": "How can my friends and family help me?",
+      "locator": "main/block[38]"
+    },
+    {
+      "text": "Turn off or turn down the volume of background noise, such as the TV, when you’re trying to have a conversation.",
+      "section": "How can my friends and family help me?",
+      "locator": "main/block[39]"
+    },
+    {
+      "text": "Be aware of noise around you that can make hearing more difficult. When you go to a restaurant, for example, don't sit near the kitchen or near a band playing music. Ask for seating in a quiet area. Sitting in a booth can help soften or block noise.",
+      "section": "How can my friends and family help me?",
+      "locator": "main/block[40]"
+    },
+    {
+      "text": "NIDCD supports research on the causes of age-related hearing loss, including genes that may make this type of hearing loss more likely. NIDCD-funded scientists are working to understand what happens as we age that interferes with our ability to hear speech in a noisy environment. NIDCD also funds research that explores changes in how the brain processes sound when we lose our hearing. The research to date supports the use of hearing aids to maintain the brain’s sound-processing capabilities.",
+      "section": "What research does NIDCD support on age-related hearing loss?",
+      "locator": "main/block[41]"
+    },
+    {
+      "text": "NIDCD-supported research provided critical data that contributed to the FDA’s decision to make hearing aids available over the counter, without a prescription or health care examination, for adults who believe they have mild to moderate hearing loss. NIDCD continues to support research on ways to make adult hearing health care more accessible and affordable.",
+      "section": "What research does NIDCD support on age-related hearing loss?",
+      "locator": "main/block[42]"
+    }
+  ],
+  "chunks": [
+    {
+      "id": "99edc1425d0a1feb1b44f94f",
+      "text": "Why do we lose our hearing as we get older?",
+      "section": "Overview",
+      "locator": "main/block[1]",
+      "start": 0,
+      "end": 43,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "66f0317038a260038f98bb31",
+      "text": "Can I prevent age-related hearing loss?",
+      "section": "Overview",
+      "locator": "main/block[2]",
+      "start": 0,
+      "end": 39,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "47bf5b7fda335d83fa0741f8",
+      "text": "How can I tell if I have a hearing problem?",
+      "section": "Overview",
+      "locator": "main/block[3]",
+      "start": 0,
+      "end": 43,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "540cc3076638f0d291665c3a",
+      "text": "What should I do if I have trouble hearing?",
+      "section": "Overview",
+      "locator": "main/block[4]",
+      "start": 0,
+      "end": 43,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "1efe6129ad27281f19e9d8a5",
+      "text": "What treatments and devices can help?",
+      "section": "Overview",
+      "locator": "main/block[5]",
+      "start": 0,
+      "end": 37,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "14033b01e031e14818672040",
+      "text": "How can my friends and family help me?",
+      "section": "Overview",
+      "locator": "main/block[6]",
+      "start": 0,
+      "end": 38,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "1bea6a5a4fd42ab99c3e9b1a",
+      "text": "What research does NIDCD support on age-related hearing loss?",
+      "section": "Overview",
+      "locator": "main/block[7]",
+      "start": 0,
+      "end": 61,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "14cb4962f34a316683fcdb76",
+      "text": "Where can I find more information about age-related hearing loss?",
+      "section": "Overview",
+      "locator": "main/block[8]",
+      "start": 0,
+      "end": 65,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "af9c7dc42f6f0dbf0684df3c",
+      "text": "Age-related hearing loss (also called presbycusis, pronounced prez-buh-KYOO-sis) is hearing loss that occurs gradually for many of us as we grow older. It is one of the most common conditions affecting adults as we age. Approximately 15% of American adults (37.5 million) ages 18 and over report some trouble hearing, and about one in three people in the U.S. between the ages of 65 and 74 has hearing loss. Nearly half of those older than 75 have difficulty hearing.",
+      "section": "What is age-related hearing loss?",
+      "locator": "main/block[9]",
+      "start": 0,
+      "end": 467,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "c4bb0acdfcfb8b21446cd1df",
+      "text": "Having trouble hearing can make it hard to understand and follow a doctor's advice, respond to warnings, and hear phones, doorbells, and smoke alarms. Hearing loss can also make it hard to enjoy talking with family and friends, leading to feelings of isolation.",
+      "section": "What is age-related hearing loss?",
+      "locator": "main/block[10]",
+      "start": 0,
+      "end": 261,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "d9a2423dc26463e9a3240c7e",
+      "text": "Hearing loss typically occurs in both ears as we age. Because the loss is gradual, you may not realize that you've lost some of your ability to hear.",
+      "section": "What is age-related hearing loss?",
+      "locator": "main/block[11]",
+      "start": 0,
+      "end": 149,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "4c47935a38854c9ad7060630",
+      "text": "Many things affect our hearing as we age. For example, changes in the inner ear that can affect hearing are common. Age-related changes in the middle ear and complex changes along the nerve pathways from the ear to the brain can also affect hearing. Long-term exposure to noise and some medical conditions can also play a role. In addition, new research suggests that certain genes make some people more susceptible to hearing loss as they age.",
+      "section": "Why do we lose our hearing as we get older?",
+      "locator": "main/block[12]",
+      "start": 0,
+      "end": 444,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "8c56a76a9c3ae5627f45f02f",
+      "text": "Conditions that are more common in older people, such as high blood pressure and diabetes, are associated with hearing loss. In addition, medications that are toxic to the sensory cells in your ears (some chemotherapy drugs, for example) can cause hearing loss. Less commonly, abnormalities of the middle ear, such as otosclerosis, can worsen hearing with age.",
+      "section": "Why do we lose our hearing as we get older?",
+      "locator": "main/block[13]",
+      "start": 0,
+      "end": 360,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "d63edf9a0c16b35a3f49d7c3",
+      "text": "Scientists don't yet know how to prevent age-related hearing loss, but you can protect yourself from noise-induced hearing loss. Potential sources of damaging noises include loud music, headphones/earbuds used at high volume, construction equipment, fireworks, guns, lawn mowers, leaf blowers, and motorcycles. To help safeguard your hearing as you age, avoid loud noises, reduce the amount of time you're exposed to loud sounds, and protect your ears with earplugs or protective earmuffs.",
+      "section": "Can I prevent age-related hearing loss?",
+      "locator": "main/block[14]",
+      "start": 0,
+      "end": 489,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "14c83544434941d41d735b39",
+      "text": "Ask yourself the following questions. If you answer “yes” to two or more of these questions, or “sometimes” to three or more of these questions, you could have hearing loss and should consider having your hearing checked.",
+      "section": "How can I tell if I have a hearing problem?",
+      "locator": "main/block[15]",
+      "start": 0,
+      "end": 221,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "ea43aa7e39d0ad544dc20dc9",
+      "text": "Does a hearing problem cause you difficulty when listening to TV or radio?",
+      "section": "How can I tell if I have a hearing problem?",
+      "locator": "main/block[16]",
+      "start": 0,
+      "end": 74,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "d89b51684480bed787ea1605",
+      "text": "Does a hearing problem cause you difficulty when attending a party?",
+      "section": "How can I tell if I have a hearing problem?",
+      "locator": "main/block[17]",
+      "start": 0,
+      "end": 67,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "9f473ae42ef0ac4a943bbf5e",
+      "text": "Does a hearing problem cause you to feel frustrated when talking to members of your family?",
+      "section": "How can I tell if I have a hearing problem?",
+      "locator": "main/block[18]",
+      "start": 0,
+      "end": 91,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "f5a2c90eaf4bdb04b69094b8",
+      "text": "Does a hearing problem cause you to feel left out when you are with a group of people?",
+      "section": "How can I tell if I have a hearing problem?",
+      "locator": "main/block[19]",
+      "start": 0,
+      "end": 86,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "0706c7167ea6b5b9e7463a5c",
+      "text": "Does a hearing problem cause you difficulty when visiting friends, relatives, or neighbors?",
+      "section": "How can I tell if I have a hearing problem?",
+      "locator": "main/block[20]",
+      "start": 0,
+      "end": 91,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "eb0cd98823fb5a9cf0145a6e",
+      "text": "Do you feel challenged by a hearing problem?",
+      "section": "How can I tell if I have a hearing problem?",
+      "locator": "main/block[21]",
+      "start": 0,
+      "end": 44,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "c3ad0a5573c2526c6279fde1",
+      "text": "Do you feel that any difficulty with your hearing limits or hampers your personal or social life?",
+      "section": "How can I tell if I have a hearing problem?",
+      "locator": "main/block[22]",
+      "start": 0,
+      "end": 97,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "fa19d1f2a05d8e34258da960",
+      "text": "Does a hearing problem cause you to feel uncomfortable when talking to friends?",
+      "section": "How can I tell if I have a hearing problem?",
+      "locator": "main/block[23]",
+      "start": 0,
+      "end": 79,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "3126e9848837982565ba929f",
+      "text": "Does a hearing problem cause you to avoid groups of people?",
+      "section": "How can I tell if I have a hearing problem?",
+      "locator": "main/block[24]",
+      "start": 0,
+      "end": 59,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "44917bcf82b11e0355022e37",
+      "text": "Does a hearing problem cause you to visit friends, relatives, or neighbors less often than you would like?",
+      "section": "How can I tell if I have a hearing problem?",
+      "locator": "main/block[25]",
+      "start": 0,
+      "end": 106,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "ed0cd7d5dd3af30c3767b0f5",
+      "text": "Adapted from: Cassarly C, Matthews LJ, Simpson AN, Dubno JR. The Revised Hearing Handicap Inventory and Screening Tool Based on Psychometric Reevaluation of the Hearing Handicap Inventories for the Elderly and Adults. Ear Hear. 2020 Jan/Feb;41(1):95-105. doi: 10.1097/AUD.0000000000000746. PMID: 31124792; PMCID: PMC6864238.",
+      "section": "How can I tell if I have a hearing problem?",
+      "locator": "main/block[26]",
+      "start": 0,
+      "end": 324,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "f88ea4146ceca9561ec67b5a",
+      "text": "If you are concerned about your hearing, you have options for your next steps. Start by learning more about hearing loss. Depending on your symptoms, you might consider over-the-counter hearing aids. If your symptoms are complex, or if you have questions about next steps, consider seeking advice from a hearing health care provider. Primary care physicians, otolaryngologists, and audiologists can be important parts of your hearing health care. Each has a different type of training and expertise:",
+      "section": "What should I do if I have trouble hearing?",
+      "locator": "main/block[27]",
+      "start": 0,
+      "end": 499,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "7d7fa8f5aa6638e8c75d3e8e",
+      "text": "A primary care physician is a doctor who practices general medicine and is often our first stop for medical care. This health care provider can refer you to a specialist, if needed, and can also help to determine whether you have other medical conditions that can contribute to hearing loss.",
+      "section": "What should I do if I have trouble hearing?",
+      "locator": "main/block[28]",
+      "start": 0,
+      "end": 291,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "8bce4a0b44dd05ad074ee8b7",
+      "text": "An otolaryngologist (pronounced oh-toe-lair-in-GAH-luh-jist) is a doctor who specializes in diagnosing and treating diseases of the ear, nose, throat, and neck. An otolaryngologist, often called an ENT, will try to find out why you're having trouble hearing and offer treatment options. Otolaryngologists often work closely with and may refer you to an audiologist.",
+      "section": "What should I do if I have trouble hearing?",
+      "locator": "main/block[29]",
+      "start": 0,
+      "end": 365,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "fd514eb177f93987712b726b",
+      "text": "An audiologist (pronounced aw-dee-AH-luh-jist) has specialized training in identifying and measuring hearing loss, determining where along the auditory pathway there may be a problem with hearing, and recommending and providing certain hearing loss interventions, such as hearing aids.",
+      "section": "What should I do if I have trouble hearing?",
+      "locator": "main/block[30]",
+      "start": 0,
+      "end": 285,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "c611e9224279b764d284b1aa",
+      "text": "Treatment will depend on the severity of your hearing loss, so some treatments or devices will work better for you than others. A number of devices and aids can help when you have hearing loss. Here are the most common ones:",
+      "section": "What treatments and devices can help?",
+      "locator": "main/block[31]",
+      "start": 0,
+      "end": 224,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "4da47b764cb62857cf41b3b6",
+      "text": "Hearing aids are electronic instruments you wear in or behind your ear. They make sounds louder. For mild to moderate hearing loss, a new category of hearing aids for adults was established in 2022 by the U.S. Food and Drug Administration. These devices may be purchased over the counter (OTC) from retail or online outlets without seeing a health care professional or getting a hearing test. If you have tried an OTC hearing aid without success or have trouble hearing loud sounds, consult a hearing health professional, because your hearing loss may be more severe.",
+      "section": "What treatments and devices can help?",
+      "locator": "main/block[32]",
+      "start": 0,
+      "end": 567,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "c1a60a6b9ac400f43843dd1c",
+      "text": "Cochlear implants. Cochlear (pronounced COKE-lee-ur) implants are small electronic devices that are surgically implanted in the inner ear and help provide a sense of sound to people who are profoundly deaf or have severe hearing loss.",
+      "section": "What treatments and devices can help?",
+      "locator": "main/block[33]",
+      "start": 0,
+      "end": 234,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "d2a15e0980d437c90db9160e",
+      "text": "Assistive listening devices include telephone and cellphone amplifying devices, apps for use with a smartphone or tablet, and closed-circuit systems (hearing loop systems) in some theaters, auditoriums, and places of worship.",
+      "section": "What treatments and devices can help?",
+      "locator": "main/block[34]",
+      "start": 0,
+      "end": 225,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "1a23fadb05f46e8377e24e32",
+      "text": "You and your family can work together to make living with hearing loss easier. Here are some things you can do:",
+      "section": "How can my friends and family help me?",
+      "locator": "main/block[35]",
+      "start": 0,
+      "end": 111,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "07a2b264b0da6b7370bec18f",
+      "text": "Tell your friends and family about your hearing loss. Explain which listening situations are hard for you.",
+      "section": "How can my friends and family help me?",
+      "locator": "main/block[36]",
+      "start": 0,
+      "end": 106,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "5caeeb96bdc3291b1f296ec5",
+      "text": "Ask your friends and family to face you when they talk so that you can see their expressions and lip movements. This may help you to understand what they’re saying.",
+      "section": "How can my friends and family help me?",
+      "locator": "main/block[37]",
+      "start": 0,
+      "end": 164,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "ea298e8a93411372404b1121",
+      "text": "Ask people to speak louder, but not shout. You may need to ask them to slow down when they speak, or to speak more clearly.",
+      "section": "How can my friends and family help me?",
+      "locator": "main/block[38]",
+      "start": 0,
+      "end": 123,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "3a3aefb555a0a9453a071e38",
+      "text": "Turn off or turn down the volume of background noise, such as the TV, when you’re trying to have a conversation.",
+      "section": "How can my friends and family help me?",
+      "locator": "main/block[39]",
+      "start": 0,
+      "end": 112,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "397a439e44d0fb0f9366c0d8",
+      "text": "Be aware of noise around you that can make hearing more difficult. When you go to a restaurant, for example, don't sit near the kitchen or near a band playing music. Ask for seating in a quiet area. Sitting in a booth can help soften or block noise.",
+      "section": "How can my friends and family help me?",
+      "locator": "main/block[40]",
+      "start": 0,
+      "end": 249,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "bc18e40fce10c7889a084eec",
+      "text": "NIDCD supports research on the causes of age-related hearing loss, including genes that may make this type of hearing loss more likely. NIDCD-funded scientists are working to understand what happens as we age that interferes with our ability to hear speech in a noisy environment. NIDCD also funds research that explores changes in how the brain processes sound when we lose our hearing. The research to date supports the use of hearing aids to maintain the brain’s sound-processing capabilities.",
+      "section": "What research does NIDCD support on age-related hearing loss?",
+      "locator": "main/block[41]",
+      "start": 0,
+      "end": 496,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "6a35ef545fa269521e020070",
+      "text": "NIDCD-supported research provided critical data that contributed to the FDA’s decision to make hearing aids available over the counter, without a prescription or health care examination, for adults who believe they have mild to moderate hearing loss. NIDCD continues to support research on ways to make adult hearing health care more accessible and affordable.",
+      "section": "What research does NIDCD support on age-related hearing loss?",
+      "locator": "main/block[42]",
+      "start": 0,
+      "end": 360,
+      "population_status": "adult_dev_candidate"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "batch": "3.5",
+  "workflow_cases": 26,
+  "case_status_counts": {
+    "answered": 12,
+    "insufficient_evidence": 7,
+    "needs_information": 6,
+    "validation_failed": 1
+  },
+  "validation_error_counts": {
+    "verification_missing_quote_alignment": 1
+  },
+  "strict_saved_answer_replays": 12,
+  "previous_raw_status_counts": {
+    "answered": 12,
+    "validation_failed": 5,
+    "insufficient_evidence": 3,
+    "needs_information": 6
+  },
+  "quality_accepted": false,
+  "clinical_approval": false,
+  "human_review": "pending",
+  "provider_request_total": null,
+  "independent_test_set": false,
+  "hashes": {
+    "dataset": "f6a62bc8ca64d4fba0e7c6ec4acbd99bdedce465fe0f79c27c59e546e40fda41",
+    "results": "72e3515b03a2fb07ec738cfeddfe6e46f579cc14d5492b998f1e971b8fe48d20",
+    "manifest": "9353624b26172ac0b673c34ac2d8a35fdfd6d9d060b614ae645a63f536f697df",
+    "previous_results": "5af6d8063eb7ee05aacbd6cc837c3f87ff3737c925ce2d8423b17ec99760dbdc"
+  },
+  "offline": {
+    "tests": 524,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "scope_boundaries": 8,
+  "semantic_withholds": 5,
+  "model_iterations": [
+    {
+      "directory": "live",
+      "counts": {
+        "answered": 12,
+        "insufficient_evidence": 4,
+        "needs_information": 6,
+        "validation_failed": 4
+      },
+      "results_sha256": "f3030a6fdbe7d9c3ba0ea57d4c461c5c2c92f53eb19fc4466bae446868dda499",
+      "manifest_sha256": "14f383736b96f73e107de1c50772f140eb33fe4d6ef3b3c7441f0245cffcbe1f"
+    },
+    {
+      "directory": "live-final",
+      "counts": {
+        "answered": 12,
+        "insufficient_evidence": 7,
+        "needs_information": 6,
+        "validation_failed": 1
+      },
+      "results_sha256": "72e3515b03a2fb07ec738cfeddfe6e46f579cc14d5492b998f1e971b8fe48d20",
+      "manifest_sha256": "9353624b26172ac0b673c34ac2d8a35fdfd6d9d060b614ae645a63f536f697df"
+    }
+  ],
+  "output_review": {
+    "report": "audit/model-output-review.json",
+    "sha256": "57b0908b041ad20f5b27990215679f0306ab0ef584e764e38f92e6e421c7138e",
+    "display_items": 54,
+    "medical_prose_items": 46,
+    "needs_review": 7,
+    "supported_with_limits": 39,
+    "input_record_exact": 8,
+    "medical_approval": false
+  }
+}

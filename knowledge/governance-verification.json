@@ -1,0 +1,19 @@
+{
+  "verified_at": "2026-10-19T04:00:22.443945+00:00",
+  "passed": true,
+  "registry_integrity": true,
+  "version_files_verified": 12,
+  "status": {
+    "schema_version": 1,
+    "states": {
+      "draft": 12
+    },
+    "active_snapshots": {
+      "development": "afaf8187-9cda-45f3-a80c-457433e2d2a2"
+    },
+    "metadata_only": 3
+  },
+  "development_query_hits": 1,
+  "production_query_hits": 0,
+  "clinical_review_performed": false
+}

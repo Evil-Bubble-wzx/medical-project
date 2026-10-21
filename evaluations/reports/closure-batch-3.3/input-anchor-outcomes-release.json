@@ -1,0 +1,137 @@
+{
+  "cases": [
+    {
+      "case_id": "GEN-ENT-002",
+      "outcome": "missing_input_explanation",
+      "input_explanations": 0
+    },
+    {
+      "case_id": "GEN-ENT-009",
+      "outcome": "answer_withheld",
+      "input_explanations": 0
+    },
+    {
+      "case_id": "GEN-ENT-015",
+      "outcome": "nonempty_anchors_valid",
+      "input_explanations": 1
+    },
+    {
+      "case_id": "GEN-ENT-025",
+      "outcome": "missing_input_explanation",
+      "input_explanations": 0
+    },
+    {
+      "case_id": "GEN-ENT-030",
+      "outcome": "missing_input_explanation",
+      "input_explanations": 0
+    },
+    {
+      "case_id": "GEN-ENT-036",
+      "outcome": "answer_withheld",
+      "input_explanations": 0
+    },
+    {
+      "case_id": "GEN-ENT-043",
+      "outcome": "answer_withheld",
+      "input_explanations": 0
+    },
+    {
+      "case_id": "GEN-ENT-044",
+      "outcome": "answer_withheld",
+      "input_explanations": 0
+    },
+    {
+      "case_id": "GEN-ENT-045",
+      "outcome": "answer_withheld",
+      "input_explanations": 0
+    },
+    {
+      "case_id": "GEN-ENT-047",
+      "outcome": "answer_withheld",
+      "input_explanations": 0
+    },
+    {
+      "case_id": "GEN-ENT-048",
+      "outcome": "answer_withheld",
+      "input_explanations": 0
+    },
+    {
+      "case_id": "GEN-ENT-049",
+      "outcome": "answer_withheld",
+      "input_explanations": 0
+    },
+    {
+      "case_id": "GEN-ENT-002-CONTEXT",
+      "outcome": "missing_input_explanation",
+      "input_explanations": 0
+    },
+    {
+      "case_id": "GEN-ENT-009-CONTEXT",
+      "outcome": "answer_withheld",
+      "input_explanations": 0
+    },
+    {
+      "case_id": "GEN-ENT-015-CONTEXT",
+      "outcome": "answer_withheld",
+      "input_explanations": 0
+    },
+    {
+      "case_id": "GEN-ENT-025-CONTEXT",
+      "outcome": "nonempty_anchors_valid",
+      "input_explanations": 2
+    },
+    {
+      "case_id": "GEN-ENT-030-CONTEXT",
+      "outcome": "missing_input_explanation",
+      "input_explanations": 0
+    },
+    {
+      "case_id": "GEN-ENT-036-CONTEXT",
+      "outcome": "answer_withheld",
+      "input_explanations": 0
+    },
+    {
+      "case_id": "ANCHOR-NOISE-001",
+      "outcome": "missing_input_explanation",
+      "input_explanations": 0
+    },
+    {
+      "case_id": "ANCHOR-TINNITUS-002",
+      "outcome": "input_record_only",
+      "input_explanations": 1
+    },
+    {
+      "case_id": "ANCHOR-VOICE-003",
+      "outcome": "answer_withheld",
+      "input_explanations": 0
+    },
+    {
+      "case_id": "BATCH-CONFLICT-UNKNOWN",
+      "outcome": "answer_withheld",
+      "input_explanations": 0
+    },
+    {
+      "case_id": "BATCH-CONFLICT-TIME",
+      "outcome": "answer_withheld",
+      "input_explanations": 0
+    },
+    {
+      "case_id": "BATCH-STATE-DENIED",
+      "outcome": "answer_withheld",
+      "input_explanations": 0
+    },
+    {
+      "case_id": "BATCH-STATE-UNKNOWN",
+      "outcome": "answer_withheld",
+      "input_explanations": 0
+    },
+    {
+      "case_id": "BATCH-STATE-MIXED",
+      "outcome": "answer_withheld",
+      "input_explanations": 0
+    }
+  ],
+  "clinical_approval": false,
+  "semantic_accuracy": null,
+  "note": "Nonempty exact anchors do not prove that the explanation is faithful."
+}

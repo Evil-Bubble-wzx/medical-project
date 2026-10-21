@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "checks": [
+    "model_and_local_record_checks_distinguished",
+    "mobile_no_horizontal_overflow",
+    "no_script_errors"
+  ],
+  "errors": [],
+  "mocked_requests": 1,
+  "external_provider_calls": 0,
+  "scope": "workbench UI with local mocked response; not live model browser integration"
+}

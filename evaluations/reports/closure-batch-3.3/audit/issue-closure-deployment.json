@@ -1,0 +1,63 @@
+{
+  "scope": "Final mechanical recheck of 7 archived patterns; not medical approval",
+  "source_findings_sha256": "06c981a6fb1b3f67bdd68d0c13c7982491db45f35f22b456fc7f9dd4192e02c1",
+  "items": [
+    {
+      "original_claim_id": "GEN-ENT-002/patient_summary/0",
+      "content_sha256": "fb1df4610e329b53fee71439920d916962ff8edbc38031dab98c08ad7378e4b9",
+      "observed_guard": "patient_summary_scope_shift",
+      "engineering_pattern_guarded": true,
+      "medical_review": "pending",
+      "clinical_approval": false
+    },
+    {
+      "original_claim_id": "GEN-ENT-002-CONTEXT/professional/2",
+      "content_sha256": "e1d8df5bd1cfe02769ddf2c2c488dfbf6b79f5e3eb4d5ea52062ff6622a28f30",
+      "observed_guard": "source_term_mismatch",
+      "engineering_pattern_guarded": true,
+      "medical_review": "pending",
+      "clinical_approval": false
+    },
+    {
+      "original_claim_id": "GEN-ENT-009-CONTEXT/input_explanation/0",
+      "content_sha256": "e5302bbf070ecbe6a8f23d38c568d44329e36750740fefcaf3716826426126d8",
+      "observed_guard": "input_duration_needs_confirmation",
+      "engineering_pattern_guarded": true,
+      "medical_review": "pending",
+      "clinical_approval": false
+    },
+    {
+      "original_claim_id": "GEN-ENT-009-CONTEXT/patient_summary/0",
+      "content_sha256": "f986b81ca0b180fbc0f77c4d67b48a691ed027fde14bd13d628104745c7ae69b",
+      "observed_guard": "patient_summary_diagnostic_overstatement",
+      "engineering_pattern_guarded": true,
+      "medical_review": "pending",
+      "clinical_approval": false
+    },
+    {
+      "original_claim_id": "GEN-ENT-036-CONTEXT/professional/0",
+      "content_sha256": "722e20d9a6fb38d2cacac5b2e23bede2135bc9311b20e82e56518efdf654f891",
+      "observed_guard": "source_term_mismatch",
+      "engineering_pattern_guarded": true,
+      "medical_review": "pending",
+      "clinical_approval": false
+    },
+    {
+      "original_claim_id": "GEN-ENT-036-CONTEXT/input_explanation/0",
+      "content_sha256": "5df076609a83b691c4de039b117a1dee8b6ef991da38d6ee9a125e7b0ba4662c",
+      "observed_guard": "input_attribution_mismatch",
+      "engineering_pattern_guarded": true,
+      "medical_review": "pending",
+      "clinical_approval": false
+    },
+    {
+      "original_claim_id": "GEN-ENT-036-CONTEXT/patient_summary/0",
+      "content_sha256": "29d8455c951e5ec0821641e6f1ab751d10cf6a41bf2616cf2ff781c08fe764ad",
+      "observed_guard": "source_term_mismatch",
+      "engineering_pattern_guarded": true,
+      "medical_review": "pending",
+      "clinical_approval": false
+    }
+  ],
+  "clinical_approval": false
+}

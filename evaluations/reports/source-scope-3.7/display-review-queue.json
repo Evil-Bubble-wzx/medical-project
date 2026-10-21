@@ -1,0 +1,772 @@
+{
+  "results_sha256": "8d1bd826d976bb6ac209baec88183ee8b3643ced85914d4fd38196e4dd9e5fcf",
+  "items": [
+    {
+      "claim_id": "GEN-ENT-002/professional:0",
+      "text": "成人过敏性鼻炎可与哮喘、AD、食物过敏、anaphylaxis等过敏性疾病谱中的疾病相关。",
+      "supports": [
+        {
+          "evidence_id": "E1",
+          "quote": "These can be subdivided into:Disorders which are part of the spectrum of allergic diseases, e.g. asthma, AD, food allergy, anaphylaxis;"
+        }
+      ],
+      "screen_status": "pending_independent_review",
+      "engineering_observation": null,
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-002/professional:1",
+      "text": "资料列出与鼻解剖相关的疾病包括结膜炎、鼻窦炎、中耳问题以及咽喉和喉部影响。",
+      "supports": [
+        {
+          "evidence_id": "E1",
+          "quote": "Disorders anatomically related to the nose: conjunctivitis, sinusitis, middle ear problems, throat and laryngeal effects;"
+        }
+      ],
+      "screen_status": "pending_independent_review",
+      "engineering_observation": null,
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-002/professional:2",
+      "text": "成人过敏性鼻炎相关的多病共存还包括睡眠问题及其对注意力和行为的继发影响。",
+      "supports": [
+        {
+          "evidence_id": "E1",
+          "quote": "Sleep problems and secondary effects on concentration and behaviour;"
+        }
+      ],
+      "screen_status": "pending_independent_review",
+      "engineering_observation": null,
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-002/professional:3",
+      "text": "资料列出的另一相关情况是鼻甲肥大。",
+      "supports": [
+        {
+          "evidence_id": "E1",
+          "quote": "andTurbinate hypertrophy."
+        }
+      ],
+      "screen_status": "pending_independent_review",
+      "engineering_observation": null,
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-002/professional:4",
+      "text": "鼻窦炎与鼻炎共存的程度存在争议，且急性鼻窦炎、慢性鼻窦炎和伴鼻息肉的慢性鼻窦炎之间可能不同。",
+      "supports": [
+        {
+          "evidence_id": "E3",
+          "quote": "The extent of co-occurrence of rhinosinusitis is disputed and is likely to be different in acute rhinosinusitis (ARS), chronic rhinosinusitis (CRS) and CRS with nasal polyposis."
+        }
+      ],
+      "screen_status": "pending_independent_review",
+      "engineering_observation": null,
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-002/input_explanation:0",
+      "text": "填写原话（未经临床确认）：年龄：35；问题：成人鼻炎除了鼻部表现，还可能同时涉及哪些部位或疾病？",
+      "supports": [],
+      "screen_status": "literal_record_not_medical_comparison",
+      "engineering_observation": null,
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-002/patient_summary:0",
+      "text": "成人过敏性鼻炎可能与哮喘、AD、食物过敏、anaphylaxis等过敏性疾病谱中的疾病相关。",
+      "supports": [
+        {
+          "evidence_id": "E1",
+          "quote": "These can be subdivided into:Disorders which are part of the spectrum of allergic diseases, e.g. asthma, AD, food allergy, anaphylaxis;"
+        }
+      ],
+      "screen_status": "pending_independent_review",
+      "engineering_observation": null,
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-009/professional:0",
+      "text": "12周只是从症状角度判断慢性病程的常用界值，并非绝对标准。",
+      "supports": [
+        {
+          "evidence_id": "E1",
+          "quote": "While a minimum duration of 12 weeks reflects a useful policy for chronic disease diagnosis from a symptomatic perspective, this need not be considered absolute."
+        }
+      ],
+      "screen_status": "needs_review",
+      "engineering_observation": "12周慢性病程表述未在本项限定鼻窦炎范围。",
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-009/professional:1",
+      "text": "在EPOS 2020中，慢性鼻窦炎（CRS）的诊断要求鼻炎/鼻窦炎症状持续≥12周且不中断。",
+      "supports": [
+        {
+          "evidence_id": "E1",
+          "quote": "In EPOS 2020, the diagnosis of CRS requires rhinosinusitis lasting for ≥12 weeks (without interruption, as patients may experience recurrent episodes of acute rhinosinusitis) [1, 2]."
+        }
+      ],
+      "screen_status": "pending_independent_review",
+      "engineering_observation": null,
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-009/professional:2",
+      "text": "急性鼻窦炎的诊断要求至少2项症状，其中至少1项为鼻塞、阻塞或流涕，并且具备面部疼痛/压迫感、头痛和/或嗅觉减退或丧失中的任一项。",
+      "supports": [
+        {
+          "evidence_id": "E6",
+          "quote": "Diagnosis of acute rhinosinusitis requires the presence of ≥2 symptoms, one of which should be either nasal blockage, obstruction, congestion, or discharge, and either facial pain/pressure, headache and/or reduction, or loss of smell [1, 2]."
+        }
+      ],
+      "screen_status": "pending_independent_review",
+      "engineering_observation": null,
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-009/professional:3",
+      "text": "慢性鼻窦炎（包括CRSwNP）需通过内镜或CT确认鼻腔鼻窦黏膜病变。",
+      "supports": [
+        {
+          "evidence_id": "E6",
+          "quote": "Although in routine clinical practice, acute rhinosinusitis may be diagnosed on clinical grounds alone, the importance of endoscopic/CT confirmation of CRS (and for CRSwNP) must be emphasized, as endoscopic/CT findings dictate disease classification and subsequent treatment planning."
+        }
+      ],
+      "screen_status": "pending_independent_review",
+      "engineering_observation": null,
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-009/input_explanation:0",
+      "text": "填写原话（未经临床确认）：问题：我鼻塞、嗅觉减退已经持续四个月，资料怎样区分慢性和短期鼻窦炎？",
+      "supports": [],
+      "screen_status": "literal_record_not_medical_comparison",
+      "engineering_observation": null,
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-009/patient_summary:0",
+      "text": "12周只是根据症状判断是否为慢性病程的常用分界值，并不是绝对标准。",
+      "supports": [
+        {
+          "evidence_id": "E1",
+          "quote": "While a minimum duration of 12 weeks reflects a useful policy for chronic disease diagnosis from a symptomatic perspective, this need not be considered absolute."
+        }
+      ],
+      "screen_status": "needs_review",
+      "engineering_observation": "沿用未限定疾病范围的12周病程表述。",
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-015/professional:0",
+      "text": "在这项成人急性中耳炎伴内耳受累的研究中，患者分别报告了耳鸣（51%）和眩晕（32%）。",
+      "supports": [
+        {
+          "evidence_id": "E1",
+          "quote": "There was also a high percentage of patients with tinnitus (51%) and vertigo (32%)."
+        }
+      ],
+      "screen_status": "pending_independent_review",
+      "engineering_observation": null,
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-015/professional:1",
+      "text": "该研究提到，按症状分别统计，主观听力下降、耳痛、耳漏、耳鸣和眩晕是患者最常陈述的症状。",
+      "supports": [
+        {
+          "evidence_id": "E2",
+          "quote": "The most common symptoms stated by the patients were subjective hearing loss (112/112, 100%), otalgia (111/112, 99%), otorrhea (61/112, 54%), tinnitus (57/112, 51%) and vertigo (34/112)."
+        }
+      ],
+      "screen_status": "pending_independent_review",
+      "engineering_observation": null,
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-015/input_explanation:0",
+      "text": "填写原话（未经临床确认）：问题：我是成人，急性中耳炎时同时耳鸣和眩晕，已有研究描述过这些伴随表现吗？",
+      "supports": [],
+      "screen_status": "literal_record_not_medical_comparison",
+      "engineering_observation": null,
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-015/patient_summary:0",
+      "text": "在这项关于成人急性中耳炎并累及内耳的研究里，患者中有51%的人报告了耳鸣，另有32%的人报告了眩晕，这两者是分别统计的。",
+      "supports": [
+        {
+          "evidence_id": "E1",
+          "quote": "There was also a high percentage of patients with tinnitus (51%) and vertigo (32%)."
+        }
+      ],
+      "screen_status": "pending_independent_review",
+      "engineering_observation": null,
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-025/professional:0",
+      "text": "随着年龄增长，听力会受到多种因素影响，而不只是衰老一项。",
+      "supports": [
+        {
+          "evidence_id": "E2",
+          "quote": "Many things affect our hearing as we age."
+        }
+      ],
+      "screen_status": "pending_independent_review",
+      "engineering_observation": null,
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-025/professional:1",
+      "text": "长期暴露于噪声以及某些医学状况也可能在年龄相关听力变化中起作用。",
+      "supports": [
+        {
+          "evidence_id": "E2",
+          "quote": "Long-term exposure to noise and some medical conditions can also play a role."
+        }
+      ],
+      "screen_status": "pending_independent_review",
+      "engineering_observation": null,
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-025/professional:2",
+      "text": "在老年人中更常见的高血压和糖尿病与听力损失相关。",
+      "supports": [
+        {
+          "evidence_id": "E3",
+          "quote": "Conditions that are more common in older people, such as high blood pressure and diabetes, are associated with hearing loss."
+        }
+      ],
+      "screen_status": "pending_independent_review",
+      "engineering_observation": null,
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-025/patient_summary:0",
+      "text": "听力随年龄增长会受多种因素影响，并不只是变老这一个原因。",
+      "supports": [
+        {
+          "evidence_id": "E2",
+          "quote": "Many things affect our hearing as we age."
+        }
+      ],
+      "screen_status": "pending_independent_review",
+      "engineering_observation": null,
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-030/professional:0",
+      "text": "部分耳鸣者发现耳鸣会影响情绪，并分别报告影响睡眠或注意力。",
+      "supports": [
+        {
+          "evidence_id": "E1",
+          "quote": "However, some people find that it affects their mood and their ability to sleep or concentrate."
+        }
+      ],
+      "screen_status": "pending_independent_review",
+      "engineering_observation": null,
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-030/professional:1",
+      "text": "失代偿性耳鸣可伴随或加重焦虑、睡眠障碍、注意力障碍、抑郁等共病。",
+      "supports": [
+        {
+          "evidence_id": "E2",
+          "quote": "Decompensated tinnitus: The ringing in the ears has a massive impact on all areas of life and leads to the development or aggravation of comorbidity (see Table 1; e.g. anxiety, sleep disorders, concentration disorders, depression)."
+        }
+      ],
+      "screen_status": "pending_independent_review",
+      "engineering_observation": null,
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-030/patient_summary:0",
+      "text": "有些耳鸣的人会发现耳鸣会影响情绪，并且分别说到耳鸣会影响睡眠或注意力。",
+      "supports": [
+        {
+          "evidence_id": "E1",
+          "quote": "However, some people find that it affects their mood and their ability to sleep or concentrate."
+        }
+      ],
+      "screen_status": "pending_independent_review",
+      "engineering_observation": null,
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-002-CONTEXT/professional:0",
+      "text": "成人过敏性鼻炎的相关问题中，属于过敏性疾病谱的包括哮喘、AD、食物过敏和anaphylaxis。",
+      "supports": [
+        {
+          "evidence_id": "E1",
+          "quote": "These can be subdivided into:Disorders which are part of the spectrum of allergic diseases, e.g. asthma, AD, food allergy, anaphylaxis;"
+        }
+      ],
+      "screen_status": "pending_independent_review",
+      "engineering_observation": null,
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-002-CONTEXT/professional:1",
+      "text": "与鼻解剖相关的包括结膜炎、鼻窦炎、中耳问题以及咽喉和喉部影响。",
+      "supports": [
+        {
+          "evidence_id": "E1",
+          "quote": "Disorders anatomically related to the nose: conjunctivitis, sinusitis, middle ear problems, throat and laryngeal effects;"
+        }
+      ],
+      "screen_status": "pending_independent_review",
+      "engineering_observation": null,
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-002-CONTEXT/professional:2",
+      "text": "成人过敏性鼻炎的相关问题还包括睡眠问题以及注意力和行为方面的继发影响。",
+      "supports": [
+        {
+          "evidence_id": "E1",
+          "quote": "Sleep problems and secondary effects on concentration and behaviour;"
+        }
+      ],
+      "screen_status": "pending_independent_review",
+      "engineering_observation": null,
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-002-CONTEXT/patient_summary:0",
+      "text": "在成人过敏性鼻炎相关的问题里，属于过敏性疾病这一类的有哮喘、AD、食物过敏和anaphylaxis。",
+      "supports": [
+        {
+          "evidence_id": "E1",
+          "quote": "These can be subdivided into:Disorders which are part of the spectrum of allergic diseases, e.g. asthma, AD, food allergy, anaphylaxis;"
+        }
+      ],
+      "screen_status": "pending_independent_review",
+      "engineering_observation": null,
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-009-CONTEXT/professional:0",
+      "text": "急性鼻窦炎的诊断需要至少2项症状，其中一项应为鼻塞、阻塞、充血或流涕，并且应有面部疼痛/压迫感、头痛和/或嗅觉减退或嗅觉丧失。",
+      "supports": [
+        {
+          "evidence_id": "E5",
+          "quote": "Diagnosis of acute rhinosinusitis requires the presence of ≥2 symptoms, one of which should be either nasal blockage, obstruction, congestion, or discharge, and either facial pain/pressure, headache and/or reduction, or loss of smell [1, 2]."
+        }
+      ],
+      "screen_status": "pending_independent_review",
+      "engineering_observation": null,
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-009-CONTEXT/professional:1",
+      "text": "在EPOS 2020中，慢性鼻窦炎的诊断要求鼻窦炎症状持续至少12周且不中断，因为患者可能出现急性鼻窦炎反复发作。",
+      "supports": [
+        {
+          "evidence_id": "E2",
+          "quote": "In EPOS 2020, the diagnosis of CRS requires rhinosinusitis lasting for ≥12 weeks (without interruption, as patients may experience recurrent episodes of acute rhinosinusitis) [1, 2]."
+        }
+      ],
+      "screen_status": "pending_independent_review",
+      "engineering_observation": null,
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-009-CONTEXT/professional:2",
+      "text": "从症状角度看，至少12周是慢性病诊断的一个有用标准，但不应视为绝对标准。",
+      "supports": [
+        {
+          "evidence_id": "E2",
+          "quote": "While a minimum duration of 12 weeks reflects a useful policy for chronic disease diagnosis from a symptomatic perspective, this need not be considered absolute."
+        }
+      ],
+      "screen_status": "needs_review",
+      "engineering_observation": "慢性病诊断的范围仍需结合原文上下文审核。",
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-009-CONTEXT/input_explanation:0",
+      "text": "填写原话（未经临床确认）：病程：四个月；问题：我鼻塞、嗅觉减退已经持续四个月，资料怎样区分慢性和短期鼻窦炎？",
+      "supports": [],
+      "screen_status": "literal_record_not_medical_comparison",
+      "engineering_observation": null,
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-009-CONTEXT/patient_summary:0",
+      "text": "要诊断急性鼻窦炎，至少要有2项症状，其中一项可以是鼻塞、鼻堵、鼻子充血或流鼻涕，同时还要有面部疼痛或压迫感、头痛，或者嗅觉变差或闻不到气味。",
+      "supports": [
+        {
+          "evidence_id": "E5",
+          "quote": "Diagnosis of acute rhinosinusitis requires the presence of ≥2 symptoms, one of which should be either nasal blockage, obstruction, congestion, or discharge, and either facial pain/pressure, headache and/or reduction, or loss of smell [1, 2]."
+        }
+      ],
+      "screen_status": "pending_independent_review",
+      "engineering_observation": null,
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-015-CONTEXT/professional:0",
+      "text": "在成人急性中耳炎伴内耳受累的研究中，患者分别报告耳鸣（51%）和眩晕（32%）。",
+      "supports": [
+        {
+          "evidence_id": "E1",
+          "quote": "There was also a high percentage of patients with tinnitus (51%) and vertigo (32%)."
+        }
+      ],
+      "screen_status": "pending_independent_review",
+      "engineering_observation": null,
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-015-CONTEXT/professional:1",
+      "text": "该研究患者的常见症状包括主观听力下降、耳痛、耳漏、耳鸣和眩晕，分别按各自比例报告。",
+      "supports": [
+        {
+          "evidence_id": "E2",
+          "quote": "The most common symptoms stated by the patients were subjective hearing loss (112/112, 100%), otalgia (111/112, 99%), otorrhea (61/112, 54%), tinnitus (57/112, 51%) and vertigo (34/112)."
+        }
+      ],
+      "screen_status": "pending_independent_review",
+      "engineering_observation": null,
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-015-CONTEXT/professional:2",
+      "text": "伴有眩晕与治疗前听力损失显著更高相关。",
+      "supports": [
+        {
+          "evidence_id": "E3",
+          "quote": "The presence of vertigo was accompanied by significantly higher pretreatment hearing loss."
+        }
+      ],
+      "screen_status": "needs_review",
+      "engineering_observation": "眩晕与听力损失的研究人群范围未在本项写出。",
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-015-CONTEXT/input_explanation:0",
+      "text": "提问为假设性咨询，本次引句仅分别报告耳鸣和眩晕的频率，未给出二者在同一患者同时出现的联合发生数据。",
+      "supports": [
+        {
+          "evidence_id": "E1",
+          "quote": "There was also a high percentage of patients with tinnitus (51%) and vertigo (32%)."
+        },
+        {
+          "evidence_id": "E2",
+          "quote": "The most common symptoms stated by the patients were subjective hearing loss (112/112, 100%), otalgia (111/112, 99%), otorrhea (61/112, 54%), tinnitus (57/112, 51%) and vertigo (34/112)."
+        }
+      ],
+      "screen_status": "pending_independent_review",
+      "engineering_observation": null,
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-015-CONTEXT/patient_summary:0",
+      "text": "在成人急性中耳炎且内耳也受影响的病例里，有的患者报告了耳鸣（51%），有的患者报告了眩晕（32%），这两者是分别报告的。",
+      "supports": [
+        {
+          "evidence_id": "E1",
+          "quote": "There was also a high percentage of patients with tinnitus (51%) and vertigo (32%)."
+        }
+      ],
+      "screen_status": "pending_independent_review",
+      "engineering_observation": null,
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-025-CONTEXT/professional:0",
+      "text": "随着年龄增长，听力受多种因素影响。",
+      "supports": [
+        {
+          "evidence_id": "E3",
+          "quote": "Many things affect our hearing as we age."
+        }
+      ],
+      "screen_status": "pending_independent_review",
+      "engineering_observation": null,
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-025-CONTEXT/professional:1",
+      "text": "长期暴露于噪声和某些健康状况也可能起作用。",
+      "supports": [
+        {
+          "evidence_id": "E3",
+          "quote": "Long-term exposure to noise and some medical conditions can also play a role."
+        }
+      ],
+      "screen_status": "pending_independent_review",
+      "engineering_observation": null,
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-025-CONTEXT/professional:2",
+      "text": "老年人中较常见的高血压和糖尿病与听力损失相关。",
+      "supports": [
+        {
+          "evidence_id": "E1",
+          "quote": "Conditions that are more common in older people, such as high blood pressure and diabetes, are associated with hearing loss."
+        }
+      ],
+      "screen_status": "pending_independent_review",
+      "engineering_observation": null,
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-025-CONTEXT/input_explanation:0",
+      "text": "提问提到退休前长期处于嘈杂环境，这与资料中关于长期噪声暴露可能起作用的描述方向一致。",
+      "supports": [
+        {
+          "evidence_id": "E3",
+          "quote": "Long-term exposure to noise and some medical conditions can also play a role."
+        }
+      ],
+      "screen_status": "pending_independent_review",
+      "engineering_observation": null,
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-025-CONTEXT/patient_summary:0",
+      "text": "听力会随着年龄增长而受到多种因素影响。",
+      "supports": [
+        {
+          "evidence_id": "E3",
+          "quote": "Many things affect our hearing as we age."
+        }
+      ],
+      "screen_status": "pending_independent_review",
+      "engineering_observation": null,
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-030-CONTEXT/professional:0",
+      "text": "部分耳鸣者发现耳鸣会影响情绪，或影响睡眠、注意力的其中一项。",
+      "supports": [
+        {
+          "evidence_id": "E1",
+          "quote": "However, some people find that it affects their mood and their ability to sleep or concentrate."
+        }
+      ],
+      "screen_status": "needs_review",
+      "engineering_observation": "原文情绪与睡眠或注意力之间为and，本项写成或。",
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-030-CONTEXT/professional:1",
+      "text": "在严重情况下，耳鸣可导致焦虑或抑郁。",
+      "supports": [
+        {
+          "evidence_id": "E1",
+          "quote": "In severe cases, tinnitus can lead to anxiety or depression."
+        }
+      ],
+      "screen_status": "pending_independent_review",
+      "engineering_observation": null,
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-030-CONTEXT/professional:2",
+      "text": "失代偿性耳鸣会严重影响生活各方面，并导致或加重共病，例如焦虑、睡眠障碍、注意力障碍或抑郁。",
+      "supports": [
+        {
+          "evidence_id": "E2",
+          "quote": "Decompensated tinnitus: The ringing in the ears has a massive impact on all areas of life and leads to the development or aggravation of comorbidity (see Table 1; e.g. anxiety, sleep disorders, concentration disorders, depression)."
+        }
+      ],
+      "screen_status": "pending_independent_review",
+      "engineering_observation": null,
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-030-CONTEXT/input_explanation:0",
+      "text": "提问中自述耳鸣后睡不好、难以集中注意力，资料对耳鸣影响睡眠或注意力分别报告，未说明这些表现会同时出现。",
+      "supports": [
+        {
+          "evidence_id": "E1",
+          "quote": "However, some people find that it affects their mood and their ability to sleep or concentrate."
+        },
+        {
+          "evidence_id": "E2",
+          "quote": "Decompensated tinnitus: The ringing in the ears has a massive impact on all areas of life and leads to the development or aggravation of comorbidity (see Table 1; e.g. anxiety, sleep disorders, concentration disorders, depression)."
+        }
+      ],
+      "screen_status": "needs_review",
+      "engineering_observation": "资料未说明同时出现的负面断言需审核其依据。",
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-030-CONTEXT/patient_summary:0",
+      "text": "有些耳鸣的人会发现，耳鸣会影响情绪，或者影响睡眠和注意力中的一项。",
+      "supports": [
+        {
+          "evidence_id": "E1",
+          "quote": "However, some people find that it affects their mood and their ability to sleep or concentrate."
+        }
+      ],
+      "screen_status": "needs_review",
+      "engineering_observation": "沿用核心句的and/or关系变化。",
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-036-CONTEXT/professional:0",
+      "text": "声音嘶哑时，声音可能表现为气息声、raspy或紧绷，也可能音量变小或音调变低。",
+      "supports": [
+        {
+          "evidence_id": "E1",
+          "quote": "If you are hoarse, your voice will sound breathy, raspy, or strained, or will be softer in volume or lower in pitch."
+        }
+      ],
+      "screen_status": "pending_independent_review",
+      "engineering_observation": null,
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-036-CONTEXT/professional:1",
+      "text": "声音嘶哑常是喉部声带问题的症状之一。",
+      "supports": [
+        {
+          "evidence_id": "E1",
+          "quote": "Hoarseness is often a symptom of problems in the vocal folds of the larynx."
+        }
+      ],
+      "screen_status": "pending_independent_review",
+      "engineering_observation": null,
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-036-CONTEXT/input_explanation:0",
+      "text": "问题中自述声音粗哑、音量变小，资料对声音嘶哑的描述包括音量变小或音调变低等多种表现。",
+      "supports": [
+        {
+          "evidence_id": "E1",
+          "quote": "If you are hoarse, your voice will sound breathy, raspy, or strained, or will be softer in volume or lower in pitch."
+        }
+      ],
+      "screen_status": "pending_independent_review",
+      "engineering_observation": null,
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-036-CONTEXT/patient_summary:0",
+      "text": "声音嘶哑时，说话声可能听起来气息声重、raspy或紧绷，也可能变得更轻或更低。",
+      "supports": [
+        {
+          "evidence_id": "E1",
+          "quote": "If you are hoarse, your voice will sound breathy, raspy, or strained, or will be softer in volume or lower in pitch."
+        }
+      ],
+      "screen_status": "pending_independent_review",
+      "engineering_observation": null,
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "ANCHOR-NOISE-001/professional:0",
+      "text": "长期暴露于噪声以及某些医疗状况，在年龄增长过程中可能对听力产生作用。",
+      "supports": [
+        {
+          "evidence_id": "E5",
+          "quote": "Long-term exposure to noise and some medical conditions can also play a role."
+        }
+      ],
+      "screen_status": "pending_independent_review",
+      "engineering_observation": null,
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "ANCHOR-NOISE-001/professional:1",
+      "text": "年龄相关听力损失目前尚无法预防，但噪声引起的听力损失是可以防护的。",
+      "supports": [
+        {
+          "evidence_id": "E3",
+          "quote": "Scientists don't yet know how to prevent age-related hearing loss, but you can protect yourself from noise-induced hearing loss."
+        }
+      ],
+      "screen_status": "needs_review",
+      "engineering_observation": "原文尚不知道如何预防被写成尚无法预防，认识局限可能被强化为能力结论。",
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "ANCHOR-NOISE-001/input_explanation:0",
+      "text": "填写原话（未经临床确认）：主诉：合成记录：退休前长期接触噪声",
+      "supports": [],
+      "screen_status": "literal_record_not_medical_comparison",
+      "engineering_observation": null,
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "ANCHOR-NOISE-001/patient_summary:0",
+      "text": "长时间接触噪声，以及某些健康问题，随着年龄增长，可能会影响听力。",
+      "supports": [
+        {
+          "evidence_id": "E5",
+          "quote": "Long-term exposure to noise and some medical conditions can also play a role."
+        }
+      ],
+      "screen_status": "pending_independent_review",
+      "engineering_observation": null,
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "BATCH-STATE-UNKNOWN/professional:0",
+      "text": "失代偿性耳鸣患者的生活质量会受到显著损害。",
+      "supports": [
+        {
+          "evidence_id": "E1",
+          "quote": "The quality of life is significantly impaired."
+        },
+        {
+          "evidence_id": "E1",
+          "quote": "Decompensated tinnitus: The ringing in the ears has a massive impact on all areas of life and leads to the development or aggravation of comorbidity (see Table 1; e.g. anxiety, sleep disorders, concentration disorders, depression)."
+        }
+      ],
+      "screen_status": "pending_independent_review",
+      "engineering_observation": null,
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "BATCH-STATE-UNKNOWN/input_explanation:0",
+      "text": "患者自述耳鸣后睡不好、注意力难集中，资料提到失代偿性耳鸣可伴睡眠障碍和注意力障碍，但本次引句未给出其与患者个体之间的因果关系。",
+      "supports": [
+        {
+          "evidence_id": "E1",
+          "quote": "Decompensated tinnitus: The ringing in the ears has a massive impact on all areas of life and leads to the development or aggravation of comorbidity (see Table 1; e.g. anxiety, sleep disorders, concentration disorders, depression)."
+        }
+      ],
+      "screen_status": "pending_independent_review",
+      "engineering_observation": null,
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "BATCH-STATE-UNKNOWN/input_explanation:1",
+      "text": "填写原话（未经临床确认）：病史：既往病史未明确",
+      "supports": [],
+      "screen_status": "literal_record_not_medical_comparison",
+      "engineering_observation": null,
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "BATCH-STATE-UNKNOWN/patient_summary:0",
+      "text": "失代偿性耳鸣患者的生活质量会受到明显影响。",
+      "supports": [
+        {
+          "evidence_id": "E1",
+          "quote": "The quality of life is significantly impaired."
+        },
+        {
+          "evidence_id": "E1",
+          "quote": "Decompensated tinnitus: The ringing in the ears has a massive impact on all areas of life and leads to the development or aggravation of comorbidity (see Table 1; e.g. anxiety, sleep disorders, concentration disorders, depression)."
+        }
+      ],
+      "screen_status": "pending_independent_review",
+      "engineering_observation": null,
+      "clinical_approval": false
+    }
+  ],
+  "note": "Finite engineering observations; unflagged medical items remain pending."
+}

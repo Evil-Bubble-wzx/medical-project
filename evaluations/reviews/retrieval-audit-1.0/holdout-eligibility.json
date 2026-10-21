@@ -1,0 +1,7 @@
+{
+  "eligible_for_source_holdout": false,
+  "errors": [
+    "empty_holdout"
+  ],
+  "scope": "structural eligibility only; source aliases, clinical validity and prior exposure require human audit"
+}

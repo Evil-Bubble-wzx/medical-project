@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-21",
+  "base_inventory": "inventory.json",
+  "changes": {
+    "F11": "| F11 M2 | 逐论断核验和患者摘要 | 部分完成 | [3.3集中修复](集中修复与联合验收交付清单3.3.md)；旧7样式及新增范围守卫，最终重写校验 | 有误拒/漏判，医学语义与输出稳定性未验收 |",
+    "F12": "| F12 M2 | 输入原话、状态和病程确认 | 部分完成 | [3.3](集中修复与联合验收交付清单3.3.md)：完整原话、typed来源、固定记录及冲突收敛 | 字面记录不是医学比较；否认/未知/混合等真实探针仍有失败 |",
+    "F13": "| F13 M2 | 原话展示交互 | 已实现并局部验证 | [17项当前浏览器检查](../evaluations/reports/closure-batch-3.3/browser/browser-check-final.json)：患者合成API与工作台模拟响应 | 不是医院真实账号/模型端到端或所有管理页复验 |",
+    "F21": "| F21 M4 | 评测版本绑定与续跑 | 已实现 | [版本清单v2](../evaluations/reports/closure-batch-3.3/freeze-deployment.json)：全部backend/app与配置、资料、数据集身份 | 不证明远程模型权重/进程内存；第三轮后两文件变更仅离线重验 |",
+    "F25": "| F25 M4 | 修复后统一真实质量回归 | 部分完成，质量未通过 | [3.3汇总](../evaluations/reports/closure-batch-3.3/closure-summary.json)：三版各26例，当前460项离线 | 第三版9答/9拦/8边界；后加守卫离线再挡1例，不能拼成当前26例全通过 |"
+  },
+  "clinical_approval": false,
+  "evidence": "../closure-batch-3.3/closure-summary.json"
+}

@@ -1,0 +1,8 @@
+{
+  "patients_page": 200,
+  "scope_response": 200,
+  "scope_code": "input_duration_needs_confirmation",
+  "provider_calls_skipped": true,
+  "actual_business_records_written": false,
+  "synthetic_only": true
+}

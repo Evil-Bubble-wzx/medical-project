@@ -1,0 +1,397 @@
+{
+  "schema_version": "1",
+  "ready_for_manual_governance_binding": false,
+  "eligible_for_formal_independent_scoring": false,
+  "clinical_approval": false,
+  "reviewer_identity_authenticated": false,
+  "candidate_sha256": "b06eb3a4930b0c8b73a91d8a2a6a7d197f459a4fd9b0c258d3f578caa67d02b7",
+  "selected_case_ids": [],
+  "errors": [
+    "case:CAND-001:decision_required",
+    "case:CAND-002:decision_required",
+    "case:CAND-003:decision_required",
+    "case:CAND-004:decision_required",
+    "case:CAND-005:decision_required",
+    "case:CAND-006:decision_required",
+    "case:CAND-007:decision_required",
+    "case:CAND-008:decision_required",
+    "case:CAND-009:decision_required",
+    "case:CAND-010:decision_required",
+    "case:CAND-011:decision_required",
+    "case:CAND-012:decision_required",
+    "case:CAND-013:decision_required",
+    "case:CAND-014:decision_required",
+    "case:CAND-015:decision_required",
+    "case:CAND-016:decision_required",
+    "case:CAND-017:decision_required",
+    "case:CAND-018:decision_required",
+    "case:CAND-019:decision_required",
+    "case:CAND-020:decision_required",
+    "case:CAND-021:decision_required",
+    "case:CAND-022:decision_required",
+    "case:CAND-023:decision_required",
+    "case:CAND-024:decision_required",
+    "case:CAND-025:decision_required",
+    "case:CAND-026:decision_required",
+    "case:CAND-027:decision_required",
+    "case:CAND-028:decision_required",
+    "case:CAND-029:decision_required",
+    "case:CAND-030:decision_required",
+    "case:CAND-031:decision_required",
+    "case:CAND-032:decision_required",
+    "case:CAND-033:decision_required",
+    "case:CAND-034:decision_required",
+    "case:CAND-035:decision_required",
+    "case:CAND-036:decision_required",
+    "no_accepted_cases",
+    "source:candidate-com-outcomes-2025:decision_required",
+    "source:candidate-crs-mdt-2025:decision_required",
+    "source:candidate-dysphonia-voice-2024:decision_required",
+    "source:candidate-presbycusis-rehab-2024:decision_required",
+    "source:candidate-rhinitis-canada-2024:decision_required",
+    "source:candidate-tinnitus-neuromodulation-2024:decision_required"
+  ],
+  "source_reviews": [
+    {
+      "document_id": "candidate-rhinitis-canada-2024",
+      "decision": null,
+      "errors": [
+        "decision_required"
+      ]
+    },
+    {
+      "document_id": "candidate-crs-mdt-2025",
+      "decision": null,
+      "errors": [
+        "decision_required"
+      ]
+    },
+    {
+      "document_id": "candidate-com-outcomes-2025",
+      "decision": null,
+      "errors": [
+        "decision_required"
+      ]
+    },
+    {
+      "document_id": "candidate-presbycusis-rehab-2024",
+      "decision": null,
+      "errors": [
+        "decision_required"
+      ]
+    },
+    {
+      "document_id": "candidate-tinnitus-neuromodulation-2024",
+      "decision": null,
+      "errors": [
+        "decision_required"
+      ]
+    },
+    {
+      "document_id": "candidate-dysphonia-voice-2024",
+      "decision": null,
+      "errors": [
+        "decision_required"
+      ]
+    }
+  ],
+  "case_reviews": [
+    {
+      "case_id": "CAND-001",
+      "kind": "evidence",
+      "decision": null,
+      "errors": [
+        "decision_required"
+      ]
+    },
+    {
+      "case_id": "CAND-002",
+      "kind": "evidence",
+      "decision": null,
+      "errors": [
+        "decision_required"
+      ]
+    },
+    {
+      "case_id": "CAND-003",
+      "kind": "evidence",
+      "decision": null,
+      "errors": [
+        "decision_required"
+      ]
+    },
+    {
+      "case_id": "CAND-004",
+      "kind": "evidence",
+      "decision": null,
+      "errors": [
+        "decision_required"
+      ]
+    },
+    {
+      "case_id": "CAND-005",
+      "kind": "evidence",
+      "decision": null,
+      "errors": [
+        "decision_required"
+      ]
+    },
+    {
+      "case_id": "CAND-006",
+      "kind": "evidence",
+      "decision": null,
+      "errors": [
+        "decision_required"
+      ]
+    },
+    {
+      "case_id": "CAND-007",
+      "kind": "evidence",
+      "decision": null,
+      "errors": [
+        "decision_required"
+      ]
+    },
+    {
+      "case_id": "CAND-008",
+      "kind": "evidence",
+      "decision": null,
+      "errors": [
+        "decision_required"
+      ]
+    },
+    {
+      "case_id": "CAND-009",
+      "kind": "evidence",
+      "decision": null,
+      "errors": [
+        "decision_required"
+      ]
+    },
+    {
+      "case_id": "CAND-010",
+      "kind": "evidence",
+      "decision": null,
+      "errors": [
+        "decision_required"
+      ]
+    },
+    {
+      "case_id": "CAND-011",
+      "kind": "evidence",
+      "decision": null,
+      "errors": [
+        "decision_required"
+      ]
+    },
+    {
+      "case_id": "CAND-012",
+      "kind": "evidence",
+      "decision": null,
+      "errors": [
+        "decision_required"
+      ]
+    },
+    {
+      "case_id": "CAND-013",
+      "kind": "evidence",
+      "decision": null,
+      "errors": [
+        "decision_required"
+      ]
+    },
+    {
+      "case_id": "CAND-014",
+      "kind": "evidence",
+      "decision": null,
+      "errors": [
+        "decision_required"
+      ]
+    },
+    {
+      "case_id": "CAND-015",
+      "kind": "evidence",
+      "decision": null,
+      "errors": [
+        "decision_required"
+      ]
+    },
+    {
+      "case_id": "CAND-016",
+      "kind": "evidence",
+      "decision": null,
+      "errors": [
+        "decision_required"
+      ]
+    },
+    {
+      "case_id": "CAND-017",
+      "kind": "evidence",
+      "decision": null,
+      "errors": [
+        "decision_required"
+      ]
+    },
+    {
+      "case_id": "CAND-018",
+      "kind": "evidence",
+      "decision": null,
+      "errors": [
+        "decision_required"
+      ]
+    },
+    {
+      "case_id": "CAND-019",
+      "kind": "evidence",
+      "decision": null,
+      "errors": [
+        "decision_required"
+      ]
+    },
+    {
+      "case_id": "CAND-020",
+      "kind": "evidence",
+      "decision": null,
+      "errors": [
+        "decision_required"
+      ]
+    },
+    {
+      "case_id": "CAND-021",
+      "kind": "evidence",
+      "decision": null,
+      "errors": [
+        "decision_required"
+      ]
+    },
+    {
+      "case_id": "CAND-022",
+      "kind": "evidence",
+      "decision": null,
+      "errors": [
+        "decision_required"
+      ]
+    },
+    {
+      "case_id": "CAND-023",
+      "kind": "evidence",
+      "decision": null,
+      "errors": [
+        "decision_required"
+      ]
+    },
+    {
+      "case_id": "CAND-024",
+      "kind": "evidence",
+      "decision": null,
+      "errors": [
+        "decision_required"
+      ]
+    },
+    {
+      "case_id": "CAND-025",
+      "kind": "evidence",
+      "decision": null,
+      "errors": [
+        "decision_required"
+      ]
+    },
+    {
+      "case_id": "CAND-026",
+      "kind": "evidence",
+      "decision": null,
+      "errors": [
+        "decision_required"
+      ]
+    },
+    {
+      "case_id": "CAND-027",
+      "kind": "evidence",
+      "decision": null,
+      "errors": [
+        "decision_required"
+      ]
+    },
+    {
+      "case_id": "CAND-028",
+      "kind": "evidence",
+      "decision": null,
+      "errors": [
+        "decision_required"
+      ]
+    },
+    {
+      "case_id": "CAND-029",
+      "kind": "evidence",
+      "decision": null,
+      "errors": [
+        "decision_required"
+      ]
+    },
+    {
+      "case_id": "CAND-030",
+      "kind": "evidence",
+      "decision": null,
+      "errors": [
+        "decision_required"
+      ]
+    },
+    {
+      "case_id": "CAND-031",
+      "kind": "boundary",
+      "decision": null,
+      "errors": [
+        "decision_required"
+      ]
+    },
+    {
+      "case_id": "CAND-032",
+      "kind": "boundary",
+      "decision": null,
+      "errors": [
+        "decision_required"
+      ]
+    },
+    {
+      "case_id": "CAND-033",
+      "kind": "boundary",
+      "decision": null,
+      "errors": [
+        "decision_required"
+      ]
+    },
+    {
+      "case_id": "CAND-034",
+      "kind": "boundary",
+      "decision": null,
+      "errors": [
+        "decision_required"
+      ]
+    },
+    {
+      "case_id": "CAND-035",
+      "kind": "boundary",
+      "decision": null,
+      "errors": [
+        "decision_required"
+      ]
+    },
+    {
+      "case_id": "CAND-036",
+      "kind": "boundary",
+      "decision": null,
+      "errors": [
+        "decision_required"
+      ]
+    }
+  ],
+  "decision_counts": {
+    "pending": 36
+  },
+  "scope": "Declared review completeness and immutable identity checks only; does not verify medical truth, reviewer identity, independence or activate data.",
+  "archive_errors": [],
+  "input_file_sha256": {
+    "case_review": "961650cdc0ba46c513aa02c3a170ba286a6c6edba735afe2c2e094f2dd141e73",
+    "source_review": "caca3f8448c34e5a5b99f90fec07aec0a2473844751b25b7cc10834ebd96c26f"
+  }
+}

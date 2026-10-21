@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-21",
+  "base_inventory": "inventory.json",
+  "changes": {
+    "F11": "| F11 M2 | 逐论断核验和患者摘要 | 部分完成 | [3.4稳定性修复](回答稳定性修复交付清单3.4.md)：专业核验后独立摘要并最终核验，493项离线 | 摘要仍有核心之外扩写，病程/范围仍拦截，医学质量未验收 |",
+    "F12": "| F12 M2 | 输入原话、状态和病程确认 | 部分完成 | [3.4](回答稳定性修复交付清单3.4.md)：程序输入编号回填，原话不拆句，错误分类 | 本轮绑定错误0不代表整体通过；UNKNOWN/MIXED范围失败，原话记录不算医学比较 |",
+    "F13": "| F13 M2 | 原话展示交互 | 已实现并局部验证 | [3.4的25项浏览器检查](../evaluations/reports/stability-batch-3.4/browser/browser-check-final.json)：原话、分类提示及患者医生历史一致性 | 隔离合成API及工作台模拟响应；非医院真实账号或真实模型浏览器端到端 |",
+    "F21": "| F21 M4 | 评测版本绑定与续跑 | 已实现 | [3.4冻结清单](../evaluations/reports/stability-batch-3.4/freeze.json)：26例前后身份一致，原结果不可拼接 | 磁盘指纹不证明远程模型权重/进程内存 |",
+    "F25": "| F25 M4 | 修复后统一真实质量回归 | 部分完成，质量未通过 | [3.4汇总](../evaluations/reports/stability-batch-3.4/closure-summary.json)：一版26例、12答/5拦/3证据不足/6需补信息 | 3个展示项仍需复核；开发集非独立标注集，12答不是医学准确率 |"
+  },
+  "clinical_approval": false,
+  "evidence": "../stability-batch-3.4/closure-summary.json"
+}

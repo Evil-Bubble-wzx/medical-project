@@ -1,0 +1,342 @@
+{
+  "paragraphs": [
+    {
+      "text": "If my voice is hoarse, when should I see my doctor?",
+      "section": "Overview",
+      "locator": "main/block[1]"
+    },
+    {
+      "text": "How will my doctor diagnose what is wrong?",
+      "section": "Overview",
+      "locator": "main/block[2]"
+    },
+    {
+      "text": "What are some of the disorders that cause hoarseness and how are they treated?",
+      "section": "Overview",
+      "locator": "main/block[3]"
+    },
+    {
+      "text": "What research is being done to better understand and treat hoarseness?",
+      "section": "Overview",
+      "locator": "main/block[4]"
+    },
+    {
+      "text": "Where can I find additional information?",
+      "section": "Overview",
+      "locator": "main/block[5]"
+    },
+    {
+      "text": "Structures involved in speech and voice production",
+      "section": "What is hoarseness?",
+      "locator": "main/block[6]"
+    },
+    {
+      "text": "If you are hoarse, your voice will sound breathy, raspy, or strained, or will be softer in volume or lower in pitch. Your throat might feel scratchy. Hoarseness is often a symptom of problems in the vocal folds of the larynx.",
+      "section": "What is hoarseness?",
+      "locator": "main/block[7]"
+    },
+    {
+      "text": "The sound of our voice is produced by vibration of the vocal folds, which are two bands of smooth muscle tissue that are positioned opposite each other in the larynx. The larynx is located between the base of the tongue and the top of the trachea, which is the passageway to the lungs (see figure).",
+      "section": "How does our voice work?",
+      "locator": "main/block[8]"
+    },
+    {
+      "text": "When we're not speaking, the vocal folds are open so that we can breathe. When it's time to speak, however, the brain orchestrates a series of events. The vocal folds snap together while air from the lungs blows past, making them vibrate. The vibrations produce sound waves that travel through the throat, nose, and mouth, which act as resonating cavities to modulate the sound. The quality of our voice—its pitch, volume, and tone—is determined by the size and shape of the vocal folds and the resonating cavities. This is why people's voices sound so different.",
+      "section": "How does our voice work?",
+      "locator": "main/block[9]"
+    },
+    {
+      "text": "Individual variations in our voices are the result of how much tension we put on our vocal folds. For example, relaxing the vocal folds makes a voice deeper; tensing them makes a voice higher.",
+      "section": "How does our voice work?",
+      "locator": "main/block[10]"
+    },
+    {
+      "text": "You should see your doctor if your voice has been hoarse for more than three weeks, especially if you haven't had a cold or the flu. You should also see a doctor if you are coughing up blood or if you have difficulty swallowing, feel a lump in your neck, experience pain when speaking or swallowing, have difficulty breathing, or lose your voice completely for more than a few days.",
+      "section": "If my voice is hoarse, when should I see my doctor?",
+      "locator": "main/block[11]"
+    },
+    {
+      "text": "Your doctor will ask you about your health history and how long you've been hoarse. Depending on your symptoms and general health, your doctor may send you to an otolaryngologist (a doctor who specializes in diseases of the ears, nose, and throat). An otolaryngologist will usually use an endoscope (a flexible, lighted tube designed for looking at the larynx) to get a better view of the vocal folds. In some cases, your doctor might recommend special tests to evaluate voice irregularities or vocal airflow.",
+      "section": "How will my doctor diagnose what is wrong?",
+      "locator": "main/block[12]"
+    },
+    {
+      "text": "Hoarseness can have several possible causes and treatments, as described below:",
+      "section": "What are some of the disorders that cause hoarseness and how are they treated?",
+      "locator": "main/block[13]"
+    },
+    {
+      "text": "Laryngitis. Laryngitis is one of the most common causes of hoarseness. It can be due to temporary swelling of the vocal folds from a cold, an upper respiratory infection, or allergies. Your doctor will treat laryngitis according to its cause. If it's due to a cold or upper respiratory infection, your doctor might recommend rest, fluids, and nonprescription pain relievers. Allergies might be treated similarly, with the addition of over-the-counter allergy medicines.",
+      "section": "What are some of the disorders that cause hoarseness and how are they treated?",
+      "locator": "main/block[14]"
+    },
+    {
+      "text": "Misusing or overusing your voice. Cheering at sporting events, speaking loudly in noisy situations, talking for too long without resting your voice, singing loudly, or speaking with a voice that's too high or too low can cause temporary hoarseness. Resting, reducing voice use, and drinking lots of water should help relieve hoarseness from misuse or overuse. Sometimes people whose jobs depend on their voices—such as teachers, singers, or public speakers—develop hoarseness that won't go away. If you use your voice for a living and you regularly experience hoarseness, your doctor might suggest seeing a speech-language pathologist for voice therapy. In voice therapy, you'll be given vocal exercises and tips for avoiding hoarseness by changing the ways in which you use your voice.",
+      "section": "What are some of the disorders that cause hoarseness and how are they treated?",
+      "locator": "main/block[15]"
+    },
+    {
+      "text": "Gastroesophageal reflux (GERD). GERD—commonly called heartburn—can cause hoarseness when stomach acid rises up the throat and irritates the tissues. Usually hoarseness caused by GERD is worse in the morning and improves throughout the day. In some people, the stomach acid rises all the way up to the throat and larynx and irritates the vocal folds. This is called laryngopharyngeal reflux (LPR). LPR can happen during the day or night. Some people will have no heartburn with LPR, but they may feel as if they constantly have to cough to clear their throat and they may become hoarse. GERD and LPR are treated with dietary modifications and medications that reduce stomach acid.",
+      "section": "What are some of the disorders that cause hoarseness and how are they treated?",
+      "locator": "main/block[16]"
+    },
+    {
+      "text": "Vocal nodules, polyps, and cysts. Vocal nodules, polyps, and cysts are benign (noncancerous) growths within or along the vocal folds. Vocal nodules are sometimes called \"singer's nodes\" because they are a frequent problem among professional singers. They form in pairs on opposite sides of the vocal folds as the result of too much pressure or friction, much like the way a callus forms on the foot from a shoe that's too tight. A vocal polyp typically occurs only on one side of the vocal fold. A vocal cyst is a hard mass of tissue encased in a membrane sac inside the vocal fold. The most common treatments for nodules, polyps, and cysts are voice rest, voice therapy, and surgery to remove the tissue.",
+      "section": "What are some of the disorders that cause hoarseness and how are they treated?",
+      "locator": "main/block[17]"
+    },
+    {
+      "text": "Vocal fold hemorrhage. Vocal fold hemorrhage occurs when a blood vessel on the surface of the vocal fold ruptures and the tissues fill with blood. If you lose your voice suddenly during strenuous vocal use (such as yelling), you may have a vocal fold hemorrhage. Sometimes a vocal fold hemorrhage will cause hoarseness to develop quickly over a short amount of time and only affect your singing but not your speaking voice. Vocal fold hemorrhage must be treated immediately with total voice rest and a trip to the doctor.",
+      "section": "What are some of the disorders that cause hoarseness and how are they treated?",
+      "locator": "main/block[18]"
+    },
+    {
+      "text": "Vocal fold paralysis. Vocal fold paralysis is a voice disorder that occurs when one or both of the vocal folds don't open or close properly. It can be caused by injury to the head, neck or chest; lung or thyroid cancer; tumors of the skull base, neck, or chest; or infection (for example, Lyme disease). People with certain neurologic conditions such as multiple sclerosis or Parkinson's disease or who have sustained a stroke may experience vocal fold paralysis. In many cases, however, the cause is unknown. Vocal fold paralysis is treated with voice therapy and, in some cases, surgery. For more information, see the National Institute on Deafness and Other Communication Disorders (NIDCD) fact sheet, Vocal Fold Paralysis.",
+      "section": "What are some of the disorders that cause hoarseness and how are they treated?",
+      "locator": "main/block[19]"
+    },
+    {
+      "text": "Neurological diseases and disorders. Neurological conditions that affect areas of the brain that control muscles in the throat or larynx can also cause hoarseness. Hoarseness is sometimes a symptom of Parkinson's disease or a stroke. Spasmodic dysphonia is a rare neurological disease that causes hoarseness and can also affect breathing. Treatment in these cases will depend upon the type of disease or disorder. For more information, read the NIDCD fact sheet, Spasmodic Dysphonia.",
+      "section": "What are some of the disorders that cause hoarseness and how are they treated?",
+      "locator": "main/block[20]"
+    },
+    {
+      "text": "Other causes. Thyroid problems and injury to the larynx can cause hoarseness. Hoarseness may sometimes be a symptom of laryngeal cancer, which is why it is so important to see your doctor if you are hoarse for more than three weeks. Read the National Cancer Institute fact sheet, Head and Neck Cancer--Patient version. Hoarseness is also the most common symptom of a disease called recurrent respiratory papillomatosis (RRP), or laryngeal papillomatosis, which causes noncancerous tumors to grow in the larynx and other air passages leading from the nose and mouth into the lungs. Read the NIDCD fact sheet, Recurrent Respiratory Papillomatosis or Laryngeal Papillomatosis.",
+      "section": "What are some of the disorders that cause hoarseness and how are they treated?",
+      "locator": "main/block[21]"
+    },
+    {
+      "text": "Researchers funded by the NIDCD are working with teachers to devise strategies to help them reduce the stress and strain on their voices. In one study, the teachers use a voice \"dosimeter\" that takes into account the frequency and loudness of their speech along with the duration of vibration in their vocal folds to determine their daily \"dose\" of vocal use. The researcher hopes to establish a safe level of voice use, as well as recommended recovery times from prolonged speaking.",
+      "section": "What research is being done to better understand and treat hoarseness?",
+      "locator": "main/block[22]"
+    },
+    {
+      "text": "In another study, researchers are working with two groups of student teachers in the United States and China to test the effectiveness of voice hygiene education on its own and with voice production training. The researcher hopes to see how successfully the techniques prevent future voice problems in teachers who have healthy voices at the beginning of the study versus those who already may have some voice problems.",
+      "section": "What research is being done to better understand and treat hoarseness?",
+      "locator": "main/block[23]"
+    },
+    {
+      "text": "The NIDCD also is supporting a researcher who is planning to make a \"map\" of all of the genes, proteins, immune system cells, and bacteria present in the normal larynx so that we can better understand the changes that happen during chronic inflammation of the larynx (laryngitis). Using these findings, models will be made that can be used in the lab to develop and direct future interventions for the prevention and treatment of inflammatory diseases of the larynx.",
+      "section": "What research is being done to better understand and treat hoarseness?",
+      "locator": "main/block[24]"
+    }
+  ],
+  "chunks": [
+    {
+      "id": "f95c2756c6e0e4bd88569021",
+      "text": "If my voice is hoarse, when should I see my doctor?",
+      "section": "Overview",
+      "locator": "main/block[1]",
+      "start": 0,
+      "end": 51,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "e9696370ea00aec97c81af93",
+      "text": "How will my doctor diagnose what is wrong?",
+      "section": "Overview",
+      "locator": "main/block[2]",
+      "start": 0,
+      "end": 42,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "acc293c2d3d534640de2fdcd",
+      "text": "What are some of the disorders that cause hoarseness and how are they treated?",
+      "section": "Overview",
+      "locator": "main/block[3]",
+      "start": 0,
+      "end": 78,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "077d8c850c90d5aba83dbb49",
+      "text": "What research is being done to better understand and treat hoarseness?",
+      "section": "Overview",
+      "locator": "main/block[4]",
+      "start": 0,
+      "end": 70,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "0c9af0fdf69428201694fa17",
+      "text": "Where can I find additional information?",
+      "section": "Overview",
+      "locator": "main/block[5]",
+      "start": 0,
+      "end": 40,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "041b4b19b74a23b98124bc17",
+      "text": "Structures involved in speech and voice production",
+      "section": "What is hoarseness?",
+      "locator": "main/block[6]",
+      "start": 0,
+      "end": 50,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "c64b62ff6af9c0084bc87fdd",
+      "text": "If you are hoarse, your voice will sound breathy, raspy, or strained, or will be softer in volume or lower in pitch. Your throat might feel scratchy. Hoarseness is often a symptom of problems in the vocal folds of the larynx.",
+      "section": "What is hoarseness?",
+      "locator": "main/block[7]",
+      "start": 0,
+      "end": 225,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "c8dc00ab279ac19d15e50b45",
+      "text": "The sound of our voice is produced by vibration of the vocal folds, which are two bands of smooth muscle tissue that are positioned opposite each other in the larynx. The larynx is located between the base of the tongue and the top of the trachea, which is the passageway to the lungs (see figure).",
+      "section": "How does our voice work?",
+      "locator": "main/block[8]",
+      "start": 0,
+      "end": 298,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "90a7a67c1a6b8c43152454ff",
+      "text": "When we're not speaking, the vocal folds are open so that we can breathe. When it's time to speak, however, the brain orchestrates a series of events. The vocal folds snap together while air from the lungs blows past, making them vibrate. The vibrations produce sound waves that travel through the throat, nose, and mouth, which act as resonating cavities to modulate the sound. The quality of our voice—its pitch, volume, and tone—is determined by the size and shape of the vocal folds and the resonating cavities. This is why people's voices sound so different.",
+      "section": "How does our voice work?",
+      "locator": "main/block[9]",
+      "start": 0,
+      "end": 563,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "e3a579f630565b23eab44a18",
+      "text": "Individual variations in our voices are the result of how much tension we put on our vocal folds. For example, relaxing the vocal folds makes a voice deeper; tensing them makes a voice higher.",
+      "section": "How does our voice work?",
+      "locator": "main/block[10]",
+      "start": 0,
+      "end": 192,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "bb154ba36767ad456149b5a6",
+      "text": "You should see your doctor if your voice has been hoarse for more than three weeks, especially if you haven't had a cold or the flu. You should also see a doctor if you are coughing up blood or if you have difficulty swallowing, feel a lump in your neck, experience pain when speaking or swallowing, have difficulty breathing, or lose your voice completely for more than a few days.",
+      "section": "If my voice is hoarse, when should I see my doctor?",
+      "locator": "main/block[11]",
+      "start": 0,
+      "end": 382,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "9c83033f9207ec4a86cd9d1e",
+      "text": "Your doctor will ask you about your health history and how long you've been hoarse. Depending on your symptoms and general health, your doctor may send you to an otolaryngologist (a doctor who specializes in diseases of the ears, nose, and throat). An otolaryngologist will usually use an endoscope (a flexible, lighted tube designed for looking at the larynx) to get a better view of the vocal folds. In some cases, your doctor might recommend special tests to evaluate voice irregularities or vocal airflow.",
+      "section": "How will my doctor diagnose what is wrong?",
+      "locator": "main/block[12]",
+      "start": 0,
+      "end": 509,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "509b4a7bd9e5bed88d991a22",
+      "text": "Hoarseness can have several possible causes and treatments, as described below:",
+      "section": "What are some of the disorders that cause hoarseness and how are they treated?",
+      "locator": "main/block[13]",
+      "start": 0,
+      "end": 79,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "e5e8c85a0358751beb6250b1",
+      "text": "Laryngitis. Laryngitis is one of the most common causes of hoarseness. It can be due to temporary swelling of the vocal folds from a cold, an upper respiratory infection, or allergies. Your doctor will treat laryngitis according to its cause. If it's due to a cold or upper respiratory infection, your doctor might recommend rest, fluids, and nonprescription pain relievers. Allergies might be treated similarly, with the addition of over-the-counter allergy medicines.",
+      "section": "What are some of the disorders that cause hoarseness and how are they treated?",
+      "locator": "main/block[14]",
+      "start": 0,
+      "end": 469,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "e91e712ee39887a8e87be423",
+      "text": "Misusing or overusing your voice. Cheering at sporting events, speaking loudly in noisy situations, talking for too long without resting your voice, singing loudly, or speaking with a voice that's too high or too low can cause temporary hoarseness. Resting, reducing voice use, and drinking lots of water should help relieve hoarseness from misuse or overuse. Sometimes people whose jobs depend on their voices—such as teachers, singers, or public speakers—develop hoarseness that won't go away. If you use your voice for a living and you regularly experience hoarseness, your doctor might suggest seeing a speech-language pathologist for voice therapy. In voice therapy, you'll be given vocal exercises and tips for avoiding hoarseness by changing the ways in which you use your voice.",
+      "section": "What are some of the disorders that cause hoarseness and how are they treated?",
+      "locator": "main/block[15]",
+      "start": 0,
+      "end": 786,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "7b9306a4de5f8e3d71356a66",
+      "text": "Gastroesophageal reflux (GERD). GERD—commonly called heartburn—can cause hoarseness when stomach acid rises up the throat and irritates the tissues. Usually hoarseness caused by GERD is worse in the morning and improves throughout the day. In some people, the stomach acid rises all the way up to the throat and larynx and irritates the vocal folds. This is called laryngopharyngeal reflux (LPR). LPR can happen during the day or night. Some people will have no heartburn with LPR, but they may feel as if they constantly have to cough to clear their throat and they may become hoarse. GERD and LPR are treated with dietary modifications and medications that reduce stomach acid.",
+      "section": "What are some of the disorders that cause hoarseness and how are they treated?",
+      "locator": "main/block[16]",
+      "start": 0,
+      "end": 679,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "102b2312cb7d11f9905d0dd6",
+      "text": "Vocal nodules, polyps, and cysts. Vocal nodules, polyps, and cysts are benign (noncancerous) growths within or along the vocal folds. Vocal nodules are sometimes called \"singer's nodes\" because they are a frequent problem among professional singers. They form in pairs on opposite sides of the vocal folds as the result of too much pressure or friction, much like the way a callus forms on the foot from a shoe that's too tight. A vocal polyp typically occurs only on one side of the vocal fold. A vocal cyst is a hard mass of tissue encased in a membrane sac inside the vocal fold. The most common treatments for nodules, polyps, and cysts are voice rest, voice therapy, and surgery to remove the tissue.",
+      "section": "What are some of the disorders that cause hoarseness and how are they treated?",
+      "locator": "main/block[17]",
+      "start": 0,
+      "end": 705,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "bbc6de763b149aa397605f76",
+      "text": "Vocal fold hemorrhage. Vocal fold hemorrhage occurs when a blood vessel on the surface of the vocal fold ruptures and the tissues fill with blood. If you lose your voice suddenly during strenuous vocal use (such as yelling), you may have a vocal fold hemorrhage. Sometimes a vocal fold hemorrhage will cause hoarseness to develop quickly over a short amount of time and only affect your singing but not your speaking voice. Vocal fold hemorrhage must be treated immediately with total voice rest and a trip to the doctor.",
+      "section": "What are some of the disorders that cause hoarseness and how are they treated?",
+      "locator": "main/block[18]",
+      "start": 0,
+      "end": 521,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "74adff1412fbe18aa2c75ec6",
+      "text": "Vocal fold paralysis. Vocal fold paralysis is a voice disorder that occurs when one or both of the vocal folds don't open or close properly. It can be caused by injury to the head, neck or chest; lung or thyroid cancer; tumors of the skull base, neck, or chest; or infection (for example, Lyme disease). People with certain neurologic conditions such as multiple sclerosis or Parkinson's disease or who have sustained a stroke may experience vocal fold paralysis. In many cases, however, the cause is unknown. Vocal fold paralysis is treated with voice therapy and, in some cases, surgery. For more information, see the National Institute on Deafness and Other Communication Disorders (NIDCD) fact sheet, Vocal Fold Paralysis.",
+      "section": "What are some of the disorders that cause hoarseness and how are they treated?",
+      "locator": "main/block[19]",
+      "start": 0,
+      "end": 726,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "56b18aed68a4bc0ab7561b35",
+      "text": "Neurological diseases and disorders. Neurological conditions that affect areas of the brain that control muscles in the throat or larynx can also cause hoarseness. Hoarseness is sometimes a symptom of Parkinson's disease or a stroke. Spasmodic dysphonia is a rare neurological disease that causes hoarseness and can also affect breathing. Treatment in these cases will depend upon the type of disease or disorder. For more information, read the NIDCD fact sheet, Spasmodic Dysphonia.",
+      "section": "What are some of the disorders that cause hoarseness and how are they treated?",
+      "locator": "main/block[20]",
+      "start": 0,
+      "end": 483,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "935d31226fbd264c2388b1ec",
+      "text": "Other causes. Thyroid problems and injury to the larynx can cause hoarseness. Hoarseness may sometimes be a symptom of laryngeal cancer, which is why it is so important to see your doctor if you are hoarse for more than three weeks. Read the National Cancer Institute fact sheet, Head and Neck Cancer--Patient version. Hoarseness is also the most common symptom of a disease called recurrent respiratory papillomatosis (RRP), or laryngeal papillomatosis, which causes noncancerous tumors to grow in the larynx and other air passages leading from the nose and mouth into the lungs. Read the NIDCD fact sheet, Recurrent Respiratory Papillomatosis or Laryngeal Papillomatosis.",
+      "section": "What are some of the disorders that cause hoarseness and how are they treated?",
+      "locator": "main/block[21]",
+      "start": 0,
+      "end": 673,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "3193e52fb3519dbf25c1aab7",
+      "text": "Researchers funded by the NIDCD are working with teachers to devise strategies to help them reduce the stress and strain on their voices. In one study, the teachers use a voice \"dosimeter\" that takes into account the frequency and loudness of their speech along with the duration of vibration in their vocal folds to determine their daily \"dose\" of vocal use. The researcher hopes to establish a safe level of voice use, as well as recommended recovery times from prolonged speaking.",
+      "section": "What research is being done to better understand and treat hoarseness?",
+      "locator": "main/block[22]",
+      "start": 0,
+      "end": 483,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "badbb13a94a4f135411b4d1f",
+      "text": "In another study, researchers are working with two groups of student teachers in the United States and China to test the effectiveness of voice hygiene education on its own and with voice production training. The researcher hopes to see how successfully the techniques prevent future voice problems in teachers who have healthy voices at the beginning of the study versus those who already may have some voice problems.",
+      "section": "What research is being done to better understand and treat hoarseness?",
+      "locator": "main/block[23]",
+      "start": 0,
+      "end": 419,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "9a166a53faac9f60b290d606",
+      "text": "The NIDCD also is supporting a researcher who is planning to make a \"map\" of all of the genes, proteins, immune system cells, and bacteria present in the normal larynx so that we can better understand the changes that happen during chronic inflammation of the larynx (laryngitis). Using these findings, models will be made that can be used in the lab to develop and direct future interventions for the prevention and treatment of inflammatory diseases of the larynx.",
+      "section": "What research is being done to better understand and treat hoarseness?",
+      "locator": "main/block[24]",
+      "start": 0,
+      "end": 466,
+      "population_status": "adult_dev_candidate"
+    }
+  ]
+}

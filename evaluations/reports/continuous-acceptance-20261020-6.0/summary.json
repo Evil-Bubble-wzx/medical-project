@@ -1,0 +1,36 @@
+{
+  "model": "deepseek-flash",
+  "readiness": "ready",
+  "requested_cases": 12,
+  "completed_cases": 12,
+  "scope_boundary_cases": 6,
+  "pipeline_hashes": {
+    "atomization.py": "1cd9c9d5326821c2daedca9d887c07f92aee9df14ff642bdc0543aeba3ed0d0f",
+    "scope_guard.py": "2f93bdfdd0e7f0219e74f6cc7397fff2124838678b3aff51773d833826bdfca7",
+    "generation.py": "14984871b32d4209bf84549dcabf60ac27953256b6bd2adc5c537791b781d6cf",
+    "answer_workflow.py": "1748a9e49dd5949690e9aa63a5e7786cbd39a4013e5cccb5aa9838bb6bd35413",
+    "verification.py": "2fac71ff622b4750d43eadba8e95d50b94579a097b28b47650145251400ad4b8",
+    "quote_catalog.py": "99e661e73d1cde65e313881f2bec993263d43bf632f6d03acecceb302381f9c1",
+    "quote_repair.py": "97cb22ae11a2b34b44a0c155cc8d5e9493e3e8cf47d4fb7dfa3f38c3474d54a5",
+    "validation_service.py": "93874fac707de8e41d6d717a59126f49e1649c7cde6cf50281060094fb7c8f6b"
+  },
+  "case_status_counts": {
+    "answered": 6,
+    "insufficient_evidence": 2,
+    "needs_information": 4
+  },
+  "validation_error_counts": {},
+  "remaining_cases": 0,
+  "transport_failures_this_attempt": [],
+  "actual_model_calls_not_counted_as_accuracy": true,
+  "citation_structure_pass_rate": 0.5,
+  "semantic_support_rate": null,
+  "clinical_approval": false,
+  "human_review": "pending",
+  "dataset_sha256": "a61b7ad6581e39c7501319c505494456699b0d6240df728171163e6ef8a72965",
+  "config_sha256": "ccf1db75db56f37a53b04a6106f85aa08382ae558a57bb271b7f8abbeaba95de",
+  "retrieval_config_sha256": "e34ab0df834d6ab3c0489bd423dfe3207fddac178033bcf4eae9a511e5fb746c",
+  "generation_prompt_sha256": "11bc0c507f7f2c041eefac146df313744746dbba0bd393325119047e3371750b",
+  "verification_prompt_sha256": "3d01e099656aae7396629c829d939f7e7d3035e3b834bd9e9e01808812e1ebcf",
+  "note": "Fixed synthetic cases only; structure/quote match is not semantic or clinical accuracy."
+}

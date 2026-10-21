@@ -1,0 +1,5 @@
+# Preserve byte identities used by archived manifests, raw sources and evaluation hashes.
+* -text
+*.png binary
+*.jpg binary
+*.jpeg binary

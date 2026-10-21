@@ -1,0 +1,24 @@
+{
+  "cases": [
+    {
+      "case_id": "ANCHOR-NOISE-001",
+      "outcome": "nonempty_anchors_valid",
+      "input_explanations": 1
+    },
+    {
+      "case_id": "ANCHOR-TINNITUS-002",
+      "outcome": "answer_withheld",
+      "input_explanations": 0
+    },
+    {
+      "case_id": "ANCHOR-VOICE-003",
+      "outcome": "answer_withheld",
+      "input_explanations": 0
+    }
+  ],
+  "clinical_approval": false,
+  "semantic_accuracy": null,
+  "note": "Nonempty exact anchors do not prove that the explanation is faithful.",
+  "dataset_sha256": "a4e62190e6620b2e14f23c4c51614bf1a80790baacf71d8acf18c8cb7d1cf05c",
+  "results_sha256": "1faccf5c7d062a56719b647991288e4bed18d5e8ee9b153d9ce5b8ae2e60f405"
+}

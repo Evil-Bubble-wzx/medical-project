@@ -1,0 +1,25 @@
+{
+  "full_offline_tests": 127,
+  "desktop_browser": {
+    "baseline_cards": 10,
+    "reranked_cards": 10,
+    "review_saved": true,
+    "citation_expanded": true,
+    "javascript_errors": 0
+  },
+  "mobile_width": 390,
+  "mobile_document_width": 375,
+  "mobile_body_scroll_width": 375,
+  "clear_during_request_stays_empty": true,
+  "feedback_columns": [
+    "run_id",
+    "snapshot_id",
+    "strategy",
+    "version_id",
+    "chunk_id",
+    "judgment",
+    "updated_at"
+  ],
+  "development_test_feedback_rows": 2,
+  "patient_fields_stored": false
+}

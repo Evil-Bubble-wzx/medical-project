@@ -1,0 +1,56 @@
+{
+  "modes": {
+    "combined": {
+      "anchor_cases": 42,
+      "pool_rank": 20,
+      "rerank_rank": 19,
+      "packet_rank": 16,
+      "by_topic_packet": {
+        "hearing_loss": 6,
+        "otitis_media": 2,
+        "rhinitis": 1,
+        "sinusitis": 6,
+        "throat": 1,
+        "tinnitus": 0
+      }
+    },
+    "dual_question_first_alias": {
+      "anchor_cases": 42,
+      "pool_rank": 31,
+      "rerank_rank": 30,
+      "packet_rank": 29,
+      "by_topic_packet": {
+        "hearing_loss": 7,
+        "otitis_media": 5,
+        "rhinitis": 4,
+        "sinusitis": 6,
+        "throat": 4,
+        "tinnitus": 3
+      }
+    }
+  },
+  "packet_changes": {
+    "gained": [
+      "ENT-002",
+      "ENT-003",
+      "ENT-006",
+      "ENT-015",
+      "ENT-017",
+      "ENT-019",
+      "ENT-023",
+      "ENT-029",
+      "ENT-031",
+      "ENT-034",
+      "ENT-036",
+      "ENT-037",
+      "ENT-042"
+    ],
+    "lost": []
+  },
+  "alias_recomputed_cases": [
+    "ENT-036",
+    "ENT-040"
+  ],
+  "unchanged_queries_reused": 48,
+  "clinical_approval": false
+}

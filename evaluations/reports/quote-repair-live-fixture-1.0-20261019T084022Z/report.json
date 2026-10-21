@@ -1,0 +1,22 @@
+{
+  "synthetic_engineering_fixture": true,
+  "part_of_clinical_12": false,
+  "initial_quote_length": 622,
+  "model_call_attempts": 1,
+  "accepted": true,
+  "clinical_approval": false,
+  "metadata": {
+    "requested_model": "deepseek-flash",
+    "returned_model": "deepseek-flash",
+    "usage": {
+      "prompt_tokens": 758,
+      "completion_tokens": 66,
+      "total_tokens": 824
+    },
+    "prompt_sha256": "c9d02475bb3895e92ebca8f8f645b84f0064092346465dd99f416f72361bc4ed"
+  },
+  "repaired_quote_lengths": [
+    69,
+    69
+  ]
+}

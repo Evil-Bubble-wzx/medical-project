@@ -1,0 +1,10 @@
+{
+  "embedding_chunks_checked": 802,
+  "embedding_max_abs_difference": 0.0,
+  "reranker_pairs_checked": 8,
+  "reranker_max_abs_difference": 0.0,
+  "old_embedding_fingerprint": "e6eed4f597a280ef87c0db70c059bfb25dd325e58a166c814cc805b08c25edcc",
+  "new_embedding_fingerprint": "a0bfaa9cc57ac19cba94fb00c0df2d1ca1a39815c61a9eb11273ced208323941",
+  "new_reranker_fingerprint": "aaad2f3651506fbb9759ec312fe9915dd6ae08a240a40a6a79569abe430412f5",
+  "patient_query_files_used": false
+}

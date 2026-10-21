@@ -1,0 +1,112 @@
+{
+  "source_results_sha256": "5af6d8063eb7ee05aacbd6cc837c3f87ff3737c925ce2d8423b17ec99760dbdc",
+  "dataset_sha256": "f6a62bc8ca64d4fba0e7c6ec4acbd99bdedce465fe0f79c27c59e546e40fda41",
+  "code_identity": "e1ee459a2616289f23bf74ea4148119586e58cb73d674635a7245f959d131c77",
+  "cases": [
+    {
+      "case_id": "GEN-ENT-002",
+      "outcome": "current_structural_gate_pass"
+    },
+    {
+      "case_id": "GEN-ENT-015",
+      "outcome": "current_structural_gate_pass"
+    },
+    {
+      "case_id": "GEN-ENT-025",
+      "outcome": "current_gate_withheld",
+      "code": "source_absence_overreach",
+      "diagnostic": {
+        "claim_id": "input_explanation:0",
+        "code": "source_absence_overreach",
+        "rule": "whole_source_absence_from_single_quote"
+      }
+    },
+    {
+      "case_id": "GEN-ENT-030",
+      "outcome": "current_structural_gate_pass"
+    },
+    {
+      "case_id": "GEN-ENT-036",
+      "outcome": "current_structural_gate_pass"
+    },
+    {
+      "case_id": "GEN-ENT-002-CONTEXT",
+      "outcome": "current_structural_gate_pass"
+    },
+    {
+      "case_id": "GEN-ENT-015-CONTEXT",
+      "outcome": "current_structural_gate_pass"
+    },
+    {
+      "case_id": "GEN-ENT-025-CONTEXT",
+      "outcome": "current_structural_gate_pass"
+    },
+    {
+      "case_id": "GEN-ENT-036-CONTEXT",
+      "outcome": "current_gate_withheld",
+      "code": "source_relation_shift",
+      "diagnostic": {
+        "claim_id": "professional:0",
+        "code": "source_relation_shift",
+        "rule": "volume_pitch_or_not_explicit"
+      }
+    },
+    {
+      "case_id": "ANCHOR-NOISE-001",
+      "outcome": "current_structural_gate_pass"
+    },
+    {
+      "case_id": "ANCHOR-TINNITUS-002",
+      "outcome": "current_structural_gate_pass"
+    },
+    {
+      "case_id": "BATCH-STATE-DENIED",
+      "outcome": "current_gate_withheld",
+      "code": "summary_core_expansion",
+      "diagnostic": {
+        "claim_id": "patient_summary:0",
+        "code": "summary_core_expansion",
+        "rule": "added_concept_0"
+      }
+    }
+  ],
+  "previous_five_failures": [
+    {
+      "case_id": "GEN-ENT-009",
+      "previous_code": "patient_summary_diagnostic_overstatement",
+      "previous_stage": "summarize_patient",
+      "exact_failed_text_available": false,
+      "classification": "No failed draft; over-refusal is undetermined."
+    },
+    {
+      "case_id": "GEN-ENT-009-CONTEXT",
+      "previous_code": "patient_summary_diagnostic_overstatement",
+      "previous_stage": "summarize_patient",
+      "exact_failed_text_available": false,
+      "classification": "No failed draft; over-refusal is undetermined."
+    },
+    {
+      "case_id": "GEN-ENT-030-CONTEXT",
+      "previous_code": "source_scope_overreach",
+      "previous_stage": "validate_citations",
+      "exact_failed_text_available": false,
+      "classification": "No failed draft; over-refusal is undetermined."
+    },
+    {
+      "case_id": "BATCH-STATE-UNKNOWN",
+      "previous_code": "source_scope_overreach",
+      "previous_stage": "validate_citations",
+      "exact_failed_text_available": false,
+      "classification": "No failed draft; over-refusal is undetermined."
+    },
+    {
+      "case_id": "BATCH-STATE-MIXED",
+      "previous_code": "source_scope_overreach",
+      "previous_stage": "validate_citations",
+      "exact_failed_text_available": false,
+      "classification": "No failed draft; over-refusal is undetermined."
+    }
+  ],
+  "clinical_approval": false,
+  "note": "Archived revalidation only; no regeneration or historical result changes."
+}

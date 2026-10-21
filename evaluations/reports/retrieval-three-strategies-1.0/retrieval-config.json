@@ -1,0 +1,7 @@
+{
+  "model_dir": "models/multilingual-e5-small",
+  "embedding_python": "C:/Users/ASUS/AppData/Local/Programs/Python/Python313/python.exe",
+  "index_path": "knowledge/vector-index-e5.json",
+  "channel": "development",
+  "note": "Use existing local CPU runtime explicitly; project .venv remains isolated. Model files are separately pinned."
+}

@@ -1,0 +1,18 @@
+profile = "synthetic-local"
+graph_version = "ent-m0-1.0"
+knowledge_snapshot = "synthetic-ent-v1"
+knowledge_scope = "public-synthetic"
+external_export = false
+top_k = 8
+context_chunks = 8
+max_repairs = 1
+node_timeout_seconds = 5
+request_timeout_seconds = 20
+
+[plugins]
+retriever = "fixture-v1"
+reranker = "passthrough-v1"
+policy = "synthetic-policy-v1"
+generator = "extractive-v1"
+validator = "synthetic-validator-v1"
+evaluator = "engineering-metrics-v1"

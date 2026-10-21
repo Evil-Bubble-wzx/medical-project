@@ -1,0 +1,686 @@
+[
+  {
+    "case_id": "GEN-ENT-002",
+    "result": {
+      "retrieval": {
+        "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+        "hybrid": [
+          {
+            "end": 1712,
+            "id": "8073961684788d1508e1d026",
+            "locator": "body/sec[3]/p[2]",
+            "population_status": "adult_dev_candidate",
+            "section": "3. Disease definitions and diagnostic approach",
+            "start": 0,
+            "text": "The cardinal symptoms of CRS are similar to acute disease, that is, nasal obstruction, congestion or discharge, facial pain/pressure, and olfactory disturbance/loss of smell [1, 2, 11, 12]. Overt facial pain with CRSwNP is uncommon in the Asian patients, where headache (or complaints of pressure or fullness) or nasal obstruction may be more common presenting symptoms. While allergic symptoms (eg, sneezing or itching) are not part of existing diagnostic criteria, their presence may indicate an additional diagnosis of allergic rhinitis. In EPOS 2020, the diagnosis of CRS requires rhinosinusitis lasting for ≥12 weeks (without interruption, as patients may experience recurrent episodes of acute rhinosinusitis) [1, 2]. This assumes that any acute rhinosinusitis has been managed appropriately (ie, with nasal irrigation and INS). Diagnosis of CRSwNP requires the presence of bilateral, endoscopically visualized polyps in the middle meatus [1, 2]. While a minimum duration of 12 weeks reflects a useful policy for chronic disease diagnosis from a symptomatic perspective, this need not be considered absolute. For example, if evidence of more chronic and significant disease already exists (eg, objective findings of nasal polyps on endoscopic examination), then an earlier presumptive diagnosis of CRSwNP would seem appropriate. As discussed later, what is perhaps most important is the need for timely referral for specialist evaluation at the earliest opportunity. Where polyps are absent, patients are considered to have chronic rhinosinusitis without nasal polyps (CRSsNP). When endoscopy or CT shows only unilateral disease, then alternative diagnoses (especially neoplasia) must be considered [1, 2].",
+            "chunk_id": "8073961684788d1508e1d026",
+            "version_id": "e068d0bb-2d00-4a54-bd0c-ee791a53309c",
+            "document_id": "crs-apac-2024",
+            "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+            "title": "Management of chronic rhinosinusitis with nasal polyps in the Asia-Pacific region and Russia: Recommendations from an expert working group",
+            "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11142757/",
+            "topics": [
+              "sinusitis"
+            ],
+            "clinical_review": "pending",
+            "production_eligible": false,
+            "score": 0.029726775956284153,
+            "applicability_warning": null
+          },
+          {
+            "end": 366,
+            "id": "e9097b3973e9630d9a65ada7",
+            "locator": "body/sec[3]/sec[1]/sec[1]/p[3]",
+            "population_status": "adult_dev_candidate",
+            "section": "Multi-morbidities of allergic rhinitis / Asthma / Extent of co-occurrence",
+            "start": 0,
+            "text": "In fact the majority of inflammatory asthma sufferers have some form of upper airway disease (ARIA 2001) [8], either AR, non-allergic rhinitis or rhinosinusitis, usually with nasal polyposis (EPOS 2012) [9]. The extent of inflammation is usually proportional between upper and lower respiratory tracts with equivalence in eosinophils [10] and clinical severity [11].",
+            "chunk_id": "e9097b3973e9630d9a65ada7",
+            "version_id": "aa15af9b-2ffa-4cf8-89b7-ccafd90db10e",
+            "document_id": "adult-rhinitis-eaaci-2017",
+            "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+            "title": "Multi-morbidities of allergic rhinitis in adults: European Academy of Allergy and Clinical Immunology Task Force Report",
+            "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5452333/",
+            "topics": [
+              "rhinitis"
+            ],
+            "clinical_review": "pending",
+            "production_eligible": false,
+            "score": 0.02871794871794872,
+            "applicability_warning": null
+          },
+          {
+            "end": 1800,
+            "id": "53a5c5927f530c1f90cf2788",
+            "locator": "body/sec[4]/p[1]",
+            "population_status": "adult_dev_candidate",
+            "section": "4. Etiology and pathogenesis",
+            "start": 0,
+            "text": "Pathophysiologic mechanisms in CRSwNP involve a complex interaction of host and environmental factors, where specific individual patient profiles are a product of both endotype and phenotype. CRS and specific types such as CRSwNP are now characterized on the basis of the predominant underlying inflammatory pattern (or endotype) and predominant clinical phenotype in current classifications such as EPOS 2020 [1, 2]. Endotypes broadly reflect the underlying biology and pathogenetic mechanisms such as the inflammatory profile (eg, a type 2 dominant inflammatory signature), now especially relevant following the development of novel biologic therapies targeting underlying type 2 inflammatory processes in CRSwNP [13, 14]. Phenotypes reflect the patient’s clinical profile (including comorbid disease) [15, 16]. From a phenotypic perspective, the broad global pattern is that while asthma is more prevalent in patients with CRS compared with the general population, coexisting asthma is even more strongly associated with CRSwNP (30%–70% of patients) and the severity of asthma is also greater in CRSwNP [3, 17-19]. Comorbidities such as allergic rhinitis, NSAID/aspirin-exacerbated respiratory disease, and atopic dermatitis are also more prevalent in CRSwNP than in CRSsNP [20]. This association of CRSwNP and other inflammatory disease often reflects the common underlying type 2 inflammatory processes in these conditions, with eosinophilic tissue inflammation mediated by type 2 cytokines, for example, interleukin (IL)-4, IL-5, and IL-13 and local/circulating IgE, observed in the majority of patients with CRSwNP [15]. However, these patterns show substantial heterogeneity in different geographical populations (including within the APAC region). For example, in Hong Kong, only approximate",
+            "chunk_id": "53a5c5927f530c1f90cf2788",
+            "version_id": "e068d0bb-2d00-4a54-bd0c-ee791a53309c",
+            "document_id": "crs-apac-2024",
+            "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+            "title": "Management of chronic rhinosinusitis with nasal polyps in the Asia-Pacific region and Russia: Recommendations from an expert working group",
+            "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11142757/",
+            "topics": [
+              "sinusitis"
+            ],
+            "clinical_review": "pending",
+            "production_eligible": false,
+            "score": 0.02844551282051282,
+            "applicability_warning": null
+          },
+          {
+            "end": 252,
+            "id": "17abd7d202f2e57e8c352a7a",
+            "locator": "body/sec[3]/sec[1]/sec[1]/p[2]",
+            "population_status": "adult_dev_candidate",
+            "section": "Multi-morbidities of allergic rhinitis / Asthma / Extent of co-occurrence",
+            "start": 0,
+            "text": "The association between asthma and rhinitis in adults has been recognized for some decades, since the pioneering study of Brydon [7], who showed that the majority of 1000 asthmatics also had rhinitis, which preceded their asthma in 45% of the subjects.",
+            "chunk_id": "17abd7d202f2e57e8c352a7a",
+            "document_id": "adult-rhinitis-eaaci-2017",
+            "version_id": "aa15af9b-2ffa-4cf8-89b7-ccafd90db10e",
+            "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+            "title": "Multi-morbidities of allergic rhinitis in adults: European Academy of Allergy and Clinical Immunology Task Force Report",
+            "title_zh": "成人变应性鼻炎共病：EAACI工作组报告（2017）",
+            "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5452333/",
+            "publication_date": "2017-6-1",
+            "license": "CC-BY-4.0",
+            "state": "draft",
+            "clinical_review": "pending",
+            "production_eligible": false,
+            "bm25": -2.7043529095343635,
+            "score": 0.01639344262295082,
+            "applicability_warning": null
+          },
+          {
+            "end": 124,
+            "id": "aca0e617998d6dd0e3faae93",
+            "locator": "body/sec[3]/sec[1]/sec[1]/p[6]",
+            "population_status": "adult_dev_candidate",
+            "section": "Multi-morbidities of allergic rhinitis / Asthma / Extent of co-occurrence",
+            "start": 0,
+            "text": "Certainly the presence of rhinitis, both allergic and non-allergic, is a risk factor for subsequent asthma development [14].",
+            "chunk_id": "aca0e617998d6dd0e3faae93",
+            "document_id": "adult-rhinitis-eaaci-2017",
+            "version_id": "aa15af9b-2ffa-4cf8-89b7-ccafd90db10e",
+            "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+            "title": "Multi-morbidities of allergic rhinitis in adults: European Academy of Allergy and Clinical Immunology Task Force Report",
+            "title_zh": "成人变应性鼻炎共病：EAACI工作组报告（2017）",
+            "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5452333/",
+            "publication_date": "2017-6-1",
+            "license": "CC-BY-4.0",
+            "state": "draft",
+            "clinical_review": "pending",
+            "production_eligible": false,
+            "bm25": -2.4248062840684463,
+            "score": 0.016129032258064516,
+            "applicability_warning": null
+          },
+          {
+            "end": 421,
+            "id": "f3339475c5d50fa8041419ff",
+            "locator": "body/sec[3]/sec[3]/sec[1]/p[3]",
+            "population_status": "adult_dev_candidate",
+            "section": "Multi-morbidities of allergic rhinitis / Food allergy / Extent of co-occurrence",
+            "start": 0,
+            "text": "In one Italian study of pollen sensitive AR subjects aged 4–18 years old, a longer AR duration was significantly associated with moderate-to-severe AR symptoms (p = 0.004), and with co-morbidities such as asthma (p 0.030), PFS was present in 24% (p < 0.001) [30]. In a study of 110 UK adults with spring hay fever, 52 participants (47%) were diagnosed with PFS, which is the commonest form of food allergy in the UK [29].",
+            "chunk_id": "f3339475c5d50fa8041419ff",
+            "version_id": "aa15af9b-2ffa-4cf8-89b7-ccafd90db10e",
+            "document_id": "adult-rhinitis-eaaci-2017",
+            "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+            "title": "Multi-morbidities of allergic rhinitis in adults: European Academy of Allergy and Clinical Immunology Task Force Report",
+            "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5452333/",
+            "topics": [
+              "rhinitis"
+            ],
+            "clinical_review": "pending",
+            "production_eligible": false,
+            "score": 0.016129032258064516,
+            "applicability_warning": "原文涉及18岁以下年龄段，人群适用性需复核。"
+          },
+          {
+            "end": 184,
+            "id": "c9f1e17cf990d1563c4c9934",
+            "locator": "body/sec[4]/p[2]",
+            "population_status": "adult_dev_candidate",
+            "section": "Diagnosis",
+            "start": 0,
+            "text": "A physical examination of all organ systems potentially affected by allergies, with emphasis on the upper respiratory tract, should be performed in patients with a history of rhinitis.",
+            "chunk_id": "c9f1e17cf990d1563c4c9934",
+            "document_id": "adult-rhinitis-eaaci-2017",
+            "version_id": "aa15af9b-2ffa-4cf8-89b7-ccafd90db10e",
+            "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+            "title": "Multi-morbidities of allergic rhinitis in adults: European Academy of Allergy and Clinical Immunology Task Force Report",
+            "title_zh": "成人变应性鼻炎共病：EAACI工作组报告（2017）",
+            "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5452333/",
+            "publication_date": "2017-6-1",
+            "license": "CC-BY-4.0",
+            "state": "draft",
+            "clinical_review": "pending",
+            "production_eligible": false,
+            "bm25": -2.3062693689893248,
+            "score": 0.015873015873015872,
+            "applicability_warning": null
+          },
+          {
+            "end": 53,
+            "id": "f814407ac7b99e325af60724",
+            "locator": "body/sec[8]/sec[3]/list[1]/list-item[25]/p[1]",
+            "population_status": "adult_dev_candidate",
+            "section": "5. Appendix / 5.3 Appendix 3: Medical history questions and clinical severity classification",
+            "start": 0,
+            "text": "Do you have any cardiovascular or metabolic diseases?",
+            "chunk_id": "f814407ac7b99e325af60724",
+            "version_id": "d5005279-1bad-491f-8122-a2d05e558146",
+            "document_id": "tinnitus-s3-2022",
+            "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+            "title": "S3 Guideline: Chronic Tinnitus",
+            "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9581878/",
+            "topics": [
+              "tinnitus"
+            ],
+            "clinical_review": "pending",
+            "production_eligible": false,
+            "score": 0.015873015873015872,
+            "applicability_warning": null
+          },
+          {
+            "end": 230,
+            "id": "7f89106963a11f28dc2a60ad",
+            "locator": "body/sec[3]/sec[7]/sec[1]/p[2]",
+            "population_status": "adult_dev_candidate",
+            "section": "Multi-morbidities of allergic rhinitis / Otitis media with effusion (OME) / Extent of co-occurrence",
+            "start": 0,
+            "text": "OME is much rarer in adults and is usually found in association with more severe rhinosinusitis (such as aspirin exacerbated respiratory disease, allergic fungal sinusitis and Churg Strauss syndrome) rather than with rhinitis [9].",
+            "chunk_id": "7f89106963a11f28dc2a60ad",
+            "document_id": "adult-rhinitis-eaaci-2017",
+            "version_id": "aa15af9b-2ffa-4cf8-89b7-ccafd90db10e",
+            "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+            "title": "Multi-morbidities of allergic rhinitis in adults: European Academy of Allergy and Clinical Immunology Task Force Report",
+            "title_zh": "成人变应性鼻炎共病：EAACI工作组报告（2017）",
+            "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5452333/",
+            "publication_date": "2017-6-1",
+            "license": "CC-BY-4.0",
+            "state": "draft",
+            "clinical_review": "pending",
+            "production_eligible": false,
+            "bm25": -2.2334800931684646,
+            "score": 0.015625,
+            "applicability_warning": null
+          },
+          {
+            "end": 1751,
+            "id": "48d02b1c90d22132535f7a4a",
+            "locator": "body/sec[9]/p[2]",
+            "population_status": "adult_dev_candidate",
+            "section": "9. Use of biologics in CRSwNP",
+            "start": 0,
+            "text": "Use of biologics is now established in current guidelines, although differences exist in specific criteria and thresholds [1, 2, 6-8, 27]. The EPOS 2020 guidelines indicate that biologics can be considered if at least 3 of the following 5 features are present; (1) evidence of type 2 inflammation (tissue eosinophilia ≥10 cells/high-power field, or serum eosinophilia ≥250 cells/µL, or total serum IgE ≥100 IU/mL); (2) need for systemic corticosteroids (≥2 courses OCS per year or long-term [>3 months] low-dose steroids) or contraindications for systemic corticosteroids; (3) significantly impaired QoL (eg, with SNOT-22 ≥40); (4) significant loss of smell (anosmia on smell test); (5) with comorbid asthma (requiring regular inhaled corticosteroids) [1, 2]. Looking specifically at the criteria for evidence of type 2 inflammation, in the panel’s view, while evidence of type 2 inflammation is an important criterion, these cutoff thresholds may not be fully appropriate or applicable for Asian populations, and their strict application may obstruct access to patients who may benefit from biologics. For Asian patients, alternative thresholds may apply. Serum eosinophilia ≥250 cells/µL may be the most reliable marker of type 2 inflammation in Asian patients, while a total serum IgE ≥150 IU/mL is more typical of nontype 2 inflammation. Tissue eosinophilia of ≥10 cells/high-power field may be a weak biomarker in Asian patients, where when used to assess status in patients with recurrent disease following surgery, a higher threshold of between 70 and 100 eosinophils per high-power field is used. When considering the need for systemic corticosteroids, patient reluctance or refusal to take systemic steroids should also be taken into account.",
+            "chunk_id": "48d02b1c90d22132535f7a4a",
+            "version_id": "e068d0bb-2d00-4a54-bd0c-ee791a53309c",
+            "document_id": "crs-apac-2024",
+            "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+            "title": "Management of chronic rhinosinusitis with nasal polyps in the Asia-Pacific region and Russia: Recommendations from an expert working group",
+            "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11142757/",
+            "topics": [
+              "sinusitis"
+            ],
+            "clinical_review": "pending",
+            "production_eligible": false,
+            "score": 0.015384615384615385,
+            "applicability_warning": null
+          }
+        ],
+        "reranked": [
+          {
+            "end": 1625,
+            "id": "8dfb8262e3c4d9ae8a776deb",
+            "locator": "body/sec[3]/sec[2]/p[1]",
+            "population_status": "adult_dev_candidate",
+            "section": "3. Results / 3.2. Study characteristics",
+            "start": 0,
+            "text": "Table 1 represents a detailed overview of the relevant characteristics of the included studies. The studies are clustered based on the HRQoL questionnaire used. All studies were prospective observational studies with pre- and postoperative measurements, published between 2000 and 2023. Information about HRQoL scores before and after otologic surgical treatment was gathered with the use of seven different validated HRQoL questionnaires. The sample sizes per study ranged between 26 (44) and 167 (43) patients, resulting in a total of 1,329 included patients with a mean age of 44.74 years. HRQoL assessment was conducted with at least one disease-specific HRQoL questionnaire in each study. One questionnaire for general chronic middle ear diseases (CES) was used and three COM-specific questionnaires (COMQ-12, ZCMEI-21, and COMOT-15). CES (3, 35–38) and COMOT-15 (8, 31–34) were used in five different studies, and the ZCMEI-21 (31, 39, 40) and COMQ-12 (42–44) in three studies. Furthermore, three general HRQoL questionnaires were used: SF-36 (8, 31, 43), SF-12V2 (38), and Euro-Qol-5D-5L (42). A hearing-specific QoL questionnaire (HHIA) was used once (42). Table 2 provides an overview of the content of each disease-specific HRQoL questionnaire. All questionnaires contain questions on classic ear symptoms, use of medical resources, and impact on daily life activities, except for COMOT-15 which does not encompass the latter. COMOT-15, COMQ-12, and ZCMEI-21 include psychological aspects as well. However, besides covering different domains of HRQoL, each questionnaire has its own interpretation of these domains.",
+            "chunk_id": "8dfb8262e3c4d9ae8a776deb",
+            "version_id": "4c3cc2a2-3002-4fc5-bcb2-dc5cb68b2375",
+            "document_id": "adult-com-qol-2023",
+            "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+            "title": "Health-related quality of life after otologic surgical treatment for chronic otitis media: systematic review",
+            "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10654635/",
+            "topics": [
+              "otitis_media",
+              "hearing_loss"
+            ],
+            "clinical_review": "pending",
+            "production_eligible": false,
+            "score": 0.015151515151515152,
+            "rerank_score": -2.882002353668213,
+            "applicability_warning": null
+          },
+          {
+            "end": 1800,
+            "id": "53a5c5927f530c1f90cf2788",
+            "locator": "body/sec[4]/p[1]",
+            "population_status": "adult_dev_candidate",
+            "section": "4. Etiology and pathogenesis",
+            "start": 0,
+            "text": "Pathophysiologic mechanisms in CRSwNP involve a complex interaction of host and environmental factors, where specific individual patient profiles are a product of both endotype and phenotype. CRS and specific types such as CRSwNP are now characterized on the basis of the predominant underlying inflammatory pattern (or endotype) and predominant clinical phenotype in current classifications such as EPOS 2020 [1, 2]. Endotypes broadly reflect the underlying biology and pathogenetic mechanisms such as the inflammatory profile (eg, a type 2 dominant inflammatory signature), now especially relevant following the development of novel biologic therapies targeting underlying type 2 inflammatory processes in CRSwNP [13, 14]. Phenotypes reflect the patient’s clinical profile (including comorbid disease) [15, 16]. From a phenotypic perspective, the broad global pattern is that while asthma is more prevalent in patients with CRS compared with the general population, coexisting asthma is even more strongly associated with CRSwNP (30%–70% of patients) and the severity of asthma is also greater in CRSwNP [3, 17-19]. Comorbidities such as allergic rhinitis, NSAID/aspirin-exacerbated respiratory disease, and atopic dermatitis are also more prevalent in CRSwNP than in CRSsNP [20]. This association of CRSwNP and other inflammatory disease often reflects the common underlying type 2 inflammatory processes in these conditions, with eosinophilic tissue inflammation mediated by type 2 cytokines, for example, interleukin (IL)-4, IL-5, and IL-13 and local/circulating IgE, observed in the majority of patients with CRSwNP [15]. However, these patterns show substantial heterogeneity in different geographical populations (including within the APAC region). For example, in Hong Kong, only approximate",
+            "chunk_id": "53a5c5927f530c1f90cf2788",
+            "version_id": "e068d0bb-2d00-4a54-bd0c-ee791a53309c",
+            "document_id": "crs-apac-2024",
+            "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+            "title": "Management of chronic rhinosinusitis with nasal polyps in the Asia-Pacific region and Russia: Recommendations from an expert working group",
+            "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11142757/",
+            "topics": [
+              "sinusitis"
+            ],
+            "clinical_review": "pending",
+            "production_eligible": false,
+            "score": 0.02844551282051282,
+            "rerank_score": -2.948843240737915,
+            "applicability_warning": null
+          },
+          {
+            "end": 503,
+            "id": "bcee4deb66dbecfa5fd1c6c1",
+            "locator": "body/sec[3]/sec[8]/p[1]",
+            "population_status": "adult_dev_candidate",
+            "section": "Multi-morbidities of allergic rhinitis / Adenoid hypertrophy (AH)",
+            "start": 0,
+            "text": "The adenoid tissue is a peripheral lymphoid organ located in the nasopharynx, forming part of Waldeyer’s ring. It contributes to the development of immunity against inhaled micro-organisms in early life. The volume of the adenoid increases with age and is maximal at 5–6 years, followed by a gradual decrease in volume by the age of 8–9 years [79]. Symptoms related to AH are nasal obstruction, open mouth breathing and snoring. ‘Adenoid face’ can be caused by AH or by severe obstructive rhinitis [61].",
+            "chunk_id": "bcee4deb66dbecfa5fd1c6c1",
+            "document_id": "adult-rhinitis-eaaci-2017",
+            "version_id": "aa15af9b-2ffa-4cf8-89b7-ccafd90db10e",
+            "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+            "title": "Multi-morbidities of allergic rhinitis in adults: European Academy of Allergy and Clinical Immunology Task Force Report",
+            "title_zh": "成人变应性鼻炎共病：EAACI工作组报告（2017）",
+            "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5452333/",
+            "publication_date": "2017-6-1",
+            "license": "CC-BY-4.0",
+            "state": "draft",
+            "clinical_review": "pending",
+            "production_eligible": false,
+            "bm25": -1.746553161207386,
+            "score": 0.0136986301369863,
+            "rerank_score": -3.3894639015197754,
+            "applicability_warning": null
+          },
+          {
+            "end": 1712,
+            "id": "8073961684788d1508e1d026",
+            "locator": "body/sec[3]/p[2]",
+            "population_status": "adult_dev_candidate",
+            "section": "3. Disease definitions and diagnostic approach",
+            "start": 0,
+            "text": "The cardinal symptoms of CRS are similar to acute disease, that is, nasal obstruction, congestion or discharge, facial pain/pressure, and olfactory disturbance/loss of smell [1, 2, 11, 12]. Overt facial pain with CRSwNP is uncommon in the Asian patients, where headache (or complaints of pressure or fullness) or nasal obstruction may be more common presenting symptoms. While allergic symptoms (eg, sneezing or itching) are not part of existing diagnostic criteria, their presence may indicate an additional diagnosis of allergic rhinitis. In EPOS 2020, the diagnosis of CRS requires rhinosinusitis lasting for ≥12 weeks (without interruption, as patients may experience recurrent episodes of acute rhinosinusitis) [1, 2]. This assumes that any acute rhinosinusitis has been managed appropriately (ie, with nasal irrigation and INS). Diagnosis of CRSwNP requires the presence of bilateral, endoscopically visualized polyps in the middle meatus [1, 2]. While a minimum duration of 12 weeks reflects a useful policy for chronic disease diagnosis from a symptomatic perspective, this need not be considered absolute. For example, if evidence of more chronic and significant disease already exists (eg, objective findings of nasal polyps on endoscopic examination), then an earlier presumptive diagnosis of CRSwNP would seem appropriate. As discussed later, what is perhaps most important is the need for timely referral for specialist evaluation at the earliest opportunity. Where polyps are absent, patients are considered to have chronic rhinosinusitis without nasal polyps (CRSsNP). When endoscopy or CT shows only unilateral disease, then alternative diagnoses (especially neoplasia) must be considered [1, 2].",
+            "chunk_id": "8073961684788d1508e1d026",
+            "version_id": "e068d0bb-2d00-4a54-bd0c-ee791a53309c",
+            "document_id": "crs-apac-2024",
+            "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+            "title": "Management of chronic rhinosinusitis with nasal polyps in the Asia-Pacific region and Russia: Recommendations from an expert working group",
+            "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11142757/",
+            "topics": [
+              "sinusitis"
+            ],
+            "clinical_review": "pending",
+            "production_eligible": false,
+            "score": 0.029726775956284153,
+            "rerank_score": -3.629321575164795,
+            "applicability_warning": null
+          },
+          {
+            "end": 156,
+            "id": "ab5085376a4b4ddd9ef5c9ad",
+            "locator": "body/sec[3]/sec[8]/sec[1]/p[2]",
+            "population_status": "adult_dev_candidate",
+            "section": "Multi-morbidities of allergic rhinitis / Adenoid hypertrophy (AH) / Extent of co-occurrence",
+            "start": 0,
+            "text": "Adenoid hypertrophy in adults is rare and may indicate underlying malignancy or infection, such as human immune deficiency virus (HIV), rather than allergy.",
+            "chunk_id": "ab5085376a4b4ddd9ef5c9ad",
+            "document_id": "adult-rhinitis-eaaci-2017",
+            "version_id": "aa15af9b-2ffa-4cf8-89b7-ccafd90db10e",
+            "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+            "title": "Multi-morbidities of allergic rhinitis in adults: European Academy of Allergy and Clinical Immunology Task Force Report",
+            "title_zh": "成人变应性鼻炎共病：EAACI工作组报告（2017）",
+            "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5452333/",
+            "publication_date": "2017-6-1",
+            "license": "CC-BY-4.0",
+            "state": "draft",
+            "clinical_review": "pending",
+            "production_eligible": false,
+            "bm25": -0.8008069029767975,
+            "score": 0.0125,
+            "rerank_score": -3.678051233291626,
+            "applicability_warning": null
+          },
+          {
+            "end": 1751,
+            "id": "48d02b1c90d22132535f7a4a",
+            "locator": "body/sec[9]/p[2]",
+            "population_status": "adult_dev_candidate",
+            "section": "9. Use of biologics in CRSwNP",
+            "start": 0,
+            "text": "Use of biologics is now established in current guidelines, although differences exist in specific criteria and thresholds [1, 2, 6-8, 27]. The EPOS 2020 guidelines indicate that biologics can be considered if at least 3 of the following 5 features are present; (1) evidence of type 2 inflammation (tissue eosinophilia ≥10 cells/high-power field, or serum eosinophilia ≥250 cells/µL, or total serum IgE ≥100 IU/mL); (2) need for systemic corticosteroids (≥2 courses OCS per year or long-term [>3 months] low-dose steroids) or contraindications for systemic corticosteroids; (3) significantly impaired QoL (eg, with SNOT-22 ≥40); (4) significant loss of smell (anosmia on smell test); (5) with comorbid asthma (requiring regular inhaled corticosteroids) [1, 2]. Looking specifically at the criteria for evidence of type 2 inflammation, in the panel’s view, while evidence of type 2 inflammation is an important criterion, these cutoff thresholds may not be fully appropriate or applicable for Asian populations, and their strict application may obstruct access to patients who may benefit from biologics. For Asian patients, alternative thresholds may apply. Serum eosinophilia ≥250 cells/µL may be the most reliable marker of type 2 inflammation in Asian patients, while a total serum IgE ≥150 IU/mL is more typical of nontype 2 inflammation. Tissue eosinophilia of ≥10 cells/high-power field may be a weak biomarker in Asian patients, where when used to assess status in patients with recurrent disease following surgery, a higher threshold of between 70 and 100 eosinophils per high-power field is used. When considering the need for systemic corticosteroids, patient reluctance or refusal to take systemic steroids should also be taken into account.",
+            "chunk_id": "48d02b1c90d22132535f7a4a",
+            "version_id": "e068d0bb-2d00-4a54-bd0c-ee791a53309c",
+            "document_id": "crs-apac-2024",
+            "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+            "title": "Management of chronic rhinosinusitis with nasal polyps in the Asia-Pacific region and Russia: Recommendations from an expert working group",
+            "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11142757/",
+            "topics": [
+              "sinusitis"
+            ],
+            "clinical_review": "pending",
+            "production_eligible": false,
+            "score": 0.015384615384615385,
+            "rerank_score": -3.765629529953003,
+            "applicability_warning": null
+          },
+          {
+            "end": 421,
+            "id": "f3339475c5d50fa8041419ff",
+            "locator": "body/sec[3]/sec[3]/sec[1]/p[3]",
+            "population_status": "adult_dev_candidate",
+            "section": "Multi-morbidities of allergic rhinitis / Food allergy / Extent of co-occurrence",
+            "start": 0,
+            "text": "In one Italian study of pollen sensitive AR subjects aged 4–18 years old, a longer AR duration was significantly associated with moderate-to-severe AR symptoms (p = 0.004), and with co-morbidities such as asthma (p 0.030), PFS was present in 24% (p < 0.001) [30]. In a study of 110 UK adults with spring hay fever, 52 participants (47%) were diagnosed with PFS, which is the commonest form of food allergy in the UK [29].",
+            "chunk_id": "f3339475c5d50fa8041419ff",
+            "version_id": "aa15af9b-2ffa-4cf8-89b7-ccafd90db10e",
+            "document_id": "adult-rhinitis-eaaci-2017",
+            "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+            "title": "Multi-morbidities of allergic rhinitis in adults: European Academy of Allergy and Clinical Immunology Task Force Report",
+            "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5452333/",
+            "topics": [
+              "rhinitis"
+            ],
+            "clinical_review": "pending",
+            "production_eligible": false,
+            "score": 0.016129032258064516,
+            "rerank_score": -3.767152786254883,
+            "applicability_warning": "原文涉及18岁以下年龄段，人群适用性需复核。"
+          },
+          {
+            "end": 366,
+            "id": "e9097b3973e9630d9a65ada7",
+            "locator": "body/sec[3]/sec[1]/sec[1]/p[3]",
+            "population_status": "adult_dev_candidate",
+            "section": "Multi-morbidities of allergic rhinitis / Asthma / Extent of co-occurrence",
+            "start": 0,
+            "text": "In fact the majority of inflammatory asthma sufferers have some form of upper airway disease (ARIA 2001) [8], either AR, non-allergic rhinitis or rhinosinusitis, usually with nasal polyposis (EPOS 2012) [9]. The extent of inflammation is usually proportional between upper and lower respiratory tracts with equivalence in eosinophils [10] and clinical severity [11].",
+            "chunk_id": "e9097b3973e9630d9a65ada7",
+            "version_id": "aa15af9b-2ffa-4cf8-89b7-ccafd90db10e",
+            "document_id": "adult-rhinitis-eaaci-2017",
+            "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+            "title": "Multi-morbidities of allergic rhinitis in adults: European Academy of Allergy and Clinical Immunology Task Force Report",
+            "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5452333/",
+            "topics": [
+              "rhinitis"
+            ],
+            "clinical_review": "pending",
+            "production_eligible": false,
+            "score": 0.02871794871794872,
+            "rerank_score": -3.930131196975708,
+            "applicability_warning": null
+          },
+          {
+            "end": 230,
+            "id": "7f89106963a11f28dc2a60ad",
+            "locator": "body/sec[3]/sec[7]/sec[1]/p[2]",
+            "population_status": "adult_dev_candidate",
+            "section": "Multi-morbidities of allergic rhinitis / Otitis media with effusion (OME) / Extent of co-occurrence",
+            "start": 0,
+            "text": "OME is much rarer in adults and is usually found in association with more severe rhinosinusitis (such as aspirin exacerbated respiratory disease, allergic fungal sinusitis and Churg Strauss syndrome) rather than with rhinitis [9].",
+            "chunk_id": "7f89106963a11f28dc2a60ad",
+            "document_id": "adult-rhinitis-eaaci-2017",
+            "version_id": "aa15af9b-2ffa-4cf8-89b7-ccafd90db10e",
+            "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+            "title": "Multi-morbidities of allergic rhinitis in adults: European Academy of Allergy and Clinical Immunology Task Force Report",
+            "title_zh": "成人变应性鼻炎共病：EAACI工作组报告（2017）",
+            "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5452333/",
+            "publication_date": "2017-6-1",
+            "license": "CC-BY-4.0",
+            "state": "draft",
+            "clinical_review": "pending",
+            "production_eligible": false,
+            "bm25": -2.2334800931684646,
+            "score": 0.015625,
+            "rerank_score": -3.9720094203948975,
+            "applicability_warning": null
+          },
+          {
+            "end": 252,
+            "id": "c8d9422574e5853d04364cf9",
+            "locator": "body/sec[3]/sec[2]/sec[1]/p[3]",
+            "population_status": "adult_dev_candidate",
+            "section": "Multi-morbidities of allergic rhinitis / Atopic dermatitis (AD) / Extent of co-occurrence",
+            "start": 0,
+            "text": "In a Croatian study [22], the age at onset was younger in the group of AD patients with concomitant AR, suggesting that AD multi-morbidity (although part of the allergic march) may be irrelevant to the later development of isolated respiratory allergy.",
+            "chunk_id": "c8d9422574e5853d04364cf9",
+            "version_id": "aa15af9b-2ffa-4cf8-89b7-ccafd90db10e",
+            "document_id": "adult-rhinitis-eaaci-2017",
+            "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+            "title": "Multi-morbidities of allergic rhinitis in adults: European Academy of Allergy and Clinical Immunology Task Force Report",
+            "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5452333/",
+            "topics": [
+              "rhinitis"
+            ],
+            "clinical_review": "pending",
+            "production_eligible": false,
+            "score": 0.0136986301369863,
+            "rerank_score": -4.028402328491211,
+            "applicability_warning": null
+          }
+        ],
+        "run_id": "3c0a3d2e-0ced-4f50-a505-7a002461fa0c",
+        "elapsed_ms": 5764,
+        "reranker_enabled": true
+      },
+      "answer": {
+        "status": "answered",
+        "professional": [
+          {
+            "text": "变应性鼻炎（过敏性鼻炎）在成人中可与多个共病相关，资料指出其属于“multi-morbidities”范畴；但该段正文主要描述腺样体解剖与年龄变化，并未逐项列出具体共病部位，因此不能据此推断未列明的疾病。",
+            "supports": [
+              {
+                "evidence_id": "E3",
+                "quote": "The adenoid tissue is a peripheral lymphoid organ located in the nasopharynx, forming part of Waldeyer’s ring."
+              }
+            ],
+            "input_fields": [
+              "question"
+            ]
+          },
+          {
+            "text": "就鼻窦方面而言，慢性鼻窦炎伴鼻息肉患者的表型常合并其他炎症性疾病：资料显示合并哮喘在CRSwNP中较普遍，且变应性鼻炎、NSAID/阿司匹林加重的呼吸系统疾病、特应性皮炎在CRSwNP中比CRSsNP更常见。上述为群体层面的关联，不能直接套用于某个个体。",
+            "supports": [
+              {
+                "evidence_id": "E2",
+                "quote": "Comorbidities such as allergic rhinitis, NSAID/aspirin-exacerbated respiratory disease, and atopic dermatitis are also more prevalent in CRSwNP than in CRSsNP"
+              }
+            ],
+            "input_fields": [
+              "question"
+            ]
+          },
+          {
+            "text": "鼻部症状可与下气道表现并存：资料指出哮喘在CRS患者中较一般人群更常见，而在CRSwNP中并存哮喘的关联更强（约30%–70%），且哮喘严重度更高。",
+            "supports": [
+              {
+                "evidence_id": "E2",
+                "quote": "coexisting asthma is even more strongly associated with CRSwNP (30%–70% of patients) and the severity of asthma is also greater in CRSwNP"
+              }
+            ],
+            "input_fields": [
+              "question"
+            ]
+          },
+          {
+            "text": "需注意鉴别方向：成人腺样体肥大属少见情况，资料提示其可能提示潜在恶性肿瘤或感染（如HIV），而非变应性原因；这属于需要专科评估的线索，并非鼻炎常见的“共病部位”清单。",
+            "supports": [
+              {
+                "evidence_id": "E5",
+                "quote": "Adenoid hypertrophy in adults is rare and may indicate underlying malignancy or infection, such as human immune deficiency virus (HIV), rather than allergy."
+              }
+            ],
+            "input_fields": [
+              "question"
+            ]
+          }
+        ],
+        "input_explanation": [
+          {
+            "text": "用户询问成人鼻炎除鼻部表现外还可能涉及哪些部位或疾病，故引用变应性鼻炎共病综述与慢性鼻窦炎伴鼻息肉共病描述作答；输入仅提供问题与年龄，未提供病程、既往史与检查结果，故仅作一般性资料解释，不针对该个体判断。",
+            "supports": [
+              {
+                "evidence_id": "E3",
+                "quote": "The adenoid tissue is a peripheral lymphoid organ located in the nasopharynx, forming part of Waldeyer’s ring."
+              },
+              {
+                "evidence_id": "E2",
+                "quote": "Comorbidities such as allergic rhinitis, NSAID/aspirin-exacerbated respiratory disease, and atopic dermatitis are also more prevalent in CRSwNP than in CRSsNP"
+              }
+            ],
+            "input_fields": [
+              "age",
+              "question"
+            ]
+          }
+        ],
+        "patient_summary": [
+          {
+            "text": "简单说，成人鼻炎（尤其过敏性鼻炎）常常不是“只在鼻子”的问题，资料显示它与身体其他部位的炎症性疾病存在关联，例如鼻窦问题以及哮喘等下气道问题；但这些是群体研究中的关联，不代表您个人一定会有。",
+            "supports": [
+              {
+                "evidence_id": "E2",
+                "quote": "coexisting asthma is even more strongly associated with CRSwNP (30%–70% of patients) and the severity of asthma is also greater in CRSwNP"
+              }
+            ],
+            "input_fields": [
+              "question"
+            ]
+          },
+          {
+            "text": "另外，如果成人出现腺样体肥大，医生通常会考虑少见但需要排查的原因（如感染或肿瘤），而不是简单归因于过敏，这需要专科检查来明确。",
+            "supports": [
+              {
+                "evidence_id": "E5",
+                "quote": "Adenoid hypertrophy in adults is rare and may indicate underlying malignancy or infection, such as human immune deficiency virus (HIV), rather than allergy."
+              }
+            ],
+            "input_fields": [
+              "question"
+            ]
+          }
+        ],
+        "limitations": [
+          "missing_patient_details",
+          "insufficient_support"
+        ]
+      },
+      "citations": [
+        {
+          "evidence_id": "E1",
+          "version_id": "4c3cc2a2-3002-4fc5-bcb2-dc5cb68b2375",
+          "chunk_id": "8dfb8262e3c4d9ae8a776deb",
+          "document_id": "adult-com-qol-2023",
+          "title": "Health-related quality of life after otologic surgical treatment for chronic otitis media: systematic review",
+          "locator": "body/sec[3]/sec[2]/p[1]",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10654635/",
+          "text": "Table 1 represents a detailed overview of the relevant characteristics of the included studies. The studies are clustered based on the HRQoL questionnaire used. All studies were prospective observational studies with pre- and postoperative measurements, published between 2000 and 2023. Information about HRQoL scores before and after otologic surgical treatment was gathered with the use of seven different validated HRQoL questionnaires. The sample sizes per study ranged between 26 (44) and 167 (43) patients, resulting in a total of 1,329 included patients with a mean age of 44.74 years. HRQoL assessment was conducted with at least one disease-specific HRQoL questionnaire in each study. One questionnaire for general chronic middle ear diseases (CES) was used and three COM-specific questionnaires (COMQ-12, ZCMEI-21, and COMOT-15). CES (3, 35–38) and COMOT-15 (8, 31–34) were used in five different studies, and the ZCMEI-21 (31, 39, 40) and COMQ-12 (42–44) in three studies. Furthermore, three general HRQoL questionnaires were used: SF-36 (8, 31, 43), SF-12V2 (38), and Euro-Qol-5D-5L (42). A hearing-specific QoL questionnaire (HHIA) was used once (42). Table 2 provides an overview of the content of each disease-specific HRQoL questionnaire. All questionnaires contain questions on classic ear symptoms, use of medical resources, and impact on daily life activities, except for COMOT-15 which does not encompass the latter. COMOT-15, COMQ-12, and ZCMEI-21 include psychological aspects as well. However, besides covering different domains of HRQoL, each questionnaire has its own interpretation of these domains.",
+          "text_truncated": false,
+          "clinical_review": "pending"
+        },
+        {
+          "evidence_id": "E2",
+          "version_id": "e068d0bb-2d00-4a54-bd0c-ee791a53309c",
+          "chunk_id": "53a5c5927f530c1f90cf2788",
+          "document_id": "crs-apac-2024",
+          "title": "Management of chronic rhinosinusitis with nasal polyps in the Asia-Pacific region and Russia: Recommendations from an expert working group",
+          "locator": "body/sec[4]/p[1]",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11142757/",
+          "text": "Pathophysiologic mechanisms in CRSwNP involve a complex interaction of host and environmental factors, where specific individual patient profiles are a product of both endotype and phenotype. CRS and specific types such as CRSwNP are now characterized on the basis of the predominant underlying inflammatory pattern (or endotype) and predominant clinical phenotype in current classifications such as EPOS 2020 [1, 2]. Endotypes broadly reflect the underlying biology and pathogenetic mechanisms such as the inflammatory profile (eg, a type 2 dominant inflammatory signature), now especially relevant following the development of novel biologic therapies targeting underlying type 2 inflammatory processes in CRSwNP [13, 14]. Phenotypes reflect the patient’s clinical profile (including comorbid disease) [15, 16]. From a phenotypic perspective, the broad global pattern is that while asthma is more prevalent in patients with CRS compared with the general population, coexisting asthma is even more strongly associated with CRSwNP (30%–70% of patients) and the severity of asthma is also greater in CRSwNP [3, 17-19]. Comorbidities such as allergic rhinitis, NSAID/aspirin-exacerbated respiratory disease, and atopic dermatitis are also more prevalent in CRSwNP than in CRSsNP [20]. This association of CRSwNP and other inflammatory disease often reflects the common underlying type 2 inflammatory processes in these conditions, with eosinophilic tissue inflammation mediated by type 2 cytokines, for example, interleukin (IL)-4, IL-5, and IL-13 and local/circulating IgE, observed in the majority of patients with CRSwNP [15]. However, these patterns show substantial heterogeneity in different geographical populations (including within the APAC region). For example, in Hong Kong, only approximate",
+          "text_truncated": false,
+          "clinical_review": "pending"
+        },
+        {
+          "evidence_id": "E3",
+          "version_id": "aa15af9b-2ffa-4cf8-89b7-ccafd90db10e",
+          "chunk_id": "bcee4deb66dbecfa5fd1c6c1",
+          "document_id": "adult-rhinitis-eaaci-2017",
+          "title": "Multi-morbidities of allergic rhinitis in adults: European Academy of Allergy and Clinical Immunology Task Force Report",
+          "locator": "body/sec[3]/sec[8]/p[1]",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5452333/",
+          "text": "The adenoid tissue is a peripheral lymphoid organ located in the nasopharynx, forming part of Waldeyer’s ring. It contributes to the development of immunity against inhaled micro-organisms in early life. The volume of the adenoid increases with age and is maximal at 5–6 years, followed by a gradual decrease in volume by the age of 8–9 years [79]. Symptoms related to AH are nasal obstruction, open mouth breathing and snoring. ‘Adenoid face’ can be caused by AH or by severe obstructive rhinitis [61].",
+          "text_truncated": false,
+          "clinical_review": "pending"
+        },
+        {
+          "evidence_id": "E4",
+          "version_id": "e068d0bb-2d00-4a54-bd0c-ee791a53309c",
+          "chunk_id": "8073961684788d1508e1d026",
+          "document_id": "crs-apac-2024",
+          "title": "Management of chronic rhinosinusitis with nasal polyps in the Asia-Pacific region and Russia: Recommendations from an expert working group",
+          "locator": "body/sec[3]/p[2]",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11142757/",
+          "text": "The cardinal symptoms of CRS are similar to acute disease, that is, nasal obstruction, congestion or discharge, facial pain/pressure, and olfactory disturbance/loss of smell [1, 2, 11, 12]. Overt facial pain with CRSwNP is uncommon in the Asian patients, where headache (or complaints of pressure or fullness) or nasal obstruction may be more common presenting symptoms. While allergic symptoms (eg, sneezing or itching) are not part of existing diagnostic criteria, their presence may indicate an additional diagnosis of allergic rhinitis. In EPOS 2020, the diagnosis of CRS requires rhinosinusitis lasting for ≥12 weeks (without interruption, as patients may experience recurrent episodes of acute rhinosinusitis) [1, 2]. This assumes that any acute rhinosinusitis has been managed appropriately (ie, with nasal irrigation and INS). Diagnosis of CRSwNP requires the presence of bilateral, endoscopically visualized polyps in the middle meatus [1, 2]. While a minimum duration of 12 weeks reflects a useful policy for chronic disease diagnosis from a symptomatic perspective, this need not be considered absolute. For example, if evidence of more chronic and significant disease already exists (eg, objective findings of nasal polyps on endoscopic examination), then an earlier presumptive diagnosis of CRSwNP would seem appropriate. As discussed later, what is perhaps most important is the need for timely referral for specialist evaluation at the earliest opportunity. Where polyps are absent, patients are considered to have chronic rhinosinusitis without nasal polyps (CRSsNP). When endoscopy or CT shows only unilateral disease, then alternative diagnoses (especially neoplasia) must be considered [1, 2].",
+          "text_truncated": false,
+          "clinical_review": "pending"
+        },
+        {
+          "evidence_id": "E5",
+          "version_id": "aa15af9b-2ffa-4cf8-89b7-ccafd90db10e",
+          "chunk_id": "ab5085376a4b4ddd9ef5c9ad",
+          "document_id": "adult-rhinitis-eaaci-2017",
+          "title": "Multi-morbidities of allergic rhinitis in adults: European Academy of Allergy and Clinical Immunology Task Force Report",
+          "locator": "body/sec[3]/sec[8]/sec[1]/p[2]",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5452333/",
+          "text": "Adenoid hypertrophy in adults is rare and may indicate underlying malignancy or infection, such as human immune deficiency virus (HIV), rather than allergy.",
+          "text_truncated": false,
+          "clinical_review": "pending"
+        },
+        {
+          "evidence_id": "E6",
+          "version_id": "e068d0bb-2d00-4a54-bd0c-ee791a53309c",
+          "chunk_id": "48d02b1c90d22132535f7a4a",
+          "document_id": "crs-apac-2024",
+          "title": "Management of chronic rhinosinusitis with nasal polyps in the Asia-Pacific region and Russia: Recommendations from an expert working group",
+          "locator": "body/sec[9]/p[2]",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11142757/",
+          "text": "Use of biologics is now established in current guidelines, although differences exist in specific criteria and thresholds [1, 2, 6-8, 27]. The EPOS 2020 guidelines indicate that biologics can be considered if at least 3 of the following 5 features are present; (1) evidence of type 2 inflammation (tissue eosinophilia ≥10 cells/high-power field, or serum eosinophilia ≥250 cells/µL, or total serum IgE ≥100 IU/mL); (2) need for systemic corticosteroids (≥2 courses OCS per year or long-term [>3 months] low-dose steroids) or contraindications for systemic corticosteroids; (3) significantly impaired QoL (eg, with SNOT-22 ≥40); (4) significant loss of smell (anosmia on smell test); (5) with comorbid asthma (requiring regular inhaled corticosteroids) [1, 2]. Looking specifically at the criteria for evidence of type 2 inflammation, in the panel’s view, while evidence of type 2 inflammation is an important criterion, these cutoff thresholds may not be fully appropriate or applicable for Asian populations, and their strict application may obstruct access to patients who may benefit from biologics. For Asian patients, alternative thresholds may apply. Serum eosinophilia ≥250 cells/µL may be the most reliable marker of type 2 inflammation in Asian patients, while a total serum IgE ≥150 IU/mL is more typical of nontype 2 inflammation. Tissue eosinophilia of ≥10 cells/high-power field may be a weak biomarker in Asian patients, where when used to assess status in patients with recurrent disease following surgery, a higher threshold of between 70 and 100 eosinophils per high-power field is used. When considering the need for systemic corticosteroids, patient reluctance or refusal to take systemic steroids should also be taken into account.",
+          "text_truncated": false,
+          "clinical_review": "pending"
+        }
+      ],
+      "validation": {
+        "citation_identity_and_quote_match": true,
+        "semantic_support": "not_assessed",
+        "clinical_approval": false,
+        "input_check": "field_presence_only",
+        "dose_screen": "heuristic_passed"
+      },
+      "model": "deepseek-flash",
+      "provider_base_url": "https://api.deepseek.com",
+      "elapsed_ms": 13695,
+      "synthetic_only": true,
+      "generation_metadata": {
+        "requested_model": "deepseek-flash",
+        "returned_model": "deepseek-flash",
+        "usage": {
+          "prompt_tokens": 3004,
+          "completion_tokens": 866,
+          "total_tokens": 3870
+        },
+        "prompt_sha256": "6977c3d2d7ff956c0751e8a32a55965aba15080b75b783e71f5e078337b2f843"
+      }
+    },
+    "human_review": "pending"
+  },
+  {
+    "case_id": "GEN-ENT-009",
+    "error": "generation_run_failed",
+    "http_status": 503,
+    "diagnostic_code": "provider_connection_failed"
+  }
+]

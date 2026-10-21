@@ -1,0 +1,1050 @@
+{
+  "paragraphs": [
+    {
+      "text": "Tinnitus is defined as “the conscious awareness of a tonal or composite noise for which there is no identifiable corresponding external acoustic source” [1]. It is often described as a hissing, ringing, whooshing, or buzzing sound and is thought to result from abnormal neural activity in the auditory pathway erroneously interpreted as sound. Subjective tinnitus, where the sound is only heard by the person experiencing it and no source of the sound is identified, affects 14% of the general population, with higher prevalence rates in older adults [2].",
+      "section": "1. Introduction",
+      "locator": "body/sec[1]/p[1]"
+    },
+    {
+      "text": "Many people with tinnitus report it to be troublesome. To distinguish tinnitus that is experienced from that which is troublesome, the term tinnitus disorder was recently introduced, defined as tinnitus “when associated with emotional distress, cognitive dysfunction, and/or autonomic arousal, leading to behavioural changes and functional disability” [1]. In about 90% of cases, tinnitus is co-morbid with hearing loss, which may confound the disabling effects of tinnitus [3]. An important implication in clinical research is that outcome measures need to distinguish benefits specific to improved hearing from those specific to tinnitus.",
+      "section": "1. Introduction",
+      "locator": "body/sec[1]/p[2]"
+    },
+    {
+      "text": "Currently, no single treatment has a replicable long-term effect that reduces tinnitus perception. The clinical management of tinnitus is largely based on the impact of symptoms, for example, the use of cognitive behavioural therapies to reduce its intrusiveness or the negative automatic thoughts and emotional reactions that are seen in tinnitus disorder [4,5,6]. Other approaches include neuromodulation therapies that aim to interrupt the pathological neuronal activity associated with tinnitus in a sustained way. In theory, this should lead to a reduction in tinnitus-related emotional distress, cognitive dysfunction, autonomic arousal, and the associated behavioural changes and functional disability.",
+      "section": "1. Introduction",
+      "locator": "body/sec[1]/p[3]"
+    },
+    {
+      "text": "It is not clear what neurophysiological change is essential for a sustained change in tinnitus perception. Using magnetoencephalography (MEG), Weisz et al. [7,8] found a decreased power in the alpha band (8 Hz to 12 Hz) and increased oscillatory power in both the delta (1–3 Hz) and gamma frequency bands (40–90 Hz), in people with tinnitus, compared to no-tinnitus controls. The differences between the groups were most pronounced in the temporal regions. In a following study, they found a reduced delta but not gamma band activity during residual inhibition [9]. Adjamian et al. [10], also using MEG, reported a higher delta band power in adults with tinnitus and normal hearing than control participants who had no tinnitus or hearing loss. They also found that masking tinnitus reduced delta band activity, and that gamma band activity did not correlate with tinnitus or hearing loss. Schlee et al. [11] examined auditory alpha activity using MEG, finding it was reduced in participants who had tinnitus. They further demonstrated an association between differences in alpha band activity and the duration of tinnitus. Electroencephalography (EEG) studies corroborate some but not all these effects. Tass and Popovych [12] associated residual inhibition (a reduced tinnitus percept achieved using external acoustic stimulation) with reduced delta band power, whereas Ashton et al. [13] found gamma power activity was higher in participants with tinnitus but delta and alpha band power was unaltered. Taken together, changes in delta band oscillatory activity appear to provide the best objective predictor of changes in tinnitus. That said, different neuromodulation interventions act via different neural mechanisms. For example, transcranial direct current stimulation (tDCS) is hypothesised to have a sustained polarising or depolarising effect on neuronal membrane potentials and to modulate gamma band activity, whereas transcranial alternating current stimulation (tACS) is thought to modulate neural activity by up- and down-regulating synapses and cause changes in alpha band activity [14,15,16].",
+      "section": "1. Introduction",
+      "locator": "body/sec[1]/p[4]"
+    },
+    {
+      "text": "Acoustic neuromodulation therapies to affect changes in cortical oscillations emerged from work on Parkinson’s disease using ‘co-ordinated reset’ (CR®, Cologne, Germany) technology [17]. CR® uses repeated patterns of stimulation to change the mean synaptic weight and is hypothesised to reset oscillatory dynamics over time, returning the brain to its normal desynchronised (at rest) activity state [12]. In an animal model of epilepsy, Tass and Hauptmann [18] reported a sustained desynchronisation between neuronal populations after treatment with multi-site electrical stimulation. They also provided a computational model predicting how patterned sound stimuli could, over time, interrupt the pathological synchronous activity associated with tinnitus in a sustained way [12].",
+      "section": "1. Introduction",
+      "locator": "body/sec[1]/p[5]"
+    },
+    {
+      "text": "Various neuromodulation therapies using bimodal (e.g., combinations of acoustic/electrical/somatosensory stimuli) techniques have also been developed from proof-of-concept studies in animals. Engineer et al. [19] demonstrated how vagus nerve stimulation (VNS) paired with acoustic stimuli (multiple tones outside the presumed tinnitus frequency) either reversed or prevented both the physiological and behavioural evidence of tinnitus in an animal model of noise-induced tinnitus. In that treatment, acoustic stimuli were considered necessary to target the auditory cortex, and VNS necessary to promote plastic change through the “synergistic action of multiple neuromodulators” [19]. Acetylcholine was also hypothesised to play an important role [20]. Translating this to humans, De Ridder et al. [21] implanted electrodes on the left vagus nerve of 10 patients with severe tinnitus disorder. VNS paired with tones was delivered for 2.5 h daily for 20 days. Some patients reported reduced tinnitus severity immediately post-treatment, and (EEG) delta and theta band power was decreased in the treatment condition compared to sham. A non-invasive version using transcutaneous VNS (tVNS) and notched music also showed proof of concept [22,23].",
+      "section": "1. Introduction",
+      "locator": "body/sec[1]/p[6]"
+    },
+    {
+      "text": "The objectives of this review were to (1) evaluate the effectiveness of neuromodulation therapies that explicitly target pathological synchronous activity to reduce tinnitus and thus tinnitus disorder, (2) evaluate their effectiveness in terms of reduced co-morbid symptoms and improved quality of life, and (3) review the physiological changes and adverse effects associated with different neuromodulation (desynchronisation) therapies.",
+      "section": "1. Introduction",
+      "locator": "body/sec[1]/p[7]"
+    },
+    {
+      "text": "This review was originally initiated as a Cochrane Ear, Nose, and Throat Disorders Group (CENTDG) review [24] and registered on PROSPERO (CRD42015027131). However, it was paused to conduct other reviews as part of a suite [25], and CENTDG was subsequently disbanded, so the review was produced independently but retained most of the Cochrane methodology.",
+      "section": "2. Materials and Methods",
+      "locator": "body/sec[2]/p[1]"
+    },
+    {
+      "text": "We included randomised controlled trials involving adults (≥18 years) with subjective tinnitus. Interventions were therapies that were explicitly hypothesised to modulate pathological synchronous neural activity associated with tinnitus, to deliver a sustained desynchronisation of that activity. That included several forms of neuromodulation intervention, including tDCS, tACS, VNS, tVNS, cochlear implantation, acoustic neuromodulation therapy, and paired electrical/somatosensory and acoustic stimulation therapies. Trials of tinnitus interventions that were categorised as neuromodulation but did not specify targeting pathological synchronous activity were excluded. Studies involving children or objective tinnitus were excluded. There were no restrictions on language or date.",
+      "section": "2. Materials and Methods / 2.1. Inclusion/Exclusion Criteria",
+      "locator": "body/sec[2]/sec[1]/p[1]"
+    },
+    {
+      "text": "Ovid (Medline, EMBASE, CAB Abstracts, Amed), PubMed, Web of Knowledge, Web of Science, and the Cochrane study databases were searched using the search terms tinnitus AND (tdcs OR neuromodulation OR coordinated reset OR desynchronisation OR ((transcranial OR transcutaneous) AND stimulation) OR electrostimulation OR neurostimulation). For an example search, see Box A1. Searches were initially conducted by the CENTDG Information Specialist up to January 2023 and were updated by DJH, with the final searches conducted in March 2024.",
+      "section": "2. Materials and Methods / 2.2. Search Strategy",
+      "locator": "body/sec[2]/sec[2]/p[1]"
+    },
+    {
+      "text": "We scanned the reference lists of identified publications for additional trials and contacted the trial authors where necessary. In addition, Ovid Medline was searched to retrieve existing systematic reviews published up to February 2023 relevant to this systematic review, so that we could scan their reference lists for additional trials.",
+      "section": "2. Materials and Methods / 2.2. Search Strategy",
+      "locator": "body/sec[2]/sec[2]/p[2]"
+    },
+    {
+      "text": "Pairs of authors independently reviewed each study to determine its eligibility for inclusion. Title and abstracts were screened first, and any records that potentially met inclusion criteria were taken forward to a full-text screening. Any disagreements between authors were discussed until a consensus was reached.",
+      "section": "2. Materials and Methods / 2.3. Selection of Studies",
+      "locator": "body/sec[2]/sec[3]/p[1]"
+    },
+    {
+      "text": "Data were extracted using a purposefully designed data extraction form that was piloted on a subset of the included records. The information extracted included the following: trial design, setting, methods or randomisation and blinding, power, inclusion and exclusion criteria, type of intervention and control, treatment duration, baseline characteristics of participants (age, sex, duration of tinnitus, tinnitus severity, tinnitus loudness and pitch estimates, details of co-morbid hearing loss, anxiety or depression), treatment fidelity, type and duration of follow-up, outcome measures and statistical tests, and details of any attrition or exclusion. The outcome data extracted were the group mean and standard deviation at pre- and post-intervention and follow-up, and the results of any statistical tests of between-group comparisons.",
+      "section": "2. Materials and Methods / 2.4. Data Extraction",
+      "locator": "body/sec[2]/sec[4]/p[1]"
+    },
+    {
+      "text": "Where not reported or otherwise available, we estimated standard deviations using the available data, such as standard errors, confidence intervals, p values, and t values. Where the data were only available in graphs, the authors made and agreed numeric estimates. After independent data extraction by pairs of authors, the extracted data were reviewed for disagreements and revisited and discussed as required, to reach a consensus on the dataset.",
+      "section": "2. Materials and Methods / 2.4. Data Extraction",
+      "locator": "body/sec[2]/sec[4]/p[2]"
+    },
+    {
+      "text": "The risk of bias of the included trials was assessed using the Cochrane risk of bias tool [26]. The risk of bias was assessed as a ‘low’, ‘high’, or ‘unclear’ risk of bias for sequence generation; allocation concealment; blinding; incomplete outcome data; selective outcome reporting; and other sources of bias. Pairs of authors independently assessed the risk of bias on each record and met to discuss any disagreements and reach an agreed single judgement for each factor and each study. In some instances, additional authors were consulted to ensure the consistency of judgements across all authors.",
+      "section": "2. Materials and Methods / 2.5. Risk of Bias",
+      "locator": "body/sec[2]/sec[5]/p[1]"
+    },
+    {
+      "text": "The primary comparison in this review was neuromodulation therapy versus a placebo or no-intervention control. Of secondary interest was the relative effectiveness of individual neuromodulation therapies compared to each other or to standard therapy options, including hearing aids, sound generators, psychological or education-based therapies, or combinations of therapies.",
+      "section": "2. Materials and Methods / 2.6. Analysis",
+      "locator": "body/sec[2]/sec[6]/p[1]"
+    },
+    {
+      "text": "The primary outcomes were (1) tinnitus symptom severity (e.g., impact on quality of life, activities of daily living, sleep), measured as the global score on a multi-item tinnitus questionnaire, and (2) serious adverse effects. The secondary outcomes were (3) generalised anxiety, (4) generalised depression, (5) generalised quality of life, all measured using multi-item questionnaires, (6) neurophysiological change (as measured by MEG or EEG), and (7) adverse effects.",
+      "section": "2. Materials and Methods / 2.6. Analysis",
+      "locator": "body/sec[2]/sec[6]/p[2]"
+    },
+    {
+      "text": "Continuous outcomes were summarised as the mean difference (MD) with 95% CI. The standardised mean difference (SMD) (Cohen’s d effect size (ES)) was used when different questionnaire measures were used for the same outcome. The heterogeneity of aggregated effect sizes was calculated using Cochran’s Q statistic (Chi2 test with K-1 degrees of freedom, where K is the number of studies) and the I2 statistic (percentages of around 25%, 50%, and 75% of I2) would mean a low, medium, and high heterogeneity, respectively [27].",
+      "section": "2. Materials and Methods / 2.6. Analysis",
+      "locator": "body/sec[2]/sec[6]/p[3]"
+    },
+    {
+      "text": "Different forms of neuromodulation therapy were analysed separately. Where more than one study was identified for a given form of neuromodulation therapy, and the synthesis of the data was appropriate, RevMan 5.3 was used to perform meta-analyses. Data from randomised controlled trials were pooled using a fixed-effect model, except when heterogeneity was found. A sensitivity analysis was performed to explore whether heterogeneity was a result of a high risk of bias. Due to the number of studies included in meta-analyses, this was only applied to the synthesis of data for the effect of tDCS on tinnitus symptom severity.",
+      "section": "2. Materials and Methods / 2.6. Analysis",
+      "locator": "body/sec[2]/sec[6]/p[4]"
+    },
+    {
+      "text": "A flowchart of study retrieval and selection is provided in Figure 1. Our electronic database searches identified 4690 records, and one additional record was identified through a Google Scholar alert. Of those, 1341 remained after removing duplicates, all of which were screened. Twenty-four RCTs met our criteria for inclusion [28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51].",
+      "section": "3. Results",
+      "locator": "body/sec[3]/p[1]"
+    },
+    {
+      "text": "For a summary description of each study, including details of dosage and duration, see Table 1. All studies recruited adult participants (18 years or over). The mean age of the participants included in the studies ranged from 41.1 years to 59.9 years. Of those reported, 39.7% of participants were female and 60.3% were male. Males accounted for between 33 and 100% of participants, depending on the study. Only one small study had an equal number of male and female participants [30].",
+      "section": "3. Results",
+      "locator": "body/sec[3]/p[2]"
+    },
+    {
+      "text": "Most studies recruited participants with chronic tinnitus; however, the definition of chronic tinnitus differed from, for example, ‘tinnitus as lasting 3 months or over’ [43,44,46], to ‘6 months or over’ [29,33,35,36,37,45,47,50], ‘1 year or over’ [28,40,48,49], and ‘more than 2 years’ [32,41,51]. One study did not specify the minimum duration for chronic tinnitus [30]. Garin et al. [34] recruited participants with tinnitus stable for at least 2 months and Mei et al. [39] those with tinnitus recurrent for 1 month or stable for 5 days. Dobie et al. [32] did not specify any inclusion criterion related to the duration of tinnitus.",
+      "section": "3. Results",
+      "locator": "body/sec[3]/p[3]"
+    },
+    {
+      "text": "Several studies recruited participants specifically with tonal tinnitus [35,44,45,46,47,49]. Four studies had specific inclusion criteria regarding the dominant tinnitus frequency which were a dominant tinnitus frequency between 1 and 12 kHz [44], below 9 kHz [46], and between 0.2 and 10 kHz [35,47]. Some studies had inclusion criteria regarding hearing loss, e.g., sensorineural hearing loss [30]; some with a specific pure tone average (PTA) requirement, e.g., below 60 dB HL in the ear with tinnitus [35], or below 70 dB HL for frequencies of one-half octave above and below the tinnitus frequency [44]; or a maximum hearing impairment of 50 dB [45]. Forogh et al. [33] specified an exclusion criterion of fluctuating hearing loss.",
+      "section": "3. Results",
+      "locator": "body/sec[3]/p[4]"
+    },
+    {
+      "text": "A few studies also had an inclusion criterion requiring a minimum level of tinnitus symptom severity, e.g., tinnitus severe enough to justify the patients’ expenditure of time [32], or a minimum score on a multi-item tinnitus questionnaire [35,41]. Most studies reported tinnitus severity scores at baseline and post-intervention/follow-up using established multi-item tinnitus questionnaires, the Tinnitus Functional Index (TFI, [52], the Tinnitus Handicap Inventory (THI, [53]), the Tinnitus Handicap Questionnaire (THQ, [54]), or the Tinnitus Questionnaire (TQ, [55]).",
+      "section": "3. Results",
+      "locator": "body/sec[3]/p[5]"
+    },
+    {
+      "text": "Some studies had eligibility criteria based on mental and emotional state, e.g., excluding participants with current or a history of mental disorders such as severe depression or anxiety [30,35,39,40,44,45,46,50] or significant scores on indicative questionnaires such as the Beck Depression Inventory (BDI [56]) [49]. Others did not have such exclusions, and some reported baseline anxiety or depression scores. Dobie et al. [32] found that 17 out of 20 participants reported depression or anxiety, which they blamed on their tinnitus. Baseline scores in several studies indicate that many participants might have suffered from some level of either depression or anxiety [40,46,48,50].",
+      "section": "3. Results",
+      "locator": "body/sec[3]/p[6]"
+    },
+    {
+      "text": "The risk of bias in the studies is summarised in Figure 2. For most sources of bias in most studies, the risk could not be confirmed as low or high due to a lack of reporting in the clinical trial registration, protocol or published study record. All studies were included on the basis they were randomised controlled trials; however, only 10 studies provided details of the methods used to undertake randomisation, and only six studies provided details of the steps undertaken to ensure allocation concealment. The studies that did report these details tended to report well, were more recent, and overall had a lower risk of bias than the other studies [29,38,43]. That said, the most recent included study [36] had an unclear or high risk of bias across most sources.",
+      "section": "3. Results / 3.1. Risk of Bias in the Included Studies",
+      "locator": "body/sec[3]/sec[1]/p[1]"
+    },
+    {
+      "text": "Nine studies were judged to have a high risk of bias from one or more sources. For example, Jones et al. [36] was judged to have a high risk of bias for detection bias, because the trial registration described a quadruple blinding including outcome assessors, whereas the study publication reports only double blinding. In Lee et al. [37], there was a high risk of performance and detection bias, as neither the study personnel nor outcome assessors were blinded.",
+      "section": "3. Results / 3.1. Risk of Bias in the Included Studies",
+      "locator": "body/sec[3]/sec[1]/p[2]"
+    },
+    {
+      "text": "There was a high risk of reporting bias in five studies, for various reasons. For example, DaSilva Souza et al. [31] did not report a planned secondary outcome (acuphony) listed in the trial registration but did report EEG data which was not listed as an outcome in the trial registration. In the case of Tass et al. [45] a trial registration was available, but this did not define any planned outcomes or analyses, and the trial entry criteria did not match the registration information.",
+      "section": "3. Results / 3.1. Risk of Bias in the Included Studies",
+      "locator": "body/sec[3]/sec[1]/p[3]"
+    },
+    {
+      "text": "Two studies of acoustic CR(r) neuromodulation [35,45] versus a placebo sound measured tinnitus symptom severity pre- and post-intervention, using the THQ or TQ. The standardised mean difference (SMD) and 95% confidence intervals (CIs) are shown in Figure 3. A fixed-effects meta-analysis showed no significant overall difference between acoustic CR(r) neuromodulation and the placebo sound (SMD −0.08, 95% CI −0.45 to 0.28); 127 participants in total. The heterogeneity (I2) was zero, so not significant (Chi2 = 0.63, df = 1, p = 0.43). A further study under the name Desyncra™ [47] compared this acoustic treatment to cognitive behavioural therapy (CBT) for tinnitus in a randomised trial stratified by hearing aid use. A sample size of 200 was originally estimated, but only 61 participants took part. The primary outcome was change in TQ score after 24 weeks, and there was no difference between groups, suggesting the superiority of CBT as the less intensive treatment (6 h of CBT versus 24 weeks of device use for 4–6 h per day).",
+      "section": "3. Results / 3.2. Synthesis of Findings / 3.2.1. Acoustic Neuromodulation Interventions",
+      "locator": "body/sec[3]/sec[2]/sec[1]/p[1]"
+    },
+    {
+      "text": "One study of tailored notched music training [44] measured tinnitus symptom severity pre- and post-intervention, using the THQ as the primary outcome measure. A mixed-model ANOVA revealed no significant difference between tailored notched music training and a music training using a ‘roving’ notch (F (1,80) = 0.678, p = 0.794). The TQ was also used, as a secondary measure, and this comparison was also not significant (F(1, 80) = 0.973, p = 0.837). Also in this category, one study of high-definition infraslow pink noise stimulation [43] measured tinnitus symptom severity as a secondary measure pre- and post-intervention using the TQ and the TFI. The data were used for descriptive purposes only, as the study was considered a pilot, with primary outcomes of safety and feasibility. No serious adverse effects were reported in studies of acoustic neuromodulation interventions.",
+      "section": "3. Results / 3.2. Synthesis of Findings / 3.2.1. Acoustic Neuromodulation Interventions",
+      "locator": "body/sec[3]/sec[2]/sec[1]/p[2]"
+    },
+    {
+      "text": "Regarding secondary measures of interest, only Smeele et al. [43] measured generalised anxiety and generalised depression pre- and post-intervention, using the DASS, but these data were for descriptive purposes only. One study [35] measured generalised quality of life, pre- and post-intervention, using the World Health Organization Quality of Life tool [57]. The difference between the intervention and control was not significant (MD = −0.1, 95% CI −0.36 to 0.16; 48 participants). Smeele et al. [43], used both the WHO-5 [58] and the EQ-5D-5L [59] but for descriptive purposes only.",
+      "section": "3. Results / 3.2. Synthesis of Findings / 3.2.1. Acoustic Neuromodulation Interventions",
+      "locator": "body/sec[3]/sec[2]/sec[1]/p[3]"
+    },
+    {
+      "text": "Both placebo-controlled studies of acoustic CR(r) neuromodulation [35,45] measured neurophysiological change after intervention using EEG. Both studies reported a change in normalised oscillatory power in the delta brainwave pattern. The standardised mean differences (SMDs) and their 95% confidence intervals (CIs) are shown in Figure 4. A fixed-effects meta-analysis showed no significant overall difference between acoustic CR(r) neuromodulation and placebo sound (SMD −0.39, 95% CI −0.91 to 0.13). The heterogeneity (I2) was zero, so not significant (Chi2 = 0.76, df = 1, p = 0.38).",
+      "section": "3. Results / 3.2. Synthesis of Findings / 3.2.1. Acoustic Neuromodulation Interventions",
+      "locator": "body/sec[3]/sec[2]/sec[1]/p[4]"
+    },
+    {
+      "text": "Smeele et al. [43] conducted resting-state electroencephalography (rsEEG) pre- and post-intervention and found a decreased beta-1 activity in the posterior cingulate cortex post-intervention in the control condition, whereas the active treatment group showed decreased beta-1 activity in the inferior parietal lobule post-intervention. An increased functional connectivity in the beta-1 frequency between the left and right parahippocampus (PHC) was also found in the active treatment group compared with controls post-intervention (p = 0.01; t = 4.24), although this was not observed at a later follow-up.",
+      "section": "3. Results / 3.2. Synthesis of Findings / 3.2.1. Acoustic Neuromodulation Interventions",
+      "locator": "body/sec[3]/sec[2]/sec[1]/p[5]"
+    },
+    {
+      "text": "Some adverse effects of acoustic CR(r) neuromodulation were reported by Hall et al. [35]. Of their 100 participants, two were withdrawn from the treatment arm of the RCT within 2 weeks of being fitted, because they reported their tinnitus had worsened and had become unbearable. Two further participants were withdrawn during the subsequent open phase of the trial for the same reason. Theodoroff et al. [47] also reported the adverse effects of Deyncra™. Of the 26 participants in their sound therapy arm, one participant experienced exacerbated hyperacusis symptoms and 10 reported their tinnitus becoming louder after using the device. All adverse effects reportedly resolved with a treatment break within 3 weeks, or in the case of hyperacusis, by the end of the trial.",
+      "section": "3. Results / 3.2. Synthesis of Findings / 3.2.1. Acoustic Neuromodulation Interventions",
+      "locator": "body/sec[3]/sec[2]/sec[1]/p[6]"
+    },
+    {
+      "text": "Adverse effects (reported as harm) in the single study of tailored notched music training were recorded by Stein et al. [44] and included consistently or occasionally louder tinnitus (n = 7), the addition of new tinnitus sounds (n = 2), increased tinnitus awareness (n = 2), and psychological stress (n = 1) in the treatment group. Adverse effects were more frequently reported by participants in the control group than in the treatment group. Smeele et al. [43] reported various adverse effects in both their treatment and control conditions. Dizziness (n = 3), sore eyes (n = 2), dry mouth, itchy scalp, and earache (n = 1) were more often or only reported in the treatment group.",
+      "section": "3. Results / 3.2. Synthesis of Findings / 3.2.1. Acoustic Neuromodulation Interventions",
+      "locator": "body/sec[3]/sec[2]/sec[1]/p[7]"
+    },
+    {
+      "text": "In summary, acoustic neuromodulation interventions have only been investigated in a few studies. They appear to be safe, with no serious adverse effects reported. A transient increase in tinnitus loudness appears to be common, however. Some neurophysiological effects of acoustic treatments have been reported; these do not correspond to changes in self-reported tinnitus symptom severity, and, when measured at follow-up, are not themselves sustained.",
+      "section": "3. Results / 3.2. Synthesis of Findings / 3.2.1. Acoustic Neuromodulation Interventions",
+      "locator": "body/sec[3]/sec[2]/sec[1]/p[8]"
+    },
+    {
+      "text": "Nine studies of tDCS [29,30,31,33,38,40,41,48,50] used multiple sessions and measured tinnitus symptom severity pre- and post-intervention, using a multi-item tinnitus questionnaire (TFI, THI, THQ, or TQ), so these data were pooled. We pooled studies regardless of whether they used conventional or ‘high-definition’ tDCS, given the lack of evidence of a difference in effect between the two methods [60]. The SMDs and their 95% CIs are shown in Figure 5. A random-effects meta-analysis showed a significant overall difference between tDCS and the control (eightsham tDCS, one waitlist control) (SMD −0.42, 95% CI = −0.81 to −0.02); 329 participants in favour of tDCS. The heterogeneity was high, however (I2 = 0.65, Chi2 = 23.16, df = 8, p = 0.003). A sensitivity analysis removing only one study judged at the highest risk of bias [31] rendered the comparison not significant (SMD −0.38, 95% CI = −0.81 to 0.04); 305 participants, whilst the heterogeneity was unaffected.",
+      "section": "3. Results / 3.2. Synthesis of Findings / 3.2.2. Transcranial Direct Current Stimulation",
+      "locator": "body/sec[3]/sec[2]/sec[2]/p[1]"
+    },
+    {
+      "text": "One further study [51] of tDCS measured tinnitus symptom severity pre-and post- single sessions of TDCS in a cross-over randomised trial, but only pooled data were available. Another study from Dobie et al. [32] was multisession, but the data were unavailable. One study [46] compared tDCS combined with tailored notched music to a sham tDCS combined with tailored notched music but found no effect of condition or interaction effect in the THQ, THI, or TQ scores (ANOVA, p > 0.05 in all cases).",
+      "section": "3. Results / 3.2. Synthesis of Findings / 3.2.2. Transcranial Direct Current Stimulation",
+      "locator": "body/sec[3]/sec[2]/sec[2]/p[2]"
+    },
+    {
+      "text": "Three studies evaluated tinnitus symptom severity at follow-up. Forogh et al. [33] evaluated tinnitus symptom severity at 2 weeks follow-up, finding no significant effect. Pal et al. [40] conducted follow-up assessments at 5 days, 1 month, and 3 months after intervention, and again found no effect of condition or interaction effect (repeated measures ANOVA, p = 0.3228 and p = 0.6926, respectively). Mares et al. [38] conducted follow-up assessments 6 weeks and 6 months after intervention but found no significant differences in tinnitus symptom severity between groups.",
+      "section": "3. Results / 3.2. Synthesis of Findings / 3.2.2. Transcranial Direct Current Stimulation",
+      "locator": "body/sec[3]/sec[2]/sec[2]/p[3]"
+    },
+    {
+      "text": "Serious adverse effects associated or potentially associated with tDCS or sham tDCS were reported by Shekhawat and Vanneste [18]. Scalp burns were reported by eight participants, one of which (experienced by a participant in the sham condition) was rated as severe. No other study of tDCS reported serious adverse effects.",
+      "section": "3. Results / 3.2. Synthesis of Findings / 3.2.2. Transcranial Direct Current Stimulation",
+      "locator": "body/sec[3]/sec[2]/sec[2]/p[4]"
+    },
+    {
+      "text": "In terms of secondary outcomes, four studies [29,38,48,50] measured generalised anxiety, pre- and post-intervention, using either the Hospital Anxiety and Depression Scale (HADS, [61]) or Beck Anxiety Inventory (BAI, [62]). The difference between intervention and control was significant in favour of the intervention (SMD = −0.44, 95% CI −0.75 to −0.13); 184 participants (Figure 6, although the heterogeneity was extremely high (92%).",
+      "section": "3. Results / 3.2. Synthesis of Findings / 3.2.2. Transcranial Direct Current Stimulation",
+      "locator": "body/sec[3]/sec[2]/sec[2]/p[5]"
+    },
+    {
+      "text": "The same four studies [29,38,48,50] also measured generalised depression, pre- and post-intervention, using the BDI, the Zung Self-Rating Depression Scale (SDS, [63]), or the HADS. The difference between treatment and control was significant in favour of treatment (SMD = −0.4, 95% CI −0.72 to −0.11), 184 participants (Figure 7). To et al. [48] additionally measured the change in generalised depression using the HADS as a second measure of depression but found no significant difference between groups (MD = −0.74, 95% = −1.18 to 0.3), and when their HADS data were substituted for BDI data in a meta-analysis, the SMD was not significant (SMD = −0.57, 95% CI = −1.55 to 0.42), 184 participants.",
+      "section": "3. Results / 3.2. Synthesis of Findings / 3.2.2. Transcranial Direct Current Stimulation",
+      "locator": "body/sec[3]/sec[2]/sec[2]/p[6]"
+    },
+    {
+      "text": "The generalised quality of life was measured in one study of tDCS. Mares et al. [38] reported WHO–Quality of Life–Bref [64] domain scores pre- and post-intervention and at follow-up. The only significant result was immediately post-intervention on Domain 2, which measures psychological wellbeing (U = 96, p = 0.006; adjusted p = 0.023), compared to the sham. However, none were significant at follow-up.",
+      "section": "3. Results / 3.2. Synthesis of Findings / 3.2.2. Transcranial Direct Current Stimulation",
+      "locator": "body/sec[3]/sec[2]/sec[2]/p[7]"
+    },
+    {
+      "text": "Neurophysiological change was measured in one study of tDCS [31]. An EEG source localisation analysis after intervention showed that the active tDCS group presented significantly lower theta (t = 0.876; p < 0.05) and beta-1 (t = 0.821; p < 0.05) bands than the placebo in an eyes-open condition. In an eyes-closed condition, however, there were no statistically significant differences between tDCS and controls after intervention in any of the frequency bands.",
+      "section": "3. Results / 3.2. Synthesis of Findings / 3.2.2. Transcranial Direct Current Stimulation",
+      "locator": "body/sec[3]/sec[2]/sec[2]/p[8]"
+    },
+    {
+      "text": "Adverse effects with tDCS or sham tDCS were reported by Shekhawat and Vanneste [42]. Participants in the tDCS group reported headache (n = 2), neck pain (n = 2), scalp pain (n = 3), sleepiness (n = 6), and trouble concentrating. Participants in the sham condition reported scalp pain (n = 3), sleepiness (n = 4), and acute mood changes (n = 1). These were experienced during stimulation, but none were significant enough to stop the stimulation. Abtahi et al. [28] also reported adverse effects. Of the participants receiving tDCS, one reported headache and one reported insomnia. Participants receiving sham tDCS reported no adverse effects. Garin et al. [34] reported that one participant was excluded after their first treatment session as she required drug treatment for depression. Otherwise, the adverse effects associated with tDCS included transient tinnitus worsening (four participants) or slight pain (one participant). Mares et al. [38] reported adverse effects in 5.3% of active and 5.8% of sham control sessions. These included itching, a burning sensation, fatigue, tingling, headache, and exacerbation of tinnitus. Cardon et al. [29] reported that eight participants (10.4%) experienced side effects. In the active HD-tDCS group, two participants reported light, transient headaches after the stimulation sessions. In the sham control group, four participants reported light, transient headaches, one reported more serious migraine-like headaches, and one reported tingling sensations in their extremities after each session. No significant differences in the presence of side effects were found between the active and control groups (p = 0.18). In contrast, To et al. [48] reported there were no adverse effects of the treatment.",
+      "section": "3. Results / 3.2. Synthesis of Findings / 3.2.2. Transcranial Direct Current Stimulation",
+      "locator": "body/sec[3]/sec[2]/sec[2]/p[9]"
+    },
+    {
+      "text": "Two studies only reported adverse effects on tinnitus; Forogh et al. [33] report tinnitus worsening in both the active and sham treatment groups. In the treatment group, four out of 11 participants experienced worsening tinnitus. One participant discontinued the intervention after one session. Three participants experienced worsening tinnitus after completing 5 days of treatment. For one of those participants, the severity of tinnitus returned to baseline within 5 weeks. For the other two, however, the effect persisted for at least 19 weeks after treatment. Teismann et al. [46] reported one patient (of 21) withdrew from the study due to new tinnitus sounds arising in treatment.",
+      "section": "3. Results / 3.2. Synthesis of Findings / 3.2.2. Transcranial Direct Current Stimulation",
+      "locator": "body/sec[3]/sec[2]/sec[2]/p[10]"
+    },
+    {
+      "text": "In summary, multiple controlled trials of tDCS for tinnitus have been conducted and overall appear to have a small but significant acute effect on tinnitus symptom severity. At the same time, multiple transient adverse effects of tDCS or sham tDCS were reported, most consistently an increase in tinnitus symptom severity or the emergence of additional tinnitus sounds. The heterogeneity was high across these studies, and in the few studies that measured tinnitus at follow-up, the effect on tinnitus symptom severity does not appear to be sustained. Generalised anxiety and depression also appear to improve acutely, although the number of studies that measured these variables is small and the heterogeneity high.",
+      "section": "3. Results / 3.2. Synthesis of Findings / 3.2.2. Transcranial Direct Current Stimulation",
+      "locator": "body/sec[3]/sec[2]/sec[2]/p[11]"
+    },
+    {
+      "text": "A single study of vagus nerve stimulation paired with sound [49] measured tinnitus symptom severity pre- and post-intervention using the THI, THQ, and TFI. Although a primary outcome measure was not specified (the trial was described as a pilot), the analysis of THI data was fully reported. A repeated measures ANOVA of paired vagus nerve stimulation and the unpaired use of vagal nerve stimulation and sound revealed no significant effect of condition (F = 0.001, p = 0.97) or time/condition interaction effect (F = 0.10, p = 0.91). The summary analyses provided for the THQ and TFI were also not significant.",
+      "section": "3. Results / 3.2. Synthesis of Findings / 3.2.3. Vagus Nerve Stimulation",
+      "locator": "body/sec[3]/sec[2]/sec[3]/p[1]"
+    },
+    {
+      "text": "A single study of vagus nerve stimulation with auricular acupuncture and sound masking [39] measured changes in tinnitus severity category (as calculated from THIS scores), pre- and post-intervention. After 4 weeks of treatment, there was no difference in the numbers of participants in different severity categories between those receiving vagus nerve stimulation with auricular acupoint and those in the control group (flunarizine hydrochloride and oryzinol) (X2 = 1.981, p = 0.16). After 8 weeks of treatment, however, there were significantly more participants in the milder category of tinnitus severity in the intervention group (X2 = 9.315, p = 0.002). No significant adverse effects were reported in either study of vagus nerve stimulation.",
+      "section": "3. Results / 3.2. Synthesis of Findings / 3.2.3. Vagus Nerve Stimulation",
+      "locator": "body/sec[3]/sec[2]/sec[3]/p[2]"
+    },
+    {
+      "text": "In terms of secondary outcomes, generalised anxiety and generalised depression were measured in Tyler et al. [49] but were not reported. Generalised quality of life and neurophysiological changes were not measured in either study of vagus nerve stimulation. Adverse effects in the single study of paired vagus nerve stimulation [49] were described as mild, moderate, and well tolerated. Two participants experienced iatrogenic vocal cord paralyses (hoarseness or voice weakness) lasting for more than 12 weeks after implantation. In one of those participants, vocal cord paralysis did not recover completely, although they declined treatment or therapy for it. The implant failed in one participant, requiring replacement surgery. Mei et al. [39] did not report any adverse effects.",
+      "section": "3. Results / 3.2. Synthesis of Findings / 3.2.3. Vagus Nerve Stimulation",
+      "locator": "body/sec[3]/sec[2]/sec[3]/p[3]"
+    },
+    {
+      "text": "A single study of alternating current stimulation [37] measured tinnitus symptom severity pre- and post-intervention using the THI. The change in tinnitus symptom severity was significantly greater in the intervention group than the control group (MD = −7.3, 95% CI −11.25 to −3.36; 65 participants). No significant adverse effects were reported. Generalised anxiety, generalised depression, generalised quality of life, and neurophysiological changes were not measured by Lee et al. [37], and no adverse effects were reported.",
+      "section": "3. Results / 3.2. Synthesis of Findings / 3.2.4. Alternating Current Stimulation",
+      "locator": "body/sec[3]/sec[2]/sec[4]/p[1]"
+    },
+    {
+      "text": "One study involved an intervention combining auditory and somatosensory stimulation. Jones et al. [36] compared precisely timed bi-sensory auditory and somatosensory stimulation to auditory stimulation only. Tinnitus symptom severity was measured using both the TFI and THI. They found a statistically significant decrease on both measures post-intervention and at a 6-week follow-up (p = 0.018 to <0.001) in favour of the combined stimulation protocol. No other outcomes of interest were measured in this study.",
+      "section": "3. Results / 3.2. Synthesis of Findings / 3.2.5. Combined Auditory and Somatosensory Stimulation",
+      "locator": "body/sec[3]/sec[2]/sec[5]/p[1]"
+    },
+    {
+      "text": "Recent decades have seen the translation of neuromodulation techniques into clinical alternatives to pharmacological treatment of neurological and neuropsychiatric disorders [65]. This systematic review assessed the effects of neuromodulation treatments for tinnitus. We specifically included the subset of treatments that are hypothesised to affect changes in cortical oscillatory activity, and thereby reverse or alter the pathological synchronous activity associated with tinnitus. The outcomes of interest in this review were tinnitus symptom severity, depression, anxiety, quality of life, oscillatory power, and adverse effects. Twenty-four studies across five distinct forms of treatment were included.",
+      "section": "4. Discussion",
+      "locator": "body/sec[4]/p[1]"
+    },
+    {
+      "text": "Evidence for the effectiveness of acoustic neuromodulations therapies was very limited, with most treatments showing equivalence to their well-matched controls, despite some evidence that they affected neurophysiological changes. Where the control condition used sound stimuli as a ‘placebo’, it may be that they are exacting some other form of neurophysiological change and/or clinical benefit than the treatment condition. Waitlist or no-intervention control groups appear warranted in that case. A similar scenario is seen in sound-based treatments for tinnitus that are standard care, such as hearing aids, combination hearing aids, and ear level sound generators [66,67]. None have shown superiority in the limited number of clinical trials that have been conducted, and none of those trials included a waitlist control group, placebo, or education/information only. Given the evidence, the choice to prescribe or use acoustic therapies should come down to professional experience and patient preference.",
+      "section": "4. Discussion",
+      "locator": "body/sec[4]/p[2]"
+    },
+    {
+      "text": "Other forms of neuromodulation techniques reviewed here included tACS, VNS, and bimodal acoustic and somatosensory treatments. With only single studies, or studies using very different approaches, none were suitable for synthesis. All appeared safe, and tACS and bimodal stimulation showed an improvement of tinnitus symptom severity in single studies. Further studies with improved reporting (discussed later) are warranted.",
+      "section": "4. Discussion",
+      "locator": "body/sec[4]/p[3]"
+    },
+    {
+      "text": "The largest body of evidence in this review related to tDCS as a treatment for tinnitus. Multiple studies compared active tDCS to a sham control condition involving a brief (30–90 s only) electrical stimulation. The treatment condition across studies varied in the number of sessions, duration of sessions, dose, and electrode montage. The synthesis of the findings was significant for an effect in favour of tDCS, but this was largely driven by two studies with large positive effects sizes, and was not significant when one study with a high risk of bias was removed. Nevertheless, the study of tDCS for tinnitus appears worth pursuing. The three studies showing the highest individual effect sizes (1) used a higher dose stimulus than other studies [50], (2) compared to a waitlist control instead of a placebo/sham [48], and (3) reported significant neurophysiological change (reduced theta and beta-1 band power) post-treatment versus sham [31]. The latter was the only study of tDCS for tinnitus to measure oscillatory power as an outcome, so this warrants replication in future studies. Future studies should also address the issue of dose, duration, number of sessions, electrode montage, etc. Our recent network meta-analysis examined the effects of tDCS stimulation on tinnitus, depression, and anxiety, aiming to identify a set of parameters (dose, duration, number of sessions, electrode montage, etc.) that would be optimal for the treatment of tinnitus [68]. From the evidence available, we predict that between 5 and 10 sessions at 20 min each is likely to be optimal, whereas analysis of the electrode montage data showed that, at least for conventional tDCS, spatial specificity may not be important to treatment effectiveness (and therefore not be a parameter that needs further optimisation). Rather, what needs further research is the optimisation of dose, or more specifically, ensuring a sufficiently strong and correctly distributed electric field to ensure a sufficient stimulation of the intended cortical targets. All previous studies of tDCS for tinnitus have administered the same level of current (1–4 mA) to all participants. We know, however, that anatomical variations (e.g., skull thickness, difference in brain morphology, pronounced anatomical differences between children and adults) influence the amount of current reaching the target brain areas, and thus the effectiveness of tDCS [69]. To overcome this ‘black box’ issue, techniques such as current flow modelling (CFM) can be applied [70]. CFM techniques have advanced to a stage where, based on detailed anatomical scans, it is now possible to estimate the intensity of electrical fields, their spatial extent, and direction of current flow in a target brain region during tDCS. CFM has been shown to have the capacity to eliminate the variance in electrical field intensities at a cortical target site [71]. Whilst the research would be resource intensive, this is an exciting advance and an opportunity for a truly targeted treatment of tinnitus, where the target and the dose of current reaching that target can be meaningfully demonstrated.",
+      "section": "4. Discussion",
+      "locator": "body/sec[4]/p[4]"
+    },
+    {
+      "text": "There are many issues which will limit confidence in the estimate of the effects reported in this review. By the nature of tinnitus, the samples of individuals are heterogenous in so many ways, from their lived experience to its impact on quality of life and function. Equally, the aetiology of tinnitus will likely differ (e.g., the level and nature of sensorineural hearing loss, presence of otosclerosis or other conditions, whether tinnitus has a somatosensory element to it), and exclusion criteria also differ within and across studies. Differences in the definition, and therefore inclusion criteria of, chronic tinnitus were notable, and this may affect outcomes; the duration of tinnitus should therefore be considered within trial data analysis plans. In terms of the risk of bias in the included studies, a major issue was under-reporting, such that the risk of bias was unclear in most cases, despite the availability of trial registrations, published protocols, and published study reports. Future reporting should follow established reporting guidelines (e.g., CONSORT [72]) and be mindful of the various sources of bias that trials are judged on, such as randomisation techniques, allocation concealment, blinding, and reporting [73]. In terms of outcomes, triallists should also consider the importance of core outcome sets. These are increasingly required by research funders and publishers and represent outcomes that are the most important to patients and other key stakeholders in research. Core outcome sets for clinical trials of tinnitus interventions have recently been established and so should be included in the planned outcomes for any trial involving a sound-, psychology-, drug-, or electrical stimulation-based intervention [74,75]. In the absence of specific single tools that measures each core outcome, the TFI (used in just three studies reviewed here) is a good option, as it includes subscales that measure most core outcomes for tinnitus intervention trials. Whilst other measures of tinnitus symptom severity might be more appropriate to the nature of the intervention or hypothesised mechanism of action, we recommend including the TFI or another set of measures that capture core outcomes in every trial. We also recommend that triallists state the hypothesised mechanism of their tinnitus intervention and include a relevant objective or behavioural measure of that mechanism. Many interventions, including neuromodulation interventions, are developed and trialled without a clear hypothesised mode of action—some of which may be missing from this review. Explicitly targeting specific neurophysiological mechanisms of tinnitus, and demonstrating a sustained change in neurophysiological activity, will be key to developing novel effective treatments in this exciting field.",
+      "section": "4. Discussion",
+      "locator": "body/sec[4]/p[5]"
+    },
+    {
+      "text": "Search: tinnitus AND (tdcs OR neuromodulation OR coordinated reset OR desynchronization OR ((transcranial OR transcutaneous) AND stimulation) OR electrostimulation OR neurostimulation)",
+      "section": "Appendix A",
+      "locator": "body/sec[5]/boxed-text[1]/p[1]"
+    },
+    {
+      "text": "(“tinnitus” [MeSH Terms] OR “tinnitus” [All Fields]) AND (“transcranial direct current stimulation” [MeSH Terms] OR (“transcranial” [All Fields] AND “direct” [All Fields] AND “current” [All Fields] AND “stimulation” [All Fields]) OR “transcranial direct current stimulation” [All Fields] OR “tdcs” [All Fields] OR (“neuromodulate” [All Fields] OR “neuromodulating” [All Fields] OR “neuromodulation” [All Fields] OR “neuromodulations” [All Fields] OR “neuromodulative” [All Fields] OR “neurotransmitter agents” [Pharmacological Action] OR “neurotransmitter agents” [MeSH Terms] OR (“neurotransmitter” [All Fields] AND “agents” [All Fields]) OR “neurotransmitter agents” [All Fields] OR “neuromodulator” [All Fields] OR “neuromodulators” [All Fields]) OR ((“coordinate” [All Fields] OR “coordinated” [All Fields] OR “coordinately” [All Fields] OR “coordinates” [All Fields] OR “coordinating” [All Fields] OR “coordination” [All Fields] OR “coordinations” [All Fields] OR “coordinative” [All Fields] OR “coordinatively” [All Fields] OR “coordinator” [All Fields] OR “coordinator s” [All Fields] OR “coordinators” [All Fields]) AND (“reset” [All Fields] OR “resets” [All Fields] OR “resetting” [All Fields] OR “resettings” [All Fields])) OR (“desynchronisation” [All Fields] OR “desynchronised” [All Fields] OR “desynchronization” [All Fields] OR “desynchronizations” [All Fields] OR “desynchronize” [All Fields] OR “desynchronized” [All Fields] OR “desynchronizes” [All Fields] OR “desynchronizing” [All Fields] OR “desynchronous” [All Fields]) OR ((“transcranial” [All Fields] OR “transcranially” [All Fields] OR (“transcutaneous” [All Fields] OR “transcutaneously” [All Fields])) AND (“stimulate” [All Fields] OR “stimulated” [All Fields] OR “stimulates” [All Fields] OR “stimulating” [All Fields] OR “stimulation” [All Fields] OR “stimulations” [All Fields] OR “stimulative” [All Fields] OR “stimulator” [All Fields] OR “stimulator s” [All Fields] OR “stimulators” [All Fields])) OR (“electrostimulated” [All Fields] OR “electrostimulating” [All Fields] OR “electrostimulation” [All Fields] OR “electrostimulations” [All Fields] OR “electrostimulator” [All Fields] OR “electrostimulators” [All Fields]) OR (“neurostimulation” [All Fields] OR “neurostimulations” [All Fields] OR “neurostimulator” [All Fields] OR “neurostimulators” [All Fields]))",
+      "section": "Appendix A",
+      "locator": "body/sec[5]/boxed-text[1]/p[2]"
+    },
+    {
+      "text": "tinnitus: “tinnitus” [MeSH Terms] OR “tinnitus” [All Fields]",
+      "section": "Appendix A",
+      "locator": "body/sec[5]/boxed-text[1]/p[4]"
+    },
+    {
+      "text": "tdcs: “transcranial direct current stimulation” [MeSH Terms] OR (“transcranial” [All Fields] AND “direct” [All Fields] AND “current” [All Fields] AND “stimulation” [All Fields]) OR “transcranial direct current stimulation” [All Fields] OR “tdcs” [All Fields]",
+      "section": "Appendix A",
+      "locator": "body/sec[5]/boxed-text[1]/p[5]"
+    },
+    {
+      "text": "neuromodulation: “neuromodulate” [All Fields] OR “neuromodulating” [All Fields] OR “neuromodulation” [All Fields] OR “neuromodulations” [All Fields] OR “neuromodulative” [All Fields] OR “neurotransmitter agents” [Pharmacological Action] OR “neurotransmitter agents” [MeSH Terms] OR (“neurotransmitter” [All Fields] AND “agents” [All Fields]) OR “neurotransmitter agents” [All Fields] OR “neuromodulator” [All Fields] OR “neuromodulators” [All Fields]",
+      "section": "Appendix A",
+      "locator": "body/sec[5]/boxed-text[1]/p[6]"
+    },
+    {
+      "text": "coordinated: “coordinate” [All Fields] OR “coordinated” [All Fields] OR “coordinately” [All Fields] OR “coordinates” [All Fields] OR “coordinating” [All Fields] OR “coordination” [All Fields] OR “coordinations” [All Fields] OR “coordinative” [All Fields] OR “coordinatively” [All Fields] OR “coordinator” [All Fields] OR “coordinator’s” [All Fields] OR “coordinators” [All Fields]",
+      "section": "Appendix A",
+      "locator": "body/sec[5]/boxed-text[1]/p[7]"
+    },
+    {
+      "text": "reset: “reset” [All Fields] OR “resets” [All Fields] OR “resetting” [All Fields] OR “resettings” [All Fields]",
+      "section": "Appendix A",
+      "locator": "body/sec[5]/boxed-text[1]/p[8]"
+    },
+    {
+      "text": "desynchronization: “desynchronisation” [All Fields] OR “desynchronised” [All Fields] OR “desynchronization” [All Fields] OR “desynchronizations” [All Fields] OR “desynchronize” [All Fields] OR “desynchronized” [All Fields] OR “desynchronizes” [All Fields] OR “desynchronizing” [All Fields] OR “desynchronous” [All Fields]",
+      "section": "Appendix A",
+      "locator": "body/sec[5]/boxed-text[1]/p[9]"
+    },
+    {
+      "text": "transcranial: “transcranial” [All Fields] OR “transcranially” [All Fields]",
+      "section": "Appendix A",
+      "locator": "body/sec[5]/boxed-text[1]/p[10]"
+    },
+    {
+      "text": "transcutaneous: “transcutaneous” [All Fields] OR “transcutaneously” [All Fields]",
+      "section": "Appendix A",
+      "locator": "body/sec[5]/boxed-text[1]/p[11]"
+    },
+    {
+      "text": "stimulation: “stimulate” [All Fields] OR “stimulated” [All Fields] OR “stimulates” [All Fields] OR “stimulating” [All Fields] OR “stimulation” [All Fields] OR “stimulations” [All Fields] OR “stimulative” [All Fields] OR “stimulator” [All Fields] OR “stimulator’s” [All Fields] OR “stimulators” [All Fields]",
+      "section": "Appendix A",
+      "locator": "body/sec[5]/boxed-text[1]/p[12]"
+    },
+    {
+      "text": "electrostimulation: “electrostimulated” [All Fields] OR “electrostimulating” [All Fields] OR “electrostimulation” [All Fields] OR “electrostimulations” [All Fields] OR “electrostimulator” [All Fields] OR “electrostimulators” [All Fields]",
+      "section": "Appendix A",
+      "locator": "body/sec[5]/boxed-text[1]/p[13]"
+    },
+    {
+      "text": "neurostimulation: “neurostimulation” [All Fields] OR “neurostimulations” [All Fields] OR “neurostimulator” [All Fields] OR “neurostimulators” [All Fields]",
+      "section": "Appendix A",
+      "locator": "body/sec[5]/boxed-text[1]/p[14]"
+    },
+    {
+      "text": "D.J.H., G.W.S., B.L. and M.S. have all authored studies included in this review but to remove conflicts were not involved in the screening, data extraction, or risk of bias assessment of their own studies. G.W.S. and A.E.R. declare no conflicts of interest. The funders had no role in the design of the study; in the collection, analyses, or interpretation of data; in the writing of the manuscript; or in the decision to publish the results.",
+      "section": "Conflicts of Interest",
+      "locator": "body/sec[8]/p[1]"
+    },
+    {
+      "text": "Disclaimer/Publisher’s Note: The statements, opinions and data contained in all publications are solely those of the individual author(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to people or property resulting from any ideas, methods, instructions or products referred to in the content.",
+      "section": "Footnotes",
+      "locator": "body/sec[10]/fn-group[1]/fn[1]/p[1]"
+    }
+  ],
+  "chunks": [
+    {
+      "id": "9764b6023c6372e39bbf0f24",
+      "text": "Tinnitus is defined as “the conscious awareness of a tonal or composite noise for which there is no identifiable corresponding external acoustic source” [1]. It is often described as a hissing, ringing, whooshing, or buzzing sound and is thought to result from abnormal neural activity in the auditory pathway erroneously interpreted as sound. Subjective tinnitus, where the sound is only heard by the person experiencing it and no source of the sound is identified, affects 14% of the general population, with higher prevalence rates in older adults [2].",
+      "section": "1. Introduction",
+      "locator": "body/sec[1]/p[1]",
+      "start": 0,
+      "end": 555,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "094cc6a611f515e55f73ae8b",
+      "text": "Many people with tinnitus report it to be troublesome. To distinguish tinnitus that is experienced from that which is troublesome, the term tinnitus disorder was recently introduced, defined as tinnitus “when associated with emotional distress, cognitive dysfunction, and/or autonomic arousal, leading to behavioural changes and functional disability” [1]. In about 90% of cases, tinnitus is co-morbid with hearing loss, which may confound the disabling effects of tinnitus [3]. An important implication in clinical research is that outcome measures need to distinguish benefits specific to improved hearing from those specific to tinnitus.",
+      "section": "1. Introduction",
+      "locator": "body/sec[1]/p[2]",
+      "start": 0,
+      "end": 640,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "a0b4da2bcffdd5bc50e2738a",
+      "text": "Currently, no single treatment has a replicable long-term effect that reduces tinnitus perception. The clinical management of tinnitus is largely based on the impact of symptoms, for example, the use of cognitive behavioural therapies to reduce its intrusiveness or the negative automatic thoughts and emotional reactions that are seen in tinnitus disorder [4,5,6]. Other approaches include neuromodulation therapies that aim to interrupt the pathological neuronal activity associated with tinnitus in a sustained way. In theory, this should lead to a reduction in tinnitus-related emotional distress, cognitive dysfunction, autonomic arousal, and the associated behavioural changes and functional disability.",
+      "section": "1. Introduction",
+      "locator": "body/sec[1]/p[3]",
+      "start": 0,
+      "end": 709,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "2b3fdd3180726d7174586b25",
+      "text": "It is not clear what neurophysiological change is essential for a sustained change in tinnitus perception. Using magnetoencephalography (MEG), Weisz et al. [7,8] found a decreased power in the alpha band (8 Hz to 12 Hz) and increased oscillatory power in both the delta (1–3 Hz) and gamma frequency bands (40–90 Hz), in people with tinnitus, compared to no-tinnitus controls. The differences between the groups were most pronounced in the temporal regions. In a following study, they found a reduced delta but not gamma band activity during residual inhibition [9]. Adjamian et al. [10], also using MEG, reported a higher delta band power in adults with tinnitus and normal hearing than control participants who had no tinnitus or hearing loss. They also found that masking tinnitus reduced delta band activity, and that gamma band activity did not correlate with tinnitus or hearing loss. Schlee et al. [11] examined auditory alpha activity using MEG, finding it was reduced in participants who had tinnitus. They further demonstrated an association between differences in alpha band activity and the duration of tinnitus. Electroencephalography (EEG) studies corroborate some but not all these effects. Tass and Popovych [12] associated residual inhibition (a reduced tinnitus percept achieved using external acoustic stimulation) with reduced delta band power, whereas Ashton et al. [13] found gamma power activity was higher in participants with tinnitus but delta and alpha band power was unaltered. Taken together, changes in delta band oscillatory activity appear to provide the best objective predictor of changes in tinnitus. That said, different neuromodulation interventions act via different neural mechanisms. For example, transcranial direct current stimulation (tDCS) is hypothesised t",
+      "section": "1. Introduction",
+      "locator": "body/sec[1]/p[4]",
+      "start": 0,
+      "end": 1800,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "dacf26df01c7a5285ec0e7d6",
+      "text": "o have a sustained polarising or depolarising effect on neuronal membrane potentials and to modulate gamma band activity, whereas transcranial alternating current stimulation (tACS) is thought to modulate neural activity by up- and down-regulating synapses and cause changes in alpha band activity [14,15,16].",
+      "section": "1. Introduction",
+      "locator": "body/sec[1]/p[4]",
+      "start": 1800,
+      "end": 2109,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "ab753de1c2a01fe38fd34fae",
+      "text": "Acoustic neuromodulation therapies to affect changes in cortical oscillations emerged from work on Parkinson’s disease using ‘co-ordinated reset’ (CR®, Cologne, Germany) technology [17]. CR® uses repeated patterns of stimulation to change the mean synaptic weight and is hypothesised to reset oscillatory dynamics over time, returning the brain to its normal desynchronised (at rest) activity state [12]. In an animal model of epilepsy, Tass and Hauptmann [18] reported a sustained desynchronisation between neuronal populations after treatment with multi-site electrical stimulation. They also provided a computational model predicting how patterned sound stimuli could, over time, interrupt the pathological synchronous activity associated with tinnitus in a sustained way [12].",
+      "section": "1. Introduction",
+      "locator": "body/sec[1]/p[5]",
+      "start": 0,
+      "end": 780,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "e0674d89e1ed7d1d6957dada",
+      "text": "Various neuromodulation therapies using bimodal (e.g., combinations of acoustic/electrical/somatosensory stimuli) techniques have also been developed from proof-of-concept studies in animals. Engineer et al. [19] demonstrated how vagus nerve stimulation (VNS) paired with acoustic stimuli (multiple tones outside the presumed tinnitus frequency) either reversed or prevented both the physiological and behavioural evidence of tinnitus in an animal model of noise-induced tinnitus. In that treatment, acoustic stimuli were considered necessary to target the auditory cortex, and VNS necessary to promote plastic change through the “synergistic action of multiple neuromodulators” [19]. Acetylcholine was also hypothesised to play an important role [20]. Translating this to humans, De Ridder et al. [21] implanted electrodes on the left vagus nerve of 10 patients with severe tinnitus disorder. VNS paired with tones was delivered for 2.5 h daily for 20 days. Some patients reported reduced tinnitus severity immediately post-treatment, and (EEG) delta and theta band power was decreased in the treatment condition compared to sham. A non-invasive version using transcutaneous VNS (tVNS) and notched music also showed proof of concept [22,23].",
+      "section": "1. Introduction",
+      "locator": "body/sec[1]/p[6]",
+      "start": 0,
+      "end": 1242,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "6a08a6c754ec2a5f76aa1ac7",
+      "text": "The objectives of this review were to (1) evaluate the effectiveness of neuromodulation therapies that explicitly target pathological synchronous activity to reduce tinnitus and thus tinnitus disorder, (2) evaluate their effectiveness in terms of reduced co-morbid symptoms and improved quality of life, and (3) review the physiological changes and adverse effects associated with different neuromodulation (desynchronisation) therapies.",
+      "section": "1. Introduction",
+      "locator": "body/sec[1]/p[7]",
+      "start": 0,
+      "end": 437,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "6da269a76936ffea4e8d9cdd",
+      "text": "This review was originally initiated as a Cochrane Ear, Nose, and Throat Disorders Group (CENTDG) review [24] and registered on PROSPERO (CRD42015027131). However, it was paused to conduct other reviews as part of a suite [25], and CENTDG was subsequently disbanded, so the review was produced independently but retained most of the Cochrane methodology.",
+      "section": "2. Materials and Methods",
+      "locator": "body/sec[2]/p[1]",
+      "start": 0,
+      "end": 354,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "915cc2dd215dbb029aafe4ce",
+      "text": "We included randomised controlled trials involving adults (≥18 years) with subjective tinnitus. Interventions were therapies that were explicitly hypothesised to modulate pathological synchronous neural activity associated with tinnitus, to deliver a sustained desynchronisation of that activity. That included several forms of neuromodulation intervention, including tDCS, tACS, VNS, tVNS, cochlear implantation, acoustic neuromodulation therapy, and paired electrical/somatosensory and acoustic stimulation therapies. Trials of tinnitus interventions that were categorised as neuromodulation but did not specify targeting pathological synchronous activity were excluded. Studies involving children or objective tinnitus were excluded. There were no restrictions on language or date.",
+      "section": "2. Materials and Methods / 2.1. Inclusion/Exclusion Criteria",
+      "locator": "body/sec[2]/sec[1]/p[1]",
+      "start": 0,
+      "end": 784,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "1e761fdec7a7abcd4a1034da",
+      "text": "Ovid (Medline, EMBASE, CAB Abstracts, Amed), PubMed, Web of Knowledge, Web of Science, and the Cochrane study databases were searched using the search terms tinnitus AND (tdcs OR neuromodulation OR coordinated reset OR desynchronisation OR ((transcranial OR transcutaneous) AND stimulation) OR electrostimulation OR neurostimulation). For an example search, see Box A1. Searches were initially conducted by the CENTDG Information Specialist up to January 2023 and were updated by DJH, with the final searches conducted in March 2024.",
+      "section": "2. Materials and Methods / 2.2. Search Strategy",
+      "locator": "body/sec[2]/sec[2]/p[1]",
+      "start": 0,
+      "end": 533,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "79a3296a5377eeacddee9653",
+      "text": "We scanned the reference lists of identified publications for additional trials and contacted the trial authors where necessary. In addition, Ovid Medline was searched to retrieve existing systematic reviews published up to February 2023 relevant to this systematic review, so that we could scan their reference lists for additional trials.",
+      "section": "2. Materials and Methods / 2.2. Search Strategy",
+      "locator": "body/sec[2]/sec[2]/p[2]",
+      "start": 0,
+      "end": 340,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "f63563442ecec326a436e049",
+      "text": "Pairs of authors independently reviewed each study to determine its eligibility for inclusion. Title and abstracts were screened first, and any records that potentially met inclusion criteria were taken forward to a full-text screening. Any disagreements between authors were discussed until a consensus was reached.",
+      "section": "2. Materials and Methods / 2.3. Selection of Studies",
+      "locator": "body/sec[2]/sec[3]/p[1]",
+      "start": 0,
+      "end": 316,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "6d6fa469d8def820aa186876",
+      "text": "Data were extracted using a purposefully designed data extraction form that was piloted on a subset of the included records. The information extracted included the following: trial design, setting, methods or randomisation and blinding, power, inclusion and exclusion criteria, type of intervention and control, treatment duration, baseline characteristics of participants (age, sex, duration of tinnitus, tinnitus severity, tinnitus loudness and pitch estimates, details of co-morbid hearing loss, anxiety or depression), treatment fidelity, type and duration of follow-up, outcome measures and statistical tests, and details of any attrition or exclusion. The outcome data extracted were the group mean and standard deviation at pre- and post-intervention and follow-up, and the results of any statistical tests of between-group comparisons.",
+      "section": "2. Materials and Methods / 2.4. Data Extraction",
+      "locator": "body/sec[2]/sec[4]/p[1]",
+      "start": 0,
+      "end": 843,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "ca9765610a180660a3b45038",
+      "text": "Where not reported or otherwise available, we estimated standard deviations using the available data, such as standard errors, confidence intervals, p values, and t values. Where the data were only available in graphs, the authors made and agreed numeric estimates. After independent data extraction by pairs of authors, the extracted data were reviewed for disagreements and revisited and discussed as required, to reach a consensus on the dataset.",
+      "section": "2. Materials and Methods / 2.4. Data Extraction",
+      "locator": "body/sec[2]/sec[4]/p[2]",
+      "start": 0,
+      "end": 449,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "5756ab9df6eaf9c37c1f8901",
+      "text": "The risk of bias of the included trials was assessed using the Cochrane risk of bias tool [26]. The risk of bias was assessed as a ‘low’, ‘high’, or ‘unclear’ risk of bias for sequence generation; allocation concealment; blinding; incomplete outcome data; selective outcome reporting; and other sources of bias. Pairs of authors independently assessed the risk of bias on each record and met to discuss any disagreements and reach an agreed single judgement for each factor and each study. In some instances, additional authors were consulted to ensure the consistency of judgements across all authors.",
+      "section": "2. Materials and Methods / 2.5. Risk of Bias",
+      "locator": "body/sec[2]/sec[5]/p[1]",
+      "start": 0,
+      "end": 602,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "d06a927bb245032c937a0ed5",
+      "text": "The primary comparison in this review was neuromodulation therapy versus a placebo or no-intervention control. Of secondary interest was the relative effectiveness of individual neuromodulation therapies compared to each other or to standard therapy options, including hearing aids, sound generators, psychological or education-based therapies, or combinations of therapies.",
+      "section": "2. Materials and Methods / 2.6. Analysis",
+      "locator": "body/sec[2]/sec[6]/p[1]",
+      "start": 0,
+      "end": 374,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "f2aa7a878920c90e142b27c8",
+      "text": "The primary outcomes were (1) tinnitus symptom severity (e.g., impact on quality of life, activities of daily living, sleep), measured as the global score on a multi-item tinnitus questionnaire, and (2) serious adverse effects. The secondary outcomes were (3) generalised anxiety, (4) generalised depression, (5) generalised quality of life, all measured using multi-item questionnaires, (6) neurophysiological change (as measured by MEG or EEG), and (7) adverse effects.",
+      "section": "2. Materials and Methods / 2.6. Analysis",
+      "locator": "body/sec[2]/sec[6]/p[2]",
+      "start": 0,
+      "end": 471,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "6e1ad3421ee47dbca89bfc47",
+      "text": "Continuous outcomes were summarised as the mean difference (MD) with 95% CI. The standardised mean difference (SMD) (Cohen’s d effect size (ES)) was used when different questionnaire measures were used for the same outcome. The heterogeneity of aggregated effect sizes was calculated using Cochran’s Q statistic (Chi2 test with K-1 degrees of freedom, where K is the number of studies) and the I2 statistic (percentages of around 25%, 50%, and 75% of I2) would mean a low, medium, and high heterogeneity, respectively [27].",
+      "section": "2. Materials and Methods / 2.6. Analysis",
+      "locator": "body/sec[2]/sec[6]/p[3]",
+      "start": 0,
+      "end": 523,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "531407442d51a698d0442df4",
+      "text": "Different forms of neuromodulation therapy were analysed separately. Where more than one study was identified for a given form of neuromodulation therapy, and the synthesis of the data was appropriate, RevMan 5.3 was used to perform meta-analyses. Data from randomised controlled trials were pooled using a fixed-effect model, except when heterogeneity was found. A sensitivity analysis was performed to explore whether heterogeneity was a result of a high risk of bias. Due to the number of studies included in meta-analyses, this was only applied to the synthesis of data for the effect of tDCS on tinnitus symptom severity.",
+      "section": "2. Materials and Methods / 2.6. Analysis",
+      "locator": "body/sec[2]/sec[6]/p[4]",
+      "start": 0,
+      "end": 626,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "47f3116f5a4417b91d47c011",
+      "text": "A flowchart of study retrieval and selection is provided in Figure 1. Our electronic database searches identified 4690 records, and one additional record was identified through a Google Scholar alert. Of those, 1341 remained after removing duplicates, all of which were screened. Twenty-four RCTs met our criteria for inclusion [28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51].",
+      "section": "3. Results",
+      "locator": "body/sec[3]/p[1]",
+      "start": 0,
+      "end": 402,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "a1d1254a3ceb7fac0b75bd29",
+      "text": "For a summary description of each study, including details of dosage and duration, see Table 1. All studies recruited adult participants (18 years or over). The mean age of the participants included in the studies ranged from 41.1 years to 59.9 years. Of those reported, 39.7% of participants were female and 60.3% were male. Males accounted for between 33 and 100% of participants, depending on the study. Only one small study had an equal number of male and female participants [30].",
+      "section": "3. Results",
+      "locator": "body/sec[3]/p[2]",
+      "start": 0,
+      "end": 485,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "895949a8c88c297266c88deb",
+      "text": "Most studies recruited participants with chronic tinnitus; however, the definition of chronic tinnitus differed from, for example, ‘tinnitus as lasting 3 months or over’ [43,44,46], to ‘6 months or over’ [29,33,35,36,37,45,47,50], ‘1 year or over’ [28,40,48,49], and ‘more than 2 years’ [32,41,51]. One study did not specify the minimum duration for chronic tinnitus [30]. Garin et al. [34] recruited participants with tinnitus stable for at least 2 months and Mei et al. [39] those with tinnitus recurrent for 1 month or stable for 5 days. Dobie et al. [32] did not specify any inclusion criterion related to the duration of tinnitus.",
+      "section": "3. Results",
+      "locator": "body/sec[3]/p[3]",
+      "start": 0,
+      "end": 635,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "084b813f4ea0a36d0444df32",
+      "text": "Several studies recruited participants specifically with tonal tinnitus [35,44,45,46,47,49]. Four studies had specific inclusion criteria regarding the dominant tinnitus frequency which were a dominant tinnitus frequency between 1 and 12 kHz [44], below 9 kHz [46], and between 0.2 and 10 kHz [35,47]. Some studies had inclusion criteria regarding hearing loss, e.g., sensorineural hearing loss [30]; some with a specific pure tone average (PTA) requirement, e.g., below 60 dB HL in the ear with tinnitus [35], or below 70 dB HL for frequencies of one-half octave above and below the tinnitus frequency [44]; or a maximum hearing impairment of 50 dB [45]. Forogh et al. [33] specified an exclusion criterion of fluctuating hearing loss.",
+      "section": "3. Results",
+      "locator": "body/sec[3]/p[4]",
+      "start": 0,
+      "end": 736,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "f7f983f7a867b6e23fe3d7b8",
+      "text": "A few studies also had an inclusion criterion requiring a minimum level of tinnitus symptom severity, e.g., tinnitus severe enough to justify the patients’ expenditure of time [32], or a minimum score on a multi-item tinnitus questionnaire [35,41]. Most studies reported tinnitus severity scores at baseline and post-intervention/follow-up using established multi-item tinnitus questionnaires, the Tinnitus Functional Index (TFI, [52], the Tinnitus Handicap Inventory (THI, [53]), the Tinnitus Handicap Questionnaire (THQ, [54]), or the Tinnitus Questionnaire (TQ, [55]).",
+      "section": "3. Results",
+      "locator": "body/sec[3]/p[5]",
+      "start": 0,
+      "end": 571,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "36f821bbdfb6c8d6833be15b",
+      "text": "Some studies had eligibility criteria based on mental and emotional state, e.g., excluding participants with current or a history of mental disorders such as severe depression or anxiety [30,35,39,40,44,45,46,50] or significant scores on indicative questionnaires such as the Beck Depression Inventory (BDI [56]) [49]. Others did not have such exclusions, and some reported baseline anxiety or depression scores. Dobie et al. [32] found that 17 out of 20 participants reported depression or anxiety, which they blamed on their tinnitus. Baseline scores in several studies indicate that many participants might have suffered from some level of either depression or anxiety [40,46,48,50].",
+      "section": "3. Results",
+      "locator": "body/sec[3]/p[6]",
+      "start": 0,
+      "end": 686,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "9f9a48c5c9c65d06462365bd",
+      "text": "The risk of bias in the studies is summarised in Figure 2. For most sources of bias in most studies, the risk could not be confirmed as low or high due to a lack of reporting in the clinical trial registration, protocol or published study record. All studies were included on the basis they were randomised controlled trials; however, only 10 studies provided details of the methods used to undertake randomisation, and only six studies provided details of the steps undertaken to ensure allocation concealment. The studies that did report these details tended to report well, were more recent, and overall had a lower risk of bias than the other studies [29,38,43]. That said, the most recent included study [36] had an unclear or high risk of bias across most sources.",
+      "section": "3. Results / 3.1. Risk of Bias in the Included Studies",
+      "locator": "body/sec[3]/sec[1]/p[1]",
+      "start": 0,
+      "end": 770,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "1a8ef4b4387cfeee64d6c6c5",
+      "text": "Nine studies were judged to have a high risk of bias from one or more sources. For example, Jones et al. [36] was judged to have a high risk of bias for detection bias, because the trial registration described a quadruple blinding including outcome assessors, whereas the study publication reports only double blinding. In Lee et al. [37], there was a high risk of performance and detection bias, as neither the study personnel nor outcome assessors were blinded.",
+      "section": "3. Results / 3.1. Risk of Bias in the Included Studies",
+      "locator": "body/sec[3]/sec[1]/p[2]",
+      "start": 0,
+      "end": 463,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "4b4c4e12b63d5336dfc18d25",
+      "text": "There was a high risk of reporting bias in five studies, for various reasons. For example, DaSilva Souza et al. [31] did not report a planned secondary outcome (acuphony) listed in the trial registration but did report EEG data which was not listed as an outcome in the trial registration. In the case of Tass et al. [45] a trial registration was available, but this did not define any planned outcomes or analyses, and the trial entry criteria did not match the registration information.",
+      "section": "3. Results / 3.1. Risk of Bias in the Included Studies",
+      "locator": "body/sec[3]/sec[1]/p[3]",
+      "start": 0,
+      "end": 488,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "16428de29cd1d222ff27222e",
+      "text": "Two studies of acoustic CR(r) neuromodulation [35,45] versus a placebo sound measured tinnitus symptom severity pre- and post-intervention, using the THQ or TQ. The standardised mean difference (SMD) and 95% confidence intervals (CIs) are shown in Figure 3. A fixed-effects meta-analysis showed no significant overall difference between acoustic CR(r) neuromodulation and the placebo sound (SMD −0.08, 95% CI −0.45 to 0.28); 127 participants in total. The heterogeneity (I2) was zero, so not significant (Chi2 = 0.63, df = 1, p = 0.43). A further study under the name Desyncra™ [47] compared this acoustic treatment to cognitive behavioural therapy (CBT) for tinnitus in a randomised trial stratified by hearing aid use. A sample size of 200 was originally estimated, but only 61 participants took part. The primary outcome was change in TQ score after 24 weeks, and there was no difference between groups, suggesting the superiority of CBT as the less intensive treatment (6 h of CBT versus 24 weeks of device use for 4–6 h per day).",
+      "section": "3. Results / 3.2. Synthesis of Findings / 3.2.1. Acoustic Neuromodulation Interventions",
+      "locator": "body/sec[3]/sec[2]/sec[1]/p[1]",
+      "start": 0,
+      "end": 1034,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "2a79715066c3e382433e81a0",
+      "text": "One study of tailored notched music training [44] measured tinnitus symptom severity pre- and post-intervention, using the THQ as the primary outcome measure. A mixed-model ANOVA revealed no significant difference between tailored notched music training and a music training using a ‘roving’ notch (F (1,80) = 0.678, p = 0.794). The TQ was also used, as a secondary measure, and this comparison was also not significant (F(1, 80) = 0.973, p = 0.837). Also in this category, one study of high-definition infraslow pink noise stimulation [43] measured tinnitus symptom severity as a secondary measure pre- and post-intervention using the TQ and the TFI. The data were used for descriptive purposes only, as the study was considered a pilot, with primary outcomes of safety and feasibility. No serious adverse effects were reported in studies of acoustic neuromodulation interventions.",
+      "section": "3. Results / 3.2. Synthesis of Findings / 3.2.1. Acoustic Neuromodulation Interventions",
+      "locator": "body/sec[3]/sec[2]/sec[1]/p[2]",
+      "start": 0,
+      "end": 882,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "52da1a0ed857e380ed01c992",
+      "text": "Regarding secondary measures of interest, only Smeele et al. [43] measured generalised anxiety and generalised depression pre- and post-intervention, using the DASS, but these data were for descriptive purposes only. One study [35] measured generalised quality of life, pre- and post-intervention, using the World Health Organization Quality of Life tool [57]. The difference between the intervention and control was not significant (MD = −0.1, 95% CI −0.36 to 0.16; 48 participants). Smeele et al. [43], used both the WHO-5 [58] and the EQ-5D-5L [59] but for descriptive purposes only.",
+      "section": "3. Results / 3.2. Synthesis of Findings / 3.2.1. Acoustic Neuromodulation Interventions",
+      "locator": "body/sec[3]/sec[2]/sec[1]/p[3]",
+      "start": 0,
+      "end": 586,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "37800fd45c0f23a8240d1c42",
+      "text": "Both placebo-controlled studies of acoustic CR(r) neuromodulation [35,45] measured neurophysiological change after intervention using EEG. Both studies reported a change in normalised oscillatory power in the delta brainwave pattern. The standardised mean differences (SMDs) and their 95% confidence intervals (CIs) are shown in Figure 4. A fixed-effects meta-analysis showed no significant overall difference between acoustic CR(r) neuromodulation and placebo sound (SMD −0.39, 95% CI −0.91 to 0.13). The heterogeneity (I2) was zero, so not significant (Chi2 = 0.76, df = 1, p = 0.38).",
+      "section": "3. Results / 3.2. Synthesis of Findings / 3.2.1. Acoustic Neuromodulation Interventions",
+      "locator": "body/sec[3]/sec[2]/sec[1]/p[4]",
+      "start": 0,
+      "end": 586,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "f9f97bb71b8f7a38d41e70eb",
+      "text": "Smeele et al. [43] conducted resting-state electroencephalography (rsEEG) pre- and post-intervention and found a decreased beta-1 activity in the posterior cingulate cortex post-intervention in the control condition, whereas the active treatment group showed decreased beta-1 activity in the inferior parietal lobule post-intervention. An increased functional connectivity in the beta-1 frequency between the left and right parahippocampus (PHC) was also found in the active treatment group compared with controls post-intervention (p = 0.01; t = 4.24), although this was not observed at a later follow-up.",
+      "section": "3. Results / 3.2. Synthesis of Findings / 3.2.1. Acoustic Neuromodulation Interventions",
+      "locator": "body/sec[3]/sec[2]/sec[1]/p[5]",
+      "start": 0,
+      "end": 606,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "87e4ff4225a87909f8e508ce",
+      "text": "Some adverse effects of acoustic CR(r) neuromodulation were reported by Hall et al. [35]. Of their 100 participants, two were withdrawn from the treatment arm of the RCT within 2 weeks of being fitted, because they reported their tinnitus had worsened and had become unbearable. Two further participants were withdrawn during the subsequent open phase of the trial for the same reason. Theodoroff et al. [47] also reported the adverse effects of Deyncra™. Of the 26 participants in their sound therapy arm, one participant experienced exacerbated hyperacusis symptoms and 10 reported their tinnitus becoming louder after using the device. All adverse effects reportedly resolved with a treatment break within 3 weeks, or in the case of hyperacusis, by the end of the trial.",
+      "section": "3. Results / 3.2. Synthesis of Findings / 3.2.1. Acoustic Neuromodulation Interventions",
+      "locator": "body/sec[3]/sec[2]/sec[1]/p[6]",
+      "start": 0,
+      "end": 773,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "4dd62f5eafe44fbe1a3e8192",
+      "text": "Adverse effects (reported as harm) in the single study of tailored notched music training were recorded by Stein et al. [44] and included consistently or occasionally louder tinnitus (n = 7), the addition of new tinnitus sounds (n = 2), increased tinnitus awareness (n = 2), and psychological stress (n = 1) in the treatment group. Adverse effects were more frequently reported by participants in the control group than in the treatment group. Smeele et al. [43] reported various adverse effects in both their treatment and control conditions. Dizziness (n = 3), sore eyes (n = 2), dry mouth, itchy scalp, and earache (n = 1) were more often or only reported in the treatment group.",
+      "section": "3. Results / 3.2. Synthesis of Findings / 3.2.1. Acoustic Neuromodulation Interventions",
+      "locator": "body/sec[3]/sec[2]/sec[1]/p[7]",
+      "start": 0,
+      "end": 682,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "494c7e905daa62b1f3a1dccc",
+      "text": "In summary, acoustic neuromodulation interventions have only been investigated in a few studies. They appear to be safe, with no serious adverse effects reported. A transient increase in tinnitus loudness appears to be common, however. Some neurophysiological effects of acoustic treatments have been reported; these do not correspond to changes in self-reported tinnitus symptom severity, and, when measured at follow-up, are not themselves sustained.",
+      "section": "3. Results / 3.2. Synthesis of Findings / 3.2.1. Acoustic Neuromodulation Interventions",
+      "locator": "body/sec[3]/sec[2]/sec[1]/p[8]",
+      "start": 0,
+      "end": 452,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "d235d05008dce5a9eb3482f0",
+      "text": "Nine studies of tDCS [29,30,31,33,38,40,41,48,50] used multiple sessions and measured tinnitus symptom severity pre- and post-intervention, using a multi-item tinnitus questionnaire (TFI, THI, THQ, or TQ), so these data were pooled. We pooled studies regardless of whether they used conventional or ‘high-definition’ tDCS, given the lack of evidence of a difference in effect between the two methods [60]. The SMDs and their 95% CIs are shown in Figure 5. A random-effects meta-analysis showed a significant overall difference between tDCS and the control (eightsham tDCS, one waitlist control) (SMD −0.42, 95% CI = −0.81 to −0.02); 329 participants in favour of tDCS. The heterogeneity was high, however (I2 = 0.65, Chi2 = 23.16, df = 8, p = 0.003). A sensitivity analysis removing only one study judged at the highest risk of bias [31] rendered the comparison not significant (SMD −0.38, 95% CI = −0.81 to 0.04); 305 participants, whilst the heterogeneity was unaffected.",
+      "section": "3. Results / 3.2. Synthesis of Findings / 3.2.2. Transcranial Direct Current Stimulation",
+      "locator": "body/sec[3]/sec[2]/sec[2]/p[1]",
+      "start": 0,
+      "end": 973,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "16a13257b47edfc3c8925026",
+      "text": "One further study [51] of tDCS measured tinnitus symptom severity pre-and post- single sessions of TDCS in a cross-over randomised trial, but only pooled data were available. Another study from Dobie et al. [32] was multisession, but the data were unavailable. One study [46] compared tDCS combined with tailored notched music to a sham tDCS combined with tailored notched music but found no effect of condition or interaction effect in the THQ, THI, or TQ scores (ANOVA, p > 0.05 in all cases).",
+      "section": "3. Results / 3.2. Synthesis of Findings / 3.2.2. Transcranial Direct Current Stimulation",
+      "locator": "body/sec[3]/sec[2]/sec[2]/p[2]",
+      "start": 0,
+      "end": 495,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "52dc5d85e05b653889595aa1",
+      "text": "Three studies evaluated tinnitus symptom severity at follow-up. Forogh et al. [33] evaluated tinnitus symptom severity at 2 weeks follow-up, finding no significant effect. Pal et al. [40] conducted follow-up assessments at 5 days, 1 month, and 3 months after intervention, and again found no effect of condition or interaction effect (repeated measures ANOVA, p = 0.3228 and p = 0.6926, respectively). Mares et al. [38] conducted follow-up assessments 6 weeks and 6 months after intervention but found no significant differences in tinnitus symptom severity between groups.",
+      "section": "3. Results / 3.2. Synthesis of Findings / 3.2.2. Transcranial Direct Current Stimulation",
+      "locator": "body/sec[3]/sec[2]/sec[2]/p[3]",
+      "start": 0,
+      "end": 573,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "c31dfe51a4de8729520cc23b",
+      "text": "Serious adverse effects associated or potentially associated with tDCS or sham tDCS were reported by Shekhawat and Vanneste [18]. Scalp burns were reported by eight participants, one of which (experienced by a participant in the sham condition) was rated as severe. No other study of tDCS reported serious adverse effects.",
+      "section": "3. Results / 3.2. Synthesis of Findings / 3.2.2. Transcranial Direct Current Stimulation",
+      "locator": "body/sec[3]/sec[2]/sec[2]/p[4]",
+      "start": 0,
+      "end": 322,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "72899462bd704f50f2bf6082",
+      "text": "In terms of secondary outcomes, four studies [29,38,48,50] measured generalised anxiety, pre- and post-intervention, using either the Hospital Anxiety and Depression Scale (HADS, [61]) or Beck Anxiety Inventory (BAI, [62]). The difference between intervention and control was significant in favour of the intervention (SMD = −0.44, 95% CI −0.75 to −0.13); 184 participants (Figure 6, although the heterogeneity was extremely high (92%).",
+      "section": "3. Results / 3.2. Synthesis of Findings / 3.2.2. Transcranial Direct Current Stimulation",
+      "locator": "body/sec[3]/sec[2]/sec[2]/p[5]",
+      "start": 0,
+      "end": 436,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "19c9a16442e7d55ac9155dca",
+      "text": "The same four studies [29,38,48,50] also measured generalised depression, pre- and post-intervention, using the BDI, the Zung Self-Rating Depression Scale (SDS, [63]), or the HADS. The difference between treatment and control was significant in favour of treatment (SMD = −0.4, 95% CI −0.72 to −0.11), 184 participants (Figure 7). To et al. [48] additionally measured the change in generalised depression using the HADS as a second measure of depression but found no significant difference between groups (MD = −0.74, 95% = −1.18 to 0.3), and when their HADS data were substituted for BDI data in a meta-analysis, the SMD was not significant (SMD = −0.57, 95% CI = −1.55 to 0.42), 184 participants.",
+      "section": "3. Results / 3.2. Synthesis of Findings / 3.2.2. Transcranial Direct Current Stimulation",
+      "locator": "body/sec[3]/sec[2]/sec[2]/p[6]",
+      "start": 0,
+      "end": 698,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "3aa25720af121106c601cc95",
+      "text": "The generalised quality of life was measured in one study of tDCS. Mares et al. [38] reported WHO–Quality of Life–Bref [64] domain scores pre- and post-intervention and at follow-up. The only significant result was immediately post-intervention on Domain 2, which measures psychological wellbeing (U = 96, p = 0.006; adjusted p = 0.023), compared to the sham. However, none were significant at follow-up.",
+      "section": "3. Results / 3.2. Synthesis of Findings / 3.2.2. Transcranial Direct Current Stimulation",
+      "locator": "body/sec[3]/sec[2]/sec[2]/p[7]",
+      "start": 0,
+      "end": 404,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "29021d5ce3d6ae0f9410a41e",
+      "text": "Neurophysiological change was measured in one study of tDCS [31]. An EEG source localisation analysis after intervention showed that the active tDCS group presented significantly lower theta (t = 0.876; p < 0.05) and beta-1 (t = 0.821; p < 0.05) bands than the placebo in an eyes-open condition. In an eyes-closed condition, however, there were no statistically significant differences between tDCS and controls after intervention in any of the frequency bands.",
+      "section": "3. Results / 3.2. Synthesis of Findings / 3.2.2. Transcranial Direct Current Stimulation",
+      "locator": "body/sec[3]/sec[2]/sec[2]/p[8]",
+      "start": 0,
+      "end": 461,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "a01b0c288e46f332529eafe6",
+      "text": "Adverse effects with tDCS or sham tDCS were reported by Shekhawat and Vanneste [42]. Participants in the tDCS group reported headache (n = 2), neck pain (n = 2), scalp pain (n = 3), sleepiness (n = 6), and trouble concentrating. Participants in the sham condition reported scalp pain (n = 3), sleepiness (n = 4), and acute mood changes (n = 1). These were experienced during stimulation, but none were significant enough to stop the stimulation. Abtahi et al. [28] also reported adverse effects. Of the participants receiving tDCS, one reported headache and one reported insomnia. Participants receiving sham tDCS reported no adverse effects. Garin et al. [34] reported that one participant was excluded after their first treatment session as she required drug treatment for depression. Otherwise, the adverse effects associated with tDCS included transient tinnitus worsening (four participants) or slight pain (one participant). Mares et al. [38] reported adverse effects in 5.3% of active and 5.8% of sham control sessions. These included itching, a burning sensation, fatigue, tingling, headache, and exacerbation of tinnitus. Cardon et al. [29] reported that eight participants (10.4%) experienced side effects. In the active HD-tDCS group, two participants reported light, transient headaches after the stimulation sessions. In the sham control group, four participants reported light, transient headaches, one reported more serious migraine-like headaches, and one reported tingling sensations in their extremities after each session. No significant differences in the presence of side effects were found between the active and control groups (p = 0.18). In contrast, To et al. [48] reported there were no adverse effects of the treatment.",
+      "section": "3. Results / 3.2. Synthesis of Findings / 3.2.2. Transcranial Direct Current Stimulation",
+      "locator": "body/sec[3]/sec[2]/sec[2]/p[9]",
+      "start": 0,
+      "end": 1746,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "cac1032c58d6eaee0920914f",
+      "text": "Two studies only reported adverse effects on tinnitus; Forogh et al. [33] report tinnitus worsening in both the active and sham treatment groups. In the treatment group, four out of 11 participants experienced worsening tinnitus. One participant discontinued the intervention after one session. Three participants experienced worsening tinnitus after completing 5 days of treatment. For one of those participants, the severity of tinnitus returned to baseline within 5 weeks. For the other two, however, the effect persisted for at least 19 weeks after treatment. Teismann et al. [46] reported one patient (of 21) withdrew from the study due to new tinnitus sounds arising in treatment.",
+      "section": "3. Results / 3.2. Synthesis of Findings / 3.2.2. Transcranial Direct Current Stimulation",
+      "locator": "body/sec[3]/sec[2]/sec[2]/p[10]",
+      "start": 0,
+      "end": 686,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "4915a537103777aae04d4a27",
+      "text": "In summary, multiple controlled trials of tDCS for tinnitus have been conducted and overall appear to have a small but significant acute effect on tinnitus symptom severity. At the same time, multiple transient adverse effects of tDCS or sham tDCS were reported, most consistently an increase in tinnitus symptom severity or the emergence of additional tinnitus sounds. The heterogeneity was high across these studies, and in the few studies that measured tinnitus at follow-up, the effect on tinnitus symptom severity does not appear to be sustained. Generalised anxiety and depression also appear to improve acutely, although the number of studies that measured these variables is small and the heterogeneity high.",
+      "section": "3. Results / 3.2. Synthesis of Findings / 3.2.2. Transcranial Direct Current Stimulation",
+      "locator": "body/sec[3]/sec[2]/sec[2]/p[11]",
+      "start": 0,
+      "end": 716,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "ba2659e51d34eefb00cbf94b",
+      "text": "A single study of vagus nerve stimulation paired with sound [49] measured tinnitus symptom severity pre- and post-intervention using the THI, THQ, and TFI. Although a primary outcome measure was not specified (the trial was described as a pilot), the analysis of THI data was fully reported. A repeated measures ANOVA of paired vagus nerve stimulation and the unpaired use of vagal nerve stimulation and sound revealed no significant effect of condition (F = 0.001, p = 0.97) or time/condition interaction effect (F = 0.10, p = 0.91). The summary analyses provided for the THQ and TFI were also not significant.",
+      "section": "3. Results / 3.2. Synthesis of Findings / 3.2.3. Vagus Nerve Stimulation",
+      "locator": "body/sec[3]/sec[2]/sec[3]/p[1]",
+      "start": 0,
+      "end": 611,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "03c59600d1ffdec10dc7640e",
+      "text": "A single study of vagus nerve stimulation with auricular acupuncture and sound masking [39] measured changes in tinnitus severity category (as calculated from THIS scores), pre- and post-intervention. After 4 weeks of treatment, there was no difference in the numbers of participants in different severity categories between those receiving vagus nerve stimulation with auricular acupoint and those in the control group (flunarizine hydrochloride and oryzinol) (X2 = 1.981, p = 0.16). After 8 weeks of treatment, however, there were significantly more participants in the milder category of tinnitus severity in the intervention group (X2 = 9.315, p = 0.002). No significant adverse effects were reported in either study of vagus nerve stimulation.",
+      "section": "3. Results / 3.2. Synthesis of Findings / 3.2.3. Vagus Nerve Stimulation",
+      "locator": "body/sec[3]/sec[2]/sec[3]/p[2]",
+      "start": 0,
+      "end": 748,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "80b7f0b4cac766e4d57e6923",
+      "text": "In terms of secondary outcomes, generalised anxiety and generalised depression were measured in Tyler et al. [49] but were not reported. Generalised quality of life and neurophysiological changes were not measured in either study of vagus nerve stimulation. Adverse effects in the single study of paired vagus nerve stimulation [49] were described as mild, moderate, and well tolerated. Two participants experienced iatrogenic vocal cord paralyses (hoarseness or voice weakness) lasting for more than 12 weeks after implantation. In one of those participants, vocal cord paralysis did not recover completely, although they declined treatment or therapy for it. The implant failed in one participant, requiring replacement surgery. Mei et al. [39] did not report any adverse effects.",
+      "section": "3. Results / 3.2. Synthesis of Findings / 3.2.3. Vagus Nerve Stimulation",
+      "locator": "body/sec[3]/sec[2]/sec[3]/p[3]",
+      "start": 0,
+      "end": 782,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "f402b7e96bab87d40bf6a389",
+      "text": "A single study of alternating current stimulation [37] measured tinnitus symptom severity pre- and post-intervention using the THI. The change in tinnitus symptom severity was significantly greater in the intervention group than the control group (MD = −7.3, 95% CI −11.25 to −3.36; 65 participants). No significant adverse effects were reported. Generalised anxiety, generalised depression, generalised quality of life, and neurophysiological changes were not measured by Lee et al. [37], and no adverse effects were reported.",
+      "section": "3. Results / 3.2. Synthesis of Findings / 3.2.4. Alternating Current Stimulation",
+      "locator": "body/sec[3]/sec[2]/sec[4]/p[1]",
+      "start": 0,
+      "end": 527,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "92644358f353c9a7e6292cef",
+      "text": "One study involved an intervention combining auditory and somatosensory stimulation. Jones et al. [36] compared precisely timed bi-sensory auditory and somatosensory stimulation to auditory stimulation only. Tinnitus symptom severity was measured using both the TFI and THI. They found a statistically significant decrease on both measures post-intervention and at a 6-week follow-up (p = 0.018 to <0.001) in favour of the combined stimulation protocol. No other outcomes of interest were measured in this study.",
+      "section": "3. Results / 3.2. Synthesis of Findings / 3.2.5. Combined Auditory and Somatosensory Stimulation",
+      "locator": "body/sec[3]/sec[2]/sec[5]/p[1]",
+      "start": 0,
+      "end": 512,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "ca19b8f84506db9be21021b5",
+      "text": "Recent decades have seen the translation of neuromodulation techniques into clinical alternatives to pharmacological treatment of neurological and neuropsychiatric disorders [65]. This systematic review assessed the effects of neuromodulation treatments for tinnitus. We specifically included the subset of treatments that are hypothesised to affect changes in cortical oscillatory activity, and thereby reverse or alter the pathological synchronous activity associated with tinnitus. The outcomes of interest in this review were tinnitus symptom severity, depression, anxiety, quality of life, oscillatory power, and adverse effects. Twenty-four studies across five distinct forms of treatment were included.",
+      "section": "4. Discussion",
+      "locator": "body/sec[4]/p[1]",
+      "start": 0,
+      "end": 709,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "8d0882c47fa750b8db73c5fc",
+      "text": "Evidence for the effectiveness of acoustic neuromodulations therapies was very limited, with most treatments showing equivalence to their well-matched controls, despite some evidence that they affected neurophysiological changes. Where the control condition used sound stimuli as a ‘placebo’, it may be that they are exacting some other form of neurophysiological change and/or clinical benefit than the treatment condition. Waitlist or no-intervention control groups appear warranted in that case. A similar scenario is seen in sound-based treatments for tinnitus that are standard care, such as hearing aids, combination hearing aids, and ear level sound generators [66,67]. None have shown superiority in the limited number of clinical trials that have been conducted, and none of those trials included a waitlist control group, placebo, or education/information only. Given the evidence, the choice to prescribe or use acoustic therapies should come down to professional experience and patient preference.",
+      "section": "4. Discussion",
+      "locator": "body/sec[4]/p[2]",
+      "start": 0,
+      "end": 1009,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "0df5ef13dee714ea595e765b",
+      "text": "Other forms of neuromodulation techniques reviewed here included tACS, VNS, and bimodal acoustic and somatosensory treatments. With only single studies, or studies using very different approaches, none were suitable for synthesis. All appeared safe, and tACS and bimodal stimulation showed an improvement of tinnitus symptom severity in single studies. Further studies with improved reporting (discussed later) are warranted.",
+      "section": "4. Discussion",
+      "locator": "body/sec[4]/p[3]",
+      "start": 0,
+      "end": 425,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "6700a001495b35ac0c46e20c",
+      "text": "The largest body of evidence in this review related to tDCS as a treatment for tinnitus. Multiple studies compared active tDCS to a sham control condition involving a brief (30–90 s only) electrical stimulation. The treatment condition across studies varied in the number of sessions, duration of sessions, dose, and electrode montage. The synthesis of the findings was significant for an effect in favour of tDCS, but this was largely driven by two studies with large positive effects sizes, and was not significant when one study with a high risk of bias was removed. Nevertheless, the study of tDCS for tinnitus appears worth pursuing. The three studies showing the highest individual effect sizes (1) used a higher dose stimulus than other studies [50], (2) compared to a waitlist control instead of a placebo/sham [48], and (3) reported significant neurophysiological change (reduced theta and beta-1 band power) post-treatment versus sham [31]. The latter was the only study of tDCS for tinnitus to measure oscillatory power as an outcome, so this warrants replication in future studies. Future studies should also address the issue of dose, duration, number of sessions, electrode montage, etc. Our recent network meta-analysis examined the effects of tDCS stimulation on tinnitus, depression, and anxiety, aiming to identify a set of parameters (dose, duration, number of sessions, electrode montage, etc.) that would be optimal for the treatment of tinnitus [68]. From the evidence available, we predict that between 5 and 10 sessions at 20 min each is likely to be optimal, whereas analysis of the electrode montage data showed that, at least for conventional tDCS, spatial specificity may not be important to treatment effectiveness (and therefore not be a parameter that needs further opt",
+      "section": "4. Discussion",
+      "locator": "body/sec[4]/p[4]",
+      "start": 0,
+      "end": 1800,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "d67bd90d8958ff95424cb787",
+      "text": "imisation). Rather, what needs further research is the optimisation of dose, or more specifically, ensuring a sufficiently strong and correctly distributed electric field to ensure a sufficient stimulation of the intended cortical targets. All previous studies of tDCS for tinnitus have administered the same level of current (1–4 mA) to all participants. We know, however, that anatomical variations (e.g., skull thickness, difference in brain morphology, pronounced anatomical differences between children and adults) influence the amount of current reaching the target brain areas, and thus the effectiveness of tDCS [69]. To overcome this ‘black box’ issue, techniques such as current flow modelling (CFM) can be applied [70]. CFM techniques have advanced to a stage where, based on detailed anatomical scans, it is now possible to estimate the intensity of electrical fields, their spatial extent, and direction of current flow in a target brain region during tDCS. CFM has been shown to have the capacity to eliminate the variance in electrical field intensities at a cortical target site [71]. Whilst the research would be resource intensive, this is an exciting advance and an opportunity for a truly targeted treatment of tinnitus, where the target and the dose of current reaching that target can be meaningfully demonstrated.",
+      "section": "4. Discussion",
+      "locator": "body/sec[4]/p[4]",
+      "start": 1800,
+      "end": 3136,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "191475522d3ecf3ad41f4ccb",
+      "text": "There are many issues which will limit confidence in the estimate of the effects reported in this review. By the nature of tinnitus, the samples of individuals are heterogenous in so many ways, from their lived experience to its impact on quality of life and function. Equally, the aetiology of tinnitus will likely differ (e.g., the level and nature of sensorineural hearing loss, presence of otosclerosis or other conditions, whether tinnitus has a somatosensory element to it), and exclusion criteria also differ within and across studies. Differences in the definition, and therefore inclusion criteria of, chronic tinnitus were notable, and this may affect outcomes; the duration of tinnitus should therefore be considered within trial data analysis plans. In terms of the risk of bias in the included studies, a major issue was under-reporting, such that the risk of bias was unclear in most cases, despite the availability of trial registrations, published protocols, and published study reports. Future reporting should follow established reporting guidelines (e.g., CONSORT [72]) and be mindful of the various sources of bias that trials are judged on, such as randomisation techniques, allocation concealment, blinding, and reporting [73]. In terms of outcomes, triallists should also consider the importance of core outcome sets. These are increasingly required by research funders and publishers and represent outcomes that are the most important to patients and other key stakeholders in research. Core outcome sets for clinical trials of tinnitus interventions have recently been established and so should be included in the planned outcomes for any trial involving a sound-, psychology-, drug-, or electrical stimulation-based intervention [74,75]. In the absence of specific single to",
+      "section": "4. Discussion",
+      "locator": "body/sec[4]/p[5]",
+      "start": 0,
+      "end": 1800,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "c96d0f2f2a04bcc5bec19905",
+      "text": "ols that measures each core outcome, the TFI (used in just three studies reviewed here) is a good option, as it includes subscales that measure most core outcomes for tinnitus intervention trials. Whilst other measures of tinnitus symptom severity might be more appropriate to the nature of the intervention or hypothesised mechanism of action, we recommend including the TFI or another set of measures that capture core outcomes in every trial. We also recommend that triallists state the hypothesised mechanism of their tinnitus intervention and include a relevant objective or behavioural measure of that mechanism. Many interventions, including neuromodulation interventions, are developed and trialled without a clear hypothesised mode of action—some of which may be missing from this review. Explicitly targeting specific neurophysiological mechanisms of tinnitus, and demonstrating a sustained change in neurophysiological activity, will be key to developing novel effective treatments in this exciting field.",
+      "section": "4. Discussion",
+      "locator": "body/sec[4]/p[5]",
+      "start": 1800,
+      "end": 2816,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "06b0182afe09a0a34111152a",
+      "text": "Search: tinnitus AND (tdcs OR neuromodulation OR coordinated reset OR desynchronization OR ((transcranial OR transcutaneous) AND stimulation) OR electrostimulation OR neurostimulation)",
+      "section": "Appendix A",
+      "locator": "body/sec[5]/boxed-text[1]/p[1]",
+      "start": 0,
+      "end": 184,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "af8658bea175076e8686e077",
+      "text": "(“tinnitus” [MeSH Terms] OR “tinnitus” [All Fields]) AND (“transcranial direct current stimulation” [MeSH Terms] OR (“transcranial” [All Fields] AND “direct” [All Fields] AND “current” [All Fields] AND “stimulation” [All Fields]) OR “transcranial direct current stimulation” [All Fields] OR “tdcs” [All Fields] OR (“neuromodulate” [All Fields] OR “neuromodulating” [All Fields] OR “neuromodulation” [All Fields] OR “neuromodulations” [All Fields] OR “neuromodulative” [All Fields] OR “neurotransmitter agents” [Pharmacological Action] OR “neurotransmitter agents” [MeSH Terms] OR (“neurotransmitter” [All Fields] AND “agents” [All Fields]) OR “neurotransmitter agents” [All Fields] OR “neuromodulator” [All Fields] OR “neuromodulators” [All Fields]) OR ((“coordinate” [All Fields] OR “coordinated” [All Fields] OR “coordinately” [All Fields] OR “coordinates” [All Fields] OR “coordinating” [All Fields] OR “coordination” [All Fields] OR “coordinations” [All Fields] OR “coordinative” [All Fields] OR “coordinatively” [All Fields] OR “coordinator” [All Fields] OR “coordinator s” [All Fields] OR “coordinators” [All Fields]) AND (“reset” [All Fields] OR “resets” [All Fields] OR “resetting” [All Fields] OR “resettings” [All Fields])) OR (“desynchronisation” [All Fields] OR “desynchronised” [All Fields] OR “desynchronization” [All Fields] OR “desynchronizations” [All Fields] OR “desynchronize” [All Fields] OR “desynchronized” [All Fields] OR “desynchronizes” [All Fields] OR “desynchronizing” [All Fields] OR “desynchronous” [All Fields]) OR ((“transcranial” [All Fields] OR “transcranially” [All Fields] OR (“transcutaneous” [All Fields] OR “transcutaneously” [All Fields])) AND (“stimulate” [All Fields] OR “stimulated” [All Fields] OR “stimulates” [All Fields] OR “stimulating” [All Fields] OR ",
+      "section": "Appendix A",
+      "locator": "body/sec[5]/boxed-text[1]/p[2]",
+      "start": 0,
+      "end": 1800,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "35938b4de27cccae4f29654a",
+      "text": "“stimulation” [All Fields] OR “stimulations” [All Fields] OR “stimulative” [All Fields] OR “stimulator” [All Fields] OR “stimulator s” [All Fields] OR “stimulators” [All Fields])) OR (“electrostimulated” [All Fields] OR “electrostimulating” [All Fields] OR “electrostimulation” [All Fields] OR “electrostimulations” [All Fields] OR “electrostimulator” [All Fields] OR “electrostimulators” [All Fields]) OR (“neurostimulation” [All Fields] OR “neurostimulations” [All Fields] OR “neurostimulator” [All Fields] OR “neurostimulators” [All Fields]))",
+      "section": "Appendix A",
+      "locator": "body/sec[5]/boxed-text[1]/p[2]",
+      "start": 1800,
+      "end": 2345,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "e068cd9be2f700b55cb27e03",
+      "text": "tinnitus: “tinnitus” [MeSH Terms] OR “tinnitus” [All Fields]",
+      "section": "Appendix A",
+      "locator": "body/sec[5]/boxed-text[1]/p[4]",
+      "start": 0,
+      "end": 60,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "e9f0805eafd9ed154982b290",
+      "text": "tdcs: “transcranial direct current stimulation” [MeSH Terms] OR (“transcranial” [All Fields] AND “direct” [All Fields] AND “current” [All Fields] AND “stimulation” [All Fields]) OR “transcranial direct current stimulation” [All Fields] OR “tdcs” [All Fields]",
+      "section": "Appendix A",
+      "locator": "body/sec[5]/boxed-text[1]/p[5]",
+      "start": 0,
+      "end": 258,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "1be673f40149495e2acdb4ec",
+      "text": "neuromodulation: “neuromodulate” [All Fields] OR “neuromodulating” [All Fields] OR “neuromodulation” [All Fields] OR “neuromodulations” [All Fields] OR “neuromodulative” [All Fields] OR “neurotransmitter agents” [Pharmacological Action] OR “neurotransmitter agents” [MeSH Terms] OR (“neurotransmitter” [All Fields] AND “agents” [All Fields]) OR “neurotransmitter agents” [All Fields] OR “neuromodulator” [All Fields] OR “neuromodulators” [All Fields]",
+      "section": "Appendix A",
+      "locator": "body/sec[5]/boxed-text[1]/p[6]",
+      "start": 0,
+      "end": 450,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "6913392c011ba385d88122db",
+      "text": "coordinated: “coordinate” [All Fields] OR “coordinated” [All Fields] OR “coordinately” [All Fields] OR “coordinates” [All Fields] OR “coordinating” [All Fields] OR “coordination” [All Fields] OR “coordinations” [All Fields] OR “coordinative” [All Fields] OR “coordinatively” [All Fields] OR “coordinator” [All Fields] OR “coordinator’s” [All Fields] OR “coordinators” [All Fields]",
+      "section": "Appendix A",
+      "locator": "body/sec[5]/boxed-text[1]/p[7]",
+      "start": 0,
+      "end": 380,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "d54dd7f9e7db9583149d6c0c",
+      "text": "reset: “reset” [All Fields] OR “resets” [All Fields] OR “resetting” [All Fields] OR “resettings” [All Fields]",
+      "section": "Appendix A",
+      "locator": "body/sec[5]/boxed-text[1]/p[8]",
+      "start": 0,
+      "end": 109,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "151613d5ac618951d1711655",
+      "text": "desynchronization: “desynchronisation” [All Fields] OR “desynchronised” [All Fields] OR “desynchronization” [All Fields] OR “desynchronizations” [All Fields] OR “desynchronize” [All Fields] OR “desynchronized” [All Fields] OR “desynchronizes” [All Fields] OR “desynchronizing” [All Fields] OR “desynchronous” [All Fields]",
+      "section": "Appendix A",
+      "locator": "body/sec[5]/boxed-text[1]/p[9]",
+      "start": 0,
+      "end": 321,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "eeac9b6751f5774b7d91afab",
+      "text": "transcranial: “transcranial” [All Fields] OR “transcranially” [All Fields]",
+      "section": "Appendix A",
+      "locator": "body/sec[5]/boxed-text[1]/p[10]",
+      "start": 0,
+      "end": 74,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "68e52afc2938779a5a07eb78",
+      "text": "transcutaneous: “transcutaneous” [All Fields] OR “transcutaneously” [All Fields]",
+      "section": "Appendix A",
+      "locator": "body/sec[5]/boxed-text[1]/p[11]",
+      "start": 0,
+      "end": 80,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "57cf51e78d14dce93f15ca78",
+      "text": "stimulation: “stimulate” [All Fields] OR “stimulated” [All Fields] OR “stimulates” [All Fields] OR “stimulating” [All Fields] OR “stimulation” [All Fields] OR “stimulations” [All Fields] OR “stimulative” [All Fields] OR “stimulator” [All Fields] OR “stimulator’s” [All Fields] OR “stimulators” [All Fields]",
+      "section": "Appendix A",
+      "locator": "body/sec[5]/boxed-text[1]/p[12]",
+      "start": 0,
+      "end": 306,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "f4fbb5bfb6aab5d0ba9e9dee",
+      "text": "electrostimulation: “electrostimulated” [All Fields] OR “electrostimulating” [All Fields] OR “electrostimulation” [All Fields] OR “electrostimulations” [All Fields] OR “electrostimulator” [All Fields] OR “electrostimulators” [All Fields]",
+      "section": "Appendix A",
+      "locator": "body/sec[5]/boxed-text[1]/p[13]",
+      "start": 0,
+      "end": 237,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "1846ee72f137c0a81d94f977",
+      "text": "neurostimulation: “neurostimulation” [All Fields] OR “neurostimulations” [All Fields] OR “neurostimulator” [All Fields] OR “neurostimulators” [All Fields]",
+      "section": "Appendix A",
+      "locator": "body/sec[5]/boxed-text[1]/p[14]",
+      "start": 0,
+      "end": 154,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "7a46016347232e983b90a8d3",
+      "text": "D.J.H., G.W.S., B.L. and M.S. have all authored studies included in this review but to remove conflicts were not involved in the screening, data extraction, or risk of bias assessment of their own studies. G.W.S. and A.E.R. declare no conflicts of interest. The funders had no role in the design of the study; in the collection, analyses, or interpretation of data; in the writing of the manuscript; or in the decision to publish the results.",
+      "section": "Conflicts of Interest",
+      "locator": "body/sec[8]/p[1]",
+      "start": 0,
+      "end": 442,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "8203ef3d8cad899e5d05ab3b",
+      "text": "Disclaimer/Publisher’s Note: The statements, opinions and data contained in all publications are solely those of the individual author(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to people or property resulting from any ideas, methods, instructions or products referred to in the content.",
+      "section": "Footnotes",
+      "locator": "body/sec[10]/fn-group[1]/fn[1]/p[1]",
+      "start": 0,
+      "end": 369,
+      "population_status": "requires_screening"
+    }
+  ]
+}

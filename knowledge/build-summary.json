@@ -1,0 +1,32 @@
+{
+  "documents": 12,
+  "indexed_chunks": 802,
+  "staged_chunks": 130,
+  "metadata_only": 3,
+  "by_topic": {
+    "rhinitis": {
+      "documents": 2,
+      "indexed_chunks": 64
+    },
+    "sinusitis": {
+      "documents": 1,
+      "indexed_chunks": 30
+    },
+    "otitis_media": {
+      "documents": 2,
+      "indexed_chunks": 87
+    },
+    "hearing_loss": {
+      "documents": 3,
+      "indexed_chunks": 121
+    },
+    "tinnitus": {
+      "documents": 3,
+      "indexed_chunks": 531
+    },
+    "throat": {
+      "documents": 3,
+      "indexed_chunks": 56
+    }
+  }
+}

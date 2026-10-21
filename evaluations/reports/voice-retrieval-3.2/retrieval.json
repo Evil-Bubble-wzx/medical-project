@@ -1,0 +1,86 @@
+[
+  {
+    "case_id": "ANCHOR-NOISE-001",
+    "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+    "hybrid_documents": [
+      "nidcd-presbycusis",
+      "nidcd-presbycusis",
+      "tinnitus-s3-2022",
+      "nidcd-presbycusis",
+      "tinnitus-s3-2022",
+      "nidcd-presbycusis",
+      "tinnitus-s3-2022",
+      "nidcd-presbycusis",
+      "nidcd-presbycusis",
+      "tinnitus-s3-2022"
+    ],
+    "reranked_documents": [
+      "tinnitus-s3-2022",
+      "tinnitus-evidence-2023",
+      "nidcd-presbycusis",
+      "nidcd-presbycusis",
+      "nidcd-presbycusis",
+      "tinnitus-s3-2022",
+      "nidcd-presbycusis",
+      "tinnitus-s3-2022",
+      "adult-com-qol-2023",
+      "adult-aom-inner-ear-2023"
+    ]
+  },
+  {
+    "case_id": "ANCHOR-TINNITUS-002",
+    "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+    "hybrid_documents": [
+      "tinnitus-s3-2022",
+      "tinnitus-s3-2022",
+      "tinnitus-s3-2022",
+      "tinnitus-s3-2022",
+      "tinnitus-s3-2022",
+      "tinnitus-s3-2022",
+      "tinnitus-evidence-2023",
+      "tinnitus-s3-2022",
+      "tinnitus-s3-2022",
+      "tinnitus-s3-2022"
+    ],
+    "reranked_documents": [
+      "tinnitus-s3-2022",
+      "tinnitus-s3-2022",
+      "adult-com-qol-2023",
+      "tinnitus-s3-2022",
+      "adult-com-qol-2023",
+      "tinnitus-evidence-2023",
+      "tinnitus-s3-2022",
+      "tinnitus-s3-2022",
+      "tinnitus-s3-2022",
+      "tinnitus-s3-2022"
+    ]
+  },
+  {
+    "case_id": "ANCHOR-VOICE-003",
+    "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+    "hybrid_documents": [
+      "nidcd-hoarseness",
+      "nidcd-hoarseness",
+      "nidcd-hoarseness",
+      "nidcd-hoarseness",
+      "nidcd-hoarseness",
+      "nidcd-hoarseness",
+      "nidcd-hoarseness",
+      "tinnitus-s3-2022",
+      "nidcd-hoarseness",
+      "nidcd-hoarseness"
+    ],
+    "reranked_documents": [
+      "tinnitus-s3-2022",
+      "nidcd-hoarseness",
+      "tinnitus-s3-2022",
+      "nidcd-hoarseness",
+      "tinnitus-s3-2022",
+      "nidcd-hoarseness",
+      "nidcd-hoarseness",
+      "nidcd-hoarseness",
+      "nidcd-hoarseness",
+      "nidcd-hoarseness"
+    ]
+  }
+]

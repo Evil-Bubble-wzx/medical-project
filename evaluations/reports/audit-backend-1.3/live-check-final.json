@@ -1,0 +1,19 @@
+{
+  "page_status": 200,
+  "audit_list_status": 200,
+  "source_count": 6,
+  "case_count": 36,
+  "saved_revisions": 0,
+  "detail_status": 200,
+  "empty_submission_status": 422,
+  "history_status": 200,
+  "history_events_after_rejected_submission": 0,
+  "export_status": 200,
+  "decision_counts": {
+    "pending": 36
+  },
+  "archive_errors": [],
+  "clinical_approval": false,
+  "formal_scoring": false,
+  "persisted_review_events": 0
+}

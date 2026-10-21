@@ -1,0 +1,11 @@
+# 检索开发评测报告
+
+50条问题均待人工审核；非临床金标准。
+
+| 策略 | 执行状态 | 已知证据Hit@5 | Hit@10 | MRR |
+| --- | --- | --- | --- | --- |
+| keyword | completed | 0.2381 | 0.2857 | 0.1244 |
+| vector | blocked_model_or_index_not_available | 未运行 | 未运行 | 未运行 |
+| hybrid | blocked_model_or_index_not_available | 未运行 | 未运行 | 未运行 |
+
+42条仅标注已知证据，不代表穷尽相关段落；8条边界案例只列候选供人工检查，未实现或评测临床拒答。没有生成模型或诊断输出。

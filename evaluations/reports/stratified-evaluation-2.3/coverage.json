@@ -1,0 +1,98 @@
+{
+  "overall": {
+    "total": 18,
+    "status_counts": {
+      "not_run": 18
+    },
+    "validation_error_counts": {},
+    "clinical_accuracy": null
+  },
+  "strata": {
+    "topic": {
+      "boundary": {
+        "total": 6,
+        "status_counts": {
+          "not_run": 6
+        },
+        "validation_error_counts": {},
+        "clinical_accuracy": null
+      },
+      "hearing_loss": {
+        "total": 2,
+        "status_counts": {
+          "not_run": 2
+        },
+        "validation_error_counts": {},
+        "clinical_accuracy": null
+      },
+      "otitis_media": {
+        "total": 2,
+        "status_counts": {
+          "not_run": 2
+        },
+        "validation_error_counts": {},
+        "clinical_accuracy": null
+      },
+      "rhinitis": {
+        "total": 2,
+        "status_counts": {
+          "not_run": 2
+        },
+        "validation_error_counts": {},
+        "clinical_accuracy": null
+      },
+      "sinusitis": {
+        "total": 2,
+        "status_counts": {
+          "not_run": 2
+        },
+        "validation_error_counts": {},
+        "clinical_accuracy": null
+      },
+      "throat": {
+        "total": 2,
+        "status_counts": {
+          "not_run": 2
+        },
+        "validation_error_counts": {},
+        "clinical_accuracy": null
+      },
+      "tinnitus": {
+        "total": 2,
+        "status_counts": {
+          "not_run": 2
+        },
+        "validation_error_counts": {},
+        "clinical_accuracy": null
+      }
+    },
+    "scenario": {
+      "boundary_request": {
+        "total": 6,
+        "status_counts": {
+          "not_run": 6
+        },
+        "validation_error_counts": {},
+        "clinical_accuracy": null
+      },
+      "knowledge_question": {
+        "total": 6,
+        "status_counts": {
+          "not_run": 6
+        },
+        "validation_error_counts": {},
+        "clinical_accuracy": null
+      },
+      "patient_context": {
+        "total": 6,
+        "status_counts": {
+          "not_run": 6
+        },
+        "validation_error_counts": {},
+        "clinical_accuracy": null
+      }
+    }
+  },
+  "clinical_approval": false,
+  "human_review": "pending"
+}

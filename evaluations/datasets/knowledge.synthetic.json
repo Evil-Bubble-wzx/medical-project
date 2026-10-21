@@ -1,0 +1,11 @@
+[
+  {"chunk_id":"ear-1","document_version_id":"synthetic-ear-v1","title":"合成耳部条目","text":"耳部合成测试条目 A，仅用于验证检索和引用定位。","page":1,"section":"测试章节","snapshot":"synthetic-ent-v1","scope":"public-synthetic","status":"published","keywords":["耳部"]},
+  {"chunk_id":"nose-1","document_version_id":"synthetic-nose-v1","title":"合成鼻部条目","text":"鼻部合成测试条目 B，仅用于验证检索和引用定位。","page":2,"section":"测试章节","snapshot":"synthetic-ent-v1","scope":"public-synthetic","status":"published","keywords":["鼻部"]},
+  {"chunk_id":"throat-1","document_version_id":"synthetic-throat-v1","title":"合成咽喉条目","text":"咽喉合成测试条目 C，仅用于验证检索和引用定位。","page":3,"section":"测试章节","snapshot":"synthetic-ent-v1","scope":"public-synthetic","status":"published","keywords":["咽喉"]},
+  {"chunk_id":"conflict-a","document_version_id":"synthetic-conflict-a-v1","title":"合成分歧资料甲","text":"合成分歧测试：样例开关标记为 A。","page":1,"section":"分歧测试","snapshot":"synthetic-ent-v1","scope":"public-synthetic","status":"published","keywords":["分歧"],"conflict_group":"switch","stance":"A"},
+  {"chunk_id":"conflict-b","document_version_id":"synthetic-conflict-b-v1","title":"合成分歧资料乙","text":"合成分歧测试：样例开关标记为 B。","page":2,"section":"分歧测试","snapshot":"synthetic-ent-v1","scope":"public-synthetic","status":"published","keywords":["分歧"],"conflict_group":"switch","stance":"B"},
+  {"chunk_id":"draft-1","document_version_id":"draft-v1","title":"合成未发布条目","text":"合成未发布测试正文。","page":1,"section":"测试","snapshot":"synthetic-ent-v1","scope":"public-synthetic","status":"draft","keywords":["草稿"]},
+  {"chunk_id":"withdrawn-1","document_version_id":"withdrawn-v1","title":"合成撤回条目","text":"合成已撤回测试正文。","page":1,"section":"测试","snapshot":"synthetic-ent-v1","scope":"public-synthetic","status":"withdrawn","keywords":["撤回"]},
+  {"chunk_id":"private-1","document_version_id":"private-v1","title":"合成其他范围条目","text":"合成其他范围测试正文。","page":1,"section":"测试","snapshot":"synthetic-ent-v1","scope":"other-scope","status":"published","keywords":["其他范围"]},
+  {"chunk_id":"old-1","document_version_id":"old-v1","title":"合成其他快照条目","text":"合成其他快照测试正文。","page":1,"section":"测试","snapshot":"synthetic-ent-old","scope":"public-synthetic","status":"published","keywords":["旧快照"]}
+]

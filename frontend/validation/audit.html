@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ENT Studio · 资料与题目审核</title>
+<link rel="stylesheet" href="/assets/styles.css"><link rel="stylesheet" href="/assets/audit.css">
+<script defer src="/assets/audit.js"></script><script defer src="/assets/development.js"></script></head>
+<body>
+<header><div class="brand"><span class="logo">E</span><span>ENT Studio<small>资料与题目审核</small></span></div><nav aria-label="工作台导航"><a href="/">检索问答</a><a href="/audit" aria-current="page">资料与题目审核</a></nav><span class="environment"><i></i> 本地开发验证</span></header>
+<main class="audit-main">
+<p><a class="workbench-nav" href="/patients">患者资料与授权 →</a></p>
+<section class="intro"><div><span class="eyebrow">KNOWLEDGE REVIEW / 02</span><h1>对照原文，记录审核意见。</h1><p>先核对来源，再审核问题与证据。未完成的意见可以保存为草稿。</p></div><div class="audit-totals" id="totals">正在连接审核库…</div></section>
+<div class="audit-notice">当前为本地开发审核。审核人姓名由填写者声明，尚未接医院账号；提交声明不会自动发布资料，也不代表医学审核通过。</div>
+<div class="audit-layout">
+<aside class="audit-sidebar" aria-label="审核条目">
+<div class="audit-tabs" role="group" aria-label="条目类型"><button type="button" data-kind="source" aria-pressed="true">资料来源</button><button type="button" data-kind="case" aria-pressed="false">候选题目</button></div>
+<label>查找条目<input id="search" type="search" placeholder="输入标题、主题或编号"></label>
+<label>记录状态<select id="state-filter"><option value="">全部状态</option><option value="pending">尚未记录</option><option value="draft">已存草稿</option><option value="submitted">已提交声明</option></select></label>
+<div id="item-list" class="audit-item-list" aria-label="条目列表"></div>
+</aside>
+<section class="audit-detail" aria-label="审核详情">
+<div id="message" class="audit-message" role="status" aria-live="polite"></div>
+<div id="empty-detail" class="audit-panel">请选择一个条目开始审核。</div>
+<div id="selected-detail" hidden>
+<section class="audit-panel"><div class="audit-detail-heading"><div><span id="item-topic" class="eyebrow"></span><h2 id="item-title"></h2></div><span id="item-state" class="audit-badge"></span></div><p id="record-meta" class="audit-muted"></p><div id="source-content"></div></section>
+<section class="audit-panel"><div class="section-heading"><h2>审核意见</h2><button id="reload" type="button" class="link-button">重新载入记录</button></div>
+<form id="review-form"><div id="review-fields"></div><div class="audit-actions"><button id="save-draft" type="button" class="audit-secondary">保存草稿</button><button id="submit-review" type="submit" class="audit-primary">提交审核声明</button><span id="dirty-state" class="audit-muted"></span></div></form>
+<p class="audit-muted">草稿不计入已提交表。资料或题目有变化、记录被另一页面更新时，系统会阻止覆盖。</p></section>
+<section class="audit-panel"><div class="section-heading"><h2>保存与提交历史</h2><button id="load-history" type="button" class="link-button">查看历史</button></div><div id="history"></div><button id="more-history" type="button" class="audit-secondary" hidden>加载更早记录</button></section>
+</div>
+</section>
+</div>
+<section class="audit-export audit-panel"><div><h2>导出已提交审核表</h2><p class="audit-muted">导出数据库中已提交的意见及准入检查结果。未保存输入和草稿不计入提交表，导出不会激活资料或启动模型评分。</p></div><button id="export" type="button" class="audit-secondary">下载审核表</button><p id="export-state" class="audit-muted" role="status"></p></section>
+<section id="development" class="audit-panel development-panel" aria-label="开发资料版本管理">
+<div class="section-heading"><div><span class="eyebrow">DEVELOPMENT LIBRARY / 03</span><h2>开发资料版本</h2></div><button id="dev-refresh" type="button" class="audit-secondary">刷新版本状态</button></div>
+<p class="audit-muted">先选题目并核对范围，再准备资料与索引，最后明确启用。这里只管理开发资料；提交意见或准备完成均不代表医学批准与正式上线。</p>
+<p id="dev-current" class="audit-muted">正在读取当前版本…</p>
+<div id="dev-message" class="audit-message" role="status" aria-live="polite"></div>
+<div class="audit-form-grid">
+<label class="audit-form-field">本次操作人<input id="dev-actor" maxlength="200" placeholder="填写实际操作人姓名" autocomplete="off"></label>
+<label class="audit-form-field">本次操作原因<input id="dev-note" maxlength="4000" placeholder="说明本次纳入、启用、撤回或回滚的原因" autocomplete="off"></label>
+</div>
+<h3>1. 选择证据题，核对纳入范围</h3><p class="audit-muted">仅列出已提交声明的证据题；后端仍会逐一核查保留意见、来源与版本。无需选择边界题。每份来源仅纳入本次所选题目绑定的片段，替换该来源当前开发范围。</p>
+<div id="dev-cases" class="development-cases"></div>
+<div class="audit-actions"><button id="dev-plan" type="button" class="audit-secondary">核对纳入范围</button><button id="dev-prepare" type="button" class="audit-primary" disabled>准备资料与索引</button></div>
+<div id="dev-preview" class="audit-evidence" hidden></div>
+<h3>2. 检查准备记录，明确启用</h3><p class="audit-muted">准备时当前资料库保持不变。索引构建可能需要几分钟，请等待结果；失败记录保留用于排查。只有基于当前版本且准备完成的记录可以启用。</p>
+<div id="dev-releases"></div>
+<details class="development-maintenance"><summary>撤回资料与回滚版本</summary>
+<p class="audit-muted">撤回会立即停用所选开发版本，随后准备移除它的新快照；即使索引失败，撤回仍然生效。回滚先准备新快照，之后还需明确启用；已撤回或审核绑定失效的资料不能恢复。</p>
+<label class="audit-form-field">当前资料中可撤回的开发版本<select id="dev-version"><option value="">请选择资料</option></select></label>
+<button id="dev-withdraw" type="button" class="audit-secondary" disabled>撤回所选资料并准备索引</button>
+<label class="audit-form-field">要恢复的已启用历史版本<select id="dev-target"><option value="">请选择历史版本</option></select></label>
+<button id="dev-rollback" type="button" class="audit-secondary" disabled>准备回滚版本与索引</button></details>
+</section>
+</main><footer>ENT Studio / 本地资料审核 <span>来源 · 意见 · 历史可追溯</span></footer>
+</body></html>

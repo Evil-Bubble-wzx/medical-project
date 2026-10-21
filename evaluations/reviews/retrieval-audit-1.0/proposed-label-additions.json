@@ -1,0 +1,83 @@
+[
+  {
+    "case_id": "ENT-004",
+    "candidate": {
+      "end": 846,
+      "id": "dc7fbe51d26bc80b151f60fd",
+      "locator": "body/sec[3]/sec[1]/sec[1]/p[5]",
+      "population_status": "adult_dev_candidate",
+      "section": "Multi-morbidities of allergic rhinitis / Asthma / Extent of co-occurrence",
+      "start": 0,
+      "text": "Several possible causal mechanisms have been postulated to explain a link between AR and asthma:Lack of nasal function, i.e. purifying, warming and humidifying inspired air;Nasobronchial reflex (nasal irritants, allergens or cold stimuli);Rhinovirus adhesion theory (increased susceptibility to allergic inflammation and intracellular adhesion molecule (ICAM)-1 expression) [12]; and“Migration” of T cell responses to other tissues after initial sensitization. Braunstahl [13] has shown that allergen challenge in one part of the airway is followed by a response in all other parts;The idea of postnasal drip (carriage of inflammatory cytokines/mediators from nasopharynx to lower airways) has been largely abandoned, since the ‘drip’ travels to the gut, by virtue of the larynx, not to the lower airway, unless the subject is deeply unconscious.",
+      "chunk_id": "dc7fbe51d26bc80b151f60fd",
+      "version_id": "aa15af9b-2ffa-4cf8-89b7-ccafd90db10e",
+      "document_id": "adult-rhinitis-eaaci-2017",
+      "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+      "title": "Multi-morbidities of allergic rhinitis in adults: European Academy of Allergy and Clinical Immunology Task Force Report",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5452333/",
+      "topics": [
+        "rhinitis"
+      ],
+      "clinical_review": "pending",
+      "production_eligible": false
+    },
+    "status": "proposed_pending_human_review",
+    "observation": "原问题与候选段落存在主题文字对应；是否充分支持问题需人工逐项判定",
+    "decision": null,
+    "reviewer": null
+  },
+  {
+    "case_id": "ENT-030",
+    "candidate": {
+      "end": 428,
+      "id": "bdb1250ed3a4126f4dac9518",
+      "locator": "body/sec[5]/sec[1]/p[2]",
+      "population_status": "adult_dev_candidate",
+      "section": "2 Pathophysiological aspects and classification of chronic tinnitus / Pathophysiological aspects of tinnitus",
+      "start": 0,
+      "text": "Central nervous processing often leads to pathologically exaggerated neuronal stimulus responses in severely affected persons with tinnitus (such as exaggerated attentional control of the tinnitus, triggering of anxiety, sleep disturbances). Particular central psychophysiological and neurophysiological processing mechanisms of the tinnitus stimulus are held responsible for these pathologically exaggerated stimulus responses.",
+      "chunk_id": "bdb1250ed3a4126f4dac9518",
+      "version_id": "d5005279-1bad-491f-8122-a2d05e558146",
+      "document_id": "tinnitus-s3-2022",
+      "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+      "title": "S3 Guideline: Chronic Tinnitus",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9581878/",
+      "topics": [
+        "tinnitus"
+      ],
+      "clinical_review": "pending",
+      "production_eligible": false
+    },
+    "status": "proposed_pending_human_review",
+    "observation": "原问题与候选段落存在主题文字对应；是否充分支持问题需人工逐项判定",
+    "decision": null,
+    "reviewer": null
+  },
+  {
+    "case_id": "ENT-030",
+    "candidate": {
+      "end": 314,
+      "id": "a55c53849e18c8d7ec98ecbb",
+      "locator": "body/sec[5]/sec[5]/p[5]",
+      "population_status": "adult_dev_candidate",
+      "section": "2 Pathophysiological aspects and classification of chronic tinnitus / 2.4 Severity",
+      "start": 0,
+      "text": "Decompensated tinnitus: The ringing in the ears has a massive impact on all areas of life and leads to the development or aggravation of comorbidity (see Table 1; e.g. anxiety, sleep disorders, concentration disorders, depression). There is a high level of suffering. The quality of life is significantly impaired.",
+      "chunk_id": "a55c53849e18c8d7ec98ecbb",
+      "version_id": "d5005279-1bad-491f-8122-a2d05e558146",
+      "document_id": "tinnitus-s3-2022",
+      "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+      "title": "S3 Guideline: Chronic Tinnitus",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9581878/",
+      "topics": [
+        "tinnitus"
+      ],
+      "clinical_review": "pending",
+      "production_eligible": false
+    },
+    "status": "proposed_pending_human_review",
+    "observation": "原问题与候选段落存在主题文字对应；是否充分支持问题需人工逐项判定",
+    "decision": null,
+    "reviewer": null
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "model": "deepseek-flash",
+  "readiness": "ready",
+  "requested_cases": 12,
+  "completed_cases": 12,
+  "remaining_cases": 0,
+  "transport_failures_this_attempt": [],
+  "actual_model_calls_not_counted_as_accuracy": true,
+  "citation_structure_pass_rate": 0.9166666666666666,
+  "semantic_support_rate": null,
+  "clinical_approval": false,
+  "human_review": "pending",
+  "dataset_sha256": "a61b7ad6581e39c7501319c505494456699b0d6240df728171163e6ef8a72965",
+  "config_sha256": "c771ac4ff833ef533754172f696d88330ef8d8e643815de2770883222729caff",
+  "note": "Fixed synthetic cases only; structure/quote match is not semantic or clinical accuracy."
+}

@@ -1,0 +1,1024 @@
+{
+  "date": "2026-10-21",
+  "scope": "Current source/test inventory and archived evidence review, not clinical acceptance or fresh browser/live model retest",
+  "pytest": {
+    "tests": "427",
+    "failures": "0",
+    "errors": "0",
+    "skipped": "0"
+  },
+  "ruff": "passed",
+  "features": [
+    {
+      "id": "F01",
+      "phase": "M0",
+      "name": "LangGraph离线骨架及Fake替换",
+      "implementation": "已实现",
+      "verification": "当前离线验证",
+      "gap": "离线接口替换已测，不等于真实链路所有插件兼容",
+      "evidence": [
+        {
+          "kind": "code_or_material",
+          "path": "backend/app/graphs/workflow.py",
+          "exists": true,
+          "sha256": "e37d64e59fb2b3f3b654c8354b5ef761fc5e9c4329d7f106ad19c29a88002275"
+        },
+        {
+          "kind": "test_or_report",
+          "path": "backend/tests/test_contracts.py",
+          "exists": true,
+          "sha256": "81c54e3ae514166af82a9465d2d6947d8bfbbb9b7d2c8fd44609e57628cc1e4b"
+        }
+      ]
+    },
+    {
+      "id": "F02",
+      "phase": "M1",
+      "name": "原文解析与资料收集",
+      "implementation": "部分完成",
+      "verification": "当前离线验证",
+      "gap": "已有定向解析；任意PDF/Word上传全流程未交付",
+      "evidence": [
+        {
+          "kind": "code_or_material",
+          "path": "backend/app/knowledge/parsing.py",
+          "exists": true,
+          "sha256": "cf7cca9c8b09fc713367dd816bb629c87dfffda210d85f732e08b4d3a3f09230"
+        },
+        {
+          "kind": "test_or_report",
+          "path": "backend/tests/test_library.py",
+          "exists": true,
+          "sha256": "0a21c7a9cc1ce63f14f2df36ac8f41e8a8dafcc20239e1a2cd8de800be5d735c"
+        }
+      ]
+    },
+    {
+      "id": "F03",
+      "phase": "M1",
+      "name": "资料版本、快照、撤回",
+      "implementation": "已实现",
+      "verification": "当前离线验证",
+      "gap": "开发治理实现，不代表真实资料获批",
+      "evidence": [
+        {
+          "kind": "code_or_material",
+          "path": "backend/app/knowledge/governance.py",
+          "exists": true,
+          "sha256": "a84e95693dca2fedcb8a14c7f773740aef83060d9661eeb0e1cda13074a1da87"
+        },
+        {
+          "kind": "test_or_report",
+          "path": "backend/tests/test_governance.py",
+          "exists": true,
+          "sha256": "95cf9d8a37cc7fd31206b5700092a9cf48b0fa48040e3ccbc8b20134473fffdd"
+        }
+      ]
+    },
+    {
+      "id": "F04",
+      "phase": "M1",
+      "name": "审核决定存储与准入",
+      "implementation": "已实现",
+      "verification": "当前离线验证",
+      "gap": "只证明接口规则，不证明医学判断",
+      "evidence": [
+        {
+          "kind": "code_or_material",
+          "path": "backend/app/retrieval/audit_service.py",
+          "exists": true,
+          "sha256": "0a736612b23f2e7246e3371f504000f2baa7e6c4ae9e9f5f439425db8b6ea668"
+        },
+        {
+          "kind": "test_or_report",
+          "path": "backend/tests/test_audit_backend.py",
+          "exists": true,
+          "sha256": "ef5349d9bd0d600a47f797bc01e421e10b2c9c8b1371e4fe4599ab65f18a94db"
+        }
+      ]
+    },
+    {
+      "id": "F05",
+      "phase": "M1",
+      "name": "审核及开发版本页面",
+      "implementation": "已实现",
+      "verification": "历史浏览器报告",
+      "gap": "本轮未重新运行浏览器；开发版本报告见development-ui-1.6",
+      "evidence": [
+        {
+          "kind": "code_or_material",
+          "path": "frontend/validation/audit.js",
+          "exists": true,
+          "sha256": "e8fc50a951b1e636a346ab9624d11b2c3b59b55c77d557bfc1db170f478de51a"
+        },
+        {
+          "kind": "test_or_report",
+          "path": "evaluations/reports/audit-ui-1.4",
+          "exists": true,
+          "sha256": null
+        }
+      ]
+    },
+    {
+      "id": "F06",
+      "phase": "M1",
+      "name": "正式资料医学审核与发布",
+      "implementation": "未完成",
+      "verification": "待人工医学审核",
+      "gap": "AI复核与审核材料不替代医学审签",
+      "evidence": [
+        {
+          "kind": "code_or_material",
+          "path": "evaluations/reviews/claims-2.5-final/claims.json",
+          "exists": true,
+          "sha256": "f7813cd519f3f116148786c736ceec82e13a7292973a45e156a98bd113f270eb"
+        }
+      ]
+    },
+    {
+      "id": "F07",
+      "phase": "M2",
+      "name": "关键词/向量/混合检索和重排",
+      "implementation": "已实现",
+      "verification": "当前离线及历史实验",
+      "gap": "收益来自开发样例，不代表泛化或临床性能",
+      "evidence": [
+        {
+          "kind": "code_or_material",
+          "path": "backend/app/retrieval/engine.py",
+          "exists": true,
+          "sha256": "9e55f242bfa3c4babf89fe90241bc3d27ec0c9aff2ed688937926c9d834f7552"
+        },
+        {
+          "kind": "test_or_report",
+          "path": "backend/tests/test_retrieval.py",
+          "exists": true,
+          "sha256": "f711352e7b6142dfac22e30f118441d131e3d976dc9b19aad8d33ee2f7b3a0a8"
+        }
+      ]
+    },
+    {
+      "id": "F08",
+      "phase": "M2",
+      "name": "真实链路统一可插拔契约",
+      "implementation": "部分完成",
+      "verification": "局部替换验证",
+      "gap": "原async骨架与真实同步工作台接口不完全统一，需逐组件契约验证",
+      "evidence": [
+        {
+          "kind": "code_or_material",
+          "path": "backend/app/domain/ports.py",
+          "exists": true,
+          "sha256": "c2e3f6ace304be6021a7ec646d9b1ccd3c8040d0442d4ceb135a7a2b91f57596"
+        },
+        {
+          "kind": "test_or_report",
+          "path": "backend/tests/test_contracts.py",
+          "exists": true,
+          "sha256": "81c54e3ae514166af82a9465d2d6947d8bfbbb9b7d2c8fd44609e57628cc1e4b"
+        }
+      ]
+    },
+    {
+      "id": "F09",
+      "phase": "M2",
+      "name": "DeepSeek生成及引用校验",
+      "implementation": "已实现",
+      "verification": "当前离线及历史单批实测",
+      "gap": "模型有波动，未完成质量总验收",
+      "evidence": [
+        {
+          "kind": "code_or_material",
+          "path": "backend/app/retrieval/generation.py",
+          "exists": true,
+          "sha256": "f61b49b4119a89a1d34537d0fbd1b167b23cb81cbe0d998611e20d311da89c7c"
+        },
+        {
+          "kind": "test_or_report",
+          "path": "evaluations/reports/quote-selector-3.0/live/results.json",
+          "exists": true,
+          "sha256": "b1ff92d7b888f87f195353f66378dda300d360ebe86f35e696b5b2ce85794a98"
+        }
+      ]
+    },
+    {
+      "id": "F10",
+      "phase": "M2",
+      "name": "限次修订和未知引用拒绝",
+      "implementation": "已实现",
+      "verification": "当前离线及单例实测",
+      "gap": "3.0仅证明一例修订成功，旧失败原因不能回填",
+      "evidence": [
+        {
+          "kind": "code_or_material",
+          "path": "backend/app/retrieval/quote_catalog.py",
+          "exists": true,
+          "sha256": "e482112fc1bad277b8eab725c72d5664733b9156b73e4b8280508adadd2df6d2"
+        },
+        {
+          "kind": "test_or_report",
+          "path": "backend/tests/test_quote_catalog.py",
+          "exists": true,
+          "sha256": "5bc3972af9a8ee474e0672584a39cf2e1dd72ab6707408ed5ddf65dfcc313275"
+        }
+      ]
+    },
+    {
+      "id": "F11",
+      "phase": "M2",
+      "name": "逐论断核验和患者摘要",
+      "implementation": "部分完成",
+      "verification": "当前离线/有限实测",
+      "gap": "同模型仍漏判；术语与摘要范围问题未全部修复",
+      "evidence": [
+        {
+          "kind": "code_or_material",
+          "path": "backend/app/retrieval/verification.py",
+          "exists": true,
+          "sha256": "b22aafb762ee41f582819fa6ac79f730b79f1e3a669a923ad535eb6efad25a59"
+        },
+        {
+          "kind": "test_or_report",
+          "path": "backend/tests/test_verification.py",
+          "exists": true,
+          "sha256": "72f504e130d382e9f235b76b1a710c50fb2da867a7373f494a7714e8472ef669"
+        }
+      ]
+    },
+    {
+      "id": "F12",
+      "phase": "M2",
+      "name": "输入原话、状态和病程确认",
+      "implementation": "部分完成",
+      "verification": "当前离线/有限实测",
+      "gap": "字段原话可追溯，语义与否定识别仍有限；非通用证明器",
+      "evidence": [
+        {
+          "kind": "code_or_material",
+          "path": "backend/app/retrieval/input_fidelity.py",
+          "exists": true,
+          "sha256": "1badc30851e4669175f1527771807610f6c869106e2f34aca5ca380190c14282"
+        },
+        {
+          "kind": "test_or_report",
+          "path": "backend/tests/test_input_anchors.py",
+          "exists": true,
+          "sha256": "1e98b56df507a1e3c1f0833e32a72ab2b67ac8d8496294c86932226a2925eb2e"
+        }
+      ]
+    },
+    {
+      "id": "F13",
+      "phase": "M2",
+      "name": "原话展示交互",
+      "implementation": "部分完成",
+      "verification": "仅新增脚本语法验证",
+      "gap": "2.8新增原话尚缺浏览器交互回归",
+      "evidence": [
+        {
+          "kind": "code_or_material",
+          "path": "frontend/validation/patients.js",
+          "exists": true,
+          "sha256": "ce3af1d1ec1d8b6b49d9dcef5761123c1e3ab65b0371b278bf799d393b0b32a6"
+        }
+      ]
+    },
+    {
+      "id": "F14",
+      "phase": "M2",
+      "name": "嗓音探针证据不足定位",
+      "implementation": "未完成",
+      "verification": "已保留失败结果",
+      "gap": "待检查召回、可选摘录与拒答原因，不降低门槛",
+      "evidence": [
+        {
+          "kind": "code_or_material",
+          "path": "evaluations/reports/input-anchor-live-2.9/results.json",
+          "exists": true,
+          "sha256": "1faccf5c7d062a56719b647991288e4bed18d5e8ee9b153d9ce5b8ae2e60f405"
+        }
+      ]
+    },
+    {
+      "id": "F15",
+      "phase": "M2",
+      "name": "完整资料冲突解释",
+      "implementation": "部分完成",
+      "verification": "局部范围规则",
+      "gap": "缺少指南条目时追问；实际矛盾来源并列解释未充分验收",
+      "evidence": [
+        {
+          "kind": "code_or_material",
+          "path": "backend/app/retrieval/scope_guard.py",
+          "exists": true,
+          "sha256": "2f93bdfdd0e7f0219e74f6cc7397fff2124838678b3aff51773d833826bdfca7"
+        },
+        {
+          "kind": "test_or_report",
+          "path": "backend/tests/test_scope_guard.py",
+          "exists": true,
+          "sha256": "0226432fa57d81bb82c8e11e5ff71a607858a8400750ae5adc4448c96a86a9ac"
+        }
+      ]
+    },
+    {
+      "id": "F16",
+      "phase": "M3",
+      "name": "本地账号、会话与授权",
+      "implementation": "已实现",
+      "verification": "当前离线验证",
+      "gap": "仅合成开发账号，非医院身份集成",
+      "evidence": [
+        {
+          "kind": "code_or_material",
+          "path": "backend/app/application/business.py",
+          "exists": true,
+          "sha256": "e81738e1dd0ba713ac148217277c262beb1c79a3ee91d81b88f5af16a45ef669"
+        },
+        {
+          "kind": "test_or_report",
+          "path": "backend/tests/test_business.py",
+          "exists": true,
+          "sha256": "9401735518dcb00a07f702f46cadc8e593518d4b0dbba51aa1f2be57993e149f"
+        }
+      ]
+    },
+    {
+      "id": "F17",
+      "phase": "M3",
+      "name": "资料快照、咨询、同答历史",
+      "implementation": "已实现",
+      "verification": "当前离线及历史浏览器",
+      "gap": "保存合成患者到SQLite，未开放真实患者",
+      "evidence": [
+        {
+          "kind": "code_or_material",
+          "path": "backend/app/application/consultations.py",
+          "exists": true,
+          "sha256": "77469f510ff2fb6e3dbaa79ba02176f7f7c2a735a1bb1ad49f062832a80f94ad"
+        },
+        {
+          "kind": "test_or_report",
+          "path": "backend/tests/test_consultations.py",
+          "exists": true,
+          "sha256": "c39971b8015216d2de47b5f7cab930e24437e814fb6161ac2070ce3e0c8eede6"
+        }
+      ]
+    },
+    {
+      "id": "F18",
+      "phase": "M3",
+      "name": "后台任务、恢复与幂等",
+      "implementation": "已实现",
+      "verification": "当前离线及历史浏览器",
+      "gap": "串行单有效执行器；不可物理取消卡住的供应商调用",
+      "evidence": [
+        {
+          "kind": "code_or_material",
+          "path": "backend/app/application/consultation_queue.py",
+          "exists": true,
+          "sha256": "46426aa529502634679c25262cd025b2168d237d85d947aa86f29a842c2b1b8d"
+        },
+        {
+          "kind": "test_or_report",
+          "path": "backend/tests/test_consultation_queue.py",
+          "exists": true,
+          "sha256": "a0a27ad1db9d965340b3fc21f770eb524d461081cacc198f28a6cc4fb6e0e884"
+        }
+      ]
+    },
+    {
+      "id": "F19",
+      "phase": "M3",
+      "name": "医院账号/机构边界/管理员生产权限",
+      "implementation": "未完成",
+      "verification": "未验收",
+      "gap": "本机工作台权限不能等同医院多机构权限",
+      "evidence": [
+        {
+          "kind": "code_or_material",
+          "path": "backend/app/api/business.py",
+          "exists": true,
+          "sha256": "d21e5f01ecf00e3e0ef6276b403385842e0ee0ef222c7817fe15293bbc0ae7af"
+        }
+      ]
+    },
+    {
+      "id": "F20",
+      "phase": "M3",
+      "name": "生产数据库及数据生命周期",
+      "implementation": "未完成",
+      "verification": "未验收",
+      "gap": "PostgreSQL、删除/保留/导出政策尚需实现或确认",
+      "evidence": [
+        {
+          "kind": "code_or_material",
+          "path": "backend/app/application/business_schema.sql",
+          "exists": true,
+          "sha256": "051a15fc89a89ea07850f521a315bfd2dfece3488ac9bd68b8c8150d38f2032d"
+        }
+      ]
+    },
+    {
+      "id": "F21",
+      "phase": "M4",
+      "name": "评测版本绑定与续跑",
+      "implementation": "已实现",
+      "verification": "当前离线验证",
+      "gap": "磁盘指纹不是服务器内存或模型权重完整证明",
+      "evidence": [
+        {
+          "kind": "code_or_material",
+          "path": "backend/app/retrieval/evaluation_manifest.py",
+          "exists": true,
+          "sha256": "9c87ec674220907534ab729fef902b50c2398588d39fc321551d4633fab53341"
+        },
+        {
+          "kind": "test_or_report",
+          "path": "backend/tests/test_evaluation_manifest.py",
+          "exists": true,
+          "sha256": "699383d1e9d25005bb2b74329ee1ff726339c130a803194aea0acf62bc4d7988"
+        }
+      ]
+    },
+    {
+      "id": "F22",
+      "phase": "M4",
+      "name": "分层评测、原话结果与对照",
+      "implementation": "已实现",
+      "verification": "当前离线及历史运行",
+      "gap": "描述性对照不是单变量因果实验",
+      "evidence": [
+        {
+          "kind": "code_or_material",
+          "path": "backend/app/retrieval/stratified_report.py",
+          "exists": true,
+          "sha256": "72c69a6f2ece1ce4c7a81f19a831104474b2911f454fad405134eef1f85ac94f"
+        },
+        {
+          "kind": "test_or_report",
+          "path": "backend/tests/test_stratified_report.py",
+          "exists": true,
+          "sha256": "a2f355fdca5cbfe956379e05f0def3ec195611276613459efb47423b3890e0fb"
+        }
+      ]
+    },
+    {
+      "id": "F23",
+      "phase": "M4",
+      "name": "逐论断审核包与AI开发复核",
+      "implementation": "已实现",
+      "verification": "材料/哈希核对",
+      "gap": "50条中7条需修订/复核，非医学通过",
+      "evidence": [
+        {
+          "kind": "code_or_material",
+          "path": "evaluations/reviews/development-claim-check-2.6/findings.json",
+          "exists": true,
+          "sha256": "06c981a6fb1b3f67bdd68d0c13c7982491db45f35f22b456fc7f9dd4192e02c1"
+        },
+        {
+          "kind": "test_or_report",
+          "path": "backend/tests/test_claim_review.py",
+          "exists": true,
+          "sha256": "0f9c66066e5c1fe347da6ed9444f4178da66fda5da280f8f2cd92e1cbaac0036"
+        }
+      ]
+    },
+    {
+      "id": "F24",
+      "phase": "M4",
+      "name": "独立标注、冻结集及泛化验收",
+      "implementation": "未完成",
+      "verification": "待医学标注",
+      "gap": "候选36题未完成正式审核冻结，开发题不能替代",
+      "evidence": [
+        {
+          "kind": "code_or_material",
+          "path": "evaluations/datasets/adult-ent-candidate-1.0.json",
+          "exists": true,
+          "sha256": "b06eb3a4930b0c8b73a91d8a2a6a7d197f459a4fd9b0c258d3f578caa67d02b7"
+        }
+      ]
+    },
+    {
+      "id": "F25",
+      "phase": "M4",
+      "name": "修复后统一真实质量回归",
+      "implementation": "未完成",
+      "verification": "仅分批/单例",
+      "gap": "2.4后多次代码变化，不能将历史各次成功拼成当前全通过",
+      "evidence": [
+        {
+          "kind": "code_or_material",
+          "path": "evaluations/reports/stratified-live-2.4/results.json",
+          "exists": true,
+          "sha256": "96b71d567dac2246ac7ebc001d412b2c1dac1597321a5d036641b5d98199d52d"
+        }
+      ]
+    },
+    {
+      "id": "F26",
+      "phase": "M5",
+      "name": "医院部署、并发容量和故障演练",
+      "implementation": "未完成",
+      "verification": "未验收",
+      "gap": "部署边界、容量目标和院方环境未明确；无正式负载验收",
+      "evidence": []
+    },
+    {
+      "id": "F27",
+      "phase": "M5",
+      "name": "备份恢复、运维SLA与监控",
+      "implementation": "部分完成",
+      "verification": "本地任务心跳已测",
+      "gap": "任务租约不是完整生产监控；备份恢复演练、RPO/RTO未完成",
+      "evidence": [
+        {
+          "kind": "code_or_material",
+          "path": "backend/app/application/consultation_queue.py",
+          "exists": true,
+          "sha256": "46426aa529502634679c25262cd025b2168d237d85d947aa86f29a842c2b1b8d"
+        }
+      ]
+    },
+    {
+      "id": "F28",
+      "phase": "M5",
+      "name": "真实患者接入与院方上线验收",
+      "implementation": "未完成",
+      "verification": "待院方确认",
+      "gap": "没有医院正式上线通过结论",
+      "evidence": []
+    }
+  ],
+  "historical_checklists": [
+    {
+      "file": "docs/ENT008证据复核交付清单1.0.md",
+      "sha256": "e1bb5045d14761d2194ca5d8e1de75835345222476add1183f03fbfeb57f38d2",
+      "title": "# ENT-008证据复核交付清单1.0",
+      "carry_forward": "F23/F24/F06：开发证据分析已交付；医学审核、独立标注未完成",
+      "limitations": [
+        "- 同目录 `proposal.json`：证据ID、定位、候选原文、具体相关句及待审核问题；审核者和决定为空。"
+      ]
+    },
+    {
+      "file": "docs/M0交付清单1.0.md",
+      "sha256": "d6e232ca6eac762110ca50f8c9ca9c2020374d290cca80721692c6b3dd57f71b",
+      "title": "# M0 工程基础交付清单 1.0",
+      "carry_forward": "F01；F08：真实链路契约仍需补齐",
+      "limitations": [
+        "- 版本锁定已实现，发行包哈希锁与其他操作系统未验证；本阶段使用源码目录运行。"
+      ]
+    },
+    {
+      "file": "docs/M1资料版本与发布管理交付清单1.0.md",
+      "sha256": "6244afbafedbc897d7951536c7aea71b6a88415902995acadd097f8c9ad63864",
+      "title": "# M1 资料版本与发布管理交付清单 1.0",
+      "carry_forward": "F02–F06：治理已实现，通用上传/医学审核未完成",
+      "limitations": [
+        "本轮实现 M1 的资料管理闭环，以命令行交付。没有执行真实临床审核；现有 12 份资料均登记为 draft（待审核），3 条仅题录资料单独登记且不进入全文检索。",
+        "# 待审核资料仅用于开发检索",
+        "# 默认正式检索；当前尚未审核发布，因此应为空"
+      ]
+    },
+    {
+      "file": "docs/候选审核准备交付清单1.1.md",
+      "sha256": "3443aef2ab690830679b70d19a8c9c59c70bdf833bf9897a8f78db5bff66daee",
+      "title": "# 候选审核准备交付清单1.1",
+      "carry_forward": "F04/F06/F24：工具已实现，正式审核冻结未完成",
+      "limitations": [
+        "本轮完成候选资料和题目的审核准备、客观完整性核对、开发基线记录。未执行候选问题的模型评测，未激活候选资料，未签发医学审核或正式独立测试通过结论。",
+        "- 与旧库没有相同PMCID、DOI或原始文件哈希；同队列、更新版及译文等来源家族关系仍待审核。",
+        "证据题和边界题分开审核：现有 `validate_holdout` 强制证据非空，不能直接用它给6道边界题签发准入。审核决定导入与边界专用准入尚未实现；本轮审核副本不会自动改变资料或标签状态。"
+      ]
+    },
+    {
+      "file": "docs/分层真实运行交付清单2.4.md",
+      "sha256": "3b0a72154d7d51a8b3e8812d17e164b7875a6d36bfab51565d0df0869f6cadc1",
+      "title": "# 分层真实运行交付清单2.4",
+      "carry_forward": "F22/F25：历史18题结果，不是当前代码全验收",
+      "limitations": [
+        "- 6个原知识问题生成答案；6个背景变体生成答案。均通过现有引用校验及同模型语义核验，尚未人工医学审核。",
+        "下一步应建立逐论断人工审核包，核对引用是否真正支持结论、患者说明有无新增结论、输入未知信息是否被补造，再根据具体审核结果优化。尚未满足医院上线验收，也未接入真实患者。"
+      ]
+    },
+    {
+      "file": "docs/分层评测与对照报告交付清单2.3.md",
+      "sha256": "95ae4b0ab54c2c55fdd4dae8d61714b3117687c8c86ee6e8ae34cc8179f3d2f2",
+      "title": "# 分层评测与对照报告交付清单2.3",
+      "carry_forward": "F22/F24：工具完成，独立金标准缺失",
+      "limitations": [
+        "在固定版本条件下运行这些合成样例并审核具体输出，再根据失败分布调整检索或生成。真实医学标注、独立样本与院方标准仍未完成。本轮仅新增评测工具和开发样例，无需重启工作台。"
+      ]
+    },
+    {
+      "file": "docs/咨询后台任务与失败恢复交付清单2.0.md",
+      "sha256": "de67fa78b079565c2fd93c44df63c809bb445668fdeec7d5965949a78dc20787",
+      "title": "# 咨询后台任务与失败恢复交付清单2.0",
+      "carry_forward": "F18：工程实现，非生产容量验收",
+      "limitations": [
+        "- 页面自动查询当前任务，通常每2秒一次；状态查询失败逐步退让，最长间隔15秒。页面隐藏时暂停查询，服务器仍执行；刷新回来可继续查看最近的待完成任务。",
+        "- 上述真实检查证明后台运行与结果拦截路径，不代表回答质量通过；不作为新独立评测或医学验收。4次POST属于原有单次生成/核验/修订流程，不是4次后台任务重跑。"
+      ]
+    },
+    {
+      "file": "docs/回答校验诊断交付清单2.1.md",
+      "sha256": "12696edddb8e1e9593252e8b56a0522ae526824e05bd4b596cb09ada40ee9f5f",
+      "title": "# 回答校验诊断交付清单2.1",
+      "carry_forward": "F09/F10：诊断已补，不能追溯旧失败根因",
+      "limitations": [
+        "- 患者说明阶段的模型传输异常也转为安全拦截结果，不展示未完成答案。",
+        "上轮失败时没有保存具体原因，无法追溯确认其根因。本轮发现并修复的是可复现的流程问题，不能宣称已消除所有模型输出波动。一例已有开发样例通过不代表独立质量评测或医院验收。历史失败记录不补造诊断。"
+      ]
+    },
+    {
+      "file": "docs/审核决定校验与准入交付清单1.2.md",
+      "sha256": "ac05ccacfb0720b740b8f44467b3ac295e6f17f626ebf8cfbd87a36a4868d713",
+      "title": "# 审核决定校验与准入交付清单1.2",
+      "carry_forward": "F04/F24：后端已接，审核结论不自动批准",
+      "limitations": [
+        "继续填写1.1的来源和题目审核副本；不确定内容留待审核，不用为了让程序通过而填默认结论。"
+      ]
+    },
+    {
+      "file": "docs/审核结果与开发资料库衔接交付清单1.5.md",
+      "sha256": "6a56596e01bbc9744ca69864dacc7d94273d35c1c463dc2457a981c84b539af2",
+      "title": "# 审核结果与开发资料库衔接交付清单1.5",
+      "carry_forward": "F03/F05：后续1.6接版本页面",
+      "limitations": [
+        "本轮交付的是后端流程和接口；现有 `/audit` 表单继续用于填写审核意见，尚未增加这些开发版本操作按钮。后续页面可直接接本轮接口。",
+        "本轮新增20项离线测试，使用独立临时审核库、模拟原文和模拟向量，覆盖未审拦截、选择范围、版本绑定、准备不启用、索引失败、启用冲突、审核重开、归档/索引完整性、撤回与历史回滚、缓存检索器切换和API同源检查。完整离线回归331项通过，Ruff检查通过。这些结果验证工程流程，不代表医学有效性或真实问答质量。",
+        "- 实际审核事件0条，实际开发纳入记录0条；真实治理库尚未创建本轮扩展表。",
+        "- 正式快照为空；未执行候选题模型评分，未写入真实审核意见。"
+      ]
+    },
+    {
+      "file": "docs/审核记录存储与接口交付清单1.3.md",
+      "sha256": "28feafb0825fd435c6360bf23e9e3db14b2d72daad5de36fbee8a119239ad946",
+      "title": "# 审核记录存储与接口交付清单1.3",
+      "carry_forward": "F04/F05：后续1.4接页面",
+      "limitations": [
+        "- 原始候选文件、资料库和生成/检索配置未改动。未执行候选题模型评分或更改资料发布状态。",
+        "医学审核仍沿用上线前统一进行的安排。本轮存储中没有伪造任何医学审核人或已审核决定。SQLite事件通过本接口只追加，不代表具备防数据库管理员篡改的审计能力。"
+      ]
+    },
+    {
+      "file": "docs/审核页面交付清单1.4.md",
+      "sha256": "d288dd6f6a12d9b90fd9986746695a5f9de8277cfba08fd1c6cc81e8ea72d685",
+      "title": "# 审核页面交付清单1.4",
+      "carry_forward": "F05：历史浏览器已测，非临床审签",
+      "limitations": [
+        "页面使用“尚未记录”“已存草稿”“已提交声明”，不将提交标为医学审核通过。处理意见为“建议保留”“需要修改”“建议排除”。",
+        "所有确认项默认“尚未核对”，不会自动选择“是”；清除原有确认后也不会继续按已确认处理。审核时间由填写者输入或主动点击“填入当前时间”，不自动代签。"
+      ]
+    },
+    {
+      "file": "docs/开发资料版本管理页面交付清单1.6.md",
+      "sha256": "8520e53576d0f20ff564201fed7644549cd04c3f3958c7f19e5c7af5b14f178e",
+      "title": "# 开发资料版本管理页面交付清单1.6",
+      "carry_forward": "F05：历史浏览器已测",
+      "limitations": [
+        "- 上方审核意见尚未保存时，阻止资料版本操作，保留审核内容。保存或提交意见后清除旧纳入计划，提示主动刷新再核对。"
+      ]
+    },
+    {
+      "file": "docs/引用回答生成阶段交付清单1.0.md",
+      "sha256": "f151b3a67046909e99265d146a471f63fd705ccfa7f7084cd62b998919b22f7a",
+      "title": "# 引用回答生成阶段交付清单1.0",
+      "carry_forward": "F07/F09–F11/F24/F25：历史检索或生成实验；后续2.4、2.6、3.0继续验证，不能沿用为当前质量通过",
+      "limitations": [
+        "当前报告：`evaluations/reports/generation-acceptance-1.0/summary.json`。密钥缺失，完成0/12，引用通过率与语义质量评分均为空；该报告明确记录未执行，不用离线单元测试通过率代替模型效果。",
+        "本机8011服务已配置密钥并实际取得deepseek-flash响应。固定12例中8例已返回：3例回答通过结构与摘录匹配、3例返回证据不足、2例被结构或输入字段校验拦截。其余4例因连接不稳定尚未完成，未宣称完整验收通过。",
+        "完整记录见`evaluations/reports/generation-live-1.0-retry4/验收记录1.0.md`。结构匹配6/8不代表医学正确率，首例人工初查发现疾病与人群证据混用问题。医学充分性仍待审核。"
+      ]
+    },
+    {
+      "file": "docs/引用编号诊断与限次修订交付清单3.0.md",
+      "sha256": "f49aa9d24d3b1702bba6cf76c68a8b3d410fb78fade7b27a411de11c0025585a",
+      "title": "# 引用编号诊断与限次修订交付清单3.0",
+      "carry_forward": "F10/F14：单例修订已测，嗓音待办",
+      "limitations": [
+        "工作台已重启加载修复，使用已有本机加密密钥。医学审核与医院验收仍未完成，单例成功不代表医学准确率。"
+      ]
+    },
+    {
+      "file": "docs/患者原话真实链路验证交付清单2.9.md",
+      "sha256": "1546d4825a5a80a2a05b06e4754eeaee04b9b398a35ebea09967d21290421049",
+      "title": "# 患者原话真实链路验证交付清单2.9",
+      "carry_forward": "F12/F14：3.0耳鸣补测，嗓音仍待定位",
+      "limitations": [
+        "本轮未改动服务回答校验和页面逻辑，无需重启工作台；未改写2.8及此前报告、资料审核或患者业务记录。医学审核和医院验收仍待完成。"
+      ]
+    },
+    {
+      "file": "docs/患者咨询与答案历史交付清单1.9.md",
+      "sha256": "0aa3595c3a1d413ec62f8a468c9287df3fa5199f591e44813be3b44eeb9df5d2",
+      "title": "# 患者咨询与答案历史交付清单1.9",
+      "carry_forward": "F17/F18：后续2.0接后台任务",
+      "limitations": [
+        "1. 先保存患者资料，再明确选择一个资料版本，输入咨询问题。尚未保存的表单内容不能混入咨询，后端只按所选快照读取输入，拒绝客户端自传患者正文。",
+        "5. 证据不足、需要补充信息及验证未通过可以作为完成状态保存，但不展示或保存为可用答案段落；接口/模型运行失败保存失败状态，不保存原始异常、供应商响应或未验证草稿。",
+        "- 这些是真实链路的工程检查；已有样例不是独立质量评测集，3次请求是该次生成/核验流程的请求计数，不代表3条咨询，也不代表医学审核通过。",
+        "- 首期每个问题对应一个绑定快照的独立运行，尚未实现多轮对话上下文、跨机构访问或医院账号。"
+      ]
+    },
+    {
+      "file": "docs/患者查询与证据选择修复交付清单1.0.md",
+      "sha256": "a73e9c3b3d9caec0a3f1f76aa875e352e720aa366707dad14bcf65e1eba43936",
+      "title": "# 患者查询与证据选择修复交付清单1.0",
+      "carry_forward": "F07/F09–F11/F24/F25：历史检索或生成实验；后续2.4、2.6、3.0继续验证，不能沿用为当前质量通过",
+      "limitations": [
+        "原50道开发题（42道有待审核已知锚点、8道边界题），统一模拟35岁及通用主诉；候选36题未使用，原标注未改变。",
+        "证据包新增13题命中，无原命中丢失。指标是开发集已知锚点覆盖，不是医学准确率或独立临床测试。新增别名仅影响036、040，两题重算，其余48道查询内容未变的双路结果复用。5399对批量重排约401秒，不代表线上P95。",
+        "重新配置后的patient-query-live-1.0-retry1仍返回401，0/2取得生成结果。检索验证已通过；这两例新证据下的生成与核验尚未完成，不宣称端到端验收通过。供应商密钥来源与官方地址https://api.deepseek.com是否匹配需进一步确认，未读取用户密钥。启动脚本增加-PromptForKey以强制隐藏重输，避免沿用已有环境变量，并清理输入首尾空白。",
+        "最新补测：用户更新密钥后，两例均取得deepseek-flash真实响应，鉴权已恢复；报告在evaluations/reports/patient-query-live-1.0-retry4/补测记录1.0.md。两例各两处quote超过300字符，被结构校验拦截，未进入语义核验。因此两例本地检索通过，但生成/核验端到端仍未通过。先前401记录是历史尝试状态，不代表当前密钥仍无效。"
+      ]
+    },
+    {
+      "file": "docs/患者自述忠实性修复交付清单2.7.md",
+      "sha256": "ea84445e7a182dbe81ed51a1df86e4ccf265081ffa48e62d638ed5bdbd5a4a18",
+      "title": "# 患者自述忠实性修复交付清单2.7",
+      "carry_forward": "F12：后续2.8结构原话补充，仍有限",
+      "limitations": [
+        "另覆盖英文pitch、音高同义表达、确实提供音调的情况、通用资料描述不误作自述及未声明字段不能补齐。报告位于evaluations/reports/input-fidelity-2.7/pytest.xml。本轮未执行付费生成复测；启动只做供应商鉴权。",
+        "原2.4结果、2.5审核包和2.6问题记录不改写。本轮未处理全部术语或摘要问题，医学审核仍待完成。后续应扩展输入归因结构与独立评测，而不是用一条例子通过替代完整审核。"
+      ]
+    },
+    {
+      "file": "docs/患者资料与授权页面交付清单1.8.md",
+      "sha256": "a07ac532e34f4a7b6035eb0f24578ebff491152a8270cb6fa3e46c2f990dcb80",
+      "title": "# 患者资料与授权页面交付清单1.8",
+      "carry_forward": "F17：后续1.9接咨询闭环",
+      "limitations": [
+        "- 资料尚未保存时，刷新、切换患者、重新载入及退出需要确认是否放弃。页面关闭或导航离开触发浏览器未保存提醒。",
+        "本页只处理虚构成人资料。保存不会调用模型，当前也不自动把已存资料填入问答工作台。医院账号、真实患者绑定、正式存储与上线能力尚未接入。",
+        "实际工作台尚未创建开发账号。页面没有默认密码或自助注册，账号需通过本机工具显式建立。所有测试账号都在隔离的8012模拟服务，不适用于实际8011。"
+      ]
+    },
+    {
+      "file": "docs/检索参数优化实验交付清单1.0.md",
+      "sha256": "78ecb510648832afbf27815bc4b5e1d71f4d600b313b171a6ca44f7bdf664349",
+      "title": "# 检索参数优化实验交付清单1.0",
+      "carry_forward": "F07/F09–F11/F24/F25：历史检索或生成实验；后续2.4、2.6、3.0继续验证，不能沿用为当前质量通过",
+      "limitations": [
+        "采用保守筛选：各主题Hit@10与MRR均不下降，再比较总体Hit@10、MRR及候选深度。在此规则下没有新增配置优于原默认。最高分配置存在取舍，不代表参数完全无用；当前证据不足以建议替换默认。"
+      ]
+    },
+    {
+      "file": "docs/检索评测阶段交付清单1.0.md",
+      "sha256": "8108af19d1ceaa6e1150d5f14dee69fdbbcb5329d604fa831b8cc9a8dac92442",
+      "title": "# 检索评测阶段交付清单1.0",
+      "carry_forward": "F07/F09–F11/F24/F25：历史检索或生成实验；后续2.4、2.6、3.0继续验证，不能沿用为当前质量通过",
+      "limitations": [
+        "- `backend/app/retrieval/`：可替换编码器接口、关键词/向量/混合检索、RRF融合、LangGraph检索工作流、评测驱动。尚未连接生成回答或患者数据库。",
+        "关键词检索已运行50题，其中42题有已知证据：Hit@5为10/42，Hit@10为12/42，MRR约0.1244。这个指标不代表临床准确率，也不是全部相关段落的召回率。",
+        "## 待完成"
+      ]
+    },
+    {
+      "file": "docs/检索错误分析阶段交付清单1.0.md",
+      "sha256": "411fd29dcd97b815c315de203b0d894ab9645632bbbf4aa5d511506836e618f6",
+      "title": "# 检索错误分析阶段交付清单1.0",
+      "carry_forward": "F23/F24/F06：开发证据分析已交付；医学审核、独立标注未完成",
+      "limitations": [
+        "2. 生成逐题原文对照、待审核队列、3个补标候选和审核说明，位置为 `evaluations/reviews/retrieval-audit-1.0/`。",
+        "未修改基线标签，未虚增评分，未批准任何补标候选，未改动医学资料发布状态。医学审核、补齐可靠新来源以及独立测试题采集仍需继续；独立测试集尚未形成。"
+      ]
+    },
+    {
+      "file": "docs/检索验证工作台交付清单1.0.md",
+      "sha256": "7e2fdee17f13e7be549049d3f5f4370576c08df50e271671aea8ac58d3c0b300",
+      "title": "# 检索验证工作台交付清单1.0",
+      "carry_forward": "F07/F09–F11/F24/F25：历史检索或生成实验；后续2.4、2.6、3.0继续验证，不能沿用为当前质量通过",
+      "limitations": [
+        "模型执行串行，重复并发检索返回“当前有检索任务”；这是CPU开发工作台，尚未做医院并发负载与账号权限验收。",
+        "尚未生成患者解释、保存患者档案、接入登录权限或医院业务系统。待审核资料的适用性仍需复核；工作台为这些验证提供入口，不能代替医学审核。"
+      ]
+    },
+    {
+      "file": "docs/生成质量修复交付清单1.0.md",
+      "sha256": "358cf62f862da60e7bfe744877738164f1a860354dad012738c5b7ba0dc5cc64",
+      "title": "# 生成质量修复交付清单1.0",
+      "carry_forward": "F07/F09–F11/F24/F25：历史检索或生成实验；后续2.4、2.6、3.0继续验证，不能沿用为当前质量通过",
+      "limitations": [
+        "## 验证及未完成项"
+      ]
+    },
+    {
+      "file": "docs/短引文与限次格式修订交付清单1.0.md",
+      "sha256": "82b708306e681bf08f1a027c5f2dba1b970a0b38d6d63ec021f1f595ad92f93c",
+      "title": "# 短引文与限次格式修订交付清单1.0",
+      "carry_forward": "F07/F09–F11/F24/F25：历史检索或生成实验；后续2.4、2.6、3.0继续验证，不能沿用为当前质量通过",
+      "limitations": [
+        "最新补测：鉴权恢复，缓存文件已生成。short-quotes-live-1.0-retry1中036结构及模型核验通过，未触发格式修订；002触发一次修订但该调用建连失败，retry2补测仍建连失败，正文均隐藏。模型实际成功修订的分支尚未在线验收；不能称两例全部通过。036展示的7项论断已开发初查，仍发现短quote支持不全，见该报告目录“补测与复核1.0.md”。含凭据预检新增测试后的完整回归190项通过。"
+      ]
+    },
+    {
+      "file": "docs/结构化患者原话与冲突确认交付清单2.8.md",
+      "sha256": "ce89f8c8893d1e2f3397a8f25c53f7ed891880cdd63dd117ffd8bb2e7a50f87c",
+      "title": "# 结构化患者原话与冲突确认交付清单2.8",
+      "carry_forward": "F12/F13：原话展示缺交互回归",
+      "limitations": [
+        "本轮未实施新的临床语义证明器，未解决全部术语或摘要问题，未变更资料审批。原2.4/2.5/2.6历史结果保持。正式医学审核与医院验收仍未完成。"
+      ]
+    },
+    {
+      "file": "docs/编号原文与逐项支持修复交付清单1.0.md",
+      "sha256": "8c8466340a58482309b2b78ae48457a389fc8f7b84054fee008348054a991324",
+      "title": "# 编号原文与逐项支持修复交付清单1.0",
+      "carry_forward": "F07/F09–F11/F24/F25：历史检索或生成实验；后续2.4、2.6、3.0继续验证，不能沿用为当前质量通过",
+      "limitations": [
+        "- 新增服务端quote_catalog。为本次证据正文生成有编号、8至300字符的连续原文片段；超长完整段不截断充数，尝试按完整分号子段提供选项，仍超长则省略；已截断证据末尾的未完成片段不进入目录。规则分段不是医学句法解析，片段可能缺上下文，仍需核验。",
+        "- 评测脚本增补提示/配置哈希、分类状态及错误统计，并禁止不同提示或生成配置间复用结果。本地重载导致会话401时，只重新建立本地会话并重发尚未进入服务的请求；不会将其误报为供应商鉴权错误。",
+        "最终结果：12例均已尝试，11例有工作流响应；3例回答、5例证据不足、2例复合论断规则拦截、1例核验连接失败，另1例生成前连接失败。没有再次出现长引文、摘录不匹配或未知编号错误。3个展示回答共18项论断均完成开发复核，最长引文241字符；仍有必要条件表述、样本人群及来源数值口径待审核，质量验收未全通过。详细记录在evaluations/reports/atomic-quote-selectors-final-1.0-complete/验收与逐条复核1.0.md。",
+        "编号回填只保证引用来自本次原文选项且长度受控，不保证其支持模型的全部结论。同模型第二次调用仍可能漏判，多句拦截也不意味着单句只有一个逻辑断言。仍需要逐条开发复核及上线前医学审核，尚未宣称医院上线验收通过。"
+      ]
+    },
+    {
+      "file": "docs/证据复核与候选测试集交付清单1.0.md",
+      "sha256": "9603eb3f956a8459c3ac2656069cbdc1aa854b3f3a0666afed220f6c3c5d4dfb",
+      "title": "# 证据复核与候选测试集交付清单1.0",
+      "carry_forward": "F23/F24/F06：开发证据分析已交付；医学审核、独立标注未完成",
+      "limitations": [
+        "日期：2026-10-19。状态：工程复核与36题候选集已完成；医学审核、独立测试冻结及激活尚未完成。",
+        "3. `evaluations/datasets/adult-ent-candidate-1.0.md` 及 JSON：30道证据题、6道边界题，六个主题各6题。证据题绑定候选原文哈希、段落定位、字符偏移、来源链接及DOI；每主题来源家族分组。边界题只提供待审核的处理目标，不给通过分数。",
+        "原来的三个补标候选仍保留待审核，不以找回替代段落为理由自动改标签。后续可以在开发集分别试验候选深度和排序，但应先检查问题与证据充分性，且三策略必须使用同一版标签对比。",
+        "不同PMCID不保证底层样本完全独立；仍需检查同队列、多篇报道、译文和更新版本。题目由同一开发助手编写且已在本次工作中查看，不是盲测金标准；每主题只有一个新增来源，方法题及专题题较多，不能代表全部患者咨询。尚未做完整GRADE评定，也未验证边界行为。"
+      ]
+    },
+    {
+      "file": "docs/评测复现与续跑交付清单2.2.md",
+      "sha256": "0290642c7efe62f8f786f5029d0acf745937850417ba4d30a12ff723f948289f",
+      "title": "# 评测复现与续跑交付清单2.2",
+      "carry_forward": "F21：磁盘身份不等同内存/权重证明",
+      "limitations": [
+        "- 发现重复样例编号时拒绝续跑。未完成的报告仍返回非零退出状态，不当作验收通过。"
+      ]
+    },
+    {
+      "file": "docs/账号授权与患者资料后端交付清单1.7.md",
+      "sha256": "decd64023432979171bf4a5885c590af1db8a92089e45481aef157d0fc752816",
+      "title": "# 账号授权与患者资料后端交付清单1.7",
+      "carry_forward": "F16/F19/F20：仅本地合成开发版",
+      "limitations": [
+        "- 历史每页最多20条，返回下一页游标。患者/医生账号列表和授权列表各最多100条，尚未实现更大规模的列表分页。",
+        "- 已通过实际8011接口清单只读确认业务路由加载；实际业务数据库尚未初始化，未创建实际开发账号或患者记录。"
+      ]
+    },
+    {
+      "file": "docs/连续验收与修复交付清单1.0.md",
+      "sha256": "55495dd9a899a38b1562c48e3fbc805e712908ad16a971b0423b38d23d4cb7c5",
+      "title": "# 连续验收与修复交付清单1.0",
+      "carry_forward": "F07/F09–F11/F24/F25：历史检索或生成实验；后续2.4、2.6、3.0继续验证，不能沿用为当前质量通过",
+      "limitations": [
+        "- input_fields目前仅校验字段存在、非空；个别解释同时标注泛化主诉和question，尚未实现逐字段片段归因。"
+      ]
+    },
+    {
+      "file": "docs/逐论断审核包交付清单2.5.md",
+      "sha256": "ad91116b00a350c2422d46b0909875f214eea5c879ac40c018b2dffa99d0bb8b",
+      "title": "# 逐论断审核包交付清单2.5",
+      "carry_forward": "F23/F06：材料完成，人工医学审核未完成",
+      "limitations": [
+        "- 标记引用匹配、来源待审核、患者说明新增结论检查和片段截断等复核事项。标记不是临床缺陷定论。",
+        "3项针对性测试及Ruff通过：保留上下文、待审核状态、哈希随结论变化、重复项和未知引用拒绝、引用不匹配可见、非回答无论断。实际包含50条，引用摘录逐字匹配情况可见JSON；匹配不能证明其医学支持性。"
+      ]
+    },
+    {
+      "file": "docs/逐论断开发复核交付清单2.6.md",
+      "sha256": "68314b6cad9cc66a6cb91fd25f79d2173e06fd834faa6676a4eefa84bbb753c7",
+      "title": "# 逐论断开发复核交付清单2.6",
+      "carry_forward": "F11/F23：7条问题仅部分修复",
+      "limitations": []
+    },
+    {
+      "file": "docs/逐论断证据核验交付清单1.0.md",
+      "sha256": "bbcd6807ce2314757ab8e30d9dfbec31748ecf58e1232146fbfdde4bf4f9fdf2",
+      "title": "# 逐论断证据核验交付清单1.0",
+      "carry_forward": "F07/F09–F11/F24/F25：历史检索或生成实验；后续2.4、2.6、3.0继续验证，不能沿用为当前质量通过",
+      "limitations": []
+    },
+    {
+      "file": "docs/重排序实验交付清单1.0.md",
+      "sha256": "c15ab316c88f6205d9487f206d2403de260439e196252da5c8444e2b6a8c7caf",
+      "title": "# 重排序实验交付清单1.0",
+      "carry_forward": "F07/F09–F11/F24/F25：历史检索或生成实验；后续2.4、2.6、3.0继续验证，不能沿用为当前质量通过",
+      "limitations": [
+        "原候选池包含29/42个已知锚点，重排找到其中28个；另外13个原锚点本就不在候选池，重排无法凭空补入。以上仅为待审核开发标签指标，不是临床准确率或独立泛化结果。8道边界题不计命中率，也没有实现或通过临床拒答评测。",
+        "模型并非医学专项模型，语言支持不代表中文问题与英文医学段落必然匹配可靠；本轮收益仍需在审核标签和独立问题上验证。"
+      ]
+    }
+  ],
+  "source_files_sha256": {
+    "backend/app/__init__.py": "a4a0866616da2bcdb9dd1d1fbb4f1efea39d306550fdd3cae0521b1608b97827",
+    "backend/app/adapters/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "backend/app/adapters/fakes.py": "1f4a148cda9ee4b8181177d32c299ce9c6c0d777605f7719f7ef9a5ce8bbe95f",
+    "backend/app/adapters/metrics.py": "d652fb2312c9fdd01b4bf5273267403051b67410b3a46806229c8b5b38260a1c",
+    "backend/app/api/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "backend/app/api/audit.py": "da640846466b4083547f546403d332deba7cfda6a2fab6fb480c66b2b0fa86c4",
+    "backend/app/api/business.py": "d21e5f01ecf00e3e0ef6276b403385842e0ee0ef222c7817fe15293bbc0ae7af",
+    "backend/app/api/development.py": "594005ef8622e7e1dc365b220b1d8b56a5fd2f493cb6f522237c251096484965",
+    "backend/app/api/main.py": "6f339075438fff889c3557d7cf9bb129521711ceb3872fba490a8b63269c08e8",
+    "backend/app/api/validation.py": "335eb9154b3d91f5a212d4aa4a17dc00ad094bad5b20816a8806ec71c2104d3c",
+    "backend/app/application/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "backend/app/application/business.py": "e81738e1dd0ba713ac148217277c262beb1c79a3ee91d81b88f5af16a45ef669",
+    "backend/app/application/consultation_queue.py": "46426aa529502634679c25262cd025b2168d237d85d947aa86f29a842c2b1b8d",
+    "backend/app/application/consultations.py": "77469f510ff2fb6e3dbaa79ba02176f7f7c2a735a1bb1ad49f062832a80f94ad",
+    "backend/app/application/service.py": "1c2ecc75aa6a4ba766a94eac0d115df9c929e1879af8a5dfdc67c17567567a5a",
+    "backend/app/config.py": "5cff34f19c1a6c2f0496c4aacb75d1d865e9d36d61c2e3f8a79b108775e77867",
+    "backend/app/domain/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "backend/app/domain/errors.py": "bc7dea0480dae8b919f24ce17da8ce6e749e98aa7cfaf0a66bed2cc9417a82e8",
+    "backend/app/domain/models.py": "93e658b252886c3cc3bb6ca2a322de139f7dc6a3c3a8ed3362f1dbfbb76f6c63",
+    "backend/app/domain/ports.py": "c2e3f6ace304be6021a7ec646d9b1ccd3c8040d0442d4ceb135a7a2b91f57596",
+    "backend/app/domain/rules.py": "fa4d807191aee6df85945d65ad65f0ac13f78d70150dcc096adcb587b90231ef",
+    "backend/app/evaluation.py": "366c6e44e8134f4825b9afb20ca41a63b9b0067990b6dd72b2c78f8e46fbccba",
+    "backend/app/graphs/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "backend/app/graphs/workflow.py": "e37d64e59fb2b3f3b654c8354b5ef761fc5e9c4329d7f106ad19c29a88002275",
+    "backend/app/knowledge/__init__.py": "4a668e668f476a25b2fff5a8d44181f3e370ec19798910cce751f8ecff34f5ce",
+    "backend/app/knowledge/cli.py": "56b816d16871dc1ce91e38bb8ba129788f2992b07e3da6b52f13a9bfbbdb13c5",
+    "backend/app/knowledge/collect.py": "82b3a6977d72ae0db24c6bfaacba6455598d26c69156d597d458f7241169a4a2",
+    "backend/app/knowledge/development_registry.py": "083d170a5167893284f0b49aba3ffedf30cfa8b30cc3fac81dcaad001dbc76d2",
+    "backend/app/knowledge/governance.py": "a84e95693dca2fedcb8a14c7f773740aef83060d9661eeb0e1cda13074a1da87",
+    "backend/app/knowledge/library.py": "73c25aebecae88cc44b86f34031a56920ce33464b927e247d30bb5368f6e66a8",
+    "backend/app/knowledge/manage.py": "18d3f114fb513d81b5fa579cef7f1e1f0b1c566554c3c05efd93679db7a60394",
+    "backend/app/knowledge/parsing.py": "cf7cca9c8b09fc713367dd816bb629c87dfffda210d85f732e08b4d3a3f09230",
+    "backend/app/registry.py": "0dc301686395a4077a2c1d92ab054aea564dcc7f1a8da473be9055dfcbd626f0",
+    "backend/app/retrieval/__init__.py": "6d6ecdf592e0d1d367eceda55ca170152259888b1fb9959697ef03f6c78aae48",
+    "backend/app/retrieval/answer_workflow.py": "f7577e99c599782b76961f495648720da4dedd7140f5967136dce5429901748b",
+    "backend/app/retrieval/atomization.py": "1cd9c9d5326821c2daedca9d887c07f92aee9df14ff642bdc0543aeba3ed0d0f",
+    "backend/app/retrieval/audit_service.py": "0a736612b23f2e7246e3371f504000f2baa7e6c4ae9e9f5f439425db8b6ea668",
+    "backend/app/retrieval/benchmark.py": "31ec66a0030b0bcc147a420ab192c29b88ab7eb1eeddba80fa48c4cceeaf866e",
+    "backend/app/retrieval/claim_review.py": "5979a73c3ed00810c3c046f9e0418275cee0d9c25305d2d45a07728df966733e",
+    "backend/app/retrieval/cli.py": "aa115f0f621bc576a7774c5b66bb1626d3239c35a25c7573de0ae4928e565018",
+    "backend/app/retrieval/corpus.py": "234550c892079d6e40a9e0f574d6eaade8ace4d1de1412a17fa20eee5c23fb70",
+    "backend/app/retrieval/dataset.py": "37782fbf793e9770674ed07bc9a672aafdb4f8ee1d20def7621f801ff3910eb0",
+    "backend/app/retrieval/development_service.py": "f0bc53c697387af76fe2c2bc9564159c91a99b793648409bf4ec78acca5bdd65",
+    "backend/app/retrieval/embedding.py": "ee91d57f2764d63ab410bf770c3fe7dba01c2ad7cdb64a46052a4eb8630e1b96",
+    "backend/app/retrieval/engine.py": "9e55f242bfa3c4babf89fe90241bc3d27ec0c9aff2ed688937926c9d834f7552",
+    "backend/app/retrieval/evaluation_manifest.py": "9c87ec674220907534ab729fef902b50c2398588d39fc321551d4633fab53341",
+    "backend/app/retrieval/generation.py": "f61b49b4119a89a1d34537d0fbd1b167b23cb81cbe0d998611e20d311da89c7c",
+    "backend/app/retrieval/input_anchor_report.py": "103f99e998ecd0322ecb0e512b78d067312302aa9f9efdfb0cd7a3358897bc44",
+    "backend/app/retrieval/input_fidelity.py": "1badc30851e4669175f1527771807610f6c869106e2f34aca5ca380190c14282",
+    "backend/app/retrieval/label_sensitivity.py": "3f66bda1adc5f366c5bb6c23d9585b1bd4b94b627a4d36887ac7181b06511055",
+    "backend/app/retrieval/onnx_worker.py": "f5944dacf3f099ace62bf5197d85449a9a59a946813f3c8cead49e57c4bd2f0b",
+    "backend/app/retrieval/patient_queries.py": "eaf35d368460af5b86d44a993e1a9e86991e12c236f878096ff8166144781247",
+    "backend/app/retrieval/patient_summary.py": "2cb1d9a23c247a19ff206502bb9550829912950e2e2311a709ebaa18d393d5aa",
+    "backend/app/retrieval/quote_catalog.py": "e482112fc1bad277b8eab725c72d5664733b9156b73e4b8280508adadd2df6d2",
+    "backend/app/retrieval/quote_repair.py": "97cb22ae11a2b34b44a0c155cc8d5e9493e3e8cf47d4fb7dfa3f38c3474d54a5",
+    "backend/app/retrieval/rerank_worker.py": "c4e386667013ad6332e6bed7cc81797c403a2db384134878c970368624e7e78f",
+    "backend/app/retrieval/reranking.py": "a4b47895a885bf0a6955013e15ad6fcb90ea8c0a49d1add681cd211044b2c548",
+    "backend/app/retrieval/review.py": "2837a6a17a870640d62ace7e60160ce29f7967bc2d582e1165acbfaf0805743e",
+    "backend/app/retrieval/review_archives.py": "72da1f564f2d5d0763e2b7146f30d2456ecbe335bb82c4044424f965218711c8",
+    "backend/app/retrieval/review_import.py": "c43d37178dcac75e1e293b79a66460d97eb6a945b4ba22b6aa8f03bb3622fee8",
+    "backend/app/retrieval/scope_guard.py": "2f93bdfdd0e7f0219e74f6cc7397fff2124838678b3aff51773d833826bdfca7",
+    "backend/app/retrieval/stratified_report.py": "72c69a6f2ece1ce4c7a81f19a831104474b2911f454fad405134eef1f85ac94f",
+    "backend/app/retrieval/validation_service.py": "93874fac707de8e41d6d717a59126f49e1649c7cde6cf50281060094fb7c8f6b",
+    "backend/app/retrieval/verification.py": "b22aafb762ee41f582819fa6ac79f730b79f1e3a669a923ad535eb6efad25a59",
+    "backend/app/retrieval/workflow.py": "550d8b25728313d295c12e61de5a49e3c45d0167afab291629971ebb109b6a1d",
+    "backend/tests/conftest.py": "d0a9bc2a24f47795e135a1f4eb315a447e43c94f2bd14aae9a77cbd4a48b26a6",
+    "backend/tests/consultation_fixture.py": "38aef6ab9a8ced42b114fca5011d9a3a34661a284421ae7a392421d466702c1c",
+    "backend/tests/test_api.py": "1fbdfe3043c9aa5ff608d31cbdd7b1ac9797d10899331867afd078f18e414600",
+    "backend/tests/test_atomization.py": "79e880b0563deeb869495d7d9deaaf1c12f38b453f785120093f2816f960dbd9",
+    "backend/tests/test_audit_backend.py": "ef5349d9bd0d600a47f797bc01e421e10b2c9c8b1371e4fe4599ab65f18a94db",
+    "backend/tests/test_business.py": "9401735518dcb00a07f702f46cadc8e593518d4b0dbba51aa1f2be57993e149f",
+    "backend/tests/test_candidate_dataset.py": "3f740a049babb9db00c200e485915415b30496dc3f1aa0111fb779088a1447f4",
+    "backend/tests/test_claim_review.py": "0f9c66066e5c1fe347da6ed9444f4178da66fda5da280f8f2cd92e1cbaac0036",
+    "backend/tests/test_consultation_queue.py": "a0a27ad1db9d965340b3fc21f770eb524d461081cacc198f28a6cc4fb6e0e884",
+    "backend/tests/test_consultations.py": "c39971b8015216d2de47b5f7cab930e24437e814fb6161ac2070ce3e0c8eede6",
+    "backend/tests/test_contracts.py": "81c54e3ae514166af82a9465d2d6947d8bfbbb9b7d2c8fd44609e57628cc1e4b",
+    "backend/tests/test_development_bridge.py": "dc8f712c1721a683b9bce64a3a7cfb0cbaa07f3d8c46dff1601941a1c1707356",
+    "backend/tests/test_evaluation.py": "cc10a0de767d7c08a306695852262c013696f855215469a25929a67075626454",
+    "backend/tests/test_evaluation_manifest.py": "699383d1e9d25005bb2b74329ee1ff726339c130a803194aea0acf62bc4d7988",
+    "backend/tests/test_generation.py": "bb91655037fb45fc8a26bc78d0dca8ad903fa6930c573383b319682d93f517a6",
+    "backend/tests/test_governance.py": "95cf9d8a37cc7fd31206b5700092a9cf48b0fa48040e3ccbc8b20134473fffdd",
+    "backend/tests/test_graph.py": "35fbe57e975382e9b4411ab5529db05289b0bdf9628cc57f9d5d04362fc3510a",
+    "backend/tests/test_input_anchor_report.py": "9abb15147718867f47e5a240771cb25162e49535da460cc4558d61adf34c5daa",
+    "backend/tests/test_input_anchors.py": "1e98b56df507a1e3c1f0833e32a72ab2b67ac8d8496294c86932226a2925eb2e",
+    "backend/tests/test_input_fidelity.py": "65394bea725a30d1f19a0c0e78952b7af470ceafa596ae38249e9084599f7e71",
+    "backend/tests/test_key_check.py": "c91b8550fe722c50e83ab6397f9abd2716b9db6dfd1b54123f250beb10b64b54",
+    "backend/tests/test_label_sensitivity.py": "baf6c018e29971b22624ac7a279b3d859119558ca9d5da9ebe6f8dc1bb6302ef",
+    "backend/tests/test_library.py": "0a21c7a9cc1ce63f14f2df36ac8f41e8a8dafcc20239e1a2cd8de800be5d735c",
+    "backend/tests/test_patient_queries.py": "cbf192673b02ace8fb46910ffcef4e7fe8eff305ce09ba25ff789be4a837877c",
+    "backend/tests/test_patient_summary.py": "930cf29d78af52d41c325aee5f67bc32b86eca7bbb9315e64da9648e3e69cf3c",
+    "backend/tests/test_provider_pool.py": "0d662abff89f42e7bfd2e4b9dd9b38ae52382147d9b04c73a17f4cf4dcc50c25",
+    "backend/tests/test_quote_catalog.py": "5bc3972af9a8ee474e0672584a39cf2e1dd72ab6707408ed5ddf65dfcc313275",
+    "backend/tests/test_quote_repair.py": "ab678258423e6e8f39504296ded18c98e3c3d466f469a3c4606f5d3be96c5ae4",
+    "backend/tests/test_reranking.py": "7b87ee4f86b041015db3fedbeac9894825722301ae98402e11e57aa199c59841",
+    "backend/tests/test_retrieval.py": "f711352e7b6142dfac22e30f118441d131e3d976dc9b19aad8d33ee2f7b3a0a8",
+    "backend/tests/test_review.py": "a7095bafabf82859817363d94f1aaf21827f4c9696bf281bb27f9c03291b631e",
+    "backend/tests/test_review_import.py": "3c3365ea58e3703daec7f6457e414f1e6f3c25c14b211142b1822afc1b7ca01d",
+    "backend/tests/test_review_import_archive.py": "e25f6056d101e31e8a36b802d0c604ce3b4ab4c55bd254f9125dae5f90473ed3",
+    "backend/tests/test_scope_guard.py": "0226432fa57d81bb82c8e11e5ff71a607858a8400750ae5adc4448c96a86a9ac",
+    "backend/tests/test_stratified_report.py": "a2f355fdca5cbfe956379e05f0def3ec195611276613459efb47423b3890e0fb",
+    "backend/tests/test_validation_workbench.py": "48724121f503f9fc6070f598df907b610b0c714d6edbca1f02c31b64e786d287",
+    "backend/tests/test_verification.py": "72f504e130d382e9f235b76b1a710c50fb2da867a7373f494a7714e8472ef669",
+    "frontend/validation/app.js": "202527a54897ddc731e655d4542d15bb14b731f38618976145f8d3a82c2e6f7b",
+    "frontend/validation/audit.js": "e8fc50a951b1e636a346ab9624d11b2c3b59b55c77d557bfc1db170f478de51a",
+    "frontend/validation/development.js": "1aea2e8bf7e6e1eac1175be5a18899f5b863f074d0d832319529cc0c22a6491b",
+    "frontend/validation/patients.js": "ce3af1d1ec1d8b6b49d9dcef5761123c1e3ab65b0371b278bf799d393b0b32a6",
+    "configs/generation.json": "36e5bdb4e02540ea4c55c7045092f2cdaaca28d9bd13eacaebdbd2413f2ce03a",
+    "configs/retrieval.json": "e34ab0df834d6ab3c0489bd423dfe3207fddac178033bcf4eae9a511e5fb746c",
+    "requirements.lock": "49d1e80b91c9f60512877095e5d421b520b635b98d74848226244fa5ad0dad69"
+  }
+}

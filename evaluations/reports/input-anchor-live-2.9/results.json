@@ -1,0 +1,2392 @@
+[
+  {
+    "case_id": "ANCHOR-NOISE-001",
+    "result": {
+      "retrieval": {
+        "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+        "query_policy": "dual_question_first",
+        "hybrid": [
+          {
+            "end": 444,
+            "id": "1c8edca00f2a9ca8c8e254df",
+            "locator": "main/block[4]",
+            "population_status": "adult_dev_candidate",
+            "section": "Why do we lose our hearing as we get older?",
+            "start": 0,
+            "text": "Many things affect our hearing as we age. For example, changes in the inner ear that can affect hearing are common. Age-related changes in the middle ear and complex changes along the nerve pathways from the ear to the brain can also affect hearing. Long-term exposure to noise and some medical conditions can also play a role. In addition, new research suggests that certain genes make some people more susceptible to hearing loss as they age.",
+            "chunk_id": "1c8edca00f2a9ca8c8e254df",
+            "version_id": "6c17226f-5c23-409e-b71d-2c7e29c607d1",
+            "document_id": "nidcd-presbycusis",
+            "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+            "title": "Age-Related Hearing Loss (Presbycusis)",
+            "source_url": "https://www.nidcd.nih.gov/health/age-related-hearing-loss",
+            "topics": [
+              "hearing_loss"
+            ],
+            "clinical_review": "pending",
+            "production_eligible": false,
+            "score": 0.04918032786885246,
+            "applicability_warning": null
+          },
+          {
+            "end": 567,
+            "id": "cecceef4a0828e4a1a8e6aa8",
+            "locator": "main/block[24]",
+            "population_status": "adult_dev_candidate",
+            "section": "What treatments and devices can help?",
+            "start": 0,
+            "text": "Hearing aids are electronic instruments you wear in or behind your ear. They make sounds louder. For mild to moderate hearing loss, a new category of hearing aids for adults was established in 2022 by the U.S. Food and Drug Administration. These devices may be purchased over the counter (OTC) from retail or online outlets without seeing a health care professional or getting a hearing test. If you have tried an OTC hearing aid without success or have trouble hearing loud sounds, consult a hearing health professional, because your hearing loss may be more severe.",
+            "chunk_id": "cecceef4a0828e4a1a8e6aa8",
+            "document_id": "nidcd-presbycusis",
+            "version_id": "6c17226f-5c23-409e-b71d-2c7e29c607d1",
+            "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+            "title": "Age-Related Hearing Loss (Presbycusis)",
+            "title_zh": "NIH/NIDCD 老年性听力损失患者教育",
+            "source_url": "https://www.nidcd.nih.gov/health/age-related-hearing-loss",
+            "publication_date": "March 17, 2023",
+            "license": "NIDCD-public-domain-unless-noted",
+            "state": "draft",
+            "clinical_review": "pending",
+            "production_eligible": false,
+            "bm25": -3.158135327507009,
+            "score": 0.04838709677419355,
+            "applicability_warning": null
+          },
+          {
+            "end": 58,
+            "id": "6c2ee97634b254388d56aed8",
+            "locator": "body/sec[8]/sec[3]/list[1]/list-item[9]/p[1]",
+            "population_status": "adult_dev_candidate",
+            "section": "5. Appendix / 5.3 Appendix 3: Medical history questions and clinical severity classification",
+            "start": 0,
+            "text": "Does normal environmental noise make your tinnitus louder?",
+            "chunk_id": "6c2ee97634b254388d56aed8",
+            "version_id": "d5005279-1bad-491f-8122-a2d05e558146",
+            "document_id": "tinnitus-s3-2022",
+            "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+            "title": "S3 Guideline: Chronic Tinnitus",
+            "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9581878/",
+            "topics": [
+              "tinnitus"
+            ],
+            "clinical_review": "pending",
+            "production_eligible": false,
+            "score": 0.047619047619047616,
+            "applicability_warning": null
+          },
+          {
+            "end": 44,
+            "id": "3b752d245c0875d969f16587",
+            "locator": "main/block[13]",
+            "population_status": "adult_dev_candidate",
+            "section": "How can I tell if I have a hearing problem?",
+            "start": 0,
+            "text": "Do you feel challenged by a hearing problem?",
+            "chunk_id": "3b752d245c0875d969f16587",
+            "version_id": "6c17226f-5c23-409e-b71d-2c7e29c607d1",
+            "document_id": "nidcd-presbycusis",
+            "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+            "title": "Age-Related Hearing Loss (Presbycusis)",
+            "source_url": "https://www.nidcd.nih.gov/health/age-related-hearing-loss",
+            "topics": [
+              "hearing_loss"
+            ],
+            "clinical_review": "pending",
+            "production_eligible": false,
+            "score": 0.046875,
+            "applicability_warning": null
+          },
+          {
+            "end": 327,
+            "id": "c5359609e7b57507a55582b0",
+            "locator": "body/sec[7]/sec[1]/sec[2]/sec[1]/p[9]",
+            "population_status": "adult_dev_candidate",
+            "section": "4 Therapy of chronic tinnitus / 4.1 Presentation of therapies with recommendations / 4.1.2 Hearing loss interventions / Evidence-based recommendation",
+            "start": 0,
+            "text": "If hearing aids are fitted, this is generally done according to the applicable national hearing aid guidelines. In individual cases of isolated high-frequency hearing loss and high-frequency tinnitus, a hearing aid fitting can be useful even without the presence of hearing loss corresponding to these guidelines [94, 100–103].",
+            "chunk_id": "c5359609e7b57507a55582b0",
+            "document_id": "tinnitus-s3-2022",
+            "version_id": "d5005279-1bad-491f-8122-a2d05e558146",
+            "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+            "title": "S3 Guideline: Chronic Tinnitus",
+            "title_zh": "慢性耳鸣 S3 指南（德国学会，2022）",
+            "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9581878/",
+            "publication_date": "2022-10-13",
+            "license": "CC-BY-4.0",
+            "state": "draft",
+            "clinical_review": "pending",
+            "production_eligible": false,
+            "bm25": -3.116049381900629,
+            "score": 0.046153846153846156,
+            "applicability_warning": null
+          },
+          {
+            "end": 285,
+            "id": "b5eb56631abed6dbef52edd6",
+            "locator": "main/block[22]",
+            "population_status": "adult_dev_candidate",
+            "section": "What should I do if I have trouble hearing?",
+            "start": 0,
+            "text": "An audiologist (pronounced aw-dee-AH-luh-jist) has specialized training in identifying and measuring hearing loss, determining where along the auditory pathway there may be a problem with hearing, and recommending and providing certain hearing loss interventions, such as hearing aids.",
+            "chunk_id": "b5eb56631abed6dbef52edd6",
+            "document_id": "nidcd-presbycusis",
+            "version_id": "6c17226f-5c23-409e-b71d-2c7e29c607d1",
+            "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+            "title": "Age-Related Hearing Loss (Presbycusis)",
+            "title_zh": "NIH/NIDCD 老年性听力损失患者教育",
+            "source_url": "https://www.nidcd.nih.gov/health/age-related-hearing-loss",
+            "publication_date": "March 17, 2023",
+            "license": "NIDCD-public-domain-unless-noted",
+            "state": "draft",
+            "clinical_review": "pending",
+            "production_eligible": false,
+            "bm25": -3.0891571790645336,
+            "score": 0.04500226142017187,
+            "applicability_warning": null
+          },
+          {
+            "end": 562,
+            "id": "61d8c80cb5ed39d0375201d1",
+            "locator": "body/sec[7]/sec[1]/sec[6]/sec[1]/p[6]",
+            "population_status": "adult_dev_candidate",
+            "section": "4 Therapy of chronic tinnitus / 4.1 Presentation of therapies with recommendations / 4.1.6 Pharmacological treatment / Evidence-based recommendation",
+            "start": 0,
+            "text": "Treatment of acute tinnitus follows the treatment recommendations for acute sudden hearing loss. For the treatment of acute hearing loss, corresponding guidelines (AWMF 017/2914 currently being updated [82]; guideline USA [83]) recommend systemic or intratympanic steroid treatment with, however, moderate evidence. Therefore, acute tinnitus with hearing loss or following hearing loss should be treated appropriately. If the tinnitus occurs acutely without measurable hearing loss, the standard cortisone therapy recommended for hearing loss is not recommended.",
+            "chunk_id": "61d8c80cb5ed39d0375201d1",
+            "document_id": "tinnitus-s3-2022",
+            "version_id": "d5005279-1bad-491f-8122-a2d05e558146",
+            "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+            "title": "S3 Guideline: Chronic Tinnitus",
+            "title_zh": "慢性耳鸣 S3 指南（德国学会，2022）",
+            "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9581878/",
+            "publication_date": "2022-10-13",
+            "license": "CC-BY-4.0",
+            "state": "draft",
+            "clinical_review": "pending",
+            "production_eligible": false,
+            "bm25": -3.0801938617984312,
+            "score": 0.04369138959931799,
+            "applicability_warning": null
+          },
+          {
+            "end": 97,
+            "id": "cea4a187bf18ea0daaacb29d",
+            "locator": "main/block[14]",
+            "population_status": "adult_dev_candidate",
+            "section": "How can I tell if I have a hearing problem?",
+            "start": 0,
+            "text": "Do you feel that any difficulty with your hearing limits or hampers your personal or social life?",
+            "chunk_id": "cea4a187bf18ea0daaacb29d",
+            "version_id": "6c17226f-5c23-409e-b71d-2c7e29c607d1",
+            "document_id": "nidcd-presbycusis",
+            "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+            "title": "Age-Related Hearing Loss (Presbycusis)",
+            "source_url": "https://www.nidcd.nih.gov/health/age-related-hearing-loss",
+            "topics": [
+              "hearing_loss"
+            ],
+            "clinical_review": "pending",
+            "production_eligible": false,
+            "score": 0.04330065359477124,
+            "applicability_warning": null
+          },
+          {
+            "end": 249,
+            "id": "5fffbc759ec9ca36c64fccff",
+            "locator": "main/block[32]",
+            "population_status": "adult_dev_candidate",
+            "section": "How can my friends and family help me?",
+            "start": 0,
+            "text": "Be aware of noise around you that can make hearing more difficult. When you go to a restaurant, for example, don't sit near the kitchen or near a band playing music. Ask for seating in a quiet area. Sitting in a booth can help soften or block noise.",
+            "chunk_id": "5fffbc759ec9ca36c64fccff",
+            "version_id": "6c17226f-5c23-409e-b71d-2c7e29c607d1",
+            "document_id": "nidcd-presbycusis",
+            "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+            "title": "Age-Related Hearing Loss (Presbycusis)",
+            "source_url": "https://www.nidcd.nih.gov/health/age-related-hearing-loss",
+            "topics": [
+              "hearing_loss"
+            ],
+            "clinical_review": "pending",
+            "production_eligible": false,
+            "score": 0.04312354312354312,
+            "applicability_warning": null
+          },
+          {
+            "end": 314,
+            "id": "9006046e16d137e4534a1c17",
+            "locator": "body/sec[7]/sec[1]/sec[2]/sec[5]/p[3]",
+            "population_status": "adult_dev_candidate",
+            "section": "4 Therapy of chronic tinnitus / 4.1 Presentation of therapies with recommendations / 4.1.2 Hearing loss interventions / Minority opinion of the DGPPN.",
+            "start": 0,
+            "text": "A meta-analysis presented in 2010 shows weak evidence that auditory therapeutic approaches such as hearing therapy or audiotherapy are effective for hearing losses that can often be detected in tinnitus patients, including unilateral hearing loss as well as for primary central or psychogenic hearing losses [137].",
+            "chunk_id": "9006046e16d137e4534a1c17",
+            "document_id": "tinnitus-s3-2022",
+            "version_id": "d5005279-1bad-491f-8122-a2d05e558146",
+            "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+            "title": "S3 Guideline: Chronic Tinnitus",
+            "title_zh": "慢性耳鸣 S3 指南（德国学会，2022）",
+            "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9581878/",
+            "publication_date": "2022-10-13",
+            "license": "CC-BY-4.0",
+            "state": "draft",
+            "clinical_review": "pending",
+            "production_eligible": false,
+            "bm25": -3.0221547039117422,
+            "score": 0.04245472837022133,
+            "applicability_warning": null
+          }
+        ],
+        "reranked": [
+          {
+            "end": 316,
+            "id": "4c9dbbe24a09ea4995bb8fc3",
+            "locator": "body/sec[8]/sec[2]/p[2]",
+            "population_status": "adult_dev_candidate",
+            "section": "5. Appendix / 5.2 Appendix 2: Counselling for Tinnitus",
+            "start": 0,
+            "text": "In particular, life situations will be addressed in which the tinnitus is perceived as disturbing (work, leisure, rest, falling asleep, tense situations), but also as bearable (background noise, music, the sound of the sea, fountains, machine noise, general distraction, use of hearing aids, drinking alcohol, etc.).",
+            "chunk_id": "4c9dbbe24a09ea4995bb8fc3",
+            "version_id": "d5005279-1bad-491f-8122-a2d05e558146",
+            "document_id": "tinnitus-s3-2022",
+            "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+            "title": "S3 Guideline: Chronic Tinnitus",
+            "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9581878/",
+            "topics": [
+              "tinnitus"
+            ],
+            "clinical_review": "pending",
+            "production_eligible": false,
+            "score": 0.020202020202020204,
+            "rerank_score": -3.62225079536438,
+            "applicability_warning": null
+          },
+          {
+            "end": 897,
+            "id": "1342deea342291969372dd72",
+            "locator": "body/sec[3]/sec[1]/sec[5]/p[2]",
+            "population_status": "adult_dev_candidate",
+            "section": "3. Results / 3.1. Overview of the Evidence for Therapeutic Interventions in Tinnitus / 3.1.5. Auditory Treatments of Tinnitus",
+            "start": 0,
+            "text": "Concerning the improvement of hearing, there is meta-analytic evidence for the efficacy of cochlear implants on tinnitus in patients with unilateral severe hearing loss or deafness [29,43]. Even if data come mainly from observational studies and not from RCTs, the effect size of 1.32 is clinically highly relevant. Concerning hearing aids, the evidence from randomized controlled trials is very limited [32]. A recent meta-analysis has shown that the results strongly depend on the procedure and how hearing aid fitting is performed [44]. The relevant question of whether people with tinnitus who have hearing loss but do not have difficulties communicating may benefit from hearing aids has not been addressed in RCTs. The evidence for sound generators is very limited as well [32]. Moreover, concerns were raised that chronic exposition to white noise may have a harmful effect on hearing [45].",
+            "chunk_id": "1342deea342291969372dd72",
+            "document_id": "tinnitus-evidence-2023",
+            "version_id": "47e957cd-7024-4947-b317-c51de4d88837",
+            "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+            "title": "Tinnitus Guidelines and Their Evidence Base",
+            "title_zh": "耳鸣指南及其证据基础比较（2023）",
+            "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10178961/",
+            "publication_date": "2023-4-24",
+            "license": "CC-BY-4.0",
+            "state": "draft",
+            "clinical_review": "pending",
+            "production_eligible": false,
+            "bm25": -2.8975237813524433,
+            "score": 0.03358302122347066,
+            "rerank_score": -4.9134063720703125,
+            "applicability_warning": null
+          },
+          {
+            "end": 489,
+            "id": "261c131f8ca1dc401361909a",
+            "locator": "main/block[6]",
+            "population_status": "adult_dev_candidate",
+            "section": "Can I prevent age-related hearing loss?",
+            "start": 0,
+            "text": "Scientists don't yet know how to prevent age-related hearing loss, but you can protect yourself from noise-induced hearing loss. Potential sources of damaging noises include loud music, headphones/earbuds used at high volume, construction equipment, fireworks, guns, lawn mowers, leaf blowers, and motorcycles. To help safeguard your hearing as you age, avoid loud noises, reduce the amount of time you're exposed to loud sounds, and protect your ears with earplugs or protective earmuffs.",
+            "chunk_id": "261c131f8ca1dc401361909a",
+            "version_id": "6c17226f-5c23-409e-b71d-2c7e29c607d1",
+            "document_id": "nidcd-presbycusis",
+            "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+            "title": "Age-Related Hearing Loss (Presbycusis)",
+            "source_url": "https://www.nidcd.nih.gov/health/age-related-hearing-loss",
+            "topics": [
+              "hearing_loss"
+            ],
+            "clinical_review": "pending",
+            "production_eligible": false,
+            "score": 0.02127659574468085,
+            "rerank_score": -5.019504070281982,
+            "applicability_warning": null
+          },
+          {
+            "end": 249,
+            "id": "5fffbc759ec9ca36c64fccff",
+            "locator": "main/block[32]",
+            "population_status": "adult_dev_candidate",
+            "section": "How can my friends and family help me?",
+            "start": 0,
+            "text": "Be aware of noise around you that can make hearing more difficult. When you go to a restaurant, for example, don't sit near the kitchen or near a band playing music. Ask for seating in a quiet area. Sitting in a booth can help soften or block noise.",
+            "chunk_id": "5fffbc759ec9ca36c64fccff",
+            "version_id": "6c17226f-5c23-409e-b71d-2c7e29c607d1",
+            "document_id": "nidcd-presbycusis",
+            "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+            "title": "Age-Related Hearing Loss (Presbycusis)",
+            "source_url": "https://www.nidcd.nih.gov/health/age-related-hearing-loss",
+            "topics": [
+              "hearing_loss"
+            ],
+            "clinical_review": "pending",
+            "production_eligible": false,
+            "score": 0.04312354312354312,
+            "rerank_score": -5.1162333488464355,
+            "applicability_warning": null
+          },
+          {
+            "end": 444,
+            "id": "1c8edca00f2a9ca8c8e254df",
+            "locator": "main/block[4]",
+            "population_status": "adult_dev_candidate",
+            "section": "Why do we lose our hearing as we get older?",
+            "start": 0,
+            "text": "Many things affect our hearing as we age. For example, changes in the inner ear that can affect hearing are common. Age-related changes in the middle ear and complex changes along the nerve pathways from the ear to the brain can also affect hearing. Long-term exposure to noise and some medical conditions can also play a role. In addition, new research suggests that certain genes make some people more susceptible to hearing loss as they age.",
+            "chunk_id": "1c8edca00f2a9ca8c8e254df",
+            "version_id": "6c17226f-5c23-409e-b71d-2c7e29c607d1",
+            "document_id": "nidcd-presbycusis",
+            "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+            "title": "Age-Related Hearing Loss (Presbycusis)",
+            "source_url": "https://www.nidcd.nih.gov/health/age-related-hearing-loss",
+            "topics": [
+              "hearing_loss"
+            ],
+            "clinical_review": "pending",
+            "production_eligible": false,
+            "score": 0.04918032786885246,
+            "rerank_score": -5.1605143547058105,
+            "applicability_warning": null
+          },
+          {
+            "end": 942,
+            "id": "2d8582982a469dc23fd9c863",
+            "locator": "body/sec[5]/sec[1]/p[5]",
+            "population_status": "adult_dev_candidate",
+            "section": "2 Pathophysiological aspects and classification of chronic tinnitus / Pathophysiological aspects of tinnitus",
+            "start": 0,
+            "text": "These changes reflect neuroplastic processes that are thought to be triggered by auditory deprivation. Similar to phantom limb pain, there is thought to be increased excitation, plasticity and connectivity along the entire central auditory pathway—as a compensatory response to reduced sensory input [18–21]. However, it has also been shown that abnormal activity can be found in somatosensory afferents [22]. Furthermore, patients with chronic tinnitus show functional changes not only in auditory structures but also in limbic, parietal and frontal areas [23–25]. The functional connectivity between auditory and non-auditory areas appears to be increased in tinnitus patients [26–31]. These tinnitus-associated structural and functional changes in neuronal networks are not static but change with increasing duration of tinnitus [26, 32, 33]. They are also significantly influenced by attentional redirection as tinnitus accentuation [34].",
+            "chunk_id": "2d8582982a469dc23fd9c863",
+            "version_id": "d5005279-1bad-491f-8122-a2d05e558146",
+            "document_id": "tinnitus-s3-2022",
+            "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+            "title": "S3 Guideline: Chronic Tinnitus",
+            "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9581878/",
+            "topics": [
+              "tinnitus"
+            ],
+            "clinical_review": "pending",
+            "production_eligible": false,
+            "score": 0.033605569688043915,
+            "rerank_score": -5.163013458251953,
+            "applicability_warning": null
+          },
+          {
+            "end": 496,
+            "id": "d30f5a4b0f87d2dafaad6ee8",
+            "locator": "main/block[33]",
+            "population_status": "adult_dev_candidate",
+            "section": "What research does NIDCD support on age-related hearing loss?",
+            "start": 0,
+            "text": "NIDCD supports research on the causes of age-related hearing loss, including genes that may make this type of hearing loss more likely. NIDCD-funded scientists are working to understand what happens as we age that interferes with our ability to hear speech in a noisy environment. NIDCD also funds research that explores changes in how the brain processes sound when we lose our hearing. The research to date supports the use of hearing aids to maintain the brain’s sound-processing capabilities.",
+            "chunk_id": "d30f5a4b0f87d2dafaad6ee8",
+            "document_id": "nidcd-presbycusis",
+            "version_id": "6c17226f-5c23-409e-b71d-2c7e29c607d1",
+            "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+            "title": "Age-Related Hearing Loss (Presbycusis)",
+            "title_zh": "NIH/NIDCD 老年性听力损失患者教育",
+            "source_url": "https://www.nidcd.nih.gov/health/age-related-hearing-loss",
+            "publication_date": "March 17, 2023",
+            "license": "NIDCD-public-domain-unless-noted",
+            "state": "draft",
+            "clinical_review": "pending",
+            "production_eligible": false,
+            "bm25": -2.835499007304884,
+            "score": 0.03050917336631622,
+            "rerank_score": -5.503615856170654,
+            "applicability_warning": null
+          },
+          {
+            "end": 53,
+            "id": "9e440ee33778c2ce09a7c979",
+            "locator": "body/sec[8]/sec[3]/list[1]/list-item[6]/p[1]",
+            "population_status": "adult_dev_candidate",
+            "section": "5. Appendix / 5.3 Appendix 3: Medical history questions and clinical severity classification",
+            "start": 0,
+            "text": "Can the tinnitus be masked by ordinary ambient noise?",
+            "chunk_id": "9e440ee33778c2ce09a7c979",
+            "version_id": "d5005279-1bad-491f-8122-a2d05e558146",
+            "document_id": "tinnitus-s3-2022",
+            "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+            "title": "S3 Guideline: Chronic Tinnitus",
+            "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9581878/",
+            "topics": [
+              "tinnitus"
+            ],
+            "clinical_review": "pending",
+            "production_eligible": false,
+            "score": 0.037340320995741895,
+            "rerank_score": -5.638189792633057,
+            "applicability_warning": null
+          },
+          {
+            "end": 1800,
+            "id": "609104821df5d1b8ef5653d2",
+            "locator": "body/sec[4]/sec[2]/p[5]",
+            "population_status": "adult_dev_candidate",
+            "section": "4. Discussion / 4.2. Questionnaires",
+            "start": 0,
+            "text": "The COMOT-15 is highly focused on hearing level with 7/15 items covering this subject. The degree of hearing impairment is used as an objective measurement to indicate the success of surgical treatment. Hearing loss is known to lower QoL in general (10, 48) and hearing aids are known to increase HRQoL (49, 50). This questions whether COMOT-15 is “overweighted” by hearing-related questions or whether this focus is actually needed for this otologic population. A multinational collaborative study demonstrated that patients with a higher degree of hearing loss had a poorer HRQoL, measured with COMQ-12. Moreover, this study argued postoperative hearing improvement is a better indicator of surgical success from a patient's perspective than a dry ear (16). A positive relation between the changes in audiometric data and the measured HRQoL improvement was also demonstrated in other studies (3, 8, 22, 36). Above all, hearing loss is stated to be the dominant symptom experienced by COM patients (51). However, in another study, the degree of hearing loss was argued to not adequately reflect the experienced disease burden of COM, nor the impact of treatment (52). This is supported by the lower changes in HRQoL reported by the hearing-specific questionnaire HHIA (SMD 0.40) compared to disease-specific COMQ-12 (SMD 1.21). Nevertheless, both questionnaires indicated statistically significant HRQoL improvement (42). Furthermore, ZCMEI-21 indicated differences in HRQoL between different types of chronic middle ear diseases, including COM with and without cholesteatoma, independent of hearing level. These findings imply a considerable impact of other symptoms besides hearing loss, such as ear discharge, vertigo, and tinnitus, on HRQoL (40). In line with this, a comparison of HRQoL measure",
+            "chunk_id": "609104821df5d1b8ef5653d2",
+            "document_id": "adult-com-qol-2023",
+            "version_id": "4c3cc2a2-3002-4fc5-bcb2-dc5cb68b2375",
+            "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+            "title": "Health-related quality of life after otologic surgical treatment for chronic otitis media: systematic review",
+            "title_zh": "成人慢性中耳炎手术后生活质量系统综述（2023）",
+            "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10654635/",
+            "publication_date": "2023-11-2",
+            "license": "CC-BY-version-unspecified",
+            "state": "draft",
+            "clinical_review": "pending",
+            "production_eligible": false,
+            "bm25": -2.8566308394372077,
+            "score": 0.031142611683848798,
+            "rerank_score": -5.81803035736084,
+            "applicability_warning": null
+          },
+          {
+            "end": 211,
+            "id": "a98fd4fa177c4c6f78ed0383",
+            "locator": "body/sec[5]/p[1]",
+            "population_status": "adult_dev_candidate",
+            "section": "5. Conclusions",
+            "start": 0,
+            "text": "The hearing loss, and therefore the hearing recovery, was mainly observed in the higher frequencies, from 2 kHz onwards. The presence of vertigo was accompanied by significantly higher pretreatment hearing loss.",
+            "chunk_id": "a98fd4fa177c4c6f78ed0383",
+            "document_id": "adult-aom-inner-ear-2023",
+            "version_id": "2af2c949-d7f3-4591-9877-9308aefd7f49",
+            "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+            "title": "Treatment of Acute Otitis Media with Inner Ear Involvement in Adults",
+            "title_zh": "成人急性中耳炎伴内耳受累回顾性研究（2023）",
+            "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10743793/",
+            "publication_date": "2023-12-09",
+            "license": "CC-BY-4.0",
+            "state": "draft",
+            "clinical_review": "pending",
+            "production_eligible": false,
+            "bm25": -2.9446694891276843,
+            "score": 0.03515731874145007,
+            "rerank_score": -5.963706970214844,
+            "applicability_warning": null
+          }
+        ],
+        "run_id": "9cb9c313-1364-4d36-b5d5-2e131e439745",
+        "elapsed_ms": 5879,
+        "reranker_enabled": true
+      },
+      "answer": {
+        "status": "answered",
+        "professional": [
+          {
+            "text": "资料指出，长期接触噪声可能在年龄相关听力变化中起作用，这属于群体层面的可能相关因素，并非对个人的因果判断。",
+            "supports": [
+              {
+                "evidence_id": "E5",
+                "quote": "Long-term exposure to noise and some medical conditions can also play a role."
+              }
+            ],
+            "input_fields": []
+          },
+          {
+            "text": "资料将噪声暴露与噪声性听力损失区分，并指出年龄相关听力损失目前尚不知如何预防。",
+            "supports": [
+              {
+                "evidence_id": "E3",
+                "quote": "Scientists don't yet know how to prevent age-related hearing loss, but you can protect yourself from noise-induced hearing loss."
+              }
+            ],
+            "input_fields": []
+          }
+        ],
+        "input_explanation": [
+          {
+            "text": "您自述退休前长期处于嘈杂环境，这属于个人经历描述，资料不能据此判断您的听力状况或病因。",
+            "supports": [
+              {
+                "evidence_id": "E5",
+                "quote": "Long-term exposure to noise and some medical conditions can also play a role."
+              }
+            ],
+            "input_fields": [
+              "chief_complaint"
+            ],
+            "input_anchors": [
+              {
+                "field": "chief_complaint",
+                "quote": "合成记录：退休前长期接触噪声",
+                "state": "reported"
+              }
+            ]
+          }
+        ],
+        "patient_summary": [
+          {
+            "text": "长期接触噪声可能对与年龄相关的听力变化有影响，但这只是群体层面的可能因素，不能据此判断个人情况。",
+            "supports": [
+              {
+                "evidence_id": "E5",
+                "quote": "Long-term exposure to noise and some medical conditions can also play a role."
+              }
+            ],
+            "input_fields": []
+          }
+        ],
+        "limitations": [
+          "missing_patient_details",
+          "adult_scope_unverified"
+        ]
+      },
+      "citations": [
+        {
+          "evidence_id": "E1",
+          "version_id": "d5005279-1bad-491f-8122-a2d05e558146",
+          "chunk_id": "4c9dbbe24a09ea4995bb8fc3",
+          "document_id": "tinnitus-s3-2022",
+          "title": "S3 Guideline: Chronic Tinnitus",
+          "locator": "body/sec[8]/sec[2]/p[2]",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9581878/",
+          "text": "In particular, life situations will be addressed in which the tinnitus is perceived as disturbing (work, leisure, rest, falling asleep, tense situations), but also as bearable (background noise, music, the sound of the sea, fountains, machine noise, general distraction, use of hearing aids, drinking alcohol, etc.).",
+          "quote_options": [],
+          "text_truncated": false,
+          "clinical_review": "pending"
+        },
+        {
+          "evidence_id": "E2",
+          "version_id": "47e957cd-7024-4947-b317-c51de4d88837",
+          "chunk_id": "1342deea342291969372dd72",
+          "document_id": "tinnitus-evidence-2023",
+          "title": "Tinnitus Guidelines and Their Evidence Base",
+          "locator": "body/sec[3]/sec[1]/sec[5]/p[2]",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10178961/",
+          "text": "Concerning the improvement of hearing, there is meta-analytic evidence for the efficacy of cochlear implants on tinnitus in patients with unilateral severe hearing loss or deafness [29,43]. Even if data come mainly from observational studies and not from RCTs, the effect size of 1.32 is clinically highly relevant. Concerning hearing aids, the evidence from randomized controlled trials is very limited [32]. A recent meta-analysis has shown that the results strongly depend on the procedure and how hearing aid fitting is performed [44]. The relevant question of whether people with tinnitus who have hearing loss but do not have difficulties communicating may benefit from hearing aids has not been addressed in RCTs. The evidence for sound generators is very limited as well [32]. Moreover, concerns were raised that chronic exposition to white noise may have a harmful effect on hearing [45].",
+          "quote_options": [
+            {
+              "quote_id": "E2.Q1",
+              "text": "Concerning the improvement of hearing, there is meta-analytic evidence for the efficacy of cochlear implants on tinnitus in patients with unilateral severe hearing loss or deafness [29,43]."
+            },
+            {
+              "quote_id": "E2.Q2",
+              "text": "Even if data come mainly from observational studies and not from RCTs, the effect size of 1.32 is clinically highly relevant."
+            },
+            {
+              "quote_id": "E2.Q3",
+              "text": "Concerning hearing aids, the evidence from randomized controlled trials is very limited [32]."
+            },
+            {
+              "quote_id": "E2.Q4",
+              "text": "A recent meta-analysis has shown that the results strongly depend on the procedure and how hearing aid fitting is performed [44]."
+            },
+            {
+              "quote_id": "E2.Q5",
+              "text": "The relevant question of whether people with tinnitus who have hearing loss but do not have difficulties communicating may benefit from hearing aids has not been addressed in RCTs."
+            },
+            {
+              "quote_id": "E2.Q6",
+              "text": "The evidence for sound generators is very limited as well [32]."
+            },
+            {
+              "quote_id": "E2.Q7",
+              "text": "Moreover, concerns were raised that chronic exposition to white noise may have a harmful effect on hearing [45]."
+            }
+          ],
+          "text_truncated": false,
+          "clinical_review": "pending"
+        },
+        {
+          "evidence_id": "E3",
+          "version_id": "6c17226f-5c23-409e-b71d-2c7e29c607d1",
+          "chunk_id": "261c131f8ca1dc401361909a",
+          "document_id": "nidcd-presbycusis",
+          "title": "Age-Related Hearing Loss (Presbycusis)",
+          "locator": "main/block[6]",
+          "source_url": "https://www.nidcd.nih.gov/health/age-related-hearing-loss",
+          "text": "Scientists don't yet know how to prevent age-related hearing loss, but you can protect yourself from noise-induced hearing loss. Potential sources of damaging noises include loud music, headphones/earbuds used at high volume, construction equipment, fireworks, guns, lawn mowers, leaf blowers, and motorcycles. To help safeguard your hearing as you age, avoid loud noises, reduce the amount of time you're exposed to loud sounds, and protect your ears with earplugs or protective earmuffs.",
+          "quote_options": [
+            {
+              "quote_id": "E3.Q1",
+              "text": "Scientists don't yet know how to prevent age-related hearing loss, but you can protect yourself from noise-induced hearing loss."
+            },
+            {
+              "quote_id": "E3.Q2",
+              "text": "Potential sources of damaging noises include loud music, headphones/earbuds used at high volume, construction equipment, fireworks, guns, lawn mowers, leaf blowers, and motorcycles."
+            },
+            {
+              "quote_id": "E3.Q3",
+              "text": "To help safeguard your hearing as you age, avoid loud noises, reduce the amount of time you're exposed to loud sounds, and protect your ears with earplugs or protective earmuffs."
+            }
+          ],
+          "text_truncated": false,
+          "clinical_review": "pending"
+        },
+        {
+          "evidence_id": "E4",
+          "version_id": "6c17226f-5c23-409e-b71d-2c7e29c607d1",
+          "chunk_id": "5fffbc759ec9ca36c64fccff",
+          "document_id": "nidcd-presbycusis",
+          "title": "Age-Related Hearing Loss (Presbycusis)",
+          "locator": "main/block[32]",
+          "source_url": "https://www.nidcd.nih.gov/health/age-related-hearing-loss",
+          "text": "Be aware of noise around you that can make hearing more difficult. When you go to a restaurant, for example, don't sit near the kitchen or near a band playing music. Ask for seating in a quiet area. Sitting in a booth can help soften or block noise.",
+          "quote_options": [
+            {
+              "quote_id": "E4.Q1",
+              "text": "Be aware of noise around you that can make hearing more difficult."
+            },
+            {
+              "quote_id": "E4.Q2",
+              "text": "When you go to a restaurant, for example, don't sit near the kitchen or near a band playing music."
+            },
+            {
+              "quote_id": "E4.Q3",
+              "text": "Ask for seating in a quiet area."
+            },
+            {
+              "quote_id": "E4.Q4",
+              "text": "Sitting in a booth can help soften or block noise."
+            }
+          ],
+          "text_truncated": false,
+          "clinical_review": "pending"
+        },
+        {
+          "evidence_id": "E5",
+          "version_id": "6c17226f-5c23-409e-b71d-2c7e29c607d1",
+          "chunk_id": "1c8edca00f2a9ca8c8e254df",
+          "document_id": "nidcd-presbycusis",
+          "title": "Age-Related Hearing Loss (Presbycusis)",
+          "locator": "main/block[4]",
+          "source_url": "https://www.nidcd.nih.gov/health/age-related-hearing-loss",
+          "text": "Many things affect our hearing as we age. For example, changes in the inner ear that can affect hearing are common. Age-related changes in the middle ear and complex changes along the nerve pathways from the ear to the brain can also affect hearing. Long-term exposure to noise and some medical conditions can also play a role. In addition, new research suggests that certain genes make some people more susceptible to hearing loss as they age.",
+          "quote_options": [
+            {
+              "quote_id": "E5.Q1",
+              "text": "Many things affect our hearing as we age."
+            },
+            {
+              "quote_id": "E5.Q2",
+              "text": "For example, changes in the inner ear that can affect hearing are common."
+            },
+            {
+              "quote_id": "E5.Q3",
+              "text": "Age-related changes in the middle ear and complex changes along the nerve pathways from the ear to the brain can also affect hearing."
+            },
+            {
+              "quote_id": "E5.Q4",
+              "text": "Long-term exposure to noise and some medical conditions can also play a role."
+            },
+            {
+              "quote_id": "E5.Q5",
+              "text": "In addition, new research suggests that certain genes make some people more susceptible to hearing loss as they age."
+            }
+          ],
+          "text_truncated": false,
+          "clinical_review": "pending"
+        },
+        {
+          "evidence_id": "E6",
+          "version_id": "d5005279-1bad-491f-8122-a2d05e558146",
+          "chunk_id": "2d8582982a469dc23fd9c863",
+          "document_id": "tinnitus-s3-2022",
+          "title": "S3 Guideline: Chronic Tinnitus",
+          "locator": "body/sec[5]/sec[1]/p[5]",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9581878/",
+          "text": "These changes reflect neuroplastic processes that are thought to be triggered by auditory deprivation. Similar to phantom limb pain, there is thought to be increased excitation, plasticity and connectivity along the entire central auditory pathway—as a compensatory response to reduced sensory input [18–21]. However, it has also been shown that abnormal activity can be found in somatosensory afferents [22]. Furthermore, patients with chronic tinnitus show functional changes not only in auditory structures but also in limbic, parietal and frontal areas [23–25]. The functional connectivity between auditory and non-auditory areas appears to be increased in tinnitus patients [26–31]. These tinnitus-associated structural and functional changes in neuronal networks are not static but change with increasing duration of tinnitus [26, 32, 33]. They are also significantly influenced by attentional redirection as tinnitus accentuation [34].",
+          "quote_options": [
+            {
+              "quote_id": "E6.Q1",
+              "text": "These changes reflect neuroplastic processes that are thought to be triggered by auditory deprivation."
+            },
+            {
+              "quote_id": "E6.Q2",
+              "text": "Similar to phantom limb pain, there is thought to be increased excitation, plasticity and connectivity along the entire central auditory pathway—as a compensatory response to reduced sensory input [18–21]."
+            },
+            {
+              "quote_id": "E6.Q3",
+              "text": "However, it has also been shown that abnormal activity can be found in somatosensory afferents [22]."
+            },
+            {
+              "quote_id": "E6.Q4",
+              "text": "Furthermore, patients with chronic tinnitus show functional changes not only in auditory structures but also in limbic, parietal and frontal areas [23–25]."
+            },
+            {
+              "quote_id": "E6.Q5",
+              "text": "The functional connectivity between auditory and non-auditory areas appears to be increased in tinnitus patients [26–31]."
+            },
+            {
+              "quote_id": "E6.Q6",
+              "text": "These tinnitus-associated structural and functional changes in neuronal networks are not static but change with increasing duration of tinnitus [26, 32, 33]."
+            },
+            {
+              "quote_id": "E6.Q7",
+              "text": "They are also significantly influenced by attentional redirection as tinnitus accentuation [34]."
+            }
+          ],
+          "text_truncated": false,
+          "clinical_review": "pending"
+        }
+      ],
+      "validation": {
+        "citation_identity_and_quote_match": true,
+        "semantic_support": "model_judgment_only",
+        "clinical_approval": false,
+        "input_check": "field_presence_only",
+        "requested_quote_selectors": 4,
+        "atomization": [],
+        "dose_screen": "heuristic_passed",
+        "quote_repair": {
+          "attempts": 0,
+          "accepted": false
+        },
+        "isolated_patient_summary": true,
+        "summary_metadata": {
+          "requested_model": "deepseek-flash",
+          "returned_model": "deepseek-flash",
+          "usage": {
+            "prompt_tokens": 270,
+            "completion_tokens": 36,
+            "total_tokens": 306
+          },
+          "prompt_sha256": "711f7d2db35209163771647b584cfd22cebbeb490e06fe5777e8e6912fae678d"
+        },
+        "verification": {
+          "claims": [
+            {
+              "claim_id": "professional:0",
+              "supported": true,
+              "reason": "supported",
+              "checked_quote_indexes": [
+                0
+              ]
+            },
+            {
+              "claim_id": "professional:1",
+              "supported": true,
+              "reason": "supported",
+              "checked_quote_indexes": [
+                0
+              ]
+            },
+            {
+              "claim_id": "input_explanation:0",
+              "supported": true,
+              "reason": "supported",
+              "checked_quote_indexes": [
+                0
+              ]
+            },
+            {
+              "claim_id": "patient_summary:0",
+              "supported": true,
+              "reason": "supported",
+              "checked_quote_indexes": [
+                0
+              ]
+            }
+          ],
+          "retained_answer_addresses_question": true,
+          "refusal_assessment": "not_applicable",
+          "refusal_supports": [],
+          "atom_groups": [],
+          "split_group_complete": true,
+          "mixed_group_withheld": false,
+          "format_attempts": 1,
+          "format_errors": []
+        },
+        "verification_metadata": {
+          "requested_model": "deepseek-flash",
+          "returned_model": "deepseek-flash",
+          "usage": {
+            "prompt_tokens": 1537,
+            "completion_tokens": 133,
+            "total_tokens": 1670
+          },
+          "prompt_sha256": "a6f57eb28029aa4cb45ad7a5e6150673492e36976be6c68addd6d5e035097042"
+        },
+        "original_status": "answered"
+      },
+      "model": "deepseek-flash",
+      "provider_base_url": "https://api.deepseek.com",
+      "elapsed_ms": 9911,
+      "synthetic_only": true,
+      "generation_metadata": {
+        "requested_model": "deepseek-flash",
+        "returned_model": "deepseek-flash",
+        "usage": {
+          "prompt_tokens": 4009,
+          "completion_tokens": 284,
+          "total_tokens": 4293
+        },
+        "prompt_sha256": "60a446826ac9d6ed5aad4e834108efa6adefabc29a1025eb2902fad645f36ae6"
+      }
+    },
+    "human_review": "pending"
+  },
+  {
+    "case_id": "ANCHOR-TINNITUS-002",
+    "result": {
+      "retrieval": {
+        "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+        "query_policy": "dual_question_first",
+        "hybrid": [
+          {
+            "end": 58,
+            "id": "6c2ee97634b254388d56aed8",
+            "locator": "body/sec[8]/sec[3]/list[1]/list-item[9]/p[1]",
+            "population_status": "adult_dev_candidate",
+            "section": "5. Appendix / 5.3 Appendix 3: Medical history questions and clinical severity classification",
+            "start": 0,
+            "text": "Does normal environmental noise make your tinnitus louder?",
+            "chunk_id": "6c2ee97634b254388d56aed8",
+            "version_id": "d5005279-1bad-491f-8122-a2d05e558146",
+            "document_id": "tinnitus-s3-2022",
+            "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+            "title": "S3 Guideline: Chronic Tinnitus",
+            "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9581878/",
+            "topics": [
+              "tinnitus"
+            ],
+            "clinical_review": "pending",
+            "production_eligible": false,
+            "score": 0.04865990111891751,
+            "applicability_warning": null
+          },
+          {
+            "end": 449,
+            "id": "b2e23134549a2cdea4235394",
+            "locator": "body/sec[5]/sec[4]/p[1]",
+            "population_status": "adult_dev_candidate",
+            "section": "2 Pathophysiological aspects and classification of chronic tinnitus / 2.3 Possible comorbidities",
+            "start": 0,
+            "text": "Comorbidities (see Table 1) may be pre-existing, independent of tinnitus or tinnitus-induced. Psychological and/or psychosomatic comorbidities are frequently found in connection with tinnitus [48, 49]. In particular, anxiety disorders, depression and sleep disorders are found more frequently in patients with tinnitus. Depression and other psychological disorders are risk factors for the development of tinnitus and can intensify tinnitus [9, 50].",
+            "chunk_id": "b2e23134549a2cdea4235394",
+            "document_id": "tinnitus-s3-2022",
+            "version_id": "d5005279-1bad-491f-8122-a2d05e558146",
+            "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+            "title": "S3 Guideline: Chronic Tinnitus",
+            "title_zh": "慢性耳鸣 S3 指南（德国学会，2022）",
+            "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9581878/",
+            "publication_date": "2022-10-13",
+            "license": "CC-BY-4.0",
+            "state": "draft",
+            "clinical_review": "pending",
+            "production_eligible": false,
+            "bm25": -1.8701572989501518e-06,
+            "score": 0.048651507139079855,
+            "applicability_warning": null
+          },
+          {
+            "end": 374,
+            "id": "abe9d3b01af033917c38f753",
+            "locator": "body/sec[7]/sec[1]/sec[4]/sec[1]/p[6]",
+            "population_status": "adult_dev_candidate",
+            "section": "4 Therapy of chronic tinnitus / 4.1 Presentation of therapies with recommendations / 4.1.4 Tinnitus retraining therapy / Evidence-based recommendation",
+            "start": 0,
+            "text": "TRT is a habituation technique that reduces the auditory, emotional and autonomic impact of the tinnitus noise and thus reduces the stress response to the tinnitus stimulus. It integrates three to five intervention steps including a detailed tinnitus history, auditory distraction from the tinnitus by broadband noise via a tinnitus instrument and psychological counselling.",
+            "chunk_id": "abe9d3b01af033917c38f753",
+            "document_id": "tinnitus-s3-2022",
+            "version_id": "d5005279-1bad-491f-8122-a2d05e558146",
+            "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+            "title": "S3 Guideline: Chronic Tinnitus",
+            "title_zh": "慢性耳鸣 S3 指南（德国学会，2022）",
+            "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9581878/",
+            "publication_date": "2022-10-13",
+            "license": "CC-BY-4.0",
+            "state": "draft",
+            "clinical_review": "pending",
+            "production_eligible": false,
+            "bm25": -1.8468544026145756e-06,
+            "score": 0.047371031746031744,
+            "applicability_warning": null
+          },
+          {
+            "end": 40,
+            "id": "c0c1fe5fa6732adaedba9df6",
+            "locator": "body/sec[8]/sec[3]/list[1]/list-item[13]/p[1]",
+            "population_status": "adult_dev_candidate",
+            "section": "5. Appendix / 5.3 Appendix 3: Medical history questions and clinical severity classification",
+            "start": 0,
+            "text": "Are you particularly sensitive to noise?",
+            "chunk_id": "c0c1fe5fa6732adaedba9df6",
+            "version_id": "d5005279-1bad-491f-8122-a2d05e558146",
+            "document_id": "tinnitus-s3-2022",
+            "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+            "title": "S3 Guideline: Chronic Tinnitus",
+            "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9581878/",
+            "topics": [
+              "tinnitus"
+            ],
+            "clinical_review": "pending",
+            "production_eligible": false,
+            "score": 0.04689826302729529,
+            "applicability_warning": null
+          },
+          {
+            "end": 53,
+            "id": "f814407ac7b99e325af60724",
+            "locator": "body/sec[8]/sec[3]/list[1]/list-item[25]/p[1]",
+            "population_status": "adult_dev_candidate",
+            "section": "5. Appendix / 5.3 Appendix 3: Medical history questions and clinical severity classification",
+            "start": 0,
+            "text": "Do you have any cardiovascular or metabolic diseases?",
+            "chunk_id": "f814407ac7b99e325af60724",
+            "version_id": "d5005279-1bad-491f-8122-a2d05e558146",
+            "document_id": "tinnitus-s3-2022",
+            "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+            "title": "S3 Guideline: Chronic Tinnitus",
+            "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9581878/",
+            "topics": [
+              "tinnitus"
+            ],
+            "clinical_review": "pending",
+            "production_eligible": false,
+            "score": 0.04640151515151515,
+            "applicability_warning": null
+          },
+          {
+            "end": 377,
+            "id": "ebcf8a9adb0d86e5772eb6e7",
+            "locator": "body/sec[7]/sec[1]/sec[6]/sec[1]/p[9]",
+            "population_status": "adult_dev_candidate",
+            "section": "4 Therapy of chronic tinnitus / 4.1 Presentation of therapies with recommendations / 4.1.6 Pharmacological treatment / Evidence-based recommendation",
+            "start": 0,
+            "text": "Therapeutic approaches such as intratympanic steroid treatment do not affect chronic tinnitus [218, 219] if it does not occur in conjunction with acute hearing loss. A temporary increase in tinnitus intensity and tinnitus distress is not considered new-onset tinnitus but should be considered and treated as a fluctuation in the subjective perception of chronic tinnitus [220].",
+            "chunk_id": "ebcf8a9adb0d86e5772eb6e7",
+            "document_id": "tinnitus-s3-2022",
+            "version_id": "d5005279-1bad-491f-8122-a2d05e558146",
+            "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+            "title": "S3 Guideline: Chronic Tinnitus",
+            "title_zh": "慢性耳鸣 S3 指南（德国学会，2022）",
+            "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9581878/",
+            "publication_date": "2022-10-13",
+            "license": "CC-BY-4.0",
+            "state": "draft",
+            "clinical_review": "pending",
+            "production_eligible": false,
+            "bm25": -1.8370490022697843e-06,
+            "score": 0.04568764568764569,
+            "applicability_warning": null
+          },
+          {
+            "end": 1439,
+            "id": "1872c87f8af0d2dc4fcb341f",
+            "locator": "body/sec[1]/sec[1]/p[3]",
+            "population_status": "adult_dev_candidate",
+            "section": "1. Introduction / 1.1. Tinnitus and Evidence-Based Medicine",
+            "start": 0,
+            "text": "In the field of tinnitus, many different treatments have been offered to patients, which also reflects that no treatments are highly effective in all types of patients. With the advent of EBM, clinical researchers aimed to evaluate the effectiveness of various treatments by conducting clinical trials. This is far from trivial in tinnitus for several reasons [8,9,10]. First, tinnitus is a heterogeneous condition. Second, it is mostly purely subjective, which makes outcome measurement challenging, and third, suffering from tinnitus has many facets, which vary from patient to patient. All these aspects have been addressed in the last few years. Research has focused on identifying clinically relevant subtypes of tinnitus (ref). This was only partly successful, as the heterogeneity is better described by dimensional variability of tinnitus characteristics than by distinct categories (e.g., more or less somatic involvement instead of a category “somatic tinnitus”). Concerning the many facets of tinnitus burden, research aimed to identify consensus-based core outcome domains [11]. For outcome measurement, various tools have been developed and tested for psychometric adequacy. These efforts revealed that tinnitus questionnaires and visual analogue scales represent reliable and valid tools for quantifying tinnitus impact. In contrast, psychometric measurements of tinnitus loudness are not helpful for this purpose [12,13,14].",
+            "chunk_id": "1872c87f8af0d2dc4fcb341f",
+            "document_id": "tinnitus-evidence-2023",
+            "version_id": "47e957cd-7024-4947-b317-c51de4d88837",
+            "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+            "title": "Tinnitus Guidelines and Their Evidence Base",
+            "title_zh": "耳鸣指南及其证据基础比较（2023）",
+            "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10178961/",
+            "publication_date": "2023-4-24",
+            "license": "CC-BY-4.0",
+            "state": "draft",
+            "clinical_review": "pending",
+            "production_eligible": false,
+            "bm25": -1.7709323335620478e-06,
+            "score": 0.04477611940298507,
+            "applicability_warning": null
+          },
+          {
+            "end": 754,
+            "id": "f0056eb93ba3a42b598a9968",
+            "locator": "body/sec[7]/sec[1]/sec[10]/sec[1]/p[5]",
+            "population_status": "adult_dev_candidate",
+            "section": "4 Therapy of chronic tinnitus / 4.1 Presentation of therapies with recommendations / 4.1.10 Nutritional supplements / Evidence-based recommendation",
+            "start": 0,
+            "text": "Several nutritional supplements have been used for tinnitus, including lipoflavonoids, garlic, homeopathy, traditional Chinese–Korean herbal medicine, honeybee larvae, and various vitamins and minerals. Evidence of the efficacy of these therapies for tinnitus is not available [232]. A more recent review also finds that there is no evidence of dietary supplements on tinnitus. In particular, a reduction of salt or caffeine had neither a positive nor a negative effect on tinnitus perception [303]. In a review by Wegner et al. [226], five studies with approx. 300 tinnitus patients each were examined concerning betahistine administration versus placebo (vitamin B12), and no effect (−0.16) on tinnitus loudness and impairment was found after 12 weeks.",
+            "chunk_id": "f0056eb93ba3a42b598a9968",
+            "document_id": "tinnitus-s3-2022",
+            "version_id": "d5005279-1bad-491f-8122-a2d05e558146",
+            "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+            "title": "S3 Guideline: Chronic Tinnitus",
+            "title_zh": "慢性耳鸣 S3 指南（德国学会，2022）",
+            "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9581878/",
+            "publication_date": "2022-10-13",
+            "license": "CC-BY-4.0",
+            "state": "draft",
+            "clinical_review": "pending",
+            "production_eligible": false,
+            "bm25": -1.7387870937139794e-06,
+            "score": 0.043064182194616975,
+            "applicability_warning": null
+          },
+          {
+            "end": 617,
+            "id": "68b15e11210dc541755c17cb",
+            "locator": "body/sec[5]/sec[4]/p[4]",
+            "population_status": "adult_dev_candidate",
+            "section": "2 Pathophysiological aspects and classification of chronic tinnitus / 2.3 Possible comorbidities",
+            "start": 0,
+            "text": "The prevalence of tinnitus is significantly higher in patients with pain and dysfunctions of the masticatory muscles, temporomandibular joints and teeth than in patients without craniomandibular dysfunctions (CMD). There seems to be a bidirectional relationship between tinnitus and CMD so that they are assessed as respective comorbidities. Tinnitus associated with CMD and/or craniocervical symptoms is also called ‘somatosensory tinnitus’ and is classified as a subtype of subjective tinnitus because there is usually normal hearing, the average age of the patients is lower and women are over-represented [58–62].",
+            "chunk_id": "68b15e11210dc541755c17cb",
+            "document_id": "tinnitus-s3-2022",
+            "version_id": "d5005279-1bad-491f-8122-a2d05e558146",
+            "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+            "title": "S3 Guideline: Chronic Tinnitus",
+            "title_zh": "慢性耳鸣 S3 指南（德国学会，2022）",
+            "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9581878/",
+            "publication_date": "2022-10-13",
+            "license": "CC-BY-4.0",
+            "state": "draft",
+            "clinical_review": "pending",
+            "production_eligible": false,
+            "bm25": -1.7356822397937033e-06,
+            "score": 0.04225352112676056,
+            "applicability_warning": null
+          },
+          {
+            "end": 73,
+            "id": "fd0bb5208e95a582d7ed9350",
+            "locator": "body/sec[8]/sec[3]/list[1]/list-item[16]/p[1]",
+            "population_status": "adult_dev_candidate",
+            "section": "5. Appendix / 5.3 Appendix 3: Medical history questions and clinical severity classification",
+            "start": 0,
+            "text": "Has the tinnitus occurred together with hearing loss and/or ear pressure?",
+            "chunk_id": "fd0bb5208e95a582d7ed9350",
+            "version_id": "d5005279-1bad-491f-8122-a2d05e558146",
+            "document_id": "tinnitus-s3-2022",
+            "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+            "title": "S3 Guideline: Chronic Tinnitus",
+            "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9581878/",
+            "topics": [
+              "tinnitus"
+            ],
+            "clinical_review": "pending",
+            "production_eligible": false,
+            "score": 0.04206349206349206,
+            "applicability_warning": null
+          }
+        ],
+        "reranked": [
+          {
+            "end": 316,
+            "id": "4c9dbbe24a09ea4995bb8fc3",
+            "locator": "body/sec[8]/sec[2]/p[2]",
+            "population_status": "adult_dev_candidate",
+            "section": "5. Appendix / 5.2 Appendix 2: Counselling for Tinnitus",
+            "start": 0,
+            "text": "In particular, life situations will be addressed in which the tinnitus is perceived as disturbing (work, leisure, rest, falling asleep, tense situations), but also as bearable (background noise, music, the sound of the sea, fountains, machine noise, general distraction, use of hearing aids, drinking alcohol, etc.).",
+            "chunk_id": "4c9dbbe24a09ea4995bb8fc3",
+            "version_id": "d5005279-1bad-491f-8122-a2d05e558146",
+            "document_id": "tinnitus-s3-2022",
+            "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+            "title": "S3 Guideline: Chronic Tinnitus",
+            "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9581878/",
+            "topics": [
+              "tinnitus"
+            ],
+            "clinical_review": "pending",
+            "production_eligible": false,
+            "score": 0.03961584633853541,
+            "rerank_score": -2.600499391555786,
+            "applicability_warning": null
+          },
+          {
+            "end": 314,
+            "id": "a55c53849e18c8d7ec98ecbb",
+            "locator": "body/sec[5]/sec[5]/p[5]",
+            "population_status": "adult_dev_candidate",
+            "section": "2 Pathophysiological aspects and classification of chronic tinnitus / 2.4 Severity",
+            "start": 0,
+            "text": "Decompensated tinnitus: The ringing in the ears has a massive impact on all areas of life and leads to the development or aggravation of comorbidity (see Table 1; e.g. anxiety, sleep disorders, concentration disorders, depression). There is a high level of suffering. The quality of life is significantly impaired.",
+            "chunk_id": "a55c53849e18c8d7ec98ecbb",
+            "version_id": "d5005279-1bad-491f-8122-a2d05e558146",
+            "document_id": "tinnitus-s3-2022",
+            "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+            "title": "S3 Guideline: Chronic Tinnitus",
+            "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9581878/",
+            "topics": [
+              "tinnitus"
+            ],
+            "clinical_review": "pending",
+            "production_eligible": false,
+            "score": 0.028985507246376812,
+            "rerank_score": -4.123765468597412,
+            "applicability_warning": null
+          },
+          {
+            "end": 837,
+            "id": "06f9958d0af47fe51960ac6b",
+            "locator": "body/sec[4]/sec[2]/p[4]",
+            "population_status": "adult_dev_candidate",
+            "section": "4. Discussion / 4.2. Questionnaires",
+            "start": 0,
+            "text": "As was mentioned before, the CES does not cover psychological and emotional aspects of the perceived impact of COM on the HRQoL while these aspects are an important part of the HRQoL construct. Patients with more prominent depressive symptoms and mood disturbances have significantly higher COMOT-15 and ZCMEI-21 scores and significantly lower SF-36 scores (31), all indicating lower HRQoL. Moreover, hearing loss and the corresponding communication impairment are associated with depression, social withdrawal, and anxiety and thereby limit a patient's HRQoL (47). This incomplete coverage of the HRQoL construct by the CES might explain the high percentages of change and large SMDs reported with CES. One could logically expect a decrease in HRQoL improvement measured by the CES once psychological and emotional aspects are included.",
+            "chunk_id": "06f9958d0af47fe51960ac6b",
+            "version_id": "4c3cc2a2-3002-4fc5-bcb2-dc5cb68b2375",
+            "document_id": "adult-com-qol-2023",
+            "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+            "title": "Health-related quality of life after otologic surgical treatment for chronic otitis media: systematic review",
+            "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10654635/",
+            "topics": [
+              "otitis_media",
+              "hearing_loss"
+            ],
+            "clinical_review": "pending",
+            "production_eligible": false,
+            "score": 0.021505376344086023,
+            "rerank_score": -4.342703342437744,
+            "applicability_warning": null
+          },
+          {
+            "end": 1074,
+            "id": "18fadfbeb49989d392cbb5c5",
+            "locator": "body/sec[7]/sec[1]/sec[5]/sec[2]/p[6]",
+            "population_status": "adult_dev_candidate",
+            "section": "4 Therapy of chronic tinnitus / 4.1 Presentation of therapies with recommendations / 4.1.5 Music therapy approaches and sound therapy / Evidence-based recommendation",
+            "start": 0,
+            "text": "These initial study results prompted a large-scale placebo-controlled trial of TMNMT. Stein et al. [197] published these results, in which 100 patients were randomly treated with a verum alienation (i.e. analogous to the previously determined tinnitus frequency) and 100 patients with a placebo alienation. The primary outcome measure (Tinnitus Questionnaire) did not show the predicted effect of treatment, but patients in the verum group reported a reduction in perceived loudness using a visual analogue scale (this effect was found only in the no-dropout analysis—F [1, 81] = 4.075; p = 0.047— and not in an intention-to-treat analysis). In a Chinese study, 43 patients with chronic idiopathic tinnitus were assigned to either a group receiving TMNMT or masking treatment (sound masking). The authors reported significant or highly significant changes in perceived loudness (visual analogue scale) and the Tinnitus Handicap Inventory ([198]; the publication is available in Chinese; only the abstract is available in English). Methodological aspects remain very unclear.",
+            "chunk_id": "18fadfbeb49989d392cbb5c5",
+            "version_id": "d5005279-1bad-491f-8122-a2d05e558146",
+            "document_id": "tinnitus-s3-2022",
+            "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+            "title": "S3 Guideline: Chronic Tinnitus",
+            "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9581878/",
+            "topics": [
+              "tinnitus"
+            ],
+            "clinical_review": "pending",
+            "production_eligible": false,
+            "score": 0.010101010101010102,
+            "rerank_score": -5.916090488433838,
+            "applicability_warning": null
+          },
+          {
+            "end": 1625,
+            "id": "8dfb8262e3c4d9ae8a776deb",
+            "locator": "body/sec[3]/sec[2]/p[1]",
+            "population_status": "adult_dev_candidate",
+            "section": "3. Results / 3.2. Study characteristics",
+            "start": 0,
+            "text": "Table 1 represents a detailed overview of the relevant characteristics of the included studies. The studies are clustered based on the HRQoL questionnaire used. All studies were prospective observational studies with pre- and postoperative measurements, published between 2000 and 2023. Information about HRQoL scores before and after otologic surgical treatment was gathered with the use of seven different validated HRQoL questionnaires. The sample sizes per study ranged between 26 (44) and 167 (43) patients, resulting in a total of 1,329 included patients with a mean age of 44.74 years. HRQoL assessment was conducted with at least one disease-specific HRQoL questionnaire in each study. One questionnaire for general chronic middle ear diseases (CES) was used and three COM-specific questionnaires (COMQ-12, ZCMEI-21, and COMOT-15). CES (3, 35–38) and COMOT-15 (8, 31–34) were used in five different studies, and the ZCMEI-21 (31, 39, 40) and COMQ-12 (42–44) in three studies. Furthermore, three general HRQoL questionnaires were used: SF-36 (8, 31, 43), SF-12V2 (38), and Euro-Qol-5D-5L (42). A hearing-specific QoL questionnaire (HHIA) was used once (42). Table 2 provides an overview of the content of each disease-specific HRQoL questionnaire. All questionnaires contain questions on classic ear symptoms, use of medical resources, and impact on daily life activities, except for COMOT-15 which does not encompass the latter. COMOT-15, COMQ-12, and ZCMEI-21 include psychological aspects as well. However, besides covering different domains of HRQoL, each questionnaire has its own interpretation of these domains.",
+            "chunk_id": "8dfb8262e3c4d9ae8a776deb",
+            "version_id": "4c3cc2a2-3002-4fc5-bcb2-dc5cb68b2375",
+            "document_id": "adult-com-qol-2023",
+            "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+            "title": "Health-related quality of life after otologic surgical treatment for chronic otitis media: systematic review",
+            "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10654635/",
+            "topics": [
+              "otitis_media",
+              "hearing_loss"
+            ],
+            "clinical_review": "pending",
+            "production_eligible": false,
+            "score": 0.010752688172043012,
+            "rerank_score": -5.97011661529541,
+            "applicability_warning": null
+          },
+          {
+            "end": 1439,
+            "id": "1872c87f8af0d2dc4fcb341f",
+            "locator": "body/sec[1]/sec[1]/p[3]",
+            "population_status": "adult_dev_candidate",
+            "section": "1. Introduction / 1.1. Tinnitus and Evidence-Based Medicine",
+            "start": 0,
+            "text": "In the field of tinnitus, many different treatments have been offered to patients, which also reflects that no treatments are highly effective in all types of patients. With the advent of EBM, clinical researchers aimed to evaluate the effectiveness of various treatments by conducting clinical trials. This is far from trivial in tinnitus for several reasons [8,9,10]. First, tinnitus is a heterogeneous condition. Second, it is mostly purely subjective, which makes outcome measurement challenging, and third, suffering from tinnitus has many facets, which vary from patient to patient. All these aspects have been addressed in the last few years. Research has focused on identifying clinically relevant subtypes of tinnitus (ref). This was only partly successful, as the heterogeneity is better described by dimensional variability of tinnitus characteristics than by distinct categories (e.g., more or less somatic involvement instead of a category “somatic tinnitus”). Concerning the many facets of tinnitus burden, research aimed to identify consensus-based core outcome domains [11]. For outcome measurement, various tools have been developed and tested for psychometric adequacy. These efforts revealed that tinnitus questionnaires and visual analogue scales represent reliable and valid tools for quantifying tinnitus impact. In contrast, psychometric measurements of tinnitus loudness are not helpful for this purpose [12,13,14].",
+            "chunk_id": "1872c87f8af0d2dc4fcb341f",
+            "document_id": "tinnitus-evidence-2023",
+            "version_id": "47e957cd-7024-4947-b317-c51de4d88837",
+            "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+            "title": "Tinnitus Guidelines and Their Evidence Base",
+            "title_zh": "耳鸣指南及其证据基础比较（2023）",
+            "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10178961/",
+            "publication_date": "2023-4-24",
+            "license": "CC-BY-4.0",
+            "state": "draft",
+            "clinical_review": "pending",
+            "production_eligible": false,
+            "bm25": -1.7709323335620478e-06,
+            "score": 0.04477611940298507,
+            "rerank_score": -6.059006214141846,
+            "applicability_warning": null
+          },
+          {
+            "end": 942,
+            "id": "2d8582982a469dc23fd9c863",
+            "locator": "body/sec[5]/sec[1]/p[5]",
+            "population_status": "adult_dev_candidate",
+            "section": "2 Pathophysiological aspects and classification of chronic tinnitus / Pathophysiological aspects of tinnitus",
+            "start": 0,
+            "text": "These changes reflect neuroplastic processes that are thought to be triggered by auditory deprivation. Similar to phantom limb pain, there is thought to be increased excitation, plasticity and connectivity along the entire central auditory pathway—as a compensatory response to reduced sensory input [18–21]. However, it has also been shown that abnormal activity can be found in somatosensory afferents [22]. Furthermore, patients with chronic tinnitus show functional changes not only in auditory structures but also in limbic, parietal and frontal areas [23–25]. The functional connectivity between auditory and non-auditory areas appears to be increased in tinnitus patients [26–31]. These tinnitus-associated structural and functional changes in neuronal networks are not static but change with increasing duration of tinnitus [26, 32, 33]. They are also significantly influenced by attentional redirection as tinnitus accentuation [34].",
+            "chunk_id": "2d8582982a469dc23fd9c863",
+            "version_id": "d5005279-1bad-491f-8122-a2d05e558146",
+            "document_id": "tinnitus-s3-2022",
+            "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+            "title": "S3 Guideline: Chronic Tinnitus",
+            "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9581878/",
+            "topics": [
+              "tinnitus"
+            ],
+            "clinical_review": "pending",
+            "production_eligible": false,
+            "score": 0.038571428571428576,
+            "rerank_score": -6.3125715255737305,
+            "applicability_warning": null
+          },
+          {
+            "end": 751,
+            "id": "d1939fd83df9ad5a983e1fcd",
+            "locator": "body/sec[7]/sec[1]/sec[4]/sec[1]/p[7]",
+            "population_status": "adult_dev_candidate",
+            "section": "4 Therapy of chronic tinnitus / 4.1 Presentation of therapies with recommendations / 4.1.4 Tinnitus retraining therapy / Evidence-based recommendation",
+            "start": 0,
+            "text": "Furthermore, TRT is a specific implementation of general tinnitus habituation therapy that uses direct counselling to reduce negative tinnitus-related reactions and the strength of the tinnitus signal [176]. As a result of tinnitus, reactions of stress, anxiety, panic attacks or loss of quality of life (fight, flight or freeze) occur. Without negative association, the fight–flight response to the tinnitus is suppressed. The main goal of TRT is to achieve habituation to the tinnitus by retraining auditory, limbic and autonomic processing in the brain [176]. This means that due to the high plasticity of the central nervous system, it is possible to reduce the response to repeated stimulation with neutral sound stimuli and by counselling [177].",
+            "chunk_id": "d1939fd83df9ad5a983e1fcd",
+            "document_id": "tinnitus-s3-2022",
+            "version_id": "d5005279-1bad-491f-8122-a2d05e558146",
+            "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+            "title": "S3 Guideline: Chronic Tinnitus",
+            "title_zh": "慢性耳鸣 S3 指南（德国学会，2022）",
+            "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9581878/",
+            "publication_date": "2022-10-13",
+            "license": "CC-BY-4.0",
+            "state": "draft",
+            "clinical_review": "pending",
+            "production_eligible": false,
+            "bm25": -1.7290703356640983e-06,
+            "score": 0.039649122807017545,
+            "rerank_score": -6.366765022277832,
+            "applicability_warning": null
+          },
+          {
+            "end": 156,
+            "id": "fab8483d39551c45ec7422cb",
+            "locator": "body/sec[8]/sec[3]/list[2]/list-item[3]/p[1]",
+            "population_status": "adult_dev_candidate",
+            "section": "5. Appendix / 5.3 Appendix 3: Medical history questions and clinical severity classification",
+            "start": 0,
+            "text": "Grade 3: Tinnitus leads to permanent impairment in the private and professional sphere. Disturbances occur in the emotional, cognitive and physical spheres.",
+            "chunk_id": "fab8483d39551c45ec7422cb",
+            "version_id": "d5005279-1bad-491f-8122-a2d05e558146",
+            "document_id": "tinnitus-s3-2022",
+            "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+            "title": "S3 Guideline: Chronic Tinnitus",
+            "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9581878/",
+            "topics": [
+              "tinnitus"
+            ],
+            "clinical_review": "pending",
+            "production_eligible": false,
+            "score": 0.020833333333333332,
+            "rerank_score": -6.414649486541748,
+            "applicability_warning": null
+          },
+          {
+            "end": 746,
+            "id": "3f98fbe739ba94f89fc18178",
+            "locator": "body/sec[7]/sec[1]/sec[2]/sec[3]/p[5]",
+            "population_status": "adult_dev_candidate",
+            "section": "4 Therapy of chronic tinnitus / 4.1 Presentation of therapies with recommendations / 4.1.2 Hearing loss interventions / Evidence-based recommendation",
+            "start": 0,
+            "text": "Patients with profound hearing loss or deafness may be indicated for a CI to improve their hearing. If these patients had tinnitus, an improvement is retrospectively observed more often than not [111–117]. This applies to unilateral CI implantation for homolateral [118], but also for contralateral [118] and bilateral [116, 119, 120] tinnitus. A second implant can further improve the quality of life, also concerning tinnitus [121]. Unilaterally deaf patients with very distressing tinnitus who were fitted with a CI also showed comparable results pro- and retrospectively [122–124]. The effect on the phantom sound was also independent of the tinnitus quality. Narrowband noise, tonal or even polyphonic tinnitus behaved in the same way [118].",
+            "chunk_id": "3f98fbe739ba94f89fc18178",
+            "document_id": "tinnitus-s3-2022",
+            "version_id": "d5005279-1bad-491f-8122-a2d05e558146",
+            "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+            "title": "S3 Guideline: Chronic Tinnitus",
+            "title_zh": "慢性耳鸣 S3 指南（德国学会，2022）",
+            "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9581878/",
+            "publication_date": "2022-10-13",
+            "license": "CC-BY-4.0",
+            "state": "draft",
+            "clinical_review": "pending",
+            "production_eligible": false,
+            "bm25": -1.7339151017610388e-06,
+            "score": 0.0410958904109589,
+            "rerank_score": -6.472919940948486,
+            "applicability_warning": null
+          }
+        ],
+        "run_id": "536140ea-b6bf-4de6-adfe-6408f964f33d",
+        "elapsed_ms": 6547,
+        "reranker_enabled": true
+      },
+      "answer": {
+        "status": "validation_failed",
+        "professional": [],
+        "input_explanation": [],
+        "patient_summary": [],
+        "limitations": []
+      },
+      "citations": [
+        {
+          "evidence_id": "E1",
+          "version_id": "d5005279-1bad-491f-8122-a2d05e558146",
+          "chunk_id": "4c9dbbe24a09ea4995bb8fc3",
+          "document_id": "tinnitus-s3-2022",
+          "title": "S3 Guideline: Chronic Tinnitus",
+          "locator": "body/sec[8]/sec[2]/p[2]",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9581878/",
+          "text": "In particular, life situations will be addressed in which the tinnitus is perceived as disturbing (work, leisure, rest, falling asleep, tense situations), but also as bearable (background noise, music, the sound of the sea, fountains, machine noise, general distraction, use of hearing aids, drinking alcohol, etc.).",
+          "quote_options": [],
+          "text_truncated": false,
+          "clinical_review": "pending"
+        },
+        {
+          "evidence_id": "E2",
+          "version_id": "d5005279-1bad-491f-8122-a2d05e558146",
+          "chunk_id": "a55c53849e18c8d7ec98ecbb",
+          "document_id": "tinnitus-s3-2022",
+          "title": "S3 Guideline: Chronic Tinnitus",
+          "locator": "body/sec[5]/sec[5]/p[5]",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9581878/",
+          "text": "Decompensated tinnitus: The ringing in the ears has a massive impact on all areas of life and leads to the development or aggravation of comorbidity (see Table 1; e.g. anxiety, sleep disorders, concentration disorders, depression). There is a high level of suffering. The quality of life is significantly impaired.",
+          "quote_options": [
+            {
+              "quote_id": "E2.Q1",
+              "text": "Decompensated tinnitus: The ringing in the ears has a massive impact on all areas of life and leads to the development or aggravation of comorbidity (see Table 1; e.g. anxiety, sleep disorders, concentration disorders, depression)."
+            },
+            {
+              "quote_id": "E2.Q2",
+              "text": "There is a high level of suffering."
+            },
+            {
+              "quote_id": "E2.Q3",
+              "text": "The quality of life is significantly impaired."
+            }
+          ],
+          "text_truncated": false,
+          "clinical_review": "pending"
+        },
+        {
+          "evidence_id": "E3",
+          "version_id": "4c3cc2a2-3002-4fc5-bcb2-dc5cb68b2375",
+          "chunk_id": "06f9958d0af47fe51960ac6b",
+          "document_id": "adult-com-qol-2023",
+          "title": "Health-related quality of life after otologic surgical treatment for chronic otitis media: systematic review",
+          "locator": "body/sec[4]/sec[2]/p[4]",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10654635/",
+          "text": "As was mentioned before, the CES does not cover psychological and emotional aspects of the perceived impact of COM on the HRQoL while these aspects are an important part of the HRQoL construct. Patients with more prominent depressive symptoms and mood disturbances have significantly higher COMOT-15 and ZCMEI-21 scores and significantly lower SF-36 scores (31), all indicating lower HRQoL. Moreover, hearing loss and the corresponding communication impairment are associated with depression, social withdrawal, and anxiety and thereby limit a patient's HRQoL (47). This incomplete coverage of the HRQoL construct by the CES might explain the high percentages of change and large SMDs reported with CES. One could logically expect a decrease in HRQoL improvement measured by the CES once psychological and emotional aspects are included.",
+          "quote_options": [
+            {
+              "quote_id": "E3.Q1",
+              "text": "As was mentioned before, the CES does not cover psychological and emotional aspects of the perceived impact of COM on the HRQoL while these aspects are an important part of the HRQoL construct."
+            },
+            {
+              "quote_id": "E3.Q2",
+              "text": "Patients with more prominent depressive symptoms and mood disturbances have significantly higher COMOT-15 and ZCMEI-21 scores and significantly lower SF-36 scores (31), all indicating lower HRQoL."
+            },
+            {
+              "quote_id": "E3.Q3",
+              "text": "Moreover, hearing loss and the corresponding communication impairment are associated with depression, social withdrawal, and anxiety and thereby limit a patient's HRQoL (47)."
+            },
+            {
+              "quote_id": "E3.Q4",
+              "text": "This incomplete coverage of the HRQoL construct by the CES might explain the high percentages of change and large SMDs reported with CES."
+            },
+            {
+              "quote_id": "E3.Q5",
+              "text": "One could logically expect a decrease in HRQoL improvement measured by the CES once psychological and emotional aspects are included."
+            }
+          ],
+          "text_truncated": false,
+          "clinical_review": "pending"
+        },
+        {
+          "evidence_id": "E4",
+          "version_id": "d5005279-1bad-491f-8122-a2d05e558146",
+          "chunk_id": "18fadfbeb49989d392cbb5c5",
+          "document_id": "tinnitus-s3-2022",
+          "title": "S3 Guideline: Chronic Tinnitus",
+          "locator": "body/sec[7]/sec[1]/sec[5]/sec[2]/p[6]",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9581878/",
+          "text": "These initial study results prompted a large-scale placebo-controlled trial of TMNMT. Stein et al. [197] published these results, in which 100 patients were randomly treated with a verum alienation (i.e. analogous to the previously determined tinnitus frequency) and 100 patients with a placebo alienation. The primary outcome measure (Tinnitus Questionnaire) did not show the predicted effect of treatment, but patients in the verum group reported a reduction in perceived loudness using a visual analogue scale (this effect was found only in the no-dropout analysis—F [1, 81] = 4.075; p = 0.047— and not in an intention-to-treat analysis). In a Chinese study, 43 patients with chronic idiopathic tinnitus were assigned to either a group receiving TMNMT or masking treatment (sound masking). The authors reported significant or highly significant changes in perceived loudness (visual analogue scale) and the Tinnitus Handicap Inventory ([198]; the publication is available in Chinese; only the abstract is available in English). Methodological aspects remain very unclear.",
+          "quote_options": [
+            {
+              "quote_id": "E4.Q1",
+              "text": "These initial study results prompted a large-scale placebo-controlled trial of TMNMT."
+            },
+            {
+              "quote_id": "E4.Q2",
+              "text": "Stein et al."
+            },
+            {
+              "quote_id": "E4.Q3",
+              "text": "[197] published these results, in which 100 patients were randomly treated with a verum alienation (i.e. analogous to the previously determined tinnitus frequency) and 100 patients with a placebo alienation."
+            },
+            {
+              "quote_id": "E4.Q4",
+              "text": "In a Chinese study, 43 patients with chronic idiopathic tinnitus were assigned to either a group receiving TMNMT or masking treatment (sound masking)."
+            },
+            {
+              "quote_id": "E4.Q5",
+              "text": "The authors reported significant or highly significant changes in perceived loudness (visual analogue scale) and the Tinnitus Handicap Inventory ([198]; the publication is available in Chinese; only the abstract is available in English)."
+            },
+            {
+              "quote_id": "E4.Q6",
+              "text": "Methodological aspects remain very unclear."
+            }
+          ],
+          "text_truncated": false,
+          "clinical_review": "pending"
+        },
+        {
+          "evidence_id": "E5",
+          "version_id": "4c3cc2a2-3002-4fc5-bcb2-dc5cb68b2375",
+          "chunk_id": "8dfb8262e3c4d9ae8a776deb",
+          "document_id": "adult-com-qol-2023",
+          "title": "Health-related quality of life after otologic surgical treatment for chronic otitis media: systematic review",
+          "locator": "body/sec[3]/sec[2]/p[1]",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10654635/",
+          "text": "Table 1 represents a detailed overview of the relevant characteristics of the included studies. The studies are clustered based on the HRQoL questionnaire used. All studies were prospective observational studies with pre- and postoperative measurements, published between 2000 and 2023. Information about HRQoL scores before and after otologic surgical treatment was gathered with the use of seven different validated HRQoL questionnaires. The sample sizes per study ranged between 26 (44) and 167 (43) patients, resulting in a total of 1,329 included patients with a mean age of 44.74 years. HRQoL assessment was conducted with at least one disease-specific HRQoL questionnaire in each study. One questionnaire for general chronic middle ear diseases (CES) was used and three COM-specific questionnaires (COMQ-12, ZCMEI-21, and COMOT-15). CES (3, 35–38) and COMOT-15 (8, 31–34) were used in five different studies, and the ZCMEI-21 (31, 39, 40) and COMQ-12 (42–44) in three studies. Furthermore, three general HRQoL questionnaires were used: SF-36 (8, 31, 43), SF-12V2 (38), and Euro-Qol-5D-5L (42). A hearing-specific QoL questionnaire (HHIA) was used once (42). Table 2 provides an overview of the content of each disease-specific HRQoL questionnaire. All questionnaires contain questions on classic ear symptoms, use of medical resources, and impact on daily life activities, except for COMOT-15 which does not encompass the latter. COMOT-15, COMQ-12, and ZCMEI-21 include psychological aspects as well. However, besides covering different domains of HRQoL, each questionnaire has its own interpretation of these domains.",
+          "quote_options": [
+            {
+              "quote_id": "E5.Q1",
+              "text": "Table 1 represents a detailed overview of the relevant characteristics of the included studies."
+            },
+            {
+              "quote_id": "E5.Q2",
+              "text": "The studies are clustered based on the HRQoL questionnaire used."
+            },
+            {
+              "quote_id": "E5.Q3",
+              "text": "All studies were prospective observational studies with pre- and postoperative measurements, published between 2000 and 2023."
+            },
+            {
+              "quote_id": "E5.Q4",
+              "text": "Information about HRQoL scores before and after otologic surgical treatment was gathered with the use of seven different validated HRQoL questionnaires."
+            },
+            {
+              "quote_id": "E5.Q5",
+              "text": "The sample sizes per study ranged between 26 (44) and 167 (43) patients, resulting in a total of 1,329 included patients with a mean age of 44.74 years."
+            },
+            {
+              "quote_id": "E5.Q6",
+              "text": "HRQoL assessment was conducted with at least one disease-specific HRQoL questionnaire in each study."
+            },
+            {
+              "quote_id": "E5.Q7",
+              "text": "One questionnaire for general chronic middle ear diseases (CES) was used and three COM-specific questionnaires (COMQ-12, ZCMEI-21, and COMOT-15)."
+            },
+            {
+              "quote_id": "E5.Q8",
+              "text": "CES (3, 35–38) and COMOT-15 (8, 31–34) were used in five different studies, and the ZCMEI-21 (31, 39, 40) and COMQ-12 (42–44) in three studies."
+            },
+            {
+              "quote_id": "E5.Q9",
+              "text": "Furthermore, three general HRQoL questionnaires were used: SF-36 (8, 31, 43), SF-12V2 (38), and Euro-Qol-5D-5L (42)."
+            },
+            {
+              "quote_id": "E5.Q10",
+              "text": "A hearing-specific QoL questionnaire (HHIA) was used once (42)."
+            },
+            {
+              "quote_id": "E5.Q11",
+              "text": "Table 2 provides an overview of the content of each disease-specific HRQoL questionnaire."
+            },
+            {
+              "quote_id": "E5.Q12",
+              "text": "All questionnaires contain questions on classic ear symptoms, use of medical resources, and impact on daily life activities, except for COMOT-15 which does not encompass the latter."
+            },
+            {
+              "quote_id": "E5.Q13",
+              "text": "COMOT-15, COMQ-12, and ZCMEI-21 include psychological aspects as well."
+            },
+            {
+              "quote_id": "E5.Q14",
+              "text": "However, besides covering different domains of HRQoL, each questionnaire has its own interpretation of these domains."
+            }
+          ],
+          "text_truncated": false,
+          "clinical_review": "pending"
+        },
+        {
+          "evidence_id": "E6",
+          "version_id": "47e957cd-7024-4947-b317-c51de4d88837",
+          "chunk_id": "1872c87f8af0d2dc4fcb341f",
+          "document_id": "tinnitus-evidence-2023",
+          "title": "Tinnitus Guidelines and Their Evidence Base",
+          "locator": "body/sec[1]/sec[1]/p[3]",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10178961/",
+          "text": "In the field of tinnitus, many different treatments have been offered to patients, which also reflects that no treatments are highly effective in all types of patients. With the advent of EBM, clinical researchers aimed to evaluate the effectiveness of various treatments by conducting clinical trials. This is far from trivial in tinnitus for several reasons [8,9,10]. First, tinnitus is a heterogeneous condition. Second, it is mostly purely subjective, which makes outcome measurement challenging, and third, suffering from tinnitus has many facets, which vary from patient to patient. All these aspects have been addressed in the last few years. Research has focused on identifying clinically relevant subtypes of tinnitus (ref). This was only partly successful, as the heterogeneity is better described by dimensional variability of tinnitus characteristics than by distinct categories (e.g., more or less somatic involvement instead of a category “somatic tinnitus”). Concerning the many facets of tinnitus burden, research aimed to identify consensus-based core outcome domains [11]. For outcome measurement, various tools have been developed and tested for psychometric adequacy. These efforts revealed that tinnitus questionnaires and visual analogue scales represent reliable and valid tools for quantifying tinnitus impact. In contrast, psychometric measurements of tinnitus loudness are not helpful for this purpose [12,13,14].",
+          "quote_options": [
+            {
+              "quote_id": "E6.Q1",
+              "text": "In the field of tinnitus, many different treatments have been offered to patients, which also reflects that no treatments are highly effective in all types of patients."
+            },
+            {
+              "quote_id": "E6.Q2",
+              "text": "With the advent of EBM, clinical researchers aimed to evaluate the effectiveness of various treatments by conducting clinical trials."
+            },
+            {
+              "quote_id": "E6.Q3",
+              "text": "This is far from trivial in tinnitus for several reasons [8,9,10]."
+            },
+            {
+              "quote_id": "E6.Q4",
+              "text": "First, tinnitus is a heterogeneous condition."
+            },
+            {
+              "quote_id": "E6.Q5",
+              "text": "Second, it is mostly purely subjective, which makes outcome measurement challenging, and third, suffering from tinnitus has many facets, which vary from patient to patient."
+            },
+            {
+              "quote_id": "E6.Q6",
+              "text": "All these aspects have been addressed in the last few years."
+            },
+            {
+              "quote_id": "E6.Q7",
+              "text": "Research has focused on identifying clinically relevant subtypes of tinnitus (ref)."
+            },
+            {
+              "quote_id": "E6.Q8",
+              "text": "This was only partly successful, as the heterogeneity is better described by dimensional variability of tinnitus characteristics than by distinct categories (e.g., more or less somatic involvement instead of a category “somatic tinnitus”)."
+            },
+            {
+              "quote_id": "E6.Q9",
+              "text": "Concerning the many facets of tinnitus burden, research aimed to identify consensus-based core outcome domains [11]."
+            },
+            {
+              "quote_id": "E6.Q10",
+              "text": "For outcome measurement, various tools have been developed and tested for psychometric adequacy."
+            },
+            {
+              "quote_id": "E6.Q11",
+              "text": "These efforts revealed that tinnitus questionnaires and visual analogue scales represent reliable and valid tools for quantifying tinnitus impact."
+            },
+            {
+              "quote_id": "E6.Q12",
+              "text": "In contrast, psychometric measurements of tinnitus loudness are not helpful for this purpose [12,13,14]."
+            }
+          ],
+          "text_truncated": false,
+          "clinical_review": "pending"
+        }
+      ],
+      "validation": {
+        "citation_identity_and_quote_match": false,
+        "semantic_support": "not_assessed",
+        "clinical_approval": false,
+        "input_check": "field_presence_only",
+        "requested_quote_selectors": 5,
+        "error_code": "unknown_quote_selector",
+        "schema_issues": [],
+        "failure_stage": "validate_citations",
+        "quote_repair": {
+          "attempts": 0,
+          "accepted": false
+        },
+        "semantic_revision": {
+          "attempts": 1,
+          "initial_verification": {},
+          "trigger": "schema",
+          "initial_schema_issues": [],
+          "initial_generation_metadata": {
+            "requested_model": "deepseek-flash",
+            "returned_model": "deepseek-flash",
+            "usage": {
+              "prompt_tokens": 5195,
+              "completion_tokens": 289,
+              "total_tokens": 5484
+            },
+            "prompt_sha256": "60a446826ac9d6ed5aad4e834108efa6adefabc29a1025eb2902fad645f36ae6"
+          },
+          "accepted": false
+        }
+      },
+      "model": "deepseek-flash",
+      "provider_base_url": "https://api.deepseek.com",
+      "elapsed_ms": 16652,
+      "synthetic_only": true,
+      "generation_metadata": {
+        "requested_model": "deepseek-flash",
+        "returned_model": "deepseek-flash",
+        "usage": {
+          "prompt_tokens": 5572,
+          "completion_tokens": 306,
+          "total_tokens": 5878
+        },
+        "prompt_sha256": "60a446826ac9d6ed5aad4e834108efa6adefabc29a1025eb2902fad645f36ae6"
+      }
+    },
+    "human_review": "pending"
+  },
+  {
+    "case_id": "ANCHOR-VOICE-003",
+    "result": {
+      "retrieval": {
+        "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+        "query_policy": "dual_question_first",
+        "hybrid": [
+          {
+            "end": 40,
+            "id": "c0c1fe5fa6732adaedba9df6",
+            "locator": "body/sec[8]/sec[3]/list[1]/list-item[13]/p[1]",
+            "population_status": "adult_dev_candidate",
+            "section": "5. Appendix / 5.3 Appendix 3: Medical history questions and clinical severity classification",
+            "start": 0,
+            "text": "Are you particularly sensitive to noise?",
+            "chunk_id": "c0c1fe5fa6732adaedba9df6",
+            "version_id": "d5005279-1bad-491f-8122-a2d05e558146",
+            "document_id": "tinnitus-s3-2022",
+            "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+            "title": "S3 Guideline: Chronic Tinnitus",
+            "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9581878/",
+            "topics": [
+              "tinnitus"
+            ],
+            "clinical_review": "pending",
+            "production_eligible": false,
+            "score": 0.04918032786885246,
+            "applicability_warning": null
+          },
+          {
+            "end": 53,
+            "id": "f814407ac7b99e325af60724",
+            "locator": "body/sec[8]/sec[3]/list[1]/list-item[25]/p[1]",
+            "population_status": "adult_dev_candidate",
+            "section": "5. Appendix / 5.3 Appendix 3: Medical history questions and clinical severity classification",
+            "start": 0,
+            "text": "Do you have any cardiovascular or metabolic diseases?",
+            "chunk_id": "f814407ac7b99e325af60724",
+            "version_id": "d5005279-1bad-491f-8122-a2d05e558146",
+            "document_id": "tinnitus-s3-2022",
+            "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+            "title": "S3 Guideline: Chronic Tinnitus",
+            "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9581878/",
+            "topics": [
+              "tinnitus"
+            ],
+            "clinical_review": "pending",
+            "production_eligible": false,
+            "score": 0.047619047619047616,
+            "applicability_warning": null
+          },
+          {
+            "end": 942,
+            "id": "2d8582982a469dc23fd9c863",
+            "locator": "body/sec[5]/sec[1]/p[5]",
+            "population_status": "adult_dev_candidate",
+            "section": "2 Pathophysiological aspects and classification of chronic tinnitus / Pathophysiological aspects of tinnitus",
+            "start": 0,
+            "text": "These changes reflect neuroplastic processes that are thought to be triggered by auditory deprivation. Similar to phantom limb pain, there is thought to be increased excitation, plasticity and connectivity along the entire central auditory pathway—as a compensatory response to reduced sensory input [18–21]. However, it has also been shown that abnormal activity can be found in somatosensory afferents [22]. Furthermore, patients with chronic tinnitus show functional changes not only in auditory structures but also in limbic, parietal and frontal areas [23–25]. The functional connectivity between auditory and non-auditory areas appears to be increased in tinnitus patients [26–31]. These tinnitus-associated structural and functional changes in neuronal networks are not static but change with increasing duration of tinnitus [26, 32, 33]. They are also significantly influenced by attentional redirection as tinnitus accentuation [34].",
+            "chunk_id": "2d8582982a469dc23fd9c863",
+            "version_id": "d5005279-1bad-491f-8122-a2d05e558146",
+            "document_id": "tinnitus-s3-2022",
+            "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+            "title": "S3 Guideline: Chronic Tinnitus",
+            "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9581878/",
+            "topics": [
+              "tinnitus"
+            ],
+            "clinical_review": "pending",
+            "production_eligible": false,
+            "score": 0.046543778801843315,
+            "applicability_warning": null
+          },
+          {
+            "end": 77,
+            "id": "e0f0fec02b7855d194b38214",
+            "locator": "body/sec[8]/sec[3]/list[1]/list-item[26]/p[1]",
+            "population_status": "adult_dev_candidate",
+            "section": "5. Appendix / 5.3 Appendix 3: Medical history questions and clinical severity classification",
+            "start": 0,
+            "text": "Are there any indications of other disorders and comorbidities (see Table 1)?",
+            "chunk_id": "e0f0fec02b7855d194b38214",
+            "version_id": "d5005279-1bad-491f-8122-a2d05e558146",
+            "document_id": "tinnitus-s3-2022",
+            "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+            "title": "S3 Guideline: Chronic Tinnitus",
+            "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9581878/",
+            "topics": [
+              "tinnitus"
+            ],
+            "clinical_review": "pending",
+            "production_eligible": false,
+            "score": 0.04617537313432836,
+            "applicability_warning": null
+          },
+          {
+            "end": 52,
+            "id": "8b29088111528e471c8a9652",
+            "locator": "body/sec[8]/sec[3]/list[1]/list-item[21]/p[1]",
+            "population_status": "adult_dev_candidate",
+            "section": "5. Appendix / 5.3 Appendix 3: Medical history questions and clinical severity classification",
+            "start": 0,
+            "text": "Can the tinnitus be influenced by physical exertion?",
+            "chunk_id": "8b29088111528e471c8a9652",
+            "version_id": "d5005279-1bad-491f-8122-a2d05e558146",
+            "document_id": "tinnitus-s3-2022",
+            "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+            "title": "S3 Guideline: Chronic Tinnitus",
+            "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9581878/",
+            "topics": [
+              "tinnitus"
+            ],
+            "clinical_review": "pending",
+            "production_eligible": false,
+            "score": 0.04568764568764569,
+            "applicability_warning": null
+          },
+          {
+            "end": 1074,
+            "id": "18fadfbeb49989d392cbb5c5",
+            "locator": "body/sec[7]/sec[1]/sec[5]/sec[2]/p[6]",
+            "population_status": "adult_dev_candidate",
+            "section": "4 Therapy of chronic tinnitus / 4.1 Presentation of therapies with recommendations / 4.1.5 Music therapy approaches and sound therapy / Evidence-based recommendation",
+            "start": 0,
+            "text": "These initial study results prompted a large-scale placebo-controlled trial of TMNMT. Stein et al. [197] published these results, in which 100 patients were randomly treated with a verum alienation (i.e. analogous to the previously determined tinnitus frequency) and 100 patients with a placebo alienation. The primary outcome measure (Tinnitus Questionnaire) did not show the predicted effect of treatment, but patients in the verum group reported a reduction in perceived loudness using a visual analogue scale (this effect was found only in the no-dropout analysis—F [1, 81] = 4.075; p = 0.047— and not in an intention-to-treat analysis). In a Chinese study, 43 patients with chronic idiopathic tinnitus were assigned to either a group receiving TMNMT or masking treatment (sound masking). The authors reported significant or highly significant changes in perceived loudness (visual analogue scale) and the Tinnitus Handicap Inventory ([198]; the publication is available in Chinese; only the abstract is available in English). Methodological aspects remain very unclear.",
+            "chunk_id": "18fadfbeb49989d392cbb5c5",
+            "version_id": "d5005279-1bad-491f-8122-a2d05e558146",
+            "document_id": "tinnitus-s3-2022",
+            "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+            "title": "S3 Guideline: Chronic Tinnitus",
+            "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9581878/",
+            "topics": [
+              "tinnitus"
+            ],
+            "clinical_review": "pending",
+            "production_eligible": false,
+            "score": 0.044563279857397504,
+            "applicability_warning": null
+          },
+          {
+            "end": 58,
+            "id": "6c2ee97634b254388d56aed8",
+            "locator": "body/sec[8]/sec[3]/list[1]/list-item[9]/p[1]",
+            "population_status": "adult_dev_candidate",
+            "section": "5. Appendix / 5.3 Appendix 3: Medical history questions and clinical severity classification",
+            "start": 0,
+            "text": "Does normal environmental noise make your tinnitus louder?",
+            "chunk_id": "6c2ee97634b254388d56aed8",
+            "version_id": "d5005279-1bad-491f-8122-a2d05e558146",
+            "document_id": "tinnitus-s3-2022",
+            "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+            "title": "S3 Guideline: Chronic Tinnitus",
+            "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9581878/",
+            "topics": [
+              "tinnitus"
+            ],
+            "clinical_review": "pending",
+            "production_eligible": false,
+            "score": 0.04419642857142857,
+            "applicability_warning": null
+          },
+          {
+            "end": 53,
+            "id": "9e440ee33778c2ce09a7c979",
+            "locator": "body/sec[8]/sec[3]/list[1]/list-item[6]/p[1]",
+            "population_status": "adult_dev_candidate",
+            "section": "5. Appendix / 5.3 Appendix 3: Medical history questions and clinical severity classification",
+            "start": 0,
+            "text": "Can the tinnitus be masked by ordinary ambient noise?",
+            "chunk_id": "9e440ee33778c2ce09a7c979",
+            "version_id": "d5005279-1bad-491f-8122-a2d05e558146",
+            "document_id": "tinnitus-s3-2022",
+            "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+            "title": "S3 Guideline: Chronic Tinnitus",
+            "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9581878/",
+            "topics": [
+              "tinnitus"
+            ],
+            "clinical_review": "pending",
+            "production_eligible": false,
+            "score": 0.043478260869565216,
+            "applicability_warning": null
+          },
+          {
+            "end": 50,
+            "id": "b7c66fd4bd97a3fc3028156c",
+            "locator": "main/block[1]",
+            "population_status": "adult_dev_candidate",
+            "section": "What is hoarseness?",
+            "start": 0,
+            "text": "Structures involved in speech and voice production",
+            "chunk_id": "b7c66fd4bd97a3fc3028156c",
+            "version_id": "11605fc0-df77-4d90-8883-3a19979c3c80",
+            "document_id": "nidcd-hoarseness",
+            "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+            "title": "Hoarseness",
+            "source_url": "https://www.nidcd.nih.gov/health/hoarseness",
+            "topics": [
+              "throat"
+            ],
+            "clinical_review": "pending",
+            "production_eligible": false,
+            "score": 0.043427458617332035,
+            "applicability_warning": null
+          },
+          {
+            "end": 38,
+            "id": "aa508604a230d5615b42ba14",
+            "locator": "body/sec[5]/sec[5]/list[1]/list-item[2]/p[1]",
+            "population_status": "adult_dev_candidate",
+            "section": "2 Pathophysiological aspects and classification of chronic tinnitus / 2.4 Severity",
+            "start": 0,
+            "text": "Grades 3 and 4: decompensated tinnitus",
+            "chunk_id": "aa508604a230d5615b42ba14",
+            "version_id": "d5005279-1bad-491f-8122-a2d05e558146",
+            "document_id": "tinnitus-s3-2022",
+            "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+            "title": "S3 Guideline: Chronic Tinnitus",
+            "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9581878/",
+            "topics": [
+              "tinnitus"
+            ],
+            "clinical_review": "pending",
+            "production_eligible": false,
+            "score": 0.04287489643744822,
+            "applicability_warning": null
+          }
+        ],
+        "reranked": [
+          {
+            "end": 1074,
+            "id": "18fadfbeb49989d392cbb5c5",
+            "locator": "body/sec[7]/sec[1]/sec[5]/sec[2]/p[6]",
+            "population_status": "adult_dev_candidate",
+            "section": "4 Therapy of chronic tinnitus / 4.1 Presentation of therapies with recommendations / 4.1.5 Music therapy approaches and sound therapy / Evidence-based recommendation",
+            "start": 0,
+            "text": "These initial study results prompted a large-scale placebo-controlled trial of TMNMT. Stein et al. [197] published these results, in which 100 patients were randomly treated with a verum alienation (i.e. analogous to the previously determined tinnitus frequency) and 100 patients with a placebo alienation. The primary outcome measure (Tinnitus Questionnaire) did not show the predicted effect of treatment, but patients in the verum group reported a reduction in perceived loudness using a visual analogue scale (this effect was found only in the no-dropout analysis—F [1, 81] = 4.075; p = 0.047— and not in an intention-to-treat analysis). In a Chinese study, 43 patients with chronic idiopathic tinnitus were assigned to either a group receiving TMNMT or masking treatment (sound masking). The authors reported significant or highly significant changes in perceived loudness (visual analogue scale) and the Tinnitus Handicap Inventory ([198]; the publication is available in Chinese; only the abstract is available in English). Methodological aspects remain very unclear.",
+            "chunk_id": "18fadfbeb49989d392cbb5c5",
+            "version_id": "d5005279-1bad-491f-8122-a2d05e558146",
+            "document_id": "tinnitus-s3-2022",
+            "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+            "title": "S3 Guideline: Chronic Tinnitus",
+            "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9581878/",
+            "topics": [
+              "tinnitus"
+            ],
+            "clinical_review": "pending",
+            "production_eligible": false,
+            "score": 0.044563279857397504,
+            "rerank_score": -3.3927347660064697,
+            "applicability_warning": null
+          },
+          {
+            "end": 942,
+            "id": "2d8582982a469dc23fd9c863",
+            "locator": "body/sec[5]/sec[1]/p[5]",
+            "population_status": "adult_dev_candidate",
+            "section": "2 Pathophysiological aspects and classification of chronic tinnitus / Pathophysiological aspects of tinnitus",
+            "start": 0,
+            "text": "These changes reflect neuroplastic processes that are thought to be triggered by auditory deprivation. Similar to phantom limb pain, there is thought to be increased excitation, plasticity and connectivity along the entire central auditory pathway—as a compensatory response to reduced sensory input [18–21]. However, it has also been shown that abnormal activity can be found in somatosensory afferents [22]. Furthermore, patients with chronic tinnitus show functional changes not only in auditory structures but also in limbic, parietal and frontal areas [23–25]. The functional connectivity between auditory and non-auditory areas appears to be increased in tinnitus patients [26–31]. These tinnitus-associated structural and functional changes in neuronal networks are not static but change with increasing duration of tinnitus [26, 32, 33]. They are also significantly influenced by attentional redirection as tinnitus accentuation [34].",
+            "chunk_id": "2d8582982a469dc23fd9c863",
+            "version_id": "d5005279-1bad-491f-8122-a2d05e558146",
+            "document_id": "tinnitus-s3-2022",
+            "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+            "title": "S3 Guideline: Chronic Tinnitus",
+            "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9581878/",
+            "topics": [
+              "tinnitus"
+            ],
+            "clinical_review": "pending",
+            "production_eligible": false,
+            "score": 0.046543778801843315,
+            "rerank_score": -4.600693225860596,
+            "applicability_warning": null
+          },
+          {
+            "end": 1637,
+            "id": "59b857623682e6afb92bbffd",
+            "locator": "body/sec[4]/sec[6]/p[1]",
+            "population_status": "adult_dev_candidate",
+            "section": "4. Discussion / 4.6. Statistical significance and clinical relevance",
+            "start": 0,
+            "text": "Even though the pre- and postoperative questionnaire scores differed significantly in all included studies, this does not immediately implicate a clinically relevant difference in HRQoL. For that reason, the minimal clinically important difference (MCID), defined as the smallest change in outcome that is relevant to the patient (64), is required. This patient-centered outcome is, thus, dependent on the magnitude of improvement in combination with the value patients relate to the change (64). Considering the patient-centered aspect of this systematic review and the aims of the included studies, the MCID should ideally be investigated. However, the MCID was only calculated for the ZCMEI-21 questionnaire (39) at 5.3 points. With this MCID in mind, all studies that used ZCMEI-21 demonstrated that the difference in HRQoL was clinically relevant. The mean changes between the pre- and postoperative measurements were 8 (31), 6.8 (39), and 6.9 (40). The MCID for the CES, COMOT-15, and COMQ-12 is not reported in the literature to date. Hence, the clinical importance of the HRQoL changes after otologic surgical treatment in COM w/wo cholesteatoma patients is largely unknown. However, for the COMQ-12 questionnaire, a cut-off value of 8 was published (65), which means that a total score of 8 or lower indicates a normal HRQoL. The two included studies that used COMQ-12 (42, 44) reported significantly lower postoperative scores of 9.35 after 28 months follow-up (44) and of 14.8 12 months postoperative (42). These values indicate HRQoL changing to almost normal values, however, the clinical relevance of the change is unknown.",
+            "chunk_id": "59b857623682e6afb92bbffd",
+            "version_id": "4c3cc2a2-3002-4fc5-bcb2-dc5cb68b2375",
+            "document_id": "adult-com-qol-2023",
+            "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+            "title": "Health-related quality of life after otologic surgical treatment for chronic otitis media: systematic review",
+            "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10654635/",
+            "topics": [
+              "otitis_media",
+              "hearing_loss"
+            ],
+            "clinical_review": "pending",
+            "production_eligible": false,
+            "score": 0.01282051282051282,
+            "rerank_score": -5.314724922180176,
+            "applicability_warning": null
+          },
+          {
+            "end": 1625,
+            "id": "8dfb8262e3c4d9ae8a776deb",
+            "locator": "body/sec[3]/sec[2]/p[1]",
+            "population_status": "adult_dev_candidate",
+            "section": "3. Results / 3.2. Study characteristics",
+            "start": 0,
+            "text": "Table 1 represents a detailed overview of the relevant characteristics of the included studies. The studies are clustered based on the HRQoL questionnaire used. All studies were prospective observational studies with pre- and postoperative measurements, published between 2000 and 2023. Information about HRQoL scores before and after otologic surgical treatment was gathered with the use of seven different validated HRQoL questionnaires. The sample sizes per study ranged between 26 (44) and 167 (43) patients, resulting in a total of 1,329 included patients with a mean age of 44.74 years. HRQoL assessment was conducted with at least one disease-specific HRQoL questionnaire in each study. One questionnaire for general chronic middle ear diseases (CES) was used and three COM-specific questionnaires (COMQ-12, ZCMEI-21, and COMOT-15). CES (3, 35–38) and COMOT-15 (8, 31–34) were used in five different studies, and the ZCMEI-21 (31, 39, 40) and COMQ-12 (42–44) in three studies. Furthermore, three general HRQoL questionnaires were used: SF-36 (8, 31, 43), SF-12V2 (38), and Euro-Qol-5D-5L (42). A hearing-specific QoL questionnaire (HHIA) was used once (42). Table 2 provides an overview of the content of each disease-specific HRQoL questionnaire. All questionnaires contain questions on classic ear symptoms, use of medical resources, and impact on daily life activities, except for COMOT-15 which does not encompass the latter. COMOT-15, COMQ-12, and ZCMEI-21 include psychological aspects as well. However, besides covering different domains of HRQoL, each questionnaire has its own interpretation of these domains.",
+            "chunk_id": "8dfb8262e3c4d9ae8a776deb",
+            "version_id": "4c3cc2a2-3002-4fc5-bcb2-dc5cb68b2375",
+            "document_id": "adult-com-qol-2023",
+            "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+            "title": "Health-related quality of life after otologic surgical treatment for chronic otitis media: systematic review",
+            "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10654635/",
+            "topics": [
+              "otitis_media",
+              "hearing_loss"
+            ],
+            "clinical_review": "pending",
+            "production_eligible": false,
+            "score": 0.016129032258064516,
+            "rerank_score": -5.867761135101318,
+            "applicability_warning": null
+          },
+          {
+            "end": 36,
+            "id": "4e0e6f8c9d6507642b86e9ef",
+            "locator": "body/sec[5]/sec[5]/list[1]/list-item[1]/p[1]",
+            "population_status": "adult_dev_candidate",
+            "section": "2 Pathophysiological aspects and classification of chronic tinnitus / 2.4 Severity",
+            "start": 0,
+            "text": "Grades 1 and 2: compensated tinnitus",
+            "chunk_id": "4e0e6f8c9d6507642b86e9ef",
+            "version_id": "d5005279-1bad-491f-8122-a2d05e558146",
+            "document_id": "tinnitus-s3-2022",
+            "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+            "title": "S3 Guideline: Chronic Tinnitus",
+            "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9581878/",
+            "topics": [
+              "tinnitus"
+            ],
+            "clinical_review": "pending",
+            "production_eligible": false,
+            "score": 0.038628038628038625,
+            "rerank_score": -6.8101043701171875,
+            "applicability_warning": null
+          },
+          {
+            "end": 53,
+            "id": "9e440ee33778c2ce09a7c979",
+            "locator": "body/sec[8]/sec[3]/list[1]/list-item[6]/p[1]",
+            "population_status": "adult_dev_candidate",
+            "section": "5. Appendix / 5.3 Appendix 3: Medical history questions and clinical severity classification",
+            "start": 0,
+            "text": "Can the tinnitus be masked by ordinary ambient noise?",
+            "chunk_id": "9e440ee33778c2ce09a7c979",
+            "version_id": "d5005279-1bad-491f-8122-a2d05e558146",
+            "document_id": "tinnitus-s3-2022",
+            "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+            "title": "S3 Guideline: Chronic Tinnitus",
+            "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9581878/",
+            "topics": [
+              "tinnitus"
+            ],
+            "clinical_review": "pending",
+            "production_eligible": false,
+            "score": 0.043478260869565216,
+            "rerank_score": -6.815578460693359,
+            "applicability_warning": null
+          },
+          {
+            "end": 40,
+            "id": "ddad9daea5a59949555f3a4b",
+            "locator": "body/sec[8]/sec[3]/list[1]/list-item[7]/p[1]",
+            "population_status": "adult_dev_candidate",
+            "section": "5. Appendix / 5.3 Appendix 3: Medical history questions and clinical severity classification",
+            "start": 0,
+            "text": "Does your tinnitus drown out all sounds?",
+            "chunk_id": "ddad9daea5a59949555f3a4b",
+            "version_id": "d5005279-1bad-491f-8122-a2d05e558146",
+            "document_id": "tinnitus-s3-2022",
+            "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+            "title": "S3 Guideline: Chronic Tinnitus",
+            "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9581878/",
+            "topics": [
+              "tinnitus"
+            ],
+            "clinical_review": "pending",
+            "production_eligible": false,
+            "score": 0.0125,
+            "rerank_score": -6.876273155212402,
+            "applicability_warning": null
+          },
+          {
+            "end": 73,
+            "id": "7eeebfa3b3525a4e59e7fe2f",
+            "locator": "body/sec[8]/sec[3]/list[1]/list-item[19]/p[1]",
+            "population_status": "adult_dev_candidate",
+            "section": "5. Appendix / 5.3 Appendix 3: Medical history questions and clinical severity classification",
+            "start": 0,
+            "text": "Can the tinnitus be influenced by certain head postures or jaw movements?",
+            "chunk_id": "7eeebfa3b3525a4e59e7fe2f",
+            "version_id": "d5005279-1bad-491f-8122-a2d05e558146",
+            "document_id": "tinnitus-s3-2022",
+            "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+            "title": "S3 Guideline: Chronic Tinnitus",
+            "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9581878/",
+            "topics": [
+              "tinnitus"
+            ],
+            "clinical_review": "pending",
+            "production_eligible": false,
+            "score": 0.027777777777777776,
+            "rerank_score": -7.0133256912231445,
+            "applicability_warning": null
+          },
+          {
+            "end": 77,
+            "id": "e0f0fec02b7855d194b38214",
+            "locator": "body/sec[8]/sec[3]/list[1]/list-item[26]/p[1]",
+            "population_status": "adult_dev_candidate",
+            "section": "5. Appendix / 5.3 Appendix 3: Medical history questions and clinical severity classification",
+            "start": 0,
+            "text": "Are there any indications of other disorders and comorbidities (see Table 1)?",
+            "chunk_id": "e0f0fec02b7855d194b38214",
+            "version_id": "d5005279-1bad-491f-8122-a2d05e558146",
+            "document_id": "tinnitus-s3-2022",
+            "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+            "title": "S3 Guideline: Chronic Tinnitus",
+            "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9581878/",
+            "topics": [
+              "tinnitus"
+            ],
+            "clinical_review": "pending",
+            "production_eligible": false,
+            "score": 0.04617537313432836,
+            "rerank_score": -7.020804405212402,
+            "applicability_warning": null
+          },
+          {
+            "end": 53,
+            "id": "f814407ac7b99e325af60724",
+            "locator": "body/sec[8]/sec[3]/list[1]/list-item[25]/p[1]",
+            "population_status": "adult_dev_candidate",
+            "section": "5. Appendix / 5.3 Appendix 3: Medical history questions and clinical severity classification",
+            "start": 0,
+            "text": "Do you have any cardiovascular or metabolic diseases?",
+            "chunk_id": "f814407ac7b99e325af60724",
+            "version_id": "d5005279-1bad-491f-8122-a2d05e558146",
+            "document_id": "tinnitus-s3-2022",
+            "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+            "title": "S3 Guideline: Chronic Tinnitus",
+            "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9581878/",
+            "topics": [
+              "tinnitus"
+            ],
+            "clinical_review": "pending",
+            "production_eligible": false,
+            "score": 0.047619047619047616,
+            "rerank_score": -7.076622009277344,
+            "applicability_warning": null
+          }
+        ],
+        "run_id": "fc662f23-4c17-475f-bce5-26ae6ac9f273",
+        "elapsed_ms": 5536,
+        "reranker_enabled": true
+      },
+      "answer": {
+        "status": "insufficient_evidence",
+        "professional": [],
+        "input_explanation": [],
+        "patient_summary": [],
+        "limitations": [
+          "insufficient_support"
+        ]
+      },
+      "citations": [
+        {
+          "evidence_id": "E1",
+          "version_id": "d5005279-1bad-491f-8122-a2d05e558146",
+          "chunk_id": "18fadfbeb49989d392cbb5c5",
+          "document_id": "tinnitus-s3-2022",
+          "title": "S3 Guideline: Chronic Tinnitus",
+          "locator": "body/sec[7]/sec[1]/sec[5]/sec[2]/p[6]",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9581878/",
+          "text": "These initial study results prompted a large-scale placebo-controlled trial of TMNMT. Stein et al. [197] published these results, in which 100 patients were randomly treated with a verum alienation (i.e. analogous to the previously determined tinnitus frequency) and 100 patients with a placebo alienation. The primary outcome measure (Tinnitus Questionnaire) did not show the predicted effect of treatment, but patients in the verum group reported a reduction in perceived loudness using a visual analogue scale (this effect was found only in the no-dropout analysis—F [1, 81] = 4.075; p = 0.047— and not in an intention-to-treat analysis). In a Chinese study, 43 patients with chronic idiopathic tinnitus were assigned to either a group receiving TMNMT or masking treatment (sound masking). The authors reported significant or highly significant changes in perceived loudness (visual analogue scale) and the Tinnitus Handicap Inventory ([198]; the publication is available in Chinese; only the abstract is available in English). Methodological aspects remain very unclear.",
+          "quote_options": [
+            {
+              "quote_id": "E1.Q1",
+              "text": "These initial study results prompted a large-scale placebo-controlled trial of TMNMT."
+            },
+            {
+              "quote_id": "E1.Q2",
+              "text": "Stein et al."
+            },
+            {
+              "quote_id": "E1.Q3",
+              "text": "[197] published these results, in which 100 patients were randomly treated with a verum alienation (i.e. analogous to the previously determined tinnitus frequency) and 100 patients with a placebo alienation."
+            },
+            {
+              "quote_id": "E1.Q4",
+              "text": "In a Chinese study, 43 patients with chronic idiopathic tinnitus were assigned to either a group receiving TMNMT or masking treatment (sound masking)."
+            },
+            {
+              "quote_id": "E1.Q5",
+              "text": "The authors reported significant or highly significant changes in perceived loudness (visual analogue scale) and the Tinnitus Handicap Inventory ([198]; the publication is available in Chinese; only the abstract is available in English)."
+            },
+            {
+              "quote_id": "E1.Q6",
+              "text": "Methodological aspects remain very unclear."
+            }
+          ],
+          "text_truncated": false,
+          "clinical_review": "pending"
+        },
+        {
+          "evidence_id": "E2",
+          "version_id": "d5005279-1bad-491f-8122-a2d05e558146",
+          "chunk_id": "2d8582982a469dc23fd9c863",
+          "document_id": "tinnitus-s3-2022",
+          "title": "S3 Guideline: Chronic Tinnitus",
+          "locator": "body/sec[5]/sec[1]/p[5]",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9581878/",
+          "text": "These changes reflect neuroplastic processes that are thought to be triggered by auditory deprivation. Similar to phantom limb pain, there is thought to be increased excitation, plasticity and connectivity along the entire central auditory pathway—as a compensatory response to reduced sensory input [18–21]. However, it has also been shown that abnormal activity can be found in somatosensory afferents [22]. Furthermore, patients with chronic tinnitus show functional changes not only in auditory structures but also in limbic, parietal and frontal areas [23–25]. The functional connectivity between auditory and non-auditory areas appears to be increased in tinnitus patients [26–31]. These tinnitus-associated structural and functional changes in neuronal networks are not static but change with increasing duration of tinnitus [26, 32, 33]. They are also significantly influenced by attentional redirection as tinnitus accentuation [34].",
+          "quote_options": [
+            {
+              "quote_id": "E2.Q1",
+              "text": "These changes reflect neuroplastic processes that are thought to be triggered by auditory deprivation."
+            },
+            {
+              "quote_id": "E2.Q2",
+              "text": "Similar to phantom limb pain, there is thought to be increased excitation, plasticity and connectivity along the entire central auditory pathway—as a compensatory response to reduced sensory input [18–21]."
+            },
+            {
+              "quote_id": "E2.Q3",
+              "text": "However, it has also been shown that abnormal activity can be found in somatosensory afferents [22]."
+            },
+            {
+              "quote_id": "E2.Q4",
+              "text": "Furthermore, patients with chronic tinnitus show functional changes not only in auditory structures but also in limbic, parietal and frontal areas [23–25]."
+            },
+            {
+              "quote_id": "E2.Q5",
+              "text": "The functional connectivity between auditory and non-auditory areas appears to be increased in tinnitus patients [26–31]."
+            },
+            {
+              "quote_id": "E2.Q6",
+              "text": "These tinnitus-associated structural and functional changes in neuronal networks are not static but change with increasing duration of tinnitus [26, 32, 33]."
+            },
+            {
+              "quote_id": "E2.Q7",
+              "text": "They are also significantly influenced by attentional redirection as tinnitus accentuation [34]."
+            }
+          ],
+          "text_truncated": false,
+          "clinical_review": "pending"
+        },
+        {
+          "evidence_id": "E3",
+          "version_id": "4c3cc2a2-3002-4fc5-bcb2-dc5cb68b2375",
+          "chunk_id": "59b857623682e6afb92bbffd",
+          "document_id": "adult-com-qol-2023",
+          "title": "Health-related quality of life after otologic surgical treatment for chronic otitis media: systematic review",
+          "locator": "body/sec[4]/sec[6]/p[1]",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10654635/",
+          "text": "Even though the pre- and postoperative questionnaire scores differed significantly in all included studies, this does not immediately implicate a clinically relevant difference in HRQoL. For that reason, the minimal clinically important difference (MCID), defined as the smallest change in outcome that is relevant to the patient (64), is required. This patient-centered outcome is, thus, dependent on the magnitude of improvement in combination with the value patients relate to the change (64). Considering the patient-centered aspect of this systematic review and the aims of the included studies, the MCID should ideally be investigated. However, the MCID was only calculated for the ZCMEI-21 questionnaire (39) at 5.3 points. With this MCID in mind, all studies that used ZCMEI-21 demonstrated that the difference in HRQoL was clinically relevant. The mean changes between the pre- and postoperative measurements were 8 (31), 6.8 (39), and 6.9 (40). The MCID for the CES, COMOT-15, and COMQ-12 is not reported in the literature to date. Hence, the clinical importance of the HRQoL changes after otologic surgical treatment in COM w/wo cholesteatoma patients is largely unknown. However, for the COMQ-12 questionnaire, a cut-off value of 8 was published (65), which means that a total score of 8 or lower indicates a normal HRQoL. The two included studies that used COMQ-12 (42, 44) reported significantly lower postoperative scores of 9.35 after 28 months follow-up (44) and of 14.8 12 months postoperative (42). These values indicate HRQoL changing to almost normal values, however, the clinical relevance of the change is unknown.",
+          "quote_options": [
+            {
+              "quote_id": "E3.Q1",
+              "text": "Even though the pre- and postoperative questionnaire scores differed significantly in all included studies, this does not immediately implicate a clinically relevant difference in HRQoL."
+            },
+            {
+              "quote_id": "E3.Q2",
+              "text": "For that reason, the minimal clinically important difference (MCID), defined as the smallest change in outcome that is relevant to the patient (64), is required."
+            },
+            {
+              "quote_id": "E3.Q3",
+              "text": "This patient-centered outcome is, thus, dependent on the magnitude of improvement in combination with the value patients relate to the change (64)."
+            },
+            {
+              "quote_id": "E3.Q4",
+              "text": "Considering the patient-centered aspect of this systematic review and the aims of the included studies, the MCID should ideally be investigated."
+            },
+            {
+              "quote_id": "E3.Q5",
+              "text": "However, the MCID was only calculated for the ZCMEI-21 questionnaire (39) at 5.3 points."
+            },
+            {
+              "quote_id": "E3.Q6",
+              "text": "With this MCID in mind, all studies that used ZCMEI-21 demonstrated that the difference in HRQoL was clinically relevant."
+            },
+            {
+              "quote_id": "E3.Q7",
+              "text": "The mean changes between the pre- and postoperative measurements were 8 (31), 6.8 (39), and 6.9 (40)."
+            },
+            {
+              "quote_id": "E3.Q8",
+              "text": "The MCID for the CES, COMOT-15, and COMQ-12 is not reported in the literature to date."
+            },
+            {
+              "quote_id": "E3.Q9",
+              "text": "Hence, the clinical importance of the HRQoL changes after otologic surgical treatment in COM w/wo cholesteatoma patients is largely unknown."
+            },
+            {
+              "quote_id": "E3.Q10",
+              "text": "However, for the COMQ-12 questionnaire, a cut-off value of 8 was published (65), which means that a total score of 8 or lower indicates a normal HRQoL."
+            },
+            {
+              "quote_id": "E3.Q11",
+              "text": "The two included studies that used COMQ-12 (42, 44) reported significantly lower postoperative scores of 9.35 after 28 months follow-up (44) and of 14.8 12 months postoperative (42)."
+            },
+            {
+              "quote_id": "E3.Q12",
+              "text": "These values indicate HRQoL changing to almost normal values, however, the clinical relevance of the change is unknown."
+            }
+          ],
+          "text_truncated": false,
+          "clinical_review": "pending"
+        },
+        {
+          "evidence_id": "E4",
+          "version_id": "4c3cc2a2-3002-4fc5-bcb2-dc5cb68b2375",
+          "chunk_id": "8dfb8262e3c4d9ae8a776deb",
+          "document_id": "adult-com-qol-2023",
+          "title": "Health-related quality of life after otologic surgical treatment for chronic otitis media: systematic review",
+          "locator": "body/sec[3]/sec[2]/p[1]",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10654635/",
+          "text": "Table 1 represents a detailed overview of the relevant characteristics of the included studies. The studies are clustered based on the HRQoL questionnaire used. All studies were prospective observational studies with pre- and postoperative measurements, published between 2000 and 2023. Information about HRQoL scores before and after otologic surgical treatment was gathered with the use of seven different validated HRQoL questionnaires. The sample sizes per study ranged between 26 (44) and 167 (43) patients, resulting in a total of 1,329 included patients with a mean age of 44.74 years. HRQoL assessment was conducted with at least one disease-specific HRQoL questionnaire in each study. One questionnaire for general chronic middle ear diseases (CES) was used and three COM-specific questionnaires (COMQ-12, ZCMEI-21, and COMOT-15). CES (3, 35–38) and COMOT-15 (8, 31–34) were used in five different studies, and the ZCMEI-21 (31, 39, 40) and COMQ-12 (42–44) in three studies. Furthermore, three general HRQoL questionnaires were used: SF-36 (8, 31, 43), SF-12V2 (38), and Euro-Qol-5D-5L (42). A hearing-specific QoL questionnaire (HHIA) was used once (42). Table 2 provides an overview of the content of each disease-specific HRQoL questionnaire. All questionnaires contain questions on classic ear symptoms, use of medical resources, and impact on daily life activities, except for COMOT-15 which does not encompass the latter. COMOT-15, COMQ-12, and ZCMEI-21 include psychological aspects as well. However, besides covering different domains of HRQoL, each questionnaire has its own interpretation of these domains.",
+          "quote_options": [
+            {
+              "quote_id": "E4.Q1",
+              "text": "Table 1 represents a detailed overview of the relevant characteristics of the included studies."
+            },
+            {
+              "quote_id": "E4.Q2",
+              "text": "The studies are clustered based on the HRQoL questionnaire used."
+            },
+            {
+              "quote_id": "E4.Q3",
+              "text": "All studies were prospective observational studies with pre- and postoperative measurements, published between 2000 and 2023."
+            },
+            {
+              "quote_id": "E4.Q4",
+              "text": "Information about HRQoL scores before and after otologic surgical treatment was gathered with the use of seven different validated HRQoL questionnaires."
+            },
+            {
+              "quote_id": "E4.Q5",
+              "text": "The sample sizes per study ranged between 26 (44) and 167 (43) patients, resulting in a total of 1,329 included patients with a mean age of 44.74 years."
+            },
+            {
+              "quote_id": "E4.Q6",
+              "text": "HRQoL assessment was conducted with at least one disease-specific HRQoL questionnaire in each study."
+            },
+            {
+              "quote_id": "E4.Q7",
+              "text": "One questionnaire for general chronic middle ear diseases (CES) was used and three COM-specific questionnaires (COMQ-12, ZCMEI-21, and COMOT-15)."
+            },
+            {
+              "quote_id": "E4.Q8",
+              "text": "CES (3, 35–38) and COMOT-15 (8, 31–34) were used in five different studies, and the ZCMEI-21 (31, 39, 40) and COMQ-12 (42–44) in three studies."
+            },
+            {
+              "quote_id": "E4.Q9",
+              "text": "Furthermore, three general HRQoL questionnaires were used: SF-36 (8, 31, 43), SF-12V2 (38), and Euro-Qol-5D-5L (42)."
+            },
+            {
+              "quote_id": "E4.Q10",
+              "text": "A hearing-specific QoL questionnaire (HHIA) was used once (42)."
+            },
+            {
+              "quote_id": "E4.Q11",
+              "text": "Table 2 provides an overview of the content of each disease-specific HRQoL questionnaire."
+            },
+            {
+              "quote_id": "E4.Q12",
+              "text": "All questionnaires contain questions on classic ear symptoms, use of medical resources, and impact on daily life activities, except for COMOT-15 which does not encompass the latter."
+            },
+            {
+              "quote_id": "E4.Q13",
+              "text": "COMOT-15, COMQ-12, and ZCMEI-21 include psychological aspects as well."
+            },
+            {
+              "quote_id": "E4.Q14",
+              "text": "However, besides covering different domains of HRQoL, each questionnaire has its own interpretation of these domains."
+            }
+          ],
+          "text_truncated": false,
+          "clinical_review": "pending"
+        },
+        {
+          "evidence_id": "E5",
+          "version_id": "d5005279-1bad-491f-8122-a2d05e558146",
+          "chunk_id": "4e0e6f8c9d6507642b86e9ef",
+          "document_id": "tinnitus-s3-2022",
+          "title": "S3 Guideline: Chronic Tinnitus",
+          "locator": "body/sec[5]/sec[5]/list[1]/list-item[1]/p[1]",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9581878/",
+          "text": "Grades 1 and 2: compensated tinnitus",
+          "quote_options": [
+            {
+              "quote_id": "E5.Q1",
+              "text": "Grades 1 and 2: compensated tinnitus"
+            }
+          ],
+          "text_truncated": false,
+          "clinical_review": "pending"
+        },
+        {
+          "evidence_id": "E6",
+          "version_id": "d5005279-1bad-491f-8122-a2d05e558146",
+          "chunk_id": "9e440ee33778c2ce09a7c979",
+          "document_id": "tinnitus-s3-2022",
+          "title": "S3 Guideline: Chronic Tinnitus",
+          "locator": "body/sec[8]/sec[3]/list[1]/list-item[6]/p[1]",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9581878/",
+          "text": "Can the tinnitus be masked by ordinary ambient noise?",
+          "quote_options": [
+            {
+              "quote_id": "E6.Q1",
+              "text": "Can the tinnitus be masked by ordinary ambient noise?"
+            }
+          ],
+          "text_truncated": false,
+          "clinical_review": "pending"
+        }
+      ],
+      "validation": {
+        "citation_identity_and_quote_match": true,
+        "semantic_support": "model_judgment_only",
+        "clinical_approval": false,
+        "input_check": "field_presence_only",
+        "requested_quote_selectors": 0,
+        "atomization": [],
+        "dose_screen": "heuristic_passed",
+        "quote_repair": {
+          "attempts": 0,
+          "accepted": false
+        },
+        "verification": {
+          "claims": [],
+          "retained_answer_addresses_question": false,
+          "refusal_assessment": "justified",
+          "refusal_supports": [],
+          "atom_groups": [],
+          "split_group_complete": true,
+          "mixed_group_withheld": false,
+          "format_attempts": 1,
+          "format_errors": []
+        },
+        "verification_metadata": {
+          "requested_model": "deepseek-flash",
+          "returned_model": "deepseek-flash",
+          "usage": {
+            "prompt_tokens": 4959,
+            "completion_tokens": 31,
+            "total_tokens": 4990
+          },
+          "prompt_sha256": "a6f57eb28029aa4cb45ad7a5e6150673492e36976be6c68addd6d5e035097042"
+        },
+        "original_status": "insufficient_evidence"
+      },
+      "model": "deepseek-flash",
+      "provider_base_url": "https://api.deepseek.com",
+      "elapsed_ms": 7322,
+      "synthetic_only": true,
+      "generation_metadata": {
+        "requested_model": "deepseek-flash",
+        "returned_model": "deepseek-flash",
+        "usage": {
+          "prompt_tokens": 5324,
+          "completion_tokens": 35,
+          "total_tokens": 5359
+        },
+        "prompt_sha256": "60a446826ac9d6ed5aad4e834108efa6adefabc29a1025eb2902fad645f36ae6"
+      }
+    },
+    "human_review": "pending"
+  }
+]

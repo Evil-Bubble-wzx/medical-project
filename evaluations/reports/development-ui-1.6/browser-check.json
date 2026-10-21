@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "synthetic_fixture_only": true,
+  "checks": [
+    "pending_evidence_cannot_prepare",
+    "selected_evidence_preview_scope",
+    "operator_and_reason_required",
+    "prepare_does_not_activate_and_clears_plan",
+    "activation_cancel_preserves_current",
+    "explicit_activation_updates_current",
+    "failure_preserves_operator_text_and_invalidates_plan",
+    "concurrent_activation_conflict_preserves_input",
+    "unsaved_review_blocks_release_operations",
+    "rollback_prepare_then_explicit_activation",
+    "withdraw_immediate_before_snapshot_activation",
+    "rollback_cannot_resurrect_withdrawn_version",
+    "mobile_layout_and_no_javascript_errors"
+  ],
+  "errors": []
+}

@@ -1,0 +1,57 @@
+{
+  "batch": "3.4",
+  "workflow_cases": 26,
+  "offline_tests": 493,
+  "browser_checks": 25,
+  "case_status_counts": {
+    "answered": 12,
+    "validation_failed": 5,
+    "insufficient_evidence": 3,
+    "needs_information": 6
+  },
+  "validation_error_counts": {
+    "patient_summary_diagnostic_overstatement": 2,
+    "source_scope_overreach": 3
+  },
+  "outcome_categories": {
+    "answer_ready": 12,
+    "content_rejected": 6,
+    "scope_boundary": 2,
+    "needs_information": 6
+  },
+  "strict_saved_answer_replays": 12,
+  "previous_raw_status_counts": {
+    "answered": 9,
+    "validation_failed": 9,
+    "insufficient_evidence": 2,
+    "needs_information": 6
+  },
+  "quality_accepted": false,
+  "clinical_approval": false,
+  "human_review": "pending",
+  "independent_test_set": false,
+  "provider_request_total": null,
+  "limits": [
+    "26 related synthetic development cases; not independent clinical samples.",
+    "No failed case reruns; workflow retains its existing bounded revision policy.",
+    "Core verification adds a model call; not human medical review.",
+    "Input records are not medical comparisons; states are field heuristics.",
+    "Summary expansion still needs review; 12 answers is not accuracy."
+  ],
+  "hashes": {
+    "dataset": "f6a62bc8ca64d4fba0e7c6ec4acbd99bdedce465fe0f79c27c59e546e40fda41",
+    "results": "5af6d8063eb7ee05aacbd6cc837c3f87ff3737c925ce2d8423b17ec99760dbdc",
+    "manifest": "7f3fd8ef632ca0efe744f147ea52188aa127ed259e10873dd8b1873c4c30b89e",
+    "previous_results": "66d6cd8cf98cfb0ab7dc173b2bd33d7a79f85175a956edf6b53db6da477713fc"
+  },
+  "output_review": {
+    "report": "audit/model-output-review.json",
+    "sha256": "e0d0d3a0e151c9a44d095dcebd0553ec628a4df1f86b4815e8d9524195cd5b57",
+    "display_items": 47,
+    "medical_prose_items": 41,
+    "supported_with_limits": 38,
+    "needs_review": 3,
+    "input_record_exact": 6,
+    "medical_approval": false
+  }
+}

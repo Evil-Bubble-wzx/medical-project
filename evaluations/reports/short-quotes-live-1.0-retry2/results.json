@@ -1,0 +1,8 @@
+[
+  {
+    "case_id": "GEN-ENT-002",
+    "error": "generation_run_failed",
+    "http_status": 503,
+    "diagnostic_code": "provider_connect_failed"
+  }
+]

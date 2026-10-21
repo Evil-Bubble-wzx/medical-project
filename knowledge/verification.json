@@ -1,0 +1,127 @@
+{
+  "verified_at": "2026-10-19T03:58:38.577752+00:00",
+  "passed": true,
+  "manifest_sha256": "4c43c46401ab1f11ea9d6a6fd1f6b55df3938d0c954829782ca6f72c92ee57aa",
+  "documents": [
+    {
+      "id": "adult-rhinitis-eaaci-2017",
+      "raw_integrity": true,
+      "normalization_reproduced": true,
+      "chunks": 80
+    },
+    {
+      "id": "tinnitus-s3-2022",
+      "raw_integrity": true,
+      "normalization_reproduced": true,
+      "chunks": 433
+    },
+    {
+      "id": "rhinitis-review-2024",
+      "raw_integrity": true,
+      "normalization_reproduced": true,
+      "chunks": 53
+    },
+    {
+      "id": "crs-apac-2024",
+      "raw_integrity": true,
+      "normalization_reproduced": true,
+      "chunks": 30
+    },
+    {
+      "id": "adult-com-qol-2023",
+      "raw_integrity": true,
+      "normalization_reproduced": true,
+      "chunks": 52
+    },
+    {
+      "id": "adult-aom-inner-ear-2023",
+      "raw_integrity": true,
+      "normalization_reproduced": true,
+      "chunks": 37
+    },
+    {
+      "id": "tinnitus-evidence-2023",
+      "raw_integrity": true,
+      "normalization_reproduced": true,
+      "chunks": 65
+    },
+    {
+      "id": "adult-sore-throat-review-2024",
+      "raw_integrity": true,
+      "normalization_reproduced": true,
+      "chunks": 39
+    },
+    {
+      "id": "tonsillitis-review-2023",
+      "raw_integrity": true,
+      "normalization_reproduced": true,
+      "chunks": 53
+    },
+    {
+      "id": "nidcd-tinnitus",
+      "raw_integrity": true,
+      "normalization_reproduced": true,
+      "chunks": 37
+    },
+    {
+      "id": "nidcd-presbycusis",
+      "raw_integrity": true,
+      "normalization_reproduced": true,
+      "chunks": 34
+    },
+    {
+      "id": "nidcd-hoarseness",
+      "raw_integrity": true,
+      "normalization_reproduced": true,
+      "chunks": 19
+    }
+  ],
+  "indexed_chunks": 802,
+  "topic_searches": {
+    "rhinitis": {
+      "query": "鼻炎",
+      "hits": 3,
+      "source_ids": [
+        "adult-rhinitis-eaaci-2017"
+      ]
+    },
+    "sinusitis": {
+      "query": "鼻窦炎",
+      "hits": 3,
+      "source_ids": [
+        "crs-apac-2024"
+      ]
+    },
+    "otitis_media": {
+      "query": "中耳炎",
+      "hits": 3,
+      "source_ids": [
+        "adult-aom-inner-ear-2023",
+        "adult-com-qol-2023"
+      ]
+    },
+    "hearing_loss": {
+      "query": "听力下降",
+      "hits": 3,
+      "source_ids": [
+        "adult-aom-inner-ear-2023",
+        "nidcd-presbycusis"
+      ]
+    },
+    "tinnitus": {
+      "query": "耳鸣",
+      "hits": 3,
+      "source_ids": [
+        "tinnitus-s3-2022"
+      ]
+    },
+    "throat": {
+      "query": "声嘶",
+      "hits": 3,
+      "source_ids": [
+        "nidcd-hoarseness"
+      ]
+    }
+  },
+  "clinical_quality_validated": false
+}

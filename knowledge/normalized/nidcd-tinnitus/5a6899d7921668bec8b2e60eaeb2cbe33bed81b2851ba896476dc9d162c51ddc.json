@@ -1,0 +1,566 @@
+{
+  "paragraphs": [
+    {
+      "text": "What creates the perception of noise in the ears?",
+      "section": "Overview",
+      "locator": "main/block[1]"
+    },
+    {
+      "text": "What types of tinnitus-related research are scientists conducting?",
+      "section": "Overview",
+      "locator": "main/block[2]"
+    },
+    {
+      "text": "Where can I find additional information about tinnitus?",
+      "section": "Overview",
+      "locator": "main/block[3]"
+    },
+    {
+      "text": "Tinnitus (pronounced tih-NITE-us or TIN-uh-tus) is the perception of sound that does not have an external source, so other people cannot hear it.",
+      "section": "What is tinnitus?",
+      "locator": "main/block[4]"
+    },
+    {
+      "text": "Tinnitus is commonly described as a ringing sound, but some people hear other types of sounds, such as roaring or buzzing. Tinnitus is common, with surveys estimating that 10 to 25% of adults have it. Children can also have tinnitus. For children and adults, tinnitus may improve or even go away over time, but in some cases, it worsens with time. When tinnitus lasts for three months or longer, it is considered chronic.",
+      "section": "What is tinnitus?",
+      "locator": "main/block[5]"
+    },
+    {
+      "text": "The causes of tinnitus are unclear, but most people who have it have some degree of hearing loss. Tinnitus is only rarely associated with a serious medical problem and is usually not severe enough to interfere with daily life. However, some people find that it affects their mood and their ability to sleep or concentrate. In severe cases, tinnitus can lead to anxiety or depression.",
+      "section": "What is tinnitus?",
+      "locator": "main/block[6]"
+    },
+    {
+      "text": "Currently, there is no cure for tinnitus, but there are ways to reduce symptoms. Common approaches include the use of sound therapy devices (including hearing aids), behavioral therapies, and medications.",
+      "section": "What is tinnitus?",
+      "locator": "main/block[7]"
+    },
+    {
+      "text": "The symptoms of tinnitus can vary significantly from person to person. You may hear phantom sounds in one ear, in both ears, and in your head. The phantom sound may ring, buzz, roar, whistle, hum, click, hiss, or squeal. The sound may be soft or loud and may be low or high pitched. It may come and go or be present all the time. Sometimes, moving your head, neck, or eyes, or touching certain parts of your body may produce tinnitus symptoms or temporarily change the quality of the perceived sound. This is called somatosensory (pronounced so-ma-toe-SENSE-uh-ree) tinnitus.",
+      "section": "What are the symptoms of tinnitus?",
+      "locator": "main/block[8]"
+    },
+    {
+      "text": "Most cases of tinnitus are subjective, meaning that only you can hear the sounds. In rare cases, the sound pulsates rhythmically, often in time to your heartbeat. In these cases, a doctor may be able to hear the sounds with a stethoscope and, if so, it is considered to be objective tinnitus. Often, objective tinnitus has an identifiable cause and is treatable.",
+      "section": "What are the symptoms of tinnitus?",
+      "locator": "main/block[9]"
+    },
+    {
+      "text": "While the exact causes of tinnitus are not fully understood, it has been linked to the following:",
+      "section": "What causes tinnitus?",
+      "locator": "main/block[10]"
+    },
+    {
+      "text": "Noise exposure. Many people experience tinnitus after being exposed to loud noise in a workplace setting or at a sporting event or concert. Tinnitus is also the most common service-related disability among veterans because of loud noise they may have experienced from gunfire, machinery, bomb blasts, or other similar sources.",
+      "section": "What causes tinnitus?",
+      "locator": "main/block[11]"
+    },
+    {
+      "text": "Hearing loss. Hearing loss, which can be caused by factors such as aging or exposure to loud noise, is strongly associated with tinnitus. Some people with hearing loss, however, never develop tinnitus.",
+      "section": "What causes tinnitus?",
+      "locator": "main/block[12]"
+    },
+    {
+      "text": "Medications. Tinnitus can be a side effect of taking certain medications, especially if they are taken at high doses. Medications associated with tinnitus include non-steroidal anti-inflammatory drugs (e.g., ibuprofen, naproxen, and aspirin), certain antibiotics, anti-cancer drugs, anti-malaria medications, and antidepressants.",
+      "section": "What causes tinnitus?",
+      "locator": "main/block[13]"
+    },
+    {
+      "text": "Earwax or an ear infection. Blockage of the ear canal by earwax or by fluid from an ear infection can trigger tinnitus.",
+      "section": "What causes tinnitus?",
+      "locator": "main/block[14]"
+    },
+    {
+      "text": "Head or neck injuries. A head/neck injury can damage structures of the ear, the nerve that carries sound signals to the brain, or areas of the brain that process sound, causing tinnitus.",
+      "section": "What causes tinnitus?",
+      "locator": "main/block[15]"
+    },
+    {
+      "text": "Less common tinnitus risk factors include:",
+      "section": "What causes tinnitus?",
+      "locator": "main/block[16]"
+    },
+    {
+      "text": "Ménière’s disease. Tinnitus can be a symptom of Ménière’s disease, an inner ear disorder that can also cause balance problems and hearing loss.",
+      "section": "What causes tinnitus?",
+      "locator": "main/block[17]"
+    },
+    {
+      "text": "Jaw joint problems. The joint that connects the lower jaw to the skull is close to the ear. Jaw clenching or tooth grinding can damage surrounding tissue, causing or worsening tinnitus.",
+      "section": "What causes tinnitus?",
+      "locator": "main/block[18]"
+    },
+    {
+      "text": "Tumor-related disorders. A vestibular schwannoma (acoustic neuroma) is a benign tumor on a nerve that leads from the inner ear to the brain. Acoustic neuromas and other head, neck, and brain tumors can cause tinnitus.",
+      "section": "What causes tinnitus?",
+      "locator": "main/block[19]"
+    },
+    {
+      "text": "Blood vessel problems. High blood pressure, atherosclerosis, or malformations in blood vessels, especially if they are in or close to the ear, can alter blood flow and cause tinnitus.",
+      "section": "What causes tinnitus?",
+      "locator": "main/block[20]"
+    },
+    {
+      "text": "Chronic conditions. Diabetes, migraines, thyroid disorders, anemia, and certain autoimmune disorders such as lupus and multiple sclerosis are among the chronic conditions that have been linked to tinnitus.",
+      "section": "What causes tinnitus?",
+      "locator": "main/block[21]"
+    },
+    {
+      "text": "While there are many possible causes of tinnitus, some people develop it for no known reason.",
+      "section": "What causes tinnitus?",
+      "locator": "main/block[22]"
+    },
+    {
+      "text": "One leading theory is that tinnitus can occur when damage to the inner ear changes the signal carried by nerves to the parts of your brain that process sound. A way to think about this is that while tinnitus may seem to occur in your ear, the phantom sounds are instead generated by your brain, in an area called the auditory cortex.",
+      "section": "What creates the perception of noise in the ears?",
+      "locator": "main/block[23]"
+    },
+    {
+      "text": "Other evidence shows that abnormal interactions between the auditory cortex and other neural circuits may play a role in tinnitus. The auditory cortex communicates with other parts of the brain, such as the parts that control attention and emotions, and studies have shown that some people with tinnitus have changes in these nonauditory brain regions.",
+      "section": "What creates the perception of noise in the ears?",
+      "locator": "main/block[24]"
+    },
+    {
+      "text": "If you have tinnitus, first see your primary care doctor, who will check for earwax or fluid from an ear infection that could be blocking your ear canal. Your doctor will also ask about your medical history to find out if an underlying condition or a medication may be causing your tinnitus.",
+      "section": "How is tinnitus diagnosed?",
+      "locator": "main/block[25]"
+    },
+    {
+      "text": "Next, you may be referred to an otolaryngologist (commonly called an ear, nose, and throat doctor, or an ENT). The ENT will ask you to describe the tinnitus sounds and when they started, and will examine your head, neck, and ears. You might also be referred to an audiologist, who can measure your hearing and evaluate your tinnitus.",
+      "section": "How is tinnitus diagnosed?",
+      "locator": "main/block[26]"
+    },
+    {
+      "text": "The ENT may order imaging tests, especially if your tinnitus pulsates. Imaging tests such as magnetic resonance imaging (MRI), computed tomography (CT), or ultrasound can help reveal whether a structural problem or underlying medical condition is causing your tinnitus.",
+      "section": "How is tinnitus diagnosed?",
+      "locator": "main/block[27]"
+    },
+    {
+      "text": "When tinnitus has an underlying physiological cause, such as earwax or jaw joint problems, addressing the cause can eliminate or greatly reduce symptoms. But for many people, symptoms can persist for months or even years. There are several ways to lessen the impact of tinnitus. Below are some of the treatments that your doctor may recommend.",
+      "section": "What treatments can help tinnitus?",
+      "locator": "main/block[28]"
+    },
+    {
+      "text": "Sound therapies. Sound therapies are based partly on the view that tinnitus stems from changes in neural circuits in the brain brought on by hearing loss. Some evidence suggests that exposure to sound can reverse some of these neural changes and help silence tinnitus. Sound therapy may also work by masking the tinnitus sounds, helping you grow accustomed to them, or distracting you. Several types of devices are used in sound therapy. They include the following: Tabletop or smartphone sound generators are typically used as an aid for relaxation or sleep. Placed near your bed, you can program a generator or set a smartphone app to play pleasant sounds such as waves, waterfalls, rain, or the sounds of a summer night. You may also use other sound generators, such as a radio or a household fan. If your tinnitus is mild, this might be all that you need to help you fall asleep. Hearing aids are one of the main treatment options for people with tinnitus who have hearing loss. They amplify external noises, allowing you to better engage with the world, while also making your tinnitus less noticeable. Wearable sound generators are small electronic devices that fit in the ear much like hearing aids and emit soft, pleasant sounds. Because they are portable, these devices can provide continuous relief from tinnitus throughout the day. Smartphone apps may also be used to generate these sounds. Combination devices, which fit into the ear like hearing aids, provide sound amplification and sound generation in one device. These devices are another option for treating tinnitus in people with hearing loss.",
+      "section": "What treatments can help tinnitus?",
+      "locator": "main/block[29]"
+    },
+    {
+      "text": "Behavioral therapy. Counseling can improve your well-being by helping you reduce the impact of tinnitus on your life. Education about tinnitus can reduce anxiety by helping you recognize that the condition, in most cases, is unlikely to be linked to a serious medical condition. Through counseling, you can learn coping techniques and strategies to avoid making symptoms worse, such as by limiting your exposure to loud noise. Cognitive behavioral therapy teaches you how to identify negative thoughts that cause you distress. Your counselor will train you to change your response to negative thoughts and to focus on positive changes you can make to reduce the impact of tinnitus on your life. Studies have shown that this type of therapy can help improve the well-being of people with the condition. Tinnitus retraining therapy uses counseling and sound therapy to “retrain” the brain, both emotionally and physiologically, so that you no longer notice your tinnitus. The counseling aspect of therapy aims to help you reclassify tinnitus sounds as neutral, while the continuous low-level sound from a device worn in the ear helps you get used to the presence of tinnitus.",
+      "section": "What treatments can help tinnitus?",
+      "locator": "main/block[30]"
+    },
+    {
+      "text": "Medications. There are no medications specifically for treating tinnitus, but your doctor may prescribe antidepressants or anti-anxiety medications to improve your mood or help you sleep. While certain vitamins, herbal extracts, and dietary supplements are commonly advertised as cures for the condition, none of these has been proven to be effective.",
+      "section": "What treatments can help tinnitus?",
+      "locator": "main/block[31]"
+    },
+    {
+      "text": "Investigators at the National Institutes of Health (NIH) and at other research centers across the country, many supported by NIDCD, are working to better understand what causes tinnitus and to develop new treatment strategies. Evidence suggests that tinnitus is caused by changes in neural networks in the brain, so many research efforts are aimed at testing the benefit of magnetic or electrical stimulation of the brain.",
+      "section": "What types of tinnitus-related research are scientists conducting?",
+      "locator": "main/block[32]"
+    },
+    {
+      "text": "Here are some examples of current research topics:",
+      "section": "What types of tinnitus-related research are scientists conducting?",
+      "locator": "main/block[33]"
+    },
+    {
+      "text": "Electric stimulation. Cochlear implants have been shown to suppress tinnitus, in addition to restoring functional hearing in those with severe-to-profound hearing loss, but they are not suitable for the majority of tinnitus sufferers who have significant acoustic hearing. Researchers are using non-invasive electric stimulation on parts of the inner ear to suppress tinnitus while not damaging acoustic hearing.",
+      "section": "What types of tinnitus-related research are scientists conducting?",
+      "locator": "main/block[34]"
+    },
+    {
+      "text": "Bimodal stimulation. Acoustic stimulation may be combined with other types of electric stimulation on the tongue, head or neck areas, or vagus nerve to provide long-term relief for tinnitus.",
+      "section": "What types of tinnitus-related research are scientists conducting?",
+      "locator": "main/block[35]"
+    },
+    {
+      "text": "Repetitive transcranial magnetic stimulation (rTMS). In this painless, noninvasive procedure, short magnetic pulses are delivered to the brain using a device called an electromagnetic coil. Preliminary trials of rTMS have yielded mixed results, so researchers are now studying the ideal coil placement and frequency of patient visits.",
+      "section": "What types of tinnitus-related research are scientists conducting?",
+      "locator": "main/block[36]"
+    },
+    {
+      "text": "Deep brain stimulation (DBS). This procedure is normally used to treat people with certain types of movement disorders or neuropsychiatric conditions. Some people being treated with DBS found that the procedure unexpectedly reduced their tinnitus symptoms. Unlike rTMS, DBS is invasive and involves surgery to implant electrodes deep within the brain. While early results on the use of DBS for tinnitus have been encouraging, more research is needed to determine if the procedure is warranted for treating tinnitus alone.",
+      "section": "What types of tinnitus-related research are scientists conducting?",
+      "locator": "main/block[37]"
+    },
+    {
+      "text": "Medications. While there are currently no medications approved by the U.S. Food and Drug Administration for treating tinnitus, researchers are testing a number of options. Researchers have identified a drug that reduces tinnitus in mice, and they are working to develop second-generation versions that may one day prove effective in people. Researchers are studying how tinnitus is linked to hyperactivity in central auditory neurons following damage to the cochlea, the structure in the inner ear that senses sound. Scientists are working to determine the cellular mechanisms that cause increased activity, and to identify drugs that may control it and relieve tinnitus symptoms.",
+      "section": "What types of tinnitus-related research are scientists conducting?",
+      "locator": "main/block[38]"
+    },
+    {
+      "text": "Genetic risk factors. Tinnitus and hearing impairment affect many older people. Scientists are reviewing a large genetic database of people with tinnitus and age-related hearing loss to identify genetic risk factors for both conditions. Determining genetic associations with age-related hearing impairment and tinnitus may have a broad impact on risk prediction, prevention, screening, and treatment.",
+      "section": "What types of tinnitus-related research are scientists conducting?",
+      "locator": "main/block[39]"
+    },
+    {
+      "text": "Personalized treatment. Tinnitus symptoms are diverse, with different people hearing different sounds in different patterns. The results of brain imaging studies in people with tinnitus also vary considerably from person to person. Using data gathered from study participants who are tracking their tinnitus using a smartphone app, along with brain imaging data, scientists are working to characterize the many forms that the condition can take. They aim to describe distinct tinnitus profiles and to identify the most effective treatment approaches for each one.",
+      "section": "What types of tinnitus-related research are scientists conducting?",
+      "locator": "main/block[40]"
+    }
+  ],
+  "chunks": [
+    {
+      "id": "1586c93e5b3578c32bd6a475",
+      "text": "What creates the perception of noise in the ears?",
+      "section": "Overview",
+      "locator": "main/block[1]",
+      "start": 0,
+      "end": 49,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "927a87ebab4895d5caffd9ca",
+      "text": "What types of tinnitus-related research are scientists conducting?",
+      "section": "Overview",
+      "locator": "main/block[2]",
+      "start": 0,
+      "end": 66,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "c84ba66a0b6bbf330022007d",
+      "text": "Where can I find additional information about tinnitus?",
+      "section": "Overview",
+      "locator": "main/block[3]",
+      "start": 0,
+      "end": 55,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "7e0824d860d38ad6a3f115be",
+      "text": "Tinnitus (pronounced tih-NITE-us or TIN-uh-tus) is the perception of sound that does not have an external source, so other people cannot hear it.",
+      "section": "What is tinnitus?",
+      "locator": "main/block[4]",
+      "start": 0,
+      "end": 145,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "1fc0ca5540e40800ba144272",
+      "text": "Tinnitus is commonly described as a ringing sound, but some people hear other types of sounds, such as roaring or buzzing. Tinnitus is common, with surveys estimating that 10 to 25% of adults have it. Children can also have tinnitus. For children and adults, tinnitus may improve or even go away over time, but in some cases, it worsens with time. When tinnitus lasts for three months or longer, it is considered chronic.",
+      "section": "What is tinnitus?",
+      "locator": "main/block[5]",
+      "start": 0,
+      "end": 421,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "997517821ca30a12e257aa5f",
+      "text": "The causes of tinnitus are unclear, but most people who have it have some degree of hearing loss. Tinnitus is only rarely associated with a serious medical problem and is usually not severe enough to interfere with daily life. However, some people find that it affects their mood and their ability to sleep or concentrate. In severe cases, tinnitus can lead to anxiety or depression.",
+      "section": "What is tinnitus?",
+      "locator": "main/block[6]",
+      "start": 0,
+      "end": 383,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "b246b151883b346528323b9f",
+      "text": "Currently, there is no cure for tinnitus, but there are ways to reduce symptoms. Common approaches include the use of sound therapy devices (including hearing aids), behavioral therapies, and medications.",
+      "section": "What is tinnitus?",
+      "locator": "main/block[7]",
+      "start": 0,
+      "end": 204,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "280a61e1c06b241d009de760",
+      "text": "The symptoms of tinnitus can vary significantly from person to person. You may hear phantom sounds in one ear, in both ears, and in your head. The phantom sound may ring, buzz, roar, whistle, hum, click, hiss, or squeal. The sound may be soft or loud and may be low or high pitched. It may come and go or be present all the time. Sometimes, moving your head, neck, or eyes, or touching certain parts of your body may produce tinnitus symptoms or temporarily change the quality of the perceived sound. This is called somatosensory (pronounced so-ma-toe-SENSE-uh-ree) tinnitus.",
+      "section": "What are the symptoms of tinnitus?",
+      "locator": "main/block[8]",
+      "start": 0,
+      "end": 575,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "e58613766c370977be1cdee4",
+      "text": "Most cases of tinnitus are subjective, meaning that only you can hear the sounds. In rare cases, the sound pulsates rhythmically, often in time to your heartbeat. In these cases, a doctor may be able to hear the sounds with a stethoscope and, if so, it is considered to be objective tinnitus. Often, objective tinnitus has an identifiable cause and is treatable.",
+      "section": "What are the symptoms of tinnitus?",
+      "locator": "main/block[9]",
+      "start": 0,
+      "end": 362,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "ebca3c45f0d18c1900b13cdc",
+      "text": "While the exact causes of tinnitus are not fully understood, it has been linked to the following:",
+      "section": "What causes tinnitus?",
+      "locator": "main/block[10]",
+      "start": 0,
+      "end": 97,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "4af5aab6419f65ec67d7ea0a",
+      "text": "Noise exposure. Many people experience tinnitus after being exposed to loud noise in a workplace setting or at a sporting event or concert. Tinnitus is also the most common service-related disability among veterans because of loud noise they may have experienced from gunfire, machinery, bomb blasts, or other similar sources.",
+      "section": "What causes tinnitus?",
+      "locator": "main/block[11]",
+      "start": 0,
+      "end": 326,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "82cbf4a80f61c1e4355c6bc3",
+      "text": "Hearing loss. Hearing loss, which can be caused by factors such as aging or exposure to loud noise, is strongly associated with tinnitus. Some people with hearing loss, however, never develop tinnitus.",
+      "section": "What causes tinnitus?",
+      "locator": "main/block[12]",
+      "start": 0,
+      "end": 201,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "6ab8268350754ad5072ab0fc",
+      "text": "Medications. Tinnitus can be a side effect of taking certain medications, especially if they are taken at high doses. Medications associated with tinnitus include non-steroidal anti-inflammatory drugs (e.g., ibuprofen, naproxen, and aspirin), certain antibiotics, anti-cancer drugs, anti-malaria medications, and antidepressants.",
+      "section": "What causes tinnitus?",
+      "locator": "main/block[13]",
+      "start": 0,
+      "end": 329,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "002abc332d88945826540e19",
+      "text": "Earwax or an ear infection. Blockage of the ear canal by earwax or by fluid from an ear infection can trigger tinnitus.",
+      "section": "What causes tinnitus?",
+      "locator": "main/block[14]",
+      "start": 0,
+      "end": 119,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "3294273dc14bd887aa425b9c",
+      "text": "Head or neck injuries. A head/neck injury can damage structures of the ear, the nerve that carries sound signals to the brain, or areas of the brain that process sound, causing tinnitus.",
+      "section": "What causes tinnitus?",
+      "locator": "main/block[15]",
+      "start": 0,
+      "end": 186,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "3d2c759ddb58446714c371af",
+      "text": "Less common tinnitus risk factors include:",
+      "section": "What causes tinnitus?",
+      "locator": "main/block[16]",
+      "start": 0,
+      "end": 42,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "d800825c4111c4798149a161",
+      "text": "Ménière’s disease. Tinnitus can be a symptom of Ménière’s disease, an inner ear disorder that can also cause balance problems and hearing loss.",
+      "section": "What causes tinnitus?",
+      "locator": "main/block[17]",
+      "start": 0,
+      "end": 143,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "e1fe166289710a047d0c3d2b",
+      "text": "Jaw joint problems. The joint that connects the lower jaw to the skull is close to the ear. Jaw clenching or tooth grinding can damage surrounding tissue, causing or worsening tinnitus.",
+      "section": "What causes tinnitus?",
+      "locator": "main/block[18]",
+      "start": 0,
+      "end": 185,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "33b3bbb2ce7a699ec0a827b3",
+      "text": "Tumor-related disorders. A vestibular schwannoma (acoustic neuroma) is a benign tumor on a nerve that leads from the inner ear to the brain. Acoustic neuromas and other head, neck, and brain tumors can cause tinnitus.",
+      "section": "What causes tinnitus?",
+      "locator": "main/block[19]",
+      "start": 0,
+      "end": 217,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "748450cdfc096eb366ceb4f6",
+      "text": "Blood vessel problems. High blood pressure, atherosclerosis, or malformations in blood vessels, especially if they are in or close to the ear, can alter blood flow and cause tinnitus.",
+      "section": "What causes tinnitus?",
+      "locator": "main/block[20]",
+      "start": 0,
+      "end": 183,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "a03289ebdc3e69f16996320d",
+      "text": "Chronic conditions. Diabetes, migraines, thyroid disorders, anemia, and certain autoimmune disorders such as lupus and multiple sclerosis are among the chronic conditions that have been linked to tinnitus.",
+      "section": "What causes tinnitus?",
+      "locator": "main/block[21]",
+      "start": 0,
+      "end": 205,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "1dceb299fca4973be5435881",
+      "text": "While there are many possible causes of tinnitus, some people develop it for no known reason.",
+      "section": "What causes tinnitus?",
+      "locator": "main/block[22]",
+      "start": 0,
+      "end": 93,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "7aad441c5baf142b137aa513",
+      "text": "One leading theory is that tinnitus can occur when damage to the inner ear changes the signal carried by nerves to the parts of your brain that process sound. A way to think about this is that while tinnitus may seem to occur in your ear, the phantom sounds are instead generated by your brain, in an area called the auditory cortex.",
+      "section": "What creates the perception of noise in the ears?",
+      "locator": "main/block[23]",
+      "start": 0,
+      "end": 333,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "12395673f058fee0444d84cf",
+      "text": "Other evidence shows that abnormal interactions between the auditory cortex and other neural circuits may play a role in tinnitus. The auditory cortex communicates with other parts of the brain, such as the parts that control attention and emotions, and studies have shown that some people with tinnitus have changes in these nonauditory brain regions.",
+      "section": "What creates the perception of noise in the ears?",
+      "locator": "main/block[24]",
+      "start": 0,
+      "end": 352,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "a7b79b6953c8946cd3adb5f7",
+      "text": "If you have tinnitus, first see your primary care doctor, who will check for earwax or fluid from an ear infection that could be blocking your ear canal. Your doctor will also ask about your medical history to find out if an underlying condition or a medication may be causing your tinnitus.",
+      "section": "How is tinnitus diagnosed?",
+      "locator": "main/block[25]",
+      "start": 0,
+      "end": 291,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "ef35bdeb09094db2dbaaa1dc",
+      "text": "Next, you may be referred to an otolaryngologist (commonly called an ear, nose, and throat doctor, or an ENT). The ENT will ask you to describe the tinnitus sounds and when they started, and will examine your head, neck, and ears. You might also be referred to an audiologist, who can measure your hearing and evaluate your tinnitus.",
+      "section": "How is tinnitus diagnosed?",
+      "locator": "main/block[26]",
+      "start": 0,
+      "end": 333,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "0a7d3ec9fe0fe7a28693b2d7",
+      "text": "The ENT may order imaging tests, especially if your tinnitus pulsates. Imaging tests such as magnetic resonance imaging (MRI), computed tomography (CT), or ultrasound can help reveal whether a structural problem or underlying medical condition is causing your tinnitus.",
+      "section": "How is tinnitus diagnosed?",
+      "locator": "main/block[27]",
+      "start": 0,
+      "end": 269,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "c6ead8032b25b0630c8fc0ae",
+      "text": "When tinnitus has an underlying physiological cause, such as earwax or jaw joint problems, addressing the cause can eliminate or greatly reduce symptoms. But for many people, symptoms can persist for months or even years. There are several ways to lessen the impact of tinnitus. Below are some of the treatments that your doctor may recommend.",
+      "section": "What treatments can help tinnitus?",
+      "locator": "main/block[28]",
+      "start": 0,
+      "end": 343,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "91e6afe79a018de03c95a78a",
+      "text": "Sound therapies. Sound therapies are based partly on the view that tinnitus stems from changes in neural circuits in the brain brought on by hearing loss. Some evidence suggests that exposure to sound can reverse some of these neural changes and help silence tinnitus. Sound therapy may also work by masking the tinnitus sounds, helping you grow accustomed to them, or distracting you. Several types of devices are used in sound therapy. They include the following: Tabletop or smartphone sound generators are typically used as an aid for relaxation or sleep. Placed near your bed, you can program a generator or set a smartphone app to play pleasant sounds such as waves, waterfalls, rain, or the sounds of a summer night. You may also use other sound generators, such as a radio or a household fan. If your tinnitus is mild, this might be all that you need to help you fall asleep. Hearing aids are one of the main treatment options for people with tinnitus who have hearing loss. They amplify external noises, allowing you to better engage with the world, while also making your tinnitus less noticeable. Wearable sound generators are small electronic devices that fit in the ear much like hearing aids and emit soft, pleasant sounds. Because they are portable, these devices can provide continuous relief from tinnitus throughout the day. Smartphone apps may also be used to generate these sounds. Combination devices, which fit into the ear like hearing aids, provide sound amplification and sound generation in one device. These devices are another option for treating tinnitus in people with hearing loss.",
+      "section": "What treatments can help tinnitus?",
+      "locator": "main/block[29]",
+      "start": 0,
+      "end": 1612,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "031b00ce98e98a6d1d2ab32b",
+      "text": "Behavioral therapy. Counseling can improve your well-being by helping you reduce the impact of tinnitus on your life. Education about tinnitus can reduce anxiety by helping you recognize that the condition, in most cases, is unlikely to be linked to a serious medical condition. Through counseling, you can learn coping techniques and strategies to avoid making symptoms worse, such as by limiting your exposure to loud noise. Cognitive behavioral therapy teaches you how to identify negative thoughts that cause you distress. Your counselor will train you to change your response to negative thoughts and to focus on positive changes you can make to reduce the impact of tinnitus on your life. Studies have shown that this type of therapy can help improve the well-being of people with the condition. Tinnitus retraining therapy uses counseling and sound therapy to “retrain” the brain, both emotionally and physiologically, so that you no longer notice your tinnitus. The counseling aspect of therapy aims to help you reclassify tinnitus sounds as neutral, while the continuous low-level sound from a device worn in the ear helps you get used to the presence of tinnitus.",
+      "section": "What treatments can help tinnitus?",
+      "locator": "main/block[30]",
+      "start": 0,
+      "end": 1173,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "265bb2d568828fdf86fc43d4",
+      "text": "Medications. There are no medications specifically for treating tinnitus, but your doctor may prescribe antidepressants or anti-anxiety medications to improve your mood or help you sleep. While certain vitamins, herbal extracts, and dietary supplements are commonly advertised as cures for the condition, none of these has been proven to be effective.",
+      "section": "What treatments can help tinnitus?",
+      "locator": "main/block[31]",
+      "start": 0,
+      "end": 351,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "4203c59206730d4ddf0c5238",
+      "text": "Investigators at the National Institutes of Health (NIH) and at other research centers across the country, many supported by NIDCD, are working to better understand what causes tinnitus and to develop new treatment strategies. Evidence suggests that tinnitus is caused by changes in neural networks in the brain, so many research efforts are aimed at testing the benefit of magnetic or electrical stimulation of the brain.",
+      "section": "What types of tinnitus-related research are scientists conducting?",
+      "locator": "main/block[32]",
+      "start": 0,
+      "end": 422,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "297aecef98c66e9339b2cd1a",
+      "text": "Here are some examples of current research topics:",
+      "section": "What types of tinnitus-related research are scientists conducting?",
+      "locator": "main/block[33]",
+      "start": 0,
+      "end": 50,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "57f19168c22e34973560b021",
+      "text": "Electric stimulation. Cochlear implants have been shown to suppress tinnitus, in addition to restoring functional hearing in those with severe-to-profound hearing loss, but they are not suitable for the majority of tinnitus sufferers who have significant acoustic hearing. Researchers are using non-invasive electric stimulation on parts of the inner ear to suppress tinnitus while not damaging acoustic hearing.",
+      "section": "What types of tinnitus-related research are scientists conducting?",
+      "locator": "main/block[34]",
+      "start": 0,
+      "end": 412,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "a3d491590bf3252751215e99",
+      "text": "Bimodal stimulation. Acoustic stimulation may be combined with other types of electric stimulation on the tongue, head or neck areas, or vagus nerve to provide long-term relief for tinnitus.",
+      "section": "What types of tinnitus-related research are scientists conducting?",
+      "locator": "main/block[35]",
+      "start": 0,
+      "end": 190,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "b6f3c2feabca6661bccc6ede",
+      "text": "Repetitive transcranial magnetic stimulation (rTMS). In this painless, noninvasive procedure, short magnetic pulses are delivered to the brain using a device called an electromagnetic coil. Preliminary trials of rTMS have yielded mixed results, so researchers are now studying the ideal coil placement and frequency of patient visits.",
+      "section": "What types of tinnitus-related research are scientists conducting?",
+      "locator": "main/block[36]",
+      "start": 0,
+      "end": 334,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "e4ebe4a60c5ff57f3e58791d",
+      "text": "Deep brain stimulation (DBS). This procedure is normally used to treat people with certain types of movement disorders or neuropsychiatric conditions. Some people being treated with DBS found that the procedure unexpectedly reduced their tinnitus symptoms. Unlike rTMS, DBS is invasive and involves surgery to implant electrodes deep within the brain. While early results on the use of DBS for tinnitus have been encouraging, more research is needed to determine if the procedure is warranted for treating tinnitus alone.",
+      "section": "What types of tinnitus-related research are scientists conducting?",
+      "locator": "main/block[37]",
+      "start": 0,
+      "end": 521,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "cd739091eda612b0202b7f7a",
+      "text": "Medications. While there are currently no medications approved by the U.S. Food and Drug Administration for treating tinnitus, researchers are testing a number of options. Researchers have identified a drug that reduces tinnitus in mice, and they are working to develop second-generation versions that may one day prove effective in people. Researchers are studying how tinnitus is linked to hyperactivity in central auditory neurons following damage to the cochlea, the structure in the inner ear that senses sound. Scientists are working to determine the cellular mechanisms that cause increased activity, and to identify drugs that may control it and relieve tinnitus symptoms.",
+      "section": "What types of tinnitus-related research are scientists conducting?",
+      "locator": "main/block[38]",
+      "start": 0,
+      "end": 680,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "7dcd0c91b52a64baa73d4422",
+      "text": "Genetic risk factors. Tinnitus and hearing impairment affect many older people. Scientists are reviewing a large genetic database of people with tinnitus and age-related hearing loss to identify genetic risk factors for both conditions. Determining genetic associations with age-related hearing impairment and tinnitus may have a broad impact on risk prediction, prevention, screening, and treatment.",
+      "section": "What types of tinnitus-related research are scientists conducting?",
+      "locator": "main/block[39]",
+      "start": 0,
+      "end": 400,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "b78f236c883d861ee6d75076",
+      "text": "Personalized treatment. Tinnitus symptoms are diverse, with different people hearing different sounds in different patterns. The results of brain imaging studies in people with tinnitus also vary considerably from person to person. Using data gathered from study participants who are tracking their tinnitus using a smartphone app, along with brain imaging data, scientists are working to characterize the many forms that the condition can take. They aim to describe distinct tinnitus profiles and to identify the most effective treatment approaches for each one.",
+      "section": "What types of tinnitus-related research are scientists conducting?",
+      "locator": "main/block[40]",
+      "start": 0,
+      "end": 563,
+      "population_status": "adult_dev_candidate"
+    }
+  ]
+}

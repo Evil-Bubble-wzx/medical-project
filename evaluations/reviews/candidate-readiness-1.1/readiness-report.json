@@ -1,0 +1,27 @@
+{
+  "created_at": "2026-10-20T02:32:18.701230+00:00",
+  "candidate_sha256": "b06eb3a4930b0c8b73a91d8a2a6a7d197f459a4fd9b0c258d3f578caa67d02b7",
+  "candidate_cases": 36,
+  "evidence_cases": 30,
+  "boundary_cases": 6,
+  "source_count": 6,
+  "bound_evidence_chunks_verified": 32,
+  "topic_counts": {
+    "rhinitis": 6,
+    "sinusitis": 6,
+    "otitis_media": 6,
+    "hearing_loss": 6,
+    "tinnitus": 6,
+    "throat": 6
+  },
+  "archive_hashes_and_evidence_bindings": "passed",
+  "known_identity_overlap": false,
+  "source_family_semantic_review": "pending",
+  "medical_review": "pending",
+  "candidate_model_evaluation_run": false,
+  "formal_holdout_frozen": false,
+  "eligible_for_formal_independent_scoring": false,
+  "clinical_approval": false,
+  "baseline_id": "f81ffc46af106e221ee400c14fc3c4879b60b49e0837ec96a063dd18d9a51fa3",
+  "original_artifacts_unchanged": true
+}

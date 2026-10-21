@@ -1,0 +1,295 @@
+{
+  "paragraphs": [
+    {
+      "text": "Presbycusis, or age-related hearing loss, is a leading sensorineural deficit among the elderly population. Approximately 66% of individuals over the age of 70 are estimated to have some degree of presbycusis, however, only 20% of these individuals are estimated to receive appropriate therapeutic intervention (Goman and Lin, 2016; Fulop et al., 2019). The most common clinical manifestation is bilateral symmetrical sensorineural hearing loss, which has been widely documented in the literature (Gates and Mills, 2005; Agrawal et al., 2008; Bowl and Dawson, 2019). This condition significantly impairs elderly individuals’ social interaction, mental health, self-care ability, and cognitive function, and can potentially progress to cognitive decline and even dementia (Jafari et al., 2019; Zhang et al., 2021).",
+      "section": "Introduction",
+      "locator": "body/sec[1]/p[1]"
+    },
+    {
+      "text": "Primary interventional strategies for presbycusis encompass both hearing aid prescription and cochlear implantation (Briggs, 2019). In light of their cost-effectiveness, convenience, and non-invasiveness, hearing aids are typically the preferred modality for managing mild to moderate age-related hearing loss (Sprinzl and Riechelmann, 2010). However, their efficacy can be hindered by the elderly population’s limited understanding and acceptance of these devices. Consequently, the need for a comprehensive hearing rehabilitation program is of crucial importance. This type of program aids patients in adapting to hearing aids, ensures the devices are functioning optimally, augments the effectiveness of hearing rehabilitation, and, ultimately, enhances patient satisfaction (Lu et al., 2019).",
+      "section": "Introduction",
+      "locator": "body/sec[1]/p[2]"
+    },
+    {
+      "text": "Hearing rehabilitation programs typically integrate health education and patient follow-ups, with the effectiveness of health education evaluated through monitoring patients’ hearing aid usage. However, a review of the existing literature presents a complex picture due to variations in study design, sample size, and outcome measures. Notably, an earlier study reported encouraging results with telephone-based consultations as part of the rehabilitation strategy, while a more recent study, which utilized physician-led, in-person consultations, yielded less optimistic outcomes (Lundberg et al., 2011; Zhao et al., 2022). This discrepancy in findings underscores the current knowledge gap about the optimal strategies for hearing rehabilitation. To address this, our study proposes a meta-analytic approach to better understand the potential impact of hearing rehabilitation programs on the efficacy of hearing aids among presbycusis patients. This approach is intended to provide a comprehensive evaluation of how these programs may enhance hearing aid outcomes in patients with age-related hearing loss.",
+      "section": "Introduction",
+      "locator": "body/sec[1]/p[3]"
+    },
+    {
+      "text": "The Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) guidelines were used for the review design and methodology (Page et al., 2021). Search strategy and study selection In this systematic review and meta-analysis, we evaluated randomized controlled trials to determine the effectiveness of hearing rehabilitation program interventions on hearing aid usage among older adults with hearing impairment. The search was limited to English-language publications. We conducted a systematic search of databases including PubMed, EMBASE, Web of Science, and Cochrane Library up to September 12, 2024. The search used a combination of keywords such as “age-related hearing loss” and “Aural Rehabilitation”, refined by terms such as “clinical trial” and “older adult: aged >60 years”. We also manually reviewed reference lists of the identified studies to include any relevant additional studies. This study was registered on PROSPERO(CRD42024560809).",
+      "section": "Methods / Search strategy and study selection",
+      "locator": "body/sec[2]/sec[1]/p[1]"
+    },
+    {
+      "text": "In line with the PICOS (Participant, Intervention, Control, Outcome, Study Design) framework, we included randomized controlled trials (RCTs) that studied adults primarily aged ≥60 years with age-related hearing loss who were hearing aid users. Studies that included a small proportion of participants younger than 60 years were considered if the majority of participants were older adults. The included trials had to implement hearing rehabilitation programs, which could include components such as health education, lectures, or expert consultations, delivered either online or offline. The control group received standard care. We excluded observational studies, meta-analyses, letters to the editor, conference papers, republished literature, animal studies, and studies where the primary population was under 60 years of age. Additionally, we excluded trials where hearing loss was caused by non-age-related factors, such as trauma or congenital conditions, or where participants were not hearing aid users.",
+      "section": "Methods / Search strategy and study selection",
+      "locator": "body/sec[2]/sec[1]/p[2]"
+    },
+    {
+      "text": "We leveraged several assessment tools to measure the outcomes. The Hearing Handicap Inventory for the Elderly (HHIE) (Newman and Weinstein, 1988) served as a self-reported gauge for hearing handicap, where increased scores pointed towards more severe activity limitations and participation restrictions. To assess the benefits of hearing aids, we employed the International Outcome Inventory for Hearing Aids (IOI-HA) (Cox et al., 2000), with superior outcomes denoted by higher scores. We utilized the Satisfaction with Amplification in Daily Life (SADL) (Cox and Alexander, 1999) to capture both patient satisfaction and perceived benefits of hearing aids. Meanwhile, the severity of anxiety and depression symptoms was measured using the Hospital Anxiety and Depression Scale (HADS) (Zigmond and Snaith, 1983), with higher scores correlating with more pronounced symptoms.",
+      "section": "Methods / Outcome",
+      "locator": "body/sec[2]/sec[2]/p[1]"
+    },
+    {
+      "text": "Two reviewers independently assessed all articles and extracted data, with any disagreements resolved by a third party upon reviewing the original article until consensus was achieved. The reviewers independently screened titles and abstracts, with a full-text review conducted when abstracts did not provide sufficient information pertaining to the inclusion criteria. A standardized data extraction form was used to capture details such as the first author’s name, publication year, sample size, mean age, intervention duration, and outcome measures. Study quality was evaluated using the Cochrane Systematic Review Manual’s bias risk assessment tool (Egger et al., 1997; Ahmed et al., 2012), with evaluation indicators including randomization, allocation concealment, blinding of participants and personnel, blinding of outcome assessment, completeness of outcome data, selective reporting, and other sources of bias.",
+      "section": "Methods / Data extraction and quality assessment",
+      "locator": "body/sec[2]/sec[3]/p[1]"
+    },
+    {
+      "text": "All analyses were conducted using RevMan 5.4 software (provided by the Cochrane Collaboration). Heterogeneity testing and calculation of 95% confidence intervals (CIs) were performed. Mean differences (MDs) and standard deviations (SDs) of measurement data were used as indices of systematic evaluation, expressed via 95% CIs. Heterogeneity across included trials was assessed using I2 and Q statistics, with significant heterogeneity defined as I2 > 50.0% or p < 0.10. In the presence of assumed heterogeneity, a random-effects model was used to combine effect sizes following the exclusion of significant heterogeneity. If clinical heterogeneity was significant, a source of heterogeneity was analyzed, or a subgroup analysis was conducted. If the heterogeneity was too substantial to be resolved, a descriptive analysis was conducted. Statistical significance was set at p < 0.05.",
+      "section": "Methods / Statistical analysis",
+      "locator": "body/sec[2]/sec[4]/p[1]"
+    },
+    {
+      "text": "The initial database search yielded a total of 724 articles. After eliminating 137 duplicates, 22 potential studies remained for consideration. Following a thorough review of the titles and abstracts, eight full-text articles met the predefined eligibility criteria and were included in the analysis. Figure 1 delineates the process of the literature selection.",
+      "section": "Results / Literature search and study selection",
+      "locator": "body/sec[3]/sec[1]/p[1]"
+    },
+    {
+      "text": "All eight studies included in the analysis reported the use of random grouping and explained their method for random allocation. Allocation concealment was mentioned in five studies, and a blinding methodology was used in three studies. The integrity of the results, selective reporting of research findings, and other potential sources of bias were assessed as low risk.",
+      "section": "Results / Quality assessment of included studies",
+      "locator": "body/sec[3]/sec[2]/p[1]"
+    },
+    {
+      "text": "The final analysis incorporated eight studies involving 598 participants, with 290 in the intervention group and 308 in the control group. The fundamental characteristics of the included studies are summarized in Table 1.",
+      "section": "Results / Study characteristics",
+      "locator": "body/sec[3]/sec[3]/p[1]"
+    },
+    {
+      "text": "A total of 8 studies (Lundberg et al., 2011; Thorén et al., 2011; Thorén et al., 2014; Vreeken et al., 2015; Malmberg et al., 2017; Han et al., 2022; Zhao et al., 2022; Malmberg et al., 2023), involving 598 participants (290 in the intervention group and 308 in the control group), were included in this analysis. The results of the meta-analysis indicated that hearing rehabilitation programs significantly reduced self-perceived hearing handicap [MD = −5.80, 95% CI = (−8.16, −3.44), p < 0.00001] and negative emotions [MD = −1.66, 95% CI = (−3.02, −0.29), p = 0.02], while also enhancing hearing aid usage among elderly patients with hearing loss [MD = 0.22, 95% CI = (0.06, 0.36), p = 0.002]. However, no significant improvement was observed in terms of satisfaction with amplification [MD = 0.09,95% CI = (−0.17,0.26), p = 0.66]. All comparisons underwent heterogeneity testing. No significant heterogeneity was found in the comparisons.",
+      "section": "Results / Efficacy of hearing aids",
+      "locator": "body/sec[3]/sec[4]/p[1]"
+    },
+    {
+      "text": "Figure 2 Forest plot and meta-analysis of the included studies. (Figure 2A represents the synthesis of four studies that analyzed the impact of auditory rehabilitation programs on the effectiveness of hearing aid usage, utilizing the IOI-HA as the primary evaluation tool. Figure 2B displays the combined findings of seven studies that examined the influence of auditory rehabilitation programs on self-reported hearing impairment, assessed by the HHIE. Figure 2C presents the comparative results of two studies that investigated the role of auditory rehabilitation programs in determining hearing aid satisfaction, employing the SADL as the metric of measurement. Figure 2D offers a comparison drawn from four studies that focused on the implications of auditory rehabilitation programs on negative emotional states, evaluated through the HADS. The meta-analysis reveals a statistically significant enhancement in hearing aid efficacy, a reduction in self-reported hearing impairment, and an alleviation in negative emotions due to auditory rehabilitation programs (p < 0.05). However, these programs do not significantly improve hearing aid satisfaction (p > 0.05). IOI-HA: International Outcome Inventory for Hearing Aids, HHIE: Hearing Handicap Inventory for the Elderly, SADL: Satisfaction with Amplification in Daily Life, HADS: Hospital Anxiety and Depression Scale.)",
+      "section": "Results / Efficacy of hearing aids",
+      "locator": "body/sec[3]/sec[4]/p[2]"
+    },
+    {
+      "text": "This investigation was primarily designed to evaluate the influence of hearing rehabilitation programs on the usage of hearing aids among individuals suffering from presbycusis. Our meta-analysis incorporated eight studies with a total of 593 participants. It was observed that hearing rehabilitation programs could enhance patients’ understanding of hearing aids and promote a harmonious interaction between patients and their hearing aids. This enhancement was achieved through the development of tailored educational plans and consistent follow-ups, thereby amplifying the effectiveness of hearing aid usage. Nonetheless, due to variances in the design and intervention periods of current hearing rehabilitation programs, results varied across different studies. This research identified that the efficacy of a hearing rehabilitation program heavily relies on the follow-up method and duration of the intervention. Different follow-up approaches, such as internet-based or telephone-based methods, show varying degrees of effectiveness. Elderly individuals, in particular, may experience greater difficulties with internet-based methods due to lower acceptance of technology, leading to higher dropout rates (Hoerger, 2010; Li et al., 2024). In contrast, telephone-based follow-ups offer more immediate and interactive engagement, which is essential for addressing patient concerns and improving adherence to hearing aid usage. Therefore, understanding how design elements such as follow-up methods, duration, and frequency affect the outcomes of hearing rehabilitation programs is vital for optimizing patient care and enhancing the long-term use of hearing aids.",
+      "section": "Discussion",
+      "locator": "body/sec[4]/p[1]"
+    },
+    {
+      "text": "Different age groups may respond differently to hearing rehabilitation interventions. Studies such as those by Malmberg et al. (2023, 2017) included participants under the age of 60, which may influence the generalizability of the findings to older populations. Younger participants may have greater adaptability to internet-based follow-up methods and demonstrate better adherence due to their familiarity with technology. In contrast, older adults might benefit more from traditional methods like telephone-based follow-ups, which offer direct and immediate communication. Therefore, interventions should be tailored to accommodate the specific needs of different age groups to maximize effectiveness.",
+      "section": "Discussion / Impact of age and other sensory impairments on hearing rehabilitation outcomes",
+      "locator": "body/sec[4]/sec[1]/p[1]"
+    },
+    {
+      "text": "Moreover, the presence of other sensory impairments, such as visual or tactile deficits, can significantly alter the efficacy of hearing rehabilitation programs. For instance, patients with visual impairments may find it challenging to engage with written or screen-based content, a challenge noted by Vreeken et al. (2015). Tailored approaches, such as audio-based materials or more personalized interventions, could help address these challenges. Considering additional sensory impairments during the design of hearing rehabilitation programs is critical to ensuring that all patients, regardless of their sensory limitations, can fully benefit from these interventions.",
+      "section": "Discussion / Impact of age and other sensory impairments on hearing rehabilitation outcomes",
+      "locator": "body/sec[4]/sec[1]/p[2]"
+    },
+    {
+      "text": "As communication technology evolves, the landscape of follow-up methods in hearing rehabilitation is changing. While Internet-based follow-ups are becoming increasingly common, traditional telephone-based follow-ups continue to play a crucial role, particularly for elderly patients. Studies indicate that older adults often show a lower acceptance rate of Internet usage, which can contribute to higher drop-out rates in online follow-up programs (Swanepoel de et al., 2010). This challenge underscores the importance of selecting a follow-up method that aligns with the needs and preferences of this demographic. Telephone follow-ups provide immediate and interactive engagement, allowing audiologists to address patients’ questions and concerns more effectively (Wang et al., 2024; Zhang et al., 2024). This direct communication not only fosters a better understanding of the rehabilitation process but also enhances patients’ confidence in managing their hearing aids. Furthermore, the instant interaction afforded by telephone communication can help mitigate feelings of anxiety and depression related to hearing loss (Lundberg et al., 2011). However, it is essential to recognize the potential benefits of Internet-based follow-ups as well. With advancements in technology, online courses and video telecommunication are emerging as promising alternatives (Humes et al., 2019; Han et al., 2024). These methods can deliver information in a more intuitive and engaging manner, which may enhance understanding and retention among elderly patients. By incorporating video content and interactive elements, healthcare providers can create a more enriching rehabilitation experience. Ultimately, a balanced approach that considers both traditional and modern follow-up methods may be the most effective strategy. Tailoring follow-up interventions to accommodate the unique needs of older adults will likely lead to improved outcomes in hearing rehabilitation, ensuring that patients receive the support necessary to enhance their quality of life.",
+      "section": "Discussion / Interactive and intuitive follow-up methods in hearing rehabilitation programs",
+      "locator": "body/sec[4]/sec[2]/p[1]"
+    },
+    {
+      "text": "Currently, the intervention duration of hearing rehabilitation programs ranges from several weeks to months (Humes et al., 2014). From the two studies reporting patients’ satisfaction with hearing aid usage, we cannot conclusively demonstrate the effectiveness of hearing rehabilitation programs in improving this satisfaction. From the perspective of intervention time, due to the low acceptance of new knowledge among the elderly, only 3–5 weeks of intervention is not enough to enable elderly patients to fully accept the intervention content. Furthermore, the study by Zhao et al. (2022) had a dropout rate exceeding 15%, which undoubtedly influenced the test results. These factors contribute to some discrepancies in the outcomes. This study found that periodic interventions in the hearing rehabilitation program are required to sustain the effects. In the study by Thorén et al.(2011,2014), patients’ subjective hearing impairment and anxiety and depression symptoms increased 3 months post-intervention. This suggests that in implementing the hearing plan, researchers should focus on maintaining the rehabilitation effects. We propose that two to three interventions, each lasting for 4–5 weeks within 1 year, is a worthwhile approach. This is consistent with a previous systematic review (Michaud and Duchesne, 2017). Continuous and regular interventions would allow patients to supplement forgotten knowledge timely and maintain the intervention effect.",
+      "section": "Discussion / Intervention duration and cycles of hearing rehabilitation programs",
+      "locator": "body/sec[4]/sec[3]/p[1]"
+    },
+    {
+      "text": "Despite our best efforts, this study still bears certain unavoidable limitations. Firstly, the interventions in the included studies varied significantly, not only in terms of duration but also in the timing of outcome assessments. These discrepancies contribute to a certain degree of heterogeneity, which may affect the comparability of results across studies. Secondly, several studies included in the analysis had small sample sizes, which could compromise the statistical power and generalizability of the findings. Additionally, the lack of uniformity in defining key outcome measures may further obscure the interpretation of results. Furthermore, potential biases, such as publication bias or selective reporting, could also impact the validity of our conclusions. Future research should focus on conducting high-quality, multicenter, and large-sample randomized controlled trials to address these limitations and provide more robust evidence for the efficacy of hearing rehabilitation programs. It is essential to standardize intervention protocols and outcome measures to enhance comparability and reliability in future meta-analyses.",
+      "section": "Discussion / Limitations",
+      "locator": "body/sec[4]/sec[4]/p[1]"
+    },
+    {
+      "text": "Hearing rehabilitation programs improve outcomes for hearing aid users with presbycusis, but their efficacy is influenced by various factors, including follow-up methods, intervention duration, and the design of the rehabilitation programs, such as educational content, weekly tasks, and awareness-building activities. A comprehensive approach, which considers both the structure of the intervention and patient-specific factors, such as age and comfort with technology, enhances effectiveness. Personalized, timely follow-ups via internet or phone improve engagement, while regular, repeated interventions reinforce knowledge and support long-term outcomes, especially addressing knowledge attrition.",
+      "section": "Conclusion",
+      "locator": "body/sec[5]/p[1]"
+    }
+  ],
+  "chunks": [
+    {
+      "id": "8c869cf1154c3257cb6f3e8f",
+      "text": "Presbycusis, or age-related hearing loss, is a leading sensorineural deficit among the elderly population. Approximately 66% of individuals over the age of 70 are estimated to have some degree of presbycusis, however, only 20% of these individuals are estimated to receive appropriate therapeutic intervention (Goman and Lin, 2016; Fulop et al., 2019). The most common clinical manifestation is bilateral symmetrical sensorineural hearing loss, which has been widely documented in the literature (Gates and Mills, 2005; Agrawal et al., 2008; Bowl and Dawson, 2019). This condition significantly impairs elderly individuals’ social interaction, mental health, self-care ability, and cognitive function, and can potentially progress to cognitive decline and even dementia (Jafari et al., 2019; Zhang et al., 2021).",
+      "section": "Introduction",
+      "locator": "body/sec[1]/p[1]",
+      "start": 0,
+      "end": 812,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "1ecbe2423592d593a45d6604",
+      "text": "Primary interventional strategies for presbycusis encompass both hearing aid prescription and cochlear implantation (Briggs, 2019). In light of their cost-effectiveness, convenience, and non-invasiveness, hearing aids are typically the preferred modality for managing mild to moderate age-related hearing loss (Sprinzl and Riechelmann, 2010). However, their efficacy can be hindered by the elderly population’s limited understanding and acceptance of these devices. Consequently, the need for a comprehensive hearing rehabilitation program is of crucial importance. This type of program aids patients in adapting to hearing aids, ensures the devices are functioning optimally, augments the effectiveness of hearing rehabilitation, and, ultimately, enhances patient satisfaction (Lu et al., 2019).",
+      "section": "Introduction",
+      "locator": "body/sec[1]/p[2]",
+      "start": 0,
+      "end": 796,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "73147f6fa55d24663f6261f0",
+      "text": "Hearing rehabilitation programs typically integrate health education and patient follow-ups, with the effectiveness of health education evaluated through monitoring patients’ hearing aid usage. However, a review of the existing literature presents a complex picture due to variations in study design, sample size, and outcome measures. Notably, an earlier study reported encouraging results with telephone-based consultations as part of the rehabilitation strategy, while a more recent study, which utilized physician-led, in-person consultations, yielded less optimistic outcomes (Lundberg et al., 2011; Zhao et al., 2022). This discrepancy in findings underscores the current knowledge gap about the optimal strategies for hearing rehabilitation. To address this, our study proposes a meta-analytic approach to better understand the potential impact of hearing rehabilitation programs on the efficacy of hearing aids among presbycusis patients. This approach is intended to provide a comprehensive evaluation of how these programs may enhance hearing aid outcomes in patients with age-related hearing loss.",
+      "section": "Introduction",
+      "locator": "body/sec[1]/p[3]",
+      "start": 0,
+      "end": 1108,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "360d1e71c0100452322c6ad8",
+      "text": "The Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) guidelines were used for the review design and methodology (Page et al., 2021). Search strategy and study selection In this systematic review and meta-analysis, we evaluated randomized controlled trials to determine the effectiveness of hearing rehabilitation program interventions on hearing aid usage among older adults with hearing impairment. The search was limited to English-language publications. We conducted a systematic search of databases including PubMed, EMBASE, Web of Science, and Cochrane Library up to September 12, 2024. The search used a combination of keywords such as “age-related hearing loss” and “Aural Rehabilitation”, refined by terms such as “clinical trial” and “older adult: aged >60 years”. We also manually reviewed reference lists of the identified studies to include any relevant additional studies. This study was registered on PROSPERO(CRD42024560809).",
+      "section": "Methods / Search strategy and study selection",
+      "locator": "body/sec[2]/sec[1]/p[1]",
+      "start": 0,
+      "end": 967,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "3ad4fd4c8f5d1250e3e47369",
+      "text": "In line with the PICOS (Participant, Intervention, Control, Outcome, Study Design) framework, we included randomized controlled trials (RCTs) that studied adults primarily aged ≥60 years with age-related hearing loss who were hearing aid users. Studies that included a small proportion of participants younger than 60 years were considered if the majority of participants were older adults. The included trials had to implement hearing rehabilitation programs, which could include components such as health education, lectures, or expert consultations, delivered either online or offline. The control group received standard care. We excluded observational studies, meta-analyses, letters to the editor, conference papers, republished literature, animal studies, and studies where the primary population was under 60 years of age. Additionally, we excluded trials where hearing loss was caused by non-age-related factors, such as trauma or congenital conditions, or where participants were not hearing aid users.",
+      "section": "Methods / Search strategy and study selection",
+      "locator": "body/sec[2]/sec[1]/p[2]",
+      "start": 0,
+      "end": 1012,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "3e55ab73ded9deaba5aec1bb",
+      "text": "We leveraged several assessment tools to measure the outcomes. The Hearing Handicap Inventory for the Elderly (HHIE) (Newman and Weinstein, 1988) served as a self-reported gauge for hearing handicap, where increased scores pointed towards more severe activity limitations and participation restrictions. To assess the benefits of hearing aids, we employed the International Outcome Inventory for Hearing Aids (IOI-HA) (Cox et al., 2000), with superior outcomes denoted by higher scores. We utilized the Satisfaction with Amplification in Daily Life (SADL) (Cox and Alexander, 1999) to capture both patient satisfaction and perceived benefits of hearing aids. Meanwhile, the severity of anxiety and depression symptoms was measured using the Hospital Anxiety and Depression Scale (HADS) (Zigmond and Snaith, 1983), with higher scores correlating with more pronounced symptoms.",
+      "section": "Methods / Outcome",
+      "locator": "body/sec[2]/sec[2]/p[1]",
+      "start": 0,
+      "end": 875,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "afbca061af1c20e8c296f600",
+      "text": "Two reviewers independently assessed all articles and extracted data, with any disagreements resolved by a third party upon reviewing the original article until consensus was achieved. The reviewers independently screened titles and abstracts, with a full-text review conducted when abstracts did not provide sufficient information pertaining to the inclusion criteria. A standardized data extraction form was used to capture details such as the first author’s name, publication year, sample size, mean age, intervention duration, and outcome measures. Study quality was evaluated using the Cochrane Systematic Review Manual’s bias risk assessment tool (Egger et al., 1997; Ahmed et al., 2012), with evaluation indicators including randomization, allocation concealment, blinding of participants and personnel, blinding of outcome assessment, completeness of outcome data, selective reporting, and other sources of bias.",
+      "section": "Methods / Data extraction and quality assessment",
+      "locator": "body/sec[2]/sec[3]/p[1]",
+      "start": 0,
+      "end": 920,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "f1f3da69a175c33f0443d441",
+      "text": "All analyses were conducted using RevMan 5.4 software (provided by the Cochrane Collaboration). Heterogeneity testing and calculation of 95% confidence intervals (CIs) were performed. Mean differences (MDs) and standard deviations (SDs) of measurement data were used as indices of systematic evaluation, expressed via 95% CIs. Heterogeneity across included trials was assessed using I2 and Q statistics, with significant heterogeneity defined as I2 > 50.0% or p < 0.10. In the presence of assumed heterogeneity, a random-effects model was used to combine effect sizes following the exclusion of significant heterogeneity. If clinical heterogeneity was significant, a source of heterogeneity was analyzed, or a subgroup analysis was conducted. If the heterogeneity was too substantial to be resolved, a descriptive analysis was conducted. Statistical significance was set at p < 0.05.",
+      "section": "Methods / Statistical analysis",
+      "locator": "body/sec[2]/sec[4]/p[1]",
+      "start": 0,
+      "end": 883,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "6622f21da3d42dfc993dd181",
+      "text": "The initial database search yielded a total of 724 articles. After eliminating 137 duplicates, 22 potential studies remained for consideration. Following a thorough review of the titles and abstracts, eight full-text articles met the predefined eligibility criteria and were included in the analysis. Figure 1 delineates the process of the literature selection.",
+      "section": "Results / Literature search and study selection",
+      "locator": "body/sec[3]/sec[1]/p[1]",
+      "start": 0,
+      "end": 361,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "23c72cc33f1f0be5a20f1915",
+      "text": "All eight studies included in the analysis reported the use of random grouping and explained their method for random allocation. Allocation concealment was mentioned in five studies, and a blinding methodology was used in three studies. The integrity of the results, selective reporting of research findings, and other potential sources of bias were assessed as low risk.",
+      "section": "Results / Quality assessment of included studies",
+      "locator": "body/sec[3]/sec[2]/p[1]",
+      "start": 0,
+      "end": 371,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "8588e9677af3bdab175bb7dc",
+      "text": "The final analysis incorporated eight studies involving 598 participants, with 290 in the intervention group and 308 in the control group. The fundamental characteristics of the included studies are summarized in Table 1.",
+      "section": "Results / Study characteristics",
+      "locator": "body/sec[3]/sec[3]/p[1]",
+      "start": 0,
+      "end": 221,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "1ee862baa7a0b46f299bd02e",
+      "text": "A total of 8 studies (Lundberg et al., 2011; Thorén et al., 2011; Thorén et al., 2014; Vreeken et al., 2015; Malmberg et al., 2017; Han et al., 2022; Zhao et al., 2022; Malmberg et al., 2023), involving 598 participants (290 in the intervention group and 308 in the control group), were included in this analysis. The results of the meta-analysis indicated that hearing rehabilitation programs significantly reduced self-perceived hearing handicap [MD = −5.80, 95% CI = (−8.16, −3.44), p < 0.00001] and negative emotions [MD = −1.66, 95% CI = (−3.02, −0.29), p = 0.02], while also enhancing hearing aid usage among elderly patients with hearing loss [MD = 0.22, 95% CI = (0.06, 0.36), p = 0.002]. However, no significant improvement was observed in terms of satisfaction with amplification [MD = 0.09,95% CI = (−0.17,0.26), p = 0.66]. All comparisons underwent heterogeneity testing. No significant heterogeneity was found in the comparisons.",
+      "section": "Results / Efficacy of hearing aids",
+      "locator": "body/sec[3]/sec[4]/p[1]",
+      "start": 0,
+      "end": 942,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "318552ebc4edeb8f0d3ad0b9",
+      "text": "Figure 2 Forest plot and meta-analysis of the included studies. (Figure 2A represents the synthesis of four studies that analyzed the impact of auditory rehabilitation programs on the effectiveness of hearing aid usage, utilizing the IOI-HA as the primary evaluation tool. Figure 2B displays the combined findings of seven studies that examined the influence of auditory rehabilitation programs on self-reported hearing impairment, assessed by the HHIE. Figure 2C presents the comparative results of two studies that investigated the role of auditory rehabilitation programs in determining hearing aid satisfaction, employing the SADL as the metric of measurement. Figure 2D offers a comparison drawn from four studies that focused on the implications of auditory rehabilitation programs on negative emotional states, evaluated through the HADS. The meta-analysis reveals a statistically significant enhancement in hearing aid efficacy, a reduction in self-reported hearing impairment, and an alleviation in negative emotions due to auditory rehabilitation programs (p < 0.05). However, these programs do not significantly improve hearing aid satisfaction (p > 0.05). IOI-HA: International Outcome Inventory for Hearing Aids, HHIE: Hearing Handicap Inventory for the Elderly, SADL: Satisfaction with Amplification in Daily Life, HADS: Hospital Anxiety and Depression Scale.)",
+      "section": "Results / Efficacy of hearing aids",
+      "locator": "body/sec[3]/sec[4]/p[2]",
+      "start": 0,
+      "end": 1374,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "fccbadf571c4db61bcc01221",
+      "text": "This investigation was primarily designed to evaluate the influence of hearing rehabilitation programs on the usage of hearing aids among individuals suffering from presbycusis. Our meta-analysis incorporated eight studies with a total of 593 participants. It was observed that hearing rehabilitation programs could enhance patients’ understanding of hearing aids and promote a harmonious interaction between patients and their hearing aids. This enhancement was achieved through the development of tailored educational plans and consistent follow-ups, thereby amplifying the effectiveness of hearing aid usage. Nonetheless, due to variances in the design and intervention periods of current hearing rehabilitation programs, results varied across different studies. This research identified that the efficacy of a hearing rehabilitation program heavily relies on the follow-up method and duration of the intervention. Different follow-up approaches, such as internet-based or telephone-based methods, show varying degrees of effectiveness. Elderly individuals, in particular, may experience greater difficulties with internet-based methods due to lower acceptance of technology, leading to higher dropout rates (Hoerger, 2010; Li et al., 2024). In contrast, telephone-based follow-ups offer more immediate and interactive engagement, which is essential for addressing patient concerns and improving adherence to hearing aid usage. Therefore, understanding how design elements such as follow-up methods, duration, and frequency affect the outcomes of hearing rehabilitation programs is vital for optimizing patient care and enhancing the long-term use of hearing aids.",
+      "section": "Discussion",
+      "locator": "body/sec[4]/p[1]",
+      "start": 0,
+      "end": 1667,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "901206b5c62f90f60328d820",
+      "text": "Different age groups may respond differently to hearing rehabilitation interventions. Studies such as those by Malmberg et al. (2023, 2017) included participants under the age of 60, which may influence the generalizability of the findings to older populations. Younger participants may have greater adaptability to internet-based follow-up methods and demonstrate better adherence due to their familiarity with technology. In contrast, older adults might benefit more from traditional methods like telephone-based follow-ups, which offer direct and immediate communication. Therefore, interventions should be tailored to accommodate the specific needs of different age groups to maximize effectiveness.",
+      "section": "Discussion / Impact of age and other sensory impairments on hearing rehabilitation outcomes",
+      "locator": "body/sec[4]/sec[1]/p[1]",
+      "start": 0,
+      "end": 703,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "2b399ee31d24a4c8e838701a",
+      "text": "Moreover, the presence of other sensory impairments, such as visual or tactile deficits, can significantly alter the efficacy of hearing rehabilitation programs. For instance, patients with visual impairments may find it challenging to engage with written or screen-based content, a challenge noted by Vreeken et al. (2015). Tailored approaches, such as audio-based materials or more personalized interventions, could help address these challenges. Considering additional sensory impairments during the design of hearing rehabilitation programs is critical to ensuring that all patients, regardless of their sensory limitations, can fully benefit from these interventions.",
+      "section": "Discussion / Impact of age and other sensory impairments on hearing rehabilitation outcomes",
+      "locator": "body/sec[4]/sec[1]/p[2]",
+      "start": 0,
+      "end": 672,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "86d2a3103293edd8d1e8f81d",
+      "text": "As communication technology evolves, the landscape of follow-up methods in hearing rehabilitation is changing. While Internet-based follow-ups are becoming increasingly common, traditional telephone-based follow-ups continue to play a crucial role, particularly for elderly patients. Studies indicate that older adults often show a lower acceptance rate of Internet usage, which can contribute to higher drop-out rates in online follow-up programs (Swanepoel de et al., 2010). This challenge underscores the importance of selecting a follow-up method that aligns with the needs and preferences of this demographic. Telephone follow-ups provide immediate and interactive engagement, allowing audiologists to address patients’ questions and concerns more effectively (Wang et al., 2024; Zhang et al., 2024). This direct communication not only fosters a better understanding of the rehabilitation process but also enhances patients’ confidence in managing their hearing aids. Furthermore, the instant interaction afforded by telephone communication can help mitigate feelings of anxiety and depression related to hearing loss (Lundberg et al., 2011). However, it is essential to recognize the potential benefits of Internet-based follow-ups as well. With advancements in technology, online courses and video telecommunication are emerging as promising alternatives (Humes et al., 2019; Han et al., 2024). These methods can deliver information in a more intuitive and engaging manner, which may enhance understanding and retention among elderly patients. By incorporating video content and interactive elements, healthcare providers can create a more enriching rehabilitation experience. Ultimately, a balanced approach that considers both traditional and modern follow-up methods may be the most effecti",
+      "section": "Discussion / Interactive and intuitive follow-up methods in hearing rehabilitation programs",
+      "locator": "body/sec[4]/sec[2]/p[1]",
+      "start": 0,
+      "end": 1800,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "9d2519fb89ab61b6022b9753",
+      "text": "ve strategy. Tailoring follow-up interventions to accommodate the unique needs of older adults will likely lead to improved outcomes in hearing rehabilitation, ensuring that patients receive the support necessary to enhance their quality of life.",
+      "section": "Discussion / Interactive and intuitive follow-up methods in hearing rehabilitation programs",
+      "locator": "body/sec[4]/sec[2]/p[1]",
+      "start": 1800,
+      "end": 2046,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "3a93e66e09fb50d40cb21041",
+      "text": "Currently, the intervention duration of hearing rehabilitation programs ranges from several weeks to months (Humes et al., 2014). From the two studies reporting patients’ satisfaction with hearing aid usage, we cannot conclusively demonstrate the effectiveness of hearing rehabilitation programs in improving this satisfaction. From the perspective of intervention time, due to the low acceptance of new knowledge among the elderly, only 3–5 weeks of intervention is not enough to enable elderly patients to fully accept the intervention content. Furthermore, the study by Zhao et al. (2022) had a dropout rate exceeding 15%, which undoubtedly influenced the test results. These factors contribute to some discrepancies in the outcomes. This study found that periodic interventions in the hearing rehabilitation program are required to sustain the effects. In the study by Thorén et al.(2011,2014), patients’ subjective hearing impairment and anxiety and depression symptoms increased 3 months post-intervention. This suggests that in implementing the hearing plan, researchers should focus on maintaining the rehabilitation effects. We propose that two to three interventions, each lasting for 4–5 weeks within 1 year, is a worthwhile approach. This is consistent with a previous systematic review (Michaud and Duchesne, 2017). Continuous and regular interventions would allow patients to supplement forgotten knowledge timely and maintain the intervention effect.",
+      "section": "Discussion / Intervention duration and cycles of hearing rehabilitation programs",
+      "locator": "body/sec[4]/sec[3]/p[1]",
+      "start": 0,
+      "end": 1465,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "b6d9ae45e9de8a1b7d188f86",
+      "text": "Despite our best efforts, this study still bears certain unavoidable limitations. Firstly, the interventions in the included studies varied significantly, not only in terms of duration but also in the timing of outcome assessments. These discrepancies contribute to a certain degree of heterogeneity, which may affect the comparability of results across studies. Secondly, several studies included in the analysis had small sample sizes, which could compromise the statistical power and generalizability of the findings. Additionally, the lack of uniformity in defining key outcome measures may further obscure the interpretation of results. Furthermore, potential biases, such as publication bias or selective reporting, could also impact the validity of our conclusions. Future research should focus on conducting high-quality, multicenter, and large-sample randomized controlled trials to address these limitations and provide more robust evidence for the efficacy of hearing rehabilitation programs. It is essential to standardize intervention protocols and outcome measures to enhance comparability and reliability in future meta-analyses.",
+      "section": "Discussion / Limitations",
+      "locator": "body/sec[4]/sec[4]/p[1]",
+      "start": 0,
+      "end": 1144,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "1c80520cc82a6fa54a6da629",
+      "text": "Hearing rehabilitation programs improve outcomes for hearing aid users with presbycusis, but their efficacy is influenced by various factors, including follow-up methods, intervention duration, and the design of the rehabilitation programs, such as educational content, weekly tasks, and awareness-building activities. A comprehensive approach, which considers both the structure of the intervention and patient-specific factors, such as age and comfort with technology, enhances effectiveness. Personalized, timely follow-ups via internet or phone improve engagement, while regular, repeated interventions reinforce knowledge and support long-term outcomes, especially addressing knowledge attrition.",
+      "section": "Conclusion",
+      "locator": "body/sec[5]/p[1]",
+      "start": 0,
+      "end": 701,
+      "population_status": "requires_screening"
+    }
+  ]
+}

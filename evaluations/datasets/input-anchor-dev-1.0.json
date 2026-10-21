@@ -1,0 +1,75 @@
+{
+  "version": "input-anchor-dev-1.0",
+  "purpose": "3 synthetic development probes, nonempty input explanation required for engineering outcome; not independent clinical gold",
+  "cases": [
+    {
+      "case_id": "ANCHOR-NOISE-001",
+      "original_development_case": "ENT-025",
+      "topic": "hearing_loss",
+      "synthetic": true,
+      "input": {
+        "age": 68,
+        "chief_complaint": "合成记录：退休前长期接触噪声",
+        "duration": "",
+        "history": "既往病史不详",
+        "pasted_text": "",
+        "question": "我退休前长期处在嘈杂环境，请引用我的原话，结合资料解释噪声是否可能影响听力，不判断我的病因。",
+        "compare_reranker": true,
+        "synthetic_only": true
+      },
+      "human_review": "pending",
+      "expected_review_focus": "证据充分性、输入一致性与引用追溯",
+      "scenario": "input_anchor_required",
+      "engineering_expectation": {
+        "nonempty_input_explanation": true,
+        "clinical_approval": false
+      }
+    },
+    {
+      "case_id": "ANCHOR-TINNITUS-002",
+      "original_development_case": "ENT-030",
+      "topic": "tinnitus",
+      "synthetic": true,
+      "input": {
+        "age": 35,
+        "chief_complaint": "合成记录：耳鸣后睡不好，注意力难集中",
+        "duration": "",
+        "history": "否认眩晕",
+        "pasted_text": "",
+        "question": "请结合我填写的耳鸣及睡眠情况，引用我的原话解释资料描述的生活影响，不把未报告的症状写成我有。",
+        "compare_reranker": true,
+        "synthetic_only": true
+      },
+      "human_review": "pending",
+      "expected_review_focus": "证据充分性、输入一致性与引用追溯",
+      "scenario": "input_anchor_required",
+      "engineering_expectation": {
+        "nonempty_input_explanation": true,
+        "clinical_approval": false
+      }
+    },
+    {
+      "case_id": "ANCHOR-VOICE-003",
+      "original_development_case": "ENT-036",
+      "topic": "throat",
+      "synthetic": true,
+      "input": {
+        "age": 35,
+        "chief_complaint": "合成记录：声音粗哑、音量变小",
+        "duration": "",
+        "history": "既往病史未明确",
+        "pasted_text": "",
+        "question": "请引用我填写的声音表现原话，对照资料解释这些表现，不补写音调变化，不推断病因。",
+        "compare_reranker": true,
+        "synthetic_only": true
+      },
+      "human_review": "pending",
+      "expected_review_focus": "证据充分性、输入一致性与引用追溯",
+      "scenario": "input_anchor_required",
+      "engineering_expectation": {
+        "nonempty_input_explanation": true,
+        "clinical_approval": false
+      }
+    }
+  ]
+}

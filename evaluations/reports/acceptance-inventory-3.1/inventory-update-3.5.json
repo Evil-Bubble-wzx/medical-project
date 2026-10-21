@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-21",
+  "base_inventory": "inventory.json",
+  "changes": {
+    "F11": "| F11 M2 | 逐论断核验和患者摘要 | 部分完成 | [3.5摘要收敛](摘要与医学表达收敛交付清单3.5.md)：只给核心text、程序引用、核心选择、同源上下文及索引映射 | 7项展示文字需复核；同模型核验不能证明医学语义正确 |",
+    "F12": "| F12 M2 | 输入原话、状态和病程确认 | 部分完成 | [3.5输入专项](../evaluations/reports/summary-contraction-3.5/input-anchor-outcomes.json)：12答中8例仅原话、1例医学比较、3例无解释 | 否认/未知/混合及部分原话探针仍拒答，不能把记录算医学比较通过 |",
+    "F21": "| F21 M4 | 评测版本绑定与续跑 | 已实现 | [3.5冻结清单](../evaluations/reports/summary-contraction-3.5/freeze.json)：两版各26例独立保留，最终磁盘代码与运行一致 | 不证明远程权重/进程内存，不混用两版最好结果 |",
+    "F23": "| F23 M4 | 逐论断审核包与AI开发复核 | 已实现 | [3.5逐项复核](../evaluations/reports/summary-contraction-3.5/audit/model-output-review.json)：最终54项，39有限支持/7待复核/8原话记录 | 本执行代理有限复核，非独立医学专家或金标准，待审不等于已证实医学错误 |",
+    "F25": "| F25 M4 | 修复后统一真实质量回归 | 部分完成，质量未通过 | [3.5汇总](../evaluations/reports/summary-contraction-3.5/closure-summary.json)：524项离线；最终26例12答/7证据不足/6补信息/1格式故障 | 有效回答数未提高；5例模型收敛可能含误拒，仍有7项医学语言/相关性待审 |"
+  },
+  "clinical_approval": false,
+  "evidence": "../summary-contraction-3.5/closure-summary.json"
+}

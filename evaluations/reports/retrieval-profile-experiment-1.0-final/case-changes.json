@@ -1,0 +1,25 @@
+{
+  "d100-s1": {
+    "gained_anchor_hits": [
+      "ENT-021",
+      "ENT-022",
+      "ENT-026"
+    ],
+    "lost_anchor_hits": [
+      "ENT-012"
+    ]
+  },
+  "d100-s2": {
+    "gained_anchor_hits": [
+      "ENT-021",
+      "ENT-022",
+      "ENT-026"
+    ],
+    "lost_anchor_hits": [
+      "ENT-012",
+      "ENT-025",
+      "ENT-027",
+      "ENT-028"
+    ]
+  }
+}

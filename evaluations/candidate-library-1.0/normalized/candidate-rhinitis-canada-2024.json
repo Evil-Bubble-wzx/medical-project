@@ -1,0 +1,1770 @@
+{
+  "paragraphs": [
+    {
+      "text": "Allergic rhinitis (AR) is a prevalent disease that affects both children and adults. In Canada, up to 20% of the general population is estimated to have a diagnosis of AR [1, 2]. The burden of AR is well documented, negatively impacting daily activities, sleep, work and school performance, and overall health-related quality of life. To reduce the burden of AR, disease management includes allergen avoidance, allergen immunotherapy (AIT), and symptom-relieving pharmacotherapies (Fig. 1) [3]. Several guidelines for the management of AR have been published by professional allergy societies worldwide. In the North American context, comprehensive, evidence-based practice parameters for seasonal AR (SAR) and rhinitis were updated in 2017 and 2020, respectively [4, 5]. Nevertheless, there are regional differences in the clinical management of AR, and regulatory approval of some AR pharmacotherapies varies among countries. Thus, research questions specific to the treatment of AR in Canada were identified by consensus of the Work Group and were chosen for this focused practice parameter. The 6 questions selected for the focused practice parameter were chosen due to the prevalence of unanswered questions and/or unmet needs from previous practice statements.",
+      "section": "Foreword",
+      "locator": "body/sec[1]/p[1]"
+    },
+    {
+      "text": "A GRADE approach was not used for the focused practice parameter because of the rarity of randomized control trial literature for some of the research questions. However, systematic reviews of the published literature from the past 5 years were conducted to obtain evidence-based support for the responses of the Work Group to each research question. Pharmacoeconomic analyses were not considered or conducted for the practice parameter, although the Work Group recognizes that economic factors can influence treatment decisions. We refer the reader to some reviews of the pharmacoeconomics for AR or cost-effectiveness among treatment options [6–8].",
+      "section": "Foreword",
+      "locator": "body/sec[1]/p[2]"
+    },
+    {
+      "text": "A detailed and thorough literature search for appropriate medical literature in key sources was conducted for each of the 6 questions in a systematic manner by an information specialist. These sources included Ovid Medline database, Cochrane Database of Systematic Reviews, Cochrane Central Register of Controlled Trials, CMA Infobase, NICE guidelines database, Health Canada, National Institutes of Health, American Academy of Allergy, Asthma & Immunology, European Academy of Allergy and Clinical Immunology, Australasian Society of Clinical Immunology and Allergy, and the British Society for Allergy & Clinical Immunology. Advanced searching in Google was also conducted. Search strategies for each database and search terms for each internet resource for each of the research questions are described in Appendices 1–6, respectively. All the searches were limited to English only, human subject studies published in the year 2016 or later and included both pediatric and adult patients. The search results were screened for relevance to the research question, and specific inclusion and exclusion criteria for each research question were applied (see Appendices 1–6).",
+      "section": "Foreword / Methods and overview of the practice parameter development process",
+      "locator": "body/sec[1]/sec[1]/p[1]"
+    },
+    {
+      "text": "The searches focused on identifying high quality clinical practice guidelines, systematic reviews, and randomized controlled trials. However, other types of original research (e.g., cohort studies, retrospective studies, observational studies, etc.) were included in the search results for research questions 1, 3 and 4.",
+      "section": "Foreword / Methods and overview of the practice parameter development process",
+      "locator": "body/sec[1]/sec[1]/p[2]"
+    },
+    {
+      "text": "To identify the highest quality literature available on this topic, each unique clinical practice guideline, systematic review, and randomized controlled trial identified in each of the literature searches were appraised for quality. Each of these types of literature was appraised with a modified version of an appropriate framework.",
+      "section": "Foreword / Methods and overview of the practice parameter development process",
+      "locator": "body/sec[1]/sec[1]/p[3]"
+    },
+    {
+      "text": "Clinical practice guidelines were appraised with a modified AGREE II framework with a focus on two criteria: [9]",
+      "section": "Foreword / Methods and overview of the practice parameter development process",
+      "locator": "body/sec[1]/sec[1]/p[4]"
+    },
+    {
+      "text": "Systematic methods were used to search for evidence.",
+      "section": "Foreword / Methods and overview of the practice parameter development process",
+      "locator": "body/sec[1]/sec[1]/list[1]/list-item[1]/p[1]"
+    },
+    {
+      "text": "There is an explicit link between the recommendations and the supporting evidence.",
+      "section": "Foreword / Methods and overview of the practice parameter development process",
+      "locator": "body/sec[1]/sec[1]/list[1]/list-item[2]/p[1]"
+    },
+    {
+      "text": "Systematic reviews were appraised with a modified AMSTAR framework with a focus on two criteria: [10]",
+      "section": "Foreword / Methods and overview of the practice parameter development process",
+      "locator": "body/sec[1]/sec[1]/p[5]"
+    },
+    {
+      "text": "Was a comprehensive literature search performed?",
+      "section": "Foreword / Methods and overview of the practice parameter development process",
+      "locator": "body/sec[1]/sec[1]/list[2]/list-item[1]/p[1]"
+    },
+    {
+      "text": "Was the scientific quality of the included studies assessed? (e.g. Cochrane risk of bias, Jadad scale, etc.)",
+      "section": "Foreword / Methods and overview of the practice parameter development process",
+      "locator": "body/sec[1]/sec[1]/list[2]/list-item[2]/p[1]"
+    },
+    {
+      "text": "Randomized controlled trials were appraised with a modified Cochrane Risk of Bias framework with a focus on two domains, plus the source of funding:",
+      "section": "Foreword / Methods and overview of the practice parameter development process",
+      "locator": "body/sec[1]/sec[1]/p[6]"
+    },
+    {
+      "text": "Risk of bias arising from the randomization process.",
+      "section": "Foreword / Methods and overview of the practice parameter development process",
+      "locator": "body/sec[1]/sec[1]/list[3]/list-item[1]/p[1]"
+    },
+    {
+      "text": "Risk of bias due to deviations from the intended interventions.",
+      "section": "Foreword / Methods and overview of the practice parameter development process",
+      "locator": "body/sec[1]/sec[1]/list[3]/list-item[2]/p[1]"
+    },
+    {
+      "text": "Reporting for the source of funding was also assessed.",
+      "section": "Foreword / Methods and overview of the practice parameter development process",
+      "locator": "body/sec[1]/sec[1]/list[3]/list-item[3]/p[1]"
+    },
+    {
+      "text": "The results from the literature searches were compiled into evidence summaries for each of the 6 questions and presented to the Work Group for consideration through a modified Delphi process and via email. Disagreements were handled by email until consensus was reached.",
+      "section": "Foreword / Methods and overview of the practice parameter development process",
+      "locator": "body/sec[1]/sec[1]/p[7]"
+    },
+    {
+      "text": "A total of 45 articles were included after screening for the relevant inclusion and exclusion criteria for research question 1 (Table 1) [5, 11–54].",
+      "section": "Foreword / Research question 1 / In patients with symptoms indicative of AR, is serum-specific IgE sufficient to identify candidates for immunotherapy or is a skin prick test mandatory?",
+      "locator": "body/sec[1]/sec[2]/sec[1]/p[1]"
+    },
+    {
+      "text": "Allergic rhinitis is considered to be an immunoglobulin E (IgE)-mediated process [50], and a test of the allergic process and the specific allergens that trigger it is suggested by several guidelines to differentiate AR from other forms of rhinitis. If not performed earlier in the clinical workup, a test of the IgE presence to a specific allergen is required to prescribe and guide AIT.",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[3]/p[1]"
+    },
+    {
+      "text": "Two common forms of testing for the presence of IgE are a skin-prick test (SPT) and a blood-test-based serum-specific IgE (sIgE) test. All clinical practice guidelines reviewed here include both SPT and serum IgE as acceptable options for identifying IgE-mediated reactions [5, 17, 40, 50], e.g.:",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[3]/p[2]"
+    },
+    {
+      "text": "The Rhinitis Practice Parameter states “AIT should be considered for patients with AR who have specific IgE antibodies to clinically relevant allergens…” “We recommend that aeroallergen skin prick testing or sIgE testing be completed to confirm the diagnosis of AR in a patient with a history consistent with AR.” [5] (emphasis added).",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[3]/list[1]/list-item[1]/p[1]"
+    },
+    {
+      "text": "The Philippine Society of Otolaryngology – Head and Neck Surgery guidelines state: “Detailed allergic work-up, e.g., skin tests, serum specific IgE tests, or nasal provocation tests, may be performed for the following: […] Patients for whom immunotherapy is considered[…]” “Specific IgE testing is indicated to provide evidence of an allergic basis for the patient’s symptoms, to confirm or exclude suspected causes of the patient’s symptoms, or to assess sensitivity to specific allergens for avoidance measures and/or allergen immunotherapy.” “In general practice, if skin tests are not readily available, serum specific IgE tests may be carried out.” [17].",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[3]/list[1]/list-item[2]/p[1]"
+    },
+    {
+      "text": "The British Society of Allergy an Clinical Immunology (BSACI) guidelines state: “Allergen-specific IgE can be detected with SPTs or by serum immunoassay. Skin prick tests should be carried out routinely to determine if the rhinitis is allergic or non-allergic…” “Serum-specific IgE may be requested when skin tests are not possible…” “Allergen immunotherapy within the United Kingdom is recommended in patients with a history of symptoms on allergen exposure and objective confirmation of IgE sensitivity (skin prick test positive and/or elevated allergen-specific IgE)…” [40].",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[3]/list[1]/list-item[3]/p[1]"
+    },
+    {
+      "text": "The International Consensus statement on Allergy and Rhinology: Allergic Rhinitis (ICAR: AR) states: “…a SPT or in vitro antigen-specific IgE (sIgE) test can be used to confirm the diagnosis of AR.” In sections dedicated to each test, Wise et al. [50] confirm the value of both SPT and sIgE for guiding immunotherapy. “Skin testing is crucial to directing AIT, and therefore, should be utilized in eligible patients when AIT is being considered.” “…sIgE may help in the selection of candidates for AIT and possibly predict the response.” [50].",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[3]/list[1]/list-item[4]/p[1]"
+    },
+    {
+      "text": "Various trade-offs exist for the choice of SPT and sIgE. The SPT is universally accepted as the diagnostic method of choice for environmental allergy with sIgE generally provided as an alternative (rather than first) choice. However, SPT requires more skill on the part of the practitioner and carries certain risks for the patient (adverse events including discomfort and local allergic reactions; very low risk of anaphylaxis) and inconveniences (halting the use of medications that may confound the skin response). Other factors that influence the accuracy of SPT and make it difficult to compare studies include the stability and potency of the testing reagents, reactivity on the day of testing, variability by testing site, and skin color [35].",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[3]/p[3]"
+    },
+    {
+      "text": "In comparison, sIgE is a safe and effective alternative, can permit the testing/screening of a wider panel of allergens, and the results are generally less variable [11–13].",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[3]/p[4]"
+    },
+    {
+      "text": "The guidelines, reviews, and research studies could not have foreseen the impact of COVID-19 on the care and management of AR, however the context of the COVID-19 pandemic should qualify as an acceptable reason for choosing sIgE testing over SPT to guide the use of immunotherapy in AR. Indeed, in 2016, the Philippine Society of Otolaryngology speculated that advancing technology and the standardization and ability to use larger panels of allergens in tests would likely lead to sIgE supplanting SPT in the future [17].",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[3]/p[5]"
+    },
+    {
+      "text": "In support of the use of sIgE for guiding immunotherapy, ICAR: AR [50] suggest that sIgE levels may correlate better with those patients more likely to benefit from AIT. And all sources suggest that, in general, SPT and sIgE correlate well for diagnosing AR. E.g., “There is good evidence to show that sIgE is, in many ways, equivalent to SPT,” summarizes ICAR: AR [50] Saltabayeva et al.’s [39] study similarly found that sIgE was more precise than SPT in identifying genuine sensitizations as targets for AIT, and that sIgE testing identified fewer patients as cross-reacting to multiple types of pollen than SPT, a finding that would save costs on AIT well beyond the cost differential of sIgE over SPT. Beyond the initial selection for immunotherapy, changes in sIgE levels following therapy can predict patient satisfaction with immunotherapy [29].",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[3]/p[6]"
+    },
+    {
+      "text": "The strength of that conclusion depends on whether cost and speed of obtaining results are factors in the clinical decision, and on the relative sensitivity and specificity of the approaches. Here the literature is not conclusive, though sIgE testing demonstrates sensitivities of 67–96% and specificities of 80–100% (summary from ICAR: AR [50]). Traiyan et al. [44] found similarly high sensitivities and sensitivities for SPT (90% sensitivity and 88.3% specificity) and sIgE (89% and 95%, respectively).",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[3]/p[7]"
+    },
+    {
+      "text": "The performance may vary for specific allergens. In the BSACI guideline [40] summary of the literature, SPT and sIgE had similar sensitivities for dust mites, but SPT was more sensitive for cat (also in Nam et al [34]), mold, and pollen allergens. Bignardi et al. [15] found a similar ranking, though all allergens tested had AUCs of over 84% and only the sensitivities of dog and tree pollen by sIgE versus SPT were under 80%. Conversely, Visitsunthorn et al. [45] found excellent agreement between SPT and sIgE for cat (and dust mite) allergens. Comparing SPT and sIgE for dust mites, Alimuddin et al. [13] found a high positive predictive value, but some patients with positive SPT had negative sIgE results (sensitivity below 50% for one particular dust mite and a cockroach allergen). Chauveau et al. [19] found only moderate agreement between SPT and sIgE, but that both had similar predictive ability for allergic diseases, reinforcing ICAR: AR’s [50] point that the choice of gold standard can influence the comparison. Hong et al. [26] suggest adjusting the cutoff value of sIgE tests for each allergen, though this approach may require additional study before clinical implementation.",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[3]/p[8]"
+    },
+    {
+      "text": "In conclusion, evidence suggests that either sIgE testing or SPT can be used to support the final diagnosis of AR and guide AIT. While sIgE testing was used much more routinely than SPT in the context of the COVID-19 pandemic, sIgE should continue to be accepted as a sufficient approach for guiding the use of immunotherapy in AR.",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[3]/p[9]"
+    },
+    {
+      "text": "There are some limitations or other notable features regarding the body of evidence on this topic. Though some clinical practice guidelines, systematic reviews, and randomized controlled trials were identified through this search (Table 1), much of the literature identified was lower in the hierarchy of quality of evidence. This included original research such as cohort studies, retrospective studies, comparative studies, cross sectional studies, and observational studies.",
+      "section": "Foreword / Considerations and limitations regarding the body of literature",
+      "locator": "body/sec[1]/sec[4]/p[1]"
+    },
+    {
+      "text": "It is also important to note the variations in populations and allergens included across studies. While all the included studies included participants with allergic rhinitis, some studies also included additional participants with other respiratory or allergic conditions such as asthma or food allergies. Additionally, some studies may not be as applicable to the Canadian context given the specific allergens considered (e.g., cockroach, local flora) [13, 42, 43]. The heterogeneous nature of these studies makes it challenging to synthesize the evidence in this area.",
+      "section": "Foreword / Considerations and limitations regarding the body of literature",
+      "locator": "body/sec[1]/sec[4]/p[2]"
+    },
+    {
+      "text": "Many of the articles identified in this search focused on comparing diagnosis of allergic rhinitis SPT and serum sIgE (Table 1). These studies may utilize different allergens but often focus on identifying the sensitivity and specificity of the tests when diagnosing allergic rhinitis and identifying specific allergens to which patients are allergic or sensitive.",
+      "section": "Foreword / Considerations and limitations regarding the body of literature",
+      "locator": "body/sec[1]/sec[4]/p[3]"
+    },
+    {
+      "text": "Some included studies compared either the SPT or serum sIgE test to other allergy diagnostic tests or examined the value and nuances of the tests in question themselves. While these studies do not provide direct comparisons between the two tests, they may provide relevant information and a deeper understanding of SPT and serum sIgE testing. Another consideration is the differences in responses to the commercially available extracts in Canada [55]. Some studies found in the search offer a look at other types of component resolved diagnostics or other avenues of diagnosis that may not be common practice in Canada, but may still be of interest to this research question.",
+      "section": "Foreword / Considerations and limitations regarding the body of literature",
+      "locator": "body/sec[1]/sec[4]/p[4]"
+    },
+    {
+      "text": "A total of 39 articles were included after screening for the relevant inclusion and exclusion criteria for research question 2 (Table 2) [4, 5, 40, 50, 56–90].",
+      "section": "Foreword / Research question 2 / When taking into account the preferences of the patient and the prescriber (stakeholder engagement) should second generation oral antihistamine or intranasal corticosteroid be first line?",
+      "locator": "body/sec[1]/sec[5]/sec[1]/p[1]"
+    },
+    {
+      "text": "Second-generation OAH and intranasal corticosteroids (INCS) have evidence suggesting that they are safe and effective choices for AR and could be options for first-line therapies. Combination therapy has also been investigated, with a combination nose spray available on the market.",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[6]/p[1]"
+    },
+    {
+      "text": "The identified guidelines ultimately recommend both intranasal antihistamines (INAH) and INCS as options for first-line therapies, with slightly stronger language around the choice of INCS as first-line therapy [4, 5, 40, 50, 56]. More severe cases of AR lead to stronger recommendations for INCS or combinations of INAH/INCS, while mild-to-moderate recommendations are more open toward INAH/INCS in combination. From the guidelines:",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[6]/p[2]"
+    },
+    {
+      "text": "The Allergic Rhinitis and its Impact on Asthma (ARIA) guideline states: “In patients with SAR, we suggest either a combination of an INCS with an OAH or an INCS alone… In patients with perennial AR (PAR), we suggest an INCS alone rather than a combination of an INCS with an OAH…” “We suggest a combination of an INCS/INAH rather than an INAH alone…” “In patients with SAR, we suggest an INCS rather than an INAH.” [56].",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[6]/list[1]/list-item[1]/p[1]"
+    },
+    {
+      "text": "The ARIA guideline acknowledges that the difference between an INCS and INAH is likely small, and that “This is a conditional recommendation, and thus different choices will be appropriate for different patients. Clinicians must help each patient to arrive at a decision consistent with her or his values and preferences, considering local availability and costs.” [56] (emphasis added).",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[6]/p[3]"
+    },
+    {
+      "text": "The Rhinitis Practice Parameter states “INCS remain the preferred monotherapy for persistent AR, but additional studies support the additive benefit of combination treatment with INAH/INCS…” [5] Yet they add that INAH and combination therapies be considered as options: “We recommend that the clinician offer INAH as an initial treatment option for patients with SAR…” [5] (emphasis added) “We suggest that the clinician consider the combination INAH/INCS for moderate/severe SAR and PAR that is resistant to pharmacologic monotherapy.” [5] However, for intermittent AR, their treatment pathway suggests INAH as the first treatment option, likely because of the on-demand nature of intermittent AR. Having said that, INAH options in Canada are limited, so we have to defer to INAH/INCS options in this circumstance.",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[6]/list[2]/list-item[1]/p[1]"
+    },
+    {
+      "text": "The BSACI guidelines state: “[INCS are the] First-line therapy for moderate-to-severe persistent symptoms…” “[INAH are] …the first line of therapy for mild-to-moderate intermittent and mild persistent rhinitis.” “[INAH] are less effective than an INCS in relieving the symptoms of AR.” “There is a rapid onset of action (15 min), faster than OAH, thus, the drug can be used on demand as rescue therapy for symptom breakthrough. Continuous treatment is, however, more clinically effective than on demand use.” [40] Again, having said that, INAH options in Canada are limited, so we have to defer to INAH/INCS options in this circumstance.",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[6]/list[2]/list-item[2]/p[1]"
+    },
+    {
+      "text": "ICAR: AR states: “INCSs are first-line therapy for the treatment of AR due to their superior efficacy in controlling nasal congestion and other symptoms of this inflammatory condition. Subjects with known SAR should start prophylactic treatment with INCS several days before the pollen season… The well-proven efficacy of INCSs, as well as their superiority over other agents, make them first-line therapy in the treatment of AR.” “INAH may be used as first-line or second-line therapy in the treatment of AR.” [50].",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[6]/list[2]/list-item[3]/p[1]"
+    },
+    {
+      "text": "Patient preferences and co-morbidities certainly play a role in influencing the choice of treatment; the ARIA guideline suggests that the choice would depend mostly on patient preferences and other factors [56].",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[6]/p[4]"
+    },
+    {
+      "text": "When making a patient-specific decision, some factors to consider include the potential side effects, the symptoms to be controlled and the severity of the AR, and any co-morbidities the patient may have, as well as the patient and provider preferences, the cost and availability of the medications, and any issues regarding treatment compliance.",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[6]/p[5]"
+    },
+    {
+      "text": "In particular, INAH may have a bitter taste, while INCS may cause irritation, dryness and epistaxis. There are some reports of increased intra-ocular pressure with INCS, although studies did not show a significant increase in intra-ocular pressure when given over one year of therapy [91–93]. There are also concerns that some INCS may affect growth in children [50]. Long-term once-daily mometasone and fluticasone propionate in children given at the recommended dosage and once-daily budesonide at a dose of 64 mcg have not demonstrated any growth suppression [94–96]. INCS may also have sensory attributes that can affect patient preference and adherence to therapy, including aftertaste, nose runout, throat rundown, and smell [5].",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[6]/p[6]"
+    },
+    {
+      "text": "In terms of symptom control, INAH are more effective for ocular symptoms and sneezing than INCS [50], though when used on as-needed basis, Hoang et al. [60] found on-demand INCS superior to OAH for sneezing, though INCS will control nasal symptoms better, particularly nasal congestion. The guidelines agree that INCS should be the first-line therapy for patients with more severe symptoms. For intermittent AR or for as-needed use, INAH have a faster onset [40, 50].",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[6]/p[7]"
+    },
+    {
+      "text": "A full consideration of co-morbidities was not examined for this summary, however some main points that stood out in the literature include the potential for increased intra-ocular pressure with INCS, suggesting that they may need to be used with caution in patients at risk for glaucoma [40]. INCS may have benefits for other conditions, in particular ICAR: AR [50] suggest that INCSs may improve asthma control measures in patients suffering from both AR and asthma.",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[6]/p[8]"
+    },
+    {
+      "text": "Patient compliance and preferences may change the recommendations for treatment, however. INCS are generally recommended for daily use, with the effect building over the course of approximately 2 weeks; for SAR the suggestion is to begin prophylactic treatment in advance of allergen exposure [50]. However, several studies raised the concern that patients use medication on demand, and stop when symptoms are controlled [60, 70]. Phinyo et al. [76] cite evidence that “the vast majority of AR patients are not adherent to their medication.” Ng et al. [70] characterize it:",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[6]/p[9]"
+    },
+    {
+      "text": "“…the sensation of sprayed liquid in the nose may lead patients to mistakenly believe that intranasal steroid sprays work instantly. […] patients looking for rapid relief from allergy symptoms and congestion may self-treat with an INCS, unaware of their prolonged onset of action relative to oral agents. The locally applied nasal spray often confuses unaware patients (based on clinical practice experience, internal market research, and online consumer product reviews), who do not realize that the local spray sensation is not indicative of a symptom relief. Though the sensation in the nose may last for a short period of time, the patient may discontinue the use of INCS after administering the first dose, believing the treatment is not working.” [70].",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[6]/disp-quote[1]/p[1]"
+    },
+    {
+      "text": "Several studies have looked at the use of INCS in as-needed form vs. regular dosing, and universally found symptom relief, in some cases statistically similar to regular use [60, 76, 78, 82]. However, Hoang et al. [60] suggest that physicians communicate with patients about medication use and emphasize the importance of adherence – the regular use of INCS prevents inflammation from recurring. Their meta-analysis found that regular use of INCS led to greater improvements in symptom measures than as-needed INCS, yet even that was superior to as-needed antihistamines.",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[6]/p[10]"
+    },
+    {
+      "text": "Beyond the issue of regular INCS compliance, patient preferences may come into play with the use of any nasal spray (INCS or INAH/INCS) over oral medications. The guidelines generally agree that INAH are more effective choices than OAH, with a faster onset and improved relief of nasal congestion. The Rhinitis Practice Parameter [5] puts it most directly: “INAH are equal to or superior to OAH.” However, both INCS and INAH may have sensory side effects (e.g. bad taste) that some patients may not want.",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[6]/p[11]"
+    },
+    {
+      "text": "Oral antihistamines remain an alternative treatment that has been well-studied. Second-generation OAH provide effective symptom control with generally acceptable safety profiles and side effects and are widely available as over-the-counter and prescription-only medications. While the time to onset of symptom relief is slower than INAH, OAH can have faster onsets than INCS [40, 50]. Though not recommended in the examined guidelines as first-line therapies other than for mild intermittent symptoms, there is a place for them in the treatment options of each guideline reviewed.",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[6]/p[12]"
+    },
+    {
+      "text": "In conclusion, existing guidelines generally agree on the use of INCS as a first-line therapy used for AR, however, patient and provider preferences and considerations can easily shift the first choice to a second-generation OAH. Second-generation OAH are widely supported as treatment options, with evidence of their efficacy in symptom control.",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[6]/p[13]"
+    },
+    {
+      "text": "While all of the included studies considered subjects with AR, a few also included additional participants with other related respiratory or allergic conditions such as asthma. While some literature was identified on the direct comparison of second-generation OAH and INCS, a great deal of the included literature examined each of these treatments in comparison to other treatment options, such as combination therapy or leukotriene receptor antagonists. Others examined different options within OAH or INCS themselves. While allergens relevant to AR were considered across the different studies, the researchers may have included allergens that are more prevalent in other geographic locations but not in Canada. Additionally, a wide variety of possible treatments were included as comparisons to OAH and INCS.",
+      "section": "Foreword / Considerations and limitations regarding the body of literature",
+      "locator": "body/sec[1]/sec[7]/p[1]"
+    },
+    {
+      "text": "A total of 30 articles were included after screening for the relevant inclusion and exclusion criteria for research question 3 (Table 3) [4, 5, 40, 50, 56, 97–121].",
+      "section": "Foreword / Research question 3 / Is a combination INAH/INCS formulation superior to INCS plus OAH? Do they become equivalent after prolonged use?",
+      "locator": "body/sec[1]/sec[8]/sec[1]/p[1]"
+    },
+    {
+      "text": "The evidence consistently suggests that the combination of an INAH/INCS is superior to an INCS plus OAH. Indeed, many studies find that there is no benefit from adding an OAH to an INCS over the symptom relief provided by the INCS alone.",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[9]/p[1]"
+    },
+    {
+      "text": "The Rhinitis Practice Parameter [5] suggests the combination of INAH/INCS in certain circumstances (as first-line for patients with moderate/severe AR, or for those who are resistant to monotherapy), or OAH alone, but not the combination of OAH and INCS: “We suggest that the clinician not prescribe the combination of an OAH and an INCS in preference to monotherapy with an INCS in all patients with SAR and PAR.”",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[9]/list[1]/list-item[1]/p[1]"
+    },
+    {
+      "text": "ICAR: AR states: “Combination therapy of INCS and OAH does not improve symptoms of nasal congestion over INCS use alone, and does risk the adverse effects of systemic antihistamine use.” “Combination therapy with INAH/INCS may be used as second-line therapy in the treatment of AR when initial monotherapy with either INCS or antihistamine does not provide adequate control.” [50].",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[9]/list[1]/list-item[2]/p[1]"
+    },
+    {
+      "text": "Abd El-Raouf et al. state: “In this study have we aimed to determine whether the additional effects of INAH to INCS may play a role in rapid improvement of allergic symptoms during the 2-week period needed for the INCS to achieve maximum effect. Our findings show greater benefits with use of INAH/INCS over INCS alone. The effects were significant only for the INAH/INCS combination. […] Based on our findings, the combination of INCS and OAH is not recommended…” [97].",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[9]/list[1]/list-item[3]/p[1]"
+    },
+    {
+      "text": "Chitsuthipakorn et al. state: “The pooled data showed that the effects of the INAH/INCS combination were better than INCS alone on the improvements of composite nasal symptom score […] The INCS-OAH combination did not show any beneficial effects.” [103].",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[9]/list[1]/list-item[4]/p[1]"
+    },
+    {
+      "text": "Du et al. state: “INAH have an add-on effect on INCS, and the combination of INAH/INCS is superior to that of OAH plus INCS in improving nasal symptoms for patients with AR.” [105].",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[9]/list[1]/list-item[5]/p[1]"
+    },
+    {
+      "text": "Similarly, Feng et al.’s [106] review found that INCS plus OAH had similar efficacy to INCS alone, whereas a meta-analysis of 6 randomized controlled trials did demonstrate that the combination of INAH/INCS was superior to INCS alone (and thus, presumably also to INCS plus OAH) [118].",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[9]/p[2]"
+    },
+    {
+      "text": "Seresirikachorn et al. state: “Subgroup analysis indicated no benefit with the OAH-INCS combination but did show benefit with INAH/INCS.” [118].",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[9]/list[2]/list-item[1]/p[1]"
+    },
+    {
+      "text": "However, there is insufficient evidence to answer the second question of whether a combination INAH/INCS formulation becomes equivalent to INCS plus OAH after prolonged use. There were no long-term head-to-head studies within the parameters of the literature search, indeed there are very few long-term studies of combination therapies at all.",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[9]/p[3]"
+    },
+    {
+      "text": "Abd El-Raouf et al. state: “… all 4 studies assessing this combination only analyzed data at the single time-point of 2 weeks. It is not known whether these additional effects persist after a 2-week duration.” [97].",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[9]/list[3]/list-item[1]/p[1]"
+    },
+    {
+      "text": "Chitsuthipakorn et al.’s [103] analysis included one study that ran to 90 days of usage, which indicated that the effects of INAH/INCS continued to be sustained at least for that length of time.",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[9]/list[3]/list-item[2]/p[1]"
+    },
+    {
+      "text": "In one study that did include up to 52 weeks of data, the effectiveness of INAH/INCS in AR symptom control was compared to placebo, and they found differing results for the 52-week time period depending on the measure, with reflective Total Nasal Symptom Score and instantaneous Total Nasal Symptom Scores significantly improved vs. placebo (p < 0.001), whereas Physician-assessed Nasal Symptom Scores differences were not statistically significant from placebo at 52 weeks. [117] Segall et al. [117] concluded that the combination INAH/INCS treatment demonstrated long-term efficacy. However, in their meta-analysis that included that study, Chen et al. [102] conclude that INAH/INCS “…can only relieve the nasal and eye symptoms of AR patients in the short term, but cannot control rhinitis symptoms and improve the quality of life in the long term.” However one is to interpret that study, it only looked at INAH/INCS vs. placebo, and there remains a knowledge gap about the choice of INCS plus OAH or either individually vs. INAH/INCS over the long term.",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[9]/p[4]"
+    },
+    {
+      "text": "An observational survey-based study does support the long-term use of INAH/INCS [101]. Participants had begun combination therapy an average of 2.6 years prior to the survey, and 70% reported that they were more or much more satisfied with it than their previous AR treatment (which was not specified). “Significantly (p < .001) more participants (76%) were more or much more satisfied with Meda Pharmaceutical azelastine fluticasone propionate (MP-AzeFlu) than their previous AR treatment when MP-AzeFlu was used every day symptoms were expected, compared to 66% of participants who used it only on symptom days,” [101] which speaks to the importance of treatment compliance in long-term patient satisfaction.",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[9]/p[5]"
+    },
+    {
+      "text": "In conclusion, the combination INAH/INCS is superior to an INCS plus OAH. However, there was insufficient evidence to answer the second question of whether they become equivalent after prolonged use.",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[9]/p[6]"
+    },
+    {
+      "text": "A total of 26 articles were included after screening for the relevant inclusion and exclusion criteria for research question 4 (Table 4) [4, 5, 40, 50, 56, 81, 83, 85, 122–139].",
+      "section": "Foreword / Research question 4 / Do leukotriene receptor antagonists (LTRA) have a greater benefit than OAH in allergic rhinitis for some symptoms to justify a therapeutic trial in those who cannot tolerate INCS?",
+      "locator": "body/sec[1]/sec[10]/sec[1]/p[1]"
+    },
+    {
+      "text": "Several systematic reviews have examined the relative effectiveness of LTRAs (e.g., montelukast) and OAH, generally finding that LTRAs have inferior, or at best equivalent, daytime or overall symptom control [81, 83, 85, 127, 131].",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[11]/p[1]"
+    },
+    {
+      "text": "However, studies suggest that LTRAs improve nighttime symptom control:",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[11]/p[2]"
+    },
+    {
+      "text": "Feng et al. state: “LTRAs are superior to OAHs for improving the nighttime symptoms of AR, including nasal congestion on awakening, difficulty going to sleep, and nighttime awakenings…” [127].",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[11]/list[1]/list-item[1]/p[1]"
+    },
+    {
+      "text": "Krishnamoorthy et al. state: “Although OAH was superior to montelukast in most of the relief of the symptoms in allergic rhinitis, our meta-analysis found montelukast was effective in improving [night-time nasal symptom score]. This suggests that montelukast may be used as an alternative to OAH as first-line therapy in allergic rhinitis especially for patients who have predominantly night-time symptoms.” [131].",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[11]/list[1]/list-item[2]/p[1]"
+    },
+    {
+      "text": "Wei et al. state: “Montelukast has a significant influence in improving patients’ nasal symptoms quality of live [sic] but is not as effective as OAHs, and may have a slight advantage over OAHs in relieving nighttime symptoms significantly.” [83].",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[11]/list[1]/list-item[3]/p[1]"
+    },
+    {
+      "text": "Velentza et al. state: “Interestingly, montelukast was shown to be more effective than cetirizine in improving night sleep quality, according to patients’ diaries.” [81].",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[11]/list[1]/list-item[4]/p[1]"
+    },
+    {
+      "text": "LTRAs can also provide benefits in AR patients with asthma as a co-morbidity, which is common (40% per the Rhinitis Practice Parameter [5]).",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[11]/p[3]"
+    },
+    {
+      "text": "The Rhinitis Practice Parameter states “We recommend that the oral LTRA montelukast should only be used for AR in patients who have an inadequate response or intolerance to alternative therapies. […] In patients with AR comorbid with asthma, compared with placebo, montelukast could result in significant improvements in both conditions and therefore can be considered an option for patients with both conditions. However, due to the only modest efficacy and also the potential increased risks of montelukast compared with those of OAH, for the management of AR and comorbid asthma, the clinician should weigh the benefits of montelukast monotherapy versus an inhaled corticosteroid for asthma and an antihistamine or INCS for AR.” [5].",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[11]/list[2]/list-item[1]/p[1]"
+    },
+    {
+      "text": "The ARIA guideline states: “Some patients with AR who have concomitant asthma, especially exercise-induced and/or aspirin exacerbated respiratory disease, may benefit from LTRA more than from OAH[…] Patients with asthma who have concomitant AR should receive an appropriate treatment according to the guidelines for the treatment of asthma.” [56].",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[11]/list[2]/list-item[2]/p[1]"
+    },
+    {
+      "text": "The BSACI guidelines state: “[LTRAs] have a therapeutic profile similar to antihistamines, with efficacy comparable to loratadine in seasonal allergic rhinitis […] [LTRAs] may have a place in asthma patients with SAR.” [40].",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[11]/list[2]/list-item[3]/p[1]"
+    },
+    {
+      "text": "ICAR: AR states: “In patients with concurrent AR and asthma, LTRA can contribute to symptom management of both respiratory diseases. LTRA monotherapy is not recommended as first-line treatment for patients with concurrent AR and asthma, although this may be a consideration in patients with contraindications to INCS.” [50].",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[11]/list[2]/list-item[4]/p[1]"
+    },
+    {
+      "text": "Thus, there may be a justification to conduct a therapeutic trial if either the control of nighttime symptoms is a priority, or in cases of AR with asthma. However, few studies directly compared LTRAs to OAHs, and most randomized controlled trials did not include both an OAH and LTRA treatment arm.",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[11]/p[4]"
+    },
+    {
+      "text": "Kim et al. [130] studied people with AR and mild-to-moderate asthma and found a greater benefit of combined LTRA plus OAH therapy to LTRA alone. However, they did not examine LTRA vs. OAH alone, nor other treatment combinations in those with asthma (e.g., LTRA for controlling both upper and lower airway symptoms vs. separate inhaled corticosteroids for lower airway symptoms and OAH/INAH/INCS for upper airway/AR symptoms).",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[11]/p[5]"
+    },
+    {
+      "text": "A small study of children in Japan with asthma and AR (20 patients per group) found that AR symptoms were better controlled through the beginning of the pollen season when LTRA was given continuously, versus those who were given either LTRA or OAH on demand (waiting for symptoms to start after pollen season began) [137]. This difference in approach for those with SAR and asthma may be of interest for those who cannot tolerate other treatments.",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[11]/p[6]"
+    },
+    {
+      "text": "A note of caution, however, the Rhinitis Practice Parameter [5] and Bian et al. [124] report that LTRAs can have neuropsychological side effects, particularly in children under 6. However, in limiting their data to patients over 6 with asthma, Sansing-Foster et al. [135] did not find an increased risk of hospitalizations for depression or self-harm and found that 93% of patients with a psychiatric adverse event were those with a history of psychiatric disorder.",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[11]/p[7]"
+    },
+    {
+      "text": "In conclusion, LTRAs have inferior, or at best equivalent, daytime or overall symptom control compared with OAH. However, LTRAs may improve nighttime symptom control and provide benefits in patients with AR and concomitant asthma.",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[11]/p[8]"
+    },
+    {
+      "text": "Considerations and Limitations Regarding the Body of Literature.",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[11]/p[9]"
+    },
+    {
+      "text": "Studies comparing the effectiveness of LTRAs with OAH have been limited to SAR and are lacking for PAR.",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[11]/p[10]"
+    },
+    {
+      "text": "A total of 85 articles were included after screening for the relevant inclusion and exclusion criteria for research question 5 (Table 5) [5, 40, 50, 67, 126, 140–219].",
+      "section": "Foreword / Research question 5 / Should sublingual immunotherapy (SLIT) tablets be considered first-line immunotherapeutic options over subcutaneous immunotherapy (SCIT) based on the evidence of efficacy?",
+      "locator": "body/sec[1]/sec[12]/sec[1]/p[1]"
+    },
+    {
+      "text": "Recent clinical practice guidelines discuss the trade-offs involved with AIT, including SLIT and SCIT [5, 40, 50, 140]. These include the potential side effects (both), the need to identify the particular allergen(s) causing AR symptoms (both), the need for office visits (SCIT), provider expertise for preparation and delivery (SCIT), cost (both), and sustained compliance to modify the immune response (both). However, neither has a strong recommendation over the other on the basis of efficacy.",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[13]/p[1]"
+    },
+    {
+      "text": "Randomized controlled trials and systematic reviews published since 2016 examining comparative efficacy after long-term therapy provide mixed evidence depending on the allergen examined and outcomes considered.",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[13]/p[2]"
+    },
+    {
+      "text": "Elliott et al. [141] conducted a review of both types of AIT and found limited data for the comparison. SCIT out-performed SLIT in improving medication and symptom scores, though both treatment approaches were equivalent for improving quality of life scores. “The findings of our review suggest that both SCIT and SLIT are effective compared with placebo, but further work may be required to establish their comparative efficacy.”",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[13]/list[1]/list-item[1]/p[1]"
+    },
+    {
+      "text": "Kim et al. [143] compared studies of SCIT and SLIT for dust mite allergies and suggested that SCIT may be more effective, though only 1 of the SCIT studies included in their meta-analysis had a treatment duration of 3 years.",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[13]/list[1]/list-item[2]/p[1]"
+    },
+    {
+      "text": "Tie et al. [144] found no significant differences between SCIT and SLIT in their indirect comparison meta-analysis. Only 2 of their included studies used treatments of 3 years. “Based on results from an adjusted indirect comparison, treatment with either SCIT or SLIT results in comparable patient outcomes, so the decision for choosing between the two may be guided by other considerations, such as availability, cost, and patient preference.”",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[13]/list[1]/list-item[3]/p[1]"
+    },
+    {
+      "text": "Shamji et al. [157] reported that both treatments improved nasal symptoms after two years of treatment for grass pollen, but neither maintained that improvement after a year off treatment.",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[13]/list[1]/list-item[4]/p[1]"
+    },
+    {
+      "text": "Xian et al. [161] compared SCIT and SLIT in house dust mite allergies and found both were effective vs. placebo, with no differences across most measures, with SCIT having a slightly better (statistically significant; p = 0.026) improvement on the medication score, though in their own words “But it was not enough to state that SCIT works better than SLIT.”",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[13]/list[1]/list-item[5]/p[1]"
+    },
+    {
+      "text": "Using a 2-year dosing regimen and 1-year follow-up period, Scadding et al. [156]. found that SCIT was effective, while SLIT was not. This may be taken as evidence that SCIT is more robust to changes in treatment duration than SLIT, though it perhaps underscores the need for full treatment compliance in AIT (especially SLIT) rather than suggesting that SCIT is more effective than SLIT in 3-year regimens.",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[13]/list[1]/list-item[6]/p[1]"
+    },
+    {
+      "text": "Conversely, Gotoh et al. [171] found that a partial SLIT treatment period from their cross-over design was effective. They address the difference between their results and Scadding et al’s [156], suggesting that the different assessment methods may be a factor (allergen challenge vs. natural exposure). The different allergens used (grass vs. Japanese cedar) may also be a factor. However, Gotoh et al. [171] did not include a SCIT arm, limiting the applicability of this evidence for the core question.",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[13]/list[1]/list-item[7]/p[1]"
+    },
+    {
+      "text": "Due to the dearth of recent, high-quality studies examining long-term therapy, the search strategy was expanded to include lower quality studies, which reported promising results of SCIT or SLIT treatment after 3 years.",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[13]/p[3]"
+    },
+    {
+      "text": "In an observational study, Droessaert et al. [194] reported that 70% of patients receiving SCIT for AR were not using any medication for their AR 3 years after starting their treatment, and the immunotherapy group had reduced symptom severity than those taking medications.",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[13]/list[2]/list-item[1]/p[1]"
+    },
+    {
+      "text": "In an unblinded study that did not report on the randomization process, Ünal [213] found a greater improvement in nasal symptoms (Total Rhinitis Symptom Score) from dust mite and Parietaria SCIT 3 years after starting treatment with SCIT than from pharmacotherapy.",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[13]/list[2]/list-item[2]/p[1]"
+    },
+    {
+      "text": "Baba et al. [189] examined rhinitis patients treated with SLIT vs. pharmacotherapy over 3 years and found sustained clinical improvement and a reduction in medication use from SLIT.",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[13]/list[2]/list-item[3]/p[1]"
+    },
+    {
+      "text": "Devillier et al. [192] conducted an observational study of grass SLIT tablets, including patients with up to 6 years of follow-up, and found reduced AR medication prescription and reduced risk of developing asthma (OR = 0.72). SLIT was administered to patients with AR for ≥ 3 years in 59% and 70% of patients receiving 5- and 1-grass-pollen SLIT tablets, respectively.",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[13]/list[2]/list-item[4]/p[1]"
+    },
+    {
+      "text": "In the REACT study, a retrospective cohort study of patients using AIT for at least one year, Fritzsching et al. [196] found that the subjects treated with SCIT/SLIT had reduced AR prescriptions compared with the control group which was sustained over 9 years.",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[13]/list[2]/list-item[5]/p[1]"
+    },
+    {
+      "text": "Huang et al. [200] studied adult and pediatric patients with AR who received house dust mite-SCIT for 3 years. After 3 years of treatment and 2 years following treatment, subjects showed improved symptoms and quality of life scores vs. pre-treatment, with children showing better improvements based on baseline compared to adults.",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[13]/list[2]/list-item[6]/p[1]"
+    },
+    {
+      "text": "Wahn et al. [216] studied a mix of SLIT and SCIT vs. pharmacotherapy in patients with birch pollen allergies who received treatment in ≥ 2 successive seasonal pollen cycles, with up to 6 years of follow-up data post-treatment. They found significantly more people in the AIT group were medication-free for AR and asthma symptoms (both p < 0.001), with many more reducing their medication use. The risk of developing new asthma was also reduced in the SCIT/SLIT treatment groups.",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[13]/list[2]/list-item[7]/p[1]"
+    },
+    {
+      "text": "In general, both SCIT and SLIT have been shown to be effective for AR across a variety of allergens. However, without more direct long-term head-to-head studies or meta-analyses, it is difficult to draw conclusions regarding selecting one over the other on the basis of efficacy alone. Regardless, the differences in costs, risks, practical considerations for administration, and patient preferences may outweigh any quantifiable differences in efficacy [220–224].",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[13]/p[4]"
+    },
+    {
+      "text": "In conclusion, the choice of SLIT or SCIT cannot be made on efficacy alone, and differences in other factors outweigh any differences in efficacy.",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[13]/p[5]"
+    },
+    {
+      "text": "Allergen extracts used in SCIT and SLIT are highly variable in allergen content and potency, which can affect efficacy and safety. The use of extracts standardized for potency are necessary for high quality studies, and efficacy data associated with standardized extracts should not be extrapolated to non-standardized extracts. Furthermore, natural pollen exposures can also be a confounding variable for studies of SCIT/SLIT effectiveness, for example Worm et al. [160] found that SCIT was not more effective than placebo but noted that the pollen counts in the primary evaluation year were the lowest in the study period, so even the placebo group had reduced symptoms and medication use.",
+      "section": "Foreword / Considerations and limitations regarding the body of literature",
+      "locator": "body/sec[1]/sec[14]/p[1]"
+    },
+    {
+      "text": "Limitations to the literature published since 2016 includes a focus on short-term treatments (most studies examined treatment of ≤ 2 years), and evaluation periods that coincided with the end of the treatment phase, rather than the following allergy season. Others examined various immunological biomarkers, rather than clinically relevant measures (e.g. Stylianou et al. [225]).",
+      "section": "Foreword / Considerations and limitations regarding the body of literature",
+      "locator": "body/sec[1]/sec[14]/p[2]"
+    },
+    {
+      "text": "A total of 50 articles were included after screening for the relevant inclusion and exclusion criteria for research question 6 (Table 6) [5, 40, 50, 67, 140–185]. The search results were the same guidelines, systematic reviews, and randomized controlled trials identified for research question 5.",
+      "section": "Foreword / Based on efficacy data, should ALL patients seen by an allergist be offered SLIT or SCIT as a treatment option?",
+      "locator": "body/sec[1]/sec[16]/p[1]"
+    },
+    {
+      "text": "Allergen immunotherapy (both SLIT and SCIT) has been shown to provide clinical benefits in patients with AR and reduce or eliminate the need for pharmacotherapy. Overall effect shown varies depending on allergen being considered, length of treatment, and outcomes being measured.",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[17]/p[1]"
+    },
+    {
+      "text": "Many studies have demonstrated the efficacy of SCIT and SLIT vs. placebo, some for a year or more after therapy ends [151, 156, 183, 185]. The results of studies are often more impressive than they first appear, as patients typically have access to pharmacotherapy (as rescue medications at least), so the SCIT/SLIT improvements are in addition to the benefits provided by symptom-controlling medications.",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[17]/p[2]"
+    },
+    {
+      "text": "In addition, SLIT and SCIT have been shown to reduce the risk of a patient with AR later developing asthma [5, 40, 140, 183, 192, 216, 219]. The odds ratios were modest (e.g., the 0.66 in Valovirta et al. [183] was typical), however asthma is a common co-morbidity for AR so this could be clinically meaningful. Indeed, results from Valovirta et al. [183] suggest that the reduction in the risk and severity of asthma is itself a reason to use SLIT in patients with AR.",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[17]/p[3]"
+    },
+    {
+      "text": "The efficacy for SLIT and SCIT suggests that these treatment approaches should be used broadly in patients with AR. However, that efficacy data must be balanced by other clinical concerns, which were not the target of this literature review, though some key themes are presented below.",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[17]/p[4]"
+    },
+    {
+      "text": "Recent clinical practice guidelines discuss the trade-offs involved with AIT, including SLIT and SCIT [5, 40, 50, 140]. These include the potential side effects (both SLIT and SCIT), the need to identify the particular allergen(s) causing AR symptoms (both), the need for office visits (SCIT), provider expertise for preparation and delivery (SCIT), cost (both), and sustained compliance to modify the immune response (both). The guidelines generally agree that SLIT or SCIT be offered to patients whose AR is not well-controlled by pharmacotherapy or who have a preference for AIT.",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[17]/p[5]"
+    },
+    {
+      "text": "Another concern is that AIT requires identifying the specific allergen(s) responsible for a patient’s symptoms and then using those allergens in the SLIT or SCIT. This testing burden may present a barrier to SCIT and SLIT treatment, as benefits of SLIT and SCIT are likely allergen specific (e.g. Ellis et al. [169] which showed no significant effect of Timothy grass SLIT in participants with birch pollen induced AR.)",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[17]/p[6]"
+    },
+    {
+      "text": "Moreover, most patients exhibit polysensitization (many papers estimate the rate at 70–80% [226–228]), which confounds the choice and makes planning a course of treatment more difficult to implement. The European Academy of Allergy and Clinical Immunology guidelines for AIT on AR [140] suggest that AIT may be less effective or ineffective in polysensitized individuals, and if necessary, multiple allergens be given with a period of time between exposures, which adds to the implementation difficulties. ICAR: AR [50] suggest that in the US it is common to include multiple allergen extracts for SCIT, though this may not be possible for SLIT. They also suggest that more evidence is required to support the use of SCIT and SLIT in polysensitized individuals, although there is published evidence that AIT is effective in such patients [229–231].",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[17]/p[7]"
+    },
+    {
+      "text": "In conclusion, the efficacy data suggests that SLIT or SCIT should be used broadly in patients with AR, but other clinical concerns also need to be taken into consideration.",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[17]/p[8]"
+    },
+    {
+      "text": "Efficacy is only one aspect when considering the appropriateness of AIT for patients. The majority of patients will not need or want AIT for reasons of inconvenience, cost, or potential side effects, and the decision will be primarily up to patient preference [220–224, 232]. However, there are some patients in whom AIT may be more strongly recommended, such as asthmatics with clear worsening in response to allergic triggers or other comorbid atopic conditions.",
+      "section": "Foreword / Considerations and limitations regarding the body of literature",
+      "locator": "body/sec[1]/sec[18]/p[1]"
+    },
+    {
+      "text": "Regional allergen sensitizations, medication product availability, healthcare systems, and other factors can influence the regional management of AR. Six questions specifically related to the clinical management of AR in Canada were identified by a Work Group of practicing Canadian physicians and recommendations were given based on reviews of the literature. The recommendations were not in the format of a standard guideline, but rather were focused as a series of Population, Intervention, Comparison, Outcome (PICO)-style questions which have become the norm in Traditional Practice Parameter statements from the Joint Task Force on Practice Parameters [233]. To this end, the Work Group determined there was sufficient evidence to conclude that: both sIgE testing and SPT are acceptable for diagnosing AR and guiding AIT; that INCS should generally be used as first-line therapy over OAH but is dependent on patient/provider preferences; that INAH/INCS is superior to an INCS plus OAH; that LTRAs are generally inferior, or at best equivalent, to OAH in controlling daytime symptoms but may improve nighttime symptom control and provide benefits with comorbid AR and asthma; that the choice between SLIT and SCIT cannot be based on efficacy alone; and that SLIT and SCIT should be broadly used in patients with AR but other clinical concerns also need to be taken into consideration.",
+      "section": "Discussion",
+      "locator": "body/sec[2]/p[1]"
+    },
+    {
+      "text": "Although several of the questions focused on decision-making based on efficacy, the recommendations for these questions tend to have caveats driven by patient preference. Does the patient prefer an OAH because the taste of INCS is intolerable? Is the patient willing to attend frequent office visits for SCIT? Such preferences can be determined in shared decision-making conversations that should be a part of each patient visit. Comorbidities, costs, and product availability are also considerations when choosing a treatment for AR. Thus, while the Work Group were able to make conclusions regarding efficacy based on published clinical guidelines and other literature sources, in many cases treatment decisions need to go beyond simple efficacy superiority.",
+      "section": "Discussion",
+      "locator": "body/sec[2]/p[2]"
+    },
+    {
+      "text": "A general limitation of this focused practice parameter is that pharmacoeconomics were considered, although cost and cost-effectiveness are certainly factors in treatment decisions. There is a large body of literature on pharmacoeconomics in AR that was beyond the scope for inclusion in this focused practice parameter.",
+      "section": "Discussion",
+      "locator": "body/sec[2]/p[3]"
+    },
+    {
+      "text": "This focused practice parameter provides recommendations for specific questions in the management of AR in Canada. Implementation of these recommendations in conjunction with shared decision-making conversations may improve outcomes in Canadian patients with AR.",
+      "section": "Conclusion",
+      "locator": "body/sec[3]/p[1]"
+    },
+    {
+      "text": "All recommendations in this document are evidence based and concluded on by all authors equally as consensus-based recommendations.",
+      "section": "Declarations / Resolving conflicts of interest",
+      "locator": "body/sec[10]/sec[4]/p[1]"
+    },
+    {
+      "text": "Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.",
+      "section": "Footnotes",
+      "locator": "body/sec[11]/fn-group[1]/fn[1]/p[2]"
+    }
+  ],
+  "chunks": [
+    {
+      "id": "a71b7568674132d264b12242",
+      "text": "Allergic rhinitis (AR) is a prevalent disease that affects both children and adults. In Canada, up to 20% of the general population is estimated to have a diagnosis of AR [1, 2]. The burden of AR is well documented, negatively impacting daily activities, sleep, work and school performance, and overall health-related quality of life. To reduce the burden of AR, disease management includes allergen avoidance, allergen immunotherapy (AIT), and symptom-relieving pharmacotherapies (Fig. 1) [3]. Several guidelines for the management of AR have been published by professional allergy societies worldwide. In the North American context, comprehensive, evidence-based practice parameters for seasonal AR (SAR) and rhinitis were updated in 2017 and 2020, respectively [4, 5]. Nevertheless, there are regional differences in the clinical management of AR, and regulatory approval of some AR pharmacotherapies varies among countries. Thus, research questions specific to the treatment of AR in Canada were identified by consensus of the Work Group and were chosen for this focused practice parameter. The 6 questions selected for the focused practice parameter were chosen due to the prevalence of unanswered questions and/or unmet needs from previous practice statements.",
+      "section": "Foreword",
+      "locator": "body/sec[1]/p[1]",
+      "start": 0,
+      "end": 1266,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "e5dc94cf749320dfa4dbd33e",
+      "text": "A GRADE approach was not used for the focused practice parameter because of the rarity of randomized control trial literature for some of the research questions. However, systematic reviews of the published literature from the past 5 years were conducted to obtain evidence-based support for the responses of the Work Group to each research question. Pharmacoeconomic analyses were not considered or conducted for the practice parameter, although the Work Group recognizes that economic factors can influence treatment decisions. We refer the reader to some reviews of the pharmacoeconomics for AR or cost-effectiveness among treatment options [6–8].",
+      "section": "Foreword",
+      "locator": "body/sec[1]/p[2]",
+      "start": 0,
+      "end": 650,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "cd983d5b729fddb980568439",
+      "text": "A detailed and thorough literature search for appropriate medical literature in key sources was conducted for each of the 6 questions in a systematic manner by an information specialist. These sources included Ovid Medline database, Cochrane Database of Systematic Reviews, Cochrane Central Register of Controlled Trials, CMA Infobase, NICE guidelines database, Health Canada, National Institutes of Health, American Academy of Allergy, Asthma & Immunology, European Academy of Allergy and Clinical Immunology, Australasian Society of Clinical Immunology and Allergy, and the British Society for Allergy & Clinical Immunology. Advanced searching in Google was also conducted. Search strategies for each database and search terms for each internet resource for each of the research questions are described in Appendices 1–6, respectively. All the searches were limited to English only, human subject studies published in the year 2016 or later and included both pediatric and adult patients. The search results were screened for relevance to the research question, and specific inclusion and exclusion criteria for each research question were applied (see Appendices 1–6).",
+      "section": "Foreword / Methods and overview of the practice parameter development process",
+      "locator": "body/sec[1]/sec[1]/p[1]",
+      "start": 0,
+      "end": 1171,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "036cc1649ea745d364a63f4b",
+      "text": "The searches focused on identifying high quality clinical practice guidelines, systematic reviews, and randomized controlled trials. However, other types of original research (e.g., cohort studies, retrospective studies, observational studies, etc.) were included in the search results for research questions 1, 3 and 4.",
+      "section": "Foreword / Methods and overview of the practice parameter development process",
+      "locator": "body/sec[1]/sec[1]/p[2]",
+      "start": 0,
+      "end": 320,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "3e44f45de2f93c24a2ada1c5",
+      "text": "To identify the highest quality literature available on this topic, each unique clinical practice guideline, systematic review, and randomized controlled trial identified in each of the literature searches were appraised for quality. Each of these types of literature was appraised with a modified version of an appropriate framework.",
+      "section": "Foreword / Methods and overview of the practice parameter development process",
+      "locator": "body/sec[1]/sec[1]/p[3]",
+      "start": 0,
+      "end": 334,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "3274b95870c9cf62bb8d4079",
+      "text": "Clinical practice guidelines were appraised with a modified AGREE II framework with a focus on two criteria: [9]",
+      "section": "Foreword / Methods and overview of the practice parameter development process",
+      "locator": "body/sec[1]/sec[1]/p[4]",
+      "start": 0,
+      "end": 112,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "1e91299a1821571001156696",
+      "text": "Systematic methods were used to search for evidence.",
+      "section": "Foreword / Methods and overview of the practice parameter development process",
+      "locator": "body/sec[1]/sec[1]/list[1]/list-item[1]/p[1]",
+      "start": 0,
+      "end": 52,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "4202b7b2853126b15ef17b28",
+      "text": "There is an explicit link between the recommendations and the supporting evidence.",
+      "section": "Foreword / Methods and overview of the practice parameter development process",
+      "locator": "body/sec[1]/sec[1]/list[1]/list-item[2]/p[1]",
+      "start": 0,
+      "end": 82,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "45416a9464d473cd035b97e8",
+      "text": "Systematic reviews were appraised with a modified AMSTAR framework with a focus on two criteria: [10]",
+      "section": "Foreword / Methods and overview of the practice parameter development process",
+      "locator": "body/sec[1]/sec[1]/p[5]",
+      "start": 0,
+      "end": 101,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "1201200d4fc7fefcc90454d6",
+      "text": "Was a comprehensive literature search performed?",
+      "section": "Foreword / Methods and overview of the practice parameter development process",
+      "locator": "body/sec[1]/sec[1]/list[2]/list-item[1]/p[1]",
+      "start": 0,
+      "end": 48,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "a68d21e6610340c96340dda9",
+      "text": "Was the scientific quality of the included studies assessed? (e.g. Cochrane risk of bias, Jadad scale, etc.)",
+      "section": "Foreword / Methods and overview of the practice parameter development process",
+      "locator": "body/sec[1]/sec[1]/list[2]/list-item[2]/p[1]",
+      "start": 0,
+      "end": 108,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "634c47d6b91a7a6d50aee409",
+      "text": "Randomized controlled trials were appraised with a modified Cochrane Risk of Bias framework with a focus on two domains, plus the source of funding:",
+      "section": "Foreword / Methods and overview of the practice parameter development process",
+      "locator": "body/sec[1]/sec[1]/p[6]",
+      "start": 0,
+      "end": 148,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "05d8bc5162c0104ddd02b983",
+      "text": "Risk of bias arising from the randomization process.",
+      "section": "Foreword / Methods and overview of the practice parameter development process",
+      "locator": "body/sec[1]/sec[1]/list[3]/list-item[1]/p[1]",
+      "start": 0,
+      "end": 52,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "398f6afa75e8a3ec2f4fe8b3",
+      "text": "Risk of bias due to deviations from the intended interventions.",
+      "section": "Foreword / Methods and overview of the practice parameter development process",
+      "locator": "body/sec[1]/sec[1]/list[3]/list-item[2]/p[1]",
+      "start": 0,
+      "end": 63,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "9fdfb84b923af3e9a0c11540",
+      "text": "Reporting for the source of funding was also assessed.",
+      "section": "Foreword / Methods and overview of the practice parameter development process",
+      "locator": "body/sec[1]/sec[1]/list[3]/list-item[3]/p[1]",
+      "start": 0,
+      "end": 54,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "1428b691b3c4c15bbadc3cdd",
+      "text": "The results from the literature searches were compiled into evidence summaries for each of the 6 questions and presented to the Work Group for consideration through a modified Delphi process and via email. Disagreements were handled by email until consensus was reached.",
+      "section": "Foreword / Methods and overview of the practice parameter development process",
+      "locator": "body/sec[1]/sec[1]/p[7]",
+      "start": 0,
+      "end": 270,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "89c1c2205c908e7e5adcc86d",
+      "text": "A total of 45 articles were included after screening for the relevant inclusion and exclusion criteria for research question 1 (Table 1) [5, 11–54].",
+      "section": "Foreword / Research question 1 / In patients with symptoms indicative of AR, is serum-specific IgE sufficient to identify candidates for immunotherapy or is a skin prick test mandatory?",
+      "locator": "body/sec[1]/sec[2]/sec[1]/p[1]",
+      "start": 0,
+      "end": 148,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "0eec4e1fa974e096221ef2ad",
+      "text": "Allergic rhinitis is considered to be an immunoglobulin E (IgE)-mediated process [50], and a test of the allergic process and the specific allergens that trigger it is suggested by several guidelines to differentiate AR from other forms of rhinitis. If not performed earlier in the clinical workup, a test of the IgE presence to a specific allergen is required to prescribe and guide AIT.",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[3]/p[1]",
+      "start": 0,
+      "end": 388,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "291b1b8279760ed491fdfc1d",
+      "text": "Two common forms of testing for the presence of IgE are a skin-prick test (SPT) and a blood-test-based serum-specific IgE (sIgE) test. All clinical practice guidelines reviewed here include both SPT and serum IgE as acceptable options for identifying IgE-mediated reactions [5, 17, 40, 50], e.g.:",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[3]/p[2]",
+      "start": 0,
+      "end": 296,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "cf5cf04785a8d27ae0efbb77",
+      "text": "The Rhinitis Practice Parameter states “AIT should be considered for patients with AR who have specific IgE antibodies to clinically relevant allergens…” “We recommend that aeroallergen skin prick testing or sIgE testing be completed to confirm the diagnosis of AR in a patient with a history consistent with AR.” [5] (emphasis added).",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[3]/list[1]/list-item[1]/p[1]",
+      "start": 0,
+      "end": 335,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "1baaf8a48047db906ecfd40b",
+      "text": "The Philippine Society of Otolaryngology – Head and Neck Surgery guidelines state: “Detailed allergic work-up, e.g., skin tests, serum specific IgE tests, or nasal provocation tests, may be performed for the following: […] Patients for whom immunotherapy is considered[…]” “Specific IgE testing is indicated to provide evidence of an allergic basis for the patient’s symptoms, to confirm or exclude suspected causes of the patient’s symptoms, or to assess sensitivity to specific allergens for avoidance measures and/or allergen immunotherapy.” “In general practice, if skin tests are not readily available, serum specific IgE tests may be carried out.” [17].",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[3]/list[1]/list-item[2]/p[1]",
+      "start": 0,
+      "end": 659,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "bd062946cad84943b1ef4b11",
+      "text": "The British Society of Allergy an Clinical Immunology (BSACI) guidelines state: “Allergen-specific IgE can be detected with SPTs or by serum immunoassay. Skin prick tests should be carried out routinely to determine if the rhinitis is allergic or non-allergic…” “Serum-specific IgE may be requested when skin tests are not possible…” “Allergen immunotherapy within the United Kingdom is recommended in patients with a history of symptoms on allergen exposure and objective confirmation of IgE sensitivity (skin prick test positive and/or elevated allergen-specific IgE)…” [40].",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[3]/list[1]/list-item[3]/p[1]",
+      "start": 0,
+      "end": 577,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "d50089b32c30d58c9a1bf90e",
+      "text": "The International Consensus statement on Allergy and Rhinology: Allergic Rhinitis (ICAR: AR) states: “…a SPT or in vitro antigen-specific IgE (sIgE) test can be used to confirm the diagnosis of AR.” In sections dedicated to each test, Wise et al. [50] confirm the value of both SPT and sIgE for guiding immunotherapy. “Skin testing is crucial to directing AIT, and therefore, should be utilized in eligible patients when AIT is being considered.” “…sIgE may help in the selection of candidates for AIT and possibly predict the response.” [50].",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[3]/list[1]/list-item[4]/p[1]",
+      "start": 0,
+      "end": 543,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "ad4d7b339ae63b98c58845b3",
+      "text": "Various trade-offs exist for the choice of SPT and sIgE. The SPT is universally accepted as the diagnostic method of choice for environmental allergy with sIgE generally provided as an alternative (rather than first) choice. However, SPT requires more skill on the part of the practitioner and carries certain risks for the patient (adverse events including discomfort and local allergic reactions; very low risk of anaphylaxis) and inconveniences (halting the use of medications that may confound the skin response). Other factors that influence the accuracy of SPT and make it difficult to compare studies include the stability and potency of the testing reagents, reactivity on the day of testing, variability by testing site, and skin color [35].",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[3]/p[3]",
+      "start": 0,
+      "end": 750,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "4c2a7fd0df3a2a3679e32ce2",
+      "text": "In comparison, sIgE is a safe and effective alternative, can permit the testing/screening of a wider panel of allergens, and the results are generally less variable [11–13].",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[3]/p[4]",
+      "start": 0,
+      "end": 173,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "5ba6e7d7aac5e68ba477fa2d",
+      "text": "The guidelines, reviews, and research studies could not have foreseen the impact of COVID-19 on the care and management of AR, however the context of the COVID-19 pandemic should qualify as an acceptable reason for choosing sIgE testing over SPT to guide the use of immunotherapy in AR. Indeed, in 2016, the Philippine Society of Otolaryngology speculated that advancing technology and the standardization and ability to use larger panels of allergens in tests would likely lead to sIgE supplanting SPT in the future [17].",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[3]/p[5]",
+      "start": 0,
+      "end": 522,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "848782a379c4af16f9139d4b",
+      "text": "In support of the use of sIgE for guiding immunotherapy, ICAR: AR [50] suggest that sIgE levels may correlate better with those patients more likely to benefit from AIT. And all sources suggest that, in general, SPT and sIgE correlate well for diagnosing AR. E.g., “There is good evidence to show that sIgE is, in many ways, equivalent to SPT,” summarizes ICAR: AR [50] Saltabayeva et al.’s [39] study similarly found that sIgE was more precise than SPT in identifying genuine sensitizations as targets for AIT, and that sIgE testing identified fewer patients as cross-reacting to multiple types of pollen than SPT, a finding that would save costs on AIT well beyond the cost differential of sIgE over SPT. Beyond the initial selection for immunotherapy, changes in sIgE levels following therapy can predict patient satisfaction with immunotherapy [29].",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[3]/p[6]",
+      "start": 0,
+      "end": 853,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "36d9be65a35322601cafa389",
+      "text": "The strength of that conclusion depends on whether cost and speed of obtaining results are factors in the clinical decision, and on the relative sensitivity and specificity of the approaches. Here the literature is not conclusive, though sIgE testing demonstrates sensitivities of 67–96% and specificities of 80–100% (summary from ICAR: AR [50]). Traiyan et al. [44] found similarly high sensitivities and sensitivities for SPT (90% sensitivity and 88.3% specificity) and sIgE (89% and 95%, respectively).",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[3]/p[7]",
+      "start": 0,
+      "end": 505,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "703463476782335a41de9263",
+      "text": "The performance may vary for specific allergens. In the BSACI guideline [40] summary of the literature, SPT and sIgE had similar sensitivities for dust mites, but SPT was more sensitive for cat (also in Nam et al [34]), mold, and pollen allergens. Bignardi et al. [15] found a similar ranking, though all allergens tested had AUCs of over 84% and only the sensitivities of dog and tree pollen by sIgE versus SPT were under 80%. Conversely, Visitsunthorn et al. [45] found excellent agreement between SPT and sIgE for cat (and dust mite) allergens. Comparing SPT and sIgE for dust mites, Alimuddin et al. [13] found a high positive predictive value, but some patients with positive SPT had negative sIgE results (sensitivity below 50% for one particular dust mite and a cockroach allergen). Chauveau et al. [19] found only moderate agreement between SPT and sIgE, but that both had similar predictive ability for allergic diseases, reinforcing ICAR: AR’s [50] point that the choice of gold standard can influence the comparison. Hong et al. [26] suggest adjusting the cutoff value of sIgE tests for each allergen, though this approach may require additional study before clinical implementation.",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[3]/p[8]",
+      "start": 0,
+      "end": 1194,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "30045b79c31f0ea3489b7d6a",
+      "text": "In conclusion, evidence suggests that either sIgE testing or SPT can be used to support the final diagnosis of AR and guide AIT. While sIgE testing was used much more routinely than SPT in the context of the COVID-19 pandemic, sIgE should continue to be accepted as a sufficient approach for guiding the use of immunotherapy in AR.",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[3]/p[9]",
+      "start": 0,
+      "end": 331,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "6ce805bf461a94737795a4f8",
+      "text": "There are some limitations or other notable features regarding the body of evidence on this topic. Though some clinical practice guidelines, systematic reviews, and randomized controlled trials were identified through this search (Table 1), much of the literature identified was lower in the hierarchy of quality of evidence. This included original research such as cohort studies, retrospective studies, comparative studies, cross sectional studies, and observational studies.",
+      "section": "Foreword / Considerations and limitations regarding the body of literature",
+      "locator": "body/sec[1]/sec[4]/p[1]",
+      "start": 0,
+      "end": 477,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "867c176c47f616f704a147ba",
+      "text": "It is also important to note the variations in populations and allergens included across studies. While all the included studies included participants with allergic rhinitis, some studies also included additional participants with other respiratory or allergic conditions such as asthma or food allergies. Additionally, some studies may not be as applicable to the Canadian context given the specific allergens considered (e.g., cockroach, local flora) [13, 42, 43]. The heterogeneous nature of these studies makes it challenging to synthesize the evidence in this area.",
+      "section": "Foreword / Considerations and limitations regarding the body of literature",
+      "locator": "body/sec[1]/sec[4]/p[2]",
+      "start": 0,
+      "end": 570,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "5bc848f7f0448759567f53aa",
+      "text": "Many of the articles identified in this search focused on comparing diagnosis of allergic rhinitis SPT and serum sIgE (Table 1). These studies may utilize different allergens but often focus on identifying the sensitivity and specificity of the tests when diagnosing allergic rhinitis and identifying specific allergens to which patients are allergic or sensitive.",
+      "section": "Foreword / Considerations and limitations regarding the body of literature",
+      "locator": "body/sec[1]/sec[4]/p[3]",
+      "start": 0,
+      "end": 364,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "167922f354d1bf4893855f31",
+      "text": "Some included studies compared either the SPT or serum sIgE test to other allergy diagnostic tests or examined the value and nuances of the tests in question themselves. While these studies do not provide direct comparisons between the two tests, they may provide relevant information and a deeper understanding of SPT and serum sIgE testing. Another consideration is the differences in responses to the commercially available extracts in Canada [55]. Some studies found in the search offer a look at other types of component resolved diagnostics or other avenues of diagnosis that may not be common practice in Canada, but may still be of interest to this research question.",
+      "section": "Foreword / Considerations and limitations regarding the body of literature",
+      "locator": "body/sec[1]/sec[4]/p[4]",
+      "start": 0,
+      "end": 675,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "65b63dd39e4d11f59dcf0da6",
+      "text": "A total of 39 articles were included after screening for the relevant inclusion and exclusion criteria for research question 2 (Table 2) [4, 5, 40, 50, 56–90].",
+      "section": "Foreword / Research question 2 / When taking into account the preferences of the patient and the prescriber (stakeholder engagement) should second generation oral antihistamine or intranasal corticosteroid be first line?",
+      "locator": "body/sec[1]/sec[5]/sec[1]/p[1]",
+      "start": 0,
+      "end": 159,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "196454abc22f3f23e0538ad3",
+      "text": "Second-generation OAH and intranasal corticosteroids (INCS) have evidence suggesting that they are safe and effective choices for AR and could be options for first-line therapies. Combination therapy has also been investigated, with a combination nose spray available on the market.",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[6]/p[1]",
+      "start": 0,
+      "end": 282,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "af6e7798f892ec502e68f0b9",
+      "text": "The identified guidelines ultimately recommend both intranasal antihistamines (INAH) and INCS as options for first-line therapies, with slightly stronger language around the choice of INCS as first-line therapy [4, 5, 40, 50, 56]. More severe cases of AR lead to stronger recommendations for INCS or combinations of INAH/INCS, while mild-to-moderate recommendations are more open toward INAH/INCS in combination. From the guidelines:",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[6]/p[2]",
+      "start": 0,
+      "end": 433,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "fbcfad2f8f0dcc8798a2d4d2",
+      "text": "The Allergic Rhinitis and its Impact on Asthma (ARIA) guideline states: “In patients with SAR, we suggest either a combination of an INCS with an OAH or an INCS alone… In patients with perennial AR (PAR), we suggest an INCS alone rather than a combination of an INCS with an OAH…” “We suggest a combination of an INCS/INAH rather than an INAH alone…” “In patients with SAR, we suggest an INCS rather than an INAH.” [56].",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[6]/list[1]/list-item[1]/p[1]",
+      "start": 0,
+      "end": 420,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "cf1f671d65bc81e44e2c6030",
+      "text": "The ARIA guideline acknowledges that the difference between an INCS and INAH is likely small, and that “This is a conditional recommendation, and thus different choices will be appropriate for different patients. Clinicians must help each patient to arrive at a decision consistent with her or his values and preferences, considering local availability and costs.” [56] (emphasis added).",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[6]/p[3]",
+      "start": 0,
+      "end": 387,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "9d0c8b05e01334d25b90940a",
+      "text": "The Rhinitis Practice Parameter states “INCS remain the preferred monotherapy for persistent AR, but additional studies support the additive benefit of combination treatment with INAH/INCS…” [5] Yet they add that INAH and combination therapies be considered as options: “We recommend that the clinician offer INAH as an initial treatment option for patients with SAR…” [5] (emphasis added) “We suggest that the clinician consider the combination INAH/INCS for moderate/severe SAR and PAR that is resistant to pharmacologic monotherapy.” [5] However, for intermittent AR, their treatment pathway suggests INAH as the first treatment option, likely because of the on-demand nature of intermittent AR. Having said that, INAH options in Canada are limited, so we have to defer to INAH/INCS options in this circumstance.",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[6]/list[2]/list-item[1]/p[1]",
+      "start": 0,
+      "end": 815,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "88ab17a678f545db72e842b9",
+      "text": "The BSACI guidelines state: “[INCS are the] First-line therapy for moderate-to-severe persistent symptoms…” “[INAH are] …the first line of therapy for mild-to-moderate intermittent and mild persistent rhinitis.” “[INAH] are less effective than an INCS in relieving the symptoms of AR.” “There is a rapid onset of action (15 min), faster than OAH, thus, the drug can be used on demand as rescue therapy for symptom breakthrough. Continuous treatment is, however, more clinically effective than on demand use.” [40] Again, having said that, INAH options in Canada are limited, so we have to defer to INAH/INCS options in this circumstance.",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[6]/list[2]/list-item[2]/p[1]",
+      "start": 0,
+      "end": 637,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "254323e4a1b8a4552dabf4a4",
+      "text": "ICAR: AR states: “INCSs are first-line therapy for the treatment of AR due to their superior efficacy in controlling nasal congestion and other symptoms of this inflammatory condition. Subjects with known SAR should start prophylactic treatment with INCS several days before the pollen season… The well-proven efficacy of INCSs, as well as their superiority over other agents, make them first-line therapy in the treatment of AR.” “INAH may be used as first-line or second-line therapy in the treatment of AR.” [50].",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[6]/list[2]/list-item[3]/p[1]",
+      "start": 0,
+      "end": 516,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "b4ecd9f6dd855c2f6b80620c",
+      "text": "Patient preferences and co-morbidities certainly play a role in influencing the choice of treatment; the ARIA guideline suggests that the choice would depend mostly on patient preferences and other factors [56].",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[6]/p[4]",
+      "start": 0,
+      "end": 211,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "e0f5270636e9eb5883a12f78",
+      "text": "When making a patient-specific decision, some factors to consider include the potential side effects, the symptoms to be controlled and the severity of the AR, and any co-morbidities the patient may have, as well as the patient and provider preferences, the cost and availability of the medications, and any issues regarding treatment compliance.",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[6]/p[5]",
+      "start": 0,
+      "end": 346,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "6651d82c0c939839c988737a",
+      "text": "In particular, INAH may have a bitter taste, while INCS may cause irritation, dryness and epistaxis. There are some reports of increased intra-ocular pressure with INCS, although studies did not show a significant increase in intra-ocular pressure when given over one year of therapy [91–93]. There are also concerns that some INCS may affect growth in children [50]. Long-term once-daily mometasone and fluticasone propionate in children given at the recommended dosage and once-daily budesonide at a dose of 64 mcg have not demonstrated any growth suppression [94–96]. INCS may also have sensory attributes that can affect patient preference and adherence to therapy, including aftertaste, nose runout, throat rundown, and smell [5].",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[6]/p[6]",
+      "start": 0,
+      "end": 735,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "b61dea5214650ce669afd0a6",
+      "text": "In terms of symptom control, INAH are more effective for ocular symptoms and sneezing than INCS [50], though when used on as-needed basis, Hoang et al. [60] found on-demand INCS superior to OAH for sneezing, though INCS will control nasal symptoms better, particularly nasal congestion. The guidelines agree that INCS should be the first-line therapy for patients with more severe symptoms. For intermittent AR or for as-needed use, INAH have a faster onset [40, 50].",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[6]/p[7]",
+      "start": 0,
+      "end": 467,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "b1dc93b9e000c7d40eac9077",
+      "text": "A full consideration of co-morbidities was not examined for this summary, however some main points that stood out in the literature include the potential for increased intra-ocular pressure with INCS, suggesting that they may need to be used with caution in patients at risk for glaucoma [40]. INCS may have benefits for other conditions, in particular ICAR: AR [50] suggest that INCSs may improve asthma control measures in patients suffering from both AR and asthma.",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[6]/p[8]",
+      "start": 0,
+      "end": 468,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "ea44487b942d6a0d1310d69f",
+      "text": "Patient compliance and preferences may change the recommendations for treatment, however. INCS are generally recommended for daily use, with the effect building over the course of approximately 2 weeks; for SAR the suggestion is to begin prophylactic treatment in advance of allergen exposure [50]. However, several studies raised the concern that patients use medication on demand, and stop when symptoms are controlled [60, 70]. Phinyo et al. [76] cite evidence that “the vast majority of AR patients are not adherent to their medication.” Ng et al. [70] characterize it:",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[6]/p[9]",
+      "start": 0,
+      "end": 573,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "5ebd8cd154315f9bef92e369",
+      "text": "“…the sensation of sprayed liquid in the nose may lead patients to mistakenly believe that intranasal steroid sprays work instantly. […] patients looking for rapid relief from allergy symptoms and congestion may self-treat with an INCS, unaware of their prolonged onset of action relative to oral agents. The locally applied nasal spray often confuses unaware patients (based on clinical practice experience, internal market research, and online consumer product reviews), who do not realize that the local spray sensation is not indicative of a symptom relief. Though the sensation in the nose may last for a short period of time, the patient may discontinue the use of INCS after administering the first dose, believing the treatment is not working.” [70].",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[6]/disp-quote[1]/p[1]",
+      "start": 0,
+      "end": 758,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "5affb8fa9338d72a68df06cf",
+      "text": "Several studies have looked at the use of INCS in as-needed form vs. regular dosing, and universally found symptom relief, in some cases statistically similar to regular use [60, 76, 78, 82]. However, Hoang et al. [60] suggest that physicians communicate with patients about medication use and emphasize the importance of adherence – the regular use of INCS prevents inflammation from recurring. Their meta-analysis found that regular use of INCS led to greater improvements in symptom measures than as-needed INCS, yet even that was superior to as-needed antihistamines.",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[6]/p[10]",
+      "start": 0,
+      "end": 571,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "60225573ec5b2d6ee5111a97",
+      "text": "Beyond the issue of regular INCS compliance, patient preferences may come into play with the use of any nasal spray (INCS or INAH/INCS) over oral medications. The guidelines generally agree that INAH are more effective choices than OAH, with a faster onset and improved relief of nasal congestion. The Rhinitis Practice Parameter [5] puts it most directly: “INAH are equal to or superior to OAH.” However, both INCS and INAH may have sensory side effects (e.g. bad taste) that some patients may not want.",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[6]/p[11]",
+      "start": 0,
+      "end": 504,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "f7b3cc26810031de7953fea9",
+      "text": "Oral antihistamines remain an alternative treatment that has been well-studied. Second-generation OAH provide effective symptom control with generally acceptable safety profiles and side effects and are widely available as over-the-counter and prescription-only medications. While the time to onset of symptom relief is slower than INAH, OAH can have faster onsets than INCS [40, 50]. Though not recommended in the examined guidelines as first-line therapies other than for mild intermittent symptoms, there is a place for them in the treatment options of each guideline reviewed.",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[6]/p[12]",
+      "start": 0,
+      "end": 580,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "42563e1d488695fe5f888bc4",
+      "text": "In conclusion, existing guidelines generally agree on the use of INCS as a first-line therapy used for AR, however, patient and provider preferences and considerations can easily shift the first choice to a second-generation OAH. Second-generation OAH are widely supported as treatment options, with evidence of their efficacy in symptom control.",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[6]/p[13]",
+      "start": 0,
+      "end": 346,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "a84605a0e9e81d311de3b5a0",
+      "text": "While all of the included studies considered subjects with AR, a few also included additional participants with other related respiratory or allergic conditions such as asthma. While some literature was identified on the direct comparison of second-generation OAH and INCS, a great deal of the included literature examined each of these treatments in comparison to other treatment options, such as combination therapy or leukotriene receptor antagonists. Others examined different options within OAH or INCS themselves. While allergens relevant to AR were considered across the different studies, the researchers may have included allergens that are more prevalent in other geographic locations but not in Canada. Additionally, a wide variety of possible treatments were included as comparisons to OAH and INCS.",
+      "section": "Foreword / Considerations and limitations regarding the body of literature",
+      "locator": "body/sec[1]/sec[7]/p[1]",
+      "start": 0,
+      "end": 811,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "e3b1986f279c739b64265627",
+      "text": "A total of 30 articles were included after screening for the relevant inclusion and exclusion criteria for research question 3 (Table 3) [4, 5, 40, 50, 56, 97–121].",
+      "section": "Foreword / Research question 3 / Is a combination INAH/INCS formulation superior to INCS plus OAH? Do they become equivalent after prolonged use?",
+      "locator": "body/sec[1]/sec[8]/sec[1]/p[1]",
+      "start": 0,
+      "end": 164,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "da509522d2d26ed412bbd785",
+      "text": "The evidence consistently suggests that the combination of an INAH/INCS is superior to an INCS plus OAH. Indeed, many studies find that there is no benefit from adding an OAH to an INCS over the symptom relief provided by the INCS alone.",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[9]/p[1]",
+      "start": 0,
+      "end": 237,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "d9432896a64a28dd0b8dc614",
+      "text": "The Rhinitis Practice Parameter [5] suggests the combination of INAH/INCS in certain circumstances (as first-line for patients with moderate/severe AR, or for those who are resistant to monotherapy), or OAH alone, but not the combination of OAH and INCS: “We suggest that the clinician not prescribe the combination of an OAH and an INCS in preference to monotherapy with an INCS in all patients with SAR and PAR.”",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[9]/list[1]/list-item[1]/p[1]",
+      "start": 0,
+      "end": 414,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "b8e69171137cb1db357b156e",
+      "text": "ICAR: AR states: “Combination therapy of INCS and OAH does not improve symptoms of nasal congestion over INCS use alone, and does risk the adverse effects of systemic antihistamine use.” “Combination therapy with INAH/INCS may be used as second-line therapy in the treatment of AR when initial monotherapy with either INCS or antihistamine does not provide adequate control.” [50].",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[9]/list[1]/list-item[2]/p[1]",
+      "start": 0,
+      "end": 381,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "e53feb17d606fb471ad8cf8d",
+      "text": "Abd El-Raouf et al. state: “In this study have we aimed to determine whether the additional effects of INAH to INCS may play a role in rapid improvement of allergic symptoms during the 2-week period needed for the INCS to achieve maximum effect. Our findings show greater benefits with use of INAH/INCS over INCS alone. The effects were significant only for the INAH/INCS combination. […] Based on our findings, the combination of INCS and OAH is not recommended…” [97].",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[9]/list[1]/list-item[3]/p[1]",
+      "start": 0,
+      "end": 470,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "5fcf80c85362e0f59e3d2820",
+      "text": "Chitsuthipakorn et al. state: “The pooled data showed that the effects of the INAH/INCS combination were better than INCS alone on the improvements of composite nasal symptom score […] The INCS-OAH combination did not show any beneficial effects.” [103].",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[9]/list[1]/list-item[4]/p[1]",
+      "start": 0,
+      "end": 254,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "08b7257db1586349868b3c25",
+      "text": "Du et al. state: “INAH have an add-on effect on INCS, and the combination of INAH/INCS is superior to that of OAH plus INCS in improving nasal symptoms for patients with AR.” [105].",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[9]/list[1]/list-item[5]/p[1]",
+      "start": 0,
+      "end": 181,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "eadddad65bb118d609e3e801",
+      "text": "Similarly, Feng et al.’s [106] review found that INCS plus OAH had similar efficacy to INCS alone, whereas a meta-analysis of 6 randomized controlled trials did demonstrate that the combination of INAH/INCS was superior to INCS alone (and thus, presumably also to INCS plus OAH) [118].",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[9]/p[2]",
+      "start": 0,
+      "end": 285,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "caa477c537574f0f50a7de8a",
+      "text": "Seresirikachorn et al. state: “Subgroup analysis indicated no benefit with the OAH-INCS combination but did show benefit with INAH/INCS.” [118].",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[9]/list[2]/list-item[1]/p[1]",
+      "start": 0,
+      "end": 144,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "d89750513b692b8762a814a8",
+      "text": "However, there is insufficient evidence to answer the second question of whether a combination INAH/INCS formulation becomes equivalent to INCS plus OAH after prolonged use. There were no long-term head-to-head studies within the parameters of the literature search, indeed there are very few long-term studies of combination therapies at all.",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[9]/p[3]",
+      "start": 0,
+      "end": 343,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "10695083272e5769e9c918e4",
+      "text": "Abd El-Raouf et al. state: “… all 4 studies assessing this combination only analyzed data at the single time-point of 2 weeks. It is not known whether these additional effects persist after a 2-week duration.” [97].",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[9]/list[3]/list-item[1]/p[1]",
+      "start": 0,
+      "end": 215,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "ed6efee22f4b34fe637ce09f",
+      "text": "Chitsuthipakorn et al.’s [103] analysis included one study that ran to 90 days of usage, which indicated that the effects of INAH/INCS continued to be sustained at least for that length of time.",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[9]/list[3]/list-item[2]/p[1]",
+      "start": 0,
+      "end": 194,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "7bb19726b60816a2f279ace4",
+      "text": "In one study that did include up to 52 weeks of data, the effectiveness of INAH/INCS in AR symptom control was compared to placebo, and they found differing results for the 52-week time period depending on the measure, with reflective Total Nasal Symptom Score and instantaneous Total Nasal Symptom Scores significantly improved vs. placebo (p < 0.001), whereas Physician-assessed Nasal Symptom Scores differences were not statistically significant from placebo at 52 weeks. [117] Segall et al. [117] concluded that the combination INAH/INCS treatment demonstrated long-term efficacy. However, in their meta-analysis that included that study, Chen et al. [102] conclude that INAH/INCS “…can only relieve the nasal and eye symptoms of AR patients in the short term, but cannot control rhinitis symptoms and improve the quality of life in the long term.” However one is to interpret that study, it only looked at INAH/INCS vs. placebo, and there remains a knowledge gap about the choice of INCS plus OAH or either individually vs. INAH/INCS over the long term.",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[9]/p[4]",
+      "start": 0,
+      "end": 1058,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "71509142f569bddbb5a40602",
+      "text": "An observational survey-based study does support the long-term use of INAH/INCS [101]. Participants had begun combination therapy an average of 2.6 years prior to the survey, and 70% reported that they were more or much more satisfied with it than their previous AR treatment (which was not specified). “Significantly (p < .001) more participants (76%) were more or much more satisfied with Meda Pharmaceutical azelastine fluticasone propionate (MP-AzeFlu) than their previous AR treatment when MP-AzeFlu was used every day symptoms were expected, compared to 66% of participants who used it only on symptom days,” [101] which speaks to the importance of treatment compliance in long-term patient satisfaction.",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[9]/p[5]",
+      "start": 0,
+      "end": 710,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "657552ce46bf32d3d576c295",
+      "text": "In conclusion, the combination INAH/INCS is superior to an INCS plus OAH. However, there was insufficient evidence to answer the second question of whether they become equivalent after prolonged use.",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[9]/p[6]",
+      "start": 0,
+      "end": 199,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "4e1d6c93d1662e03f3f1f068",
+      "text": "A total of 26 articles were included after screening for the relevant inclusion and exclusion criteria for research question 4 (Table 4) [4, 5, 40, 50, 56, 81, 83, 85, 122–139].",
+      "section": "Foreword / Research question 4 / Do leukotriene receptor antagonists (LTRA) have a greater benefit than OAH in allergic rhinitis for some symptoms to justify a therapeutic trial in those who cannot tolerate INCS?",
+      "locator": "body/sec[1]/sec[10]/sec[1]/p[1]",
+      "start": 0,
+      "end": 177,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "b16daa14b291d4fc407c5dca",
+      "text": "Several systematic reviews have examined the relative effectiveness of LTRAs (e.g., montelukast) and OAH, generally finding that LTRAs have inferior, or at best equivalent, daytime or overall symptom control [81, 83, 85, 127, 131].",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[11]/p[1]",
+      "start": 0,
+      "end": 231,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "36fd94502336ea9bac623e65",
+      "text": "However, studies suggest that LTRAs improve nighttime symptom control:",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[11]/p[2]",
+      "start": 0,
+      "end": 70,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "f94bb1a0540902ddd28704a4",
+      "text": "Feng et al. state: “LTRAs are superior to OAHs for improving the nighttime symptoms of AR, including nasal congestion on awakening, difficulty going to sleep, and nighttime awakenings…” [127].",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[11]/list[1]/list-item[1]/p[1]",
+      "start": 0,
+      "end": 192,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "2be792ded4e3f0d12baa3c65",
+      "text": "Krishnamoorthy et al. state: “Although OAH was superior to montelukast in most of the relief of the symptoms in allergic rhinitis, our meta-analysis found montelukast was effective in improving [night-time nasal symptom score]. This suggests that montelukast may be used as an alternative to OAH as first-line therapy in allergic rhinitis especially for patients who have predominantly night-time symptoms.” [131].",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[11]/list[1]/list-item[2]/p[1]",
+      "start": 0,
+      "end": 414,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "d5be7bf4573895f3fa51cf2b",
+      "text": "Wei et al. state: “Montelukast has a significant influence in improving patients’ nasal symptoms quality of live [sic] but is not as effective as OAHs, and may have a slight advantage over OAHs in relieving nighttime symptoms significantly.” [83].",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[11]/list[1]/list-item[3]/p[1]",
+      "start": 0,
+      "end": 247,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "fa3bb36a86ba0e7d27a73d4f",
+      "text": "Velentza et al. state: “Interestingly, montelukast was shown to be more effective than cetirizine in improving night sleep quality, according to patients’ diaries.” [81].",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[11]/list[1]/list-item[4]/p[1]",
+      "start": 0,
+      "end": 170,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "130d281f06e92107cb8a53e0",
+      "text": "LTRAs can also provide benefits in AR patients with asthma as a co-morbidity, which is common (40% per the Rhinitis Practice Parameter [5]).",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[11]/p[3]",
+      "start": 0,
+      "end": 140,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "4d24869bf61a21bc33517e4e",
+      "text": "The Rhinitis Practice Parameter states “We recommend that the oral LTRA montelukast should only be used for AR in patients who have an inadequate response or intolerance to alternative therapies. […] In patients with AR comorbid with asthma, compared with placebo, montelukast could result in significant improvements in both conditions and therefore can be considered an option for patients with both conditions. However, due to the only modest efficacy and also the potential increased risks of montelukast compared with those of OAH, for the management of AR and comorbid asthma, the clinician should weigh the benefits of montelukast monotherapy versus an inhaled corticosteroid for asthma and an antihistamine or INCS for AR.” [5].",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[11]/list[2]/list-item[1]/p[1]",
+      "start": 0,
+      "end": 736,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "0a0f7275d1e77a3e107e0ce7",
+      "text": "The ARIA guideline states: “Some patients with AR who have concomitant asthma, especially exercise-induced and/or aspirin exacerbated respiratory disease, may benefit from LTRA more than from OAH[…] Patients with asthma who have concomitant AR should receive an appropriate treatment according to the guidelines for the treatment of asthma.” [56].",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[11]/list[2]/list-item[2]/p[1]",
+      "start": 0,
+      "end": 347,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "7cc05f798bd8f350bcc51553",
+      "text": "The BSACI guidelines state: “[LTRAs] have a therapeutic profile similar to antihistamines, with efficacy comparable to loratadine in seasonal allergic rhinitis […] [LTRAs] may have a place in asthma patients with SAR.” [40].",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[11]/list[2]/list-item[3]/p[1]",
+      "start": 0,
+      "end": 224,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "29b0ab911485375bf22b804b",
+      "text": "ICAR: AR states: “In patients with concurrent AR and asthma, LTRA can contribute to symptom management of both respiratory diseases. LTRA monotherapy is not recommended as first-line treatment for patients with concurrent AR and asthma, although this may be a consideration in patients with contraindications to INCS.” [50].",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[11]/list[2]/list-item[4]/p[1]",
+      "start": 0,
+      "end": 324,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "ce6f6e05787a84d60a6ee555",
+      "text": "Thus, there may be a justification to conduct a therapeutic trial if either the control of nighttime symptoms is a priority, or in cases of AR with asthma. However, few studies directly compared LTRAs to OAHs, and most randomized controlled trials did not include both an OAH and LTRA treatment arm.",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[11]/p[4]",
+      "start": 0,
+      "end": 299,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "32edd39d9bb245ae329a210c",
+      "text": "Kim et al. [130] studied people with AR and mild-to-moderate asthma and found a greater benefit of combined LTRA plus OAH therapy to LTRA alone. However, they did not examine LTRA vs. OAH alone, nor other treatment combinations in those with asthma (e.g., LTRA for controlling both upper and lower airway symptoms vs. separate inhaled corticosteroids for lower airway symptoms and OAH/INAH/INCS for upper airway/AR symptoms).",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[11]/p[5]",
+      "start": 0,
+      "end": 425,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "2ed6d04a73d8f366af03c6bc",
+      "text": "A small study of children in Japan with asthma and AR (20 patients per group) found that AR symptoms were better controlled through the beginning of the pollen season when LTRA was given continuously, versus those who were given either LTRA or OAH on demand (waiting for symptoms to start after pollen season began) [137]. This difference in approach for those with SAR and asthma may be of interest for those who cannot tolerate other treatments.",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[11]/p[6]",
+      "start": 0,
+      "end": 447,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "706b5d87d9f9aaf44fe3cece",
+      "text": "A note of caution, however, the Rhinitis Practice Parameter [5] and Bian et al. [124] report that LTRAs can have neuropsychological side effects, particularly in children under 6. However, in limiting their data to patients over 6 with asthma, Sansing-Foster et al. [135] did not find an increased risk of hospitalizations for depression or self-harm and found that 93% of patients with a psychiatric adverse event were those with a history of psychiatric disorder.",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[11]/p[7]",
+      "start": 0,
+      "end": 465,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "95315ef06faeac2cc8782967",
+      "text": "In conclusion, LTRAs have inferior, or at best equivalent, daytime or overall symptom control compared with OAH. However, LTRAs may improve nighttime symptom control and provide benefits in patients with AR and concomitant asthma.",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[11]/p[8]",
+      "start": 0,
+      "end": 230,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "4a7b78bb9b00a1c51d086e37",
+      "text": "Considerations and Limitations Regarding the Body of Literature.",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[11]/p[9]",
+      "start": 0,
+      "end": 64,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "767b071d1084876e48b0864b",
+      "text": "Studies comparing the effectiveness of LTRAs with OAH have been limited to SAR and are lacking for PAR.",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[11]/p[10]",
+      "start": 0,
+      "end": 103,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "b2dc83221e407f47749b2c59",
+      "text": "A total of 85 articles were included after screening for the relevant inclusion and exclusion criteria for research question 5 (Table 5) [5, 40, 50, 67, 126, 140–219].",
+      "section": "Foreword / Research question 5 / Should sublingual immunotherapy (SLIT) tablets be considered first-line immunotherapeutic options over subcutaneous immunotherapy (SCIT) based on the evidence of efficacy?",
+      "locator": "body/sec[1]/sec[12]/sec[1]/p[1]",
+      "start": 0,
+      "end": 167,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "d0ea92e9c00c78da13ad1178",
+      "text": "Recent clinical practice guidelines discuss the trade-offs involved with AIT, including SLIT and SCIT [5, 40, 50, 140]. These include the potential side effects (both), the need to identify the particular allergen(s) causing AR symptoms (both), the need for office visits (SCIT), provider expertise for preparation and delivery (SCIT), cost (both), and sustained compliance to modify the immune response (both). However, neither has a strong recommendation over the other on the basis of efficacy.",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[13]/p[1]",
+      "start": 0,
+      "end": 497,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "f262f4319876c55f0fad19dd",
+      "text": "Randomized controlled trials and systematic reviews published since 2016 examining comparative efficacy after long-term therapy provide mixed evidence depending on the allergen examined and outcomes considered.",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[13]/p[2]",
+      "start": 0,
+      "end": 210,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "a8e4e6470106f04aa6d41723",
+      "text": "Elliott et al. [141] conducted a review of both types of AIT and found limited data for the comparison. SCIT out-performed SLIT in improving medication and symptom scores, though both treatment approaches were equivalent for improving quality of life scores. “The findings of our review suggest that both SCIT and SLIT are effective compared with placebo, but further work may be required to establish their comparative efficacy.”",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[13]/list[1]/list-item[1]/p[1]",
+      "start": 0,
+      "end": 430,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "72b0f54642523b44d224ee1b",
+      "text": "Kim et al. [143] compared studies of SCIT and SLIT for dust mite allergies and suggested that SCIT may be more effective, though only 1 of the SCIT studies included in their meta-analysis had a treatment duration of 3 years.",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[13]/list[1]/list-item[2]/p[1]",
+      "start": 0,
+      "end": 224,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "2f7c4018ff25cdbac0883e55",
+      "text": "Tie et al. [144] found no significant differences between SCIT and SLIT in their indirect comparison meta-analysis. Only 2 of their included studies used treatments of 3 years. “Based on results from an adjusted indirect comparison, treatment with either SCIT or SLIT results in comparable patient outcomes, so the decision for choosing between the two may be guided by other considerations, such as availability, cost, and patient preference.”",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[13]/list[1]/list-item[3]/p[1]",
+      "start": 0,
+      "end": 444,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "821fb908439224fa5a204fa3",
+      "text": "Shamji et al. [157] reported that both treatments improved nasal symptoms after two years of treatment for grass pollen, but neither maintained that improvement after a year off treatment.",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[13]/list[1]/list-item[4]/p[1]",
+      "start": 0,
+      "end": 188,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "d1e362d5575d030e75b26ac0",
+      "text": "Xian et al. [161] compared SCIT and SLIT in house dust mite allergies and found both were effective vs. placebo, with no differences across most measures, with SCIT having a slightly better (statistically significant; p = 0.026) improvement on the medication score, though in their own words “But it was not enough to state that SCIT works better than SLIT.”",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[13]/list[1]/list-item[5]/p[1]",
+      "start": 0,
+      "end": 358,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "e650014fbf044d43da74e7d0",
+      "text": "Using a 2-year dosing regimen and 1-year follow-up period, Scadding et al. [156]. found that SCIT was effective, while SLIT was not. This may be taken as evidence that SCIT is more robust to changes in treatment duration than SLIT, though it perhaps underscores the need for full treatment compliance in AIT (especially SLIT) rather than suggesting that SCIT is more effective than SLIT in 3-year regimens.",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[13]/list[1]/list-item[6]/p[1]",
+      "start": 0,
+      "end": 406,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "e360c419da30ddc53040d3ca",
+      "text": "Conversely, Gotoh et al. [171] found that a partial SLIT treatment period from their cross-over design was effective. They address the difference between their results and Scadding et al’s [156], suggesting that the different assessment methods may be a factor (allergen challenge vs. natural exposure). The different allergens used (grass vs. Japanese cedar) may also be a factor. However, Gotoh et al. [171] did not include a SCIT arm, limiting the applicability of this evidence for the core question.",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[13]/list[1]/list-item[7]/p[1]",
+      "start": 0,
+      "end": 504,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "26fa5bcef1107926e3beda89",
+      "text": "Due to the dearth of recent, high-quality studies examining long-term therapy, the search strategy was expanded to include lower quality studies, which reported promising results of SCIT or SLIT treatment after 3 years.",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[13]/p[3]",
+      "start": 0,
+      "end": 219,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "bca88d8ac834c93369561bff",
+      "text": "In an observational study, Droessaert et al. [194] reported that 70% of patients receiving SCIT for AR were not using any medication for their AR 3 years after starting their treatment, and the immunotherapy group had reduced symptom severity than those taking medications.",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[13]/list[2]/list-item[1]/p[1]",
+      "start": 0,
+      "end": 273,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "ebf5e8b653962d2b5c50d5e5",
+      "text": "In an unblinded study that did not report on the randomization process, Ünal [213] found a greater improvement in nasal symptoms (Total Rhinitis Symptom Score) from dust mite and Parietaria SCIT 3 years after starting treatment with SCIT than from pharmacotherapy.",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[13]/list[2]/list-item[2]/p[1]",
+      "start": 0,
+      "end": 264,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "a2ec1681f57e0be3b6752da4",
+      "text": "Baba et al. [189] examined rhinitis patients treated with SLIT vs. pharmacotherapy over 3 years and found sustained clinical improvement and a reduction in medication use from SLIT.",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[13]/list[2]/list-item[3]/p[1]",
+      "start": 0,
+      "end": 181,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "e242dcbec3ee0adad3f22c05",
+      "text": "Devillier et al. [192] conducted an observational study of grass SLIT tablets, including patients with up to 6 years of follow-up, and found reduced AR medication prescription and reduced risk of developing asthma (OR = 0.72). SLIT was administered to patients with AR for ≥ 3 years in 59% and 70% of patients receiving 5- and 1-grass-pollen SLIT tablets, respectively.",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[13]/list[2]/list-item[4]/p[1]",
+      "start": 0,
+      "end": 369,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "6d2416313dec63ebcb512779",
+      "text": "In the REACT study, a retrospective cohort study of patients using AIT for at least one year, Fritzsching et al. [196] found that the subjects treated with SCIT/SLIT had reduced AR prescriptions compared with the control group which was sustained over 9 years.",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[13]/list[2]/list-item[5]/p[1]",
+      "start": 0,
+      "end": 260,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "c4abbecf1f238d18c5112d05",
+      "text": "Huang et al. [200] studied adult and pediatric patients with AR who received house dust mite-SCIT for 3 years. After 3 years of treatment and 2 years following treatment, subjects showed improved symptoms and quality of life scores vs. pre-treatment, with children showing better improvements based on baseline compared to adults.",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[13]/list[2]/list-item[6]/p[1]",
+      "start": 0,
+      "end": 330,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "f95178323935baa1785d2373",
+      "text": "Wahn et al. [216] studied a mix of SLIT and SCIT vs. pharmacotherapy in patients with birch pollen allergies who received treatment in ≥ 2 successive seasonal pollen cycles, with up to 6 years of follow-up data post-treatment. They found significantly more people in the AIT group were medication-free for AR and asthma symptoms (both p < 0.001), with many more reducing their medication use. The risk of developing new asthma was also reduced in the SCIT/SLIT treatment groups.",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[13]/list[2]/list-item[7]/p[1]",
+      "start": 0,
+      "end": 478,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "4e03f0620ed26ef03f11154f",
+      "text": "In general, both SCIT and SLIT have been shown to be effective for AR across a variety of allergens. However, without more direct long-term head-to-head studies or meta-analyses, it is difficult to draw conclusions regarding selecting one over the other on the basis of efficacy alone. Regardless, the differences in costs, risks, practical considerations for administration, and patient preferences may outweigh any quantifiable differences in efficacy [220–224].",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[13]/p[4]",
+      "start": 0,
+      "end": 464,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "df320f13499139c376099bb4",
+      "text": "In conclusion, the choice of SLIT or SCIT cannot be made on efficacy alone, and differences in other factors outweigh any differences in efficacy.",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[13]/p[5]",
+      "start": 0,
+      "end": 146,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "4a2bd9bebba82c0fa5000ef9",
+      "text": "Allergen extracts used in SCIT and SLIT are highly variable in allergen content and potency, which can affect efficacy and safety. The use of extracts standardized for potency are necessary for high quality studies, and efficacy data associated with standardized extracts should not be extrapolated to non-standardized extracts. Furthermore, natural pollen exposures can also be a confounding variable for studies of SCIT/SLIT effectiveness, for example Worm et al. [160] found that SCIT was not more effective than placebo but noted that the pollen counts in the primary evaluation year were the lowest in the study period, so even the placebo group had reduced symptoms and medication use.",
+      "section": "Foreword / Considerations and limitations regarding the body of literature",
+      "locator": "body/sec[1]/sec[14]/p[1]",
+      "start": 0,
+      "end": 691,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "a37c34de5001a207f930f110",
+      "text": "Limitations to the literature published since 2016 includes a focus on short-term treatments (most studies examined treatment of ≤ 2 years), and evaluation periods that coincided with the end of the treatment phase, rather than the following allergy season. Others examined various immunological biomarkers, rather than clinically relevant measures (e.g. Stylianou et al. [225]).",
+      "section": "Foreword / Considerations and limitations regarding the body of literature",
+      "locator": "body/sec[1]/sec[14]/p[2]",
+      "start": 0,
+      "end": 379,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "05ea968cc29662e6244d6bea",
+      "text": "A total of 50 articles were included after screening for the relevant inclusion and exclusion criteria for research question 6 (Table 6) [5, 40, 50, 67, 140–185]. The search results were the same guidelines, systematic reviews, and randomized controlled trials identified for research question 5.",
+      "section": "Foreword / Based on efficacy data, should ALL patients seen by an allergist be offered SLIT or SCIT as a treatment option?",
+      "locator": "body/sec[1]/sec[16]/p[1]",
+      "start": 0,
+      "end": 296,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "8abc198a3edf1da356d17588",
+      "text": "Allergen immunotherapy (both SLIT and SCIT) has been shown to provide clinical benefits in patients with AR and reduce or eliminate the need for pharmacotherapy. Overall effect shown varies depending on allergen being considered, length of treatment, and outcomes being measured.",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[17]/p[1]",
+      "start": 0,
+      "end": 279,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "8e19b0d1f53d0f7d51acd498",
+      "text": "Many studies have demonstrated the efficacy of SCIT and SLIT vs. placebo, some for a year or more after therapy ends [151, 156, 183, 185]. The results of studies are often more impressive than they first appear, as patients typically have access to pharmacotherapy (as rescue medications at least), so the SCIT/SLIT improvements are in addition to the benefits provided by symptom-controlling medications.",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[17]/p[2]",
+      "start": 0,
+      "end": 405,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "f23a60552abd8296b306d9f3",
+      "text": "In addition, SLIT and SCIT have been shown to reduce the risk of a patient with AR later developing asthma [5, 40, 140, 183, 192, 216, 219]. The odds ratios were modest (e.g., the 0.66 in Valovirta et al. [183] was typical), however asthma is a common co-morbidity for AR so this could be clinically meaningful. Indeed, results from Valovirta et al. [183] suggest that the reduction in the risk and severity of asthma is itself a reason to use SLIT in patients with AR.",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[17]/p[3]",
+      "start": 0,
+      "end": 469,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "22e4d832304fc8371ed2d8ff",
+      "text": "The efficacy for SLIT and SCIT suggests that these treatment approaches should be used broadly in patients with AR. However, that efficacy data must be balanced by other clinical concerns, which were not the target of this literature review, though some key themes are presented below.",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[17]/p[4]",
+      "start": 0,
+      "end": 285,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "2ad4ae6921e7e7948ec6d40a",
+      "text": "Recent clinical practice guidelines discuss the trade-offs involved with AIT, including SLIT and SCIT [5, 40, 50, 140]. These include the potential side effects (both SLIT and SCIT), the need to identify the particular allergen(s) causing AR symptoms (both), the need for office visits (SCIT), provider expertise for preparation and delivery (SCIT), cost (both), and sustained compliance to modify the immune response (both). The guidelines generally agree that SLIT or SCIT be offered to patients whose AR is not well-controlled by pharmacotherapy or who have a preference for AIT.",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[17]/p[5]",
+      "start": 0,
+      "end": 582,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "ddc52319af80a2f29fc88a33",
+      "text": "Another concern is that AIT requires identifying the specific allergen(s) responsible for a patient’s symptoms and then using those allergens in the SLIT or SCIT. This testing burden may present a barrier to SCIT and SLIT treatment, as benefits of SLIT and SCIT are likely allergen specific (e.g. Ellis et al. [169] which showed no significant effect of Timothy grass SLIT in participants with birch pollen induced AR.)",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[17]/p[6]",
+      "start": 0,
+      "end": 419,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "1b8414f1f535c7cfb71fdfe1",
+      "text": "Moreover, most patients exhibit polysensitization (many papers estimate the rate at 70–80% [226–228]), which confounds the choice and makes planning a course of treatment more difficult to implement. The European Academy of Allergy and Clinical Immunology guidelines for AIT on AR [140] suggest that AIT may be less effective or ineffective in polysensitized individuals, and if necessary, multiple allergens be given with a period of time between exposures, which adds to the implementation difficulties. ICAR: AR [50] suggest that in the US it is common to include multiple allergen extracts for SCIT, though this may not be possible for SLIT. They also suggest that more evidence is required to support the use of SCIT and SLIT in polysensitized individuals, although there is published evidence that AIT is effective in such patients [229–231].",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[17]/p[7]",
+      "start": 0,
+      "end": 848,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "54e1c91e27c42783c441f8a1",
+      "text": "In conclusion, the efficacy data suggests that SLIT or SCIT should be used broadly in patients with AR, but other clinical concerns also need to be taken into consideration.",
+      "section": "Foreword / Evidence-based response",
+      "locator": "body/sec[1]/sec[17]/p[8]",
+      "start": 0,
+      "end": 173,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "7a04c2e5775abd914ba71860",
+      "text": "Efficacy is only one aspect when considering the appropriateness of AIT for patients. The majority of patients will not need or want AIT for reasons of inconvenience, cost, or potential side effects, and the decision will be primarily up to patient preference [220–224, 232]. However, there are some patients in whom AIT may be more strongly recommended, such as asthmatics with clear worsening in response to allergic triggers or other comorbid atopic conditions.",
+      "section": "Foreword / Considerations and limitations regarding the body of literature",
+      "locator": "body/sec[1]/sec[18]/p[1]",
+      "start": 0,
+      "end": 464,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "ef9615ca0e922792f8552c8b",
+      "text": "Regional allergen sensitizations, medication product availability, healthcare systems, and other factors can influence the regional management of AR. Six questions specifically related to the clinical management of AR in Canada were identified by a Work Group of practicing Canadian physicians and recommendations were given based on reviews of the literature. The recommendations were not in the format of a standard guideline, but rather were focused as a series of Population, Intervention, Comparison, Outcome (PICO)-style questions which have become the norm in Traditional Practice Parameter statements from the Joint Task Force on Practice Parameters [233]. To this end, the Work Group determined there was sufficient evidence to conclude that: both sIgE testing and SPT are acceptable for diagnosing AR and guiding AIT; that INCS should generally be used as first-line therapy over OAH but is dependent on patient/provider preferences; that INAH/INCS is superior to an INCS plus OAH; that LTRAs are generally inferior, or at best equivalent, to OAH in controlling daytime symptoms but may improve nighttime symptom control and provide benefits with comorbid AR and asthma; that the choice between SLIT and SCIT cannot be based on efficacy alone; and that SLIT and SCIT should be broadly used in patients with AR but other clinical concerns also need to be taken into consideration.",
+      "section": "Discussion",
+      "locator": "body/sec[2]/p[1]",
+      "start": 0,
+      "end": 1389,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "c5ba40cdcfa071e9fbf0ab8b",
+      "text": "Although several of the questions focused on decision-making based on efficacy, the recommendations for these questions tend to have caveats driven by patient preference. Does the patient prefer an OAH because the taste of INCS is intolerable? Is the patient willing to attend frequent office visits for SCIT? Such preferences can be determined in shared decision-making conversations that should be a part of each patient visit. Comorbidities, costs, and product availability are also considerations when choosing a treatment for AR. Thus, while the Work Group were able to make conclusions regarding efficacy based on published clinical guidelines and other literature sources, in many cases treatment decisions need to go beyond simple efficacy superiority.",
+      "section": "Discussion",
+      "locator": "body/sec[2]/p[2]",
+      "start": 0,
+      "end": 760,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "b7a186fd11a649a6f5ecc29b",
+      "text": "A general limitation of this focused practice parameter is that pharmacoeconomics were considered, although cost and cost-effectiveness are certainly factors in treatment decisions. There is a large body of literature on pharmacoeconomics in AR that was beyond the scope for inclusion in this focused practice parameter.",
+      "section": "Discussion",
+      "locator": "body/sec[2]/p[3]",
+      "start": 0,
+      "end": 320,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "229cd33a1104b258e43ae9b4",
+      "text": "This focused practice parameter provides recommendations for specific questions in the management of AR in Canada. Implementation of these recommendations in conjunction with shared decision-making conversations may improve outcomes in Canadian patients with AR.",
+      "section": "Conclusion",
+      "locator": "body/sec[3]/p[1]",
+      "start": 0,
+      "end": 262,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "96b66dda299046da9cdf3613",
+      "text": "All recommendations in this document are evidence based and concluded on by all authors equally as consensus-based recommendations.",
+      "section": "Declarations / Resolving conflicts of interest",
+      "locator": "body/sec[10]/sec[4]/p[1]",
+      "start": 0,
+      "end": 131,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "eda9d9eb855379f8c1be0864",
+      "text": "Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.",
+      "section": "Footnotes",
+      "locator": "body/sec[11]/fn-group[1]/fn[1]/p[2]",
+      "start": 0,
+      "end": 118,
+      "population_status": "requires_screening"
+    }
+  ]
+}

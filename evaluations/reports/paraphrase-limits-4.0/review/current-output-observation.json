@@ -1,0 +1,8 @@
+{
+  "reviewer_kind": "executing_agent_not_independent_clinician",
+  "results_sha256": "edafca2b6a367d900891105d0f013170267c185c735387e428ed474e5ce0483f",
+  "reviewed_display_items": 58,
+  "scope": "Read displayed text and attached quotes for recurrence of the eleven prior patterns; no recurrence observed. This is not a general semantic accuracy assessment.",
+  "clinical_approval": false,
+  "medical_review": "pending"
+}

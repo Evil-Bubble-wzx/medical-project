@@ -1,0 +1,10 @@
+{
+  "patients_http_status": 200,
+  "generation_state": "ready",
+  "case_id": "BATCH-CONFLICT-UNKNOWN",
+  "status": "needs_information",
+  "outcome_category": "needs_information",
+  "provider_calls_skipped": true,
+  "disk_manifest_unchanged": true,
+  "note": "Local synthetic boundary check; no medical quality approval or new business record."
+}

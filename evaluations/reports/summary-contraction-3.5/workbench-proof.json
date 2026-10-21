@@ -1,0 +1,8 @@
+{
+  "patients_http_status": 200,
+  "generation_state": "ready",
+  "case_id": "BATCH-CONFLICT-UNKNOWN",
+  "status": "needs_information",
+  "provider_calls_skipped": true,
+  "note": "Synthetic local boundary check only; no provider call or business record."
+}

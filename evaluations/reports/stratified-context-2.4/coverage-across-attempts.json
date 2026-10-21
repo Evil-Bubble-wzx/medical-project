@@ -1,0 +1,116 @@
+{
+  "overall": {
+    "total": 18,
+    "status_counts": {
+      "answered": 12,
+      "insufficient_evidence": 2,
+      "needs_information": 4
+    },
+    "validation_error_counts": {},
+    "clinical_accuracy": null
+  },
+  "strata": {
+    "topic": {
+      "boundary": {
+        "total": 6,
+        "status_counts": {
+          "insufficient_evidence": 2,
+          "needs_information": 4
+        },
+        "validation_error_counts": {},
+        "clinical_accuracy": null
+      },
+      "hearing_loss": {
+        "total": 2,
+        "status_counts": {
+          "answered": 2
+        },
+        "validation_error_counts": {},
+        "clinical_accuracy": null
+      },
+      "otitis_media": {
+        "total": 2,
+        "status_counts": {
+          "answered": 2
+        },
+        "validation_error_counts": {},
+        "clinical_accuracy": null
+      },
+      "rhinitis": {
+        "total": 2,
+        "status_counts": {
+          "answered": 2
+        },
+        "validation_error_counts": {},
+        "clinical_accuracy": null
+      },
+      "sinusitis": {
+        "total": 2,
+        "status_counts": {
+          "answered": 2
+        },
+        "validation_error_counts": {},
+        "clinical_accuracy": null
+      },
+      "throat": {
+        "total": 2,
+        "status_counts": {
+          "answered": 2
+        },
+        "validation_error_counts": {},
+        "clinical_accuracy": null
+      },
+      "tinnitus": {
+        "total": 2,
+        "status_counts": {
+          "answered": 2
+        },
+        "validation_error_counts": {},
+        "clinical_accuracy": null
+      }
+    },
+    "scenario": {
+      "boundary_request": {
+        "total": 6,
+        "status_counts": {
+          "insufficient_evidence": 2,
+          "needs_information": 4
+        },
+        "validation_error_counts": {},
+        "clinical_accuracy": null
+      },
+      "knowledge_question": {
+        "total": 6,
+        "status_counts": {
+          "answered": 6
+        },
+        "validation_error_counts": {},
+        "clinical_accuracy": null
+      },
+      "patient_context": {
+        "total": 6,
+        "status_counts": {
+          "answered": 6
+        },
+        "validation_error_counts": {},
+        "clinical_accuracy": null
+      }
+    }
+  },
+  "clinical_approval": false,
+  "human_review": "pending",
+  "provenance": {
+    "type": "cross_attempt_coverage_not_single_run",
+    "runs": [
+      "evaluations\\reports\\stratified-live-2.4",
+      "evaluations\\reports\\stratified-context-2.4"
+    ],
+    "runner_changed": true,
+    "failed_attempts_preserved": [
+      "evaluations\\reports\\stratified-live-2.4",
+      "evaluations\\reports\\stratified-live-2.4-continuation"
+    ],
+    "clinical_review": "pending"
+  },
+  "note": "18 distinct final outcomes across two runs; two prior fixture-entry failures retained separately. Not 100% attempt success or clinical accuracy."
+}

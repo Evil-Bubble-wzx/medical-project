@@ -1,0 +1,32 @@
+[
+  {
+    "case_id": "GEN-ENT-002",
+    "query_policy": "dual_question_first",
+    "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+    "packet_anchor_rank": 1,
+    "packet_keys": [
+      "aa15af9b-2ffa-4cf8-89b7-ccafd90db10e:745acc140de782f6fb2ead9a",
+      "aa15af9b-2ffa-4cf8-89b7-ccafd90db10e:e9097b3973e9630d9a65ada7",
+      "aa15af9b-2ffa-4cf8-89b7-ccafd90db10e:e0e268fee8f54021ad690a24",
+      "aa15af9b-2ffa-4cf8-89b7-ccafd90db10e:ab5085376a4b4ddd9ef5c9ad",
+      "aa15af9b-2ffa-4cf8-89b7-ccafd90db10e:7f89106963a11f28dc2a60ad",
+      "aa15af9b-2ffa-4cf8-89b7-ccafd90db10e:be0f654d6100bdcb9550e12a"
+    ],
+    "elapsed_ms": 7319
+  },
+  {
+    "case_id": "GEN-ENT-036",
+    "query_policy": "dual_question_first",
+    "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+    "packet_anchor_rank": 1,
+    "packet_keys": [
+      "11605fc0-df77-4d90-8883-3a19979c3c80:11431f15a7d129a44f3dedfb",
+      "11605fc0-df77-4d90-8883-3a19979c3c80:b3a7516e456b04ea8b67393e",
+      "11605fc0-df77-4d90-8883-3a19979c3c80:a4740cfae1fe0f6daf1ac01c",
+      "11605fc0-df77-4d90-8883-3a19979c3c80:c83bed3886928258a3aa078a",
+      "4c3cc2a2-3002-4fc5-bcb2-dc5cb68b2375:609104821df5d1b8ef5653d2",
+      "d5005279-1bad-491f-8122-a2d05e558146:18fadfbeb49989d392cbb5c5"
+    ],
+    "elapsed_ms": 6285
+  }
+]

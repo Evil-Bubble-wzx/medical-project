@@ -1,0 +1,35 @@
+{
+  "model": "deepseek-flash",
+  "readiness": "ready",
+  "requested_cases": 12,
+  "completed_cases": 11,
+  "case_status_counts": {
+    "validation_failed": 3,
+    "answered": 3,
+    "insufficient_evidence": 5
+  },
+  "validation_error_counts": {
+    "non_atomic_claim": 2,
+    "provider_connect_failed": 1
+  },
+  "remaining_cases": 1,
+  "transport_failures_this_attempt": [
+    {
+      "case_id": "GEN-ENT-030",
+      "error": "generation_run_failed",
+      "http_status": 503,
+      "diagnostic_code": "provider_connect_failed"
+    }
+  ],
+  "actual_model_calls_not_counted_as_accuracy": true,
+  "citation_structure_pass_rate": 0.8181818181818182,
+  "semantic_support_rate": null,
+  "clinical_approval": false,
+  "human_review": "pending",
+  "dataset_sha256": "a61b7ad6581e39c7501319c505494456699b0d6240df728171163e6ef8a72965",
+  "config_sha256": "ccf1db75db56f37a53b04a6106f85aa08382ae558a57bb271b7f8abbeaba95de",
+  "retrieval_config_sha256": "e34ab0df834d6ab3c0489bd423dfe3207fddac178033bcf4eae9a511e5fb746c",
+  "generation_prompt_sha256": "ab24a35266c7961c4d7b3b7fd940a78a4846ea4c9843791a57a6c5a648ce154e",
+  "verification_prompt_sha256": "63d054ab8c8b9d9e9a22895ff31987e4857c034d2aa7146709d4977ac54a1eb3",
+  "note": "Fixed synthetic cases only; structure/quote match is not semantic or clinical accuracy."
+}

@@ -1,0 +1,225 @@
+{
+  "left": {
+    "overall": {
+      "total": 18,
+      "status_counts": {
+        "not_run": 12,
+        "answered": 6
+      },
+      "validation_error_counts": {},
+      "clinical_accuracy": null
+    },
+    "strata": {
+      "topic": {
+        "boundary": {
+          "total": 6,
+          "status_counts": {
+            "not_run": 6
+          },
+          "validation_error_counts": {},
+          "clinical_accuracy": null
+        },
+        "hearing_loss": {
+          "total": 2,
+          "status_counts": {
+            "not_run": 1,
+            "answered": 1
+          },
+          "validation_error_counts": {},
+          "clinical_accuracy": null
+        },
+        "otitis_media": {
+          "total": 2,
+          "status_counts": {
+            "not_run": 1,
+            "answered": 1
+          },
+          "validation_error_counts": {},
+          "clinical_accuracy": null
+        },
+        "rhinitis": {
+          "total": 2,
+          "status_counts": {
+            "not_run": 1,
+            "answered": 1
+          },
+          "validation_error_counts": {},
+          "clinical_accuracy": null
+        },
+        "sinusitis": {
+          "total": 2,
+          "status_counts": {
+            "not_run": 1,
+            "answered": 1
+          },
+          "validation_error_counts": {},
+          "clinical_accuracy": null
+        },
+        "throat": {
+          "total": 2,
+          "status_counts": {
+            "not_run": 1,
+            "answered": 1
+          },
+          "validation_error_counts": {},
+          "clinical_accuracy": null
+        },
+        "tinnitus": {
+          "total": 2,
+          "status_counts": {
+            "not_run": 1,
+            "answered": 1
+          },
+          "validation_error_counts": {},
+          "clinical_accuracy": null
+        }
+      },
+      "scenario": {
+        "boundary_request": {
+          "total": 6,
+          "status_counts": {
+            "not_run": 6
+          },
+          "validation_error_counts": {},
+          "clinical_accuracy": null
+        },
+        "knowledge_question": {
+          "total": 6,
+          "status_counts": {
+            "not_run": 6
+          },
+          "validation_error_counts": {},
+          "clinical_accuracy": null
+        },
+        "patient_context": {
+          "total": 6,
+          "status_counts": {
+            "answered": 6
+          },
+          "validation_error_counts": {},
+          "clinical_accuracy": null
+        }
+      }
+    },
+    "clinical_approval": false,
+    "human_review": "pending"
+  },
+  "right": {
+    "overall": {
+      "total": 18,
+      "status_counts": {
+        "answered": 6,
+        "insufficient_evidence": 2,
+        "needs_information": 4,
+        "execution_failed": 1,
+        "not_run": 5
+      },
+      "validation_error_counts": {},
+      "clinical_accuracy": null
+    },
+    "strata": {
+      "topic": {
+        "boundary": {
+          "total": 6,
+          "status_counts": {
+            "insufficient_evidence": 2,
+            "needs_information": 4
+          },
+          "validation_error_counts": {},
+          "clinical_accuracy": null
+        },
+        "hearing_loss": {
+          "total": 2,
+          "status_counts": {
+            "answered": 1,
+            "not_run": 1
+          },
+          "validation_error_counts": {},
+          "clinical_accuracy": null
+        },
+        "otitis_media": {
+          "total": 2,
+          "status_counts": {
+            "answered": 1,
+            "not_run": 1
+          },
+          "validation_error_counts": {},
+          "clinical_accuracy": null
+        },
+        "rhinitis": {
+          "total": 2,
+          "status_counts": {
+            "answered": 1,
+            "execution_failed": 1
+          },
+          "validation_error_counts": {},
+          "clinical_accuracy": null
+        },
+        "sinusitis": {
+          "total": 2,
+          "status_counts": {
+            "answered": 1,
+            "not_run": 1
+          },
+          "validation_error_counts": {},
+          "clinical_accuracy": null
+        },
+        "throat": {
+          "total": 2,
+          "status_counts": {
+            "answered": 1,
+            "not_run": 1
+          },
+          "validation_error_counts": {},
+          "clinical_accuracy": null
+        },
+        "tinnitus": {
+          "total": 2,
+          "status_counts": {
+            "answered": 1,
+            "not_run": 1
+          },
+          "validation_error_counts": {},
+          "clinical_accuracy": null
+        }
+      },
+      "scenario": {
+        "boundary_request": {
+          "total": 6,
+          "status_counts": {
+            "insufficient_evidence": 2,
+            "needs_information": 4
+          },
+          "validation_error_counts": {},
+          "clinical_accuracy": null
+        },
+        "knowledge_question": {
+          "total": 6,
+          "status_counts": {
+            "answered": 6
+          },
+          "validation_error_counts": {},
+          "clinical_accuracy": null
+        },
+        "patient_context": {
+          "total": 6,
+          "status_counts": {
+            "execution_failed": 1,
+            "not_run": 5
+          },
+          "validation_error_counts": {},
+          "clinical_accuracy": null
+        }
+      }
+    },
+    "clinical_approval": false,
+    "human_review": "pending"
+  },
+  "paired_attempted_cases": [
+    "GEN-ENT-002-CONTEXT"
+  ],
+  "changed_files": [
+    "scripts/evaluate_answer_generation.py"
+  ],
+  "interpretation": "Descriptive only; incomplete or multi-change runs are not causal evidence"
+}

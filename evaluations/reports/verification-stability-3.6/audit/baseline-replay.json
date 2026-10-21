@@ -1,0 +1,66 @@
+{
+  "source_results_sha256": "72e3515b03a2fb07ec738cfeddfe6e46f579cc14d5492b998f1e971b8fe48d20",
+  "dataset_sha256": "f6a62bc8ca64d4fba0e7c6ec4acbd99bdedce465fe0f79c27c59e546e40fda41",
+  "code_identity": "8a0c9f5686d59318497f2c25a1721c2f344cc0f8e8c6f062842f51cfa0ae8bf2",
+  "cases": [
+    {
+      "case_id": "GEN-ENT-002",
+      "outcome": "current_structural_gate_pass"
+    },
+    {
+      "case_id": "GEN-ENT-009",
+      "outcome": "current_structural_gate_pass"
+    },
+    {
+      "case_id": "GEN-ENT-015",
+      "outcome": "current_structural_gate_pass"
+    },
+    {
+      "case_id": "GEN-ENT-025",
+      "outcome": "current_structural_gate_pass"
+    },
+    {
+      "case_id": "GEN-ENT-030",
+      "outcome": "current_structural_gate_pass"
+    },
+    {
+      "case_id": "GEN-ENT-036",
+      "outcome": "current_structural_gate_pass"
+    },
+    {
+      "case_id": "GEN-ENT-002-CONTEXT",
+      "outcome": "current_structural_gate_pass"
+    },
+    {
+      "case_id": "GEN-ENT-009-CONTEXT",
+      "outcome": "current_structural_gate_pass"
+    },
+    {
+      "case_id": "GEN-ENT-015-CONTEXT",
+      "outcome": "current_structural_gate_pass"
+    },
+    {
+      "case_id": "GEN-ENT-030-CONTEXT",
+      "outcome": "current_structural_gate_pass"
+    },
+    {
+      "case_id": "GEN-ENT-036-CONTEXT",
+      "outcome": "current_structural_gate_pass"
+    },
+    {
+      "case_id": "ANCHOR-NOISE-001",
+      "outcome": "current_structural_gate_pass"
+    }
+  ],
+  "previous_validation_failures": [
+    {
+      "case_id": "GEN-ENT-025-CONTEXT",
+      "previous_code": "verification_missing_quote_alignment",
+      "previous_stage": "verify_professional",
+      "exact_failed_text_available": false,
+      "classification": "No failed draft; over-refusal is undetermined."
+    }
+  ],
+  "clinical_approval": false,
+  "note": "Archived revalidation only; no regeneration or historical result changes."
+}

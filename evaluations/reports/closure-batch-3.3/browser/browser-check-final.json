@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "synthetic_fixture_only": true,
+  "checks": [
+    "isolated_synthetic_fixture_verified_before_writes",
+    "all_four_anchor_states_and_field_labels_are_rendered",
+    "anchor_markup_is_text_not_executable_html",
+    "saved_answer_retains_all_input_anchors",
+    "patient_input_uses_server_literal_text_and_discards_model_medical_claim",
+    "persisted_patient_input_contains_no_unreferenced_model_dose_or_claim",
+    "reload_and_history_restore_anchors_without_generation",
+    "mobile_anchor_history_has_no_horizontal_overflow",
+    "doctor_cannot_read_anchors_before_grant",
+    "granted_doctor_sees_identical_saved_anchor_answer",
+    "revocation_clears_doctor_private_anchor_history",
+    "logout_and_account_switch_do_not_reveal_previous_anchors",
+    "workbench_generation_response_renders_all_anchor_states",
+    "workbench_anchor_markup_remains_safe_text",
+    "workbench_mobile_anchor_layout_has_no_horizontal_overflow",
+    "no_browser_storage_or_script_errors",
+    "one_fake_workflow_no_external_provider_calls"
+  ],
+  "errors": [],
+  "fixture_workflow_calls": 1,
+  "external_provider_calls": 0
+}

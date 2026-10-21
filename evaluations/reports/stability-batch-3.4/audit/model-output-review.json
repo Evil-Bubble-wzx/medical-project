@@ -1,0 +1,1186 @@
+{
+  "review_type": "Independent AI bounded text review of displayed final outputs; not clinician review",
+  "created_utc": "2026-10-21T03:21:40.732405+00:00",
+  "clinical_approval": false,
+  "human_review": "pending",
+  "reviewed_row_count": 26,
+  "expected_row_count": 26,
+  "complete_snapshot": true,
+  "source_bindings": {
+    "results_path": "evaluations/reports/stability-batch-3.4/live/results.json",
+    "results_sha256": "5af6d8063eb7ee05aacbd6cc837c3f87ff3737c925ce2d8423b17ec99760dbdc",
+    "dataset_path": "evaluations/datasets/closure-batch-dev-1.0.json",
+    "dataset_sha256": "f6a62bc8ca64d4fba0e7c6ec4acbd99bdedce465fe0f79c27c59e546e40fda41",
+    "manifest_path": "evaluations/reports/stability-batch-3.4/live/manifest.json",
+    "manifest_sha256": "7f3fd8ef632ca0efe744f147ea52188aa127ed259e10873dd8b1873c4c30b89e",
+    "manifest_identity_sha256": "312ca885429c36007346e6f88ef8b9ea09e04db33ddc0d8dae30e6aca804cfb8",
+    "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+    "corpus_sha256": "b7257e21c52be8d2ba35e448ee040b6238f88be801e91528916500758803ff3d",
+    "backend_source_sha256": {
+      "backend/app/retrieval/answer_workflow.py": "9d4062762ff51b82d3fc2f5b46fda128ed510671669dafad94b5f66e15d792c0",
+      "backend/app/retrieval/generation.py": "32c1882a29938f5a68c25a3a3560bb73b2dd39537ce6f5d7fc70d72c1c594c72",
+      "backend/app/retrieval/input_fidelity.py": "4b690e973fba7c35ec8e218ece6c41e85a3da99c7a8c6708ce1c20c2c267549a",
+      "backend/app/retrieval/patient_summary.py": "7d605f2f016714f8fb6903b4173300c6fed98aaa8a951395eb1340614f2e19fa",
+      "backend/app/retrieval/verification.py": "ff59662431c07c1379a4c010802fa873978fc5e445b8d9a39474e229f00270cc"
+    }
+  },
+  "case_status_counts": {
+    "answered": 12,
+    "validation_failed": 5,
+    "insufficient_evidence": 3,
+    "needs_information": 6
+  },
+  "classification_counts": {
+    "supported_with_limits": 38,
+    "needs_review": 3,
+    "input_record_exact": 6
+  },
+  "display_item_count": 47,
+  "medical_prose_item_count": 41,
+  "verification_order_observation": {
+    "answered_rows_all_have_core_summary_and_final_metadata": true,
+    "code_graph_order": "validate_citations -> verify_professional -> summarize_patient -> verify_claims",
+    "boundary": "Metadata presence plus current frozen graph code supports ordered stages; metadata has no independent provider timing proof. Same-model judgments are not medical validation."
+  },
+  "answered_without_input_explanation": [
+    "GEN-ENT-002",
+    "GEN-ENT-015",
+    "GEN-ENT-030",
+    "GEN-ENT-036"
+  ],
+  "scenario_input_expectations": [
+    {
+      "case_id": "ANCHOR-NOISE-001",
+      "status": "answered",
+      "input_explanation_count": 2,
+      "boundary": "Literal records alone do not count as medical comparisons; withheld rows do not pass explanation capability."
+    },
+    {
+      "case_id": "ANCHOR-TINNITUS-002",
+      "status": "answered",
+      "input_explanation_count": 1,
+      "boundary": "Literal records alone do not count as medical comparisons; withheld rows do not pass explanation capability."
+    },
+    {
+      "case_id": "ANCHOR-VOICE-003",
+      "status": "insufficient_evidence",
+      "input_explanation_count": 0,
+      "boundary": "Literal records alone do not count as medical comparisons; withheld rows do not pass explanation capability."
+    },
+    {
+      "case_id": "BATCH-STATE-DENIED",
+      "status": "answered",
+      "input_explanation_count": 1,
+      "boundary": "Literal records alone do not count as medical comparisons; withheld rows do not pass explanation capability."
+    },
+    {
+      "case_id": "BATCH-STATE-UNKNOWN",
+      "status": "validation_failed",
+      "input_explanation_count": 0,
+      "boundary": "Literal records alone do not count as medical comparisons; withheld rows do not pass explanation capability."
+    },
+    {
+      "case_id": "BATCH-STATE-MIXED",
+      "status": "validation_failed",
+      "input_explanation_count": 0,
+      "boundary": "Literal records alone do not count as medical comparisons; withheld rows do not pass explanation capability."
+    }
+  ],
+  "cases": [
+    {
+      "case_id": "GEN-ENT-002",
+      "status": "answered",
+      "display_item_count": 3,
+      "input_explanation_count": 0,
+      "core_verification_present": true,
+      "isolated_summary_metadata_present": true,
+      "final_verification_present": true,
+      "validation_error_code": null,
+      "failure_stage": null,
+      "input_explanation_note": "Answered with no input explanation; this row does not establish input-grounded explanation performance."
+    },
+    {
+      "case_id": "GEN-ENT-009",
+      "status": "validation_failed",
+      "display_item_count": 0,
+      "input_explanation_count": 0,
+      "core_verification_present": true,
+      "isolated_summary_metadata_present": false,
+      "final_verification_present": false,
+      "validation_error_code": "patient_summary_diagnostic_overstatement",
+      "failure_stage": "summarize_patient",
+      "review_boundary": "No answer displayed. Do not infer unretained draft quality or root cause from empty sections."
+    },
+    {
+      "case_id": "GEN-ENT-015",
+      "status": "answered",
+      "display_item_count": 2,
+      "input_explanation_count": 0,
+      "core_verification_present": true,
+      "isolated_summary_metadata_present": true,
+      "final_verification_present": true,
+      "validation_error_code": null,
+      "failure_stage": null,
+      "input_explanation_note": "Answered with no input explanation; this row does not establish input-grounded explanation performance."
+    },
+    {
+      "case_id": "GEN-ENT-025",
+      "status": "answered",
+      "display_item_count": 4,
+      "input_explanation_count": 1,
+      "core_verification_present": true,
+      "isolated_summary_metadata_present": true,
+      "final_verification_present": true,
+      "validation_error_code": null,
+      "failure_stage": null
+    },
+    {
+      "case_id": "GEN-ENT-030",
+      "status": "answered",
+      "display_item_count": 3,
+      "input_explanation_count": 0,
+      "core_verification_present": true,
+      "isolated_summary_metadata_present": true,
+      "final_verification_present": true,
+      "validation_error_code": null,
+      "failure_stage": null,
+      "input_explanation_note": "Answered with no input explanation; this row does not establish input-grounded explanation performance."
+    },
+    {
+      "case_id": "GEN-ENT-036",
+      "status": "answered",
+      "display_item_count": 3,
+      "input_explanation_count": 0,
+      "core_verification_present": true,
+      "isolated_summary_metadata_present": true,
+      "final_verification_present": true,
+      "validation_error_code": null,
+      "failure_stage": null,
+      "input_explanation_note": "Answered with no input explanation; this row does not establish input-grounded explanation performance."
+    },
+    {
+      "case_id": "GEN-ENT-043",
+      "status": "insufficient_evidence",
+      "display_item_count": 0,
+      "input_explanation_count": 0,
+      "core_verification_present": false,
+      "isolated_summary_metadata_present": false,
+      "final_verification_present": false,
+      "validation_error_code": null,
+      "failure_stage": null,
+      "review_boundary": "No answer displayed. Do not infer unretained draft quality or root cause from empty sections."
+    },
+    {
+      "case_id": "GEN-ENT-044",
+      "status": "insufficient_evidence",
+      "display_item_count": 0,
+      "input_explanation_count": 0,
+      "core_verification_present": false,
+      "isolated_summary_metadata_present": false,
+      "final_verification_present": false,
+      "validation_error_code": null,
+      "failure_stage": null,
+      "review_boundary": "No answer displayed. Do not infer unretained draft quality or root cause from empty sections."
+    },
+    {
+      "case_id": "GEN-ENT-045",
+      "status": "needs_information",
+      "display_item_count": 0,
+      "input_explanation_count": 0,
+      "core_verification_present": false,
+      "isolated_summary_metadata_present": false,
+      "final_verification_present": false,
+      "validation_error_code": null,
+      "failure_stage": null,
+      "review_boundary": "No answer displayed. Do not infer unretained draft quality or root cause from empty sections."
+    },
+    {
+      "case_id": "GEN-ENT-047",
+      "status": "needs_information",
+      "display_item_count": 0,
+      "input_explanation_count": 0,
+      "core_verification_present": false,
+      "isolated_summary_metadata_present": false,
+      "final_verification_present": false,
+      "validation_error_code": null,
+      "failure_stage": null,
+      "review_boundary": "No answer displayed. Do not infer unretained draft quality or root cause from empty sections."
+    },
+    {
+      "case_id": "GEN-ENT-048",
+      "status": "needs_information",
+      "display_item_count": 0,
+      "input_explanation_count": 0,
+      "core_verification_present": false,
+      "isolated_summary_metadata_present": false,
+      "final_verification_present": false,
+      "validation_error_code": null,
+      "failure_stage": null,
+      "review_boundary": "No answer displayed. Do not infer unretained draft quality or root cause from empty sections."
+    },
+    {
+      "case_id": "GEN-ENT-049",
+      "status": "needs_information",
+      "display_item_count": 0,
+      "input_explanation_count": 0,
+      "core_verification_present": false,
+      "isolated_summary_metadata_present": false,
+      "final_verification_present": false,
+      "validation_error_code": null,
+      "failure_stage": null,
+      "review_boundary": "No answer displayed. Do not infer unretained draft quality or root cause from empty sections."
+    },
+    {
+      "case_id": "GEN-ENT-002-CONTEXT",
+      "status": "answered",
+      "display_item_count": 6,
+      "input_explanation_count": 1,
+      "core_verification_present": true,
+      "isolated_summary_metadata_present": true,
+      "final_verification_present": true,
+      "validation_error_code": null,
+      "failure_stage": null
+    },
+    {
+      "case_id": "GEN-ENT-009-CONTEXT",
+      "status": "validation_failed",
+      "display_item_count": 0,
+      "input_explanation_count": 0,
+      "core_verification_present": true,
+      "isolated_summary_metadata_present": false,
+      "final_verification_present": false,
+      "validation_error_code": "patient_summary_diagnostic_overstatement",
+      "failure_stage": "summarize_patient",
+      "review_boundary": "No answer displayed. Do not infer unretained draft quality or root cause from empty sections."
+    },
+    {
+      "case_id": "GEN-ENT-015-CONTEXT",
+      "status": "answered",
+      "display_item_count": 5,
+      "input_explanation_count": 1,
+      "core_verification_present": true,
+      "isolated_summary_metadata_present": true,
+      "final_verification_present": true,
+      "validation_error_code": null,
+      "failure_stage": null
+    },
+    {
+      "case_id": "GEN-ENT-025-CONTEXT",
+      "status": "answered",
+      "display_item_count": 6,
+      "input_explanation_count": 2,
+      "core_verification_present": true,
+      "isolated_summary_metadata_present": true,
+      "final_verification_present": true,
+      "validation_error_code": null,
+      "failure_stage": null
+    },
+    {
+      "case_id": "GEN-ENT-030-CONTEXT",
+      "status": "validation_failed",
+      "display_item_count": 0,
+      "input_explanation_count": 0,
+      "core_verification_present": false,
+      "isolated_summary_metadata_present": false,
+      "final_verification_present": false,
+      "validation_error_code": "source_scope_overreach",
+      "failure_stage": "validate_citations",
+      "review_boundary": "No answer displayed. Do not infer unretained draft quality or root cause from empty sections."
+    },
+    {
+      "case_id": "GEN-ENT-036-CONTEXT",
+      "status": "answered",
+      "display_item_count": 4,
+      "input_explanation_count": 1,
+      "core_verification_present": true,
+      "isolated_summary_metadata_present": true,
+      "final_verification_present": true,
+      "validation_error_code": null,
+      "failure_stage": null
+    },
+    {
+      "case_id": "ANCHOR-NOISE-001",
+      "status": "answered",
+      "display_item_count": 4,
+      "input_explanation_count": 2,
+      "core_verification_present": true,
+      "isolated_summary_metadata_present": true,
+      "final_verification_present": true,
+      "validation_error_code": null,
+      "failure_stage": null
+    },
+    {
+      "case_id": "ANCHOR-TINNITUS-002",
+      "status": "answered",
+      "display_item_count": 4,
+      "input_explanation_count": 1,
+      "core_verification_present": true,
+      "isolated_summary_metadata_present": true,
+      "final_verification_present": true,
+      "validation_error_code": null,
+      "failure_stage": null
+    },
+    {
+      "case_id": "ANCHOR-VOICE-003",
+      "status": "insufficient_evidence",
+      "display_item_count": 0,
+      "input_explanation_count": 0,
+      "core_verification_present": true,
+      "isolated_summary_metadata_present": false,
+      "final_verification_present": true,
+      "validation_error_code": null,
+      "failure_stage": null,
+      "review_boundary": "No answer displayed. Do not infer unretained draft quality or root cause from empty sections."
+    },
+    {
+      "case_id": "BATCH-CONFLICT-UNKNOWN",
+      "status": "needs_information",
+      "display_item_count": 0,
+      "input_explanation_count": 0,
+      "core_verification_present": false,
+      "isolated_summary_metadata_present": false,
+      "final_verification_present": false,
+      "validation_error_code": null,
+      "failure_stage": null,
+      "review_boundary": "No answer displayed. Do not infer unretained draft quality or root cause from empty sections."
+    },
+    {
+      "case_id": "BATCH-CONFLICT-TIME",
+      "status": "needs_information",
+      "display_item_count": 0,
+      "input_explanation_count": 0,
+      "core_verification_present": false,
+      "isolated_summary_metadata_present": false,
+      "final_verification_present": false,
+      "validation_error_code": null,
+      "failure_stage": null,
+      "review_boundary": "No answer displayed. Do not infer unretained draft quality or root cause from empty sections."
+    },
+    {
+      "case_id": "BATCH-STATE-DENIED",
+      "status": "answered",
+      "display_item_count": 3,
+      "input_explanation_count": 1,
+      "core_verification_present": true,
+      "isolated_summary_metadata_present": true,
+      "final_verification_present": true,
+      "validation_error_code": null,
+      "failure_stage": null
+    },
+    {
+      "case_id": "BATCH-STATE-UNKNOWN",
+      "status": "validation_failed",
+      "display_item_count": 0,
+      "input_explanation_count": 0,
+      "core_verification_present": false,
+      "isolated_summary_metadata_present": false,
+      "final_verification_present": false,
+      "validation_error_code": "source_scope_overreach",
+      "failure_stage": "validate_citations",
+      "review_boundary": "No answer displayed. Do not infer unretained draft quality or root cause from empty sections."
+    },
+    {
+      "case_id": "BATCH-STATE-MIXED",
+      "status": "validation_failed",
+      "display_item_count": 0,
+      "input_explanation_count": 0,
+      "core_verification_present": false,
+      "isolated_summary_metadata_present": false,
+      "final_verification_present": false,
+      "validation_error_code": "source_scope_overreach",
+      "failure_stage": "validate_citations",
+      "review_boundary": "No answer displayed. Do not infer unretained draft quality or root cause from empty sections."
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "GEN-ENT-002/professional:0",
+      "text": "在成人过敏性鼻炎的多病共存中，部分属于过敏性疾病谱，例如哮喘、AD、食物过敏、anaphylaxis。",
+      "text_sha256": "88bd1186a141ec808ec55ddae00efae2f30491011688f454d69e78b483eeaab2",
+      "classification": "supported_with_limits",
+      "explanation": "Title supplies adult allergic-rhinitis scope; quoted list preserves AD and anaphylaxis without unsupported expansion. It does not prove every listed disease co-occurs in one person.",
+      "supports": [
+        {
+          "evidence_id": "E1",
+          "quote": "These can be subdivided into:Disorders which are part of the spectrum of allergic diseases, e.g. asthma, AD, food allergy, anaphylaxis;",
+          "trusted_source_title": "Multi-morbidities of allergic rhinitis in adults: European Academy of Allergy and Clinical Immunology Task Force Report"
+        }
+      ],
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-002/professional:1",
+      "text": "与鼻部解剖相关的共病包括结膜炎、鼻窦炎、中耳问题以及咽喉和喉部影响。",
+      "text_sha256": "b71d8890a0f1f2c01a6c5618591cfc7574ea6934b334fbc0955575b0cfae092e",
+      "classification": "supported_with_limits",
+      "explanation": "Preserves anatomically related rather than spatial adjacency; no claim that all disorders jointly occur.",
+      "supports": [
+        {
+          "evidence_id": "E1",
+          "quote": "Disorders anatomically related to the nose: conjunctivitis, sinusitis, middle ear problems, throat and laryngeal effects;",
+          "trusted_source_title": "Multi-morbidities of allergic rhinitis in adults: European Academy of Allergy and Clinical Immunology Task Force Report"
+        }
+      ],
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-002/patient_summary:0",
+      "text": "在成人过敏性鼻炎同时患多种疾病的情况里，有一部分属于过敏性疾病谱，例如哮喘、AD、食物过敏、anaphylaxis。",
+      "text_sha256": "e703470ade34ca5a69df2fff9745db3028995f27e5d6d386d49ef2c30b7fb5a2",
+      "classification": "supported_with_limits",
+      "explanation": "Title and list support comorbidity-spectrum description; 同时患多种疾病 must remain a general comorbidity framing, not joint-occurrence frequency or this patient diagnosis.",
+      "supports": [
+        {
+          "evidence_id": "E1",
+          "quote": "These can be subdivided into:Disorders which are part of the spectrum of allergic diseases, e.g. asthma, AD, food allergy, anaphylaxis;",
+          "trusted_source_title": "Multi-morbidities of allergic rhinitis in adults: European Academy of Allergy and Clinical Immunology Task Force Report"
+        }
+      ],
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-015/professional:0",
+      "text": "在成人急性中耳炎伴内耳受累的研究中，分别报告耳鸣和眩晕是常见症状。",
+      "text_sha256": "2b7e622f15a5df8e331d62e799d7754d563afd58f29c7fd3a25ed4dd8fcf4dfd",
+      "classification": "supported_with_limits",
+      "explanation": "Title supplies adult acute otitis-media with inner-ear-involvement cohort; quote separately reports tinnitus51% and vertigo32%; does not establish the joint frequency.",
+      "supports": [
+        {
+          "evidence_id": "E1",
+          "quote": "There was also a high percentage of patients with tinnitus (51%) and vertigo (32%).",
+          "trusted_source_title": "Treatment of Acute Otitis Media with Inner Ear Involvement in Adults"
+        }
+      ],
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-015/patient_summary:0",
+      "text": "在成人急性中耳炎伴内耳受累的研究中，耳鸣和眩晕是分别报告的常见症状。",
+      "text_sha256": "1c2dcb2732a1c7cccf90f2045db0c1a212494660e5ca986f1403c30351acf55f",
+      "classification": "supported_with_limits",
+      "explanation": "Acute/adult/inner-ear-involvement scope and separate reporting retained; no joint occurrence or individual applicability proven.",
+      "supports": [
+        {
+          "evidence_id": "E1",
+          "quote": "There was also a high percentage of patients with tinnitus (51%) and vertigo (32%).",
+          "trusted_source_title": "Treatment of Acute Otitis Media with Inner Ear Involvement in Adults"
+        }
+      ],
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-025/professional:0",
+      "text": "随着年龄增长，影响听力的因素有很多。",
+      "text_sha256": "9052ae563dceff5b938eaf7f6e68d59bcede6f6d18ae37fcb2cbf138d68784fa",
+      "classification": "supported_with_limits",
+      "explanation": "Own attached quotation and trusted title support the bounded general statement; no outside knowledge, individual applicability, or medical approval is established.",
+      "supports": [
+        {
+          "evidence_id": "E2",
+          "quote": "Many things affect our hearing as we age.",
+          "trusted_source_title": "Age-Related Hearing Loss (Presbycusis)"
+        }
+      ],
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-025/professional:1",
+      "text": "长期暴露于噪声以及某些健康状况也可能起作用。",
+      "text_sha256": "a9cec2c1a7376057d039d9d20c8438c484c8e7c68c82a3db49cbc3edb940a6e1",
+      "classification": "supported_with_limits",
+      "explanation": "Own attached quotation and trusted title support the bounded general statement; no outside knowledge, individual applicability, or medical approval is established.",
+      "supports": [
+        {
+          "evidence_id": "E2",
+          "quote": "Long-term exposure to noise and some medical conditions can also play a role.",
+          "trusted_source_title": "Age-Related Hearing Loss (Presbycusis)"
+        }
+      ],
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-025/input_explanation:0",
+      "text": "本次资料未给出长期噪声暴露与个体年龄相关听力下降之间的因果关系，仅说明长期噪声暴露可能起作用。",
+      "text_sha256": "2f7ad7eb6b52c54510eb4df69f4d4faec695070fae5eae8d1ad67dc22f1c2955",
+      "classification": "needs_review",
+      "explanation": "The attached quotation says long-term noise exposure and some medical conditions can play a role. It does not itself establish the negative claim that all of the supplied material gives no individual causal relation. Limit the wording to this quoted sentence or an explicit system boundary; do not infer coverage of the complete material. This is an overbroad absence claim, not proof of a false medical causal relation.",
+      "supports": [
+        {
+          "evidence_id": "E2",
+          "quote": "Long-term exposure to noise and some medical conditions can also play a role.",
+          "trusted_source_title": "Age-Related Hearing Loss (Presbycusis)"
+        }
+      ],
+      "clinical_approval": false,
+      "source_kind": "medical_comparison",
+      "input_anchors": [
+        {
+          "field": "question",
+          "quote": "我退休前长期处在嘈杂环境，年龄相关听力下降是否只有衰老这一个因素？",
+          "state": "reported"
+        }
+      ],
+      "input_anchors_match_dataset": true,
+      "issue_type": "negative_coverage_claim"
+    },
+    {
+      "claim_id": "GEN-ENT-025/patient_summary:0",
+      "text": "随着年龄增长，有很多因素会影响听力。",
+      "text_sha256": "ff09d2f848e325f18c94f33ec2c3f2a2a2c064383a765b78f97e2f7dc79352a9",
+      "classification": "supported_with_limits",
+      "explanation": "Own attached quotation and trusted title support the bounded general statement; no outside knowledge, individual applicability, or medical approval is established.",
+      "supports": [
+        {
+          "evidence_id": "E2",
+          "quote": "Many things affect our hearing as we age.",
+          "trusted_source_title": "Age-Related Hearing Loss (Presbycusis)"
+        }
+      ],
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-030/professional:0",
+      "text": "部分耳鸣患者会感到情绪以及睡眠或注意力受到影响。",
+      "text_sha256": "df5755884bd2c448c2c44628c078f82ba935aa576d1f27e606ce5067de8219a6",
+      "classification": "supported_with_limits",
+      "explanation": "Preserves some people and the quotation mood/sleep-or-concentrate scope; does not guarantee effects for an individual.",
+      "supports": [
+        {
+          "evidence_id": "E1",
+          "quote": "However, some people find that it affects their mood and their ability to sleep or concentrate.",
+          "trusted_source_title": "Tinnitus"
+        }
+      ],
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-030/professional:1",
+      "text": "在失代偿性耳鸣中，耳鸣可导致或加重焦虑、睡眠障碍、注意力障碍和抑郁等共病。",
+      "text_sha256": "7b0696eb2d4b83e25b2f4fa46a484b033404f496fd3f83871e4357255ad79a66",
+      "classification": "supported_with_limits",
+      "explanation": "Own quotation explicitly names decompensated tinnitus and comorbidity development/aggravation. Chronic-tinnitus guideline title bounds source context; not a diagnosis of the questioner.",
+      "supports": [
+        {
+          "evidence_id": "E2",
+          "quote": "Decompensated tinnitus: The ringing in the ears has a massive impact on all areas of life and leads to the development or aggravation of comorbidity (see Table 1; e.g. anxiety, sleep disorders, concentration disorders, depression).",
+          "trusted_source_title": "S3 Guideline: Chronic Tinnitus"
+        }
+      ],
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-030/patient_summary:0",
+      "text": "有些耳鸣的人会发现，耳鸣会影响自己的情绪、睡眠或注意力。",
+      "text_sha256": "57756be249934bedb2539f12c21099aa30ccffaf13a4d61ad5dafee81b4a761d",
+      "classification": "supported_with_limits",
+      "explanation": "Some people limitation retained with mood/sleep/concentration; no second-person diagnosis.",
+      "supports": [
+        {
+          "evidence_id": "E1",
+          "quote": "However, some people find that it affects their mood and their ability to sleep or concentrate.",
+          "trusted_source_title": "Tinnitus"
+        }
+      ],
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-036/professional:0",
+      "text": "声音嘶哑时，嗓音可表现为气息声、raspy或紧绷，也可能音量变轻或音调变低。",
+      "text_sha256": "00961a759b41758955534690270b61b76fc04fa001698b3bd47b2959a1b44d24",
+      "classification": "supported_with_limits",
+      "explanation": "Own attached quotation and trusted title support the bounded general statement; no outside knowledge, individual applicability, or medical approval is established.",
+      "supports": [
+        {
+          "evidence_id": "E1",
+          "quote": "If you are hoarse, your voice will sound breathy, raspy, or strained, or will be softer in volume or lower in pitch.",
+          "trusted_source_title": "Hoarseness"
+        }
+      ],
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-036/professional:1",
+      "text": "声音嘶哑常是喉部声带问题的症状。",
+      "text_sha256": "f6f5eb3e90ba1ebd3d7eee666da71a5793b7d9fd41243df74ce859ca897304fa",
+      "classification": "supported_with_limits",
+      "explanation": "Own attached quotation and trusted title support the bounded general statement; no outside knowledge, individual applicability, or medical approval is established.",
+      "supports": [
+        {
+          "evidence_id": "E1",
+          "quote": "Hoarseness is often a symptom of problems in the vocal folds of the larynx.",
+          "trusted_source_title": "Hoarseness"
+        }
+      ],
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-036/patient_summary:0",
+      "text": "声音嘶哑时，嗓音可能听起来气息声、raspy或紧绷，也可能音量变轻或音调变低。",
+      "text_sha256": "53a0f7d802050d0cc831169b8637b41780d9b666781361ac9449d7fe92c822bf",
+      "classification": "supported_with_limits",
+      "explanation": "Own attached quotation and trusted title support the bounded general statement; no outside knowledge, individual applicability, or medical approval is established.",
+      "supports": [
+        {
+          "evidence_id": "E1",
+          "quote": "If you are hoarse, your voice will sound breathy, raspy, or strained, or will be softer in volume or lower in pitch.",
+          "trusted_source_title": "Hoarseness"
+        }
+      ],
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-002-CONTEXT/professional:0",
+      "text": "过敏性鼻炎相关疾病可包括哮喘、AD、食物过敏、anaphylaxis等同一过敏性疾病谱中的疾病。",
+      "text_sha256": "137cbe82a94f97d411b217762a4dbb702ba1feb474d7a8276b7dfacd494f4253",
+      "classification": "supported_with_limits",
+      "explanation": "Own attached quotation and trusted title support the bounded general statement; no outside knowledge, individual applicability, or medical approval is established.",
+      "supports": [
+        {
+          "evidence_id": "E1",
+          "quote": "These can be subdivided into:Disorders which are part of the spectrum of allergic diseases, e.g. asthma, AD, food allergy, anaphylaxis;",
+          "trusted_source_title": "Multi-morbidities of allergic rhinitis in adults: European Academy of Allergy and Clinical Immunology Task Force Report"
+        }
+      ],
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-002-CONTEXT/professional:1",
+      "text": "与鼻解剖相关的疾病可包括结膜炎、鼻窦炎、中耳问题、咽喉与喉部影响。",
+      "text_sha256": "2dd49e513dbe6aa4ef73c9a68a03e8f83ebb1ab68cb2588eb747a78657063771",
+      "classification": "supported_with_limits",
+      "explanation": "Own attached quotation and trusted title support the bounded general statement; no outside knowledge, individual applicability, or medical approval is established.",
+      "supports": [
+        {
+          "evidence_id": "E1",
+          "quote": "Disorders anatomically related to the nose: conjunctivitis, sinusitis, middle ear problems, throat and laryngeal effects;",
+          "trusted_source_title": "Multi-morbidities of allergic rhinitis in adults: European Academy of Allergy and Clinical Immunology Task Force Report"
+        }
+      ],
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-002-CONTEXT/professional:2",
+      "text": "还可包括睡眠问题以及注意力和行为方面的继发影响。",
+      "text_sha256": "0de45cf89ba88de72cea77390f518c232a601a76973dc2b29d9a7c1c59ab9a8d",
+      "classification": "supported_with_limits",
+      "explanation": "Own attached quotation and trusted title support the bounded general statement; no outside knowledge, individual applicability, or medical approval is established.",
+      "supports": [
+        {
+          "evidence_id": "E1",
+          "quote": "Sleep problems and secondary effects on concentration and behaviour;",
+          "trusted_source_title": "Multi-morbidities of allergic rhinitis in adults: European Academy of Allergy and Clinical Immunology Task Force Report"
+        }
+      ],
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-002-CONTEXT/professional:3",
+      "text": "鼻甲肥大也在所列范围之内。",
+      "text_sha256": "ce40d5cb85bcf1a6a2dfc679328de5041ef28ed0008dcffd9160447d623fe270",
+      "classification": "supported_with_limits",
+      "explanation": "Own attached quotation and trusted title support the bounded general statement; no outside knowledge, individual applicability, or medical approval is established.",
+      "supports": [
+        {
+          "evidence_id": "E1",
+          "quote": "andTurbinate hypertrophy.",
+          "trusted_source_title": "Multi-morbidities of allergic rhinitis in adults: European Academy of Allergy and Clinical Immunology Task Force Report"
+        }
+      ],
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-002-CONTEXT/input_explanation:0",
+      "text": "填写原话（未经临床确认）：问题：成人鼻炎除了鼻部表现，还可能同时涉及哪些部位或疾病？",
+      "text_sha256": "2520568242e477ddffc316a7aa294fe30b6b453c7800ee767d62863e13774f64",
+      "classification": "input_record_exact",
+      "explanation": "Complete selected input fields and states exactly match the dataset and server literal-record format; no model medical prose or medical supports. This proves selected original-input retention only, not a medical comparison or successful explanation of individual findings.",
+      "supports": [],
+      "clinical_approval": false,
+      "source_kind": "patient_input",
+      "input_anchors": [
+        {
+          "field": "question",
+          "quote": "成人鼻炎除了鼻部表现，还可能同时涉及哪些部位或疾病？",
+          "state": "reported"
+        }
+      ],
+      "input_anchors_match_dataset": true
+    },
+    {
+      "claim_id": "GEN-ENT-002-CONTEXT/patient_summary:0",
+      "text": "与过敏性鼻炎相关的疾病可包括哮喘、AD、食物过敏、anaphylaxis等，它们同属一个过敏性疾病谱。",
+      "text_sha256": "5049fad96a7e3aa785be7f49217262d0f9bae51fcca84829bfa7f2e7ee35d923",
+      "classification": "supported_with_limits",
+      "explanation": "Own attached quotation and trusted title support the bounded general statement; no outside knowledge, individual applicability, or medical approval is established.",
+      "supports": [
+        {
+          "evidence_id": "E1",
+          "quote": "These can be subdivided into:Disorders which are part of the spectrum of allergic diseases, e.g. asthma, AD, food allergy, anaphylaxis;",
+          "trusted_source_title": "Multi-morbidities of allergic rhinitis in adults: European Academy of Allergy and Clinical Immunology Task Force Report"
+        }
+      ],
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-015-CONTEXT/professional:0",
+      "text": "在因急性中耳炎伴内耳受累接受治疗的成人患者中，分别报告有耳鸣（51%）和眩晕（32%）。",
+      "text_sha256": "41d6d63652e96a00f96cf2a7481612818774bfc9f1c7d08b32d22725d413625f",
+      "classification": "supported_with_limits",
+      "explanation": "Title provides adult acute otitis-media inner-ear cohort. Exact51% and32% retained separately; no joint frequency claimed.",
+      "supports": [
+        {
+          "evidence_id": "E1",
+          "quote": "There was also a high percentage of patients with tinnitus (51%) and vertigo (32%).",
+          "trusted_source_title": "Treatment of Acute Otitis Media with Inner Ear Involvement in Adults"
+        }
+      ],
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-015-CONTEXT/professional:1",
+      "text": "该研究人群最常见的症状分别包括主观听力下降、耳痛、耳漏、耳鸣和眩晕。",
+      "text_sha256": "8e725afb36b3257628b10aac4d3a61f92a6790551b42c64a2ad684501f292881",
+      "classification": "supported_with_limits",
+      "explanation": "Own quote lists subjective hearing loss, otalgia, otorrhea, tinnitus and vertigo; 该研究人群 refers to title-scoped cohort, not all adult otitis media.",
+      "supports": [
+        {
+          "evidence_id": "E2",
+          "quote": "The most common symptoms stated by the patients were subjective hearing loss (112/112, 100%), otalgia (111/112, 99%), otorrhea (61/112, 54%), tinnitus (57/112, 51%) and vertigo (34/112).",
+          "trusted_source_title": "Treatment of Acute Otitis Media with Inner Ear Involvement in Adults"
+        }
+      ],
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-015-CONTEXT/professional:2",
+      "text": "在该成人急性中耳炎伴内耳受累人群中，眩晕者的平均PTA显著更高。",
+      "text_sha256": "7fe5de7b5c0a61994a7e32be065966d61fcce08e94d92c127a1fcd30e95a1d23",
+      "classification": "supported_with_limits",
+      "explanation": "Own quote compares meanPTA among patients with/without a symptom and reports higher meanPTA in vertigo patients; result stays in title-scoped study population. PTA is not explained for lay readers; clinical interpretation remains pending.",
+      "supports": [
+        {
+          "evidence_id": "E2",
+          "quote": "By comparison of the mean PTA of patients with or without a specific symptom, a significantly higher mean PTA (p-value: 0.003) was observed in vertigo patients.",
+          "trusted_source_title": "Treatment of Acute Otitis Media with Inner Ear Involvement in Adults"
+        }
+      ],
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-015-CONTEXT/input_explanation:0",
+      "text": "填写原话（未经临床确认）：问题：我是成人，急性中耳炎时同时耳鸣和眩晕，已有研究描述过这些伴随表现吗？",
+      "text_sha256": "0f816288799fe263d70f74b43362d1880fe10694f5662e2c534c8127f28b16c3",
+      "classification": "input_record_exact",
+      "explanation": "Complete selected input fields and states exactly match the dataset and server literal-record format; no model medical prose or medical supports. This proves selected original-input retention only, not a medical comparison or successful explanation of individual findings.",
+      "supports": [],
+      "clinical_approval": false,
+      "source_kind": "patient_input",
+      "input_anchors": [
+        {
+          "field": "question",
+          "quote": "我是成人，急性中耳炎时同时耳鸣和眩晕，已有研究描述过这些伴随表现吗？",
+          "state": "reported"
+        }
+      ],
+      "input_anchors_match_dataset": true
+    },
+    {
+      "claim_id": "GEN-ENT-015-CONTEXT/patient_summary:0",
+      "text": "因急性中耳炎伴内耳受累接受治疗的成人患者中，分别有51%报告耳鸣、32%报告眩晕。",
+      "text_sha256": "ebbdc996bcb6ee51dccc8801e3c88bce16a4f9c528df9253704f3b5c863297f1",
+      "classification": "supported_with_limits",
+      "explanation": "Uses exact51% and32% separately and retains acute/adult/inner-ear population.",
+      "supports": [
+        {
+          "evidence_id": "E1",
+          "quote": "There was also a high percentage of patients with tinnitus (51%) and vertigo (32%).",
+          "trusted_source_title": "Treatment of Acute Otitis Media with Inner Ear Involvement in Adults"
+        }
+      ],
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-025-CONTEXT/professional:0",
+      "text": "随着年龄增长，听力受多种因素影响。",
+      "text_sha256": "911e79f9c1d3a5b24a7a275f342749a7273485fb0b70e2ac35c1485bbfbfe833",
+      "classification": "supported_with_limits",
+      "explanation": "Own attached quotation and trusted title support the bounded general statement; no outside knowledge, individual applicability, or medical approval is established.",
+      "supports": [
+        {
+          "evidence_id": "E3",
+          "quote": "Many things affect our hearing as we age.",
+          "trusted_source_title": "Age-Related Hearing Loss (Presbycusis)"
+        }
+      ],
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-025-CONTEXT/professional:1",
+      "text": "长期暴露于噪声和某些健康状况也可能起作用。",
+      "text_sha256": "8507e3342b1f44614d74ed57832dafba2af89c3d8cfd845d7456761815c14ccc",
+      "classification": "supported_with_limits",
+      "explanation": "Own attached quotation and trusted title support the bounded general statement; no outside knowledge, individual applicability, or medical approval is established.",
+      "supports": [
+        {
+          "evidence_id": "E3",
+          "quote": "Long-term exposure to noise and some medical conditions can also play a role.",
+          "trusted_source_title": "Age-Related Hearing Loss (Presbycusis)"
+        }
+      ],
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-025-CONTEXT/professional:2",
+      "text": "在老年人中更常见的高血压和糖尿病与听力下降相关。",
+      "text_sha256": "88c4a1c19978f9eb28ed4d9ac45b65f5d5e08699c1ee74257b794e0979b01ecf",
+      "classification": "supported_with_limits",
+      "explanation": "Own attached quotation and trusted title support the bounded general statement; no outside knowledge, individual applicability, or medical approval is established.",
+      "supports": [
+        {
+          "evidence_id": "E1",
+          "quote": "Conditions that are more common in older people, such as high blood pressure and diabetes, are associated with hearing loss.",
+          "trusted_source_title": "Age-Related Hearing Loss (Presbycusis)"
+        }
+      ],
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-025-CONTEXT/input_explanation:0",
+      "text": "咨询提到退休前长期处于嘈杂环境，并询问年龄相关听力下降是否只有衰老这一个因素；",
+      "text_sha256": "8e8ba929d010bd499c6a2faadfb23932a681c634dbbfb102887a61a8346e4493",
+      "classification": "supported_with_limits",
+      "explanation": "Question anchor is exact. Text only restates the consultation and ends with a split semicolon; by itself it contains no medical comparison despite source_kind medical_comparison. Its paired atom is reviewed separately and this item cannot count as an independent successful medical comparison.",
+      "supports": [
+        {
+          "evidence_id": "E3",
+          "quote": "Long-term exposure to noise and some medical conditions can also play a role.",
+          "trusted_source_title": "Age-Related Hearing Loss (Presbycusis)"
+        },
+        {
+          "evidence_id": "E1",
+          "quote": "Conditions that are more common in older people, such as high blood pressure and diabetes, are associated with hearing loss.",
+          "trusted_source_title": "Age-Related Hearing Loss (Presbycusis)"
+        }
+      ],
+      "clinical_approval": false,
+      "source_kind": "medical_comparison",
+      "input_anchors": [
+        {
+          "field": "question",
+          "quote": "我退休前长期处在嘈杂环境，年龄相关听力下降是否只有衰老这一个因素？",
+          "state": "reported"
+        }
+      ],
+      "input_anchors_match_dataset": true
+    },
+    {
+      "claim_id": "GEN-ENT-025-CONTEXT/input_explanation:1",
+      "text": "资料提示长期噪声暴露和某些健康状况也可起作用，但这是群体层面的关联，不能据此判断个体情况。",
+      "text_sha256": "392fdf0459f5c38c908df30a171455c65008568a2312cee2860161988fa06c83",
+      "classification": "supported_with_limits",
+      "explanation": "Own quotes support noise/medical-condition role and association of highBP/diabetes with hearing loss. No individual cause inferred. The explicit individual-applicability boundary is a system caution, not an additional medical finding.",
+      "supports": [
+        {
+          "evidence_id": "E3",
+          "quote": "Long-term exposure to noise and some medical conditions can also play a role.",
+          "trusted_source_title": "Age-Related Hearing Loss (Presbycusis)"
+        },
+        {
+          "evidence_id": "E1",
+          "quote": "Conditions that are more common in older people, such as high blood pressure and diabetes, are associated with hearing loss.",
+          "trusted_source_title": "Age-Related Hearing Loss (Presbycusis)"
+        }
+      ],
+      "clinical_approval": false,
+      "source_kind": "medical_comparison",
+      "input_anchors": [
+        {
+          "field": "question",
+          "quote": "我退休前长期处在嘈杂环境，年龄相关听力下降是否只有衰老这一个因素？",
+          "state": "reported"
+        }
+      ],
+      "input_anchors_match_dataset": true
+    },
+    {
+      "claim_id": "GEN-ENT-025-CONTEXT/patient_summary:0",
+      "text": "随着年龄增长，听力会受很多因素影响。",
+      "text_sha256": "d04969703e33af47c3ec17879690e0f67a5b1fdb62b7ac28c4254e27c429d146",
+      "classification": "supported_with_limits",
+      "explanation": "Own attached quotation and trusted title support the bounded general statement; no outside knowledge, individual applicability, or medical approval is established.",
+      "supports": [
+        {
+          "evidence_id": "E3",
+          "quote": "Many things affect our hearing as we age.",
+          "trusted_source_title": "Age-Related Hearing Loss (Presbycusis)"
+        }
+      ],
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-036-CONTEXT/professional:0",
+      "text": "声音嘶哑时，嗓音听起来可呈气息感、raspy或紧张感，或音量变轻、音调变低。",
+      "text_sha256": "174f5c21c9e344bf7c70b0aa8a472fddb457dc76e61b7da15bb0c909135fec1f",
+      "classification": "needs_review",
+      "explanation": "Own quote says softer in volume OR lower in pitch. The Chinese ending “或音量变轻、音调变低” enumerates the final two phenomena without an explicit intervening 或, leaving whether both occur ambiguous. The patient summary restores explicit 或. Needs a precise choice-preserving medical-language review; this is not an invented symptom of this patient.",
+      "supports": [
+        {
+          "evidence_id": "E1",
+          "quote": "If you are hoarse, your voice will sound breathy, raspy, or strained, or will be softer in volume or lower in pitch.",
+          "trusted_source_title": "Hoarseness"
+        }
+      ],
+      "clinical_approval": false,
+      "issue_type": "choice_relation_ambiguity"
+    },
+    {
+      "claim_id": "GEN-ENT-036-CONTEXT/professional:1",
+      "text": "声音嘶哑常是喉部声带问题的症状。",
+      "text_sha256": "f6f5eb3e90ba1ebd3d7eee666da71a5793b7d9fd41243df74ce859ca897304fa",
+      "classification": "supported_with_limits",
+      "explanation": "Own attached quotation and trusted title support the bounded general statement; no outside knowledge, individual applicability, or medical approval is established.",
+      "supports": [
+        {
+          "evidence_id": "E1",
+          "quote": "Hoarseness is often a symptom of problems in the vocal folds of the larynx.",
+          "trusted_source_title": "Hoarseness"
+        }
+      ],
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-036-CONTEXT/input_explanation:0",
+      "text": "填写原话（未经临床确认）：问题：我说话声音粗哑、音量也变小，资料如何描述声音嘶哑？",
+      "text_sha256": "84b68b2a837dbee2c5383a05fd59c7b5d5579f6d30c464d9eb83add5ec4c1c0a",
+      "classification": "input_record_exact",
+      "explanation": "Complete selected input fields and states exactly match the dataset and server literal-record format; no model medical prose or medical supports. This proves selected original-input retention only, not a medical comparison or successful explanation of individual findings.",
+      "supports": [],
+      "clinical_approval": false,
+      "source_kind": "patient_input",
+      "input_anchors": [
+        {
+          "field": "question",
+          "quote": "我说话声音粗哑、音量也变小，资料如何描述声音嘶哑？",
+          "state": "reported"
+        }
+      ],
+      "input_anchors_match_dataset": true
+    },
+    {
+      "claim_id": "GEN-ENT-036-CONTEXT/patient_summary:0",
+      "text": "声音嘶哑时，嗓音可能听起来气息感、raspy或紧张感，也可能音量变轻或音调变低。",
+      "text_sha256": "1777b9775e8f28d86bb3cb3ea1e7a10c8674c9b8947f6b39bf841ab9bfb0c95e",
+      "classification": "supported_with_limits",
+      "explanation": "Own attached quotation and trusted title support the bounded general statement; no outside knowledge, individual applicability, or medical approval is established.",
+      "supports": [
+        {
+          "evidence_id": "E1",
+          "quote": "If you are hoarse, your voice will sound breathy, raspy, or strained, or will be softer in volume or lower in pitch.",
+          "trusted_source_title": "Hoarseness"
+        }
+      ],
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "ANCHOR-NOISE-001/professional:0",
+      "text": "资料指出，长期暴露于噪声与某些医疗状况也可能在老年听力变化中起作用。",
+      "text_sha256": "3e798d436635932565c5dd40bea00a6ea72f27b25c64eb950a5fd195ef5727e0",
+      "classification": "supported_with_limits",
+      "explanation": "Own attached quotation and trusted title support the bounded general statement; no outside knowledge, individual applicability, or medical approval is established.",
+      "supports": [
+        {
+          "evidence_id": "E5",
+          "quote": "Long-term exposure to noise and some medical conditions can also play a role.",
+          "trusted_source_title": "Age-Related Hearing Loss (Presbycusis)"
+        }
+      ],
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "ANCHOR-NOISE-001/input_explanation:0",
+      "text": "填写原话（未经临床确认）：主诉：合成记录：退休前长期接触噪声",
+      "text_sha256": "4ace8959f6dbc9d5f08c392a0478cac1e0b2f5a524b7993f12025a9261eed551",
+      "classification": "input_record_exact",
+      "explanation": "Complete selected input fields and states exactly match the dataset and server literal-record format; no model medical prose or medical supports. This proves selected original-input retention only, not a medical comparison or successful explanation of individual findings.",
+      "supports": [],
+      "clinical_approval": false,
+      "source_kind": "patient_input",
+      "input_anchors": [
+        {
+          "field": "chief_complaint",
+          "quote": "合成记录：退休前长期接触噪声",
+          "state": "reported"
+        }
+      ],
+      "input_anchors_match_dataset": true
+    },
+    {
+      "claim_id": "ANCHOR-NOISE-001/input_explanation:1",
+      "text": "资料中提到的长期噪声暴露在老年听力变化中可能起作用只属于一般性关联，本次资料未给出对这位咨询者个人病因的判断。",
+      "text_sha256": "e50ea9a1ae9db66dd21a689ba485e7cb3319e5e6ead3d797527fcb9d45b8ef73",
+      "classification": "supported_with_limits",
+      "explanation": "Actual chief complaint and question anchors match dataset; role of long-term noise remains possible/general. No personal cause is assigned. “本次资料未给出对这位咨询者个人病因的判断” is an individual system-applicability boundary, not a study-wide absence claim.",
+      "supports": [
+        {
+          "evidence_id": "E5",
+          "quote": "Long-term exposure to noise and some medical conditions can also play a role.",
+          "trusted_source_title": "Age-Related Hearing Loss (Presbycusis)"
+        }
+      ],
+      "clinical_approval": false,
+      "source_kind": "medical_comparison",
+      "input_anchors": [
+        {
+          "field": "chief_complaint",
+          "quote": "合成记录：退休前长期接触噪声",
+          "state": "reported"
+        },
+        {
+          "field": "question",
+          "quote": "我退休前长期处在嘈杂环境，请引用我的原话，结合资料解释噪声是否可能影响听力，不判断我的病因。",
+          "state": "reported"
+        }
+      ],
+      "input_anchors_match_dataset": true
+    },
+    {
+      "claim_id": "ANCHOR-NOISE-001/patient_summary:0",
+      "text": "长期接触噪声以及某些医疗状况，也可能影响老年人的听力变化。",
+      "text_sha256": "d2483e5f9d3fe9ec66bbb17435bac6a8948847d26eb27922be9a372fe72e8597",
+      "classification": "supported_with_limits",
+      "explanation": "Own attached quotation and trusted title support the bounded general statement; no outside knowledge, individual applicability, or medical approval is established.",
+      "supports": [
+        {
+          "evidence_id": "E5",
+          "quote": "Long-term exposure to noise and some medical conditions can also play a role.",
+          "trusted_source_title": "Age-Related Hearing Loss (Presbycusis)"
+        }
+      ],
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "ANCHOR-TINNITUS-002/professional:0",
+      "text": "失代偿性耳鸣可对生活多个方面造成很大影响，并导致或加重焦虑、睡眠障碍、注意力障碍、抑郁等共病。",
+      "text_sha256": "28aa086800b003987a368938cbe617bf7df2fab0b1a17d4a02be4962c6ae6c1e",
+      "classification": "supported_with_limits",
+      "explanation": "Own quotation directly includes decompensated-tinnitus scope and named impacts. It does not classify this person as decompensated.",
+      "supports": [
+        {
+          "evidence_id": "E2",
+          "quote": "Decompensated tinnitus: The ringing in the ears has a massive impact on all areas of life and leads to the development or aggravation of comorbidity (see Table 1; e.g. anxiety, sleep disorders, concentration disorders, depression).",
+          "trusted_source_title": "S3 Guideline: Chronic Tinnitus"
+        }
+      ],
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "ANCHOR-TINNITUS-002/professional:1",
+      "text": "耳鸣的痛苦体验具有多个方面，且因患者而异。",
+      "text_sha256": "4030552a7804224f9b7d72f5e9f262fecf86e72d56660d6118afc26c313016f3",
+      "classification": "supported_with_limits",
+      "explanation": "Own quotation directly describes many facets of suffering varying among people; no subtype or causal inference added.",
+      "supports": [
+        {
+          "evidence_id": "E6",
+          "quote": "Second, it is mostly purely subjective, which makes outcome measurement challenging, and third, suffering from tinnitus has many facets, which vary from patient to patient.",
+          "trusted_source_title": "Tinnitus Guidelines and Their Evidence Base"
+        }
+      ],
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "ANCHOR-TINNITUS-002/input_explanation:0",
+      "text": "填写原话（未经临床确认）：主诉：合成记录：耳鸣后睡不好，注意力难集中",
+      "text_sha256": "1a841ba96f9368e45d1c006a448673417dc72e9d25cbc39c4b9db39ea38b1fe0",
+      "classification": "input_record_exact",
+      "explanation": "Complete selected input fields and states exactly match the dataset and server literal-record format; no model medical prose or medical supports. This proves selected original-input retention only, not a medical comparison or successful explanation of individual findings.",
+      "supports": [],
+      "clinical_approval": false,
+      "source_kind": "patient_input",
+      "input_anchors": [
+        {
+          "field": "chief_complaint",
+          "quote": "合成记录：耳鸣后睡不好，注意力难集中",
+          "state": "reported"
+        }
+      ],
+      "input_anchors_match_dataset": true
+    },
+    {
+      "claim_id": "ANCHOR-TINNITUS-002/patient_summary:0",
+      "text": "失代偿性耳鸣会对生活的方方面面造成很大影响，并可能引发或加重焦虑、睡眠障碍、注意力障碍和抑郁等问题。",
+      "text_sha256": "bfc8ca122eb309560706d823f88284e74856d04b8fe104c5650207ec6f5415dd",
+      "classification": "supported_with_limits",
+      "explanation": "Own quotation and core professional:0 support the same decompensated-tinnitus impacts; clinical applicability to questioner unestablished.",
+      "supports": [
+        {
+          "evidence_id": "E2",
+          "quote": "Decompensated tinnitus: The ringing in the ears has a massive impact on all areas of life and leads to the development or aggravation of comorbidity (see Table 1; e.g. anxiety, sleep disorders, concentration disorders, depression).",
+          "trusted_source_title": "S3 Guideline: Chronic Tinnitus"
+        }
+      ],
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "BATCH-STATE-DENIED/professional:0",
+      "text": "失代偿性耳鸣可导致或加重睡眠障碍、注意力障碍等共病。",
+      "text_sha256": "97bf0ef8a385b18c759f5112e5f1b4ffc197ef44a0f3877d03f17bd5ef63591f",
+      "classification": "supported_with_limits",
+      "explanation": "Decompensated scope retained; sleep/concentration comorbidity development/aggravation is directly stated by own quote. Not a classification of this patient.",
+      "supports": [
+        {
+          "evidence_id": "E1",
+          "quote": "Decompensated tinnitus: The ringing in the ears has a massive impact on all areas of life and leads to the development or aggravation of comorbidity (see Table 1; e.g. anxiety, sleep disorders, concentration disorders, depression).",
+          "trusted_source_title": "S3 Guideline: Chronic Tinnitus"
+        }
+      ],
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "BATCH-STATE-DENIED/input_explanation:0",
+      "text": "填写原话（未经临床确认）：主诉：合成记录：耳鸣后睡不好，注意力难集中；病史：否认眩晕",
+      "text_sha256": "cbe0a2487cdaf5726df1283a2142c3c7ec86becbc339db0d38e39a439ea4f480",
+      "classification": "input_record_exact",
+      "explanation": "Complete selected input fields and states exactly match the dataset and server literal-record format; no model medical prose or medical supports. This proves selected original-input retention only, not a medical comparison or successful explanation of individual findings.",
+      "supports": [],
+      "clinical_approval": false,
+      "source_kind": "patient_input",
+      "input_anchors": [
+        {
+          "field": "chief_complaint",
+          "quote": "合成记录：耳鸣后睡不好，注意力难集中",
+          "state": "reported"
+        },
+        {
+          "field": "history",
+          "quote": "否认眩晕",
+          "state": "denied"
+        }
+      ],
+      "input_anchors_match_dataset": true
+    },
+    {
+      "claim_id": "BATCH-STATE-DENIED/patient_summary:0",
+      "text": "失代偿性耳鸣可能引发或加重焦虑、睡眠障碍、注意力障碍、抑郁等共病。",
+      "text_sha256": "9907de84b67c294498964aaab657d4a3362ed97a04abfee03ee5721d848f2948",
+      "classification": "needs_review",
+      "explanation": "Own quotation supports anxiety, sleep disorders, concentration disorders and depression in decompensated tinnitus. However, the retained core professional:0 only states sleep and concentration disorders. Summary adds anxiety and depression beyond its provided core text, contrary to the one-core-fact rewrite contract. Source-supported but contract-expanding; do not label this as a direct source factual mismatch.",
+      "supports": [
+        {
+          "evidence_id": "E1",
+          "quote": "Decompensated tinnitus: The ringing in the ears has a massive impact on all areas of life and leads to the development or aggravation of comorbidity (see Table 1; e.g. anxiety, sleep disorders, concentration disorders, depression).",
+          "trusted_source_title": "S3 Guideline: Chronic Tinnitus"
+        }
+      ],
+      "clinical_approval": false,
+      "issue_type": "summary_expands_beyond_core"
+    }
+  ],
+  "limitations": [
+    "Review uses each item own quotations and trusted source title only; patient attribution uses original fixed dataset. No entire medical article, external knowledge or clinician judgment is substituted.",
+    "Need-review flags include a source-coverage absence claim, ambiguous choice relation, and source-supported summary expansion beyond its core. These categories must not be collapsed into the same factual error.",
+    "UNKNOWN and MIXED rows are validation_failed with no displayed answer; DENIED preserves reported+denied as literal input record only.",
+    "ANCHOR-TINNITUS-002 retains a reported chief-complaint literal record but no medical-comparison input explanation; ANCHOR-VOICE-003 is withheld.",
+    "Same-model filtering and separate AI review cannot establish clinical accuracy or hospital release readiness."
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "scope": "Local synthetic account, access and snapshot persistence foundation; no clinical validation",
+  "pytest": {
+    "name": "pytest",
+    "errors": "0",
+    "failures": "0",
+    "skipped": "0",
+    "tests": "350",
+    "time": "17.600",
+    "timestamp": "2026-10-20T12:43:29.219012+08:00",
+    "hostname": "DESKTOP-T469ISO"
+  },
+  "routes_loaded": true,
+  "actual_patient_accounts_created": 0,
+  "business_database_exists": false,
+  "real_candidate_review_events": 0,
+  "development_chunks": 802,
+  "development_snapshot": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+  "real_data_http_writes": 0,
+  "model_inference_calls": 0,
+  "startup_provider_authentication_check": true
+}

@@ -1,0 +1,23 @@
+{
+  "version": "adult-ent-development-1.0",
+  "scope": "成人耳鼻喉开发资料库；上线前统一临床审核",
+  "sources": [
+    {"id":"adult-rhinitis-eaaci-2017","kind":"jats","pmcid":"PMC5452333","title_zh":"成人变应性鼻炎共病：EAACI工作组报告（2017）","topics":["rhinitis"],"document_type":"society_task_force_report","population":"adult_relevant_general","note":"成人主题，含部分儿科背景段落；较旧，仅作基础背景，不能作为最新治疗唯一依据。"},
+    {"id":"tinnitus-s3-2022","kind":"jats","pmcid":"PMC9581878","title_zh":"慢性耳鸣 S3 指南（德国学会，2022）","topics":["tinnitus"],"document_type":"clinical_guideline","population":"adult_relevant_general","note":"指南内容和现行有效性待临床审核；不是中国本地指南。"},
+    {"id":"rhinitis-review-2024","kind":"jats","pmcid":"PMC11681636","title_zh":"变应性鼻炎综述（2024）","topics":["rhinitis"],"document_type":"clinical_review","population":"mixed_requires_screening","note":"含儿童内容，原文仅暂存，整篇不进入默认成人检索，待人工筛选成人段落。"},
+    {"id":"crs-apac-2024","kind":"jats","pmcid":"PMC11142757","title_zh":"亚太地区及俄罗斯慢性鼻窦炎伴鼻息肉专家工作组建议（2024）","topics":["sinusitis"],"document_type":"expert_recommendations","population":"adult_relevant_general","note":"仅针对伴鼻息肉的慢性鼻窦炎；需核对成人适用性、地域与利益冲突。"},
+    {"id":"adult-com-qol-2023","kind":"jats","pmcid":"PMC10654635","title_zh":"成人慢性中耳炎手术后生活质量系统综述（2023）","topics":["otitis_media","hearing_loss"],"document_type":"systematic_review","population":"adult_only","note":"纳入成人≥18岁，重点为术后生活质量；不是完整中耳炎诊疗指南。"},
+    {"id":"adult-aom-inner-ear-2023","kind":"jats","pmcid":"PMC10743793","title_zh":"成人急性中耳炎伴内耳受累回顾性研究（2023）","topics":["otitis_media","hearing_loss"],"document_type":"retrospective_cohort","population":"adult_only","note":"112例成人，限特定并发症；作为补充研究，不能升级为指南。"},
+    {"id":"tinnitus-evidence-2023","kind":"jats","pmcid":"PMC10178961","title_zh":"耳鸣指南及其证据基础比较（2023）","topics":["tinnitus"],"document_type":"perspective_review","population":"adult_relevant_general","note":"出版类型为观点/综述，不是正式指南，可用于证据差异检索测试。"},
+    {"id":"adult-sore-throat-review-2024","kind":"jats","pmcid":"PMC11421831","title_zh":"成人咽痛糖皮质激素治疗系统综述与荟萃分析（2024）","topics":["throat"],"document_type":"systematic_review","population":"adult_only","note":"专题补充研究；未做独立方法学质量评价，不能代表全部咽喉疾病诊疗。"},
+    {"id":"tonsillitis-review-2023","kind":"jats","pmcid":"PMC10597714","title_zh":"反复急性扁桃体炎系统综述与临床建议（2023）","topics":["throat"],"document_type":"systematic_review_recommendations","population":"mixed_requires_screening","note":"成人/儿童混合；原文暂存，不进入默认成人检索，待人工筛选。"},
+    {"id":"nidcd-tinnitus","kind":"nidcd","url":"https://www.nidcd.nih.gov/health/tinnitus","title_zh":"NIH/NIDCD 耳鸣患者教育","topics":["tinnitus"],"document_type":"government_patient_education","population":"adult_relevant_general","note":"基础科普，不等同临床指南；仅提取页面正文，不保存图片。"},
+    {"id":"nidcd-presbycusis","kind":"nidcd","url":"https://www.nidcd.nih.gov/health/age-related-hearing-loss","title_zh":"NIH/NIDCD 老年性听力损失患者教育","topics":["hearing_loss"],"document_type":"government_patient_education","population":"adult_only","note":"面向老年相关听力损失；不能覆盖所有听力下降原因。"},
+    {"id":"nidcd-hoarseness","kind":"nidcd","url":"https://www.nidcd.nih.gov/health/hoarseness","title_zh":"NIH/NIDCD 声嘶患者教育","topics":["throat"],"document_type":"government_patient_education","population":"adult_relevant_general","note":"基础科普；儿童相关段落不进入成人开发索引。"}
+  ],
+  "metadata_only": [
+    {"id":"cn-rhinitis-guideline-2022","title":"中国变应性鼻炎诊断和治疗指南（2022，修订版）","language":"zh","doi":"10.3760/cma.j.cn115330-20211228-00828","source_url":"https://pubmed.ncbi.nlm.nih.gov/35078291/","topics":["rhinitis"],"status":"permission_unverified","note":"仅保存自行整理的题录和来源链接，未下载全文。"},
+    {"id":"cn-crs-guideline-2024","title":"慢性鼻窦炎诊断和治疗指南（2024）","language":"zh","doi":"10.3760/cma.j.cn115330-20250116-00051","source_url":"https://www.sinomed.ac.cn/article.do?ui=2025604071","topics":["sinusitis"],"status":"permission_unverified","note":"标题版本为2024，发表于2025；仅保存题录，未取得全文复用许可。"},
+    {"id":"cn-meniere-translation-2022","title":"鼓室内注射药物治疗梅尼埃病国际专家共识（全译文）","language":"zh","doi":"10.13201/j.issn.2096-7993.2022.07.001","source_url":"https://www.whuhzzs.com/data/article/lceh/preview/pdf/lcebyhtjwkzz-36-7-487.pdf","topics":["hearing_loss","tinnitus"],"status":"translation_license_unverified","note":"只记录题录。原作CC BY不自动等于中文翻译许可；主题为扩展候选。"}
+  ]
+}

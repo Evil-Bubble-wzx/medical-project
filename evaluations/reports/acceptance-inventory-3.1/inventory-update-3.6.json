@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-21",
+  "base_inventory": "inventory.json",
+  "changes": {
+    "F11": "| F11 M2 | 逐论断核验和患者摘要 | 部分完成 | [3.6核验稳定性](核验稳定性与误拒修复交付清单3.6.md)：引用下标清单、有限格式反馈及原话本地核对 | 新输出9项医学语言/范围待审；格式稳定不能替代医学判断 |",
+    "F12": "| F12 M2 | 输入原话、状态和病程确认 | 部分完成 | [3.6输入专项](../evaluations/reports/verification-stability-3.6/input-anchor-outcomes.json)：14答中7例仅记录、2例医学比较、5例无解释 | 未知探针回答，但否认/混合等仍收敛；原话记录不算医学比较 |",
+    "F21": "| F21 M4 | 评测版本绑定与续跑 | 已实现 | [3.6部署重验](../evaluations/reports/verification-stability-3.6/deployment-revalidation.json)：生成版与最终补丁差异明确，归档14答重验 | 最后反馈映射补丁仅离线覆盖，不冒充当前版本重新生成26例 |",
+    "F23": "| F23 M4 | 逐论断审核包与AI开发复核 | 已实现 | [3.6审核材料](../evaluations/reports/verification-stability-3.6/review/医学语言审核材料3.6.md)：旧7项原句/引用/候选；新56项逐项复核 | 全部待医学审签，候选未应用；本执行代理非独立专家 |",
+    "F25": "| F25 M4 | 修复后统一真实质量回归 | 部分完成，质量未通过 | [3.6汇总](../evaluations/reports/verification-stability-3.6/closure-summary.json)：534项离线；归档26例14答/5证据不足/6补信息/1内容拦截 | 最终格式故障0，仍有误拒及9项语言待审；最后部署补丁未重新做整轮生成 |"
+  },
+  "clinical_approval": false,
+  "evidence": "../verification-stability-3.6/closure-summary.json"
+}

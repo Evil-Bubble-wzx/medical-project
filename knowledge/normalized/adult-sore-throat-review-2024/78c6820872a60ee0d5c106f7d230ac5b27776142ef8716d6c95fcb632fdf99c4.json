@@ -1,0 +1,552 @@
+{
+  "paragraphs": [
+    {
+      "text": "Complaints among adults are a reason for seeking healthcare globally [1]. Viral infections account for around 85% of cases, while bacterial, fungal, smoking, intubation, and yelling account for 15% of sore throat causes [2]. Even though sore throat cases are primarily due to viral infections, they are considered one of the most common cases where using antibiotics is prevalent worldwide [3]. Sore throat management depends on using analgesics such as acetaminophen and non-steroidal anti-inflammatory drugs (NSAIDs) [4]. Although these medications have detectable safety profiles, a significant number of preventable adverse drug reactions (ADRs) associated with analgesics are still present [5].",
+      "section": "Introduction and background",
+      "locator": "body/sec[1]/p[1]"
+    },
+    {
+      "text": "Antibiotics could also manage a sore throat caused by bacterial infections such as streptococcal pharyngitis [6]. As it is commonly encountered in primary care, patients in outpatient visits are often treated with antibiotics [7]. Even though antibiotics are beneficial for treating sore throats with bacterial etiology, they present a risk for emerging cross‐resistance in several bacterial respiratory pathogenic bacteria [8]. However, physicians frequently prescribe antibiotics as they consider patients seeking care need this antibiotic course, while, in fact, patients mostly require pain relief [9].",
+      "section": "Introduction and background",
+      "locator": "body/sec[1]/p[2]"
+    },
+    {
+      "text": "Corticosteroids could offer an alternative symptomatic treatment for sore throats. A previous study found they reduce discomfort and duration until symptom improvement in patients with sore throats, especially those with severe exudative pharyngitis [10]. Another systematic review found that corticosteroids effectively relieved pain in acute pharyngitis. Despite the absence of severe adverse effects, the benefits of their use should be balanced with possible adverse drug effects [11].",
+      "section": "Introduction and background",
+      "locator": "body/sec[1]/p[3]"
+    },
+    {
+      "text": "While previous research has investigated the efficacy of corticosteroids across various age groups and populations, a detailed pooled analysis is still needed among adult populations. Therefore, we developed this review to evaluate the efficacy of corticosteroids as an additional treatment approach for infectious sore throat.",
+      "section": "Introduction and background",
+      "locator": "body/sec[1]/p[4]"
+    },
+    {
+      "text": "This systematic review and meta-analysis aim to address whether corticosteroids are effective in adults with sore throats in terms of reducing time to pain relief, achieving complete resolution of symptoms within 24 and 48 hours, and the occurrence of adverse events in comparison to placebo or standard of care for randomized controlled trial (RCT) study. Our findings will contribute to the existing literature and guide researchers and practitioners in advancing the understanding of corticosteroid use in treating pharyngitis.",
+      "section": "Introduction and background",
+      "locator": "body/sec[1]/p[5]"
+    },
+    {
+      "text": "The Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) criteria were followed in the reporting of the study, which was carried out following the Cochrane Handbook for Systematic Reviews and meta-analysis guidelines [12].",
+      "section": "Review",
+      "locator": "body/sec[2]/p[3]"
+    },
+    {
+      "text": "The review included RCTs published in English without time constraints.",
+      "section": "Review",
+      "locator": "body/sec[2]/p[5]"
+    },
+    {
+      "text": "The studies involved adult patients exhibiting signs of tonsillitis, pharyngitis, or sore throat and were conducted in both emergency and primary care environments.",
+      "section": "Review",
+      "locator": "body/sec[2]/p[7]"
+    },
+    {
+      "text": "Comparison between corticosteroids and standard clinical care.",
+      "section": "Review",
+      "locator": "body/sec[2]/p[9]"
+    },
+    {
+      "text": "The excluded studies were (1) studies with no full-access link, (2) study types such as case reports, letters, observational studies, review articles, and systematic review articles, (3) duplicate studies found in multiple databases or sources, (4) studies of subjects who were hospitalized, (5) studies of patients who are having kissing disease, sore throat after surgery or postoperative sore throat, heartburn, or peritonsillar abscess, and (6) studies that included children.",
+      "section": "Review",
+      "locator": "body/sec[2]/p[11]"
+    },
+    {
+      "text": "The search used five databases: Pubmed, Medline, OVID, Cochrane CENTRAL, and Scopus. We conducted our search without applying any filters, covering the period from the inception of the database until July 1, 2024. Key terms for sore throat conditions included “nasopharyngitis, tonsillitis, pharyngitis, nasopharyngi, or Streptococcus.” We targeted studies using steroids, glucocorticoids, hydroxycorticosteroids, hydroxypregnenolone, corticosterone, paramethasone, or betamethasone. We focused on studies designed as randomized trials. The combined search string was `[[[[nasopharyng] OR [Tonsillitis] OR [Pharyngitis] OR [nasopharyngi] OR [Streptococcus]] AND [[steroid] OR [Glucocorticoids] OR [Hydroxycorticosteroid] OR [hydroxypregnenolone] OR [corticosterone] OR [paramethasone] OR [betamethasone]]] AND [[clinical trial] OR [RCT] OR [randomized clinical trial]]]]`(see Table 3 of Appendix A).",
+      "section": "Review",
+      "locator": "body/sec[2]/p[13]"
+    },
+    {
+      "text": "Two independent reviewers performed the online search, screened the titles and abstracts, and examined the full text of relevant articles. Any disagreements were resolved by consensus.",
+      "section": "Review",
+      "locator": "body/sec[2]/p[15]"
+    },
+    {
+      "text": "We collected the following data: authors' name, year, objective, methodology, pathogen positive (%), steroid type, dose and duration, antibiotic use (%), analgesic use (%), and outcomes regarding participants' complete resolution of pain on different time points; average time to initial pain relief; the average time to resolution of pain; overall reduction of pain at 24 hours; duration of non-tolerable symptoms; antibiotics requirement; and number of adverse events caused by treatment.",
+      "section": "Review",
+      "locator": "body/sec[2]/p[17]"
+    },
+    {
+      "text": "Primary outcomes: Mean risk difference of resolution of pain, average time to initial pain relief, average time to overall pain resolution, and overall pain reduction at 24 hours.",
+      "section": "Review",
+      "locator": "body/sec[2]/p[19]"
+    },
+    {
+      "text": "Secondary outcome: Incidence of adverse events caused by the treatment.",
+      "section": "Review",
+      "locator": "body/sec[2]/p[20]"
+    },
+    {
+      "text": "Assessment of the Risk of Bias in the Included Studies",
+      "section": "Review",
+      "locator": "body/sec[2]/p[21]"
+    },
+    {
+      "text": "We evaluated the risk of bias (ROB) utilizing the ROB2 tool for randomized clinical trials (RCTs) [13]. The ROB2 tool includes five domains: randomization, deviations from the assigned treatment, missing data, measurement of the outcome, and selective reporting of the outcomes and results. Then, the overall ROB was addressed by selecting the highest level of ROB from these five domains.",
+      "section": "Review",
+      "locator": "body/sec[2]/p[22]"
+    },
+    {
+      "text": "Meta-analysis was conducted by using the Jamovi Software (version 2.3) [14]. Numerical outcomes were analyzed. The difference was presented using the standardized mean difference (SMD). For dichotomous outcomes, we calculated the risk difference. We assessed and identified significant heterogeneity when the I2 index was 50% or higher. If significant heterogeneity was found, the studies’ findings were pooled using the DerSimonian-Laird random effects model. Statistical significance for comparisons between the two groups was determined using a p-value of less than 0.05. We did not evaluate publication bias because there were fewer than 10 eligible studies.",
+      "section": "Review",
+      "locator": "body/sec[2]/p[24]"
+    },
+    {
+      "text": "Through the systematic literature search, we identified 2415 titles and abstracts, of which 50 were selected for retrieval. Of the 50 studies, 45 were excluded (20 were not randomized trials; 16 had no individuals with a sore throat; in 9 studies, corticosteroids were not mentioned in the studies as an intervention or compared with a placebo/usual care). Figure 1 illustrates the details of the study selection process. Finally, the review included five studies that were eligible and enrolled 866 participants [15-19]. Three studies included patients from emergency departments (ED) and two from primary care [15-19]. All studies enrolled adults. The most prevalent intervention in three studies was a single 10 mg dose of oral dexamethasone for adults. In two studies, all patients were treated with antibiotics and analgesics as part of their standard care [16,18]. In one trial, all patients were given antibiotics, and analgesics were administered based on the physician’s judgment [19]. In two trials, patients in the usual care group were given antibiotics or analgesics based on the physician's judgment [15,17]. Table 1 presents the main characteristics of the included studies.",
+      "section": "Review",
+      "locator": "body/sec[2]/p[26]"
+    },
+    {
+      "text": "In our included studies, one RCT was at high ROB, and one study had some concerns [19]. The other three studies exhibited a low ROB across all domains. Figures were formatted using the Robvis visualization tool [20]. Figures 2, 3 show the summaries of the overall ROB.",
+      "section": "Review",
+      "locator": "body/sec[2]/p[27]"
+    },
+    {
+      "text": "Four RCTs documented full symptom resolution within 24 hours [15,16,17,18]. The estimated average risk difference was 0.2200 (95% CI: 0.0500 to 0.3899, p = 0.0112), which shows that corticosteroids are more effective than placebo in resolving pain at 24 hours. However, according to the Q-test, the true outcomes appear heterogeneous (p = 0.0007, I² = 82.4255%) (Figure 4).",
+      "section": "Review",
+      "locator": "body/sec[2]/p[29]"
+    },
+    {
+      "text": "A total of three trials were selected to be included in the analysis. These studies indicated that pain was completely resolved within 48 hours [15-17]. The estimated average risk difference based on the random effects model was 0.4063 (95% CI: -0.1857 to 0.9984, p = 0.1786). Based on the Q-test, the true outcomes show heterogeneity (p < 0.0001, I² = 98.9219%). The pooled analysis was measured using the DerSimonian-Laird random effects model (Figure 5).",
+      "section": "Review",
+      "locator": "body/sec[2]/p[30]"
+    },
+    {
+      "text": "Four trials reported the average time to initial pain relief (hours), which were included in the analysis. The observed SMDs ranged from -1.4927 to 0.0281, with most estimates being negative (75%). The average SMD estimated was -0.6590 (95% CI: -1.2857 to -0.0323, p = 0.0393). Despite the significant difference, according to the Q-test, the true outcomes appear heterogeneous (p < 0.0001, I² = 89.7914%) (Figure 6).",
+      "section": "Review",
+      "locator": "body/sec[2]/p[31]"
+    },
+    {
+      "text": "A total of three trials were included in the analysis of the mean difference in the average time to complete the resolution of pain between corticosteroids and placebo groups [15,16,19]. The average SMD estimated was -0.5984 (95% CI: -1.5543 to 0.3576, p = 0.2199). Based on the Q-test, the true outcomes show heterogeneity (p < 0.0001, I² = 94.1780%) (Figure 7).",
+      "section": "Review",
+      "locator": "body/sec[2]/p[32]"
+    },
+    {
+      "text": "We included four studies in the analysis to assess the weighted mean difference in overall reduction of pain at 24 hours among corticosteroids and placebo arms [15,17,18,19]. The average SMD estimated using the random effects model was 0.2990 (95% CI: -0.1995 to 0.7974, p = 0.2398). Based on the Q-test, the true outcomes show heterogeneity (p < 0.0001, I² = 87.3284%) (Figure 8).",
+      "section": "Review",
+      "locator": "body/sec[2]/p[33]"
+    },
+    {
+      "text": "Despite the significant findings revealed in some of the reported outcomes of pain, such as complete absence or cessation of pain at 24 and 48 hours and the time to initial pain relief, the results were inconclusive due to the heterogeneity evident by the meta-analysis of the included studies.",
+      "section": "Review",
+      "locator": "body/sec[2]/p[34]"
+    },
+    {
+      "text": "One study's authors reported a possible reduction in antibiotic receipt in patients managed with corticosteroids [15]. In addition, Kiderman A et al. recommended a lower risk of recurrence or relapse of the symptoms [17]. Researchers noted that 55% of individuals managed by corticosteroids and 69% of those given a placebo took a leave of absence from work due to a sore throat, with a relative risk of 0.8.",
+      "section": "Review",
+      "locator": "body/sec[2]/p[36]"
+    },
+    {
+      "text": "Marvez-Valls et al. found that adults managed with corticosteroids missed an average of 0.4 days (SD 1.4). In contrast, those in the placebo group missed about 0.7 days on average (SD 1.4), resulting in a mean difference of -0.3 days [19]. None of the trials included in the study reported the duration of intolerable symptoms.",
+      "section": "Review",
+      "locator": "body/sec[2]/p[37]"
+    },
+    {
+      "text": "Except for one study, all included studies collected data on adverse effects through various methods, such as attendance or telephone contact (one study) and open-ended questions or diaries for self-reported adverse events (three trials). Table 2 outlines the adverse effects evaluated and the methods employed. Three studies found no adverse effects, whereas two reported adverse events in both the corticosteroid and control groups, potentially due to disease-related complications occurring at comparable rates [15-19]. Hayward et al. reported two serious adverse effects (hospitalizations due to ear, nose, and throat conditions) in the corticosteroid group (0.7%) and three such incidents in the placebo group (1.1%).",
+      "section": "Review",
+      "locator": "body/sec[2]/p[38]"
+    },
+    {
+      "text": "This review assessed the effects of corticosteroids on patients with acute sore throats. The results indicated that a single or double low dose of corticosteroids decreases the intensity and duration of pain, pain scores at 24 hours, and the time required for overall pain relief at both 24 and 48 hours. Consistent results were observed across studies for all pain-related outcomes, with the intervention group showing notable improvements in the time to pain alleviation. However, due to significant variability among the studies, the meta-analysis could not provide definitive conclusions for all outcomes.",
+      "section": "Review",
+      "locator": "body/sec[2]/p[40]"
+    },
+    {
+      "text": "Dexamethasone, commonly used in both oral and IM forms, was administered at a single dose of 10 mg in most studies. The exception is Kiderman A et al., 2005, who studied the effect of oral prednisone [17]. This could provide an advantage toward dexamethasone based on its efficacy in both oral and IM forms. The choice of dosage and duration did not indicate significant differences in outcomes, highlighting that both routes are viable based on clinical circumstances.",
+      "section": "Review",
+      "locator": "body/sec[2]/p[41]"
+    },
+    {
+      "text": "The decision to select oral or IM administration of steroids should consider the clinical setting, patient preferences, and the severity of symptoms. IM administration might be preferred in acute settings like the ED for its rapid onset of action, while oral administration could be more convenient in primary care with similar efficacy. The reviewed studies suggest that both routes are effective, and the decision should be customized to each patient's needs.",
+      "section": "Review",
+      "locator": "body/sec[2]/p[42]"
+    },
+    {
+      "text": "Among the included studies, Hayward GN et al. found that the major outcome of the study was the complete alleviation of sore throat infection 24 hours and 48 hours after taking a single oral dose of dexamethasone without administering immediate antibiotics, compared to a placebo [15]. The study found that while there was no significant difference in complete symptom resolution at 24 hours between the dexamethasone and placebo groups, significantly more dexamethasone groups experienced complete resolution at 48 hours than the placebo group. Similarly, other studies conducted on patients undergoing general anesthesia with endotracheal intubation found that administering dexamethasone preventively significantly decreased the frequency and intensity of postoperative sore throat compared to a placebo. In addition, Hansen B found that despite dexamethasone not significantly increasing complete symptom resolution at 24 hours compared to placebo, it resulted in significantly more participants experiencing complete resolution of sore throat symptoms at 48 hours [21,22]. Furthermore, in 2020, a systematic review and meta-analysis were conducted on nine studies involving children and adults suffering from sore throats who were administered oral or intramuscular corticosteroids in addition to antibiotics. The authors concluded that the addition of corticosteroids moderately increased both the resolution and improvement of pain [23].",
+      "section": "Review",
+      "locator": "body/sec[2]/p[43]"
+    },
+    {
+      "text": "Additionally, in 2005, a study found that adjuvant therapy with short-acting oral prednisone was both safe and more effective than placebo for relieving symptoms of acute pharyngitis in adults in general practice settings. Patients who received prednisone experienced quicker relief from throat pain, with no notable rise in bacteriological or clinical recurrences. The authors highlighted the benefits of steroid use in easing acute pharyngitis symptoms despite the minimal risks associated with the therapy [17]. This was consistent with another finding conducted in a systematic review and meta-analysis, which revealed that steroids could help manage acute pharyngitis. Still, there is insufficient evidence to endorse routine use [11].",
+      "section": "Review",
+      "locator": "body/sec[2]/p[44]"
+    },
+    {
+      "text": "According to Marvez-Valls et al., patients receiving betamethasone as an adjunct therapy for acute exudative pharyngitis experienced more frequent and quicker pain relief. The study found a notable reduction in pain scores at both the first (p = 0.006) and second (p = 0.02) follow-up visits among those patients with a positive culture for streptococcus species [19]. Another descriptive study conducted in the United Arab Emirates (UAE) found that dexamethasone was both safe and effective as an adjunct treatment for pain associated with acute β-hemolytic Streptococcal (GABHS) pharyngitis. The study indicated that nearly all patients experienced notable pain relief within 36 to 48 hours, with no reported side effects from dexamethasone [24].",
+      "section": "Review",
+      "locator": "body/sec[2]/p[45]"
+    },
+    {
+      "text": "Furthermore, it was found that single-dose (8 mg) intramuscular dexamethasone therapy added to the standard treatment resulted in faster pain relief in adults with acute exudative pharyngitis who exhibit three or four Centor criteria [16]. This was confirmed by a recent retrospective study among patients who were orally or intramuscularly administered 10 mg of dexamethasone as an adjuvant therapy with conventional treatments. The finding of this study showed that single-dose dexamethasone as an additional therapy with standard care was an effective and safe approach for patients having acute sore throats in primary care clinics [25]. An older study also proved this included in this review, which also revealed that the identification of a bacterial pathogen had a significant impact on the response to dexamethasone [18].",
+      "section": "Review",
+      "locator": "body/sec[2]/p[46]"
+    },
+    {
+      "text": "This review analyzed the efficacy of corticosteroid treatment among adult patients with pharyngitis. However, several limitations were evident regarding the RCTs' findings and study design. For instance, the self-reporting of VAS pain scores and having patients evaluate their pain resulted in a possible recall bias. Additionally, recording the total number of doses and the strength of analgesics taken by patients in each group was challenging. Moreover, many recruited participants dropped out. Missing patients’ cultures and controlling for confounding factors due to analgesic use were among the issues found in the included studies.",
+      "section": "Review",
+      "locator": "body/sec[2]/p[48]"
+    },
+    {
+      "text": "This systematic review and meta-analysis support the use of corticosteroids in the treatment of sore throats in adults by demonstrating faster pain relief and reduced pain intensity in the first 24 hours. However, heterogeneous results among the studies included suggest that these results need to be interpreted with caution. The variability in study design, patient populations, and corticosteroid regimens adds up to the inconclusiveness of the evidence. While corticosteroids could possibly present an alternative to classic analgesia and reduce antibiotic use, the evidence currently cannot support widespread adoption until more high-quality RCTs are conducted. Such future studies should look to address the main methodological limitations brought out in the review through a proper standardization of dosing and patient selection criteria so that clearer clinical practice guidelines would result. The low rate of reported adverse effects also suggests that corticosteroids could be a safe additional treatment, but little is known about their long-term safety in this respect. This review highlights the need for further research to firmly establish corticosteroids' role in sore throat management and the benefit-to-risk balance in such treatments.",
+      "section": "Review",
+      "locator": "body/sec[2]/p[50]"
+    },
+    {
+      "text": "This review assessed the efficacy of corticosteroid treatment among adult patients with pharyngitis. The findings recommend that corticosteroids can reduce the intensity and length of pain associated with acute sore throats among adult patients. Despite these findings, significant heterogeneity among the included studies indicated outcome variability. Furthermore, while some studies reported additional benefits, such as a reduced likelihood of antibiotic use and lower risk of symptom recurrence, the overall evidence remains inconclusive due to methodological limitations. Thus, high-quality RCTs are needed. These trials should address the existing limitations and provide more definitive evidence regarding corticosteroid use and guidelines in treating acute pharyngitis among adult patients. Future research should focus on optimizing study designs and standardizing outcome measures to ensure more reliable and generalizable results. Therefore, more studies on the possible beneficial and adverse events of steroids as adjunctive therapy to antibiotics in pharyngitis are essential.",
+      "section": "Conclusions",
+      "locator": "body/sec[3]/p[1]"
+    }
+  ],
+  "chunks": [
+    {
+      "id": "17a5c7a6dce8f609bc598334",
+      "text": "Complaints among adults are a reason for seeking healthcare globally [1]. Viral infections account for around 85% of cases, while bacterial, fungal, smoking, intubation, and yelling account for 15% of sore throat causes [2]. Even though sore throat cases are primarily due to viral infections, they are considered one of the most common cases where using antibiotics is prevalent worldwide [3]. Sore throat management depends on using analgesics such as acetaminophen and non-steroidal anti-inflammatory drugs (NSAIDs) [4]. Although these medications have detectable safety profiles, a significant number of preventable adverse drug reactions (ADRs) associated with analgesics are still present [5].",
+      "section": "Introduction and background",
+      "locator": "body/sec[1]/p[1]",
+      "start": 0,
+      "end": 699,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "adb68f60edf084c1e590caa7",
+      "text": "Antibiotics could also manage a sore throat caused by bacterial infections such as streptococcal pharyngitis [6]. As it is commonly encountered in primary care, patients in outpatient visits are often treated with antibiotics [7]. Even though antibiotics are beneficial for treating sore throats with bacterial etiology, they present a risk for emerging cross‐resistance in several bacterial respiratory pathogenic bacteria [8]. However, physicians frequently prescribe antibiotics as they consider patients seeking care need this antibiotic course, while, in fact, patients mostly require pain relief [9].",
+      "section": "Introduction and background",
+      "locator": "body/sec[1]/p[2]",
+      "start": 0,
+      "end": 606,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "b584cb5189a19d4d3e6f5293",
+      "text": "Corticosteroids could offer an alternative symptomatic treatment for sore throats. A previous study found they reduce discomfort and duration until symptom improvement in patients with sore throats, especially those with severe exudative pharyngitis [10]. Another systematic review found that corticosteroids effectively relieved pain in acute pharyngitis. Despite the absence of severe adverse effects, the benefits of their use should be balanced with possible adverse drug effects [11].",
+      "section": "Introduction and background",
+      "locator": "body/sec[1]/p[3]",
+      "start": 0,
+      "end": 489,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "79db22c996037bff0351b7f3",
+      "text": "While previous research has investigated the efficacy of corticosteroids across various age groups and populations, a detailed pooled analysis is still needed among adult populations. Therefore, we developed this review to evaluate the efficacy of corticosteroids as an additional treatment approach for infectious sore throat.",
+      "section": "Introduction and background",
+      "locator": "body/sec[1]/p[4]",
+      "start": 0,
+      "end": 327,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "a63ccfbfffa5c860312e84ef",
+      "text": "This systematic review and meta-analysis aim to address whether corticosteroids are effective in adults with sore throats in terms of reducing time to pain relief, achieving complete resolution of symptoms within 24 and 48 hours, and the occurrence of adverse events in comparison to placebo or standard of care for randomized controlled trial (RCT) study. Our findings will contribute to the existing literature and guide researchers and practitioners in advancing the understanding of corticosteroid use in treating pharyngitis.",
+      "section": "Introduction and background",
+      "locator": "body/sec[1]/p[5]",
+      "start": 0,
+      "end": 530,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "357573473b3bfbd6590c45d2",
+      "text": "The Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) criteria were followed in the reporting of the study, which was carried out following the Cochrane Handbook for Systematic Reviews and meta-analysis guidelines [12].",
+      "section": "Review",
+      "locator": "body/sec[2]/p[3]",
+      "start": 0,
+      "end": 245,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "5eaf05b0fec38a1dc55bc20d",
+      "text": "The review included RCTs published in English without time constraints.",
+      "section": "Review",
+      "locator": "body/sec[2]/p[5]",
+      "start": 0,
+      "end": 71,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "10d85922503285e75e5bbccd",
+      "text": "The studies involved adult patients exhibiting signs of tonsillitis, pharyngitis, or sore throat and were conducted in both emergency and primary care environments.",
+      "section": "Review",
+      "locator": "body/sec[2]/p[7]",
+      "start": 0,
+      "end": 164,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "50ca14576ffec7039bcd4788",
+      "text": "Comparison between corticosteroids and standard clinical care.",
+      "section": "Review",
+      "locator": "body/sec[2]/p[9]",
+      "start": 0,
+      "end": 62,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "73ea1d3f8a7869ac98e1d2ba",
+      "text": "The excluded studies were (1) studies with no full-access link, (2) study types such as case reports, letters, observational studies, review articles, and systematic review articles, (3) duplicate studies found in multiple databases or sources, (4) studies of subjects who were hospitalized, (5) studies of patients who are having kissing disease, sore throat after surgery or postoperative sore throat, heartburn, or peritonsillar abscess, and (6) studies that included children.",
+      "section": "Review",
+      "locator": "body/sec[2]/p[11]",
+      "start": 0,
+      "end": 480,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "b768f454ce8699562bbd27b3",
+      "text": "The search used five databases: Pubmed, Medline, OVID, Cochrane CENTRAL, and Scopus. We conducted our search without applying any filters, covering the period from the inception of the database until July 1, 2024. Key terms for sore throat conditions included “nasopharyngitis, tonsillitis, pharyngitis, nasopharyngi, or Streptococcus.” We targeted studies using steroids, glucocorticoids, hydroxycorticosteroids, hydroxypregnenolone, corticosterone, paramethasone, or betamethasone. We focused on studies designed as randomized trials. The combined search string was `[[[[nasopharyng] OR [Tonsillitis] OR [Pharyngitis] OR [nasopharyngi] OR [Streptococcus]] AND [[steroid] OR [Glucocorticoids] OR [Hydroxycorticosteroid] OR [hydroxypregnenolone] OR [corticosterone] OR [paramethasone] OR [betamethasone]]] AND [[clinical trial] OR [RCT] OR [randomized clinical trial]]]]`(see Table 3 of Appendix A).",
+      "section": "Review",
+      "locator": "body/sec[2]/p[13]",
+      "start": 0,
+      "end": 899,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "7c66265b486429816de73f20",
+      "text": "Two independent reviewers performed the online search, screened the titles and abstracts, and examined the full text of relevant articles. Any disagreements were resolved by consensus.",
+      "section": "Review",
+      "locator": "body/sec[2]/p[15]",
+      "start": 0,
+      "end": 184,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "5a261b5758f7afbcd641afce",
+      "text": "We collected the following data: authors' name, year, objective, methodology, pathogen positive (%), steroid type, dose and duration, antibiotic use (%), analgesic use (%), and outcomes regarding participants' complete resolution of pain on different time points; average time to initial pain relief; the average time to resolution of pain; overall reduction of pain at 24 hours; duration of non-tolerable symptoms; antibiotics requirement; and number of adverse events caused by treatment.",
+      "section": "Review",
+      "locator": "body/sec[2]/p[17]",
+      "start": 0,
+      "end": 490,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "c93352782840c5d3829679ae",
+      "text": "Primary outcomes: Mean risk difference of resolution of pain, average time to initial pain relief, average time to overall pain resolution, and overall pain reduction at 24 hours.",
+      "section": "Review",
+      "locator": "body/sec[2]/p[19]",
+      "start": 0,
+      "end": 179,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "07517ba45d3585178b4295e4",
+      "text": "Secondary outcome: Incidence of adverse events caused by the treatment.",
+      "section": "Review",
+      "locator": "body/sec[2]/p[20]",
+      "start": 0,
+      "end": 71,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "4d175a2f82cff0fe6bd126fb",
+      "text": "Assessment of the Risk of Bias in the Included Studies",
+      "section": "Review",
+      "locator": "body/sec[2]/p[21]",
+      "start": 0,
+      "end": 54,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "1e97d90e8aa7141616e03516",
+      "text": "We evaluated the risk of bias (ROB) utilizing the ROB2 tool for randomized clinical trials (RCTs) [13]. The ROB2 tool includes five domains: randomization, deviations from the assigned treatment, missing data, measurement of the outcome, and selective reporting of the outcomes and results. Then, the overall ROB was addressed by selecting the highest level of ROB from these five domains.",
+      "section": "Review",
+      "locator": "body/sec[2]/p[22]",
+      "start": 0,
+      "end": 389,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "890da89133700b88350de30c",
+      "text": "Meta-analysis was conducted by using the Jamovi Software (version 2.3) [14]. Numerical outcomes were analyzed. The difference was presented using the standardized mean difference (SMD). For dichotomous outcomes, we calculated the risk difference. We assessed and identified significant heterogeneity when the I2 index was 50% or higher. If significant heterogeneity was found, the studies’ findings were pooled using the DerSimonian-Laird random effects model. Statistical significance for comparisons between the two groups was determined using a p-value of less than 0.05. We did not evaluate publication bias because there were fewer than 10 eligible studies.",
+      "section": "Review",
+      "locator": "body/sec[2]/p[24]",
+      "start": 0,
+      "end": 662,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "d72c432ce7617ee8dd97b993",
+      "text": "Through the systematic literature search, we identified 2415 titles and abstracts, of which 50 were selected for retrieval. Of the 50 studies, 45 were excluded (20 were not randomized trials; 16 had no individuals with a sore throat; in 9 studies, corticosteroids were not mentioned in the studies as an intervention or compared with a placebo/usual care). Figure 1 illustrates the details of the study selection process. Finally, the review included five studies that were eligible and enrolled 866 participants [15-19]. Three studies included patients from emergency departments (ED) and two from primary care [15-19]. All studies enrolled adults. The most prevalent intervention in three studies was a single 10 mg dose of oral dexamethasone for adults. In two studies, all patients were treated with antibiotics and analgesics as part of their standard care [16,18]. In one trial, all patients were given antibiotics, and analgesics were administered based on the physician’s judgment [19]. In two trials, patients in the usual care group were given antibiotics or analgesics based on the physician's judgment [15,17]. Table 1 presents the main characteristics of the included studies.",
+      "section": "Review",
+      "locator": "body/sec[2]/p[26]",
+      "start": 0,
+      "end": 1189,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "1ce3b516f5f0b9bcd0a9cd53",
+      "text": "In our included studies, one RCT was at high ROB, and one study had some concerns [19]. The other three studies exhibited a low ROB across all domains. Figures were formatted using the Robvis visualization tool [20]. Figures 2, 3 show the summaries of the overall ROB.",
+      "section": "Review",
+      "locator": "body/sec[2]/p[27]",
+      "start": 0,
+      "end": 268,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "88571fd013b090a43fe5d07c",
+      "text": "Four RCTs documented full symptom resolution within 24 hours [15,16,17,18]. The estimated average risk difference was 0.2200 (95% CI: 0.0500 to 0.3899, p = 0.0112), which shows that corticosteroids are more effective than placebo in resolving pain at 24 hours. However, according to the Q-test, the true outcomes appear heterogeneous (p = 0.0007, I² = 82.4255%) (Figure 4).",
+      "section": "Review",
+      "locator": "body/sec[2]/p[29]",
+      "start": 0,
+      "end": 373,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "70d829dee06400664494a087",
+      "text": "A total of three trials were selected to be included in the analysis. These studies indicated that pain was completely resolved within 48 hours [15-17]. The estimated average risk difference based on the random effects model was 0.4063 (95% CI: -0.1857 to 0.9984, p = 0.1786). Based on the Q-test, the true outcomes show heterogeneity (p < 0.0001, I² = 98.9219%). The pooled analysis was measured using the DerSimonian-Laird random effects model (Figure 5).",
+      "section": "Review",
+      "locator": "body/sec[2]/p[30]",
+      "start": 0,
+      "end": 457,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "018aaa508f12d3ec1c8fb924",
+      "text": "Four trials reported the average time to initial pain relief (hours), which were included in the analysis. The observed SMDs ranged from -1.4927 to 0.0281, with most estimates being negative (75%). The average SMD estimated was -0.6590 (95% CI: -1.2857 to -0.0323, p = 0.0393). Despite the significant difference, according to the Q-test, the true outcomes appear heterogeneous (p < 0.0001, I² = 89.7914%) (Figure 6).",
+      "section": "Review",
+      "locator": "body/sec[2]/p[31]",
+      "start": 0,
+      "end": 417,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "5c8991f2e7d558c9b751272d",
+      "text": "A total of three trials were included in the analysis of the mean difference in the average time to complete the resolution of pain between corticosteroids and placebo groups [15,16,19]. The average SMD estimated was -0.5984 (95% CI: -1.5543 to 0.3576, p = 0.2199). Based on the Q-test, the true outcomes show heterogeneity (p < 0.0001, I² = 94.1780%) (Figure 7).",
+      "section": "Review",
+      "locator": "body/sec[2]/p[32]",
+      "start": 0,
+      "end": 363,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "f8aeae003e7b5b79e6315fd4",
+      "text": "We included four studies in the analysis to assess the weighted mean difference in overall reduction of pain at 24 hours among corticosteroids and placebo arms [15,17,18,19]. The average SMD estimated using the random effects model was 0.2990 (95% CI: -0.1995 to 0.7974, p = 0.2398). Based on the Q-test, the true outcomes show heterogeneity (p < 0.0001, I² = 87.3284%) (Figure 8).",
+      "section": "Review",
+      "locator": "body/sec[2]/p[33]",
+      "start": 0,
+      "end": 381,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "040ca9d99335bd54a771fee4",
+      "text": "Despite the significant findings revealed in some of the reported outcomes of pain, such as complete absence or cessation of pain at 24 and 48 hours and the time to initial pain relief, the results were inconclusive due to the heterogeneity evident by the meta-analysis of the included studies.",
+      "section": "Review",
+      "locator": "body/sec[2]/p[34]",
+      "start": 0,
+      "end": 294,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "df2d46bc39f79f8138c249c2",
+      "text": "One study's authors reported a possible reduction in antibiotic receipt in patients managed with corticosteroids [15]. In addition, Kiderman A et al. recommended a lower risk of recurrence or relapse of the symptoms [17]. Researchers noted that 55% of individuals managed by corticosteroids and 69% of those given a placebo took a leave of absence from work due to a sore throat, with a relative risk of 0.8.",
+      "section": "Review",
+      "locator": "body/sec[2]/p[36]",
+      "start": 0,
+      "end": 408,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "687c7f575473704e1571c1ce",
+      "text": "Marvez-Valls et al. found that adults managed with corticosteroids missed an average of 0.4 days (SD 1.4). In contrast, those in the placebo group missed about 0.7 days on average (SD 1.4), resulting in a mean difference of -0.3 days [19]. None of the trials included in the study reported the duration of intolerable symptoms.",
+      "section": "Review",
+      "locator": "body/sec[2]/p[37]",
+      "start": 0,
+      "end": 327,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "ba0fafc5976e9d7c44916f7a",
+      "text": "Except for one study, all included studies collected data on adverse effects through various methods, such as attendance or telephone contact (one study) and open-ended questions or diaries for self-reported adverse events (three trials). Table 2 outlines the adverse effects evaluated and the methods employed. Three studies found no adverse effects, whereas two reported adverse events in both the corticosteroid and control groups, potentially due to disease-related complications occurring at comparable rates [15-19]. Hayward et al. reported two serious adverse effects (hospitalizations due to ear, nose, and throat conditions) in the corticosteroid group (0.7%) and three such incidents in the placebo group (1.1%).",
+      "section": "Review",
+      "locator": "body/sec[2]/p[38]",
+      "start": 0,
+      "end": 722,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "64a6ada42d2be7b920451fac",
+      "text": "This review assessed the effects of corticosteroids on patients with acute sore throats. The results indicated that a single or double low dose of corticosteroids decreases the intensity and duration of pain, pain scores at 24 hours, and the time required for overall pain relief at both 24 and 48 hours. Consistent results were observed across studies for all pain-related outcomes, with the intervention group showing notable improvements in the time to pain alleviation. However, due to significant variability among the studies, the meta-analysis could not provide definitive conclusions for all outcomes.",
+      "section": "Review",
+      "locator": "body/sec[2]/p[40]",
+      "start": 0,
+      "end": 609,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "3e59f782c90df980c3212b48",
+      "text": "Dexamethasone, commonly used in both oral and IM forms, was administered at a single dose of 10 mg in most studies. The exception is Kiderman A et al., 2005, who studied the effect of oral prednisone [17]. This could provide an advantage toward dexamethasone based on its efficacy in both oral and IM forms. The choice of dosage and duration did not indicate significant differences in outcomes, highlighting that both routes are viable based on clinical circumstances.",
+      "section": "Review",
+      "locator": "body/sec[2]/p[41]",
+      "start": 0,
+      "end": 469,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "9fc5371fd95fcd6122c0c1af",
+      "text": "The decision to select oral or IM administration of steroids should consider the clinical setting, patient preferences, and the severity of symptoms. IM administration might be preferred in acute settings like the ED for its rapid onset of action, while oral administration could be more convenient in primary care with similar efficacy. The reviewed studies suggest that both routes are effective, and the decision should be customized to each patient's needs.",
+      "section": "Review",
+      "locator": "body/sec[2]/p[42]",
+      "start": 0,
+      "end": 461,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "4a4ae6e89db55667511ea107",
+      "text": "Among the included studies, Hayward GN et al. found that the major outcome of the study was the complete alleviation of sore throat infection 24 hours and 48 hours after taking a single oral dose of dexamethasone without administering immediate antibiotics, compared to a placebo [15]. The study found that while there was no significant difference in complete symptom resolution at 24 hours between the dexamethasone and placebo groups, significantly more dexamethasone groups experienced complete resolution at 48 hours than the placebo group. Similarly, other studies conducted on patients undergoing general anesthesia with endotracheal intubation found that administering dexamethasone preventively significantly decreased the frequency and intensity of postoperative sore throat compared to a placebo. In addition, Hansen B found that despite dexamethasone not significantly increasing complete symptom resolution at 24 hours compared to placebo, it resulted in significantly more participants experiencing complete resolution of sore throat symptoms at 48 hours [21,22]. Furthermore, in 2020, a systematic review and meta-analysis were conducted on nine studies involving children and adults suffering from sore throats who were administered oral or intramuscular corticosteroids in addition to antibiotics. The authors concluded that the addition of corticosteroids moderately increased both the resolution and improvement of pain [23].",
+      "section": "Review",
+      "locator": "body/sec[2]/p[43]",
+      "start": 0,
+      "end": 1444,
+      "population_status": "requires_screening"
+    },
+    {
+      "id": "3b4d8d87f18a64f5a23e53bf",
+      "text": "Additionally, in 2005, a study found that adjuvant therapy with short-acting oral prednisone was both safe and more effective than placebo for relieving symptoms of acute pharyngitis in adults in general practice settings. Patients who received prednisone experienced quicker relief from throat pain, with no notable rise in bacteriological or clinical recurrences. The authors highlighted the benefits of steroid use in easing acute pharyngitis symptoms despite the minimal risks associated with the therapy [17]. This was consistent with another finding conducted in a systematic review and meta-analysis, which revealed that steroids could help manage acute pharyngitis. Still, there is insufficient evidence to endorse routine use [11].",
+      "section": "Review",
+      "locator": "body/sec[2]/p[44]",
+      "start": 0,
+      "end": 740,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "ed3917dcd778dd18b1e94c17",
+      "text": "According to Marvez-Valls et al., patients receiving betamethasone as an adjunct therapy for acute exudative pharyngitis experienced more frequent and quicker pain relief. The study found a notable reduction in pain scores at both the first (p = 0.006) and second (p = 0.02) follow-up visits among those patients with a positive culture for streptococcus species [19]. Another descriptive study conducted in the United Arab Emirates (UAE) found that dexamethasone was both safe and effective as an adjunct treatment for pain associated with acute β-hemolytic Streptococcal (GABHS) pharyngitis. The study indicated that nearly all patients experienced notable pain relief within 36 to 48 hours, with no reported side effects from dexamethasone [24].",
+      "section": "Review",
+      "locator": "body/sec[2]/p[45]",
+      "start": 0,
+      "end": 748,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "e9809704990a8f1b158cc5d1",
+      "text": "Furthermore, it was found that single-dose (8 mg) intramuscular dexamethasone therapy added to the standard treatment resulted in faster pain relief in adults with acute exudative pharyngitis who exhibit three or four Centor criteria [16]. This was confirmed by a recent retrospective study among patients who were orally or intramuscularly administered 10 mg of dexamethasone as an adjuvant therapy with conventional treatments. The finding of this study showed that single-dose dexamethasone as an additional therapy with standard care was an effective and safe approach for patients having acute sore throats in primary care clinics [25]. An older study also proved this included in this review, which also revealed that the identification of a bacterial pathogen had a significant impact on the response to dexamethasone [18].",
+      "section": "Review",
+      "locator": "body/sec[2]/p[46]",
+      "start": 0,
+      "end": 830,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "f3ca4eb6640a0134de90d134",
+      "text": "This review analyzed the efficacy of corticosteroid treatment among adult patients with pharyngitis. However, several limitations were evident regarding the RCTs' findings and study design. For instance, the self-reporting of VAS pain scores and having patients evaluate their pain resulted in a possible recall bias. Additionally, recording the total number of doses and the strength of analgesics taken by patients in each group was challenging. Moreover, many recruited participants dropped out. Missing patients’ cultures and controlling for confounding factors due to analgesic use were among the issues found in the included studies.",
+      "section": "Review",
+      "locator": "body/sec[2]/p[48]",
+      "start": 0,
+      "end": 639,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "ca476486ac8dbf0a962312e0",
+      "text": "This systematic review and meta-analysis support the use of corticosteroids in the treatment of sore throats in adults by demonstrating faster pain relief and reduced pain intensity in the first 24 hours. However, heterogeneous results among the studies included suggest that these results need to be interpreted with caution. The variability in study design, patient populations, and corticosteroid regimens adds up to the inconclusiveness of the evidence. While corticosteroids could possibly present an alternative to classic analgesia and reduce antibiotic use, the evidence currently cannot support widespread adoption until more high-quality RCTs are conducted. Such future studies should look to address the main methodological limitations brought out in the review through a proper standardization of dosing and patient selection criteria so that clearer clinical practice guidelines would result. The low rate of reported adverse effects also suggests that corticosteroids could be a safe additional treatment, but little is known about their long-term safety in this respect. This review highlights the need for further research to firmly establish corticosteroids' role in sore throat management and the benefit-to-risk balance in such treatments.",
+      "section": "Review",
+      "locator": "body/sec[2]/p[50]",
+      "start": 0,
+      "end": 1258,
+      "population_status": "adult_dev_candidate"
+    },
+    {
+      "id": "013d604eb785b8698cec9d1b",
+      "text": "This review assessed the efficacy of corticosteroid treatment among adult patients with pharyngitis. The findings recommend that corticosteroids can reduce the intensity and length of pain associated with acute sore throats among adult patients. Despite these findings, significant heterogeneity among the included studies indicated outcome variability. Furthermore, while some studies reported additional benefits, such as a reduced likelihood of antibiotic use and lower risk of symptom recurrence, the overall evidence remains inconclusive due to methodological limitations. Thus, high-quality RCTs are needed. These trials should address the existing limitations and provide more definitive evidence regarding corticosteroid use and guidelines in treating acute pharyngitis among adult patients. Future research should focus on optimizing study designs and standardizing outcome measures to ensure more reliable and generalizable results. Therefore, more studies on the possible beneficial and adverse events of steroids as adjunctive therapy to antibiotics in pharyngitis are essential.",
+      "section": "Conclusions",
+      "locator": "body/sec[3]/p[1]",
+      "start": 0,
+      "end": 1091,
+      "population_status": "adult_dev_candidate"
+    }
+  ]
+}

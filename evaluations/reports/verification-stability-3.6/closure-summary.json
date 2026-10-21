@@ -1,0 +1,66 @@
+{
+  "batch": "3.6",
+  "workflow_cases": 26,
+  "case_status_counts": {
+    "answered": 14,
+    "insufficient_evidence": 5,
+    "needs_information": 6,
+    "validation_failed": 1
+  },
+  "validation_error_counts": {
+    "source_relation_shift": 1
+  },
+  "strict_saved_answer_replays": 14,
+  "previous_raw_status_counts": {
+    "answered": 12,
+    "insufficient_evidence": 7,
+    "needs_information": 6,
+    "validation_failed": 1
+  },
+  "quality_accepted": false,
+  "clinical_approval": false,
+  "human_review": "pending",
+  "provider_request_total": null,
+  "independent_test_set": false,
+  "hashes": {
+    "dataset": "f6a62bc8ca64d4fba0e7c6ec4acbd99bdedce465fe0f79c27c59e546e40fda41",
+    "results": "837119905861252aeb2d45f8b5c23cbb7dc3b3e3a4f304b971230d7093c018fb",
+    "manifest": "bb21a53f7bc476cc9ffb1295f1453132efe099abeb1bb46c099e6c452200a274",
+    "previous_results": "72e3515b03a2fb07ec738cfeddfe6e46f579cc14d5492b998f1e971b8fe48d20"
+  },
+  "offline": {
+    "tests": 534,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "scope_boundaries": 8,
+  "semantic_withholds": 3,
+  "generation_deployment_difference": [
+    "backend/app/retrieval/verification.py"
+  ],
+  "current_version_fresh_26_generation": false,
+  "model_iterations": [
+    {
+      "directory": "live",
+      "counts": {
+        "answered": 14,
+        "insufficient_evidence": 5,
+        "needs_information": 6,
+        "validation_failed": 1
+      },
+      "results_sha256": "837119905861252aeb2d45f8b5c23cbb7dc3b3e3a4f304b971230d7093c018fb",
+      "manifest_sha256": "bb21a53f7bc476cc9ffb1295f1453132efe099abeb1bb46c099e6c452200a274"
+    }
+  ],
+  "output_review": {
+    "report": "audit/model-output-review.json",
+    "sha256": "11c25f3b77a3c693bcaa6434c356a8baaa3b55a76374e4dadf7e0eb287190d5e",
+    "display_items": 56,
+    "medical_prose_items": 49,
+    "needs_review": 9,
+    "supported_with_limits": 40,
+    "input_record_exact": 7,
+    "medical_approval": false
+  }
+}

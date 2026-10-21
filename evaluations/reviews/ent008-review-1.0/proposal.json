@@ -1,0 +1,52 @@
+{
+  "case_id": "ENT-008",
+  "question": "医生说慢性鼻窦炎还要分有鼻息肉和没有鼻息肉，这种分类有资料依据吗？",
+  "status": "proposed_pending_human_review",
+  "reviewer": null,
+  "decision": null,
+  "clinical_approval": false,
+  "original_anchor": {
+    "end": 363,
+    "id": "192dbbb60545314f4246473b",
+    "locator": "body/sec[1]/p[1]",
+    "population_status": "adult_dev_candidate",
+    "section": "1. Introduction",
+    "start": 0,
+    "text": "Chronic rhinosinusitis (CRS) is a common often debilitating condition, with a global prevalence of symptomatic disease ranging from 5.5% to 28% [1, 2]. Two broad CRS phenotypes exist, characterized on the basis of the presence or absence of nasal polyps [1, 2]. Patients with chronic rhinosinusitis with nasal polyps (CRSwNP) account for up to 20% of all CRS [3].",
+    "chunk_id": "192dbbb60545314f4246473b",
+    "version_id": "e068d0bb-2d00-4a54-bd0c-ee791a53309c",
+    "document_id": "crs-apac-2024",
+    "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+    "title": "Management of chronic rhinosinusitis with nasal polyps in the Asia-Pacific region and Russia: Recommendations from an expert working group",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11142757/",
+    "topics": [
+      "sinusitis"
+    ],
+    "clinical_review": "pending",
+    "production_eligible": false
+  },
+  "original_anchor_ranks": {
+    "key": "e068d0bb-2d00-4a54-bd0c-ee791a53309c:192dbbb60545314f4246473b",
+    "document_id": "crs-apac-2024",
+    "locator": "body/sec[1]/p[1]",
+    "original_rank": 9,
+    "rerank_rank": 14,
+    "rerank_score": -2.304395914077759
+  },
+  "proposed_evidence": {
+    "version_id": "e068d0bb-2d00-4a54-bd0c-ee791a53309c",
+    "chunk_id": "8073961684788d1508e1d026",
+    "document_id": "crs-apac-2024",
+    "locator": "body/sec[3]/p[2]",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11142757/"
+  },
+  "proposed_text": "The cardinal symptoms of CRS are similar to acute disease, that is, nasal obstruction, congestion or discharge, facial pain/pressure, and olfactory disturbance/loss of smell [1, 2, 11, 12]. Overt facial pain with CRSwNP is uncommon in the Asian patients, where headache (or complaints of pressure or fullness) or nasal obstruction may be more common presenting symptoms. While allergic symptoms (eg, sneezing or itching) are not part of existing diagnostic criteria, their presence may indicate an additional diagnosis of allergic rhinitis. In EPOS 2020, the diagnosis of CRS requires rhinosinusitis lasting for ≥12 weeks (without interruption, as patients may experience recurrent episodes of acute rhinosinusitis) [1, 2]. This assumes that any acute rhinosinusitis has been managed appropriately (ie, with nasal irrigation and INS). Diagnosis of CRSwNP requires the presence of bilateral, endoscopically visualized polyps in the middle meatus [1, 2]. While a minimum duration of 12 weeks reflects a useful policy for chronic disease diagnosis from a symptomatic perspective, this need not be considered absolute. For example, if evidence of more chronic and significant disease already exists (eg, objective findings of nasal polyps on endoscopic examination), then an earlier presumptive diagnosis of CRSwNP would seem appropriate. As discussed later, what is perhaps most important is the need for timely referral for specialist evaluation at the earliest opportunity. Where polyps are absent, patients are considered to have chronic rhinosinusitis without nasal polyps (CRSsNP). When endoscopy or CT shows only unilateral disease, then alternative diagnoses (especially neoplasia) must be considered [1, 2].",
+  "source_statement": "Where polyps are absent, patients are considered to have chronic rhinosinusitis without nasal polyps (CRSsNP).",
+  "source_statement_start": 1473,
+  "observation": "同来源段落有直接涉及无鼻息肉分类的文字；是否足以支持整题仍待人工审核",
+  "review_questions": [
+    "原问题要求的分类信息是否被充分覆盖？",
+    "原锚点与候选应作为替代证据，还是需要联合引用？",
+    "是否应只标注分类句并避免混入同段其他诊疗建议？"
+  ]
+}

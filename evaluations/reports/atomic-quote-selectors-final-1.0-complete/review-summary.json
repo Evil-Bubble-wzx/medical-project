@@ -1,0 +1,36 @@
+{
+  "attempted_case_ids": [
+    "GEN-ENT-002",
+    "GEN-ENT-009",
+    "GEN-ENT-015",
+    "GEN-ENT-025",
+    "GEN-ENT-036",
+    "GEN-ENT-043",
+    "GEN-ENT-044",
+    "GEN-ENT-045",
+    "GEN-ENT-047",
+    "GEN-ENT-048",
+    "GEN-ENT-049",
+    "GEN-ENT-030"
+  ],
+  "workflow_responses": 11,
+  "status_counts": {
+    "validation_failed": 3,
+    "answered": 3,
+    "insufficient_evidence": 5
+  },
+  "transport_failures": [
+    {
+      "case_id": "GEN-ENT-030",
+      "error": "generation_run_failed",
+      "http_status": 503,
+      "diagnostic_code": "provider_connect_failed"
+    }
+  ],
+  "judged_claims": 18,
+  "rejected_claims": 0,
+  "displayed_claims": 18,
+  "max_displayed_quote_characters": 241,
+  "clinical_approval": false,
+  "semantic_accuracy": null
+}

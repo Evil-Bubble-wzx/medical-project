@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "synthetic_fixture_only": true,
+  "checks": [
+    "synthetic_fixture_only",
+    "incomplete_submission_rejected",
+    "draft_survives_reload",
+    "unsaved_changes_cancel_navigation",
+    "source_submission_saved",
+    "history_and_untrusted_text_render_safely",
+    "evidence_case_requires_explicit_no_missing_evidence",
+    "cleared_confirmation_is_not_reaccepted",
+    "boundary_form_has_distinct_submission_fields",
+    "conflict_keeps_local_form",
+    "explicit_reload_reads_latest_record",
+    "download_excludes_drafts_and_never_grants_approval",
+    "mobile_layout_no_horizontal_overflow",
+    "no_browser_javascript_errors"
+  ],
+  "console_errors": []
+}

@@ -1,0 +1,891 @@
+{
+  "status": "counterfactual_not_approved",
+  "baseline": {
+    "status": "counterfactual_unapproved",
+    "label_approval": false,
+    "new_inference_run": false,
+    "modes": {
+      "hybrid": {
+        "anchor_cases": 42,
+        "hit_count_at_10": 19,
+        "mrr_at_10": 0.21834845049130763,
+        "cases": [
+          {
+            "case_id": "ENT-001",
+            "hit_at_10": 1,
+            "rr_at_10": 0.2
+          },
+          {
+            "case_id": "ENT-002",
+            "hit_at_10": 0,
+            "rr_at_10": 0
+          },
+          {
+            "case_id": "ENT-003",
+            "hit_at_10": 1,
+            "rr_at_10": 0.1
+          },
+          {
+            "case_id": "ENT-004",
+            "hit_at_10": 0,
+            "rr_at_10": 0
+          },
+          {
+            "case_id": "ENT-005",
+            "hit_at_10": 0,
+            "rr_at_10": 0
+          },
+          {
+            "case_id": "ENT-006",
+            "hit_at_10": 1,
+            "rr_at_10": 0.3333333333333333
+          },
+          {
+            "case_id": "ENT-007",
+            "hit_at_10": 0,
+            "rr_at_10": 0
+          },
+          {
+            "case_id": "ENT-008",
+            "hit_at_10": 1,
+            "rr_at_10": 0.1111111111111111
+          },
+          {
+            "case_id": "ENT-009",
+            "hit_at_10": 1,
+            "rr_at_10": 1.0
+          },
+          {
+            "case_id": "ENT-010",
+            "hit_at_10": 1,
+            "rr_at_10": 1.0
+          },
+          {
+            "case_id": "ENT-011",
+            "hit_at_10": 1,
+            "rr_at_10": 0.5
+          },
+          {
+            "case_id": "ENT-012",
+            "hit_at_10": 1,
+            "rr_at_10": 0.16666666666666666
+          },
+          {
+            "case_id": "ENT-013",
+            "hit_at_10": 1,
+            "rr_at_10": 0.14285714285714285
+          },
+          {
+            "case_id": "ENT-014",
+            "hit_at_10": 1,
+            "rr_at_10": 1.0
+          },
+          {
+            "case_id": "ENT-015",
+            "hit_at_10": 0,
+            "rr_at_10": 0
+          },
+          {
+            "case_id": "ENT-016",
+            "hit_at_10": 0,
+            "rr_at_10": 0
+          },
+          {
+            "case_id": "ENT-017",
+            "hit_at_10": 0,
+            "rr_at_10": 0
+          },
+          {
+            "case_id": "ENT-018",
+            "hit_at_10": 0,
+            "rr_at_10": 0
+          },
+          {
+            "case_id": "ENT-019",
+            "hit_at_10": 0,
+            "rr_at_10": 0
+          },
+          {
+            "case_id": "ENT-020",
+            "hit_at_10": 1,
+            "rr_at_10": 1.0
+          },
+          {
+            "case_id": "ENT-021",
+            "hit_at_10": 0,
+            "rr_at_10": 0
+          },
+          {
+            "case_id": "ENT-022",
+            "hit_at_10": 0,
+            "rr_at_10": 0
+          },
+          {
+            "case_id": "ENT-023",
+            "hit_at_10": 0,
+            "rr_at_10": 0
+          },
+          {
+            "case_id": "ENT-024",
+            "hit_at_10": 1,
+            "rr_at_10": 0.5
+          },
+          {
+            "case_id": "ENT-025",
+            "hit_at_10": 1,
+            "rr_at_10": 0.16666666666666666
+          },
+          {
+            "case_id": "ENT-026",
+            "hit_at_10": 0,
+            "rr_at_10": 0
+          },
+          {
+            "case_id": "ENT-027",
+            "hit_at_10": 1,
+            "rr_at_10": 0.2
+          },
+          {
+            "case_id": "ENT-028",
+            "hit_at_10": 1,
+            "rr_at_10": 1.0
+          },
+          {
+            "case_id": "ENT-029",
+            "hit_at_10": 0,
+            "rr_at_10": 0
+          },
+          {
+            "case_id": "ENT-030",
+            "hit_at_10": 0,
+            "rr_at_10": 0
+          },
+          {
+            "case_id": "ENT-031",
+            "hit_at_10": 0,
+            "rr_at_10": 0
+          },
+          {
+            "case_id": "ENT-032",
+            "hit_at_10": 0,
+            "rr_at_10": 0
+          },
+          {
+            "case_id": "ENT-033",
+            "hit_at_10": 0,
+            "rr_at_10": 0
+          },
+          {
+            "case_id": "ENT-034",
+            "hit_at_10": 1,
+            "rr_at_10": 1.0
+          },
+          {
+            "case_id": "ENT-035",
+            "hit_at_10": 0,
+            "rr_at_10": 0
+          },
+          {
+            "case_id": "ENT-036",
+            "hit_at_10": 0,
+            "rr_at_10": 0
+          },
+          {
+            "case_id": "ENT-037",
+            "hit_at_10": 1,
+            "rr_at_10": 0.16666666666666666
+          },
+          {
+            "case_id": "ENT-038",
+            "hit_at_10": 0,
+            "rr_at_10": 0
+          },
+          {
+            "case_id": "ENT-039",
+            "hit_at_10": 0,
+            "rr_at_10": 0
+          },
+          {
+            "case_id": "ENT-040",
+            "hit_at_10": 1,
+            "rr_at_10": 0.3333333333333333
+          },
+          {
+            "case_id": "ENT-041",
+            "hit_at_10": 0,
+            "rr_at_10": 0
+          },
+          {
+            "case_id": "ENT-042",
+            "hit_at_10": 1,
+            "rr_at_10": 0.25
+          }
+        ]
+      },
+      "hybrid_reranked": {
+        "anchor_cases": 42,
+        "hit_count_at_10": 28,
+        "mrr_at_10": 0.4988095238095238,
+        "cases": [
+          {
+            "case_id": "ENT-001",
+            "hit_at_10": 1,
+            "rr_at_10": 0.25
+          },
+          {
+            "case_id": "ENT-002",
+            "hit_at_10": 1,
+            "rr_at_10": 1.0
+          },
+          {
+            "case_id": "ENT-003",
+            "hit_at_10": 1,
+            "rr_at_10": 1.0
+          },
+          {
+            "case_id": "ENT-004",
+            "hit_at_10": 0,
+            "rr_at_10": 0
+          },
+          {
+            "case_id": "ENT-005",
+            "hit_at_10": 1,
+            "rr_at_10": 0.16666666666666666
+          },
+          {
+            "case_id": "ENT-006",
+            "hit_at_10": 1,
+            "rr_at_10": 0.25
+          },
+          {
+            "case_id": "ENT-007",
+            "hit_at_10": 0,
+            "rr_at_10": 0
+          },
+          {
+            "case_id": "ENT-008",
+            "hit_at_10": 0,
+            "rr_at_10": 0
+          },
+          {
+            "case_id": "ENT-009",
+            "hit_at_10": 1,
+            "rr_at_10": 1.0
+          },
+          {
+            "case_id": "ENT-010",
+            "hit_at_10": 1,
+            "rr_at_10": 1.0
+          },
+          {
+            "case_id": "ENT-011",
+            "hit_at_10": 1,
+            "rr_at_10": 1.0
+          },
+          {
+            "case_id": "ENT-012",
+            "hit_at_10": 1,
+            "rr_at_10": 1.0
+          },
+          {
+            "case_id": "ENT-013",
+            "hit_at_10": 1,
+            "rr_at_10": 1.0
+          },
+          {
+            "case_id": "ENT-014",
+            "hit_at_10": 1,
+            "rr_at_10": 1.0
+          },
+          {
+            "case_id": "ENT-015",
+            "hit_at_10": 1,
+            "rr_at_10": 0.5
+          },
+          {
+            "case_id": "ENT-016",
+            "hit_at_10": 0,
+            "rr_at_10": 0
+          },
+          {
+            "case_id": "ENT-017",
+            "hit_at_10": 1,
+            "rr_at_10": 0.2
+          },
+          {
+            "case_id": "ENT-018",
+            "hit_at_10": 0,
+            "rr_at_10": 0
+          },
+          {
+            "case_id": "ENT-019",
+            "hit_at_10": 1,
+            "rr_at_10": 1.0
+          },
+          {
+            "case_id": "ENT-020",
+            "hit_at_10": 1,
+            "rr_at_10": 1.0
+          },
+          {
+            "case_id": "ENT-021",
+            "hit_at_10": 1,
+            "rr_at_10": 1.0
+          },
+          {
+            "case_id": "ENT-022",
+            "hit_at_10": 1,
+            "rr_at_10": 1.0
+          },
+          {
+            "case_id": "ENT-023",
+            "hit_at_10": 1,
+            "rr_at_10": 1.0
+          },
+          {
+            "case_id": "ENT-024",
+            "hit_at_10": 1,
+            "rr_at_10": 0.5
+          },
+          {
+            "case_id": "ENT-025",
+            "hit_at_10": 1,
+            "rr_at_10": 0.5
+          },
+          {
+            "case_id": "ENT-026",
+            "hit_at_10": 1,
+            "rr_at_10": 1.0
+          },
+          {
+            "case_id": "ENT-027",
+            "hit_at_10": 1,
+            "rr_at_10": 0.5
+          },
+          {
+            "case_id": "ENT-028",
+            "hit_at_10": 1,
+            "rr_at_10": 0.3333333333333333
+          },
+          {
+            "case_id": "ENT-029",
+            "hit_at_10": 0,
+            "rr_at_10": 0
+          },
+          {
+            "case_id": "ENT-030",
+            "hit_at_10": 0,
+            "rr_at_10": 0
+          },
+          {
+            "case_id": "ENT-031",
+            "hit_at_10": 1,
+            "rr_at_10": 1.0
+          },
+          {
+            "case_id": "ENT-032",
+            "hit_at_10": 0,
+            "rr_at_10": 0
+          },
+          {
+            "case_id": "ENT-033",
+            "hit_at_10": 0,
+            "rr_at_10": 0
+          },
+          {
+            "case_id": "ENT-034",
+            "hit_at_10": 1,
+            "rr_at_10": 1.0
+          },
+          {
+            "case_id": "ENT-035",
+            "hit_at_10": 0,
+            "rr_at_10": 0
+          },
+          {
+            "case_id": "ENT-036",
+            "hit_at_10": 0,
+            "rr_at_10": 0
+          },
+          {
+            "case_id": "ENT-037",
+            "hit_at_10": 1,
+            "rr_at_10": 1.0
+          },
+          {
+            "case_id": "ENT-038",
+            "hit_at_10": 0,
+            "rr_at_10": 0
+          },
+          {
+            "case_id": "ENT-039",
+            "hit_at_10": 0,
+            "rr_at_10": 0
+          },
+          {
+            "case_id": "ENT-040",
+            "hit_at_10": 1,
+            "rr_at_10": 0.25
+          },
+          {
+            "case_id": "ENT-041",
+            "hit_at_10": 0,
+            "rr_at_10": 0
+          },
+          {
+            "case_id": "ENT-042",
+            "hit_at_10": 1,
+            "rr_at_10": 0.5
+          }
+        ]
+      }
+    }
+  },
+  "if_proposal_accepted": {
+    "status": "counterfactual_unapproved",
+    "label_approval": false,
+    "new_inference_run": false,
+    "modes": {
+      "hybrid": {
+        "anchor_cases": 42,
+        "hit_count_at_10": 19,
+        "mrr_at_10": 0.2395124716553288,
+        "cases": [
+          {
+            "case_id": "ENT-001",
+            "hit_at_10": 1,
+            "rr_at_10": 0.2
+          },
+          {
+            "case_id": "ENT-002",
+            "hit_at_10": 0,
+            "rr_at_10": 0
+          },
+          {
+            "case_id": "ENT-003",
+            "hit_at_10": 1,
+            "rr_at_10": 0.1
+          },
+          {
+            "case_id": "ENT-004",
+            "hit_at_10": 0,
+            "rr_at_10": 0
+          },
+          {
+            "case_id": "ENT-005",
+            "hit_at_10": 0,
+            "rr_at_10": 0
+          },
+          {
+            "case_id": "ENT-006",
+            "hit_at_10": 1,
+            "rr_at_10": 0.3333333333333333
+          },
+          {
+            "case_id": "ENT-007",
+            "hit_at_10": 0,
+            "rr_at_10": 0
+          },
+          {
+            "case_id": "ENT-008",
+            "hit_at_10": 1,
+            "rr_at_10": 1.0
+          },
+          {
+            "case_id": "ENT-009",
+            "hit_at_10": 1,
+            "rr_at_10": 1.0
+          },
+          {
+            "case_id": "ENT-010",
+            "hit_at_10": 1,
+            "rr_at_10": 1.0
+          },
+          {
+            "case_id": "ENT-011",
+            "hit_at_10": 1,
+            "rr_at_10": 0.5
+          },
+          {
+            "case_id": "ENT-012",
+            "hit_at_10": 1,
+            "rr_at_10": 0.16666666666666666
+          },
+          {
+            "case_id": "ENT-013",
+            "hit_at_10": 1,
+            "rr_at_10": 0.14285714285714285
+          },
+          {
+            "case_id": "ENT-014",
+            "hit_at_10": 1,
+            "rr_at_10": 1.0
+          },
+          {
+            "case_id": "ENT-015",
+            "hit_at_10": 0,
+            "rr_at_10": 0
+          },
+          {
+            "case_id": "ENT-016",
+            "hit_at_10": 0,
+            "rr_at_10": 0
+          },
+          {
+            "case_id": "ENT-017",
+            "hit_at_10": 0,
+            "rr_at_10": 0
+          },
+          {
+            "case_id": "ENT-018",
+            "hit_at_10": 0,
+            "rr_at_10": 0
+          },
+          {
+            "case_id": "ENT-019",
+            "hit_at_10": 0,
+            "rr_at_10": 0
+          },
+          {
+            "case_id": "ENT-020",
+            "hit_at_10": 1,
+            "rr_at_10": 1.0
+          },
+          {
+            "case_id": "ENT-021",
+            "hit_at_10": 0,
+            "rr_at_10": 0
+          },
+          {
+            "case_id": "ENT-022",
+            "hit_at_10": 0,
+            "rr_at_10": 0
+          },
+          {
+            "case_id": "ENT-023",
+            "hit_at_10": 0,
+            "rr_at_10": 0
+          },
+          {
+            "case_id": "ENT-024",
+            "hit_at_10": 1,
+            "rr_at_10": 0.5
+          },
+          {
+            "case_id": "ENT-025",
+            "hit_at_10": 1,
+            "rr_at_10": 0.16666666666666666
+          },
+          {
+            "case_id": "ENT-026",
+            "hit_at_10": 0,
+            "rr_at_10": 0
+          },
+          {
+            "case_id": "ENT-027",
+            "hit_at_10": 1,
+            "rr_at_10": 0.2
+          },
+          {
+            "case_id": "ENT-028",
+            "hit_at_10": 1,
+            "rr_at_10": 1.0
+          },
+          {
+            "case_id": "ENT-029",
+            "hit_at_10": 0,
+            "rr_at_10": 0
+          },
+          {
+            "case_id": "ENT-030",
+            "hit_at_10": 0,
+            "rr_at_10": 0
+          },
+          {
+            "case_id": "ENT-031",
+            "hit_at_10": 0,
+            "rr_at_10": 0
+          },
+          {
+            "case_id": "ENT-032",
+            "hit_at_10": 0,
+            "rr_at_10": 0
+          },
+          {
+            "case_id": "ENT-033",
+            "hit_at_10": 0,
+            "rr_at_10": 0
+          },
+          {
+            "case_id": "ENT-034",
+            "hit_at_10": 1,
+            "rr_at_10": 1.0
+          },
+          {
+            "case_id": "ENT-035",
+            "hit_at_10": 0,
+            "rr_at_10": 0
+          },
+          {
+            "case_id": "ENT-036",
+            "hit_at_10": 0,
+            "rr_at_10": 0
+          },
+          {
+            "case_id": "ENT-037",
+            "hit_at_10": 1,
+            "rr_at_10": 0.16666666666666666
+          },
+          {
+            "case_id": "ENT-038",
+            "hit_at_10": 0,
+            "rr_at_10": 0
+          },
+          {
+            "case_id": "ENT-039",
+            "hit_at_10": 0,
+            "rr_at_10": 0
+          },
+          {
+            "case_id": "ENT-040",
+            "hit_at_10": 1,
+            "rr_at_10": 0.3333333333333333
+          },
+          {
+            "case_id": "ENT-041",
+            "hit_at_10": 0,
+            "rr_at_10": 0
+          },
+          {
+            "case_id": "ENT-042",
+            "hit_at_10": 1,
+            "rr_at_10": 0.25
+          }
+        ]
+      },
+      "hybrid_reranked": {
+        "anchor_cases": 42,
+        "hit_count_at_10": 29,
+        "mrr_at_10": 0.5107142857142857,
+        "cases": [
+          {
+            "case_id": "ENT-001",
+            "hit_at_10": 1,
+            "rr_at_10": 0.25
+          },
+          {
+            "case_id": "ENT-002",
+            "hit_at_10": 1,
+            "rr_at_10": 1.0
+          },
+          {
+            "case_id": "ENT-003",
+            "hit_at_10": 1,
+            "rr_at_10": 1.0
+          },
+          {
+            "case_id": "ENT-004",
+            "hit_at_10": 0,
+            "rr_at_10": 0
+          },
+          {
+            "case_id": "ENT-005",
+            "hit_at_10": 1,
+            "rr_at_10": 0.16666666666666666
+          },
+          {
+            "case_id": "ENT-006",
+            "hit_at_10": 1,
+            "rr_at_10": 0.25
+          },
+          {
+            "case_id": "ENT-007",
+            "hit_at_10": 0,
+            "rr_at_10": 0
+          },
+          {
+            "case_id": "ENT-008",
+            "hit_at_10": 1,
+            "rr_at_10": 0.5
+          },
+          {
+            "case_id": "ENT-009",
+            "hit_at_10": 1,
+            "rr_at_10": 1.0
+          },
+          {
+            "case_id": "ENT-010",
+            "hit_at_10": 1,
+            "rr_at_10": 1.0
+          },
+          {
+            "case_id": "ENT-011",
+            "hit_at_10": 1,
+            "rr_at_10": 1.0
+          },
+          {
+            "case_id": "ENT-012",
+            "hit_at_10": 1,
+            "rr_at_10": 1.0
+          },
+          {
+            "case_id": "ENT-013",
+            "hit_at_10": 1,
+            "rr_at_10": 1.0
+          },
+          {
+            "case_id": "ENT-014",
+            "hit_at_10": 1,
+            "rr_at_10": 1.0
+          },
+          {
+            "case_id": "ENT-015",
+            "hit_at_10": 1,
+            "rr_at_10": 0.5
+          },
+          {
+            "case_id": "ENT-016",
+            "hit_at_10": 0,
+            "rr_at_10": 0
+          },
+          {
+            "case_id": "ENT-017",
+            "hit_at_10": 1,
+            "rr_at_10": 0.2
+          },
+          {
+            "case_id": "ENT-018",
+            "hit_at_10": 0,
+            "rr_at_10": 0
+          },
+          {
+            "case_id": "ENT-019",
+            "hit_at_10": 1,
+            "rr_at_10": 1.0
+          },
+          {
+            "case_id": "ENT-020",
+            "hit_at_10": 1,
+            "rr_at_10": 1.0
+          },
+          {
+            "case_id": "ENT-021",
+            "hit_at_10": 1,
+            "rr_at_10": 1.0
+          },
+          {
+            "case_id": "ENT-022",
+            "hit_at_10": 1,
+            "rr_at_10": 1.0
+          },
+          {
+            "case_id": "ENT-023",
+            "hit_at_10": 1,
+            "rr_at_10": 1.0
+          },
+          {
+            "case_id": "ENT-024",
+            "hit_at_10": 1,
+            "rr_at_10": 0.5
+          },
+          {
+            "case_id": "ENT-025",
+            "hit_at_10": 1,
+            "rr_at_10": 0.5
+          },
+          {
+            "case_id": "ENT-026",
+            "hit_at_10": 1,
+            "rr_at_10": 1.0
+          },
+          {
+            "case_id": "ENT-027",
+            "hit_at_10": 1,
+            "rr_at_10": 0.5
+          },
+          {
+            "case_id": "ENT-028",
+            "hit_at_10": 1,
+            "rr_at_10": 0.3333333333333333
+          },
+          {
+            "case_id": "ENT-029",
+            "hit_at_10": 0,
+            "rr_at_10": 0
+          },
+          {
+            "case_id": "ENT-030",
+            "hit_at_10": 0,
+            "rr_at_10": 0
+          },
+          {
+            "case_id": "ENT-031",
+            "hit_at_10": 1,
+            "rr_at_10": 1.0
+          },
+          {
+            "case_id": "ENT-032",
+            "hit_at_10": 0,
+            "rr_at_10": 0
+          },
+          {
+            "case_id": "ENT-033",
+            "hit_at_10": 0,
+            "rr_at_10": 0
+          },
+          {
+            "case_id": "ENT-034",
+            "hit_at_10": 1,
+            "rr_at_10": 1.0
+          },
+          {
+            "case_id": "ENT-035",
+            "hit_at_10": 0,
+            "rr_at_10": 0
+          },
+          {
+            "case_id": "ENT-036",
+            "hit_at_10": 0,
+            "rr_at_10": 0
+          },
+          {
+            "case_id": "ENT-037",
+            "hit_at_10": 1,
+            "rr_at_10": 1.0
+          },
+          {
+            "case_id": "ENT-038",
+            "hit_at_10": 0,
+            "rr_at_10": 0
+          },
+          {
+            "case_id": "ENT-039",
+            "hit_at_10": 0,
+            "rr_at_10": 0
+          },
+          {
+            "case_id": "ENT-040",
+            "hit_at_10": 1,
+            "rr_at_10": 0.25
+          },
+          {
+            "case_id": "ENT-041",
+            "hit_at_10": 0,
+            "rr_at_10": 0
+          },
+          {
+            "case_id": "ENT-042",
+            "hit_at_10": 1,
+            "rr_at_10": 0.5
+          }
+        ]
+      }
+    }
+  },
+  "protected_dataset_sha256": "f6a3cf8b95a3dfed040321264114ba8c32e6304df15c4102281a9f5868a847ad",
+  "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+  "reranker_summary_sha256": "c5def6ab238b3b978a63bb71dcd933d4069cd07f028233bf87e01b93a4e39204",
+  "ranking_changes_sha256": "dc2ddbf3065ba99df3058c4c9697d73c73017359be45b70bd742fba8303a6654",
+  "script_sha256": "94bf3219c8f42b5896a635588d556e2a3abafd707b385e611e127aa0ce4978ba",
+  "note": "Both strategies use the same hypothetical labels; not a replacement score report"
+}

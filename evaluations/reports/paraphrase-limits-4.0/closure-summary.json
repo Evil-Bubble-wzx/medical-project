@@ -1,0 +1,499 @@
+{
+  "results_sha256": "edafca2b6a367d900891105d0f013170267c185c735387e428ed474e5ce0483f",
+  "first_results_sha256": "34016f2e6f30f35a7e875eb77063375bfdbedf21fd95ddc1f7703382465f544c",
+  "first_summary_sha256": "d86061abe56144aa261e2aef35c67c98c872bd6f92116ed46e72c23f17d5dbb9",
+  "generation_deployment_manifest_matches": true,
+  "offline": {
+    "name": "pytest",
+    "errors": "0",
+    "failures": "0",
+    "skipped": "0",
+    "tests": "586",
+    "time": "45.224",
+    "timestamp": "2026-10-21T17:01:15.018631+08:00",
+    "hostname": "DESKTOP-T469ISO"
+  },
+  "strict_answer_replays": 14,
+  "status_counts": {
+    "answered": 14,
+    "insufficient_evidence": 6,
+    "needs_information": 6
+  },
+  "transitions": [
+    {
+      "case_id": "GEN-ENT-002",
+      "previous_status": "answered",
+      "first_run_status": "answered",
+      "current_status": "answered",
+      "error": null,
+      "quality_diagnostic": null
+    },
+    {
+      "case_id": "GEN-ENT-009",
+      "previous_status": "answered",
+      "first_run_status": "validation_failed",
+      "current_status": "answered",
+      "error": null,
+      "quality_diagnostic": null
+    },
+    {
+      "case_id": "GEN-ENT-015",
+      "previous_status": "answered",
+      "first_run_status": "answered",
+      "current_status": "answered",
+      "error": null,
+      "quality_diagnostic": null
+    },
+    {
+      "case_id": "GEN-ENT-025",
+      "previous_status": "answered",
+      "first_run_status": "answered",
+      "current_status": "answered",
+      "error": null,
+      "quality_diagnostic": null
+    },
+    {
+      "case_id": "GEN-ENT-030",
+      "previous_status": "answered",
+      "first_run_status": "answered",
+      "current_status": "answered",
+      "error": null,
+      "quality_diagnostic": null
+    },
+    {
+      "case_id": "GEN-ENT-036",
+      "previous_status": "answered",
+      "first_run_status": "answered",
+      "current_status": "answered",
+      "error": null,
+      "quality_diagnostic": null
+    },
+    {
+      "case_id": "GEN-ENT-043",
+      "previous_status": "insufficient_evidence",
+      "first_run_status": "insufficient_evidence",
+      "current_status": "insufficient_evidence",
+      "error": null,
+      "quality_diagnostic": null
+    },
+    {
+      "case_id": "GEN-ENT-044",
+      "previous_status": "insufficient_evidence",
+      "first_run_status": "insufficient_evidence",
+      "current_status": "insufficient_evidence",
+      "error": null,
+      "quality_diagnostic": null
+    },
+    {
+      "case_id": "GEN-ENT-045",
+      "previous_status": "needs_information",
+      "first_run_status": "needs_information",
+      "current_status": "needs_information",
+      "error": null,
+      "quality_diagnostic": null
+    },
+    {
+      "case_id": "GEN-ENT-047",
+      "previous_status": "needs_information",
+      "first_run_status": "needs_information",
+      "current_status": "needs_information",
+      "error": null,
+      "quality_diagnostic": null
+    },
+    {
+      "case_id": "GEN-ENT-048",
+      "previous_status": "needs_information",
+      "first_run_status": "needs_information",
+      "current_status": "needs_information",
+      "error": null,
+      "quality_diagnostic": null
+    },
+    {
+      "case_id": "GEN-ENT-049",
+      "previous_status": "needs_information",
+      "first_run_status": "needs_information",
+      "current_status": "needs_information",
+      "error": null,
+      "quality_diagnostic": null
+    },
+    {
+      "case_id": "GEN-ENT-002-CONTEXT",
+      "previous_status": "answered",
+      "first_run_status": "answered",
+      "current_status": "answered",
+      "error": null,
+      "quality_diagnostic": null
+    },
+    {
+      "case_id": "GEN-ENT-009-CONTEXT",
+      "previous_status": "answered",
+      "first_run_status": "answered",
+      "current_status": "answered",
+      "error": null,
+      "quality_diagnostic": null
+    },
+    {
+      "case_id": "GEN-ENT-015-CONTEXT",
+      "previous_status": "answered",
+      "first_run_status": "answered",
+      "current_status": "answered",
+      "error": null,
+      "quality_diagnostic": null
+    },
+    {
+      "case_id": "GEN-ENT-025-CONTEXT",
+      "previous_status": "answered",
+      "first_run_status": "answered",
+      "current_status": "answered",
+      "error": null,
+      "quality_diagnostic": null
+    },
+    {
+      "case_id": "GEN-ENT-030-CONTEXT",
+      "previous_status": "answered",
+      "first_run_status": "answered",
+      "current_status": "answered",
+      "error": null,
+      "quality_diagnostic": null
+    },
+    {
+      "case_id": "GEN-ENT-036-CONTEXT",
+      "previous_status": "answered",
+      "first_run_status": "validation_failed",
+      "current_status": "answered",
+      "error": null,
+      "quality_diagnostic": null
+    },
+    {
+      "case_id": "ANCHOR-NOISE-001",
+      "previous_status": "answered",
+      "first_run_status": "answered",
+      "current_status": "answered",
+      "error": null,
+      "quality_diagnostic": null
+    },
+    {
+      "case_id": "ANCHOR-TINNITUS-002",
+      "previous_status": "insufficient_evidence",
+      "first_run_status": "insufficient_evidence",
+      "current_status": "insufficient_evidence",
+      "error": null,
+      "quality_diagnostic": null
+    },
+    {
+      "case_id": "ANCHOR-VOICE-003",
+      "previous_status": "answered",
+      "first_run_status": "validation_failed",
+      "current_status": "insufficient_evidence",
+      "error": null,
+      "quality_diagnostic": null
+    },
+    {
+      "case_id": "BATCH-CONFLICT-UNKNOWN",
+      "previous_status": "needs_information",
+      "first_run_status": "needs_information",
+      "current_status": "needs_information",
+      "error": null,
+      "quality_diagnostic": null
+    },
+    {
+      "case_id": "BATCH-CONFLICT-TIME",
+      "previous_status": "needs_information",
+      "first_run_status": "needs_information",
+      "current_status": "needs_information",
+      "error": null,
+      "quality_diagnostic": null
+    },
+    {
+      "case_id": "BATCH-STATE-DENIED",
+      "previous_status": "insufficient_evidence",
+      "first_run_status": "insufficient_evidence",
+      "current_status": "insufficient_evidence",
+      "error": null,
+      "quality_diagnostic": null
+    },
+    {
+      "case_id": "BATCH-STATE-UNKNOWN",
+      "previous_status": "answered",
+      "first_run_status": "insufficient_evidence",
+      "current_status": "answered",
+      "error": null,
+      "quality_diagnostic": null
+    },
+    {
+      "case_id": "BATCH-STATE-MIXED",
+      "previous_status": "insufficient_evidence",
+      "first_run_status": "answered",
+      "current_status": "insufficient_evidence",
+      "error": null,
+      "quality_diagnostic": null
+    }
+  ],
+  "format_audits": [
+    {
+      "case_id": "GEN-ENT-002",
+      "stage": "core_verification",
+      "format_attempts": 1,
+      "format_errors": [],
+      "withhold_causes": []
+    },
+    {
+      "case_id": "GEN-ENT-002",
+      "stage": "verification",
+      "format_attempts": 1,
+      "format_errors": [],
+      "withhold_causes": []
+    },
+    {
+      "case_id": "GEN-ENT-009",
+      "stage": "core_verification",
+      "format_attempts": 1,
+      "format_errors": [],
+      "withhold_causes": []
+    },
+    {
+      "case_id": "GEN-ENT-009",
+      "stage": "verification",
+      "format_attempts": 1,
+      "format_errors": [],
+      "withhold_causes": []
+    },
+    {
+      "case_id": "GEN-ENT-015",
+      "stage": "core_verification",
+      "format_attempts": 1,
+      "format_errors": [],
+      "withhold_causes": []
+    },
+    {
+      "case_id": "GEN-ENT-015",
+      "stage": "verification",
+      "format_attempts": 1,
+      "format_errors": [],
+      "withhold_causes": []
+    },
+    {
+      "case_id": "GEN-ENT-025",
+      "stage": "core_verification",
+      "format_attempts": 1,
+      "format_errors": [],
+      "withhold_causes": []
+    },
+    {
+      "case_id": "GEN-ENT-025",
+      "stage": "verification",
+      "format_attempts": 1,
+      "format_errors": [],
+      "withhold_causes": []
+    },
+    {
+      "case_id": "GEN-ENT-030",
+      "stage": "core_verification",
+      "format_attempts": 1,
+      "format_errors": [],
+      "withhold_causes": []
+    },
+    {
+      "case_id": "GEN-ENT-030",
+      "stage": "verification",
+      "format_attempts": 1,
+      "format_errors": [],
+      "withhold_causes": []
+    },
+    {
+      "case_id": "GEN-ENT-036",
+      "stage": "core_verification",
+      "format_attempts": 1,
+      "format_errors": [],
+      "withhold_causes": []
+    },
+    {
+      "case_id": "GEN-ENT-036",
+      "stage": "verification",
+      "format_attempts": 1,
+      "format_errors": [],
+      "withhold_causes": []
+    },
+    {
+      "case_id": "GEN-ENT-002-CONTEXT",
+      "stage": "core_verification",
+      "format_attempts": 1,
+      "format_errors": [],
+      "withhold_causes": []
+    },
+    {
+      "case_id": "GEN-ENT-002-CONTEXT",
+      "stage": "verification",
+      "format_attempts": 1,
+      "format_errors": [],
+      "withhold_causes": []
+    },
+    {
+      "case_id": "GEN-ENT-009-CONTEXT",
+      "stage": "core_verification",
+      "format_attempts": 1,
+      "format_errors": [],
+      "withhold_causes": []
+    },
+    {
+      "case_id": "GEN-ENT-009-CONTEXT",
+      "stage": "verification",
+      "format_attempts": 1,
+      "format_errors": [],
+      "withhold_causes": []
+    },
+    {
+      "case_id": "GEN-ENT-015-CONTEXT",
+      "stage": "core_verification",
+      "format_attempts": 1,
+      "format_errors": [],
+      "withhold_causes": []
+    },
+    {
+      "case_id": "GEN-ENT-015-CONTEXT",
+      "stage": "verification",
+      "format_attempts": 1,
+      "format_errors": [],
+      "withhold_causes": []
+    },
+    {
+      "case_id": "GEN-ENT-025-CONTEXT",
+      "stage": "core_verification",
+      "format_attempts": 1,
+      "format_errors": [],
+      "withhold_causes": []
+    },
+    {
+      "case_id": "GEN-ENT-025-CONTEXT",
+      "stage": "verification",
+      "format_attempts": 1,
+      "format_errors": [],
+      "withhold_causes": []
+    },
+    {
+      "case_id": "GEN-ENT-030-CONTEXT",
+      "stage": "core_verification",
+      "format_attempts": 1,
+      "format_errors": [],
+      "withhold_causes": []
+    },
+    {
+      "case_id": "GEN-ENT-030-CONTEXT",
+      "stage": "verification",
+      "format_attempts": 1,
+      "format_errors": [],
+      "withhold_causes": []
+    },
+    {
+      "case_id": "GEN-ENT-036-CONTEXT",
+      "stage": "core_verification",
+      "format_attempts": 1,
+      "format_errors": [],
+      "withhold_causes": []
+    },
+    {
+      "case_id": "GEN-ENT-036-CONTEXT",
+      "stage": "verification",
+      "format_attempts": 1,
+      "format_errors": [],
+      "withhold_causes": []
+    },
+    {
+      "case_id": "ANCHOR-NOISE-001",
+      "stage": "core_verification",
+      "format_attempts": 1,
+      "format_errors": [],
+      "withhold_causes": []
+    },
+    {
+      "case_id": "ANCHOR-NOISE-001",
+      "stage": "verification",
+      "format_attempts": 1,
+      "format_errors": [],
+      "withhold_causes": []
+    },
+    {
+      "case_id": "ANCHOR-TINNITUS-002",
+      "stage": "core_verification",
+      "format_attempts": 1,
+      "format_errors": [],
+      "withhold_causes": [
+        "question_not_addressed"
+      ]
+    },
+    {
+      "case_id": "ANCHOR-TINNITUS-002",
+      "stage": "verification",
+      "format_attempts": 2,
+      "format_errors": [
+        "invalid_verification_schema"
+      ],
+      "withhold_causes": []
+    },
+    {
+      "case_id": "ANCHOR-VOICE-003",
+      "stage": "core_verification",
+      "format_attempts": 1,
+      "format_errors": [],
+      "withhold_causes": [
+        "question_not_addressed"
+      ]
+    },
+    {
+      "case_id": "ANCHOR-VOICE-003",
+      "stage": "verification",
+      "format_attempts": 1,
+      "format_errors": [],
+      "withhold_causes": []
+    },
+    {
+      "case_id": "BATCH-STATE-DENIED",
+      "stage": "core_verification",
+      "format_attempts": 1,
+      "format_errors": [],
+      "withhold_causes": [
+        "question_not_addressed"
+      ]
+    },
+    {
+      "case_id": "BATCH-STATE-DENIED",
+      "stage": "verification",
+      "format_attempts": 1,
+      "format_errors": [],
+      "withhold_causes": []
+    },
+    {
+      "case_id": "BATCH-STATE-UNKNOWN",
+      "stage": "core_verification",
+      "format_attempts": 1,
+      "format_errors": [],
+      "withhold_causes": []
+    },
+    {
+      "case_id": "BATCH-STATE-UNKNOWN",
+      "stage": "verification",
+      "format_attempts": 1,
+      "format_errors": [],
+      "withhold_causes": []
+    },
+    {
+      "case_id": "BATCH-STATE-MIXED",
+      "stage": "core_verification",
+      "format_attempts": 1,
+      "format_errors": [],
+      "withhold_causes": [
+        "question_not_addressed"
+      ]
+    },
+    {
+      "case_id": "BATCH-STATE-MIXED",
+      "stage": "verification",
+      "format_attempts": 1,
+      "format_errors": [],
+      "withhold_causes": []
+    }
+  ],
+  "old_review_items_withheld": 11,
+  "candidate_changes_applied": false,
+  "clinical_approval": false
+}

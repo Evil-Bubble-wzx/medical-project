@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "synthetic_fixture_only": true,
+  "checks": [
+    "consultation_requires_saved_snapshot",
+    "consultation_requires_explicit_provider_consent",
+    "unsaved_patient_input_not_sent_to_generator",
+    "lost_response_retry_does_not_call_generator_twice",
+    "saved_answer_and_citations_render_with_snapshot",
+    "saving_patient_does_not_silently_discard_question",
+    "history_keeps_original_input_after_patient_update",
+    "patient_and_authorized_doctor_read_identical_saved_result",
+    "cross_patient_consultation_history_denied",
+    "revocation_blocks_history_and_clears_saved_answer_display",
+    "mobile_layout_and_no_script_errors",
+    "logout_clears_question_answer_and_history"
+  ],
+  "errors": [],
+  "model_calls": 1
+}

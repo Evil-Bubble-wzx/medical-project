@@ -1,0 +1,325 @@
+{
+  "scope": "draft development retrieval benchmark; not clinical validation",
+  "dataset_sha256": "f6a3cf8b95a3dfed040321264114ba8c32e6304df15c4102281a9f5868a847ad",
+  "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+  "code_sha256": "b8841f63922a5be99e75abdcbf18bda95b6e963be2fb87dc058cc486a08130dc",
+  "created_at": "2026-10-19T05:32:07.567359+00:00",
+  "python": "3.13.14",
+  "mode_states": {
+    "keyword": "completed",
+    "vector": "completed",
+    "hybrid": "completed"
+  },
+  "modes": {
+    "keyword": {
+      "cases": 50,
+      "anchor_cases": 42,
+      "boundary_cases": 8,
+      "metrics": {
+        "known_anchor_hit_at_5": 0.23809523809523808,
+        "known_anchor_hit_at_10": 0.2857142857142857,
+        "known_anchor_rr": 0.1244047619047619,
+        "known_anchor_ndcg_at_10": 0.16323689285436205,
+        "source_document_hit_at_10": 0.6666666666666666
+      },
+      "mean_retrieval_only_ms": 97.52346799825318,
+      "by_topic": {
+        "boundary": {
+          "cases": 8,
+          "anchor_cases": 0,
+          "boundary_cases": 8,
+          "metrics": {},
+          "mean_retrieval_only_ms": 91.34482498484431
+        },
+        "hearing_loss": {
+          "cases": 7,
+          "anchor_cases": 7,
+          "boundary_cases": 0,
+          "metrics": {
+            "known_anchor_hit_at_5": 0.0,
+            "known_anchor_hit_at_10": 0.14285714285714285,
+            "known_anchor_rr": 0.023809523809523808,
+            "known_anchor_ndcg_at_10": 0.05088674101543174,
+            "source_document_hit_at_10": 0.8571428571428571
+          },
+          "mean_retrieval_only_ms": 107.88148570905572
+        },
+        "otitis_media": {
+          "cases": 7,
+          "anchor_cases": 7,
+          "boundary_cases": 0,
+          "metrics": {
+            "known_anchor_hit_at_5": 0.14285714285714285,
+            "known_anchor_hit_at_10": 0.2857142857142857,
+            "known_anchor_rr": 0.08928571428571429,
+            "known_anchor_ndcg_at_10": 0.13519923290816946,
+            "source_document_hit_at_10": 1.0
+          },
+          "mean_retrieval_only_ms": 98.63174285939229
+        },
+        "rhinitis": {
+          "cases": 7,
+          "anchor_cases": 7,
+          "boundary_cases": 0,
+          "metrics": {
+            "known_anchor_hit_at_5": 0.14285714285714285,
+            "known_anchor_hit_at_10": 0.14285714285714285,
+            "known_anchor_rr": 0.14285714285714285,
+            "known_anchor_ndcg_at_10": 0.14285714285714285,
+            "source_document_hit_at_10": 0.7142857142857143
+          },
+          "mean_retrieval_only_ms": 94.09602857028533
+        },
+        "sinusitis": {
+          "cases": 7,
+          "anchor_cases": 7,
+          "boundary_cases": 0,
+          "metrics": {
+            "known_anchor_hit_at_5": 0.7142857142857143,
+            "known_anchor_hit_at_10": 0.7142857142857143,
+            "known_anchor_rr": 0.2761904761904762,
+            "known_anchor_ndcg_at_10": 0.38007977452908925,
+            "source_document_hit_at_10": 1.0
+          },
+          "mean_retrieval_only_ms": 93.85079999421058
+        },
+        "throat": {
+          "cases": 7,
+          "anchor_cases": 7,
+          "boundary_cases": 0,
+          "metrics": {
+            "known_anchor_hit_at_5": 0.2857142857142857,
+            "known_anchor_hit_at_10": 0.2857142857142857,
+            "known_anchor_rr": 0.14285714285714285,
+            "known_anchor_ndcg_at_10": 0.1802656438775593,
+            "source_document_hit_at_10": 0.2857142857142857
+          },
+          "mean_retrieval_only_ms": 94.5350285785805
+        },
+        "tinnitus": {
+          "cases": 7,
+          "anchor_cases": 7,
+          "boundary_cases": 0,
+          "metrics": {
+            "known_anchor_hit_at_5": 0.14285714285714285,
+            "known_anchor_hit_at_10": 0.14285714285714285,
+            "known_anchor_rr": 0.07142857142857142,
+            "known_anchor_ndcg_at_10": 0.09013282193877965,
+            "source_document_hit_at_10": 0.14285714285714285
+          },
+          "mean_retrieval_only_ms": 103.20702857903338
+        }
+      }
+    },
+    "vector": {
+      "cases": 50,
+      "anchor_cases": 42,
+      "boundary_cases": 8,
+      "metrics": {
+        "known_anchor_hit_at_5": 0.23809523809523808,
+        "known_anchor_hit_at_10": 0.35714285714285715,
+        "known_anchor_rr": 0.19087301587301586,
+        "known_anchor_ndcg_at_10": 0.22859123130779177,
+        "source_document_hit_at_10": 0.7619047619047619
+      },
+      "mean_retrieval_only_ms": 120.03158999839798,
+      "by_topic": {
+        "boundary": {
+          "cases": 8,
+          "anchor_cases": 0,
+          "boundary_cases": 8,
+          "metrics": {},
+          "mean_retrieval_only_ms": 122.81412500306033
+        },
+        "hearing_loss": {
+          "cases": 7,
+          "anchor_cases": 7,
+          "boundary_cases": 0,
+          "metrics": {
+            "known_anchor_hit_at_5": 0.5714285714285714,
+            "known_anchor_hit_at_10": 0.7142857142857143,
+            "known_anchor_rr": 0.44642857142857145,
+            "known_anchor_ndcg_at_10": 0.5110463405612349,
+            "source_document_hit_at_10": 1.0
+          },
+          "mean_retrieval_only_ms": 118.1533857348508
+        },
+        "otitis_media": {
+          "cases": 7,
+          "anchor_cases": 7,
+          "boundary_cases": 0,
+          "metrics": {
+            "known_anchor_hit_at_5": 0.14285714285714285,
+            "known_anchor_hit_at_10": 0.14285714285714285,
+            "known_anchor_rr": 0.028571428571428574,
+            "known_anchor_ndcg_at_10": 0.05526468674779166,
+            "source_document_hit_at_10": 1.0
+          },
+          "mean_retrieval_only_ms": 120.03991427731567
+        },
+        "rhinitis": {
+          "cases": 7,
+          "anchor_cases": 7,
+          "boundary_cases": 0,
+          "metrics": {
+            "known_anchor_hit_at_5": 0.0,
+            "known_anchor_hit_at_10": 0.2857142857142857,
+            "known_anchor_rr": 0.028571428571428574,
+            "known_anchor_ndcg_at_10": 0.08258995037653939,
+            "source_document_hit_at_10": 1.0
+          },
+          "mean_retrieval_only_ms": 119.74132855954979
+        },
+        "sinusitis": {
+          "cases": 7,
+          "anchor_cases": 7,
+          "boundary_cases": 0,
+          "metrics": {
+            "known_anchor_hit_at_5": 0.7142857142857143,
+            "known_anchor_hit_at_10": 0.8571428571428571,
+            "known_anchor_rr": 0.6178571428571429,
+            "known_anchor_ndcg_at_10": 0.6717596691457529,
+            "source_document_hit_at_10": 1.0
+          },
+          "mean_retrieval_only_ms": 120.87549998458209
+        },
+        "throat": {
+          "cases": 7,
+          "anchor_cases": 7,
+          "boundary_cases": 0,
+          "metrics": {
+            "known_anchor_hit_at_5": 0.0,
+            "known_anchor_hit_at_10": 0.14285714285714285,
+            "known_anchor_rr": 0.023809523809523808,
+            "known_anchor_ndcg_at_10": 0.05088674101543174,
+            "source_document_hit_at_10": 0.5714285714285714
+          },
+          "mean_retrieval_only_ms": 119.35085714295772
+        },
+        "tinnitus": {
+          "cases": 7,
+          "anchor_cases": 7,
+          "boundary_cases": 0,
+          "metrics": {
+            "known_anchor_hit_at_5": 0.0,
+            "known_anchor_hit_at_10": 0.0,
+            "known_anchor_rr": 0.0,
+            "known_anchor_ndcg_at_10": 0.0,
+            "source_document_hit_at_10": 0.0
+          },
+          "mean_retrieval_only_ms": 118.84851428580338
+        }
+      }
+    },
+    "hybrid": {
+      "cases": 50,
+      "anchor_cases": 42,
+      "boundary_cases": 8,
+      "metrics": {
+        "known_anchor_hit_at_5": 0.30952380952380953,
+        "known_anchor_hit_at_10": 0.4523809523809524,
+        "known_anchor_rr": 0.21834845049130763,
+        "known_anchor_ndcg_at_10": 0.27281646181725383,
+        "source_document_hit_at_10": 0.8333333333333334
+      },
+      "mean_retrieval_only_ms": 128.43085600063205,
+      "by_topic": {
+        "boundary": {
+          "cases": 8,
+          "anchor_cases": 0,
+          "boundary_cases": 8,
+          "metrics": {},
+          "mean_retrieval_only_ms": 123.57187498855637
+        },
+        "hearing_loss": {
+          "cases": 7,
+          "anchor_cases": 7,
+          "boundary_cases": 0,
+          "metrics": {
+            "known_anchor_hit_at_5": 0.42857142857142855,
+            "known_anchor_hit_at_10": 0.5714285714285714,
+            "known_anchor_rr": 0.26666666666666666,
+            "known_anchor_ndcg_at_10": 0.3391413925591459,
+            "source_document_hit_at_10": 1.0
+          },
+          "mean_retrieval_only_ms": 135.5798142862373
+        },
+        "otitis_media": {
+          "cases": 7,
+          "anchor_cases": 7,
+          "boundary_cases": 0,
+          "metrics": {
+            "known_anchor_hit_at_5": 0.14285714285714285,
+            "known_anchor_hit_at_10": 0.14285714285714285,
+            "known_anchor_rr": 0.14285714285714285,
+            "known_anchor_ndcg_at_10": 0.14285714285714285,
+            "source_document_hit_at_10": 1.0
+          },
+          "mean_retrieval_only_ms": 131.09291429697936
+        },
+        "rhinitis": {
+          "cases": 7,
+          "anchor_cases": 7,
+          "boundary_cases": 0,
+          "metrics": {
+            "known_anchor_hit_at_5": 0.2857142857142857,
+            "known_anchor_hit_at_10": 0.42857142857142855,
+            "known_anchor_rr": 0.09047619047619047,
+            "known_anchor_ndcg_at_10": 0.16798823336463278,
+            "source_document_hit_at_10": 1.0
+          },
+          "mean_retrieval_only_ms": 124.38951428547236
+        },
+        "sinusitis": {
+          "cases": 7,
+          "anchor_cases": 7,
+          "boundary_cases": 0,
+          "metrics": {
+            "known_anchor_hit_at_5": 0.5714285714285714,
+            "known_anchor_hit_at_10": 1.0,
+            "known_anchor_rr": 0.5600907029478458,
+            "known_anchor_ndcg_at_10": 0.6602143242395421,
+            "source_document_hit_at_10": 1.0
+          },
+          "mean_retrieval_only_ms": 129.2210857167707
+        },
+        "throat": {
+          "cases": 7,
+          "anchor_cases": 7,
+          "boundary_cases": 0,
+          "metrics": {
+            "known_anchor_hit_at_5": 0.2857142857142857,
+            "known_anchor_hit_at_10": 0.42857142857142855,
+            "known_anchor_rr": 0.10714285714285714,
+            "known_anchor_ndcg_at_10": 0.18384053502591646,
+            "source_document_hit_at_10": 0.8571428571428571
+          },
+          "mean_retrieval_only_ms": 122.31095714793939
+        },
+        "tinnitus": {
+          "cases": 7,
+          "anchor_cases": 7,
+          "boundary_cases": 0,
+          "metrics": {
+            "known_anchor_hit_at_5": 0.14285714285714285,
+            "known_anchor_hit_at_10": 0.14285714285714285,
+            "known_anchor_rr": 0.14285714285714285,
+            "known_anchor_ndcg_at_10": 0.14285714285714285,
+            "source_document_hit_at_10": 0.14285714285714285
+          },
+          "mean_retrieval_only_ms": 133.54397142705108
+        }
+      }
+    }
+  },
+  "query_embedding_batch_ms": 1582.4699999648146,
+  "timing_scope": "retrieval only; batch embedding and model loading excluded",
+  "model_fingerprint": "e6eed4f597a280ef87c0db70c059bfb25dd325e58a166c814cc805b08c25edcc",
+  "model_runtime": {
+    "numpy": "2.5.1",
+    "onnxruntime": "1.28.0",
+    "tokenizers": "0.23.1"
+  },
+  "all_requested_modes_completed": true,
+  "clinical_quality_validated": false
+}

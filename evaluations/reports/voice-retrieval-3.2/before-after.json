@@ -1,0 +1,22 @@
+{
+  "scope": "single synthetic probe; not clinical acceptance",
+  "before": {
+    "answer_status": "insufficient_evidence",
+    "hoarseness_in_reranked_top6": false
+  },
+  "after": {
+    "answer_status": "answered",
+    "hoarseness_in_reranked_top6": true,
+    "input_explanations": 2
+  },
+  "changes": [
+    "generic coarse/raspy voice aliases",
+    "voice-topic index term retained for explicit voice questions"
+  ],
+  "limitations": [
+    "single synthetic case",
+    "source quality pending",
+    "not full quality regression"
+  ],
+  "clinical_approval": false
+}

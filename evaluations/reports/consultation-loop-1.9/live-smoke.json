@@ -1,0 +1,14 @@
+{
+  "scope": "One real-provider synthetic workflow; not clinical or quality acceptance",
+  "isolated_database": "var\\consultation-live-fixture-1.9-20261020T070326Z\\business.sqlite3",
+  "state": "completed",
+  "error_code": null,
+  "answer_status": "answered",
+  "model": "deepseek-flash",
+  "workflow_invocations": 1,
+  "provider_post_requests": 3,
+  "known_development_case": "GEN-ENT-002",
+  "idempotent_replay": true,
+  "authorized_doctor_same_result": true,
+  "real_workbench_accounts_created": 0
+}

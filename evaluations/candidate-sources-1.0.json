@@ -1,0 +1,11 @@
+{
+  "purpose": "new source families for candidate evaluation; no clinical approval or retrieval activation",
+  "sources": [
+    {"id":"candidate-rhinitis-canada-2024","pmcid":"PMC11311964","topic":"rhinitis","type":"focused_practice_parameter","population_note":"成人与儿童均涉及；逐段核查成人范围，地域为加拿大。"},
+    {"id":"candidate-crs-mdt-2025","pmcid":"PMC11723824","topic":"sinusitis","type":"narrative_review","population_note":"限伴鼻息肉慢性鼻窦炎及多学科管理，核查资助与利益冲突。"},
+    {"id":"candidate-com-outcomes-2025","pmcid":"PMC12518485","topic":"otitis_media","type":"retrospective_cohort_with_prospective_questionnaires","population_note":"成人术后残留气骨导差特定队列，不能外推至一般中耳炎。"},
+    {"id":"candidate-presbycusis-rehab-2024","pmcid":"PMC11532099","topic":"hearing_loss","type":"systematic_review_meta_analysis","population_note":"老年性听力损失与助听器康复，不能代表所有年龄和病因。"},
+    {"id":"candidate-tinnitus-neuromodulation-2024","pmcid":"PMC11352582","topic":"tinnitus","type":"systematic_review","population_note":"成人耳鸣神经调控专题，不能视为常规治疗推荐。"},
+    {"id":"candidate-dysphonia-voice-2024","pmcid":"PMC11235395","topic":"throat","type":"narrative_review","population_note":"声嘶与嗓音治疗综述，含跨年龄内容；人群和原始研究需人工审核。"}
+  ]
+}

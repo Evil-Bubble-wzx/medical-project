@@ -1,0 +1,41 @@
+{
+  "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+  "dataset_sha256": "f6a3cf8b95a3dfed040321264114ba8c32e6304df15c4102281a9f5868a847ad",
+  "run_summary_sha256": "7322fd2d3dd60f1baf13a50c17a818dd12901d714dbf65488e4ad5cf72098f6a",
+  "audit_code_sha256": "2837a6a17a870640d62ace7e60160ce29f7967bc2d582e1165acbfaf0805743e",
+  "cases": 50,
+  "flags": {
+    "hybrid_missed_anchor": 23,
+    "hybrid_lost_single_strategy_hit": 4,
+    "all_strategies_missed_anchor": 19,
+    "candidate_label_incompleteness": 2,
+    "boundary_manual_review": 8
+  },
+  "proposal_count": 3,
+  "exposed_documents": [
+    "adult-aom-inner-ear-2023",
+    "adult-com-qol-2023",
+    "adult-rhinitis-eaaci-2017",
+    "adult-sore-throat-review-2024",
+    "crs-apac-2024",
+    "nidcd-hoarseness",
+    "nidcd-presbycusis",
+    "nidcd-tinnitus",
+    "tinnitus-evidence-2023",
+    "tinnitus-s3-2022"
+  ],
+  "corpus_chunk_counts": {
+    "nidcd-hoarseness": 19,
+    "adult-aom-inner-ear-2023": 35,
+    "tinnitus-evidence-2023": 65,
+    "adult-com-qol-2023": 52,
+    "nidcd-presbycusis": 34,
+    "nidcd-tinnitus": 36,
+    "adult-rhinitis-eaaci-2017": 64,
+    "adult-sore-throat-review-2024": 37,
+    "tinnitus-s3-2022": 430,
+    "crs-apac-2024": 30
+  },
+  "review_status": "pending_human_review",
+  "baseline_labels_modified": false
+}

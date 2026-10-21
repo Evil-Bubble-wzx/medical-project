@@ -1,0 +1,110 @@
+{
+  "version": "1.0",
+  "scope": "fixed_synthetic_development_acceptance",
+  "engineering_contract_passed": true,
+  "offline_tests_passed": 262,
+  "ruff": "passed",
+  "completed_cases": 12,
+  "knowledge_cases_answered": 6,
+  "boundary_cases_handled": 6,
+  "answered_cases_with_matching_quotes": 6,
+  "displayed_claims_reviewed_for_text_consistency": 24,
+  "transport_errors": 0,
+  "format_errors_at_output": 0,
+  "clinical_approval": false,
+  "clinical_review": "pending",
+  "independent_generalization": "not_assessed",
+  "reviewer": "Codex text consistency review; not clinical approval",
+  "cases": [
+    {
+      "case_id": "GEN-ENT-002",
+      "status": "answered",
+      "displayed_claims": 3,
+      "engineering_contract_passed": true
+    },
+    {
+      "case_id": "GEN-ENT-009",
+      "status": "answered",
+      "displayed_claims": 4,
+      "engineering_contract_passed": true
+    },
+    {
+      "case_id": "GEN-ENT-015",
+      "status": "answered",
+      "displayed_claims": 4,
+      "engineering_contract_passed": true
+    },
+    {
+      "case_id": "GEN-ENT-025",
+      "status": "answered",
+      "displayed_claims": 5,
+      "engineering_contract_passed": true
+    },
+    {
+      "case_id": "GEN-ENT-030",
+      "status": "answered",
+      "displayed_claims": 4,
+      "engineering_contract_passed": true
+    },
+    {
+      "case_id": "GEN-ENT-036",
+      "status": "answered",
+      "displayed_claims": 4,
+      "engineering_contract_passed": true
+    },
+    {
+      "case_id": "GEN-ENT-043",
+      "status": "insufficient_evidence",
+      "displayed_claims": 0,
+      "engineering_contract_passed": true
+    },
+    {
+      "case_id": "GEN-ENT-044",
+      "status": "insufficient_evidence",
+      "displayed_claims": 0,
+      "engineering_contract_passed": true
+    },
+    {
+      "case_id": "GEN-ENT-045",
+      "status": "needs_information",
+      "displayed_claims": 0,
+      "engineering_contract_passed": true
+    },
+    {
+      "case_id": "GEN-ENT-047",
+      "status": "needs_information",
+      "displayed_claims": 0,
+      "engineering_contract_passed": true
+    },
+    {
+      "case_id": "GEN-ENT-048",
+      "status": "needs_information",
+      "displayed_claims": 0,
+      "engineering_contract_passed": true
+    },
+    {
+      "case_id": "GEN-ENT-049",
+      "status": "needs_information",
+      "displayed_claims": 0,
+      "engineering_contract_passed": true
+    }
+  ],
+  "pipeline_hashes": {
+    "patient_summary.py": "2cb1d9a23c247a19ff206502bb9550829912950e2e2311a709ebaa18d393d5aa",
+    "atomization.py": "1cd9c9d5326821c2daedca9d887c07f92aee9df14ff642bdc0543aeba3ed0d0f",
+    "scope_guard.py": "2f93bdfdd0e7f0219e74f6cc7397fff2124838678b3aff51773d833826bdfca7",
+    "generation.py": "087da42a63430f38838ae18f627aedf1209489e30ce6f5b5914ac836b9825452",
+    "answer_workflow.py": "3000a4431a8605cdfd0c00678b8572d1945572ed4e58ce2e603269ec7480ce43",
+    "verification.py": "417f343446387f44f4d2796e442759c7bfca54236372ae633ffd102333875069",
+    "quote_catalog.py": "0bc7fde70d26d61776f000a91f0022355ec389cf5229e98ecd7fb93be83420fa",
+    "quote_repair.py": "97cb22ae11a2b34b44a0c155cc8d5e9493e3e8cf47d4fb7dfa3f38c3474d54a5",
+    "validation_service.py": "93874fac707de8e41d6d717a59126f49e1649c7cde6cf50281060094fb7c8f6b"
+  },
+  "limitations": [
+    "Known development cases were used for iterative tuning; this is not an independent accuracy estimate.",
+    "Generator and verifier share the same model; errors can be correlated.",
+    "Input field references validate field presence, not exact span attribution; generic chief complaint can be overincluded.",
+    "Source ENT-015 reports 32% in one passage and 34/112 in another; retain original quotations pending clinical source review."
+  ],
+  "legacy_metric_note": "summary.json citation_structure_pass_rate uses all 12 cases, including 6 boundaries without citations. Interpret answered quote match as 6/6, not 50% medical accuracy."
+}

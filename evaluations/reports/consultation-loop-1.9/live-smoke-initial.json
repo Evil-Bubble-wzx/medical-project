@@ -1,0 +1,12 @@
+{
+  "scope": "One real-provider synthetic workflow; not clinical or quality acceptance",
+  "isolated_database": "var\\consultation-live-fixture-1.9-20261020T070047Z\\business.sqlite3",
+  "state": "completed",
+  "error_code": null,
+  "answer_status": "insufficient_evidence",
+  "model": "deepseek-flash",
+  "workflow_invocations": 1,
+  "idempotent_replay": true,
+  "authorized_doctor_same_result": true,
+  "real_workbench_accounts_created": 0
+}

@@ -1,0 +1,34 @@
+{
+  "pytest": {
+    "name": "pytest",
+    "errors": "0",
+    "failures": "0",
+    "skipped": "0",
+    "tests": "351",
+    "time": "18.495",
+    "timestamp": "2026-10-20T14:37:21.012685+08:00",
+    "hostname": "DESKTOP-T469ISO"
+  },
+  "browser_checks": 17,
+  "browser_passed": true,
+  "live_page": {
+    "passed": true,
+    "login_visible": true,
+    "patient_workspace_hidden": true,
+    "post_requests": 0,
+    "errors": []
+  },
+  "actual_business_tables": {
+    "business_users": 0,
+    "business_patients": 0,
+    "patient_snapshots": 0,
+    "patient_grants": 0,
+    "business_events": 0
+  },
+  "business_database_initialized_empty": true,
+  "real_candidate_review_events": 0,
+  "development_snapshot": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+  "development_chunks": 802,
+  "model_calls": 0,
+  "scope": "Synthetic patient UI and access checks, not clinical validation"
+}

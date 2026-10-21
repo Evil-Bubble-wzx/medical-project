@@ -1,0 +1,22 @@
+{
+  "version": "1.4",
+  "offline_tests_passed": 311,
+  "browser_checks_passed": 14,
+  "ruff": "passed",
+  "javascript_syntax": "passed",
+  "actual_review_events": 0,
+  "protected_candidate_and_configuration_files_unchanged": true,
+  "clinical_approval": false,
+  "formal_independent_scoring_enabled": false,
+  "page_url": "http://127.0.0.1:8011/audit",
+  "file_hashes": {
+    "frontend/validation/audit.html": "3d9a28a8bc28f6e3f062b267c75cce9d0f2e167f609d14106474a892a90e4795",
+    "frontend/validation/audit.js": "bf7c3b958e76d9f64e4d966b7b63be466d79dd12ce07cabdd540578993437b6c",
+    "frontend/validation/audit.css": "38acdb5459e4f61e0106cab1390cdbc9950239b696a73a0f99fc8501f12771de",
+    "frontend/validation/index.html": "f919bad0de79f88e4948e0e49ba5cf2f28bb5c379d94893f22a89f892298063d",
+    "frontend/validation/styles.css": "44e9603643bfbc360105415ccc4aaab38851cebdd286b0138cdc6f4f50181891",
+    "backend/app/api/validation.py": "001252d046c32e59bc7cd4f45df920b988fbfec04949d5be4e7870697ca6576e",
+    "backend/tests/test_audit_backend.py": "ef5349d9bd0d600a47f797bc01e421e10b2c9c8b1371e4fe4599ab65f18a94db",
+    "scripts/verify_audit_ui.cjs": "2173d62313d5ee9f76795ce4425823ce317725ba498c8af79a8014607f120aac"
+  }
+}

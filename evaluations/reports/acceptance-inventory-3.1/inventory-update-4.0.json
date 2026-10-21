@@ -1,0 +1,17 @@
+{
+  "checklist": "docs/医学表述集中修复交付清单4.0.md",
+  "status": "partial",
+  "requirements": [
+    "F11",
+    "F12",
+    "F25"
+  ],
+  "current_summary_sha256": "47992ee538ac4436366dae8352c0132b32bdd0a31879d0c9f3b05f37027e455c",
+  "offline_tests": 586,
+  "final_status_counts": {
+    "answered": 14,
+    "insufficient_evidence": 6,
+    "needs_information": 6
+  },
+  "clinical_approval": false
+}

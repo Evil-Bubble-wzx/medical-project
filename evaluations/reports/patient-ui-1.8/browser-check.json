@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "synthetic_fixture_only": true,
+  "checks": [
+    "login_failure_clears_password",
+    "profile_requires_explicit_synthetic_confirmation_and_safe_text",
+    "snapshot_versions_preserve_original",
+    "login_and_saved_snapshot_survive_reload_without_auto_consent",
+    "doctor_has_no_ungranted_patients",
+    "doctor_reads_same_history_after_patient_grant",
+    "unsaved_changes_cancel_refresh",
+    "version_conflict_preserves_local_input",
+    "explicit_reload_resolves_conflict",
+    "save_failure_keeps_input",
+    "revocation_blocks_access_and_clears_visible_patient",
+    "second_patient_cannot_read_first_patient",
+    "history_pagination_appends_without_overwriting_form",
+    "mobile_layout_and_no_browser_storage",
+    "logout_clears_patient_content",
+    "expired_session_returns_to_login_and_clears_patient_content",
+    "no_browser_javascript_errors"
+  ],
+  "errors": []
+}

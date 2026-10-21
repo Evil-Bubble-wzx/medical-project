@@ -1,0 +1,292 @@
+{
+  "cases": [
+    {
+      "case_id": "GEN-ENT-002",
+      "previous_status": "answered",
+      "previous_error": null,
+      "current_status": "answered",
+      "current_error": null,
+      "outcome_category": "answer_ready",
+      "core_verified_before_summary": true,
+      "scope_boundary": false,
+      "refusal_assessment": "not_applicable"
+    },
+    {
+      "case_id": "GEN-ENT-009",
+      "previous_status": "validation_failed",
+      "previous_error": "patient_summary_diagnostic_overstatement",
+      "current_status": "validation_failed",
+      "current_error": "patient_summary_diagnostic_overstatement",
+      "outcome_category": "content_rejected",
+      "core_verified_before_summary": true,
+      "scope_boundary": false,
+      "refusal_assessment": null
+    },
+    {
+      "case_id": "GEN-ENT-015",
+      "previous_status": "answered",
+      "previous_error": null,
+      "current_status": "answered",
+      "current_error": null,
+      "outcome_category": "answer_ready",
+      "core_verified_before_summary": true,
+      "scope_boundary": false,
+      "refusal_assessment": "not_applicable"
+    },
+    {
+      "case_id": "GEN-ENT-025",
+      "previous_status": "answered",
+      "previous_error": null,
+      "current_status": "answered",
+      "current_error": null,
+      "outcome_category": "answer_ready",
+      "core_verified_before_summary": true,
+      "scope_boundary": false,
+      "refusal_assessment": "not_applicable"
+    },
+    {
+      "case_id": "GEN-ENT-030",
+      "previous_status": "answered",
+      "previous_error": null,
+      "current_status": "answered",
+      "current_error": null,
+      "outcome_category": "answer_ready",
+      "core_verified_before_summary": true,
+      "scope_boundary": false,
+      "refusal_assessment": "not_applicable"
+    },
+    {
+      "case_id": "GEN-ENT-036",
+      "previous_status": "validation_failed",
+      "previous_error": "input_anchor_record_mismatch",
+      "current_status": "answered",
+      "current_error": null,
+      "outcome_category": "answer_ready",
+      "core_verified_before_summary": true,
+      "scope_boundary": false,
+      "refusal_assessment": "not_applicable"
+    },
+    {
+      "case_id": "GEN-ENT-043",
+      "previous_status": "insufficient_evidence",
+      "previous_error": null,
+      "current_status": "insufficient_evidence",
+      "current_error": null,
+      "outcome_category": "scope_boundary",
+      "core_verified_before_summary": false,
+      "scope_boundary": true,
+      "refusal_assessment": null
+    },
+    {
+      "case_id": "GEN-ENT-044",
+      "previous_status": "insufficient_evidence",
+      "previous_error": null,
+      "current_status": "insufficient_evidence",
+      "current_error": null,
+      "outcome_category": "scope_boundary",
+      "core_verified_before_summary": false,
+      "scope_boundary": true,
+      "refusal_assessment": null
+    },
+    {
+      "case_id": "GEN-ENT-045",
+      "previous_status": "needs_information",
+      "previous_error": null,
+      "current_status": "needs_information",
+      "current_error": null,
+      "outcome_category": "needs_information",
+      "core_verified_before_summary": false,
+      "scope_boundary": true,
+      "refusal_assessment": null
+    },
+    {
+      "case_id": "GEN-ENT-047",
+      "previous_status": "needs_information",
+      "previous_error": null,
+      "current_status": "needs_information",
+      "current_error": null,
+      "outcome_category": "needs_information",
+      "core_verified_before_summary": false,
+      "scope_boundary": true,
+      "refusal_assessment": null
+    },
+    {
+      "case_id": "GEN-ENT-048",
+      "previous_status": "needs_information",
+      "previous_error": null,
+      "current_status": "needs_information",
+      "current_error": null,
+      "outcome_category": "needs_information",
+      "core_verified_before_summary": false,
+      "scope_boundary": true,
+      "refusal_assessment": null
+    },
+    {
+      "case_id": "GEN-ENT-049",
+      "previous_status": "needs_information",
+      "previous_error": null,
+      "current_status": "needs_information",
+      "current_error": null,
+      "outcome_category": "needs_information",
+      "core_verified_before_summary": false,
+      "scope_boundary": true,
+      "refusal_assessment": null
+    },
+    {
+      "case_id": "GEN-ENT-002-CONTEXT",
+      "previous_status": "answered",
+      "previous_error": null,
+      "current_status": "answered",
+      "current_error": null,
+      "outcome_category": "answer_ready",
+      "core_verified_before_summary": true,
+      "scope_boundary": false,
+      "refusal_assessment": "not_applicable"
+    },
+    {
+      "case_id": "GEN-ENT-009-CONTEXT",
+      "previous_status": "validation_failed",
+      "previous_error": "patient_summary_diagnostic_overstatement",
+      "current_status": "validation_failed",
+      "current_error": "patient_summary_diagnostic_overstatement",
+      "outcome_category": "content_rejected",
+      "core_verified_before_summary": true,
+      "scope_boundary": false,
+      "refusal_assessment": null
+    },
+    {
+      "case_id": "GEN-ENT-015-CONTEXT",
+      "previous_status": "validation_failed",
+      "previous_error": "invalid_verification_schema",
+      "current_status": "answered",
+      "current_error": null,
+      "outcome_category": "answer_ready",
+      "core_verified_before_summary": true,
+      "scope_boundary": false,
+      "refusal_assessment": "not_applicable"
+    },
+    {
+      "case_id": "GEN-ENT-025-CONTEXT",
+      "previous_status": "answered",
+      "previous_error": null,
+      "current_status": "answered",
+      "current_error": null,
+      "outcome_category": "answer_ready",
+      "core_verified_before_summary": true,
+      "scope_boundary": false,
+      "refusal_assessment": "not_applicable"
+    },
+    {
+      "case_id": "GEN-ENT-030-CONTEXT",
+      "previous_status": "answered",
+      "previous_error": null,
+      "current_status": "validation_failed",
+      "current_error": "source_scope_overreach",
+      "outcome_category": "content_rejected",
+      "core_verified_before_summary": false,
+      "scope_boundary": false,
+      "refusal_assessment": null
+    },
+    {
+      "case_id": "GEN-ENT-036-CONTEXT",
+      "previous_status": "validation_failed",
+      "previous_error": "input_anchor_coverage_mismatch",
+      "current_status": "answered",
+      "current_error": null,
+      "outcome_category": "answer_ready",
+      "core_verified_before_summary": true,
+      "scope_boundary": false,
+      "refusal_assessment": "not_applicable"
+    },
+    {
+      "case_id": "ANCHOR-NOISE-001",
+      "previous_status": "answered",
+      "previous_error": null,
+      "current_status": "answered",
+      "current_error": null,
+      "outcome_category": "answer_ready",
+      "core_verified_before_summary": true,
+      "scope_boundary": false,
+      "refusal_assessment": "not_applicable"
+    },
+    {
+      "case_id": "ANCHOR-TINNITUS-002",
+      "previous_status": "answered",
+      "previous_error": null,
+      "current_status": "answered",
+      "current_error": null,
+      "outcome_category": "answer_ready",
+      "core_verified_before_summary": true,
+      "scope_boundary": false,
+      "refusal_assessment": "not_applicable"
+    },
+    {
+      "case_id": "ANCHOR-VOICE-003",
+      "previous_status": "validation_failed",
+      "previous_error": "input_anchor_quote_mismatch",
+      "current_status": "insufficient_evidence",
+      "current_error": null,
+      "outcome_category": "content_rejected",
+      "core_verified_before_summary": true,
+      "scope_boundary": false,
+      "refusal_assessment": "justified"
+    },
+    {
+      "case_id": "BATCH-CONFLICT-UNKNOWN",
+      "previous_status": "needs_information",
+      "previous_error": null,
+      "current_status": "needs_information",
+      "current_error": null,
+      "outcome_category": "needs_information",
+      "core_verified_before_summary": false,
+      "scope_boundary": true,
+      "refusal_assessment": null
+    },
+    {
+      "case_id": "BATCH-CONFLICT-TIME",
+      "previous_status": "needs_information",
+      "previous_error": null,
+      "current_status": "needs_information",
+      "current_error": null,
+      "outcome_category": "needs_information",
+      "core_verified_before_summary": false,
+      "scope_boundary": true,
+      "refusal_assessment": null
+    },
+    {
+      "case_id": "BATCH-STATE-DENIED",
+      "previous_status": "validation_failed",
+      "previous_error": "source_scope_overreach",
+      "current_status": "answered",
+      "current_error": null,
+      "outcome_category": "answer_ready",
+      "core_verified_before_summary": true,
+      "scope_boundary": false,
+      "refusal_assessment": "not_applicable"
+    },
+    {
+      "case_id": "BATCH-STATE-UNKNOWN",
+      "previous_status": "validation_failed",
+      "previous_error": "input_anchor_state_mismatch",
+      "current_status": "validation_failed",
+      "current_error": "source_scope_overreach",
+      "outcome_category": "content_rejected",
+      "core_verified_before_summary": false,
+      "scope_boundary": false,
+      "refusal_assessment": null
+    },
+    {
+      "case_id": "BATCH-STATE-MIXED",
+      "previous_status": "validation_failed",
+      "previous_error": "source_scope_overreach",
+      "current_status": "validation_failed",
+      "current_error": "source_scope_overreach",
+      "outcome_category": "content_rejected",
+      "core_verified_before_summary": false,
+      "scope_boundary": false,
+      "refusal_assessment": null
+    }
+  ],
+  "clinical_approval": false,
+  "note": "Descriptive only; different workflow/prompts and stochastic outputs."
+}

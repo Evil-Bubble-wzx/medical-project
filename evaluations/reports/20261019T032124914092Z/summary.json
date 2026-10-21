@@ -1,0 +1,331 @@
+{
+  "scope": "synthetic engineering evaluation; NOT clinical quality",
+  "dataset_sha256": "b3ee77365b11e3ac1cc93fd4a943eb017413189ec00bdbee2a5cc59f6db86bd4",
+  "dataset_cases": 13,
+  "config_sha256": "b2d8360143a3cc5f61fadb5035a8ac1047c630b2d5606b97c2c60dae07042cd9",
+  "code_sha256": "805fdd1de190d49e88e91bb43fd113b96f5decea94a4d34831f505dbb72b7a59",
+  "fixture_sha256": "f96e3304ddec24d9d77c3444714bd49e041a827610b0abbd76977d037d477bb3",
+  "created_at": "2026-10-19T03:21:24.949709+00:00",
+  "python": "3.13.14",
+  "plugins": {
+    "retriever": "fixture-v1",
+    "reranker": "passthrough-v1",
+    "policy": "synthetic-policy-v1",
+    "generator": "extractive-v1",
+    "validator": "synthetic-validator-v1",
+    "evaluator": "engineering-metrics-v1"
+  },
+  "resolved_config": {
+    "profile": "synthetic-local",
+    "graph_version": "ent-m0-1.0",
+    "knowledge_snapshot": "synthetic-ent-v1",
+    "knowledge_scope": "public-synthetic",
+    "external_export": false,
+    "top_k": 8,
+    "context_chunks": 8,
+    "max_repairs": 1,
+    "node_timeout_seconds": 5.0,
+    "request_timeout_seconds": 20.0,
+    "plugins": {
+      "retriever": "fixture-v1",
+      "reranker": "passthrough-v1",
+      "policy": "synthetic-policy-v1",
+      "generator": "extractive-v1",
+      "validator": "synthetic-validator-v1",
+      "evaluator": "engineering-metrics-v1"
+    }
+  },
+  "dependencies": {
+    "langgraph": "1.2.16",
+    "fastapi": "0.146.0",
+    "pydantic": "2.14.1"
+  },
+  "lock_sha256": "49d1e80b91c9f60512877095e5d421b520b635b98d74848226244fa5ad0dad69",
+  "top_k": 8,
+  "context_chunks": 8,
+  "overall": {
+    "cases": 13,
+    "errors": 0,
+    "status_accuracy": 1.0,
+    "metrics": {
+      "recall_at_k": {
+        "mean": 1.0,
+        "samples": 8
+      },
+      "reciprocal_rank": {
+        "mean": 1.0,
+        "samples": 8
+      },
+      "ndcg_at_k": {
+        "mean": 1.0,
+        "samples": 8
+      },
+      "citation_validity": {
+        "mean": 1.0,
+        "samples": 6
+      }
+    },
+    "p50_ms": 1.723300025332719,
+    "p95_ms": 5.088699981570244
+  },
+  "by_tag": {
+    "answerable": {
+      "cases": 5,
+      "errors": 0,
+      "status_accuracy": 1.0,
+      "metrics": {
+        "recall_at_k": {
+          "mean": 1.0,
+          "samples": 5
+        },
+        "reciprocal_rank": {
+          "mean": 1.0,
+          "samples": 5
+        },
+        "ndcg_at_k": {
+          "mean": 1.0,
+          "samples": 5
+        },
+        "citation_validity": {
+          "mean": 1.0,
+          "samples": 5
+        }
+      },
+      "p50_ms": 2.1299999789334834,
+      "p95_ms": 5.088699981570244
+    },
+    "conflict": {
+      "cases": 1,
+      "errors": 0,
+      "status_accuracy": 1.0,
+      "metrics": {
+        "recall_at_k": {
+          "mean": 1.0,
+          "samples": 1
+        },
+        "reciprocal_rank": {
+          "mean": 1.0,
+          "samples": 1
+        },
+        "ndcg_at_k": {
+          "mean": 1.0,
+          "samples": 1
+        },
+        "citation_validity": {
+          "mean": 1.0,
+          "samples": 1
+        }
+      },
+      "p50_ms": 1.7800999921746552,
+      "p95_ms": 1.7800999921746552
+    },
+    "context": {
+      "cases": 1,
+      "errors": 0,
+      "status_accuracy": 1.0,
+      "metrics": {
+        "recall_at_k": {
+          "mean": 1.0,
+          "samples": 1
+        },
+        "reciprocal_rank": {
+          "mean": 1.0,
+          "samples": 1
+        },
+        "ndcg_at_k": {
+          "mean": 1.0,
+          "samples": 1
+        },
+        "citation_validity": {
+          "mean": 1.0,
+          "samples": 1
+        }
+      },
+      "p50_ms": 1.7336999881081283,
+      "p95_ms": 1.7336999881081283
+    },
+    "ear": {
+      "cases": 1,
+      "errors": 0,
+      "status_accuracy": 1.0,
+      "metrics": {
+        "recall_at_k": {
+          "mean": 1.0,
+          "samples": 1
+        },
+        "reciprocal_rank": {
+          "mean": 1.0,
+          "samples": 1
+        },
+        "ndcg_at_k": {
+          "mean": 1.0,
+          "samples": 1
+        },
+        "citation_validity": {
+          "mean": 1.0,
+          "samples": 1
+        }
+      },
+      "p50_ms": 5.088699981570244,
+      "p95_ms": 5.088699981570244
+    },
+    "filter": {
+      "cases": 4,
+      "errors": 0,
+      "status_accuracy": 1.0,
+      "metrics": {
+        "recall_at_k": {
+          "mean": null,
+          "samples": 0
+        },
+        "reciprocal_rank": {
+          "mean": null,
+          "samples": 0
+        },
+        "ndcg_at_k": {
+          "mean": null,
+          "samples": 0
+        },
+        "citation_validity": {
+          "mean": null,
+          "samples": 0
+        }
+      },
+      "p50_ms": 1.3918000040575862,
+      "p95_ms": 1.723300025332719
+    },
+    "missing": {
+      "cases": 2,
+      "errors": 0,
+      "status_accuracy": 1.0,
+      "metrics": {
+        "recall_at_k": {
+          "mean": 1.0,
+          "samples": 2
+        },
+        "reciprocal_rank": {
+          "mean": 1.0,
+          "samples": 2
+        },
+        "ndcg_at_k": {
+          "mean": 1.0,
+          "samples": 2
+        },
+        "citation_validity": {
+          "mean": null,
+          "samples": 0
+        }
+      },
+      "p50_ms": 1.601400028448552,
+      "p95_ms": 1.601400028448552
+    },
+    "multiple": {
+      "cases": 1,
+      "errors": 0,
+      "status_accuracy": 1.0,
+      "metrics": {
+        "recall_at_k": {
+          "mean": 1.0,
+          "samples": 1
+        },
+        "reciprocal_rank": {
+          "mean": 1.0,
+          "samples": 1
+        },
+        "ndcg_at_k": {
+          "mean": 1.0,
+          "samples": 1
+        },
+        "citation_validity": {
+          "mean": 1.0,
+          "samples": 1
+        }
+      },
+      "p50_ms": 2.2382999886758626,
+      "p95_ms": 2.2382999886758626
+    },
+    "nose": {
+      "cases": 1,
+      "errors": 0,
+      "status_accuracy": 1.0,
+      "metrics": {
+        "recall_at_k": {
+          "mean": 1.0,
+          "samples": 1
+        },
+        "reciprocal_rank": {
+          "mean": 1.0,
+          "samples": 1
+        },
+        "ndcg_at_k": {
+          "mean": 1.0,
+          "samples": 1
+        },
+        "citation_validity": {
+          "mean": 1.0,
+          "samples": 1
+        }
+      },
+      "p50_ms": 2.1299999789334834,
+      "p95_ms": 2.1299999789334834
+    },
+    "throat": {
+      "cases": 1,
+      "errors": 0,
+      "status_accuracy": 1.0,
+      "metrics": {
+        "recall_at_k": {
+          "mean": 1.0,
+          "samples": 1
+        },
+        "reciprocal_rank": {
+          "mean": 1.0,
+          "samples": 1
+        },
+        "ndcg_at_k": {
+          "mean": 1.0,
+          "samples": 1
+        },
+        "citation_validity": {
+          "mean": 1.0,
+          "samples": 1
+        }
+      },
+      "p50_ms": 1.9734000088647008,
+      "p95_ms": 1.9734000088647008
+    },
+    "unanswerable": {
+      "cases": 1,
+      "errors": 0,
+      "status_accuracy": 1.0,
+      "metrics": {
+        "recall_at_k": {
+          "mean": null,
+          "samples": 0
+        },
+        "reciprocal_rank": {
+          "mean": null,
+          "samples": 0
+        },
+        "ndcg_at_k": {
+          "mean": null,
+          "samples": 0
+        },
+        "citation_validity": {
+          "mean": null,
+          "samples": 0
+        }
+      },
+      "p50_ms": 1.4105999725870788,
+      "p95_ms": 1.4105999725870788
+    }
+  },
+  "expected_status_counts": {
+    "answered": 5,
+    "needs_information": 2,
+    "insufficient_evidence": 5,
+    "conflicting_evidence": 1
+  },
+  "passed": true,
+  "gate_scope": "M0 fixtures only: status, recall, citation identity must be 1.0"
+}

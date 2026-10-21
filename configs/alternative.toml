@@ -1,0 +1,6 @@
+profile = "synthetic-local"
+external_export = false
+
+[plugins]
+retriever = "fixture-reverse-v1"
+generator = "extractive-compact-v1"

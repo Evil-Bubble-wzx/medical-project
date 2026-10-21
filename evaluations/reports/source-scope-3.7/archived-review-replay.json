@@ -1,0 +1,53 @@
+{
+  "source_sha256": "11c25f3b77a3c693bcaa6434c356a8baaa3b55a76374e4dadf7e0eb287190d5e",
+  "items": [
+    {
+      "claim_id": "GEN-ENT-002/professional:0",
+      "previous_classification": "needs_review",
+      "current_gate": "withheld",
+      "code": "source_scope_overreach"
+    },
+    {
+      "claim_id": "GEN-ENT-002/patient_summary:0",
+      "previous_classification": "needs_review",
+      "current_gate": "withheld",
+      "code": "source_scope_overreach"
+    },
+    {
+      "claim_id": "GEN-ENT-009/professional:2",
+      "previous_classification": "needs_review",
+      "current_gate": "not_detected_not_approved"
+    },
+    {
+      "claim_id": "GEN-ENT-009/patient_summary:0",
+      "previous_classification": "needs_review",
+      "current_gate": "not_detected_not_approved"
+    },
+    {
+      "claim_id": "GEN-ENT-030/professional:0",
+      "previous_classification": "needs_review",
+      "current_gate": "not_detected_not_approved"
+    },
+    {
+      "claim_id": "GEN-ENT-030/patient_summary:0",
+      "previous_classification": "needs_review",
+      "current_gate": "not_detected_not_approved"
+    },
+    {
+      "claim_id": "GEN-ENT-009-CONTEXT/professional:0",
+      "previous_classification": "needs_review",
+      "current_gate": "not_detected_not_approved"
+    },
+    {
+      "claim_id": "GEN-ENT-009-CONTEXT/professional:3",
+      "previous_classification": "needs_review",
+      "current_gate": "not_detected_not_approved"
+    },
+    {
+      "claim_id": "GEN-ENT-009-CONTEXT/patient_summary:0",
+      "previous_classification": "needs_review",
+      "current_gate": "not_detected_not_approved"
+    }
+  ],
+  "clinical_approval": false
+}

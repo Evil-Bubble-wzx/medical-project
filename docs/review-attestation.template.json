@@ -1,0 +1,8 @@
+{
+  "clinical_approved": false,
+  "license_confirmed": false,
+  "adult_applicability_confirmed": false,
+  "current_version_confirmed": false,
+  "evidence_note": "待真实审核者填写审核依据、版本核对及适用范围；此模板不能提交为通过。",
+  "approved_chunk_ids": []
+}

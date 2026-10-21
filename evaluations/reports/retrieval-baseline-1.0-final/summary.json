@@ -1,0 +1,121 @@
+{
+  "scope": "draft development retrieval benchmark; not clinical validation",
+  "dataset_sha256": "f6a3cf8b95a3dfed040321264114ba8c32e6304df15c4102281a9f5868a847ad",
+  "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+  "code_sha256": "b8841f63922a5be99e75abdcbf18bda95b6e963be2fb87dc058cc486a08130dc",
+  "created_at": "2026-10-19T05:12:51.151575+00:00",
+  "python": "3.13.14",
+  "mode_states": {
+    "keyword": "completed",
+    "vector": "blocked_model_or_index_not_available",
+    "hybrid": "blocked_model_or_index_not_available"
+  },
+  "modes": {
+    "keyword": {
+      "cases": 50,
+      "anchor_cases": 42,
+      "boundary_cases": 8,
+      "metrics": {
+        "known_anchor_hit_at_5": 0.23809523809523808,
+        "known_anchor_hit_at_10": 0.2857142857142857,
+        "known_anchor_rr": 0.1244047619047619,
+        "known_anchor_ndcg_at_10": 0.16323689285436205,
+        "source_document_hit_at_10": 0.6666666666666666
+      },
+      "mean_retrieval_only_ms": 99.5530220028013,
+      "by_topic": {
+        "boundary": {
+          "cases": 8,
+          "anchor_cases": 0,
+          "boundary_cases": 8,
+          "metrics": {},
+          "mean_retrieval_only_ms": 97.91947501071263
+        },
+        "hearing_loss": {
+          "cases": 7,
+          "anchor_cases": 7,
+          "boundary_cases": 0,
+          "metrics": {
+            "known_anchor_hit_at_5": 0.0,
+            "known_anchor_hit_at_10": 0.14285714285714285,
+            "known_anchor_rr": 0.023809523809523808,
+            "known_anchor_ndcg_at_10": 0.05088674101543174,
+            "source_document_hit_at_10": 0.8571428571428571
+          },
+          "mean_retrieval_only_ms": 106.39252857072279
+        },
+        "otitis_media": {
+          "cases": 7,
+          "anchor_cases": 7,
+          "boundary_cases": 0,
+          "metrics": {
+            "known_anchor_hit_at_5": 0.14285714285714285,
+            "known_anchor_hit_at_10": 0.2857142857142857,
+            "known_anchor_rr": 0.08928571428571429,
+            "known_anchor_ndcg_at_10": 0.13519923290816946,
+            "source_document_hit_at_10": 1.0
+          },
+          "mean_retrieval_only_ms": 100.53371428512037
+        },
+        "rhinitis": {
+          "cases": 7,
+          "anchor_cases": 7,
+          "boundary_cases": 0,
+          "metrics": {
+            "known_anchor_hit_at_5": 0.14285714285714285,
+            "known_anchor_hit_at_10": 0.14285714285714285,
+            "known_anchor_rr": 0.14285714285714285,
+            "known_anchor_ndcg_at_10": 0.14285714285714285,
+            "source_document_hit_at_10": 0.7142857142857143
+          },
+          "mean_retrieval_only_ms": 100.62502856765475
+        },
+        "sinusitis": {
+          "cases": 7,
+          "anchor_cases": 7,
+          "boundary_cases": 0,
+          "metrics": {
+            "known_anchor_hit_at_5": 0.7142857142857143,
+            "known_anchor_hit_at_10": 0.7142857142857143,
+            "known_anchor_rr": 0.2761904761904762,
+            "known_anchor_ndcg_at_10": 0.38007977452908925,
+            "source_document_hit_at_10": 1.0
+          },
+          "mean_retrieval_only_ms": 99.49077143599945
+        },
+        "throat": {
+          "cases": 7,
+          "anchor_cases": 7,
+          "boundary_cases": 0,
+          "metrics": {
+            "known_anchor_hit_at_5": 0.2857142857142857,
+            "known_anchor_hit_at_10": 0.2857142857142857,
+            "known_anchor_rr": 0.14285714285714285,
+            "known_anchor_ndcg_at_10": 0.1802656438775593,
+            "source_document_hit_at_10": 0.2857142857142857
+          },
+          "mean_retrieval_only_ms": 89.21074285171926
+        },
+        "tinnitus": {
+          "cases": 7,
+          "anchor_cases": 7,
+          "boundary_cases": 0,
+          "metrics": {
+            "known_anchor_hit_at_5": 0.14285714285714285,
+            "known_anchor_hit_at_10": 0.14285714285714285,
+            "known_anchor_rr": 0.07142857142857142,
+            "known_anchor_ndcg_at_10": 0.09013282193877965,
+            "source_document_hit_at_10": 0.14285714285714285
+          },
+          "mean_retrieval_only_ms": 102.93225715369252
+        }
+      }
+    }
+  },
+  "query_embedding_batch_ms": null,
+  "timing_scope": "retrieval only; batch embedding and model loading excluded",
+  "model_fingerprint": null,
+  "model_runtime": null,
+  "all_requested_modes_completed": false,
+  "clinical_quality_validated": false
+}

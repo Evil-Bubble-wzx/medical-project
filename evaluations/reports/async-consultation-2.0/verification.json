@@ -1,0 +1,52 @@
+{
+  "pytest": {
+    "name": "pytest",
+    "errors": "0",
+    "failures": "0",
+    "skipped": "0",
+    "tests": "386",
+    "time": "42.377",
+    "timestamp": "2026-10-20T15:31:30.240156+08:00",
+    "hostname": "DESKTOP-T469ISO"
+  },
+  "async_browser_checks": 12,
+  "patient_regression_checks": 17,
+  "real_page": {
+    "passed": true,
+    "login_visible": true,
+    "patient_workspace_hidden": true,
+    "post_requests": 0,
+    "errors": []
+  },
+  "live_smoke": {
+    "scope": "One real-provider synthetic workflow; not clinical or quality acceptance",
+    "isolated_database": "var\\consultation-live-fixture-2.0-20261020T073631Z\\business.sqlite3",
+    "state": "completed",
+    "background": true,
+    "initial_state": "queued",
+    "error_code": null,
+    "answer_status": "validation_failed",
+    "model": "deepseek-flash",
+    "workflow_invocations": 1,
+    "provider_post_requests": 4,
+    "known_development_case": "GEN-ENT-002",
+    "idempotent_replay": true,
+    "authorized_doctor_same_result": true,
+    "real_workbench_accounts_created": 0
+  },
+  "business_schema": 3,
+  "worker_lease_valid": true,
+  "actual_workbench_rows": {
+    "business_users": 0,
+    "business_patients": 0,
+    "patient_snapshots": 0,
+    "patient_grants": 0,
+    "consultation_runs": 0,
+    "consultation_jobs": 0
+  },
+  "candidate_review_events": 0,
+  "development_snapshot": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+  "development_chunks": 802,
+  "async_202_loaded": true,
+  "scope": "Synthetic task reliability; live answer was withheld by validation, not clinical acceptance"
+}

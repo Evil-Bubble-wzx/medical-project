@@ -1,0 +1,513 @@
+{
+  "scope": "Textual comparison against archived evidence packets only, not current clinical guidance verification or human medical approval",
+  "source_sha256": "f7813cd519f3f116148786c736ceec82e13a7292973a45e156a98bd113f270eb",
+  "assessor": "AI",
+  "clinical_approval": false,
+  "human_review": "pending",
+  "counts": {
+    "textually_supported_with_limits": 43,
+    "needs_revision_or_review": 7
+  },
+  "claims": [
+    {
+      "claim_id": "GEN-ENT-002/professional/0",
+      "content_sha256": "64df64dab680209a8509f0e9153265a4c3ce7e4696740390123b4c6609c0d678",
+      "assessment": "textually_supported_with_limits",
+      "issue": null,
+      "priority": null,
+      "reason": "原引句逐项列出结膜炎、鼻窦炎、中耳及咽喉影响；上下文为成人变应性鼻炎共病。",
+      "assessor": "AI development evidence review",
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-002/professional/1",
+      "content_sha256": "a9ca2de50915ba32ce49a1dffebdfcd516b501044213cdd906147d5c572818c6",
+      "assessment": "textually_supported_with_limits",
+      "issue": null,
+      "priority": null,
+      "reason": "对应睡眠及注意力、行为继发影响的原文列项。",
+      "assessor": "AI development evidence review",
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-002/professional/2",
+      "content_sha256": "508f62f1714285da84f3b07512f6ca3a935db05edad031d2b1d8384bca8cdfd5",
+      "assessment": "textually_supported_with_limits",
+      "issue": null,
+      "priority": null,
+      "reason": "上下文列出Turbinate hypertrophy；不是患者确诊。",
+      "assessor": "AI development evidence review",
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-002/patient_summary/0",
+      "content_sha256": "fb1df4610e329b53fee71439920d916962ff8edbc38031dab98c08ad7378e4b9",
+      "assessment": "needs_revision_or_review",
+      "issue": "scope_paraphrase",
+      "priority": "medium",
+      "reason": "原文为解剖相关，患者说明改为位置相邻且一起不适，可能缩窄/改变关联含义。",
+      "assessor": "AI development evidence review",
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-009/professional/0",
+      "content_sha256": "af9d55fe95f08f4c8606f0f2aaa6bb2acaf86bfc92a3b776a3d0cf126607fd8f",
+      "assessment": "textually_supported_with_limits",
+      "issue": null,
+      "priority": null,
+      "reason": "保留EPOS版本、至少12周及不中断条件；不应单独视作充分诊断条件。",
+      "assessor": "AI development evidence review",
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-009/professional/1",
+      "content_sha256": "7feb37931f150136d1e12e6ae5e99f5532034c43f0ddabcb4287b5c804919f49",
+      "assessment": "textually_supported_with_limits",
+      "issue": null,
+      "priority": null,
+      "reason": "保留最短时限并非绝对的原文限制。",
+      "assessor": "AI development evidence review",
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-009/professional/2",
+      "content_sha256": "8232645254b9bf1c5c432cd30802addadf7dbe6de14611650fbab370fd53cb48",
+      "assessment": "textually_supported_with_limits",
+      "issue": null,
+      "priority": null,
+      "reason": "症状数量及列举与所引句相符；本次不评价原指南诊断规则本身。",
+      "assessor": "AI development evidence review",
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-009/input_explanation/0",
+      "content_sha256": "342bd3d3defb33555c9b469ade1604d55ceb27cbb5da6dae8f76acb3832744ad",
+      "assessment": "textually_supported_with_limits",
+      "issue": null,
+      "priority": null,
+      "reason": "四个月来自问题；只作病程比较，未据此确诊。chief_complaint字段未提供该细节。",
+      "assessor": "AI development evidence review",
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-009/patient_summary/0",
+      "content_sha256": "9bac66e2a44212f6999fd5c9d98882ecbc8b4b36384b28cbc2ff50112d8d64fe",
+      "assessment": "textually_supported_with_limits",
+      "issue": null,
+      "priority": null,
+      "reason": "与原核心陈述一致；只列必要病程，需结合专业段诊断限制阅读。",
+      "assessor": "AI development evidence review",
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-015/professional/0",
+      "content_sha256": "be88b2277799f8ca896096b8ca8ce52537a1e45dafb77ab8de5f19addf68cb48",
+      "assessment": "textually_supported_with_limits",
+      "issue": null,
+      "priority": null,
+      "reason": "数值逐项相符，保留伴内耳受累的限定；人群限定需依赖来源题名/上下文，而非该短引句单独证明。",
+      "assessor": "AI development evidence review",
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-015/professional/1",
+      "content_sha256": "59a71ef1cd9ab863baac344e830947ce06252ea067a6a57a273890a74f2c401d",
+      "assessment": "textually_supported_with_limits",
+      "issue": null,
+      "priority": null,
+      "reason": "耳鸣与眩晕确在症状列表中；不应理解为高于听力下降/耳痛的前两位。",
+      "assessor": "AI development evidence review",
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-015/input_explanation/0",
+      "content_sha256": "75ea6a2461c0c485e5e97ed3efd802b3497a6d787dc6d1bb74098bab92303736",
+      "assessment": "textually_supported_with_limits",
+      "issue": null,
+      "priority": null,
+      "reason": "正确区分分别发生频率与同时发生比例，未虚构联合概率。",
+      "assessor": "AI development evidence review",
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-015/patient_summary/0",
+      "content_sha256": "c0096a143945da0509bca16ab444959da337c8171f25838fa027e12bf946b91f",
+      "assessment": "textually_supported_with_limits",
+      "issue": null,
+      "priority": null,
+      "reason": "保留内耳受累研究人群及分别报告的频率，不写成一般成人患病率。",
+      "assessor": "AI development evidence review",
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-025/professional/0",
+      "content_sha256": "71355f1ed396614408ad39d95354dcc1226121def5df926ad963918b40597e9c",
+      "assessment": "textually_supported_with_limits",
+      "issue": null,
+      "priority": null,
+      "reason": "为年龄相关逐渐听力损失的释义，原句支持。",
+      "assessor": "AI development evidence review",
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-025/professional/1",
+      "content_sha256": "10ef0e66af1ecc532ced043f39ed34624c4cee5bdf742fc544b707a832f8c6b3",
+      "assessment": "textually_supported_with_limits",
+      "issue": null,
+      "priority": null,
+      "reason": "原文明确多因素及长期噪声可能作用，保留可能性。",
+      "assessor": "AI development evidence review",
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-025/input_explanation/0",
+      "content_sha256": "016915395666eea2fef1b48eda4520b668c674e4d5c8e57b8bce43f7c32d8871",
+      "assessment": "textually_supported_with_limits",
+      "issue": null,
+      "priority": null,
+      "reason": "噪声暴露来自问题，未宣称个体因果确诊。",
+      "assessor": "AI development evidence review",
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-025/patient_summary/0",
+      "content_sha256": "2cf306da892fb9afdef5a9ee3c94f5402e976527427200af786ea6a483087fbe",
+      "assessment": "textually_supported_with_limits",
+      "issue": null,
+      "priority": null,
+      "reason": "与专业核心陈述相符，没有额外治疗结论。",
+      "assessor": "AI development evidence review",
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-030/professional/0",
+      "content_sha256": "7e7fd204176a21ed336b4e2bc027eef76f140413ba39a21932e6d3d26188658a",
+      "assessment": "textually_supported_with_limits",
+      "issue": null,
+      "priority": null,
+      "reason": "保留some people限定及情绪、睡眠、注意力影响。",
+      "assessor": "AI development evidence review",
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-030/input_explanation/0",
+      "content_sha256": "9ee6747269a0927c1836e1721d63099bec81c7206a3d766bee7a5fb21a3fb1ae",
+      "assessment": "textually_supported_with_limits",
+      "issue": null,
+      "priority": null,
+      "reason": "自述来自问题，并明确不能由资料判断个体病因/严重程度。",
+      "assessor": "AI development evidence review",
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-030/patient_summary/0",
+      "content_sha256": "d52947667b0cbae397b8f606ac6e105e3d71fba5a5a7d7551d4dab1a946286aa",
+      "assessment": "textually_supported_with_limits",
+      "issue": null,
+      "priority": null,
+      "reason": "保留部分人群限定，没有新增病因或用药。",
+      "assessor": "AI development evidence review",
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-036/professional/0",
+      "content_sha256": "3b6ac03f8966bac263bb30dcc2b07cb849b0f3eb608898ebbede38b45158d3b1",
+      "assessment": "textually_supported_with_limits",
+      "issue": null,
+      "priority": null,
+      "reason": "气息声、粗哑声、紧张、音量/音调改变对应原句。",
+      "assessor": "AI development evidence review",
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-036/patient_summary/0",
+      "content_sha256": "4035cf49b4df56784402dd2811fbcc27c7d3fdaa3529b755e0c2b235a0e90004",
+      "assessment": "textually_supported_with_limits",
+      "issue": null,
+      "priority": null,
+      "reason": "与专业核心释义一致，无新增病因。",
+      "assessor": "AI development evidence review",
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-002-CONTEXT/professional/0",
+      "content_sha256": "ca268ad441918908ccf337e06447d028958dc8d3da56050c68286d26f57a97dc",
+      "assessment": "textually_supported_with_limits",
+      "issue": null,
+      "priority": null,
+      "reason": "列项与原文对应，限定为成人变应性鼻炎多病共存。",
+      "assessor": "AI development evidence review",
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-002-CONTEXT/professional/1",
+      "content_sha256": "c9bd5b3a484834ce478e4affd1d77e7479d22fbc5b29ded174e369600b7b8fb9",
+      "assessment": "textually_supported_with_limits",
+      "issue": null,
+      "priority": null,
+      "reason": "原文支持睡眠和注意力、行为的继发影响。",
+      "assessor": "AI development evidence review",
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-002-CONTEXT/professional/2",
+      "content_sha256": "e1d8df5bd1cfe02769ddf2c2c488dfbf6b79f5e3eb4d5ea52062ff6622a28f30",
+      "assessment": "needs_revision_or_review",
+      "issue": "terminology",
+      "priority": "medium",
+      "reason": "anaphylaxis被泛化成过敏反应，AD也未展开；需规范术语并经医学审核。",
+      "assessor": "AI development evidence review",
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-002-CONTEXT/patient_summary/0",
+      "content_sha256": "0722bee941072f34571ec8b6b7758db6912383369b5f32d01dc7a997f20cb49e",
+      "assessment": "textually_supported_with_limits",
+      "issue": null,
+      "priority": null,
+      "reason": "与专业核心陈述及原文列项一致。",
+      "assessor": "AI development evidence review",
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-009-CONTEXT/professional/0",
+      "content_sha256": "6f53d93fee71506bb1c662598c295e0eaa856756a0af444369484ef6c205bdcf",
+      "assessment": "textually_supported_with_limits",
+      "issue": null,
+      "priority": null,
+      "reason": "保留至少12周与不中断；不是独立充分诊断结论。",
+      "assessor": "AI development evidence review",
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-009-CONTEXT/professional/1",
+      "content_sha256": "112cadbbc478afb005a46bc6c336a122570d8a9313917216810579ddfb82a937",
+      "assessment": "textually_supported_with_limits",
+      "issue": null,
+      "priority": null,
+      "reason": "保留非绝对时限的限制，符合原文。",
+      "assessor": "AI development evidence review",
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-009-CONTEXT/professional/2",
+      "content_sha256": "255322bb3fe486ea11ac5675a90b9d067bbc460c0ed79634bbf1f5edfd3b4677",
+      "assessment": "textually_supported_with_limits",
+      "issue": null,
+      "priority": null,
+      "reason": "同时保留临床症状和黏膜病变证据，不单凭时长。",
+      "assessor": "AI development evidence review",
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-009-CONTEXT/input_explanation/0",
+      "content_sha256": "e5302bbf070ecbe6a8f23d38c568d44329e36750740fefcaf3716826426126d8",
+      "assessment": "needs_revision_or_review",
+      "issue": "conflicting_fixture",
+      "priority": "medium",
+      "reason": "输入duration称未明确而问题称四个月；回答未明确指出冲突。拒绝直接诊断是审慎的，但测试输入应先修订并新增专门冲突测试。",
+      "assessor": "AI development evidence review",
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-009-CONTEXT/patient_summary/0",
+      "content_sha256": "f986b81ca0b180fbc0f77c4d67b48a691ed027fde14bd13d628104745c7ae69b",
+      "assessment": "needs_revision_or_review",
+      "issue": "summary_context",
+      "priority": "medium",
+      "reason": "“要算确诊”容易被脱离专业段的其他证据要求理解；建议明确仅是病程条件之一，并保留时限并非绝对的上下文。",
+      "assessor": "AI development evidence review",
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-015-CONTEXT/professional/0",
+      "content_sha256": "8de1a19e7c4e6c79ad5623cb730b8719d4dafc52e036c31acaa6c2ee0491d69a",
+      "assessment": "textually_supported_with_limits",
+      "issue": null,
+      "priority": null,
+      "reason": "数字与引文一致且保留内耳受累人群限制。",
+      "assessor": "AI development evidence review",
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-015-CONTEXT/professional/1",
+      "content_sha256": "40689cfadaddb57fbce3825c27bb3fc5492138a72cbd88db84eaed837e8c60cd",
+      "assessment": "textually_supported_with_limits",
+      "issue": null,
+      "priority": null,
+      "reason": "与列表对应，不再声称两项是排名最高症状。",
+      "assessor": "AI development evidence review",
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-015-CONTEXT/input_explanation/0",
+      "content_sha256": "2e5b7a62728940f6fdc8cb581ed51bf2998b77b8cfcc229f84faa46703155f1b",
+      "assessment": "textually_supported_with_limits",
+      "issue": null,
+      "priority": null,
+      "reason": "区分研究人群与问题，未宣称所有成人均适用；人群限定需阅读来源上下文。",
+      "assessor": "AI development evidence review",
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-015-CONTEXT/patient_summary/0",
+      "content_sha256": "91028bf205f1c9d6f1bb5fe741aba24cea6211b5ef2764082131992627aff622",
+      "assessment": "textually_supported_with_limits",
+      "issue": null,
+      "priority": null,
+      "reason": "保留研究人群及分别发生频率，未写成同时发生率。",
+      "assessor": "AI development evidence review",
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-025-CONTEXT/professional/0",
+      "content_sha256": "7f8c023a881960b524aff69e83e9641a6cc351a1a48f5e609f99b2407f6610ae",
+      "assessment": "textually_supported_with_limits",
+      "issue": null,
+      "priority": null,
+      "reason": "原文Many things支持多因素描述，不作患者个体归因。",
+      "assessor": "AI development evidence review",
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-025-CONTEXT/professional/1",
+      "content_sha256": "b36ea0a7afadbe8c5a739fe87532eeea824d4ac97bf82ce5baf913cedbc0174d",
+      "assessment": "textually_supported_with_limits",
+      "issue": null,
+      "priority": null,
+      "reason": "原文直接列出噪声及某些医疗状况的可能作用。",
+      "assessor": "AI development evidence review",
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-025-CONTEXT/professional/2",
+      "content_sha256": "50fc29bd0134dd6112554e290531a523a11f8bb643d53d9ce03062fd1cf6b76e",
+      "assessment": "textually_supported_with_limits",
+      "issue": null,
+      "priority": null,
+      "reason": "保留associated相关而非导致，未补造患者患这些疾病。",
+      "assessor": "AI development evidence review",
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-025-CONTEXT/professional/3",
+      "content_sha256": "c5a0d67969953506f81ee86859b9f263e1dd9e5308566385450219b776bc7000",
+      "assessment": "textually_supported_with_limits",
+      "issue": null,
+      "priority": null,
+      "reason": "原句明确某些耳毒性药物可导致听力损失，未提供患者处方。",
+      "assessor": "AI development evidence review",
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-025-CONTEXT/input_explanation/0",
+      "content_sha256": "266f215c05bdc0afbf6411fa0cc4bdf31e93cadee52d2c90d23f925eea1a91e8",
+      "assessment": "textually_supported_with_limits",
+      "issue": null,
+      "priority": null,
+      "reason": "问题明确噪声暴露，未填补未明确病史或个体诊断。",
+      "assessor": "AI development evidence review",
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-025-CONTEXT/patient_summary/0",
+      "content_sha256": "a13b568147458ce0d8028f2491fd06c6ea2380b98db5634b64164c0a0c3be0c7",
+      "assessment": "textually_supported_with_limits",
+      "issue": null,
+      "priority": null,
+      "reason": "为原多因素结论的通俗化；未新增具体病因。",
+      "assessor": "AI development evidence review",
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-030-CONTEXT/professional/0",
+      "content_sha256": "4d04ff192f9d10fab9e7f8e84ec116614b9f2445d1d533780427d3e710135f1c",
+      "assessment": "textually_supported_with_limits",
+      "issue": null,
+      "priority": null,
+      "reason": "保留部分人群及影响范围，不作所有患者普遍化。",
+      "assessor": "AI development evidence review",
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-030-CONTEXT/professional/1",
+      "content_sha256": "0483bc901eebbcf463c56f3c8342d58094b9134215a4fdec5d62d7504c8ad4be",
+      "assessment": "textually_supported_with_limits",
+      "issue": null,
+      "priority": null,
+      "reason": "保留失代偿性耳鸣限定及共病产生/加重范围，不声称患者已失代偿。",
+      "assessor": "AI development evidence review",
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-030-CONTEXT/professional/2",
+      "content_sha256": "920b7c7fb063518570d780c5051a060070561588fd075874a1d3e8f629cb83cc",
+      "assessment": "textually_supported_with_limits",
+      "issue": null,
+      "priority": null,
+      "reason": "保留严重病例限定，与原句一致；来源原句因果措辞的研究依据尚需医学审核。",
+      "assessor": "AI development evidence review",
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-030-CONTEXT/input_explanation/0",
+      "content_sha256": "c63bb481df024bfa17e65eac13b9b10722362a98d7a6927c5cdd5de8186d5b9e",
+      "assessment": "textually_supported_with_limits",
+      "issue": null,
+      "priority": null,
+      "reason": "保留个体情况不明的边界，没有补造未知病史；引用字段包含未实质使用字段，属于追踪粒度问题。",
+      "assessor": "AI development evidence review",
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-030-CONTEXT/patient_summary/0",
+      "content_sha256": "1330535ce1b20a463d0d8c44cd4db2e4d38735323cb27839ab3bca7204508d45",
+      "assessment": "textually_supported_with_limits",
+      "issue": null,
+      "priority": null,
+      "reason": "患者说明保留有些人限定，与核心陈述一致。",
+      "assessor": "AI development evidence review",
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-036-CONTEXT/professional/0",
+      "content_sha256": "722e20d9a6fb38d2cacac5b2e23bede2135bc9311b20e82e56518efdf654f891",
+      "assessment": "needs_revision_or_review",
+      "issue": "terminology",
+      "priority": "medium",
+      "reason": "raspy译为刺耳可能偏离粗哑/沙哑；应医学术语复核。",
+      "assessor": "AI development evidence review",
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-036-CONTEXT/professional/1",
+      "content_sha256": "f32bc63f1017d280496a9834d3c95ed311638d257b7fab768005673639fd8ab3",
+      "assessment": "textually_supported_with_limits",
+      "issue": null,
+      "priority": null,
+      "reason": "原句支持often及vocal folds范围，无额外病因推断。",
+      "assessor": "AI development evidence review",
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-036-CONTEXT/input_explanation/0",
+      "content_sha256": "5df076609a83b691c4de039b117a1dee8b6ef991da38d6ee9a125e7b0ba4662c",
+      "assessment": "needs_revision_or_review",
+      "issue": "input_fidelity",
+      "priority": "high",
+      "reason": "问题只说声音粗哑和音量变小，未说音调改变；“你提到音量和音调改变”补造了患者输入。",
+      "assessor": "AI development evidence review",
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-036-CONTEXT/patient_summary/0",
+      "content_sha256": "29d8455c951e5ec0821641e6f1ab751d10cf6a41bf2616cf2ff781c08fe764ad",
+      "assessment": "needs_revision_or_review",
+      "issue": "terminology",
+      "priority": "medium",
+      "reason": "继承专业段对raspy的“刺耳”译法，需与专业段一起修订。",
+      "assessor": "AI development evidence review",
+      "clinical_approval": false
+    }
+  ]
+}

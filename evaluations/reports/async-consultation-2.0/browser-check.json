@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "synthetic_fixture_only": true,
+  "checks": [
+    "returns_202_and_keeps_page_interactive",
+    "single_worker_queues_second_request",
+    "reload_resumes_status_without_resubmitting",
+    "background_finishes_and_polling_renders_saved_answer",
+    "history_reads_never_call_generator",
+    "lost_submission_response_reuses_job_id",
+    "failed_job_waits_for_manual_retry",
+    "cancel_retry_does_not_submit",
+    "confirmed_retry_requires_new_consent_and_runs_once",
+    "validation_rejection_is_withheld_and_not_automatically_retried",
+    "late_poll_cannot_restore_private_content_after_logout",
+    "mobile_layout_and_no_script_errors"
+  ],
+  "errors": []
+}

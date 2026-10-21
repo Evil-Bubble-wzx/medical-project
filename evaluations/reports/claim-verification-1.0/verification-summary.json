@@ -1,0 +1,19 @@
+{
+  "case_status_counts": {
+    "answered": 4,
+    "validation_failed": 4,
+    "insufficient_evidence": 4
+  },
+  "valid_verification_records": 8,
+  "judged_claims": 26,
+  "rejected_claims": 4,
+  "displayed_claims": 22,
+  "error_counts": {
+    "invalid_answer_schema": 1,
+    "provider_connect_failed": 1,
+    "verification_missing_refusal_evidence": 1,
+    "verification_status_mismatch": 1
+  },
+  "clinical_approval": false,
+  "semantic_accuracy": null
+}

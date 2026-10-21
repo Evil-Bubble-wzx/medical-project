@@ -1,0 +1,30 @@
+{
+  "scope": "Synthetic engineering lifecycle checks; not clinical or model-quality evaluation",
+  "pytest": {
+    "name": "pytest",
+    "errors": "0",
+    "failures": "0",
+    "skipped": "0",
+    "tests": "331",
+    "time": "6.438",
+    "timestamp": "2026-10-20T12:07:20.540917+08:00",
+    "hostname": "DESKTOP-T469ISO"
+  },
+  "audit_events": 0,
+  "development_snapshot": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+  "development_chunks": 802,
+  "production_snapshot": null,
+  "real_release_count": 0,
+  "bridge_extension_tables_in_real_database": 0,
+  "live_history_http": 200,
+  "real_library_http_writes": 0,
+  "hashes": {
+    "evaluations/datasets/adult-ent-candidate-1.0.json": "b06eb3a4930b0c8b73a91d8a2a6a7d197f459a4fd9b0c258d3f578caa67d02b7",
+    "evaluations/candidate-library-1.0/manifest.json": "313fc2fb45177408f3abc7c412fd9d5e205afdfdadc79b70602f4f7b43fd3326",
+    "knowledge/manifest.json": "4c43c46401ab1f11ea9d6a6fd1f6b55df3938d0c954829782ca6f72c92ee57aa",
+    "configs/retrieval.json": "e34ab0df834d6ab3c0489bd423dfe3207fddac178033bcf4eae9a511e5fb746c",
+    "configs/generation.json": "36e5bdb4e02540ea4c55c7045092f2cdaaca28d9bd13eacaebdbd2413f2ce03a"
+  },
+  "clinical_approval": false,
+  "eligible_for_formal_independent_scoring": false
+}

@@ -1,0 +1,260 @@
+{
+  "source_queue_sha256": "5b36b153a762502ca8d70c68341fc605e9dd13f297d2b7f1235e3dfc00ab8027",
+  "source_results_sha256": "8a8f5869b7ca7ae63b93af6b8d68f8e5796f7d17718e65f3cad22b6db2fa536e",
+  "candidates": [
+    {
+      "claim_id": "GEN-ENT-009/professional:2",
+      "original_text": "资料指出，12周这一最短病程对慢性病诊断是有用的策略，但不应视作绝对。",
+      "supports": [
+        {
+          "evidence_id": "E1",
+          "quote": "While a minimum duration of 12 weeks reflects a useful policy for chronic disease diagnosis from a symptomatic perspective, this need not be considered absolute.",
+          "source_title": "Management of chronic rhinosinusitis with nasal polyps in the Asia-Pacific region and Russia: Recommendations from an expert working group"
+        }
+      ],
+      "observation": "12周表述未限定鼻窦炎语境，仍需范围复核。",
+      "gate": {
+        "code": "source_scope_overreach",
+        "rule": "twelve_week_rhinosinusitis_scope_omitted"
+      },
+      "candidate_text": "在慢性鼻窦炎语境中，至少12周是从症状角度讨论慢性病程的界值，但并非绝对。",
+      "candidate_gate": "bounded_screen_pass_only",
+      "review_status": "pending",
+      "reviewer": null,
+      "decision": null,
+      "applied": false,
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-036/professional:0",
+      "original_text": "声音嘶哑时，声音可能表现为气息声、raspy或紧张，也可能音量变小或音调变低。",
+      "supports": [
+        {
+          "evidence_id": "E1",
+          "quote": "If you are hoarse, your voice will sound breathy, raspy, or strained, or will be softer in volume or lower in pitch.",
+          "source_title": "Hoarseness"
+        }
+      ],
+      "observation": "strained译作紧张，可能产生情绪含义，需术语审核。",
+      "gate": {
+        "code": "source_term_mismatch",
+        "rule": "strained_emotional_translation"
+      },
+      "candidate_text": "声音嘶哑时，声音可能表现为气息声、raspy或strained，也可能音量变小或音调变低。",
+      "candidate_gate": "bounded_screen_pass_only",
+      "review_status": "pending",
+      "reviewer": null,
+      "decision": null,
+      "applied": false,
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-036/patient_summary:0",
+      "original_text": "声音嘶哑时，声音可能表现为气息声、raspy或紧张，也可能音量变小或音调变低。",
+      "supports": [
+        {
+          "evidence_id": "E1",
+          "quote": "If you are hoarse, your voice will sound breathy, raspy, or strained, or will be softer in volume or lower in pitch.",
+          "source_title": "Hoarseness"
+        }
+      ],
+      "observation": "摘要沿用紧张译词，需术语审核。",
+      "gate": {
+        "code": "source_term_mismatch",
+        "rule": "strained_emotional_translation"
+      },
+      "candidate_text": "声音嘶哑时，声音可能表现为气息声、raspy或strained，也可能音量变小或音调变低。",
+      "candidate_gate": "bounded_screen_pass_only",
+      "review_status": "pending",
+      "reviewer": null,
+      "decision": null,
+      "applied": false,
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-002-CONTEXT/professional:1",
+      "original_text": "成人过敏性鼻炎可涉及睡眠问题，并继发影响注意力或行为。",
+      "supports": [
+        {
+          "evidence_id": "E1",
+          "quote": "Sleep problems and secondary effects on concentration and behaviour;",
+          "source_title": "Multi-morbidities of allergic rhinitis in adults: European Academy of Allergy and Clinical Immunology Task Force Report"
+        }
+      ],
+      "observation": "原文注意力and行为被写成或，连接关系需审核。",
+      "gate": {
+        "code": "source_relation_shift",
+        "rule": "concentration_and_behaviour_changed_to_or"
+      },
+      "candidate_text": "成人过敏性鼻炎可涉及睡眠问题，并继发影响注意力和行为。",
+      "candidate_gate": "bounded_screen_pass_only",
+      "review_status": "pending",
+      "reviewer": null,
+      "decision": null,
+      "applied": false,
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-002-CONTEXT/patient_summary:0",
+      "original_text": "成人过敏性鼻炎可能连带影响眼睛、鼻窦、耳朵和咽喉这些部位。",
+      "supports": [
+        {
+          "evidence_id": "E1",
+          "quote": "Disorders anatomically related to the nose: conjunctivitis, sinusitis, middle ear problems, throat and laryngeal effects;",
+          "source_title": "Multi-morbidities of allergic rhinitis in adults: European Academy of Allergy and Clinical Immunology Task Force Report"
+        }
+      ],
+      "observation": "解剖相关疾病改成连带影响部位，可能增加作用关系。",
+      "gate": {
+        "code": "source_scope_overreach",
+        "rule": "anatomic_relation_changed_to_effect"
+      },
+      "candidate_text": "资料列出的与鼻解剖相关的疾病包括结膜炎、鼻窦炎、中耳问题及咽喉部影响。",
+      "candidate_gate": "bounded_screen_pass_only",
+      "review_status": "pending",
+      "reviewer": null,
+      "decision": null,
+      "applied": false,
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-009-CONTEXT/professional:0",
+      "original_text": "资料指出，12周这一最短病程只是从症状角度用于慢性病诊断的实用策略，并非绝对界限。",
+      "supports": [
+        {
+          "evidence_id": "E2",
+          "quote": "While a minimum duration of 12 weeks reflects a useful policy for chronic disease diagnosis from a symptomatic perspective, this need not be considered absolute.",
+          "source_title": "Management of chronic rhinosinusitis with nasal polyps in the Asia-Pacific region and Russia: Recommendations from an expert working group"
+        }
+      ],
+      "observation": "12周慢性病诊断表述未限定疾病范围。",
+      "gate": {
+        "code": "source_scope_overreach",
+        "rule": "twelve_week_rhinosinusitis_scope_omitted"
+      },
+      "candidate_text": "在慢性鼻窦炎语境中，至少12周是从症状角度讨论慢性病程的界值，但并非绝对。",
+      "candidate_gate": "bounded_screen_pass_only",
+      "review_status": "pending",
+      "reviewer": null,
+      "decision": null,
+      "applied": false,
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-009-CONTEXT/patient_summary:0",
+      "original_text": "有资料指出，12周这个最短病程只是从症状角度判断慢性病的一种实用做法，并不是绝对的界限。",
+      "supports": [
+        {
+          "evidence_id": "E2",
+          "quote": "While a minimum duration of 12 weeks reflects a useful policy for chronic disease diagnosis from a symptomatic perspective, this need not be considered absolute.",
+          "source_title": "Management of chronic rhinosinusitis with nasal polyps in the Asia-Pacific region and Russia: Recommendations from an expert working group"
+        }
+      ],
+      "observation": "摘要沿用未限定疾病范围的12周表述。",
+      "gate": {
+        "code": "source_scope_overreach",
+        "rule": "twelve_week_rhinosinusitis_scope_omitted"
+      },
+      "candidate_text": "在慢性鼻窦炎语境中，至少12周是从症状角度讨论慢性病程的界值，但并非绝对。",
+      "candidate_gate": "bounded_screen_pass_only",
+      "review_status": "pending",
+      "reviewer": null,
+      "decision": null,
+      "applied": false,
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-015-CONTEXT/patient_summary:0",
+      "original_text": "在成人急性中耳炎且内耳也受到波及的情况下，耳鸣和眩晕是常被分别报告的症状。",
+      "supports": [
+        {
+          "evidence_id": "E1",
+          "quote": "There was also a high percentage of patients with tinnitus (51%) and vertigo (32%).",
+          "source_title": "Treatment of Acute Otitis Media with Inner Ear Involvement in Adults"
+        }
+      ],
+      "observation": "摘要未重述研究范围，可能泛化研究结论。",
+      "gate": {
+        "code": "source_scope_overreach",
+        "rule": "summary_study_population_omitted"
+      },
+      "candidate_text": "这项成人急性中耳炎伴内耳受累的研究中，耳鸣和眩晕是分别报告的症状。",
+      "candidate_gate": "bounded_screen_pass_only",
+      "review_status": "pending",
+      "reviewer": null,
+      "decision": null,
+      "applied": false,
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-036-CONTEXT/professional:0",
+      "original_text": "声音嘶哑时，说话声音可表现为气息声、raspy或紧张感，或音量变小或音调变低。",
+      "supports": [
+        {
+          "evidence_id": "E1",
+          "quote": "If you are hoarse, your voice will sound breathy, raspy, or strained, or will be softer in volume or lower in pitch.",
+          "source_title": "Hoarseness"
+        }
+      ],
+      "observation": "strained译作紧张感，需术语审核。",
+      "gate": {
+        "code": "source_term_mismatch",
+        "rule": "strained_emotional_translation"
+      },
+      "candidate_text": "声音嘶哑时，说话声音可表现为气息声、raspy或strained，或音量变小或音调变低。",
+      "candidate_gate": "bounded_screen_pass_only",
+      "review_status": "pending",
+      "reviewer": null,
+      "decision": null,
+      "applied": false,
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-036-CONTEXT/patient_summary:0",
+      "original_text": "声音嘶哑时，说话声可能听起来像气息声、raspy或紧张，也可能音量变小或音调变低。",
+      "supports": [
+        {
+          "evidence_id": "E1",
+          "quote": "If you are hoarse, your voice will sound breathy, raspy, or strained, or will be softer in volume or lower in pitch.",
+          "source_title": "Hoarseness"
+        }
+      ],
+      "observation": "摘要沿用紧张译词，需术语审核。",
+      "gate": {
+        "code": "source_term_mismatch",
+        "rule": "strained_emotional_translation"
+      },
+      "candidate_text": "声音嘶哑时，说话声可能听起来像气息声、raspy或strained，也可能音量变小或音调变低。",
+      "candidate_gate": "bounded_screen_pass_only",
+      "review_status": "pending",
+      "reviewer": null,
+      "decision": null,
+      "applied": false,
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "BATCH-STATE-UNKNOWN/patient_summary:0",
+      "original_text": "严重的耳鸣会给生活的方方面面带来很大困扰，还可能引起或加重焦虑、睡眠问题、注意力问题、抑郁等同时存在的健康问题。",
+      "supports": [
+        {
+          "evidence_id": "E1",
+          "quote": "Decompensated tinnitus: The ringing in the ears has a massive impact on all areas of life and leads to the development or aggravation of comorbidity (see Table 1; e.g. anxiety, sleep disorders, concentration disorders, depression).",
+          "source_title": "S3 Guideline: Chronic Tinnitus"
+        }
+      ],
+      "observation": "失代偿性耳鸣被概括成严重耳鸣，亚型范围需审核。",
+      "gate": {
+        "code": "source_scope_overreach",
+        "rule": "summary_decompensated_subtype_omitted"
+      },
+      "candidate_text": "失代偿性耳鸣会给生活的方方面面带来很大困扰，还可能引起或加重焦虑、睡眠问题、注意力问题、抑郁等同时存在的健康问题。",
+      "candidate_gate": "bounded_screen_pass_only",
+      "review_status": "pending",
+      "reviewer": null,
+      "decision": null,
+      "applied": false,
+      "clinical_approval": false
+    }
+  ],
+  "clinical_approval": false
+}

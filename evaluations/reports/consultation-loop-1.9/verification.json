@@ -1,0 +1,41 @@
+{
+  "pytest": {
+    "name": "pytest",
+    "errors": "0",
+    "failures": "0",
+    "skipped": "0",
+    "tests": "372",
+    "time": "31.613",
+    "timestamp": "2026-10-20T14:57:50.491150+08:00",
+    "hostname": "DESKTOP-T469ISO"
+  },
+  "consultation_browser_checks": 12,
+  "patient_regression_checks": 17,
+  "live_smoke": {
+    "scope": "One real-provider synthetic workflow; not clinical or quality acceptance",
+    "isolated_database": "var\\consultation-live-fixture-1.9-20261020T070326Z\\business.sqlite3",
+    "state": "completed",
+    "error_code": null,
+    "answer_status": "answered",
+    "model": "deepseek-flash",
+    "workflow_invocations": 1,
+    "provider_post_requests": 3,
+    "known_development_case": "GEN-ENT-002",
+    "idempotent_replay": true,
+    "authorized_doctor_same_result": true,
+    "real_workbench_accounts_created": 0
+  },
+  "business_schema": 2,
+  "actual_workbench_rows": {
+    "business_users": 0,
+    "business_patients": 0,
+    "patient_snapshots": 0,
+    "patient_grants": 0,
+    "consultation_runs": 0
+  },
+  "candidate_review_events": 0,
+  "development_snapshot": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+  "development_chunks": 802,
+  "routes_loaded": true,
+  "scope": "Engineering consultation persistence and authorization only; no clinical acceptance"
+}
