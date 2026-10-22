@@ -68,7 +68,11 @@ def test_bounded_source_preserving_paraphrases_remain_valid(text, quote, section
 def test_terms_do_not_rewrite_original_citation_or_supply_new_medical_meaning():
     quote = "The original source describes the voice as raspy."
     claim = {"text": "原文以raspy描述声音", "supports": [{"evidence_id": "E1", "quote": quote}]}
-    answer = {"status": "answered", "professional": [claim], "patient_summary": [claim]}
+    answer = {
+        "status": "answered",
+        "professional": [claim],
+        "patient_summary": [{**claim, "text": "资料描述了嗓音的表现"}],
+    }
     result = validate_answer(json.dumps(answer), [{"evidence_id": "E1", "text": quote}], {})
     assert result["patient_summary"][0]["supports"][0]["quote"] == quote
     answer["patient_summary"] = [{**claim, "text": "刺耳的声音"}]

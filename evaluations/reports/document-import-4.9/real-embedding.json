@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "checks": [
+    "pdf:keyword:evidence_locator",
+    "pdf:vector:evidence_locator",
+    "pdf:hybrid:evidence_locator",
+    "docx:keyword:evidence_locator",
+    "docx:vector:evidence_locator",
+    "docx:hybrid:evidence_locator"
+  ],
+  "real_local_embedding": true,
+  "model_calls": 0,
+  "synthetic_fixture": true,
+  "main_library_changed": false
+}

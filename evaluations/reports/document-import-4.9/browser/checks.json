@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "checks": [
+    "pdf_readonly_preview_with_locations",
+    "pdf_prepared_without_auto_activation",
+    "pdf_retrievable_with_preserved_locations",
+    "docx_readonly_preview_with_locations",
+    "docx_prepared_without_auto_activation",
+    "docx_retrievable_with_preserved_locations",
+    "no_text_pdf_blocked_with_ocr_notice",
+    "failed_extraction_does_not_switch_library",
+    "mobile_no_horizontal_overflow"
+  ],
+  "errors": [],
+  "synthetic_fixture": true,
+  "model_calls": 0
+}

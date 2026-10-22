@@ -1,0 +1,65 @@
+{
+  "offline_tests": 696,
+  "offline_failures": 0,
+  "ruff_passed": true,
+  "browser": {
+    "passed": true,
+    "checks": [
+      "create_case_with_empty_snapshot_and_no_stale_input",
+      "save_first_patient_snapshot",
+      "custom_case_consultation_and_citations",
+      "rename_preserves_consultation_history",
+      "archived_case_readonly_history",
+      "restore_reenables_case_workflow",
+      "case_name_search",
+      "refresh_preserves_case_and_history",
+      "mobile_no_horizontal_overflow"
+    ],
+    "errors": [],
+    "synthetic_fixture": true,
+    "provider_calls": 0
+  },
+  "live_browser": {
+    "passed": true,
+    "live_port": 8012,
+    "checks": [
+      "doctor_login_and_existing_cases",
+      "new_case_form_available",
+      "case_management_read_endpoint",
+      "name_filter"
+    ],
+    "errors": [],
+    "additional_generation_requests": 0,
+    "created_test_cases": 0
+  },
+  "migration": {
+    "schema": 4,
+    "tables": {
+      "business_patients": {
+        "count": 6,
+        "sha256": "8c79947b397f502c14af2ca2da4e3b577565baf9c79b4690b9600fb61578c48d"
+      },
+      "patient_snapshots": {
+        "count": 6,
+        "sha256": "f38ab70a7583303ad1183bf57ee47f4e4c1a1c001278917ee21f31a7d9c3bc2b"
+      },
+      "consultation_runs": {
+        "count": 97,
+        "sha256": "fc241ba6294306318e639d2895de2cc6f80091ed049a7f26b2d5bf2d0b6dd3ef"
+      }
+    },
+    "existing_records_unchanged": true,
+    "new_case_count": 0
+  },
+  "additional_paid_generation_calls": 0,
+  "clinical_approval": false,
+  "source_sha256": {
+    "backend/app/application/business.py": "4483ca3b04591a8f7a5d99de258942db9a239b8b82ada68bc5756d94d32b5896",
+    "backend/app/application/doctor_cases.py": "fbca8242704f5f7546d4e87dd8711361ba35f788fe5244cc1550efc37e55a5aa",
+    "backend/app/application/consultations.py": "a1bf5f817ba11d06894fa5915359fd755df42e992192351a2da8a0d1b4d7341d",
+    "backend/app/api/business.py": "ff401675c098ec9dc2e146090649287f211456e20977468d9e5cb861f139877f",
+    "frontend/validation/doctor.html": "73c4eed5c8108dce59e58b95ff38f1a09e043d2d6384dcff993299a855a23fba",
+    "frontend/validation/doctor-trial.js": "37ad31c50d8f0d2c67d8284cf0eeaeae364a1f9d7cd48a58692b5e62739954ae",
+    "frontend/validation/patients.js": "8c13d19b2b851d5c10238a000fcb08375bc2ade2dbb81d132d7f522847900efd"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "checks": [
+    "eleven_pending_items_in_isolated_fixture",
+    "original_candidate_and_original_quotes_visible",
+    "incomplete_submit_rejected",
+    "partial_draft_persists_without_html_execution",
+    "acceptance_is_a_declaration_not_application_or_clinical_approval",
+    "stale_page_conflict_keeps_unsaved_text",
+    "append_only_history_and_safe_literal_rendering",
+    "rejection_can_be_submitted_without_candidate_application",
+    "revision_requires_explicit_proposed_text_and_is_saved",
+    "submitted_state_filter",
+    "export_contains_items_and_history_without_approval",
+    "existing_source_form_still_works",
+    "mobile_no_horizontal_overflow",
+    "no_javascript_page_errors"
+  ],
+  "synthetic_only": true,
+  "clinical_approval": false
+}

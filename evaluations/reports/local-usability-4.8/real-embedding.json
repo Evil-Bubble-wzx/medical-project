@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "synthetic_only": true,
+  "active_main_library_changed": false,
+  "model_calls": 0,
+  "real_local_embedding": true,
+  "retrieval_modes": [
+    "keyword",
+    "vector",
+    "hybrid"
+  ],
+  "fixture_root": "C:\\medical-project\\var\\local-import-ui-20261022T071106Z"
+}

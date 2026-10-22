@@ -78,7 +78,7 @@ def test_new_codes_remain_content_rejections_and_survive_safe_history_diagnostic
 
     validation = {"error_code": code, "failure_stage": "summarize_patient"}
     validation["outcome_category"] = outcome_category({"status": "validation_failed"}, validation)
-    assert safe_validation_diagnostic(validation) == {**validation}
+    assert safe_validation_diagnostic(validation) == {**validation, "scope_code": None}
     assert validation["outcome_category"] == "content_rejected"
 
 

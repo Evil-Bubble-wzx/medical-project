@@ -1,0 +1,32 @@
+{
+  "delivery": "4.5",
+  "offline_tests_passed": 626,
+  "browser_fixture_checks": 11,
+  "real_live_consultations": 1,
+  "real_answer_status": "answered",
+  "real_browser_read_only_verified": true,
+  "clinical_approval": false,
+  "real_patient_access_enabled": false,
+  "active_service": "http://127.0.0.1:8012/doctor",
+  "code_sha256": {
+    "backend/app/application/doctor_trial.py": "b1335cc337d58f1ccd281411e3812c30f6fda7572f8a30996e000291ee378226",
+    "backend/app/application/doctor_feedback.py": "6e55e70d30881a75a20fa7a09ae1f7ed096a2a30230c71b8bf0cc021c29b7e61",
+    "backend/app/api/business.py": "025124b238b33005e939ed08500186de035546aad814b1e32fe4bc0df35cc4cc",
+    "backend/app/api/validation.py": "9a42abd994b95e9441a05e90f73b0cc0d025bc994657fec6816872f75887beee",
+    "frontend/validation/doctor.html": "ac741ca5ef40eb2f3a9cba136d97cc47458f9a454f514cc71f2f31f60255ff34",
+    "frontend/validation/doctor-trial.js": "1fb00d39b4e716f40f0de7b1ac9cd55f4894d22eadbe732bab1f62c902059baf",
+    "configs/doctor-trial-cases.json": "b474b736190c0f0a050ecd0d76cb3487ac555a3dd1375b08708eff5607d42132",
+    "scripts/start_doctor_trial.ps1": "5298f433f1f651f6f7eaa8c11f0614a309a75847b6af865f8988cc774f247ab3",
+    "scripts/show_doctor_trial_login.ps1": "2dd96d653f53278d0d480c980c36f4cfb44e34c652d9aed7fcc99646c8b9f0a9",
+    "scripts/prepare_doctor_trial.py": "af596cf6950a9819af2b13d171f239b8425583ccbede8d2968b51365f4b92852",
+    "scripts/verify_doctor_trial_ui.cjs": "807c1ca23ac71eb66091b2bf3acca283de1decbf8d403a0d46ea3d9fae5007fb",
+    "scripts/check_doctor_trial_live.py": "34e546c7d3e5c17ff2d19430149d6730c3604f7fdd96958d5ac547a9b00b1d7a",
+    "scripts/inspect_doctor_trial_live.cjs": "ad892ba86c1ffde88a793bee070dbcaf44f1feb24f266f738fad4d9ec2ba3acf"
+  },
+  "known_limitations": [
+    "English terms in patient summary",
+    "input explanation mostly faithful recording",
+    "single shared development doctor account",
+    "hospital integration and quality acceptance incomplete"
+  ]
+}

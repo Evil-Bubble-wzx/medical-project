@@ -1,0 +1,45 @@
+{
+  "stored_results_unchanged": true,
+  "annotated_items": 4,
+  "records": [
+    {
+      "consultation_id": "c2077d8b-567b-4d82-8980-be89b43d54ac",
+      "issues": [
+        {
+          "section": "input_explanation",
+          "index": 1,
+          "code": "system_boundary_in_comparison"
+        }
+      ],
+      "stored_result_sha256": "66b1c425953d0c41ad30f1b0482ea22f4e808262568210405874c588e9c8f27f"
+    },
+    {
+      "consultation_id": "cc53ccfc-f8e6-4a6f-8230-50b918394579",
+      "issues": [
+        {
+          "section": "input_explanation",
+          "index": 0,
+          "code": "system_boundary_in_comparison"
+        }
+      ],
+      "stored_result_sha256": "81f7d940c9845ff6507c50d8d69aaf156fb9928b18a9a13a346a4d8b934c6bfa"
+    },
+    {
+      "consultation_id": "de68e0ce-6645-4270-8763-d3f1453dc7d5",
+      "issues": [
+        {
+          "section": "input_explanation",
+          "index": 0,
+          "code": "record_only_comparison"
+        },
+        {
+          "section": "input_explanation",
+          "index": 1,
+          "code": "system_boundary_in_comparison"
+        }
+      ],
+      "stored_result_sha256": "eefe696139daf2e532098860114feefba53a7a22ee30a163c56387c3d325ad0b"
+    }
+  ],
+  "clinical_approval": false
+}

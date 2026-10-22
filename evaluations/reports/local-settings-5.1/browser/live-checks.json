@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "live_port": 8012,
+  "checks": [
+    "hub_settings_link",
+    "saved_settings_read",
+    "process_key_presence_only",
+    "provider_models_diagnostic",
+    "configuration_unchanged"
+  ],
+  "diagnostic_status": "authenticated",
+  "configured_model_found": true,
+  "errors": [],
+  "configuration_changed": false,
+  "additional_generation_requests": 0,
+  "patient_information_sent": false
+}

@@ -1,0 +1,8 @@
+{
+  "delivery": "4.4",
+  "tests_passed": 621,
+  "clinical_approval": false,
+  "main_corpus_changed": false,
+  "summary_sha256": "a526cfc3ba10b0be03350a6f195cad4444e2c7b26a343a967b152d39b4a409e6",
+  "proof": "evaluations/reports/otitis-supplement-4.4/summary.json"
+}

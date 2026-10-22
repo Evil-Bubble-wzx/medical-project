@@ -28,7 +28,7 @@ class BusinessStore:
         self.path.parent.mkdir(parents=True, exist_ok=True)
         with self.connect() as db:
             schema = db.execute("PRAGMA user_version").fetchone()[0]
-            if schema not in (0, 1, 2, 3):
+            if schema not in (0, 1, 2, 3, 4):
                 raise ValueError("unsupported_business_schema")
             if schema == 0:
                 db.executescript(Path(__file__).with_name("business_schema.sql").read_text())
@@ -65,6 +65,15 @@ class BusinessStore:
                     "error_code='consultation_interrupted' WHERE state='running'"
                 )
                 db.execute("PRAGMA user_version=3")
+
+            if schema < 4:
+                db.execute("""CREATE TABLE IF NOT EXISTS doctor_cases (
+                    patient_id TEXT PRIMARY KEY REFERENCES business_patients(id),
+                    doctor_id TEXT NOT NULL REFERENCES business_users(id),
+                    request_key TEXT NOT NULL, request_hash TEXT NOT NULL,
+                    revision INTEGER NOT NULL CHECK(revision>=1), archived_at REAL,
+                    UNIQUE(doctor_id,request_key))""")
+                db.execute("PRAGMA user_version=4")
 
     @contextmanager
     def connect(self):
@@ -183,7 +192,15 @@ class BusinessStore:
                 (patient, user["id"], self.clock()),
             ).fetchone()
         )
-        if not row or not (owner or grant):
+        managed = (
+            not owner_only
+            and user["role"] == "doctor"
+            and db.execute(
+                "SELECT 1 FROM doctor_cases WHERE patient_id=? AND doctor_id=?",
+                (patient, user["id"]),
+            ).fetchone()
+        )
+        if not row or not (owner or grant or managed):
             raise BusinessError("record_not_found")
         return row
 
@@ -204,15 +221,25 @@ class BusinessStore:
             self.event(db, user["id"], "create_synthetic_patient", identity)
         return {"patient_id": identity, "label": label, "synthetic_only": True}
 
+    @staticmethod
+    def ensure_case_writable(db, patient):
+        if db.execute(
+            "SELECT 1 FROM doctor_cases WHERE patient_id=? AND archived_at IS NOT NULL", (patient,)
+        ).fetchone():
+            raise BusinessError("doctor_case_archived", 409)
+
     def patients(self, token):
         with self.connect() as db:
             user = self.identity(db, token)
             rows = db.execute(
-                "SELECT p.id AS patient_id,p.label FROM business_patients p "
-                "WHERE p.owner_id=? OR (?='doctor' AND EXISTS (SELECT 1 FROM patient_grants g "
-                "WHERE g.patient_id=p.id AND g.doctor_id=? AND g.revoked_at IS NULL "
-                "AND g.expires_at>?)) ORDER BY p.created_at,p.id LIMIT 100",
-                (user["id"], user["role"], user["id"], self.clock()),
+                "SELECT p.id AS patient_id,p.label,c.revision AS case_revision,c.archived_at,"
+                "CASE WHEN c.doctor_id=? THEN 1 ELSE 0 END AS managed_case "
+                "FROM business_patients p LEFT JOIN doctor_cases c ON c.patient_id=p.id "
+                "WHERE (p.owner_id=? OR (?='doctor' AND (c.doctor_id=? OR EXISTS "
+                "(SELECT 1 FROM patient_grants g WHERE g.patient_id=p.id AND g.doctor_id=? "
+                "AND g.revoked_at IS NULL AND g.expires_at>?)))) "
+                "AND c.archived_at IS NULL ORDER BY p.created_at,p.id LIMIT 100",
+                (user["id"], user["id"], user["role"], user["id"], user["id"], self.clock()),
             ).fetchall()
             return {"patients": [dict(r) for r in rows], "synthetic_only": True}
 
@@ -285,6 +312,7 @@ class BusinessStore:
         with self.connect() as db:
             user = self.identity(db, token)
             self.allowed(db, user, patient)
+            self.ensure_case_writable(db, patient)
             revision = db.execute(
                 "SELECT COALESCE(MAX(revision),0) FROM patient_snapshots WHERE patient_id=?",
                 (patient,),

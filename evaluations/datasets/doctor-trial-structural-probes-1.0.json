@@ -1,0 +1,63 @@
+{
+  "version": "doctor-trial-structural-probes-1.0",
+  "synthetic_only": true,
+  "independent_medical_gold": false,
+  "cases": [
+    {
+      "case_id": "PROBE-DENIED",
+      "input": {
+        "age": 42,
+        "chief_complaint": "否认声音嘶哑",
+        "duration": "不详",
+        "history": "合成病例；相关病史未提供",
+        "pasted_text": "仅供开发测试，非真实患者",
+        "question": "声嘶资料描述哪些声音变化？",
+        "synthetic_only": true
+      },
+      "expected_status": "answered",
+      "expected_scope_code": null
+    },
+    {
+      "case_id": "PROBE-UNKNOWN",
+      "input": {
+        "age": 68,
+        "chief_complaint": "是否听力下降尚不确定",
+        "duration": "未知",
+        "history": "合成病例；相关病史未提供",
+        "pasted_text": "仅供开发测试，非真实患者",
+        "question": "资料中如何解释老年性听力损失？",
+        "synthetic_only": true
+      },
+      "expected_status": "answered",
+      "expected_scope_code": null
+    },
+    {
+      "case_id": "PROBE-CONFLICT",
+      "input": {
+        "age": 42,
+        "chief_complaint": "自述声音嘶哑",
+        "duration": "3天",
+        "history": "合成病例；相关病史未提供",
+        "pasted_text": "仅供开发测试，非真实患者",
+        "question": "我声音嘶哑6个月，资料如何解释这个病程？",
+        "synthetic_only": true
+      },
+      "expected_status": "needs_information",
+      "expected_scope_code": "input_duration_needs_confirmation"
+    },
+    {
+      "case_id": "PROBE-CHILD",
+      "input": {
+        "age": 40,
+        "chief_complaint": "合成成人咨询者，问题对象为孩子",
+        "duration": "未知",
+        "history": "合成病例；相关病史未提供",
+        "pasted_text": "仅供开发测试，非真实患者",
+        "question": "我家5岁孩子能用这套成人耳鸣资料吗？",
+        "synthetic_only": true
+      },
+      "expected_status": "insufficient_evidence",
+      "expected_scope_code": "adult_library_target_mismatch"
+    }
+  ]
+}

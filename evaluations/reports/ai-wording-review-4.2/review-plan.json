@@ -1,0 +1,269 @@
+{
+  "schema_version": 1,
+  "review_kind": "ai_text_review_not_clinical",
+  "reviewer": "AI文本复核（Codex，非医学审签）",
+  "reviewed_at": "2026-10-22T02:17:22.127349+00:00",
+  "clinical_approval": false,
+  "answer_changes_applied": false,
+  "source_packet_sha256": "f8790de26c7f1158cde34759eceb6db08d5bf8d0111f14bb295f6ff6e235be33",
+  "items": [
+    {
+      "claim_id": "GEN-ENT-009/professional:2",
+      "decision": "accept",
+      "proposed_text": "在慢性鼻窦炎语境中，至少12周是从症状角度讨论慢性病程的界值，但并非绝对。",
+      "notes": "候选已限定慢性鼻窦炎语境，保留12周是参考界值且并非绝对的原意。仅限该专家建议的病程讨论，不可泛化所有慢性病，也不能据此给个体确诊。若解释提前诊断例外，需另绑定邻近关于客观病变及CRSwNP的原句。",
+      "candidate_text": "在慢性鼻窦炎语境中，至少12周是从症状角度讨论慢性病程的界值，但并非绝对。",
+      "ai_evidence_checked": true,
+      "human_evidence_checked": null,
+      "human_scope_checked": null,
+      "clinical_approval": false,
+      "source_supports": [
+        {
+          "evidence_id": "E1",
+          "quote": "While a minimum duration of 12 weeks reflects a useful policy for chronic disease diagnosis from a symptomatic perspective, this need not be considered absolute.",
+          "source_title": "Management of chronic rhinosinusitis with nasal polyps in the Asia-Pacific region and Russia: Recommendations from an expert working group"
+        }
+      ]
+    },
+    {
+      "claim_id": "GEN-ENT-036/professional:0",
+      "decision": "accept",
+      "proposed_text": "声音嘶哑时，声音可能表现为气息声、raspy或strained，也可能音量变小或音调变低。",
+      "notes": "保留strained原词避免将嗓音性质误写为情绪紧张；音量与音调的或关系保留。仅建议保留在专业段，不据此批准中文术语译名或个体诊断。",
+      "candidate_text": "声音嘶哑时，声音可能表现为气息声、raspy或strained，也可能音量变小或音调变低。",
+      "ai_evidence_checked": true,
+      "human_evidence_checked": null,
+      "human_scope_checked": null,
+      "clinical_approval": false,
+      "source_supports": [
+        {
+          "evidence_id": "E1",
+          "quote": "If you are hoarse, your voice will sound breathy, raspy, or strained, or will be softer in volume or lower in pitch.",
+          "source_title": "Hoarseness"
+        }
+      ]
+    },
+    {
+      "claim_id": "GEN-ENT-036/patient_summary:0",
+      "decision": "revise",
+      "proposed_text": "资料描述，声音嘶哑时，音量可能变小或音调变低。",
+      "notes": "候选避免误译，但未解释的raspy和strained不适合患者摘要。建议只重述同一引句中可明确表达的音量或音调特征，避免自行翻译术语，也不暗示这是全部表现。",
+      "candidate_text": "声音嘶哑时，声音可能表现为气息声、raspy或strained，也可能音量变小或音调变低。",
+      "ai_evidence_checked": true,
+      "human_evidence_checked": null,
+      "human_scope_checked": null,
+      "clinical_approval": false,
+      "source_supports": [
+        {
+          "evidence_id": "E1",
+          "quote": "If you are hoarse, your voice will sound breathy, raspy, or strained, or will be softer in volume or lower in pitch.",
+          "source_title": "Hoarseness"
+        }
+      ]
+    },
+    {
+      "claim_id": "GEN-ENT-002-CONTEXT/professional:1",
+      "decision": "revise",
+      "proposed_text": "该报告将睡眠问题及其对注意力和行为的继发影响，列为成人过敏性鼻炎相关的多病共存问题。",
+      "notes": "已核对原文分类上下文。候选中的并继发影响可能使主语变成鼻炎本身，建议明确为报告列出的睡眠问题及其继发影响；保留注意力和行为，不改成或，也不推出每位患者均同时出现。",
+      "candidate_text": "成人过敏性鼻炎可涉及睡眠问题，并继发影响注意力和行为。",
+      "ai_evidence_checked": true,
+      "human_evidence_checked": null,
+      "human_scope_checked": null,
+      "clinical_approval": false,
+      "source_supports": [
+        {
+          "evidence_id": "E1",
+          "quote": "Sleep problems and secondary effects on concentration and behaviour;",
+          "source_title": "Multi-morbidities of allergic rhinitis in adults: European Academy of Allergy and Clinical Immunology Task Force Report"
+        }
+      ]
+    },
+    {
+      "claim_id": "GEN-ENT-002-CONTEXT/patient_summary:0",
+      "decision": "accept",
+      "proposed_text": "资料列出的与鼻解剖相关的疾病包括结膜炎、鼻窦炎、中耳问题及咽喉部影响。",
+      "notes": "候选回到文献所列解剖相关问题，删除连带影响的作用关系暗示。可作为该报告分类的转述，不代表这些疾病必然同时存在或由鼻炎导致；报告含部分儿科资料，不能据标题外推所有正文均为成人证据。",
+      "candidate_text": "资料列出的与鼻解剖相关的疾病包括结膜炎、鼻窦炎、中耳问题及咽喉部影响。",
+      "ai_evidence_checked": true,
+      "human_evidence_checked": null,
+      "human_scope_checked": null,
+      "clinical_approval": false,
+      "source_supports": [
+        {
+          "evidence_id": "E1",
+          "quote": "Disorders anatomically related to the nose: conjunctivitis, sinusitis, middle ear problems, throat and laryngeal effects;",
+          "source_title": "Multi-morbidities of allergic rhinitis in adults: European Academy of Allergy and Clinical Immunology Task Force Report"
+        }
+      ]
+    },
+    {
+      "claim_id": "GEN-ENT-009-CONTEXT/professional:0",
+      "decision": "accept",
+      "proposed_text": "在慢性鼻窦炎语境中，至少12周是从症状角度讨论慢性病程的界值，但并非绝对。",
+      "notes": "候选已恢复慢性鼻窦炎的疾病语境，参考界值与非绝对措辞和原段一致。它不是独立诊断标准；如需展开例外，必须补充客观证据与伴鼻息肉情境对应引用。",
+      "candidate_text": "在慢性鼻窦炎语境中，至少12周是从症状角度讨论慢性病程的界值，但并非绝对。",
+      "ai_evidence_checked": true,
+      "human_evidence_checked": null,
+      "human_scope_checked": null,
+      "clinical_approval": false,
+      "source_supports": [
+        {
+          "evidence_id": "E2",
+          "quote": "While a minimum duration of 12 weeks reflects a useful policy for chronic disease diagnosis from a symptomatic perspective, this need not be considered absolute.",
+          "source_title": "Management of chronic rhinosinusitis with nasal polyps in the Asia-Pacific region and Russia: Recommendations from an expert working group"
+        }
+      ]
+    },
+    {
+      "claim_id": "GEN-ENT-009-CONTEXT/patient_summary:0",
+      "decision": "revise",
+      "proposed_text": "这篇资料讨论慢性鼻窦炎时，把症状持续至少12周作为病程参考，但说明这一界限并非绝对。",
+      "notes": "候选语义较原句收窄，但患者段可将界值改成病程参考，并明确这是本篇资料的讨论。不要由这句话推断不足12周均可诊断，或达到12周即可确诊。",
+      "candidate_text": "在慢性鼻窦炎语境中，至少12周是从症状角度讨论慢性病程的界值，但并非绝对。",
+      "ai_evidence_checked": true,
+      "human_evidence_checked": null,
+      "human_scope_checked": null,
+      "clinical_approval": false,
+      "source_supports": [
+        {
+          "evidence_id": "E2",
+          "quote": "While a minimum duration of 12 weeks reflects a useful policy for chronic disease diagnosis from a symptomatic perspective, this need not be considered absolute.",
+          "source_title": "Management of chronic rhinosinusitis with nasal polyps in the Asia-Pacific region and Russia: Recommendations from an expert working group"
+        }
+      ]
+    },
+    {
+      "claim_id": "GEN-ENT-015-CONTEXT/patient_summary:0",
+      "decision": "exclude",
+      "proposed_text": null,
+      "notes": "重要人群问题：论文表2的总样本年龄范围为16–85岁，干预组为16–66岁，虽标题和方法称adult，但不能据汇总结果认定仅适用于18岁及以上。当前候选仍写成人研究，建议在本项目纯成人通道暂缓采用；后续需取得18岁以上独立数据，或明确混合年龄范围并重新绑定表2。该研究又限伴内耳受累者，不能外推全部急性中耳炎；分别报告不证明同一患者同时出现。",
+      "candidate_text": "这项成人急性中耳炎伴内耳受累的研究中，耳鸣和眩晕是分别报告的症状。",
+      "ai_evidence_checked": true,
+      "human_evidence_checked": null,
+      "human_scope_checked": null,
+      "clinical_approval": false,
+      "source_supports": [
+        {
+          "evidence_id": "E1",
+          "quote": "There was also a high percentage of patients with tinnitus (51%) and vertigo (32%).",
+          "source_title": "Treatment of Acute Otitis Media with Inner Ear Involvement in Adults"
+        }
+      ]
+    },
+    {
+      "claim_id": "GEN-ENT-036-CONTEXT/professional:0",
+      "decision": "accept",
+      "proposed_text": "声音嘶哑时，说话声音可表现为气息声、raspy或strained，或音量变小或音调变低。",
+      "notes": "保留strained而不译作紧张感，且保留不同嗓音特征之间的选择关系。可作为专业层保守转述；正式中文术语仍需医生确认，不证明患者已有音调改变。",
+      "candidate_text": "声音嘶哑时，说话声音可表现为气息声、raspy或strained，或音量变小或音调变低。",
+      "ai_evidence_checked": true,
+      "human_evidence_checked": null,
+      "human_scope_checked": null,
+      "clinical_approval": false,
+      "source_supports": [
+        {
+          "evidence_id": "E1",
+          "quote": "If you are hoarse, your voice will sound breathy, raspy, or strained, or will be softer in volume or lower in pitch.",
+          "source_title": "Hoarseness"
+        }
+      ]
+    },
+    {
+      "claim_id": "GEN-ENT-036-CONTEXT/patient_summary:0",
+      "decision": "revise",
+      "proposed_text": "资料描述，声音嘶哑时，音量可能变小或音调变低。",
+      "notes": "患者段仍有未解释英文术语。建议删去本句非必需的术语列举，仅重述有直接原文支持的音量或音调特征；不是完整症状清单，也不新增个人诊断。",
+      "candidate_text": "声音嘶哑时，说话声可能听起来像气息声、raspy或strained，也可能音量变小或音调变低。",
+      "ai_evidence_checked": true,
+      "human_evidence_checked": null,
+      "human_scope_checked": null,
+      "clinical_approval": false,
+      "source_supports": [
+        {
+          "evidence_id": "E1",
+          "quote": "If you are hoarse, your voice will sound breathy, raspy, or strained, or will be softer in volume or lower in pitch.",
+          "source_title": "Hoarseness"
+        }
+      ]
+    },
+    {
+      "claim_id": "BATCH-STATE-UNKNOWN/patient_summary:0",
+      "decision": "revise",
+      "proposed_text": "该指南将失代偿性耳鸣描述为明显干扰生活，并可能引起或加重睡眠障碍、注意力障碍、焦虑或抑郁等问题。",
+      "notes": "候选保留失代偿性亚型是必要修正。建议明确为该指南的描述，避免把严重程度或耳鸣响度与该分类等同；不能据模拟输入给患者贴亚型标签。在线原文入口受限，本项仅对照本地S3归档及上下文，未核实现行版本有效性。",
+      "candidate_text": "失代偿性耳鸣会给生活的方方面面带来很大困扰，还可能引起或加重焦虑、睡眠问题、注意力问题、抑郁等同时存在的健康问题。",
+      "ai_evidence_checked": true,
+      "human_evidence_checked": null,
+      "human_scope_checked": null,
+      "clinical_approval": false,
+      "source_supports": [
+        {
+          "evidence_id": "E1",
+          "quote": "Decompensated tinnitus: The ringing in the ears has a massive impact on all areas of life and leads to the development or aggravation of comorbidity (see Table 1; e.g. anxiety, sleep disorders, concentration disorders, depression).",
+          "source_title": "S3 Guideline: Chronic Tinnitus"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "crs-apac-2024",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11142757/",
+      "verification": "online_and_local",
+      "local_path": "knowledge/raw/crs-apac-2024/a1e3f01eed08c53de10e40d3982d7c3dc231c2d434328f59ed4bc1a8ca2815c3.xml",
+      "sha256": "a1e3f01eed08c53de10e40d3982d7c3dc231c2d434328f59ed4bc1a8ca2815c3"
+    },
+    {
+      "source_id": "adult-rhinitis-eaaci-2017",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5452333/",
+      "verification": "online_and_local",
+      "local_path": "knowledge/raw/adult-rhinitis-eaaci-2017/966ea36373efbbc851e0c7cc76974678075d70ed98d1ee3b24da01e0b56625f3.xml",
+      "sha256": "966ea36373efbbc851e0c7cc76974678075d70ed98d1ee3b24da01e0b56625f3"
+    },
+    {
+      "source_id": "adult-aom-inner-ear-2023",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10743793/",
+      "verification": "online_and_local",
+      "local_path": "knowledge/raw/adult-aom-inner-ear-2023/ca5393254b98b9cd0b0ec7bcd042a4f19cc8cfcc1a991a82d7abbcdf1753e817.xml",
+      "sha256": "ca5393254b98b9cd0b0ec7bcd042a4f19cc8cfcc1a991a82d7abbcdf1753e817"
+    },
+    {
+      "source_id": "nidcd-hoarseness",
+      "url": "https://www.nidcd.nih.gov/health/hoarseness",
+      "verification": "online_and_local",
+      "local_path": "knowledge/raw/nidcd-hoarseness/bbf9abc733b4b5b7d93c3e96de78d16f636a6ce1c5d40c9e9c312df2a7bc75ef.html",
+      "sha256": "bbf9abc733b4b5b7d93c3e96de78d16f636a6ce1c5d40c9e9c312df2a7bc75ef"
+    },
+    {
+      "source_id": "tinnitus-s3-2022",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9581878/",
+      "verification": "local_only_online_access_blocked",
+      "local_path": "knowledge/raw/tinnitus-s3-2022/fa0cdefd0f5f33f5c40ce3acb5991c43782c4aa70195dd15f7812d5a0bfd39ad.xml",
+      "sha256": "fa0cdefd0f5f33f5c40ce3acb5991c43782c4aa70195dd15f7812d5a0bfd39ad"
+    }
+  ],
+  "new_findings": [
+    {
+      "source": "adult-aom-inner-ear-2023",
+      "location": "Table 2, jcm-12-07590-t002, Age/Range",
+      "finding": "Total age 16–85; interventional group 16–66. Aggregated data are not an exclusively >=18 sample.",
+      "archive_label_conflict": "Current source metadata says adult_only; not modified or approved in this review."
+    }
+  ],
+  "method_reference": {
+    "authors": [
+      "Timothy Kassis",
+      "Vinayak Agarwal",
+      "Yuhuan He",
+      "Darshil Patel",
+      "Aubrey M. Brueckner"
+    ],
+    "year": 2026,
+    "title": "Scientific Agent Skills: A Library of Procedural Knowledge for Research Agents",
+    "url": "https://arxiv.org/abs/2609.00065",
+    "doi": "10.48550/arXiv.2609.00065",
+    "checked_version": "v2 (2026-09-02)",
+    "use": "Procedural claim appraisal only; not evidence supporting clinical conclusions."
+  }
+}

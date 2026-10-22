@@ -1,0 +1,7 @@
+[
+  {
+    "id": "TB1",
+    "locator": ".//table-wrap[@id='TB1']",
+    "text": "Table 1Patient demographics and baseline characteristics Characteristics Gendern (%) Male31 (45.6) Female37 (54.4)Age (years)Mean ± SD50.9 ± 16.4Sidesn (%) Left34 (50.0) Right29 (42.6) Bilateral5 (7.4)Interval between Omicron infection and OME diagnosis (days)Median (IQR)8.5 (5.0, 14.3)Duration of OME symptoms (days)Median (IQR)7.0 (6.0, 13.3)Pure tone audiometry (n ═ 40)*Mean ± SD33.4 ± 15.7 dB nHLAir-bone gap (n ═ 40)*Mean ± SD10.5 ± 8.5 dB nHLTympanometry (n ═ 40)*n (%) B-type60 (82.2) C-type9 (12.3) A-type4 (5.5)*38 patients with 40 affected ears. SD: Standard deviation; OME: Middle ear effusion; IQR: Interquartile range."
+  }
+]

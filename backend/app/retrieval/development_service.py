@@ -13,6 +13,7 @@ from app.knowledge.development_registry import (
 )
 from app.knowledge.governance import GovernanceStore, encode, now
 from app.knowledge.library import file_hash, read_json, resolve_member, verify_document, write_json
+from app.knowledge.population import population_restriction
 from app.retrieval.audit_service import FLAGS, AuditError
 from app.retrieval.corpus import corpus_fingerprint, eligible_corpus
 from app.retrieval.engine import RetrievalEngine
@@ -144,6 +145,8 @@ class DevelopmentService:
             selected = {c for s, c in plan["chunks"] if s == identity}
             if not selected:
                 continue
+            if population_restriction(source):
+                raise AuditError("population_restricted_source", 409)
             original = verify_document(candidates, source)
             chunks = [
                 {
@@ -288,6 +291,13 @@ class DevelopmentService:
                         or not db.execute(
                             "SELECT 1 FROM development_bindings WHERE version_id=?", (version_id,)
                         ).fetchone()
+                        and not (
+                            has_table(db, "local_text_versions")
+                            and db.execute(
+                                "SELECT 1 FROM local_text_versions WHERE version_id=?",
+                                (version_id,),
+                            ).fetchone()
+                        )
                     ):
                         raise AuditError("only_bound_development_draft_can_be_withdrawn")
                     db.execute(
@@ -446,6 +456,21 @@ class DevelopmentService:
                     "SELECT v.id,v.document_id,v.state,v.metadata FROM snapshot_members m "
                     "JOIN registry_versions v ON v.id=m.version_id "
                     "JOIN development_bindings b ON b.version_id=v.id WHERE m.snapshot_id=?",
+                    (active,),
+                ):
+                    versions.append(
+                        {
+                            "version_id": row["id"],
+                            "document_id": row["document_id"],
+                            "state": row["state"],
+                            "title": json.loads(row["metadata"])["title"],
+                        }
+                    )
+            if has_table(db, "local_text_versions"):
+                for row in db.execute(
+                    "SELECT v.id,v.document_id,v.state,v.metadata FROM snapshot_members m "
+                    "JOIN registry_versions v ON v.id=m.version_id "
+                    "JOIN local_text_versions t ON t.version_id=v.id WHERE m.snapshot_id=?",
                     (active,),
                 ):
                     versions.append(

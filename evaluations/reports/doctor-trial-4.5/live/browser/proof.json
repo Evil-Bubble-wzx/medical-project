@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "origin": "http://127.0.0.1:8012",
+  "cases": 6,
+  "real_saved_model": "deepseek-flash",
+  "history_read_only": true,
+  "additional_model_calls": 0,
+  "ratings": "not_assessed",
+  "errors": []
+}

@@ -1,0 +1,12 @@
+{
+  "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+  "chunks": 767,
+  "patient_inputs_stored": false,
+  "model_available": true,
+  "reranker_available": true,
+  "review_kind": "development_relevance_not_clinical_approval",
+  "generation_state": "ready",
+  "generation_revision": "scoped-claim-verification-1.0",
+  "generation_model": "deepseek-flash",
+  "generation_destination": "https://api.deepseek.com"
+}

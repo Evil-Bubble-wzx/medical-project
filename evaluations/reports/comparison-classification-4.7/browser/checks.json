@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "checks": [
+    "historical_category_warning_and_nonapproval_label",
+    "withheld_comparison_disclosed_while_retained_knowledge_visible",
+    "no_rejected_comparison_relabelled_as_input_record",
+    "mobile_layout"
+  ],
+  "errors": [],
+  "history_only": true,
+  "additional_generation_requests": 0
+}

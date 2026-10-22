@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "checks": [
+    "utf8_file_loaded",
+    "prepare_without_activation",
+    "explicit_activation",
+    "activated_text_retrievable_pending_review",
+    "mobile_no_horizontal_overflow"
+  ],
+  "errors": [],
+  "synthetic_fixture": true,
+  "model_calls": 0
+}

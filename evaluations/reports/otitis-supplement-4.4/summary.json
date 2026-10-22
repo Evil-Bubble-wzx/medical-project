@@ -1,0 +1,15 @@
+{
+  "archived_documents": 3,
+  "supplement_search_documents": 2,
+  "population_unresolved_documents": 1,
+  "metadata_only": 6,
+  "active_snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+  "active_chunks": 767,
+  "active_corpus_unchanged": true,
+  "manifest_sha256": "9cc84f075987be824ebe9113402691a2b9d100ddac792de93d5b369319c6e49f",
+  "provider_generation_calls": 0,
+  "clinical_approval": false,
+  "formal_independent_scoring": false,
+  "offline_tests_passed": 621,
+  "discovery_cases_passed": 3
+}

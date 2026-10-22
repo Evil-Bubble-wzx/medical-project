@@ -1,0 +1,64 @@
+{
+  "offline_tests": 673,
+  "offline_failures": 0,
+  "offline_errors": 0,
+  "ruff_passed": true,
+  "browser_fixture": {
+    "passed": true,
+    "checks": [
+      "utf8_file_loaded",
+      "prepare_without_activation",
+      "explicit_activation",
+      "activated_text_retrievable_pending_review",
+      "mobile_no_horizontal_overflow"
+    ],
+    "errors": [],
+    "synthetic_fixture": true,
+    "model_calls": 0
+  },
+  "browser_live": {
+    "passed": true,
+    "live_port": 8012,
+    "checks": [
+      "hub_status",
+      "import_page",
+      "doctor_page",
+      "audit_page"
+    ],
+    "errors": [],
+    "additional_generation_requests": 0
+  },
+  "real_embedding": {
+    "passed": true,
+    "synthetic_only": true,
+    "active_main_library_changed": false,
+    "model_calls": 0,
+    "real_local_embedding": true,
+    "retrieval_modes": [
+      "keyword",
+      "vector",
+      "hybrid"
+    ],
+    "fixture_root": "C:\\medical-project\\var\\local-import-ui-20261022T071106Z"
+  },
+  "backup_restore": {
+    "verified_files": 73,
+    "restored_files": 73,
+    "target": "var/recovery-drill-4.8",
+    "active_project_changed": false,
+    "consistency": "per_database_snapshot"
+  },
+  "clinical_approval": false,
+  "additional_paid_generation_calls": 0,
+  "source_sha256": {
+    "backend/app/retrieval/local_import.py": "84ccad3cf3d56ea99b7417f99145f0606bed7800c4afdd0bc1b977a4550c70f2",
+    "backend/app/application/local_backup.py": "f688d931096cbc3ec651ae9b1176bd2ab389dfa1e5a88f880cedcf22eec72552",
+    "backend/app/api/development.py": "0d6893d44e4b0ff5785c9bfe83bc0bc6e4362b5c591fad46aede86eee58a5a65",
+    "backend/app/api/validation.py": "948573deb2c84b3b04b6137e9eedd2d79622cb1ac53e2009f41f6b01db753d0b",
+    "backend/app/retrieval/development_service.py": "60a4a0be429b1d9a3967ee2d595eb9a13ee65c04444cf358501cb70b829d2e77",
+    "frontend/validation/imports.html": "c59ac2a57aaaace6189b41cb9da95cc14e9e54ecb529df5e35fc82d91ece0584",
+    "frontend/validation/imports.js": "c3a7701c0598404b1b718160e317f8e7cbf81b74406d3061f638cf3e10423998",
+    "frontend/validation/local.html": "8f693c134132eb40d43ea3227c8df4a25431ea83990becdf925d157bf9d9195b",
+    "frontend/validation/local.js": "e0b23c12c6a7cd009c4beaf446679d03c8b01f54fd21d1fa48b1ebcd968ce193"
+  }
+}

@@ -4,6 +4,7 @@ import json
 from app.knowledge.development_registry import valid_import_versions
 from app.knowledge.governance import GovernanceStore
 from app.knowledge.library import verify_document
+from app.knowledge.population import population_restriction
 
 
 def eligible_corpus(root, channel="development", snapshot_id=None):
@@ -35,6 +36,8 @@ def eligible_corpus(root, channel="development", snapshot_id=None):
             if not bindings.get(row["version_id"], True):
                 continue
             chunk, metadata = json.loads(row["payload"]), json.loads(row["metadata"])
+            if population_restriction(metadata):
+                continue
             approved = set(json.loads(row["approved_chunks"])) if row["approved_chunks"] else set()
             if channel == "production" and chunk["id"] not in approved:
                 continue

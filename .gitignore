@@ -28,3 +28,7 @@ models/*/*
 knowledge/vector-index-*.json
 knowledge/index-archives/
 var/
+
+# Local user documents and generated development indexes
+knowledge/local_text/
+knowledge/development_indexes/

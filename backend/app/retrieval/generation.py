@@ -124,6 +124,8 @@ patient_summary仅通俗重述professional中已有且被所选引句完整支�
 个人症状与病程的比较只放input_explanation，不放patient_summary；总结也不能把多条未同时引用的事实混合成一句。
 严格遵守列表数量：professional最多6项，input_explanation最多3项，patient_summary最多3项。
 优先简洁：专业段1至3项、输入解释0至1项、患者总结1项即可，不为求全面重复铺列。
+优先选择能用明确中文表达、且被引句直接支持的事实作为专业首项，供患者摘要改写；raspy/strained等未确认译名不应成为唯一可选核心句，可选择同一引文已明确支持的音量/音调事实，不能补造新事实。
+当已陈述的主诉或年龄与某项引文有明确对应时，优先输出一项带supports和input_anchor_ids的medical_comparison，区分“输入记录”与“资料描述”；这只是对应比较，不是确诊、病因推断或治疗建议。不要把“这仅为对应比较，不代表确诊”等系统免责声明附上医学引文，也不要写入medical_comparison；界面会单独说明系统边界。未知、否认或仅在问题中提及的症状不能转成阳性事实。没有对应引文时允许只核对原话，不为提高解释比例强行比较。
 每项text只写一句中文、一个可核验的事实，不把不同症状、病因、就医建议塞在同一项；避免多句或分号。
 每个陈述附supports，且每条只含evidence_id和quote_id。只能选择对应evidence.quote_options中的现有编号。
 不要输出quote正文，不要编造编号；原文由服务端按编号回填，不能从text中另选未编号片段。
@@ -134,6 +136,8 @@ evidence可能只含E2/E4等不连续编号，必须保留，不从E1重新编�
 若没有合适片段，省略该论断或返回证据不足；不拼接或改写引文，不推断个体适用性。
 input_explanation每项必须选择实际使用的输入编号；不得虚构输入。
 input_explanation如作医学比较，source_kind为medical_comparison，必须有1至3条医学supports，不能supports=[]。
+每条medical_comparison必须在同一个完整句子中同时说明输入记录与引用资料的对应关系，明确区分“输入”与“资料”；不要用分号把输入和比较拆成两项。若只记录输入，使用patient_input，不给医学supports。
+medical_comparison只写实际比较，不附“仅为对应比较”“不代表确诊或病因判断”等系统免责声明；界面会另行显示，不需要医学引文。
 如果只是记录患者原话而无医学比较，source_kind为patient_input、supports=[]，必须选择输入编号；该项text会被服务端丢弃并改为只记录原话的固定文本，不能借此输出无引用医学结论。
 每条input_explanation使用input_anchor_ids选择input_anchor_options中实际使用的编号，例如["I2","I4"]。
 此段不要输出input_fields或input_anchors，不要抄写原话或自行判断state；服务端根据编号回填完整字段及状态。
@@ -426,7 +430,11 @@ def canonicalize_input_records(raw, patient):
 
 
 def validate_answer(raw, packet, patient, *, _defer_summary_quality=False):
-    from app.retrieval.input_fidelity import check_input_anchors, check_input_attribution
+    from app.retrieval.input_fidelity import (
+        check_comparison_classification,
+        check_input_anchors,
+        check_input_attribution,
+    )
     from app.retrieval.text_quality import check_summary_core, check_text_quality
 
     raw = resolve_quote_ids(raw, packet)
@@ -477,6 +485,8 @@ def validate_answer(raw, packet, patient, *, _defer_summary_quality=False):
     if any(not claim.input_fields for claim in answer.input_explanation):
         raise ValueError("missing_input_reference")
     for claim in answer.input_explanation:
+        if claim.source_kind == "medical_comparison":
+            check_comparison_classification(claim.text)
         check_input_attribution(claim.text, claim.input_fields, patient)
         check_input_anchors(
             claim.input_fields, [a.model_dump() for a in claim.input_anchors], patient

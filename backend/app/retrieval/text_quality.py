@@ -28,7 +28,11 @@ def check_summary_core(text, core_text):
         reject("summary_core_expansion", "added_numeric_fact")
 
 
-def check_text_quality(text, quotes, section, source_titles=()):
+def check_text_quality(text, quotes, section, source_titles=(), *, _rewrite_core=False):
+    if section == "input_explanation" and re.match(
+        r"^(?:这仅(?:为|是)|这不代表|不代表确诊|不能据此确诊)", text
+    ):
+        reject("source_scope_overreach", "system_boundary_not_a_medical_comparison")
     source = " ".join(quotes)
     titles = " ".join(source_titles)
     if (
@@ -63,6 +67,10 @@ def check_text_quality(text, quotes, section, source_titles=()):
     if re.search(r"anatomically related", source, re.I) and "连带影响" in text:
         reject("source_scope_overreach", "anatomic_relation_changed_to_effect")
     if section == "patient_summary":
+        if not _rewrite_core and re.search(
+            r"(?<![A-Za-z])(?:raspy|strained)(?![A-Za-z])", text, re.I
+        ):
+            reject("patient_summary_unexplained_term", "untranslated_voice_term_in_patient_text")
         if (
             re.search(r"decompensated tinnitus", source, re.I)
             and "耳鸣" in text

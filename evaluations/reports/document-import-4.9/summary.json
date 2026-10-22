@@ -1,0 +1,70 @@
+{
+  "offline_tests": 688,
+  "offline_failures": 0,
+  "ruff_passed": true,
+  "browser": {
+    "passed": true,
+    "checks": [
+      "pdf_readonly_preview_with_locations",
+      "pdf_prepared_without_auto_activation",
+      "pdf_retrievable_with_preserved_locations",
+      "docx_readonly_preview_with_locations",
+      "docx_prepared_without_auto_activation",
+      "docx_retrievable_with_preserved_locations",
+      "no_text_pdf_blocked_with_ocr_notice",
+      "failed_extraction_does_not_switch_library",
+      "mobile_no_horizontal_overflow"
+    ],
+    "errors": [],
+    "synthetic_fixture": true,
+    "model_calls": 0
+  },
+  "live_browser": {
+    "passed": true,
+    "live_port": 8012,
+    "checks": [
+      "hub_link",
+      "live_docx_upload_preview",
+      "readonly_paragraph_locations",
+      "active_snapshot_unchanged"
+    ],
+    "errors": [],
+    "additional_generation_requests": 0,
+    "main_library_changed": false
+  },
+  "real_embedding": {
+    "passed": true,
+    "checks": [
+      "pdf:keyword:evidence_locator",
+      "pdf:vector:evidence_locator",
+      "pdf:hybrid:evidence_locator",
+      "docx:keyword:evidence_locator",
+      "docx:vector:evidence_locator",
+      "docx:hybrid:evidence_locator"
+    ],
+    "real_local_embedding": true,
+    "model_calls": 0,
+    "synthetic_fixture": true,
+    "main_library_changed": false
+  },
+  "clinical_approval": false,
+  "additional_paid_generation_calls": 0,
+  "limits": {
+    "upload_bytes": 8388608,
+    "pdf_pages": 100,
+    "extracted_characters": 150000,
+    "docx_units": 2000,
+    "preview_valid_hours": 24,
+    "parser_timeout_seconds": 35
+  },
+  "source_sha256": {
+    "backend/app/knowledge/document_extract.py": "c0bfe2a09181835b4dc17b0ebc3a3580f256ea68498522eff2b71a6d2193a3f3",
+    "backend/app/retrieval/document_preview.py": "391b7fe4c1591b6f5ef350a597e2dd69eb3f6cf6369023ca4685e0b9d52fc9c1",
+    "backend/app/retrieval/local_import.py": "0fd55a6d27fe04fec780d9ccc4a607d80a2d959e364e3aaed43cbf59efe963bb",
+    "backend/app/api/development.py": "f27d748571ab7980784b91b463ebe9f39acd5d6de55870c796a6319e2ec8a828",
+    "scripts/extract_document.py": "a563fe7251ddc5fc0f1a154f2056452bd5baeca139cf285155f6fbcb59b3d76f",
+    "frontend/validation/imports.html": "414fc0c522cab6978ac107a4f580a6af6008cbc9124723027ced99260166320b",
+    "frontend/validation/imports.js": "7e4eb9f259e528bad37936e0b37a4bcc5a94c78c19f07735bd1662dae63891c5",
+    "requirements.lock": "762a51e6bb0b8d6d313e09ae50502e84c290405a2f6f48bbf581274bcfc1056d"
+  }
+}

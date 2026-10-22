@@ -229,7 +229,7 @@ def test_schema_one_migration_preserves_existing_account_and_snapshot(consulting
         == b.snapshot
     )
     with reopened.connect() as db:
-        assert db.execute("PRAGMA user_version").fetchone()[0] == 3
+        assert db.execute("PRAGMA user_version").fetchone()[0] == 4
 
 
 @pytest.mark.parametrize(

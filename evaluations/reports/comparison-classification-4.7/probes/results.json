@@ -1,0 +1,34 @@
+[
+  {
+    "case_id": "PROBE-DENIED",
+    "status": "validation_failed",
+    "scope_code": null,
+    "classification_issues": [],
+    "engineering_check_passed": false,
+    "clinical_approval": false
+  },
+  {
+    "case_id": "PROBE-UNKNOWN",
+    "status": "answered",
+    "scope_code": null,
+    "classification_issues": [],
+    "engineering_check_passed": true,
+    "clinical_approval": false
+  },
+  {
+    "case_id": "PROBE-CONFLICT",
+    "status": "needs_information",
+    "scope_code": "input_duration_needs_confirmation",
+    "classification_issues": [],
+    "engineering_check_passed": true,
+    "clinical_approval": false
+  },
+  {
+    "case_id": "PROBE-CHILD",
+    "status": "insufficient_evidence",
+    "scope_code": "adult_library_target_mismatch",
+    "classification_issues": [],
+    "engineering_check_passed": true,
+    "clinical_approval": false
+  }
+]

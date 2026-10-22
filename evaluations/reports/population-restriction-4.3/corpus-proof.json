@@ -1,0 +1,34 @@
+{
+  "checked_at": "2026-10-22T02:38:48.430738+00:00",
+  "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+  "snapshot_member_chunks": 932,
+  "eligible_chunks": 767,
+  "remaining_document_ids": [
+    "adult-com-qol-2023",
+    "adult-rhinitis-eaaci-2017",
+    "adult-sore-throat-review-2024",
+    "crs-apac-2024",
+    "nidcd-hoarseness",
+    "nidcd-presbycusis",
+    "nidcd-tinnitus",
+    "tinnitus-evidence-2023",
+    "tinnitus-s3-2022"
+  ],
+  "restricted_version_ids": [
+    "2af2c949-d7f3-4591-9877-9308aefd7f49"
+  ],
+  "historical_citations": [
+    {
+      "version_id": "2af2c949-d7f3-4591-9877-9308aefd7f49",
+      "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+      "chunk_id": "10c5f6df2fca335ff0964ea6",
+      "restriction": "mixed_16_85_requires_adult_subgroup_review",
+      "text_preserved": true
+    }
+  ],
+  "restricted_retrieval_hits": 0,
+  "original_candidate_packet_sha256": "f8790de26c7f1158cde34759eceb6db08d5bf8d0111f14bb295f6ff6e235be33",
+  "provider_generation_calls": 0,
+  "clinical_approval": false,
+  "policy_sha256": "56454d34da617738c58528ad975236f3612ca6b40b893df68cc0a9e03440e02d"
+}

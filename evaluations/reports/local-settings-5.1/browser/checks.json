@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "checks": [
+    "load_allowlisted_settings_without_key_input",
+    "save_persists_new_values_and_fixed_checks",
+    "diagnostic_explains_missing_process_key",
+    "conflict_keeps_unsaved_form",
+    "reload_reads_current_revision",
+    "generation_enable_switch_saved",
+    "mobile_no_horizontal_overflow"
+  ],
+  "errors": [],
+  "synthetic_fixture": true,
+  "provider_calls": 0
+}

@@ -23,7 +23,7 @@ from app.retrieval.patient_summary import PatientSummarizer
 from app.retrieval.quote_catalog import resolve_quote_ids, selector_count
 from app.retrieval.quote_repair import QuoteRepairer, apply_quote_repair, repair_paths
 from app.retrieval.scope_guard import check_scope
-from app.retrieval.summary_core import remap_groups, select_summary_core
+from app.retrieval.summary_core import readable_voice_excerpt, remap_groups, select_summary_core
 from app.retrieval.validation_service import ValidationInput
 from app.retrieval.verification import ModelVerifier, apply_judgment
 
@@ -211,6 +211,30 @@ def answer_request(
                     _defer_summary_quality=summarizer is not None,
                 )
                 repair_audit.update(accepted=True, metadata=getattr(repairer, "last_metadata", {}))
+            except ValueError as exc:
+                if str(exc) != "input_comparison_classification_failed" or not config.get(
+                    "isolate_input_comparison_failure", False
+                ):
+                    raise
+                # Withhold the whole defective section, never relabel a rejected medical
+                # comparison as a passed literal record. All retained claims still undergo
+                # normal citation validation and both semantic verification stages.
+                partial = json.loads(candidate)
+                withheld_count = len(partial.get("input_explanation", []))
+                partial["input_explanation"] = []
+                candidate = json.dumps(partial, ensure_ascii=False)
+                trace = [g for g in trace if g["section"] != "input_explanation"]
+                validation["atomization"] = trace
+                validation["input_comparison_withheld"] = {
+                    "code": str(exc),
+                    "count": withheld_count,
+                }
+                answer = validate_answer(
+                    candidate,
+                    state["evidence"],
+                    patient,
+                    _defer_summary_quality=summarizer is not None,
+                )
             snapshot = state["retrieval"]["snapshot_id"]
             _, current = eligible_corpus(service.root / "knowledge", "development", snapshot)
             allowed = {key(c) for c in current}
@@ -271,6 +295,32 @@ def answer_request(
             validation["summary_metadata"] = getattr(summarizer, "last_metadata", {})
             return {"answer": answer, "validated_draft": answer, "validation": validation}
         except (ValueError, RuntimeError) as exc:
+            if (
+                config.get("verified_core_summary_fallback", False)
+                and verifier is not None
+                and "selected" in locals()
+            ):
+                # The professionally verified core is reused verbatim, never translated or
+                # expanded. Normal citation validation and final semantic verification remain.
+                fallback = {"text": core["text"], "supports": core["supports"], "input_fields": []}
+                options = [("verified_core_fallback", fallback)]
+                excerpt = readable_voice_excerpt(core)
+                if excerpt is not None:
+                    options.append(("verified_core_excerpt", excerpt))
+                for strategy, option in options:
+                    try:
+                        answer = validate_answer(
+                            json.dumps({**selected, "patient_summary": [option]}),
+                            state["evidence"],
+                            patient,
+                        )
+                    except ValueError:
+                        continue
+                    validation["atomization"] = [
+                        g for g in groups if g["section"] != "patient_summary"
+                    ]
+                    validation["summary_metadata"] = {"strategy": strategy}
+                    return {"answer": answer, "validated_draft": answer, "validation": validation}
             return {
                 "answer": {
                     "status": "validation_failed",
@@ -444,6 +494,8 @@ def answer_request(
         "summary_core_expansion",
         "summary_core_reference_mismatch",
         "summary_no_eligible_core",
+        "patient_summary_unexplained_term",
+        "input_comparison_classification_failed",
         "quote_context_support_limit",
         "patient_summary_personalization",
         "patient_summary_scope_shift",

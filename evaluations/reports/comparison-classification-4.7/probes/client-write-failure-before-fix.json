@@ -1,0 +1,8 @@
+{
+  "case_id": "PROBE-DENIED",
+  "state": "client_report_write_failed_after_http_response",
+  "cause": "httpx_status_code_property_called_as_function",
+  "model_outcome_not_preserved": true,
+  "included_in_pass_count": false,
+  "subsequent_rerun_explicitly_separate": true
+}

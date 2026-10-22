@@ -1,0 +1,639 @@
+{
+  "http_status": 200,
+  "result": {
+    "retrieval": {
+      "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+      "query_policy": "dual_question_first",
+      "hybrid": [
+        {
+          "end": 496,
+          "id": "d30f5a4b0f87d2dafaad6ee8",
+          "locator": "main/block[33]",
+          "population_status": "adult_dev_candidate",
+          "section": "What research does NIDCD support on age-related hearing loss?",
+          "start": 0,
+          "text": "NIDCD supports research on the causes of age-related hearing loss, including genes that may make this type of hearing loss more likely. NIDCD-funded scientists are working to understand what happens as we age that interferes with our ability to hear speech in a noisy environment. NIDCD also funds research that explores changes in how the brain processes sound when we lose our hearing. The research to date supports the use of hearing aids to maintain the brain’s sound-processing capabilities.",
+          "chunk_id": "d30f5a4b0f87d2dafaad6ee8",
+          "version_id": "6c17226f-5c23-409e-b71d-2c7e29c607d1",
+          "document_id": "nidcd-presbycusis",
+          "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+          "title": "Age-Related Hearing Loss (Presbycusis)",
+          "source_url": "https://www.nidcd.nih.gov/health/age-related-hearing-loss",
+          "topics": [
+            "hearing_loss"
+          ],
+          "clinical_review": "pending",
+          "production_eligible": false,
+          "score": 0.04918032786885246,
+          "applicability_warning": null
+        },
+        {
+          "end": 562,
+          "id": "61d8c80cb5ed39d0375201d1",
+          "locator": "body/sec[7]/sec[1]/sec[6]/sec[1]/p[6]",
+          "population_status": "adult_dev_candidate",
+          "section": "4 Therapy of chronic tinnitus / 4.1 Presentation of therapies with recommendations / 4.1.6 Pharmacological treatment / Evidence-based recommendation",
+          "start": 0,
+          "text": "Treatment of acute tinnitus follows the treatment recommendations for acute sudden hearing loss. For the treatment of acute hearing loss, corresponding guidelines (AWMF 017/2914 currently being updated [82]; guideline USA [83]) recommend systemic or intratympanic steroid treatment with, however, moderate evidence. Therefore, acute tinnitus with hearing loss or following hearing loss should be treated appropriately. If the tinnitus occurs acutely without measurable hearing loss, the standard cortisone therapy recommended for hearing loss is not recommended.",
+          "chunk_id": "61d8c80cb5ed39d0375201d1",
+          "document_id": "tinnitus-s3-2022",
+          "version_id": "d5005279-1bad-491f-8122-a2d05e558146",
+          "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+          "title": "S3 Guideline: Chronic Tinnitus",
+          "title_zh": "慢性耳鸣 S3 指南（德国学会，2022）",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9581878/",
+          "publication_date": "2022-10-13",
+          "license": "CC-BY-4.0",
+          "state": "draft",
+          "clinical_review": "pending",
+          "production_eligible": false,
+          "bm25": -6.936667740193704,
+          "score": 0.04689826302729529,
+          "applicability_warning": null
+        },
+        {
+          "end": 201,
+          "id": "ac82efccc47cb4abdbba6d03",
+          "locator": "main/block[9]",
+          "population_status": "adult_dev_candidate",
+          "section": "What causes tinnitus?",
+          "start": 0,
+          "text": "Hearing loss. Hearing loss, which can be caused by factors such as aging or exposure to loud noise, is strongly associated with tinnitus. Some people with hearing loss, however, never develop tinnitus.",
+          "chunk_id": "ac82efccc47cb4abdbba6d03",
+          "document_id": "nidcd-tinnitus",
+          "version_id": "9c16e968-6f17-438f-8ec9-8682ab0882b6",
+          "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+          "title": "Tinnitus",
+          "title_zh": "NIH/NIDCD 耳鸣患者教育",
+          "source_url": "https://www.nidcd.nih.gov/health/tinnitus",
+          "publication_date": "May 1, 2023",
+          "license": "NIDCD-public-domain-unless-noted",
+          "state": "draft",
+          "clinical_review": "pending",
+          "production_eligible": false,
+          "bm25": -6.789623395540212,
+          "score": 0.04547574626865672,
+          "applicability_warning": null
+        },
+        {
+          "end": 360,
+          "id": "618d317ee5c70c61c9ef73c2",
+          "locator": "main/block[5]",
+          "population_status": "adult_dev_candidate",
+          "section": "Why do we lose our hearing as we get older?",
+          "start": 0,
+          "text": "Conditions that are more common in older people, such as high blood pressure and diabetes, are associated with hearing loss. In addition, medications that are toxic to the sensory cells in your ears (some chemotherapy drugs, for example) can cause hearing loss. Less commonly, abnormalities of the middle ear, such as otosclerosis, can worsen hearing with age.",
+          "chunk_id": "618d317ee5c70c61c9ef73c2",
+          "document_id": "nidcd-presbycusis",
+          "version_id": "6c17226f-5c23-409e-b71d-2c7e29c607d1",
+          "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+          "title": "Age-Related Hearing Loss (Presbycusis)",
+          "title_zh": "NIH/NIDCD 老年性听力损失患者教育",
+          "source_url": "https://www.nidcd.nih.gov/health/age-related-hearing-loss",
+          "publication_date": "March 17, 2023",
+          "license": "NIDCD-public-domain-unless-noted",
+          "state": "draft",
+          "clinical_review": "pending",
+          "production_eligible": false,
+          "bm25": -6.001157967939451,
+          "score": 0.044916292364230295,
+          "applicability_warning": null
+        },
+        {
+          "end": 285,
+          "id": "b5eb56631abed6dbef52edd6",
+          "locator": "main/block[22]",
+          "population_status": "adult_dev_candidate",
+          "section": "What should I do if I have trouble hearing?",
+          "start": 0,
+          "text": "An audiologist (pronounced aw-dee-AH-luh-jist) has specialized training in identifying and measuring hearing loss, determining where along the auditory pathway there may be a problem with hearing, and recommending and providing certain hearing loss interventions, such as hearing aids.",
+          "chunk_id": "b5eb56631abed6dbef52edd6",
+          "document_id": "nidcd-presbycusis",
+          "version_id": "6c17226f-5c23-409e-b71d-2c7e29c607d1",
+          "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+          "title": "Age-Related Hearing Loss (Presbycusis)",
+          "title_zh": "NIH/NIDCD 老年性听力损失患者教育",
+          "source_url": "https://www.nidcd.nih.gov/health/age-related-hearing-loss",
+          "publication_date": "March 17, 2023",
+          "license": "NIDCD-public-domain-unless-noted",
+          "state": "draft",
+          "clinical_review": "pending",
+          "production_eligible": false,
+          "bm25": -6.443121126772091,
+          "score": 0.04413702239789197,
+          "applicability_warning": null
+        },
+        {
+          "end": 327,
+          "id": "c5359609e7b57507a55582b0",
+          "locator": "body/sec[7]/sec[1]/sec[2]/sec[1]/p[9]",
+          "population_status": "adult_dev_candidate",
+          "section": "4 Therapy of chronic tinnitus / 4.1 Presentation of therapies with recommendations / 4.1.2 Hearing loss interventions / Evidence-based recommendation",
+          "start": 0,
+          "text": "If hearing aids are fitted, this is generally done according to the applicable national hearing aid guidelines. In individual cases of isolated high-frequency hearing loss and high-frequency tinnitus, a hearing aid fitting can be useful even without the presence of hearing loss corresponding to these guidelines [94, 100–103].",
+          "chunk_id": "c5359609e7b57507a55582b0",
+          "document_id": "tinnitus-s3-2022",
+          "version_id": "d5005279-1bad-491f-8122-a2d05e558146",
+          "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+          "title": "S3 Guideline: Chronic Tinnitus",
+          "title_zh": "慢性耳鸣 S3 指南（德国学会，2022）",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9581878/",
+          "publication_date": "2022-10-13",
+          "license": "CC-BY-4.0",
+          "state": "draft",
+          "clinical_review": "pending",
+          "production_eligible": false,
+          "bm25": -6.25756102064452,
+          "score": 0.04287489643744822,
+          "applicability_warning": null
+        },
+        {
+          "end": 44,
+          "id": "3b752d245c0875d969f16587",
+          "locator": "main/block[13]",
+          "population_status": "adult_dev_candidate",
+          "section": "How can I tell if I have a hearing problem?",
+          "start": 0,
+          "text": "Do you feel challenged by a hearing problem?",
+          "chunk_id": "3b752d245c0875d969f16587",
+          "version_id": "6c17226f-5c23-409e-b71d-2c7e29c607d1",
+          "document_id": "nidcd-presbycusis",
+          "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+          "title": "Age-Related Hearing Loss (Presbycusis)",
+          "source_url": "https://www.nidcd.nih.gov/health/age-related-hearing-loss",
+          "topics": [
+            "hearing_loss"
+          ],
+          "clinical_review": "pending",
+          "production_eligible": false,
+          "score": 0.04274509803921569,
+          "applicability_warning": null
+        },
+        {
+          "end": 106,
+          "id": "b7f118bf36dc44578001f447",
+          "locator": "main/block[28]",
+          "population_status": "adult_dev_candidate",
+          "section": "How can my friends and family help me?",
+          "start": 0,
+          "text": "Tell your friends and family about your hearing loss. Explain which listening situations are hard for you.",
+          "chunk_id": "b7f118bf36dc44578001f447",
+          "document_id": "nidcd-presbycusis",
+          "version_id": "6c17226f-5c23-409e-b71d-2c7e29c607d1",
+          "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+          "title": "Age-Related Hearing Loss (Presbycusis)",
+          "title_zh": "NIH/NIDCD 老年性听力损失患者教育",
+          "source_url": "https://www.nidcd.nih.gov/health/age-related-hearing-loss",
+          "publication_date": "March 17, 2023",
+          "license": "NIDCD-public-domain-unless-noted",
+          "state": "draft",
+          "clinical_review": "pending",
+          "production_eligible": false,
+          "bm25": -5.654573813281577,
+          "score": 0.04238432961837217,
+          "applicability_warning": null
+        },
+        {
+          "end": 467,
+          "id": "23016a42e1f434dbe7b202f5",
+          "locator": "main/block[1]",
+          "population_status": "adult_dev_candidate",
+          "section": "What is age-related hearing loss?",
+          "start": 0,
+          "text": "Age-related hearing loss (also called presbycusis, pronounced prez-buh-KYOO-sis) is hearing loss that occurs gradually for many of us as we grow older. It is one of the most common conditions affecting adults as we age. Approximately 15% of American adults (37.5 million) ages 18 and over report some trouble hearing, and about one in three people in the U.S. between the ages of 65 and 74 has hearing loss. Nearly half of those older than 75 have difficulty hearing.",
+          "chunk_id": "23016a42e1f434dbe7b202f5",
+          "document_id": "nidcd-presbycusis",
+          "version_id": "6c17226f-5c23-409e-b71d-2c7e29c607d1",
+          "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+          "title": "Age-Related Hearing Loss (Presbycusis)",
+          "title_zh": "NIH/NIDCD 老年性听力损失患者教育",
+          "source_url": "https://www.nidcd.nih.gov/health/age-related-hearing-loss",
+          "publication_date": "March 17, 2023",
+          "license": "NIDCD-public-domain-unless-noted",
+          "state": "draft",
+          "clinical_review": "pending",
+          "production_eligible": false,
+          "bm25": -6.250161935539188,
+          "score": 0.04189001389716101,
+          "applicability_warning": null
+        },
+        {
+          "end": 64,
+          "id": "de578a0f6f0947d49da31b6c",
+          "locator": "body/sec[8]/sec[3]/list[1]/list-item[15]/p[1]",
+          "population_status": "adult_dev_candidate",
+          "section": "5. Appendix / 5.3 Appendix 3: Medical history questions and clinical severity classification",
+          "start": 0,
+          "text": "Do you or other people notice that you hear or understand worse?",
+          "chunk_id": "de578a0f6f0947d49da31b6c",
+          "version_id": "d5005279-1bad-491f-8122-a2d05e558146",
+          "document_id": "tinnitus-s3-2022",
+          "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+          "title": "S3 Guideline: Chronic Tinnitus",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9581878/",
+          "topics": [
+            "tinnitus"
+          ],
+          "clinical_review": "pending",
+          "production_eligible": false,
+          "score": 0.041592039800995025,
+          "applicability_warning": null
+        }
+      ],
+      "reranked": [],
+      "run_id": "1e2ba752-3ade-4486-bb63-c4d1f73104a6",
+      "elapsed_ms": 2899,
+      "reranker_enabled": false
+    },
+    "answer": {
+      "status": "answered",
+      "professional": [
+        {
+          "text": "资料指出，NIDCD支持研究年龄相关听力损失的原因，包括可能使这类听力损失更易发生的基因。",
+          "supports": [
+            {
+              "evidence_id": "E1",
+              "quote": "NIDCD supports research on the causes of age-related hearing loss, including genes that may make this type of hearing loss more likely."
+            }
+          ],
+          "input_fields": []
+        },
+        {
+          "text": "资料提到，NIDCD资助的科学家正在研究随年龄增长而发生的、影响嘈杂环境中言语听辨的变化。",
+          "supports": [
+            {
+              "evidence_id": "E1",
+              "quote": "NIDCD-funded scientists are working to understand what happens as we age that interferes with our ability to hear speech in a noisy environment."
+            }
+          ],
+          "input_fields": []
+        },
+        {
+          "text": "资料还提到，NIDCD资助研究在失去听力时大脑处理声音方式的变化。",
+          "supports": [
+            {
+              "evidence_id": "E1",
+              "quote": "NIDCD also funds research that explores changes in how the brain processes sound when we lose our hearing."
+            }
+          ],
+          "input_fields": []
+        }
+      ],
+      "input_explanation": [],
+      "patient_summary": [
+        {
+          "text": "资料指出，NIDCD支持研究年龄相关听力损失的原因，其中包括可能使这类听力损失更容易发生的基因。",
+          "supports": [
+            {
+              "evidence_id": "E1",
+              "quote": "NIDCD supports research on the causes of age-related hearing loss, including genes that may make this type of hearing loss more likely."
+            }
+          ],
+          "input_fields": []
+        }
+      ],
+      "limitations": []
+    },
+    "citations": [
+      {
+        "evidence_id": "E1",
+        "version_id": "6c17226f-5c23-409e-b71d-2c7e29c607d1",
+        "chunk_id": "d30f5a4b0f87d2dafaad6ee8",
+        "document_id": "nidcd-presbycusis",
+        "title": "Age-Related Hearing Loss (Presbycusis)",
+        "locator": "main/block[33]",
+        "source_url": "https://www.nidcd.nih.gov/health/age-related-hearing-loss",
+        "text": "NIDCD supports research on the causes of age-related hearing loss, including genes that may make this type of hearing loss more likely. NIDCD-funded scientists are working to understand what happens as we age that interferes with our ability to hear speech in a noisy environment. NIDCD also funds research that explores changes in how the brain processes sound when we lose our hearing. The research to date supports the use of hearing aids to maintain the brain’s sound-processing capabilities.",
+        "quote_options": [
+          {
+            "quote_id": "E1.Q1",
+            "text": "NIDCD supports research on the causes of age-related hearing loss, including genes that may make this type of hearing loss more likely."
+          },
+          {
+            "quote_id": "E1.Q2",
+            "text": "NIDCD-funded scientists are working to understand what happens as we age that interferes with our ability to hear speech in a noisy environment."
+          },
+          {
+            "quote_id": "E1.Q3",
+            "text": "NIDCD also funds research that explores changes in how the brain processes sound when we lose our hearing."
+          },
+          {
+            "quote_id": "E1.Q4",
+            "text": "The research to date supports the use of hearing aids to maintain the brain’s sound-processing capabilities."
+          }
+        ],
+        "text_truncated": false,
+        "clinical_review": "pending"
+      },
+      {
+        "evidence_id": "E2",
+        "version_id": "d5005279-1bad-491f-8122-a2d05e558146",
+        "chunk_id": "61d8c80cb5ed39d0375201d1",
+        "document_id": "tinnitus-s3-2022",
+        "title": "S3 Guideline: Chronic Tinnitus",
+        "locator": "body/sec[7]/sec[1]/sec[6]/sec[1]/p[6]",
+        "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9581878/",
+        "text": "Treatment of acute tinnitus follows the treatment recommendations for acute sudden hearing loss. For the treatment of acute hearing loss, corresponding guidelines (AWMF 017/2914 currently being updated [82]; guideline USA [83]) recommend systemic or intratympanic steroid treatment with, however, moderate evidence. Therefore, acute tinnitus with hearing loss or following hearing loss should be treated appropriately. If the tinnitus occurs acutely without measurable hearing loss, the standard cortisone therapy recommended for hearing loss is not recommended.",
+        "quote_options": [
+          {
+            "quote_id": "E2.Q1",
+            "text": "Treatment of acute tinnitus follows the treatment recommendations for acute sudden hearing loss."
+          },
+          {
+            "quote_id": "E2.Q2",
+            "text": "For the treatment of acute hearing loss, corresponding guidelines (AWMF 017/2914 currently being updated [82]; guideline USA [83]) recommend systemic or intratympanic steroid treatment with, however, moderate evidence."
+          },
+          {
+            "quote_id": "E2.Q3",
+            "text": "Therefore, acute tinnitus with hearing loss or following hearing loss should be treated appropriately."
+          },
+          {
+            "quote_id": "E2.Q4",
+            "text": "If the tinnitus occurs acutely without measurable hearing loss, the standard cortisone therapy recommended for hearing loss is not recommended."
+          }
+        ],
+        "text_truncated": false,
+        "clinical_review": "pending"
+      },
+      {
+        "evidence_id": "E3",
+        "version_id": "9c16e968-6f17-438f-8ec9-8682ab0882b6",
+        "chunk_id": "ac82efccc47cb4abdbba6d03",
+        "document_id": "nidcd-tinnitus",
+        "title": "Tinnitus",
+        "locator": "main/block[9]",
+        "source_url": "https://www.nidcd.nih.gov/health/tinnitus",
+        "text": "Hearing loss. Hearing loss, which can be caused by factors such as aging or exposure to loud noise, is strongly associated with tinnitus. Some people with hearing loss, however, never develop tinnitus.",
+        "quote_options": [
+          {
+            "quote_id": "E3.Q1",
+            "text": "Hearing loss."
+          },
+          {
+            "quote_id": "E3.Q2",
+            "text": "Hearing loss, which can be caused by factors such as aging or exposure to loud noise, is strongly associated with tinnitus."
+          },
+          {
+            "quote_id": "E3.Q3",
+            "text": "Some people with hearing loss, however, never develop tinnitus."
+          }
+        ],
+        "text_truncated": false,
+        "clinical_review": "pending"
+      },
+      {
+        "evidence_id": "E4",
+        "version_id": "6c17226f-5c23-409e-b71d-2c7e29c607d1",
+        "chunk_id": "618d317ee5c70c61c9ef73c2",
+        "document_id": "nidcd-presbycusis",
+        "title": "Age-Related Hearing Loss (Presbycusis)",
+        "locator": "main/block[5]",
+        "source_url": "https://www.nidcd.nih.gov/health/age-related-hearing-loss",
+        "text": "Conditions that are more common in older people, such as high blood pressure and diabetes, are associated with hearing loss. In addition, medications that are toxic to the sensory cells in your ears (some chemotherapy drugs, for example) can cause hearing loss. Less commonly, abnormalities of the middle ear, such as otosclerosis, can worsen hearing with age.",
+        "quote_options": [
+          {
+            "quote_id": "E4.Q1",
+            "text": "Conditions that are more common in older people, such as high blood pressure and diabetes, are associated with hearing loss."
+          },
+          {
+            "quote_id": "E4.Q2",
+            "text": "In addition, medications that are toxic to the sensory cells in your ears (some chemotherapy drugs, for example) can cause hearing loss."
+          },
+          {
+            "quote_id": "E4.Q3",
+            "text": "Less commonly, abnormalities of the middle ear, such as otosclerosis, can worsen hearing with age."
+          }
+        ],
+        "text_truncated": false,
+        "clinical_review": "pending"
+      },
+      {
+        "evidence_id": "E5",
+        "version_id": "6c17226f-5c23-409e-b71d-2c7e29c607d1",
+        "chunk_id": "b5eb56631abed6dbef52edd6",
+        "document_id": "nidcd-presbycusis",
+        "title": "Age-Related Hearing Loss (Presbycusis)",
+        "locator": "main/block[22]",
+        "source_url": "https://www.nidcd.nih.gov/health/age-related-hearing-loss",
+        "text": "An audiologist (pronounced aw-dee-AH-luh-jist) has specialized training in identifying and measuring hearing loss, determining where along the auditory pathway there may be a problem with hearing, and recommending and providing certain hearing loss interventions, such as hearing aids.",
+        "quote_options": [
+          {
+            "quote_id": "E5.Q1",
+            "text": "An audiologist (pronounced aw-dee-AH-luh-jist) has specialized training in identifying and measuring hearing loss, determining where along the auditory pathway there may be a problem with hearing, and recommending and providing certain hearing loss interventions, such as hearing aids."
+          }
+        ],
+        "text_truncated": false,
+        "clinical_review": "pending"
+      },
+      {
+        "evidence_id": "E6",
+        "version_id": "d5005279-1bad-491f-8122-a2d05e558146",
+        "chunk_id": "c5359609e7b57507a55582b0",
+        "document_id": "tinnitus-s3-2022",
+        "title": "S3 Guideline: Chronic Tinnitus",
+        "locator": "body/sec[7]/sec[1]/sec[2]/sec[1]/p[9]",
+        "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9581878/",
+        "text": "If hearing aids are fitted, this is generally done according to the applicable national hearing aid guidelines. In individual cases of isolated high-frequency hearing loss and high-frequency tinnitus, a hearing aid fitting can be useful even without the presence of hearing loss corresponding to these guidelines [94, 100–103].",
+        "quote_options": [
+          {
+            "quote_id": "E6.Q1",
+            "text": "If hearing aids are fitted, this is generally done according to the applicable national hearing aid guidelines."
+          },
+          {
+            "quote_id": "E6.Q2",
+            "text": "In individual cases of isolated high-frequency hearing loss and high-frequency tinnitus, a hearing aid fitting can be useful even without the presence of hearing loss corresponding to these guidelines [94, 100–103]."
+          }
+        ],
+        "text_truncated": false,
+        "clinical_review": "pending"
+      }
+    ],
+    "validation": {
+      "citation_identity_and_quote_match": true,
+      "semantic_support": "model_judgment_only",
+      "clinical_approval": false,
+      "input_check": "exact_field_anchors_and_bounded_attribution_screen",
+      "requested_quote_selectors": 3,
+      "generation_evidence_ids": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6"
+      ],
+      "draft_summary_placeholder": true,
+      "citation_context_expansions": [],
+      "atomization": [],
+      "dose_screen": "heuristic_passed",
+      "quote_repair": {
+        "attempts": 0,
+        "accepted": false
+      },
+      "core_verification": {
+        "claims": [
+          {
+            "claim_id": "professional:0",
+            "supported": true,
+            "reason": "supported",
+            "checked_quote_indexes": [
+              0
+            ]
+          },
+          {
+            "claim_id": "professional:1",
+            "supported": true,
+            "reason": "supported",
+            "checked_quote_indexes": [
+              0
+            ]
+          },
+          {
+            "claim_id": "professional:2",
+            "supported": true,
+            "reason": "supported",
+            "checked_quote_indexes": [
+              0
+            ]
+          }
+        ],
+        "retained_answer_addresses_question": true,
+        "refusal_assessment": "not_applicable",
+        "refusal_supports": [],
+        "atom_groups": [],
+        "split_group_complete": true,
+        "mixed_group_withheld": false,
+        "retained_indexes": {
+          "professional": [
+            0,
+            1,
+            2
+          ],
+          "input_explanation": [],
+          "patient_summary": []
+        },
+        "withhold_causes": [],
+        "format_attempts": 1,
+        "format_errors": [],
+        "format_feedback": null,
+        "deterministic_record_claim_ids": []
+      },
+      "core_verification_metadata": {
+        "requested_model": "deepseek-flash",
+        "returned_model": "deepseek-flash",
+        "usage": {
+          "prompt_tokens": 2743,
+          "completion_tokens": 104,
+          "total_tokens": 2847
+        },
+        "prompt_sha256": "e5dfe4120c4a84c127102e4038da428682e8cb10702595855c420f7664068a5e",
+        "deterministic_record_claim_ids": []
+      },
+      "original_status": "answered",
+      "isolated_patient_summary": true,
+      "summary_core_selection": {
+        "selected_original_index": 0,
+        "professional_order": [
+          0,
+          1,
+          2
+        ],
+        "skipped": []
+      },
+      "summary_metadata": {
+        "requested_model": "deepseek-flash",
+        "returned_model": "deepseek-flash",
+        "usage": {
+          "prompt_tokens": 613,
+          "completion_tokens": 28,
+          "total_tokens": 641
+        },
+        "prompt_sha256": "e1f112d2f87f6c7c1a94c4977d3563473c3bfa82c0b1a5b16e4749a3a1ffad00"
+      },
+      "verification": {
+        "claims": [
+          {
+            "claim_id": "professional:0",
+            "supported": true,
+            "reason": "supported",
+            "checked_quote_indexes": [
+              0
+            ]
+          },
+          {
+            "claim_id": "professional:1",
+            "supported": true,
+            "reason": "supported",
+            "checked_quote_indexes": [
+              0
+            ]
+          },
+          {
+            "claim_id": "professional:2",
+            "supported": true,
+            "reason": "supported",
+            "checked_quote_indexes": [
+              0
+            ]
+          },
+          {
+            "claim_id": "patient_summary:0",
+            "supported": true,
+            "reason": "supported",
+            "checked_quote_indexes": [
+              0
+            ]
+          }
+        ],
+        "retained_answer_addresses_question": true,
+        "refusal_assessment": "not_applicable",
+        "refusal_supports": [],
+        "atom_groups": [],
+        "split_group_complete": true,
+        "mixed_group_withheld": false,
+        "retained_indexes": {
+          "professional": [
+            0,
+            1,
+            2
+          ],
+          "input_explanation": [],
+          "patient_summary": [
+            0
+          ]
+        },
+        "withhold_causes": [],
+        "format_attempts": 1,
+        "format_errors": [],
+        "format_feedback": null,
+        "deterministic_record_claim_ids": []
+      },
+      "verification_metadata": {
+        "requested_model": "deepseek-flash",
+        "returned_model": "deepseek-flash",
+        "usage": {
+          "prompt_tokens": 2934,
+          "completion_tokens": 130,
+          "total_tokens": 3064
+        },
+        "prompt_sha256": "e5dfe4120c4a84c127102e4038da428682e8cb10702595855c420f7664068a5e",
+        "deterministic_record_claim_ids": []
+      },
+      "outcome_category": "answer_ready"
+    },
+    "model": "deepseek-flash",
+    "provider_base_url": "https://api.deepseek.com",
+    "elapsed_ms": 7211,
+    "synthetic_only": true,
+    "generation_metadata": {
+      "requested_model": "deepseek-flash",
+      "returned_model": "deepseek-flash",
+      "usage": {
+        "prompt_tokens": 4815,
+        "completion_tokens": 177,
+        "total_tokens": 4992
+      },
+      "prompt_sha256": "8549fc1bf7b1b34f6d5da424dbbf40c89b65a71382f36a27486891f5ee2d2c17"
+    }
+  }
+}

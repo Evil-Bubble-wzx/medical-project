@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "synthetic_fixture_only": true,
+  "checks": [
+    "doctor_entry_and_trial_guidance",
+    "doctor_login_six_assigned_cases",
+    "case_snapshot_and_suggested_question",
+    "background_consultation_answer_and_traceable_reference",
+    "issue_requires_comment",
+    "feedback_saved_without_medical_approval",
+    "refresh_history_feedback_persists_without_regeneration",
+    "own_feedback_export",
+    "concurrent_feedback_conflict_keeps_input",
+    "mobile_no_horizontal_overflow",
+    "logout_clears_feedback_and_patient_data"
+  ],
+  "errors": [],
+  "provider_calls": 0
+}

@@ -1,0 +1,126 @@
+{
+  "items": [
+    {
+      "claim_id": "GEN-ENT-009/professional:2",
+      "item_id": "W40-9a4b2556c8df995d",
+      "binding_hash": "cdace087ca922af660b55277c685cb331dbbc1fdb182c9f710d8c3c3c5d1ad8f",
+      "revision": 1,
+      "state": "draft",
+      "decision": "accept",
+      "already_saved": false,
+      "clinical_approval": false,
+      "answer_changes_applied": false
+    },
+    {
+      "claim_id": "GEN-ENT-036/professional:0",
+      "item_id": "W40-7adde199ca8de6df",
+      "binding_hash": "825c8971004191d346a16b12cccddeaf64d2e0cacded2bd5f0b423ec1589c1cc",
+      "revision": 1,
+      "state": "draft",
+      "decision": "accept",
+      "already_saved": false,
+      "clinical_approval": false,
+      "answer_changes_applied": false
+    },
+    {
+      "claim_id": "GEN-ENT-036/patient_summary:0",
+      "item_id": "W40-b5d911982f8be5eb",
+      "binding_hash": "00bcf1ab05bd2d0d4a8348d93d2a81b829e4a82a20bffe2aef1e87ba2b65a8a9",
+      "revision": 1,
+      "state": "draft",
+      "decision": "revise",
+      "already_saved": false,
+      "clinical_approval": false,
+      "answer_changes_applied": false
+    },
+    {
+      "claim_id": "GEN-ENT-002-CONTEXT/professional:1",
+      "item_id": "W40-20042c8661a6220d",
+      "binding_hash": "1d1c7740a04602d8f513ac4cfa9fe53f720deec8329e1c8d3c8612f9ad692bcc",
+      "revision": 1,
+      "state": "draft",
+      "decision": "revise",
+      "already_saved": false,
+      "clinical_approval": false,
+      "answer_changes_applied": false
+    },
+    {
+      "claim_id": "GEN-ENT-002-CONTEXT/patient_summary:0",
+      "item_id": "W40-334a3e012184eac9",
+      "binding_hash": "99d29ceb9f1729bf0232cf7ca8dd207b433ee1baa8149f90292063733d0fd485",
+      "revision": 1,
+      "state": "draft",
+      "decision": "accept",
+      "already_saved": false,
+      "clinical_approval": false,
+      "answer_changes_applied": false
+    },
+    {
+      "claim_id": "GEN-ENT-009-CONTEXT/professional:0",
+      "item_id": "W40-ee416ec3f529aab4",
+      "binding_hash": "e2e58c65585d0f5c5f133865d3d838f608e9f001d6bbedc8f7398a90bc5120b1",
+      "revision": 1,
+      "state": "draft",
+      "decision": "accept",
+      "already_saved": false,
+      "clinical_approval": false,
+      "answer_changes_applied": false
+    },
+    {
+      "claim_id": "GEN-ENT-009-CONTEXT/patient_summary:0",
+      "item_id": "W40-29e5f4505d69005f",
+      "binding_hash": "f7a2daab80536f0db425ce4458d184f2ae9c87feaccf258f0e6b93e1e9d16197",
+      "revision": 1,
+      "state": "draft",
+      "decision": "revise",
+      "already_saved": false,
+      "clinical_approval": false,
+      "answer_changes_applied": false
+    },
+    {
+      "claim_id": "GEN-ENT-015-CONTEXT/patient_summary:0",
+      "item_id": "W40-97f85c94f4d5c1f4",
+      "binding_hash": "4e4b943d9e665d5ad3d4ae87bd7dfd10da7515c97fe95ecc3e849e6f9a30ea99",
+      "revision": 1,
+      "state": "draft",
+      "decision": "exclude",
+      "already_saved": false,
+      "clinical_approval": false,
+      "answer_changes_applied": false
+    },
+    {
+      "claim_id": "GEN-ENT-036-CONTEXT/professional:0",
+      "item_id": "W40-c5b5f23c1dab30c0",
+      "binding_hash": "48a7599bbc28b9977757eafe8f0907fb9f630c41f3410dbb3473ac3e55e35dc5",
+      "revision": 1,
+      "state": "draft",
+      "decision": "accept",
+      "already_saved": false,
+      "clinical_approval": false,
+      "answer_changes_applied": false
+    },
+    {
+      "claim_id": "GEN-ENT-036-CONTEXT/patient_summary:0",
+      "item_id": "W40-4e41fc9e76873563",
+      "binding_hash": "56c7b532aa5857789624c8b0d904a326be5a6281223b90f3c2aa6fdae234fd7b",
+      "revision": 1,
+      "state": "draft",
+      "decision": "revise",
+      "already_saved": false,
+      "clinical_approval": false,
+      "answer_changes_applied": false
+    },
+    {
+      "claim_id": "BATCH-STATE-UNKNOWN/patient_summary:0",
+      "item_id": "W40-04c937bf57992b09",
+      "binding_hash": "20f7035b9c27956a6f2502af187508624d61222fe5ef271f0f3f20eae7ab18bc",
+      "revision": 1,
+      "state": "draft",
+      "decision": "revise",
+      "already_saved": false,
+      "clinical_approval": false,
+      "answer_changes_applied": false
+    }
+  ],
+  "clinical_approval": false
+}

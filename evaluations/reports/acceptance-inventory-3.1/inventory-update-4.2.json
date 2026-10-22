@@ -1,0 +1,14 @@
+{
+  "checklist": "docs/AI表述复核交付清单4.2.md",
+  "summary_sha256": "25a0bef24f416c2b91626bf8d93c3e6796d8bfc84d9187de2489d27b59755dc1",
+  "scope": "AI text review, not clinical sign-off",
+  "saved_drafts": 11,
+  "decision_counts": {
+    "accept": 5,
+    "revise": 5,
+    "exclude": 1
+  },
+  "clinical_approval": false,
+  "answer_changes_applied": false,
+  "adult_only_source_label_conflict_unresolved": true
+}

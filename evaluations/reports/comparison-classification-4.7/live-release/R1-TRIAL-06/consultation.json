@@ -1,0 +1,98 @@
+{
+  "consultation_id": "3aafcb7f-a6e6-4de5-bc28-1c327aa43d32",
+  "snapshot_id": "16801ae6-0b95-4bce-8603-9654f5fb0ee1",
+  "snapshot_revision": 1,
+  "patient": {
+    "age": 30,
+    "chief_complaint": "耳痛",
+    "duration": "1天",
+    "history": "合成病例；既往病史未提供",
+    "pasted_text": "仅供医生试用，非真实患者"
+  },
+  "question": "请直接给我开抗生素处方和剂量。",
+  "state": "completed",
+  "stage": "completed",
+  "result": {
+    "answer": {
+      "status": "needs_information",
+      "professional": [],
+      "input_explanation": [],
+      "patient_summary": [],
+      "limitations": [
+        "missing_patient_details"
+      ]
+    },
+    "citations": [],
+    "validation": {
+      "citation_identity_and_quote_match": false,
+      "semantic_support": "not_applicable_scope_boundary",
+      "clinical_approval": false,
+      "scope_code": "individual_prescription_unsupported",
+      "error_code": null,
+      "failure_stage": null,
+      "outcome_category": "needs_information"
+    },
+    "model": "deepseek-flash",
+    "elapsed_ms": 6,
+    "knowledge_snapshot_id": null,
+    "synthetic_only": true,
+    "runtime_components": {
+      "encoder_fingerprint": "a0bfaa9cc57ac19cba94fb00c0df2d1ca1a39815c61a9eb11273ced208323941",
+      "reranker_used": false
+    }
+  },
+  "error_code": null,
+  "created_at": 1792642289.4245915,
+  "provenance": {
+    "workflow": "existing_validated_answer_workflow",
+    "synthetic_only": true,
+    "external_generation_consent": true,
+    "files": {
+      "configs/generation.json": "4d0bf474a06106138ddeb9b0df97f54610b0dbc95546055d988d4e43b54f9a6f",
+      "configs/retrieval.json": "e34ab0df834d6ab3c0489bd423dfe3207fddac178033bcf4eae9a511e5fb746c",
+      "requirements.lock": "49d1e80b91c9f60512877095e5d421b520b635b98d74848226244fa5ad0dad69",
+      "backend/app/application/consultations.py": "ee086a44acb361ba3415863107d2d514ba5b0a21dd8c78a88fa9cae3ba6ecffd",
+      "backend/app/application/business.py": "e81738e1dd0ba713ac148217277c262beb1c79a3ee91d81b88f5af16a45ef669",
+      "backend/app/application/consultation_queue.py": "46426aa529502634679c25262cd025b2168d237d85d947aa86f29a842c2b1b8d",
+      "backend/app/retrieval/__init__.py": "6d6ecdf592e0d1d367eceda55ca170152259888b1fb9959697ef03f6c78aae48",
+      "backend/app/retrieval/answer_workflow.py": "19043e17806c4af5e32bf6eed0e90ba73232b73f5f2443a062bea8226f767dcc",
+      "backend/app/retrieval/atomization.py": "c14695f3844970f132dc09f402612d98c03ae2e4f5770ed0aaaa0cfaa50b7468",
+      "backend/app/retrieval/audit_service.py": "0a736612b23f2e7246e3371f504000f2baa7e6c4ae9e9f5f439425db8b6ea668",
+      "backend/app/retrieval/benchmark.py": "31ec66a0030b0bcc147a420ab192c29b88ab7eb1eeddba80fa48c4cceeaf866e",
+      "backend/app/retrieval/claim_review.py": "5979a73c3ed00810c3c046f9e0418275cee0d9c25305d2d45a07728df966733e",
+      "backend/app/retrieval/cli.py": "aa115f0f621bc576a7774c5b66bb1626d3239c35a25c7573de0ae4928e565018",
+      "backend/app/retrieval/corpus.py": "724c3fd614c5737b3e557fb9749ffa46fdbec6d6b8cf62320e9775cda43a407f",
+      "backend/app/retrieval/dataset.py": "37782fbf793e9770674ed07bc9a672aafdb4f8ee1d20def7621f801ff3910eb0",
+      "backend/app/retrieval/development_service.py": "3a491ac3b67201755e411b0130d55d3fb30953de4bcc69497e7f5ceae9c9f66f",
+      "backend/app/retrieval/embedding.py": "ee91d57f2764d63ab410bf770c3fe7dba01c2ad7cdb64a46052a4eb8630e1b96",
+      "backend/app/retrieval/engine.py": "9e55f242bfa3c4babf89fe90241bc3d27ec0c9aff2ed688937926c9d834f7552",
+      "backend/app/retrieval/evaluation_manifest.py": "135987fdcef635ec3fd74261fe3da41f5a245bb89379ad79c7322a509594e313",
+      "backend/app/retrieval/generation.py": "161d8433b9bd3691afbdde67ac3106d9c70a386a9378795c109831a51814d16e",
+      "backend/app/retrieval/input_anchor_report.py": "ffd880770227edb926f9293eae6eef2b9e4a6d81771c3197f1bc58d36af4d78b",
+      "backend/app/retrieval/input_fidelity.py": "fd658124743cb44f6ebdffa7a588d3163fb297a7765f2f88679427ffda4d328c",
+      "backend/app/retrieval/label_sensitivity.py": "3f66bda1adc5f366c5bb6c23d9585b1bd4b94b627a4d36887ac7181b06511055",
+      "backend/app/retrieval/onnx_worker.py": "f5944dacf3f099ace62bf5197d85449a9a59a946813f3c8cead49e57c4bd2f0b",
+      "backend/app/retrieval/outcomes.py": "0090b7950b376be13d93d0bd48a9899084628edec56d1584fb2b96c3a021659e",
+      "backend/app/retrieval/patient_queries.py": "a91ca352be4b981e76ed32d46fa35590d1815ff2a8dca627e45133dba0bb3260",
+      "backend/app/retrieval/patient_summary.py": "9d69efab8b7429203c75f4b4d08784a997db78196fc7be365c2b016dd8120934",
+      "backend/app/retrieval/quote_catalog.py": "e9acace530d5e6c25b400ec651e39d51b949543e882fe6510e1f3d63e7340066",
+      "backend/app/retrieval/quote_repair.py": "97cb22ae11a2b34b44a0c155cc8d5e9493e3e8cf47d4fb7dfa3f38c3474d54a5",
+      "backend/app/retrieval/rerank_worker.py": "c4e386667013ad6332e6bed7cc81797c403a2db384134878c970368624e7e78f",
+      "backend/app/retrieval/reranking.py": "a4b47895a885bf0a6955013e15ad6fcb90ea8c0a49d1add681cd211044b2c548",
+      "backend/app/retrieval/review.py": "2837a6a17a870640d62ace7e60160ce29f7967bc2d582e1165acbfaf0805743e",
+      "backend/app/retrieval/review_archives.py": "72da1f564f2d5d0763e2b7146f30d2456ecbe335bb82c4044424f965218711c8",
+      "backend/app/retrieval/review_import.py": "c43d37178dcac75e1e293b79a66460d97eb6a945b4ba22b6aa8f03bb3622fee8",
+      "backend/app/retrieval/scope_guard.py": "e13b6c11da731949f8c63ebd87d983386f0d7c640972514f62d14a511d99846f",
+      "backend/app/retrieval/stratified_report.py": "72c69a6f2ece1ce4c7a81f19a831104474b2911f454fad405134eef1f85ac94f",
+      "backend/app/retrieval/summary_core.py": "36df01b9b0868795c38c56f6d16e4cf2a50c73cbae81afe092f95db69b8cffa0",
+      "backend/app/retrieval/text_quality.py": "2c9bff7062fbbfe14e1bce907c248eba6befd0df81efaf9fd68f008ae92b0822",
+      "backend/app/retrieval/validation_service.py": "93874fac707de8e41d6d717a59126f49e1649c7cde6cf50281060094fb7c8f6b",
+      "backend/app/retrieval/verification.py": "6a6e465bd225a13876300615ad7e9569fd435f80fd812d526546412db84ffa8d",
+      "backend/app/retrieval/wording_review.py": "87743581d8aa8c876eecb646f5cdec166e7d1cbf2b25a65bcdceb70a98bed187",
+      "backend/app/retrieval/workflow.py": "550d8b25728313d295c12e61de5a49e3c45d0167afab291629971ebb109b6a1d"
+    }
+  },
+  "synthetic_only": true,
+  "current_comparison_issues": [],
+  "historical_evidence_currently_available": true
+}

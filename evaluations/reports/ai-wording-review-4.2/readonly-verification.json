@@ -1,0 +1,85 @@
+{
+  "items": [
+    {
+      "claim_id": "GEN-ENT-009/professional:2",
+      "state": "draft",
+      "revision": 1,
+      "decision": "accept",
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-036/professional:0",
+      "state": "draft",
+      "revision": 1,
+      "decision": "accept",
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-036/patient_summary:0",
+      "state": "draft",
+      "revision": 1,
+      "decision": "revise",
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-002-CONTEXT/professional:1",
+      "state": "draft",
+      "revision": 1,
+      "decision": "revise",
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-002-CONTEXT/patient_summary:0",
+      "state": "draft",
+      "revision": 1,
+      "decision": "accept",
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-009-CONTEXT/professional:0",
+      "state": "draft",
+      "revision": 1,
+      "decision": "accept",
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-009-CONTEXT/patient_summary:0",
+      "state": "draft",
+      "revision": 1,
+      "decision": "revise",
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-015-CONTEXT/patient_summary:0",
+      "state": "draft",
+      "revision": 1,
+      "decision": "exclude",
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-036-CONTEXT/professional:0",
+      "state": "draft",
+      "revision": 1,
+      "decision": "accept",
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "GEN-ENT-036-CONTEXT/patient_summary:0",
+      "state": "draft",
+      "revision": 1,
+      "decision": "revise",
+      "clinical_approval": false
+    },
+    {
+      "claim_id": "BATCH-STATE-UNKNOWN/patient_summary:0",
+      "state": "draft",
+      "revision": 1,
+      "decision": "revise",
+      "clinical_approval": false
+    }
+  ],
+  "count": 11,
+  "original_packet_unchanged": true,
+  "clinical_approval": false,
+  "human_checks_not_filled": true
+}

@@ -1,0 +1,76 @@
+{
+  "version": "otitis-supplement-1.0",
+  "sources": [
+    {
+      "id": "postcovid-ome-2025",
+      "pmcid": "PMC12104189",
+      "title_zh": "感染后分泌性中耳炎单中心观察研究（2025）",
+      "raw_sha256": "c741910d8ec12722b01b78daaba82ea445e488eaf8dda15d2284d7fa56a14254",
+      "population_status": "adult_analysis_subset",
+      "age_evidence_locator": "body/sec[3]/sec[1]/p[1]",
+      "age_evidence_anchor": "from 29 to 86 years old",
+      "scope_limitations": "仅分析入组52人，不能把311名筛查者都判定成人；感染后特定场景，不能证明因果或推广治疗。"
+    },
+    {
+      "id": "csom-peptide-trial-2020",
+      "pmcid": "PMC7156094",
+      "title_zh": "难治性慢性化脓性中耳炎试验（2020）",
+      "raw_sha256": "4e96c9460d47d98e35ebde7c36026634609a67fcdefffe32716532c54281ce4f",
+      "population_status": "adult_inclusion",
+      "age_evidence_locator": "body/sec[2]/sec[2]/p[1]",
+      "age_evidence_anchor": "age ≥18 year",
+      "scope_limitations": "难治性CSOM伴鼓膜穿孔的探索性试验；含剂量探索和IIa期研究，存在企业雇佣/专利利益冲突，不能推荐试验药。"
+    },
+    {
+      "id": "postomicron-ome-2024",
+      "pmcid": "PMC11293243",
+      "title_zh": "感染后分泌性中耳炎多中心回顾研究（2024）",
+      "raw_sha256": "b40aaa5fa7411c36e413fac9c5c1f740b53320ad933f0a49ba8950571ac4c28a",
+      "population_status": "minimum_age_unresolved",
+      "age_evidence_locator": null,
+      "age_evidence_anchor": null,
+      "scope_limitations": "题名成人、均值年龄不能证明最低年龄≥18；已核对方法与表1，仍待最低年龄核实，不进入补充检索。"
+    }
+  ],
+  "metadata_only": [
+    {
+      "pmcid": "PMC9531740",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9531740/",
+      "status": "license_restricted",
+      "reason": "CC BY-NC-SA 4.0；不进入本项目可复用全文库。"
+    },
+    {
+      "pmcid": "PMC7607522",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7607522/",
+      "status": "license_restricted",
+      "reason": "CC BY-NC 4.0；不进入本项目可复用全文库。"
+    },
+    {
+      "pmcid": "PMC13205828",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13205828/",
+      "status": "license_restricted",
+      "reason": "CC BY-NC-ND 4.0；不进入本项目可复用全文库。"
+    },
+    {
+      "pmcid": "PMC7419099",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7419099/",
+      "status": "fulltext_endpoint_unavailable",
+      "reason": "Europe PMC XML返回500；未认定许可或年龄符合，不收录全文。"
+    },
+    {
+      "pmid": "33506857",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/33506857/",
+      "status": "population_mismatch",
+      "reason": "成人标签下含15–39岁分组，不能认定为纯18岁以上。"
+    },
+    {
+      "pmid": "23990061",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/23990061/",
+      "status": "permission_unverified",
+      "reason": "摘要说明年龄>18；未取得全文复用许可，只保存题录链接。"
+    }
+  ],
+  "clinical_review": "pending",
+  "production_eligible": false,
+  "retrieval_activated": false
+}

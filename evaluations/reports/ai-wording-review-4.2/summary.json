@@ -1,0 +1,15 @@
+{
+  "count": 11,
+  "decision_counts": {
+    "accept": 5,
+    "revise": 5,
+    "exclude": 1
+  },
+  "plan_sha256": "524c898c6d0ea705a694dd3411e3a032f58c7500df20d4e87a710ce132304fb0",
+  "source_packet_sha256": "f8790de26c7f1158cde34759eceb6db08d5bf8d0111f14bb295f6ff6e235be33",
+  "clinical_approval": false,
+  "answer_changes_applied": false,
+  "human_clinical_review": "pending",
+  "additional_provider_generation_calls": 0,
+  "saved_draft_count": 11
+}

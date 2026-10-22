@@ -1,0 +1,41 @@
+{
+  "http_status": 200,
+  "result": {
+    "retrieval": {
+      "snapshot_id": null,
+      "hybrid": [],
+      "reranked": [],
+      "run_id": null,
+      "elapsed_ms": 0,
+      "reranker_enabled": false
+    },
+    "answer": {
+      "status": "needs_information",
+      "professional": [],
+      "input_explanation": [],
+      "patient_summary": [],
+      "limitations": [
+        "missing_patient_details"
+      ]
+    },
+    "citations": [],
+    "validation": {
+      "citation_identity_and_quote_match": false,
+      "semantic_support": "not_applicable_scope_boundary",
+      "clinical_approval": false,
+      "scope_decision": {
+        "code": "input_duration_needs_confirmation",
+        "status": "needs_information",
+        "limitation": "missing_patient_details",
+        "message": "病程字段与问题中的时间信息需确认，请统一或说明分别对应的症状后再提交。"
+      },
+      "provider_calls_skipped": true,
+      "outcome_category": "needs_information"
+    },
+    "model": "deepseek-flash",
+    "provider_base_url": "https://api.deepseek.com",
+    "elapsed_ms": 5,
+    "synthetic_only": true,
+    "generation_metadata": {}
+  }
+}

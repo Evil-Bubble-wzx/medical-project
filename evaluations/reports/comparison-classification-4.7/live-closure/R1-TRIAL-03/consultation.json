@@ -1,0 +1,334 @@
+{
+  "consultation_id": "3f9bb4cf-c0fa-4e31-b4da-186ae7bd91b6",
+  "snapshot_id": "e1b6d93f-acb0-4c5c-88a7-9168c28e23fa",
+  "snapshot_revision": 1,
+  "patient": {
+    "age": 45,
+    "chief_complaint": "自述耳鸣",
+    "duration": "2个月",
+    "history": "合成病例；既往病史未提供",
+    "pasted_text": "仅供医生试用，非真实患者"
+  },
+  "question": "资料如何描述耳鸣可能对生活的影响？",
+  "state": "completed",
+  "stage": "completed",
+  "result": {
+    "answer": {
+      "status": "answered",
+      "professional": [
+        {
+          "text": "在耳鸣患者中，焦虑障碍、抑郁和睡眠障碍分别报告更常见。",
+          "supports": [
+            {
+              "evidence_id": "E1",
+              "quote": "In particular, anxiety disorders, depression and sleep disorders are found more frequently in patients with tinnitus."
+            }
+          ],
+          "input_fields": []
+        },
+        {
+          "text": "抑郁和其他心理障碍是耳鸣发生的风险因素，并可能加重耳鸣。",
+          "supports": [
+            {
+              "evidence_id": "E1",
+              "quote": "Depression and other psychological disorders are risk factors for the development of tinnitus and can intensify tinnitus [9, 50]."
+            }
+          ],
+          "input_fields": []
+        },
+        {
+          "text": "研究显示，耳鸣问卷和视觉模拟量表是量化耳鸣影响可靠且有效的工具。",
+          "supports": [
+            {
+              "evidence_id": "E6",
+              "quote": "These efforts revealed that tinnitus questionnaires and visual analogue scales represent reliable and valid tools for quantifying tinnitus impact."
+            }
+          ],
+          "input_fields": []
+        }
+      ],
+      "input_explanation": [
+        {
+          "text": "填写原话（未经临床确认）：年龄：45；主诉：自述耳鸣；病程：2个月",
+          "supports": [],
+          "input_fields": [
+            "age",
+            "chief_complaint",
+            "duration"
+          ],
+          "source_kind": "patient_input",
+          "input_anchors": [
+            {
+              "field": "age",
+              "quote": "45",
+              "state": "reported"
+            },
+            {
+              "field": "chief_complaint",
+              "quote": "自述耳鸣",
+              "state": "reported"
+            },
+            {
+              "field": "duration",
+              "quote": "2个月",
+              "state": "reported"
+            }
+          ]
+        }
+      ],
+      "patient_summary": [
+        {
+          "text": "在耳鸣患者中，焦虑障碍、抑郁和睡眠障碍是分别报告更常见的。",
+          "supports": [
+            {
+              "evidence_id": "E1",
+              "quote": "In particular, anxiety disorders, depression and sleep disorders are found more frequently in patients with tinnitus."
+            }
+          ],
+          "input_fields": []
+        }
+      ],
+      "limitations": []
+    },
+    "citations": [
+      {
+        "evidence_id": "E1",
+        "version_id": "d5005279-1bad-491f-8122-a2d05e558146",
+        "chunk_id": "b2e23134549a2cdea4235394",
+        "document_id": "tinnitus-s3-2022",
+        "title": "S3 Guideline: Chronic Tinnitus",
+        "locator": "body/sec[5]/sec[4]/p[1]",
+        "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9581878/",
+        "text": "Comorbidities (see Table 1) may be pre-existing, independent of tinnitus or tinnitus-induced. Psychological and/or psychosomatic comorbidities are frequently found in connection with tinnitus [48, 49]. In particular, anxiety disorders, depression and sleep disorders are found more frequently in patients with tinnitus. Depression and other psychological disorders are risk factors for the development of tinnitus and can intensify tinnitus [9, 50].",
+        "quote_options": [
+          {
+            "quote_id": "E1.Q1",
+            "text": "Comorbidities (see Table 1) may be pre-existing, independent of tinnitus or tinnitus-induced."
+          },
+          {
+            "quote_id": "E1.Q2",
+            "text": "Psychological and/or psychosomatic comorbidities are frequently found in connection with tinnitus [48, 49]."
+          },
+          {
+            "quote_id": "E1.Q3",
+            "text": "In particular, anxiety disorders, depression and sleep disorders are found more frequently in patients with tinnitus."
+          },
+          {
+            "quote_id": "E1.Q4",
+            "text": "Depression and other psychological disorders are risk factors for the development of tinnitus and can intensify tinnitus [9, 50]."
+          }
+        ],
+        "text_truncated": false,
+        "clinical_review": "pending"
+      },
+      {
+        "evidence_id": "E2",
+        "version_id": "d5005279-1bad-491f-8122-a2d05e558146",
+        "chunk_id": "6c2ee97634b254388d56aed8",
+        "document_id": "tinnitus-s3-2022",
+        "title": "S3 Guideline: Chronic Tinnitus",
+        "locator": "body/sec[8]/sec[3]/list[1]/list-item[9]/p[1]",
+        "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9581878/",
+        "text": "Does normal environmental noise make your tinnitus louder?",
+        "quote_options": [
+          {
+            "quote_id": "E2.Q1",
+            "text": "Does normal environmental noise make your tinnitus louder?"
+          }
+        ],
+        "text_truncated": false,
+        "clinical_review": "pending"
+      },
+      {
+        "evidence_id": "E3",
+        "version_id": "d5005279-1bad-491f-8122-a2d05e558146",
+        "chunk_id": "4c9dbbe24a09ea4995bb8fc3",
+        "document_id": "tinnitus-s3-2022",
+        "title": "S3 Guideline: Chronic Tinnitus",
+        "locator": "body/sec[8]/sec[2]/p[2]",
+        "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9581878/",
+        "text": "In particular, life situations will be addressed in which the tinnitus is perceived as disturbing (work, leisure, rest, falling asleep, tense situations), but also as bearable (background noise, music, the sound of the sea, fountains, machine noise, general distraction, use of hearing aids, drinking alcohol, etc.).",
+        "quote_options": [],
+        "text_truncated": false,
+        "clinical_review": "pending"
+      },
+      {
+        "evidence_id": "E4",
+        "version_id": "d5005279-1bad-491f-8122-a2d05e558146",
+        "chunk_id": "abe9d3b01af033917c38f753",
+        "document_id": "tinnitus-s3-2022",
+        "title": "S3 Guideline: Chronic Tinnitus",
+        "locator": "body/sec[7]/sec[1]/sec[4]/sec[1]/p[6]",
+        "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9581878/",
+        "text": "TRT is a habituation technique that reduces the auditory, emotional and autonomic impact of the tinnitus noise and thus reduces the stress response to the tinnitus stimulus. It integrates three to five intervention steps including a detailed tinnitus history, auditory distraction from the tinnitus by broadband noise via a tinnitus instrument and psychological counselling.",
+        "quote_options": [
+          {
+            "quote_id": "E4.Q1",
+            "text": "TRT is a habituation technique that reduces the auditory, emotional and autonomic impact of the tinnitus noise and thus reduces the stress response to the tinnitus stimulus."
+          },
+          {
+            "quote_id": "E4.Q2",
+            "text": "It integrates three to five intervention steps including a detailed tinnitus history, auditory distraction from the tinnitus by broadband noise via a tinnitus instrument and psychological counselling."
+          }
+        ],
+        "text_truncated": false,
+        "clinical_review": "pending"
+      },
+      {
+        "evidence_id": "E5",
+        "version_id": "d5005279-1bad-491f-8122-a2d05e558146",
+        "chunk_id": "ebcf8a9adb0d86e5772eb6e7",
+        "document_id": "tinnitus-s3-2022",
+        "title": "S3 Guideline: Chronic Tinnitus",
+        "locator": "body/sec[7]/sec[1]/sec[6]/sec[1]/p[9]",
+        "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9581878/",
+        "text": "Therapeutic approaches such as intratympanic steroid treatment do not affect chronic tinnitus [218, 219] if it does not occur in conjunction with acute hearing loss. A temporary increase in tinnitus intensity and tinnitus distress is not considered new-onset tinnitus but should be considered and treated as a fluctuation in the subjective perception of chronic tinnitus [220].",
+        "quote_options": [
+          {
+            "quote_id": "E5.Q1",
+            "text": "Therapeutic approaches such as intratympanic steroid treatment do not affect chronic tinnitus [218, 219] if it does not occur in conjunction with acute hearing loss."
+          },
+          {
+            "quote_id": "E5.Q2",
+            "text": "A temporary increase in tinnitus intensity and tinnitus distress is not considered new-onset tinnitus but should be considered and treated as a fluctuation in the subjective perception of chronic tinnitus [220]."
+          }
+        ],
+        "text_truncated": false,
+        "clinical_review": "pending"
+      },
+      {
+        "evidence_id": "E6",
+        "version_id": "47e957cd-7024-4947-b317-c51de4d88837",
+        "chunk_id": "1872c87f8af0d2dc4fcb341f",
+        "document_id": "tinnitus-evidence-2023",
+        "title": "Tinnitus Guidelines and Their Evidence Base",
+        "locator": "body/sec[1]/sec[1]/p[3]",
+        "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10178961/",
+        "text": "In the field of tinnitus, many different treatments have been offered to patients, which also reflects that no treatments are highly effective in all types of patients. With the advent of EBM, clinical researchers aimed to evaluate the effectiveness of various treatments by conducting clinical trials. This is far from trivial in tinnitus for several reasons [8,9,10]. First, tinnitus is a heterogeneous condition. Second, it is mostly purely subjective, which makes outcome measurement challenging, and third, suffering from tinnitus has many facets, which vary from patient to patient. All these aspects have been addressed in the last few years. Research has focused on identifying clinically relevant subtypes of tinnitus (ref). This was only partly successful, as the heterogeneity is better described by dimensional variability of tinnitus characteristics than by distinct categories (e.g., more or less somatic involvement instead of a category “somatic tinnitus”). Concerning the many facets of tinnitus burden, research aimed to identify consensus-based core outcome domains [11]. For outcome measurement, various tools have been developed and tested for psychometric adequacy. These efforts revealed that tinnitus questionnaires and visual analogue scales represent reliable and valid tools for quantifying tinnitus impact. In contrast, psychometric measurements of tinnitus loudness are not helpful for this purpose [12,13,14].",
+        "quote_options": [
+          {
+            "quote_id": "E6.Q1",
+            "text": "In the field of tinnitus, many different treatments have been offered to patients, which also reflects that no treatments are highly effective in all types of patients."
+          },
+          {
+            "quote_id": "E6.Q2",
+            "text": "With the advent of EBM, clinical researchers aimed to evaluate the effectiveness of various treatments by conducting clinical trials."
+          },
+          {
+            "quote_id": "E6.Q3",
+            "text": "This is far from trivial in tinnitus for several reasons [8,9,10]."
+          },
+          {
+            "quote_id": "E6.Q4",
+            "text": "First, tinnitus is a heterogeneous condition."
+          },
+          {
+            "quote_id": "E6.Q5",
+            "text": "Second, it is mostly purely subjective, which makes outcome measurement challenging, and third, suffering from tinnitus has many facets, which vary from patient to patient."
+          },
+          {
+            "quote_id": "E6.Q6",
+            "text": "All these aspects have been addressed in the last few years."
+          },
+          {
+            "quote_id": "E6.Q7",
+            "text": "Research has focused on identifying clinically relevant subtypes of tinnitus (ref)."
+          },
+          {
+            "quote_id": "E6.Q8",
+            "text": "This was only partly successful, as the heterogeneity is better described by dimensional variability of tinnitus characteristics than by distinct categories (e.g., more or less somatic involvement instead of a category “somatic tinnitus”)."
+          },
+          {
+            "quote_id": "E6.Q9",
+            "text": "Concerning the many facets of tinnitus burden, research aimed to identify consensus-based core outcome domains [11]."
+          },
+          {
+            "quote_id": "E6.Q10",
+            "text": "For outcome measurement, various tools have been developed and tested for psychometric adequacy."
+          },
+          {
+            "quote_id": "E6.Q11",
+            "text": "These efforts revealed that tinnitus questionnaires and visual analogue scales represent reliable and valid tools for quantifying tinnitus impact."
+          },
+          {
+            "quote_id": "E6.Q12",
+            "text": "In contrast, psychometric measurements of tinnitus loudness are not helpful for this purpose [12,13,14]."
+          }
+        ],
+        "text_truncated": false,
+        "clinical_review": "pending"
+      }
+    ],
+    "validation": {
+      "citation_identity_and_quote_match": true,
+      "semantic_support": "model_judgment_only",
+      "clinical_approval": false,
+      "scope_code": null,
+      "error_code": null,
+      "failure_stage": null,
+      "outcome_category": "answer_ready"
+    },
+    "model": "deepseek-flash",
+    "elapsed_ms": 7860,
+    "knowledge_snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+    "synthetic_only": true,
+    "runtime_components": {
+      "encoder_fingerprint": "a0bfaa9cc57ac19cba94fb00c0df2d1ca1a39815c61a9eb11273ced208323941",
+      "reranker_used": false
+    }
+  },
+  "error_code": null,
+  "created_at": 1792651107.2931554,
+  "provenance": {
+    "workflow": "existing_validated_answer_workflow",
+    "synthetic_only": true,
+    "external_generation_consent": true,
+    "files": {
+      "configs/generation.json": "4d0bf474a06106138ddeb9b0df97f54610b0dbc95546055d988d4e43b54f9a6f",
+      "configs/retrieval.json": "e34ab0df834d6ab3c0489bd423dfe3207fddac178033bcf4eae9a511e5fb746c",
+      "requirements.lock": "49d1e80b91c9f60512877095e5d421b520b635b98d74848226244fa5ad0dad69",
+      "backend/app/application/consultations.py": "958dcafc78504114412d921db700ac734c26f7d06953753c924b3e882b08c95e",
+      "backend/app/application/business.py": "e81738e1dd0ba713ac148217277c262beb1c79a3ee91d81b88f5af16a45ef669",
+      "backend/app/application/consultation_queue.py": "46426aa529502634679c25262cd025b2168d237d85d947aa86f29a842c2b1b8d",
+      "backend/app/retrieval/__init__.py": "6d6ecdf592e0d1d367eceda55ca170152259888b1fb9959697ef03f6c78aae48",
+      "backend/app/retrieval/answer_workflow.py": "390fd69dd6e7b28e2b9164ce77d51c0161cb7f5a70e7a202410f24d0aadc56a6",
+      "backend/app/retrieval/atomization.py": "c14695f3844970f132dc09f402612d98c03ae2e4f5770ed0aaaa0cfaa50b7468",
+      "backend/app/retrieval/audit_service.py": "0a736612b23f2e7246e3371f504000f2baa7e6c4ae9e9f5f439425db8b6ea668",
+      "backend/app/retrieval/benchmark.py": "31ec66a0030b0bcc147a420ab192c29b88ab7eb1eeddba80fa48c4cceeaf866e",
+      "backend/app/retrieval/claim_review.py": "5979a73c3ed00810c3c046f9e0418275cee0d9c25305d2d45a07728df966733e",
+      "backend/app/retrieval/cli.py": "aa115f0f621bc576a7774c5b66bb1626d3239c35a25c7573de0ae4928e565018",
+      "backend/app/retrieval/corpus.py": "724c3fd614c5737b3e557fb9749ffa46fdbec6d6b8cf62320e9775cda43a407f",
+      "backend/app/retrieval/dataset.py": "37782fbf793e9770674ed07bc9a672aafdb4f8ee1d20def7621f801ff3910eb0",
+      "backend/app/retrieval/development_service.py": "3a491ac3b67201755e411b0130d55d3fb30953de4bcc69497e7f5ceae9c9f66f",
+      "backend/app/retrieval/embedding.py": "ee91d57f2764d63ab410bf770c3fe7dba01c2ad7cdb64a46052a4eb8630e1b96",
+      "backend/app/retrieval/engine.py": "9e55f242bfa3c4babf89fe90241bc3d27ec0c9aff2ed688937926c9d834f7552",
+      "backend/app/retrieval/evaluation_manifest.py": "135987fdcef635ec3fd74261fe3da41f5a245bb89379ad79c7322a509594e313",
+      "backend/app/retrieval/generation.py": "161d8433b9bd3691afbdde67ac3106d9c70a386a9378795c109831a51814d16e",
+      "backend/app/retrieval/input_anchor_report.py": "ffd880770227edb926f9293eae6eef2b9e4a6d81771c3197f1bc58d36af4d78b",
+      "backend/app/retrieval/input_fidelity.py": "fd658124743cb44f6ebdffa7a588d3163fb297a7765f2f88679427ffda4d328c",
+      "backend/app/retrieval/label_sensitivity.py": "3f66bda1adc5f366c5bb6c23d9585b1bd4b94b627a4d36887ac7181b06511055",
+      "backend/app/retrieval/onnx_worker.py": "f5944dacf3f099ace62bf5197d85449a9a59a946813f3c8cead49e57c4bd2f0b",
+      "backend/app/retrieval/outcomes.py": "0090b7950b376be13d93d0bd48a9899084628edec56d1584fb2b96c3a021659e",
+      "backend/app/retrieval/patient_queries.py": "a91ca352be4b981e76ed32d46fa35590d1815ff2a8dca627e45133dba0bb3260",
+      "backend/app/retrieval/patient_summary.py": "9d69efab8b7429203c75f4b4d08784a997db78196fc7be365c2b016dd8120934",
+      "backend/app/retrieval/quote_catalog.py": "e9acace530d5e6c25b400ec651e39d51b949543e882fe6510e1f3d63e7340066",
+      "backend/app/retrieval/quote_repair.py": "97cb22ae11a2b34b44a0c155cc8d5e9493e3e8cf47d4fb7dfa3f38c3474d54a5",
+      "backend/app/retrieval/rerank_worker.py": "c4e386667013ad6332e6bed7cc81797c403a2db384134878c970368624e7e78f",
+      "backend/app/retrieval/reranking.py": "a4b47895a885bf0a6955013e15ad6fcb90ea8c0a49d1add681cd211044b2c548",
+      "backend/app/retrieval/review.py": "2837a6a17a870640d62ace7e60160ce29f7967bc2d582e1165acbfaf0805743e",
+      "backend/app/retrieval/review_archives.py": "72da1f564f2d5d0763e2b7146f30d2456ecbe335bb82c4044424f965218711c8",
+      "backend/app/retrieval/review_import.py": "c43d37178dcac75e1e293b79a66460d97eb6a945b4ba22b6aa8f03bb3622fee8",
+      "backend/app/retrieval/scope_guard.py": "e13b6c11da731949f8c63ebd87d983386f0d7c640972514f62d14a511d99846f",
+      "backend/app/retrieval/stratified_report.py": "72c69a6f2ece1ce4c7a81f19a831104474b2911f454fad405134eef1f85ac94f",
+      "backend/app/retrieval/summary_core.py": "b3a8bc6a365b2ef1f3dcde4cff52e9d72e0ef5890a3e8522a920a2f86a13a595",
+      "backend/app/retrieval/text_quality.py": "2c9bff7062fbbfe14e1bce907c248eba6befd0df81efaf9fd68f008ae92b0822",
+      "backend/app/retrieval/validation_service.py": "93874fac707de8e41d6d717a59126f49e1649c7cde6cf50281060094fb7c8f6b",
+      "backend/app/retrieval/verification.py": "6a6e465bd225a13876300615ad7e9569fd435f80fd812d526546412db84ffa8d",
+      "backend/app/retrieval/wording_review.py": "87743581d8aa8c876eecb646f5cdec166e7d1cbf2b25a65bcdceb70a98bed187",
+      "backend/app/retrieval/workflow.py": "550d8b25728313d295c12e61de5a49e3c45d0167afab291629971ebb109b6a1d"
+    }
+  },
+  "synthetic_only": true,
+  "current_comparison_issues": [],
+  "historical_evidence_currently_available": true
+}

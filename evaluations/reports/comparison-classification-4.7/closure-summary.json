@@ -1,0 +1,166 @@
+{
+  "release": {
+    "manifest_sha256": "ca350abc2687f8f8c4018f0b8d74166301b87f1f23ffc4f0511811b7086f6a17",
+    "completed_cases": 12,
+    "expected_cases": 12,
+    "outcomes": {
+      "answered": 8,
+      "needs_information": 4
+    },
+    "expected_behavior_passed": 12,
+    "technical_failures": 0,
+    "unexplained_voice_term_answers": 0,
+    "medical_comparison_answers": 4,
+    "all_engineering_checks_passed": true,
+    "clinical_approval": false,
+    "independent_medical_scoring": false,
+    "synthetic_only": true
+  },
+  "attempts": {
+    "live": {
+      "manifest_sha256": "048ea1275604b4fbc475b70e54d53563c9110003be5edf3c302968de91b1c810",
+      "completed_cases": 12,
+      "expected_cases": 12,
+      "outcomes": {
+        "answered": 7,
+        "needs_information": 4,
+        "validation_failed": 1
+      },
+      "expected_behavior_passed": 11,
+      "technical_failures": 1,
+      "unexplained_voice_term_answers": 0,
+      "medical_comparison_answers": 5,
+      "all_engineering_checks_passed": false,
+      "clinical_approval": false,
+      "independent_medical_scoring": false,
+      "synthetic_only": true
+    },
+    "live-final": {
+      "manifest_sha256": "5876b3eb8ebef2b6a4016bc0d238dbb8d1066fad728df89a081239223f32bc7a",
+      "completed_cases": 12,
+      "expected_cases": 12,
+      "outcomes": {
+        "answered": 8,
+        "needs_information": 4
+      },
+      "expected_behavior_passed": 12,
+      "technical_failures": 0,
+      "unexplained_voice_term_answers": 0,
+      "medical_comparison_answers": 3,
+      "all_engineering_checks_passed": true,
+      "clinical_approval": false,
+      "independent_medical_scoring": false,
+      "synthetic_only": true
+    },
+    "live-release": {
+      "manifest_sha256": "a4635e0ee17d33f252100ba6ac6c6b815d90bd31a4557d4f4a648bd5dcd330ec",
+      "completed_cases": 12,
+      "expected_cases": 12,
+      "outcomes": {
+        "answered": 8,
+        "needs_information": 4
+      },
+      "expected_behavior_passed": 12,
+      "technical_failures": 0,
+      "unexplained_voice_term_answers": 0,
+      "medical_comparison_answers": 1,
+      "all_engineering_checks_passed": true,
+      "clinical_approval": false,
+      "independent_medical_scoring": false,
+      "synthetic_only": true
+    },
+    "live-closure": {
+      "manifest_sha256": "ca350abc2687f8f8c4018f0b8d74166301b87f1f23ffc4f0511811b7086f6a17",
+      "completed_cases": 12,
+      "expected_cases": 12,
+      "outcomes": {
+        "answered": 8,
+        "needs_information": 4
+      },
+      "expected_behavior_passed": 12,
+      "technical_failures": 0,
+      "unexplained_voice_term_answers": 0,
+      "medical_comparison_answers": 4,
+      "all_engineering_checks_passed": true,
+      "clinical_approval": false,
+      "independent_medical_scoring": false,
+      "synthetic_only": true
+    }
+  },
+  "historical_issues_annotated": 4,
+  "historical_results_unchanged": true,
+  "current_classification_issues": 0,
+  "input_comparison_withheld": [
+    {
+      "id": "R1-TRIAL-04",
+      "consultation_id": "f98a5f69-1b4d-469e-bbe4-d858759c2e97",
+      "code": "input_comparison_classification_failed",
+      "count": 2
+    },
+    {
+      "id": "R2-TRIAL-02",
+      "consultation_id": "384f5f33-e750-4166-87f9-cf1bdb75bcdc",
+      "code": "input_comparison_classification_failed",
+      "count": 2
+    },
+    {
+      "id": "R2-TRIAL-04",
+      "consultation_id": "a4bc481f-1815-43eb-a5fe-c72302007bb0",
+      "code": "input_comparison_classification_failed",
+      "count": 2
+    }
+  ],
+  "pending_display_items": 41,
+  "structural_probes": [
+    {
+      "case_id": "PROBE-DENIED",
+      "status": "answered",
+      "scope_code": null,
+      "classification_issues": [],
+      "engineering_check_passed": true,
+      "clinical_approval": false
+    },
+    {
+      "case_id": "PROBE-UNKNOWN",
+      "status": "answered",
+      "scope_code": null,
+      "classification_issues": [],
+      "engineering_check_passed": true,
+      "clinical_approval": false
+    },
+    {
+      "case_id": "PROBE-CONFLICT",
+      "status": "needs_information",
+      "scope_code": "input_duration_needs_confirmation",
+      "classification_issues": [],
+      "engineering_check_passed": true,
+      "clinical_approval": false
+    },
+    {
+      "case_id": "PROBE-CHILD",
+      "status": "insufficient_evidence",
+      "scope_code": "adult_library_target_mismatch",
+      "classification_issues": [],
+      "engineering_check_passed": true,
+      "clinical_approval": false
+    }
+  ],
+  "browser": {
+    "passed": true,
+    "checks": [
+      "historical_category_warning_and_nonapproval_label",
+      "withheld_comparison_disclosed_while_retained_knowledge_visible",
+      "no_rejected_comparison_relabelled_as_input_record",
+      "mobile_layout"
+    ],
+    "errors": [],
+    "history_only": true,
+    "additional_generation_requests": 0
+  },
+  "clinical_approval": false,
+  "individual_explanation_fully_accepted": false,
+  "frontend_sha256": {
+    "frontend/validation/patients.js": "7bfb14f658b2c153a5fce81a51a6d2ae6731246c90f5a8b1a4bce9f7b8735035"
+  },
+  "pending_packet_sha256": "19749af496c29688406e4daafd7efa44fdcabda6fc1b4ef8519864300d7580ab"
+}

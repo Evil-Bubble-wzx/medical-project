@@ -1,0 +1,10 @@
+{
+  "state": "completed",
+  "answer_status": "answered",
+  "consultation_id": "175a9d01-5549-47d2-ae8a-cc39f2d89663",
+  "model": "deepseek-flash",
+  "citations": 6,
+  "synthetic_only": true,
+  "clinical_approval": false,
+  "review_kind": "automated_workflow_only_all_ratings_not_assessed"
+}

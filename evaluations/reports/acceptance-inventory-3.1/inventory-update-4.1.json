@@ -1,0 +1,15 @@
+{
+  "checklist": "docs/回答表述审核接入交付清单4.1.md",
+  "requirements": [
+    "F04",
+    "F05",
+    "F21",
+    "F23"
+  ],
+  "summary_sha256": "0bd3238f0a4debd8c1330c26838b466b18bdde5959abd782725fe314a290b9df",
+  "offline_tests": 605,
+  "browser_checks": 14,
+  "real_pending_items": 11,
+  "clinical_approval": false,
+  "answer_changes_applied": false
+}

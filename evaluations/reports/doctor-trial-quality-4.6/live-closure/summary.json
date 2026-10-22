@@ -1,0 +1,19 @@
+{
+  "manifest_sha256": "65ea00f163c7d92aec7452c94ea87acf49b3483d9db819e1aacf04638779c5a7",
+  "completed_cases": 12,
+  "expected_cases": 12,
+  "outcomes": {
+    "answered": 8,
+    "insufficient_evidence": 1,
+    "needs_information": 2,
+    "validation_failed": 1
+  },
+  "expected_behavior_passed": 11,
+  "technical_failures": 1,
+  "unexplained_voice_term_answers": 0,
+  "medical_comparison_answers": 2,
+  "all_engineering_checks_passed": false,
+  "clinical_approval": false,
+  "independent_medical_scoring": false,
+  "synthetic_only": true
+}

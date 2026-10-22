@@ -1,0 +1,19 @@
+{
+  "schema": 4,
+  "tables": {
+    "business_patients": {
+      "count": 6,
+      "sha256": "8c79947b397f502c14af2ca2da4e3b577565baf9c79b4690b9600fb61578c48d"
+    },
+    "patient_snapshots": {
+      "count": 6,
+      "sha256": "f38ab70a7583303ad1183bf57ee47f4e4c1a1c001278917ee21f31a7d9c3bc2b"
+    },
+    "consultation_runs": {
+      "count": 97,
+      "sha256": "fc241ba6294306318e639d2895de2cc6f80091ed049a7f26b2d5bf2d0b6dd3ef"
+    }
+  },
+  "existing_records_unchanged": true,
+  "new_case_count": 0
+}

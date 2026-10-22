@@ -10,5 +10,7 @@
   "max_output_tokens": 2400,
   "json_mode": true,
   "reasoning_effort": "none",
-  "isolated_patient_summary": true
+  "isolated_patient_summary": true,
+  "verified_core_summary_fallback": true,
+  "isolate_input_comparison_failure": true
 }

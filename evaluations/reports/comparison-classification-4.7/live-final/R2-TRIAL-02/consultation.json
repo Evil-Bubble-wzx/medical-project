@@ -1,0 +1,299 @@
+{
+  "consultation_id": "3263cb0f-3cfa-4f4c-ab8a-0221ff4d0803",
+  "snapshot_id": "5ef544e8-7604-4dff-b1b6-1602bb2f57ba",
+  "snapshot_revision": 1,
+  "patient": {
+    "age": 68,
+    "chief_complaint": "逐渐感觉听力下降",
+    "duration": "1年",
+    "history": "合成病例；既往病史未提供",
+    "pasted_text": "仅供医生试用，非真实患者"
+  },
+  "question": "老年性听力损失资料主要介绍什么？",
+  "state": "completed",
+  "stage": "completed",
+  "result": {
+    "answer": {
+      "status": "answered",
+      "professional": [
+        {
+          "text": "老年性听力损失是许多人随年龄增长而逐渐发生的听力下降。",
+          "supports": [
+            {
+              "evidence_id": "E2",
+              "quote": "Age-related hearing loss (also called presbycusis, pronounced prez-buh-KYOO-sis) is hearing loss that occurs gradually for many of us as we grow older."
+            }
+          ],
+          "input_fields": []
+        },
+        {
+          "text": "资料指出，NIDCD支持研究老年性听力损失的原因，包括可能使这类听力损失更易发生的基因。",
+          "supports": [
+            {
+              "evidence_id": "E1",
+              "quote": "NIDCD supports research on the causes of age-related hearing loss, including genes that may make this type of hearing loss more likely."
+            }
+          ],
+          "input_fields": []
+        },
+        {
+          "text": "资料提到，老年人中较常见的高血压和糖尿病与听力损失相关。",
+          "supports": [
+            {
+              "evidence_id": "E4",
+              "quote": "Conditions that are more common in older people, such as high blood pressure and diabetes, are associated with hearing loss."
+            }
+          ],
+          "input_fields": []
+        }
+      ],
+      "input_explanation": [],
+      "patient_summary": [
+        {
+          "text": "老年性听力损失是很多人随着年龄增长慢慢出现的听力下降。",
+          "supports": [
+            {
+              "evidence_id": "E2",
+              "quote": "Age-related hearing loss (also called presbycusis, pronounced prez-buh-KYOO-sis) is hearing loss that occurs gradually for many of us as we grow older."
+            }
+          ],
+          "input_fields": []
+        }
+      ],
+      "limitations": []
+    },
+    "citations": [
+      {
+        "evidence_id": "E1",
+        "version_id": "6c17226f-5c23-409e-b71d-2c7e29c607d1",
+        "chunk_id": "d30f5a4b0f87d2dafaad6ee8",
+        "document_id": "nidcd-presbycusis",
+        "title": "Age-Related Hearing Loss (Presbycusis)",
+        "locator": "main/block[33]",
+        "source_url": "https://www.nidcd.nih.gov/health/age-related-hearing-loss",
+        "text": "NIDCD supports research on the causes of age-related hearing loss, including genes that may make this type of hearing loss more likely. NIDCD-funded scientists are working to understand what happens as we age that interferes with our ability to hear speech in a noisy environment. NIDCD also funds research that explores changes in how the brain processes sound when we lose our hearing. The research to date supports the use of hearing aids to maintain the brain’s sound-processing capabilities.",
+        "quote_options": [
+          {
+            "quote_id": "E1.Q1",
+            "text": "NIDCD supports research on the causes of age-related hearing loss, including genes that may make this type of hearing loss more likely."
+          },
+          {
+            "quote_id": "E1.Q2",
+            "text": "NIDCD-funded scientists are working to understand what happens as we age that interferes with our ability to hear speech in a noisy environment."
+          },
+          {
+            "quote_id": "E1.Q3",
+            "text": "NIDCD also funds research that explores changes in how the brain processes sound when we lose our hearing."
+          },
+          {
+            "quote_id": "E1.Q4",
+            "text": "The research to date supports the use of hearing aids to maintain the brain’s sound-processing capabilities."
+          }
+        ],
+        "text_truncated": false,
+        "clinical_review": "pending"
+      },
+      {
+        "evidence_id": "E2",
+        "version_id": "6c17226f-5c23-409e-b71d-2c7e29c607d1",
+        "chunk_id": "23016a42e1f434dbe7b202f5",
+        "document_id": "nidcd-presbycusis",
+        "title": "Age-Related Hearing Loss (Presbycusis)",
+        "locator": "main/block[1]",
+        "source_url": "https://www.nidcd.nih.gov/health/age-related-hearing-loss",
+        "text": "Age-related hearing loss (also called presbycusis, pronounced prez-buh-KYOO-sis) is hearing loss that occurs gradually for many of us as we grow older. It is one of the most common conditions affecting adults as we age. Approximately 15% of American adults (37.5 million) ages 18 and over report some trouble hearing, and about one in three people in the U.S. between the ages of 65 and 74 has hearing loss. Nearly half of those older than 75 have difficulty hearing.",
+        "quote_options": [
+          {
+            "quote_id": "E2.Q1",
+            "text": "Age-related hearing loss (also called presbycusis, pronounced prez-buh-KYOO-sis) is hearing loss that occurs gradually for many of us as we grow older."
+          },
+          {
+            "quote_id": "E2.Q2",
+            "text": "It is one of the most common conditions affecting adults as we age."
+          },
+          {
+            "quote_id": "E2.Q3",
+            "text": "Approximately 15% of American adults (37.5 million) ages 18 and over report some trouble hearing, and about one in three people in the U.S. between the ages of 65 and 74 has hearing loss."
+          },
+          {
+            "quote_id": "E2.Q4",
+            "text": "Nearly half of those older than 75 have difficulty hearing."
+          }
+        ],
+        "text_truncated": false,
+        "clinical_review": "pending"
+      },
+      {
+        "evidence_id": "E3",
+        "version_id": "d5005279-1bad-491f-8122-a2d05e558146",
+        "chunk_id": "61d8c80cb5ed39d0375201d1",
+        "document_id": "tinnitus-s3-2022",
+        "title": "S3 Guideline: Chronic Tinnitus",
+        "locator": "body/sec[7]/sec[1]/sec[6]/sec[1]/p[6]",
+        "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9581878/",
+        "text": "Treatment of acute tinnitus follows the treatment recommendations for acute sudden hearing loss. For the treatment of acute hearing loss, corresponding guidelines (AWMF 017/2914 currently being updated [82]; guideline USA [83]) recommend systemic or intratympanic steroid treatment with, however, moderate evidence. Therefore, acute tinnitus with hearing loss or following hearing loss should be treated appropriately. If the tinnitus occurs acutely without measurable hearing loss, the standard cortisone therapy recommended for hearing loss is not recommended.",
+        "quote_options": [
+          {
+            "quote_id": "E3.Q1",
+            "text": "Treatment of acute tinnitus follows the treatment recommendations for acute sudden hearing loss."
+          },
+          {
+            "quote_id": "E3.Q2",
+            "text": "For the treatment of acute hearing loss, corresponding guidelines (AWMF 017/2914 currently being updated [82]; guideline USA [83]) recommend systemic or intratympanic steroid treatment with, however, moderate evidence."
+          },
+          {
+            "quote_id": "E3.Q3",
+            "text": "Therefore, acute tinnitus with hearing loss or following hearing loss should be treated appropriately."
+          },
+          {
+            "quote_id": "E3.Q4",
+            "text": "If the tinnitus occurs acutely without measurable hearing loss, the standard cortisone therapy recommended for hearing loss is not recommended."
+          }
+        ],
+        "text_truncated": false,
+        "clinical_review": "pending"
+      },
+      {
+        "evidence_id": "E4",
+        "version_id": "6c17226f-5c23-409e-b71d-2c7e29c607d1",
+        "chunk_id": "618d317ee5c70c61c9ef73c2",
+        "document_id": "nidcd-presbycusis",
+        "title": "Age-Related Hearing Loss (Presbycusis)",
+        "locator": "main/block[5]",
+        "source_url": "https://www.nidcd.nih.gov/health/age-related-hearing-loss",
+        "text": "Conditions that are more common in older people, such as high blood pressure and diabetes, are associated with hearing loss. In addition, medications that are toxic to the sensory cells in your ears (some chemotherapy drugs, for example) can cause hearing loss. Less commonly, abnormalities of the middle ear, such as otosclerosis, can worsen hearing with age.",
+        "quote_options": [
+          {
+            "quote_id": "E4.Q1",
+            "text": "Conditions that are more common in older people, such as high blood pressure and diabetes, are associated with hearing loss."
+          },
+          {
+            "quote_id": "E4.Q2",
+            "text": "In addition, medications that are toxic to the sensory cells in your ears (some chemotherapy drugs, for example) can cause hearing loss."
+          },
+          {
+            "quote_id": "E4.Q3",
+            "text": "Less commonly, abnormalities of the middle ear, such as otosclerosis, can worsen hearing with age."
+          }
+        ],
+        "text_truncated": false,
+        "clinical_review": "pending"
+      },
+      {
+        "evidence_id": "E5",
+        "version_id": "9c16e968-6f17-438f-8ec9-8682ab0882b6",
+        "chunk_id": "ac82efccc47cb4abdbba6d03",
+        "document_id": "nidcd-tinnitus",
+        "title": "Tinnitus",
+        "locator": "main/block[9]",
+        "source_url": "https://www.nidcd.nih.gov/health/tinnitus",
+        "text": "Hearing loss. Hearing loss, which can be caused by factors such as aging or exposure to loud noise, is strongly associated with tinnitus. Some people with hearing loss, however, never develop tinnitus.",
+        "quote_options": [
+          {
+            "quote_id": "E5.Q1",
+            "text": "Hearing loss."
+          },
+          {
+            "quote_id": "E5.Q2",
+            "text": "Hearing loss, which can be caused by factors such as aging or exposure to loud noise, is strongly associated with tinnitus."
+          },
+          {
+            "quote_id": "E5.Q3",
+            "text": "Some people with hearing loss, however, never develop tinnitus."
+          }
+        ],
+        "text_truncated": false,
+        "clinical_review": "pending"
+      },
+      {
+        "evidence_id": "E6",
+        "version_id": "6c17226f-5c23-409e-b71d-2c7e29c607d1",
+        "chunk_id": "b5eb56631abed6dbef52edd6",
+        "document_id": "nidcd-presbycusis",
+        "title": "Age-Related Hearing Loss (Presbycusis)",
+        "locator": "main/block[22]",
+        "source_url": "https://www.nidcd.nih.gov/health/age-related-hearing-loss",
+        "text": "An audiologist (pronounced aw-dee-AH-luh-jist) has specialized training in identifying and measuring hearing loss, determining where along the auditory pathway there may be a problem with hearing, and recommending and providing certain hearing loss interventions, such as hearing aids.",
+        "quote_options": [
+          {
+            "quote_id": "E6.Q1",
+            "text": "An audiologist (pronounced aw-dee-AH-luh-jist) has specialized training in identifying and measuring hearing loss, determining where along the auditory pathway there may be a problem with hearing, and recommending and providing certain hearing loss interventions, such as hearing aids."
+          }
+        ],
+        "text_truncated": false,
+        "clinical_review": "pending"
+      }
+    ],
+    "validation": {
+      "citation_identity_and_quote_match": true,
+      "semantic_support": "model_judgment_only",
+      "clinical_approval": false,
+      "scope_code": null,
+      "error_code": null,
+      "failure_stage": null,
+      "outcome_category": "answer_ready"
+    },
+    "model": "deepseek-flash",
+    "elapsed_ms": 7403,
+    "knowledge_snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+    "synthetic_only": true,
+    "runtime_components": {
+      "encoder_fingerprint": "a0bfaa9cc57ac19cba94fb00c0df2d1ca1a39815c61a9eb11273ced208323941",
+      "reranker_used": false
+    }
+  },
+  "error_code": null,
+  "created_at": 1792642123.8953185,
+  "provenance": {
+    "workflow": "existing_validated_answer_workflow",
+    "synthetic_only": true,
+    "external_generation_consent": true,
+    "files": {
+      "configs/generation.json": "4d0bf474a06106138ddeb9b0df97f54610b0dbc95546055d988d4e43b54f9a6f",
+      "configs/retrieval.json": "e34ab0df834d6ab3c0489bd423dfe3207fddac178033bcf4eae9a511e5fb746c",
+      "requirements.lock": "49d1e80b91c9f60512877095e5d421b520b635b98d74848226244fa5ad0dad69",
+      "backend/app/application/consultations.py": "ee086a44acb361ba3415863107d2d514ba5b0a21dd8c78a88fa9cae3ba6ecffd",
+      "backend/app/application/business.py": "e81738e1dd0ba713ac148217277c262beb1c79a3ee91d81b88f5af16a45ef669",
+      "backend/app/application/consultation_queue.py": "46426aa529502634679c25262cd025b2168d237d85d947aa86f29a842c2b1b8d",
+      "backend/app/retrieval/__init__.py": "6d6ecdf592e0d1d367eceda55ca170152259888b1fb9959697ef03f6c78aae48",
+      "backend/app/retrieval/answer_workflow.py": "19043e17806c4af5e32bf6eed0e90ba73232b73f5f2443a062bea8226f767dcc",
+      "backend/app/retrieval/atomization.py": "c14695f3844970f132dc09f402612d98c03ae2e4f5770ed0aaaa0cfaa50b7468",
+      "backend/app/retrieval/audit_service.py": "0a736612b23f2e7246e3371f504000f2baa7e6c4ae9e9f5f439425db8b6ea668",
+      "backend/app/retrieval/benchmark.py": "31ec66a0030b0bcc147a420ab192c29b88ab7eb1eeddba80fa48c4cceeaf866e",
+      "backend/app/retrieval/claim_review.py": "5979a73c3ed00810c3c046f9e0418275cee0d9c25305d2d45a07728df966733e",
+      "backend/app/retrieval/cli.py": "aa115f0f621bc576a7774c5b66bb1626d3239c35a25c7573de0ae4928e565018",
+      "backend/app/retrieval/corpus.py": "724c3fd614c5737b3e557fb9749ffa46fdbec6d6b8cf62320e9775cda43a407f",
+      "backend/app/retrieval/dataset.py": "37782fbf793e9770674ed07bc9a672aafdb4f8ee1d20def7621f801ff3910eb0",
+      "backend/app/retrieval/development_service.py": "3a491ac3b67201755e411b0130d55d3fb30953de4bcc69497e7f5ceae9c9f66f",
+      "backend/app/retrieval/embedding.py": "ee91d57f2764d63ab410bf770c3fe7dba01c2ad7cdb64a46052a4eb8630e1b96",
+      "backend/app/retrieval/engine.py": "9e55f242bfa3c4babf89fe90241bc3d27ec0c9aff2ed688937926c9d834f7552",
+      "backend/app/retrieval/evaluation_manifest.py": "135987fdcef635ec3fd74261fe3da41f5a245bb89379ad79c7322a509594e313",
+      "backend/app/retrieval/generation.py": "161d8433b9bd3691afbdde67ac3106d9c70a386a9378795c109831a51814d16e",
+      "backend/app/retrieval/input_anchor_report.py": "ffd880770227edb926f9293eae6eef2b9e4a6d81771c3197f1bc58d36af4d78b",
+      "backend/app/retrieval/input_fidelity.py": "379f738af4372b7cda4653e02ee66bc642ec209a65ec775f5c20fd32f27361d1",
+      "backend/app/retrieval/label_sensitivity.py": "3f66bda1adc5f366c5bb6c23d9585b1bd4b94b627a4d36887ac7181b06511055",
+      "backend/app/retrieval/onnx_worker.py": "f5944dacf3f099ace62bf5197d85449a9a59a946813f3c8cead49e57c4bd2f0b",
+      "backend/app/retrieval/outcomes.py": "0090b7950b376be13d93d0bd48a9899084628edec56d1584fb2b96c3a021659e",
+      "backend/app/retrieval/patient_queries.py": "a91ca352be4b981e76ed32d46fa35590d1815ff2a8dca627e45133dba0bb3260",
+      "backend/app/retrieval/patient_summary.py": "9d69efab8b7429203c75f4b4d08784a997db78196fc7be365c2b016dd8120934",
+      "backend/app/retrieval/quote_catalog.py": "e9acace530d5e6c25b400ec651e39d51b949543e882fe6510e1f3d63e7340066",
+      "backend/app/retrieval/quote_repair.py": "97cb22ae11a2b34b44a0c155cc8d5e9493e3e8cf47d4fb7dfa3f38c3474d54a5",
+      "backend/app/retrieval/rerank_worker.py": "c4e386667013ad6332e6bed7cc81797c403a2db384134878c970368624e7e78f",
+      "backend/app/retrieval/reranking.py": "a4b47895a885bf0a6955013e15ad6fcb90ea8c0a49d1add681cd211044b2c548",
+      "backend/app/retrieval/review.py": "2837a6a17a870640d62ace7e60160ce29f7967bc2d582e1165acbfaf0805743e",
+      "backend/app/retrieval/review_archives.py": "72da1f564f2d5d0763e2b7146f30d2456ecbe335bb82c4044424f965218711c8",
+      "backend/app/retrieval/review_import.py": "c43d37178dcac75e1e293b79a66460d97eb6a945b4ba22b6aa8f03bb3622fee8",
+      "backend/app/retrieval/scope_guard.py": "e13b6c11da731949f8c63ebd87d983386f0d7c640972514f62d14a511d99846f",
+      "backend/app/retrieval/stratified_report.py": "72c69a6f2ece1ce4c7a81f19a831104474b2911f454fad405134eef1f85ac94f",
+      "backend/app/retrieval/summary_core.py": "36df01b9b0868795c38c56f6d16e4cf2a50c73cbae81afe092f95db69b8cffa0",
+      "backend/app/retrieval/text_quality.py": "2c9bff7062fbbfe14e1bce907c248eba6befd0df81efaf9fd68f008ae92b0822",
+      "backend/app/retrieval/validation_service.py": "93874fac707de8e41d6d717a59126f49e1649c7cde6cf50281060094fb7c8f6b",
+      "backend/app/retrieval/verification.py": "6a6e465bd225a13876300615ad7e9569fd435f80fd812d526546412db84ffa8d",
+      "backend/app/retrieval/wording_review.py": "87743581d8aa8c876eecb646f5cdec166e7d1cbf2b25a65bcdceb70a98bed187",
+      "backend/app/retrieval/workflow.py": "550d8b25728313d295c12e61de5a49e3c45d0167afab291629971ebb109b6a1d"
+    }
+  },
+  "synthetic_only": true,
+  "current_comparison_issues": [],
+  "historical_evidence_currently_available": true
+}

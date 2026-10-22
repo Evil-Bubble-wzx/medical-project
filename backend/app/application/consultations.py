@@ -28,11 +28,13 @@ def safe_validation_diagnostic(validation):
         "summary_core_expansion",
         "summary_core_reference_mismatch",
         "summary_no_eligible_core",
+        "patient_summary_unexplained_term",
         "quote_context_support_limit",
         "patient_summary_personalization",
         "patient_summary_scope_shift",
         "patient_summary_diagnostic_overstatement",
         "input_attribution_mismatch",
+        "input_comparison_classification_failed",
         "input_anchor_coverage_mismatch",
         "input_anchor_quote_mismatch",
         "input_anchor_state_mismatch",
@@ -74,7 +76,54 @@ def safe_validation_diagnostic(validation):
     }
     code = validation.get("error_code")
     stage = validation.get("failure_stage")
+    scope = validation.get("scope_decision")
+    scope_code = scope.get("code") if isinstance(scope, dict) else None
+    audit = validation.get("verification") or validation.get("core_verification") or {}
+    reasons = {}
+    for claim in audit.get("claims", []) if isinstance(audit, dict) else []:
+        reason = claim.get("reason") if isinstance(claim, dict) else None
+        if reason in {
+            "disease_mismatch",
+            "population_mismatch",
+            "claim_overreach",
+            "input_mismatch",
+            "unrelated_quote",
+            "uncertain",
+        }:
+            reasons[reason] = reasons.get(reason, 0) + 1
+    summary_meta = validation.get("summary_metadata") or {}
+    withheld = validation.get("input_comparison_withheld")
+    withheld_valid = (
+        isinstance(withheld, dict)
+        and withheld.get("code") == "input_comparison_classification_failed"
+        and type(withheld.get("count")) is int
+        and 0 < withheld["count"] <= 3
+    )
     return {
+        **({"verification_rejections": reasons} if reasons else {}),
+        **(
+            {"input_comparison_withheld": {"code": withheld["code"], "count": withheld["count"]}}
+            if withheld_valid
+            else {}
+        ),
+        **(
+            {"summary_strategy": summary_meta["strategy"]}
+            if isinstance(summary_meta, dict)
+            and summary_meta.get("strategy") in {"verified_core_fallback", "verified_core_excerpt"}
+            else {}
+        ),
+        "scope_code": scope_code
+        if scope_code
+        in {
+            "adult_library_target_mismatch",
+            "live_hospital_data_unavailable",
+            "missing_imaging_diagnosis_unsupported",
+            "individual_prescription_unsupported",
+            "guideline_conflict_details_missing",
+            "input_duration_needs_confirmation",
+            "patient_symptom_details_missing",
+        }
+        else None,
         "error_code": code
         if isinstance(code, str) and code in codes
         else ("validation_rejected" if code is not None else None),
@@ -189,10 +238,11 @@ class ConsultationService:
         request_hash = hashlib.sha256(
             json.dumps([snapshot_id, question], ensure_ascii=False).encode()
         ).hexdigest()
-        provenance = self.provenance()
         with s.connect() as db:
             user = s.identity(db, token)
             s.allowed(db, user, patient)
+            s.ensure_case_writable(db, patient)
+            provenance = self.provenance()
             snapshot = db.execute(
                 "SELECT payload,revision FROM patient_snapshots WHERE id=? AND patient_id=?",
                 (snapshot_id, patient),
@@ -267,6 +317,7 @@ class ConsultationService:
             try:
                 user = s.identity_digest(db, row["session_hash"])
                 s.allowed(db, user, row["patient_id"])
+                s.ensure_case_writable(db, row["patient_id"])
                 if user["id"] != row["author_id"]:
                     raise BusinessError("login_required", 401)
                 provenance = json.loads(row["provenance"])
@@ -394,6 +445,16 @@ class ConsultationService:
                 "provenance": json.loads(row["provenance"]),
                 "synthetic_only": True,
             }
+        from app.retrieval.input_fidelity import comparison_classification_issue
+
+        response["current_comparison_issues"] = [
+            {"section": "input_explanation", "index": index, "code": issue}
+            for index, claim in enumerate(
+                (result or {}).get("answer", {}).get("input_explanation", [])
+            )
+            if claim.get("source_kind") == "medical_comparison"
+            and (issue := comparison_classification_issue(claim.get("text", "")))
+        ]
         response["historical_evidence_currently_available"] = (
             self.citations_available(result) if result else None
         )

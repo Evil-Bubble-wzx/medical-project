@@ -117,3 +117,29 @@ def check_input_attribution(text, input_fields, patient):
         for concept in VOICE_CONCEPTS:
             if re.search(concept, attribution, re.I) and not re.search(concept, supplied, re.I):
                 raise ValueError("input_attribution_mismatch")
+
+
+def comparison_classification_issue(text):
+    """Finite known category errors; never infer a diagnosis or rewrite a claim."""
+    if re.search(r"仅为对应比较|只是对应比较|属于范围对应比较", text):
+        return "system_boundary_in_comparison"
+    if re.search(
+        r"(?:这(?:只是|仅为)|仅为|属于范围)?对应比较[^。；;]{0,16}(?:不代表|并非)|"
+        r"这(?:只是|仅为)对应比较|不代表确诊或病因判断|并非确诊、病因推断或治疗建议",
+        text,
+    ):
+        return "system_boundary_in_comparison"
+    if text.startswith("输入记录为") and not re.search(
+        r"资料|研究|引句|引用|文献|指南|相对应|相符|相比|相一致", text
+    ):
+        return "record_only_comparison"
+    return None
+
+
+def check_comparison_classification(text):
+    issue = comparison_classification_issue(text)
+    if issue:
+        error = ValueError("input_comparison_classification_failed")
+        error.quality_rule = issue
+        error.quality_diagnostic = {"code": str(error), "rule": issue}
+        raise error

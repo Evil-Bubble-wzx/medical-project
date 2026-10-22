@@ -1,0 +1,24 @@
+{
+  "reviews": [
+    {
+      "consultation_id": "b0a9e340-dcbc-4ff8-a9d0-cd98255e6f3e",
+      "patient_id": "877cf05b-eee5-4d4f-a07b-550fc1bd7d05",
+      "revision": 1,
+      "result_hash": "b51db0d76fc8e2acfade11fffce24dc4482bb60354666bf9f117905ea571e8c2",
+      "review": {
+        "relevance": "not_assessed",
+        "citation_support": "not_assessed",
+        "input_fidelity": "not_assessed",
+        "patient_readability": "not_assessed",
+        "overall": "issue",
+        "comment": "Synthetic doctor trial: reference is visible; wording needs review."
+      },
+      "created_at": 1792638741.313793,
+      "clinical_approval": false,
+      "reviewer_identity_authenticated": false
+    }
+  ],
+  "synthetic_only": true,
+  "clinical_approval": false,
+  "purpose": "doctor_usability_trial_not_formal_medical_signoff"
+}

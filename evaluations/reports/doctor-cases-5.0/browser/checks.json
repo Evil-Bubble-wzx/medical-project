@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "checks": [
+    "create_case_with_empty_snapshot_and_no_stale_input",
+    "save_first_patient_snapshot",
+    "custom_case_consultation_and_citations",
+    "rename_preserves_consultation_history",
+    "archived_case_readonly_history",
+    "restore_reenables_case_workflow",
+    "case_name_search",
+    "refresh_preserves_case_and_history",
+    "mobile_no_horizontal_overflow"
+  ],
+  "errors": [],
+  "synthetic_fixture": true,
+  "provider_calls": 0
+}

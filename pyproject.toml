@@ -7,7 +7,7 @@ name = "ent-rag-foundation"
 version = "1.0.0"
 description = "Offline synthetic M0 LangGraph RAG foundation"
 requires-python = ">=3.13,<3.14"
-dependencies = ["fastapi>=0.115,<1", "langgraph>=1,<2", "pydantic>=2,<3", "uvicorn>=0.34,<1", "httpx>=0.28,<1"]
+dependencies = ["fastapi>=0.115,<1", "langgraph>=1,<2", "pydantic>=2,<3", "uvicorn>=0.34,<1", "httpx>=0.28,<1", "pypdf==6.21.2", "defusedxml==0.7.1"]
 
 [project.optional-dependencies]
 dev = ["pytest>=8,<10", "httpx>=0.28,<1", "ruff>=0.12,<1"]

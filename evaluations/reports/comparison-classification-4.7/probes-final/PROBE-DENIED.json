@@ -1,0 +1,603 @@
+{
+  "http_status": 200,
+  "result": {
+    "retrieval": {
+      "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+      "query_policy": "dual_question_first",
+      "hybrid": [
+        {
+          "end": 50,
+          "id": "b7c66fd4bd97a3fc3028156c",
+          "locator": "main/block[1]",
+          "population_status": "adult_dev_candidate",
+          "section": "What is hoarseness?",
+          "start": 0,
+          "text": "Structures involved in speech and voice production",
+          "chunk_id": "b7c66fd4bd97a3fc3028156c",
+          "version_id": "11605fc0-df77-4d90-8883-3a19979c3c80",
+          "document_id": "nidcd-hoarseness",
+          "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+          "title": "Hoarseness",
+          "source_url": "https://www.nidcd.nih.gov/health/hoarseness",
+          "topics": [
+            "throat"
+          ],
+          "clinical_review": "pending",
+          "production_eligible": false,
+          "score": 0.048651507139079855,
+          "applicability_warning": null
+        },
+        {
+          "end": 786,
+          "id": "b3a7516e456b04ea8b67393e",
+          "locator": "main/block[10]",
+          "population_status": "adult_dev_candidate",
+          "section": "What are some of the disorders that cause hoarseness and how are they treated?",
+          "start": 0,
+          "text": "Misusing or overusing your voice. Cheering at sporting events, speaking loudly in noisy situations, talking for too long without resting your voice, singing loudly, or speaking with a voice that's too high or too low can cause temporary hoarseness. Resting, reducing voice use, and drinking lots of water should help relieve hoarseness from misuse or overuse. Sometimes people whose jobs depend on their voices—such as teachers, singers, or public speakers—develop hoarseness that won't go away. If you use your voice for a living and you regularly experience hoarseness, your doctor might suggest seeing a speech-language pathologist for voice therapy. In voice therapy, you'll be given vocal exercises and tips for avoiding hoarseness by changing the ways in which you use your voice.",
+          "chunk_id": "b3a7516e456b04ea8b67393e",
+          "document_id": "nidcd-hoarseness",
+          "version_id": "11605fc0-df77-4d90-8883-3a19979c3c80",
+          "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+          "title": "Hoarseness",
+          "title_zh": "NIH/NIDCD 声嘶患者教育",
+          "source_url": "https://www.nidcd.nih.gov/health/hoarseness",
+          "publication_date": "March 6, 2017",
+          "license": "NIDCD-public-domain-unless-noted",
+          "state": "draft",
+          "clinical_review": "pending",
+          "production_eligible": false,
+          "bm25": -6.327780627618168,
+          "score": 0.04787506400409626,
+          "applicability_warning": null
+        },
+        {
+          "end": 225,
+          "id": "11431f15a7d129a44f3dedfb",
+          "locator": "main/block[2]",
+          "population_status": "adult_dev_candidate",
+          "section": "What is hoarseness?",
+          "start": 0,
+          "text": "If you are hoarse, your voice will sound breathy, raspy, or strained, or will be softer in volume or lower in pitch. Your throat might feel scratchy. Hoarseness is often a symptom of problems in the vocal folds of the larynx.",
+          "chunk_id": "11431f15a7d129a44f3dedfb",
+          "document_id": "nidcd-hoarseness",
+          "version_id": "11605fc0-df77-4d90-8883-3a19979c3c80",
+          "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+          "title": "Hoarseness",
+          "title_zh": "NIH/NIDCD 声嘶患者教育",
+          "source_url": "https://www.nidcd.nih.gov/health/hoarseness",
+          "publication_date": "March 6, 2017",
+          "license": "NIDCD-public-domain-unless-noted",
+          "state": "draft",
+          "clinical_review": "pending",
+          "production_eligible": false,
+          "bm25": -5.088195778342366,
+          "score": 0.047072599531615925,
+          "applicability_warning": null
+        },
+        {
+          "end": 298,
+          "id": "e0df42209aff4e381b2cb825",
+          "locator": "main/block[3]",
+          "population_status": "adult_dev_candidate",
+          "section": "How does our voice work?",
+          "start": 0,
+          "text": "The sound of our voice is produced by vibration of the vocal folds, which are two bands of smooth muscle tissue that are positioned opposite each other in the larynx. The larynx is located between the base of the tongue and the top of the trachea, which is the passageway to the lungs (see figure).",
+          "chunk_id": "e0df42209aff4e381b2cb825",
+          "document_id": "nidcd-hoarseness",
+          "version_id": "11605fc0-df77-4d90-8883-3a19979c3c80",
+          "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+          "title": "Hoarseness",
+          "title_zh": "NIH/NIDCD 声嘶患者教育",
+          "source_url": "https://www.nidcd.nih.gov/health/hoarseness",
+          "publication_date": "March 6, 2017",
+          "license": "NIDCD-public-domain-unless-noted",
+          "state": "draft",
+          "clinical_review": "pending",
+          "production_eligible": false,
+          "bm25": -1.471547913099454,
+          "score": 0.04359567901234568,
+          "applicability_warning": null
+        },
+        {
+          "end": 192,
+          "id": "855545214f4be7613e014f31",
+          "locator": "main/block[5]",
+          "population_status": "adult_dev_candidate",
+          "section": "How does our voice work?",
+          "start": 0,
+          "text": "Individual variations in our voices are the result of how much tension we put on our vocal folds. For example, relaxing the vocal folds makes a voice deeper; tensing them makes a voice higher.",
+          "chunk_id": "855545214f4be7613e014f31",
+          "document_id": "nidcd-hoarseness",
+          "version_id": "11605fc0-df77-4d90-8883-3a19979c3c80",
+          "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+          "title": "Hoarseness",
+          "title_zh": "NIH/NIDCD 声嘶患者教育",
+          "source_url": "https://www.nidcd.nih.gov/health/hoarseness",
+          "publication_date": "March 6, 2017",
+          "license": "NIDCD-public-domain-unless-noted",
+          "state": "draft",
+          "clinical_review": "pending",
+          "production_eligible": false,
+          "bm25": -1.8422220813271846,
+          "score": 0.043427458617332035,
+          "applicability_warning": null
+        },
+        {
+          "end": 483,
+          "id": "ddce569b1dc49d9f8f091ae0",
+          "locator": "main/block[15]",
+          "population_status": "adult_dev_candidate",
+          "section": "What are some of the disorders that cause hoarseness and how are they treated?",
+          "start": 0,
+          "text": "Neurological diseases and disorders. Neurological conditions that affect areas of the brain that control muscles in the throat or larynx can also cause hoarseness. Hoarseness is sometimes a symptom of Parkinson's disease or a stroke. Spasmodic dysphonia is a rare neurological disease that causes hoarseness and can also affect breathing. Treatment in these cases will depend upon the type of disease or disorder. For more information, read the NIDCD fact sheet, Spasmodic Dysphonia.",
+          "chunk_id": "ddce569b1dc49d9f8f091ae0",
+          "document_id": "nidcd-hoarseness",
+          "version_id": "11605fc0-df77-4d90-8883-3a19979c3c80",
+          "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+          "title": "Hoarseness",
+          "title_zh": "NIH/NIDCD 声嘶患者教育",
+          "source_url": "https://www.nidcd.nih.gov/health/hoarseness",
+          "publication_date": "March 6, 2017",
+          "license": "NIDCD-public-domain-unless-noted",
+          "state": "draft",
+          "clinical_review": "pending",
+          "production_eligible": false,
+          "bm25": -6.211985956550556,
+          "score": 0.0430222602739726,
+          "applicability_warning": null
+        },
+        {
+          "end": 521,
+          "id": "a4740cfae1fe0f6daf1ac01c",
+          "locator": "main/block[13]",
+          "population_status": "adult_dev_candidate",
+          "section": "What are some of the disorders that cause hoarseness and how are they treated?",
+          "start": 0,
+          "text": "Vocal fold hemorrhage. Vocal fold hemorrhage occurs when a blood vessel on the surface of the vocal fold ruptures and the tissues fill with blood. If you lose your voice suddenly during strenuous vocal use (such as yelling), you may have a vocal fold hemorrhage. Sometimes a vocal fold hemorrhage will cause hoarseness to develop quickly over a short amount of time and only affect your singing but not your speaking voice. Vocal fold hemorrhage must be treated immediately with total voice rest and a trip to the doctor.",
+          "chunk_id": "a4740cfae1fe0f6daf1ac01c",
+          "document_id": "nidcd-hoarseness",
+          "version_id": "11605fc0-df77-4d90-8883-3a19979c3c80",
+          "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+          "title": "Hoarseness",
+          "title_zh": "NIH/NIDCD 声嘶患者教育",
+          "source_url": "https://www.nidcd.nih.gov/health/hoarseness",
+          "publication_date": "March 6, 2017",
+          "license": "NIDCD-public-domain-unless-noted",
+          "state": "draft",
+          "clinical_review": "pending",
+          "production_eligible": false,
+          "bm25": -4.022163883678839,
+          "score": 0.043008641005498824,
+          "applicability_warning": null
+        },
+        {
+          "end": 79,
+          "id": "dd91df5220a11c861d7948b4",
+          "locator": "main/block[8]",
+          "population_status": "adult_dev_candidate",
+          "section": "What are some of the disorders that cause hoarseness and how are they treated?",
+          "start": 0,
+          "text": "Hoarseness can have several possible causes and treatments, as described below:",
+          "chunk_id": "dd91df5220a11c861d7948b4",
+          "document_id": "nidcd-hoarseness",
+          "version_id": "11605fc0-df77-4d90-8883-3a19979c3c80",
+          "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+          "title": "Hoarseness",
+          "title_zh": "NIH/NIDCD 声嘶患者教育",
+          "source_url": "https://www.nidcd.nih.gov/health/hoarseness",
+          "publication_date": "March 6, 2017",
+          "license": "NIDCD-public-domain-unless-noted",
+          "state": "draft",
+          "clinical_review": "pending",
+          "production_eligible": false,
+          "bm25": -6.098392142486743,
+          "score": 0.04217854217854218,
+          "applicability_warning": null
+        },
+        {
+          "end": 483,
+          "id": "d9f978e15f2632020aa77756",
+          "locator": "main/block[17]",
+          "population_status": "adult_dev_candidate",
+          "section": "What research is being done to better understand and treat hoarseness?",
+          "start": 0,
+          "text": "Researchers funded by the NIDCD are working with teachers to devise strategies to help them reduce the stress and strain on their voices. In one study, the teachers use a voice \"dosimeter\" that takes into account the frequency and loudness of their speech along with the duration of vibration in their vocal folds to determine their daily \"dose\" of vocal use. The researcher hopes to establish a safe level of voice use, as well as recommended recovery times from prolonged speaking.",
+          "chunk_id": "d9f978e15f2632020aa77756",
+          "document_id": "nidcd-hoarseness",
+          "version_id": "11605fc0-df77-4d90-8883-3a19979c3c80",
+          "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+          "title": "Hoarseness",
+          "title_zh": "NIH/NIDCD 声嘶患者教育",
+          "source_url": "https://www.nidcd.nih.gov/health/hoarseness",
+          "publication_date": "March 6, 2017",
+          "license": "NIDCD-public-domain-unless-noted",
+          "state": "draft",
+          "clinical_review": "pending",
+          "production_eligible": false,
+          "bm25": -1.178069964371908,
+          "score": 0.04153898535921008,
+          "applicability_warning": null
+        },
+        {
+          "end": 673,
+          "id": "7c1c3a0c51cd6bc879962ab2",
+          "locator": "main/block[16]",
+          "population_status": "adult_dev_candidate",
+          "section": "What are some of the disorders that cause hoarseness and how are they treated?",
+          "start": 0,
+          "text": "Other causes. Thyroid problems and injury to the larynx can cause hoarseness. Hoarseness may sometimes be a symptom of laryngeal cancer, which is why it is so important to see your doctor if you are hoarse for more than three weeks. Read the National Cancer Institute fact sheet, Head and Neck Cancer--Patient version. Hoarseness is also the most common symptom of a disease called recurrent respiratory papillomatosis (RRP), or laryngeal papillomatosis, which causes noncancerous tumors to grow in the larynx and other air passages leading from the nose and mouth into the lungs. Read the NIDCD fact sheet, Recurrent Respiratory Papillomatosis or Laryngeal Papillomatosis.",
+          "chunk_id": "7c1c3a0c51cd6bc879962ab2",
+          "document_id": "nidcd-hoarseness",
+          "version_id": "11605fc0-df77-4d90-8883-3a19979c3c80",
+          "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+          "title": "Hoarseness",
+          "title_zh": "NIH/NIDCD 声嘶患者教育",
+          "source_url": "https://www.nidcd.nih.gov/health/hoarseness",
+          "publication_date": "March 6, 2017",
+          "license": "NIDCD-public-domain-unless-noted",
+          "state": "draft",
+          "clinical_review": "pending",
+          "production_eligible": false,
+          "bm25": -5.760553262065562,
+          "score": 0.041372549019607845,
+          "applicability_warning": null
+        }
+      ],
+      "reranked": [],
+      "run_id": "144ab700-5919-41ad-9b6f-cc3125678dd3",
+      "elapsed_ms": 2976,
+      "reranker_enabled": false
+    },
+    "answer": {
+      "status": "answered",
+      "professional": [
+        {
+          "text": "声音嘶哑时，声音可表现为气息声、raspy或strained，也可表现为音量变小或音调变低。",
+          "supports": [
+            {
+              "evidence_id": "E3",
+              "quote": "If you are hoarse, your voice will sound breathy, raspy, or strained, or will be softer in volume or lower in pitch."
+            }
+          ],
+          "input_fields": []
+        }
+      ],
+      "input_explanation": [],
+      "patient_summary": [
+        {
+          "text": "声音嘶哑时，声音可能听起来气息声重，也可能音量变小或音调变低。",
+          "supports": [
+            {
+              "evidence_id": "E3",
+              "quote": "If you are hoarse, your voice will sound breathy, raspy, or strained, or will be softer in volume or lower in pitch."
+            }
+          ],
+          "input_fields": []
+        }
+      ],
+      "limitations": []
+    },
+    "citations": [
+      {
+        "evidence_id": "E1",
+        "version_id": "11605fc0-df77-4d90-8883-3a19979c3c80",
+        "chunk_id": "b7c66fd4bd97a3fc3028156c",
+        "document_id": "nidcd-hoarseness",
+        "title": "Hoarseness",
+        "locator": "main/block[1]",
+        "source_url": "https://www.nidcd.nih.gov/health/hoarseness",
+        "text": "Structures involved in speech and voice production",
+        "quote_options": [
+          {
+            "quote_id": "E1.Q1",
+            "text": "Structures involved in speech and voice production"
+          }
+        ],
+        "text_truncated": false,
+        "clinical_review": "pending"
+      },
+      {
+        "evidence_id": "E2",
+        "version_id": "11605fc0-df77-4d90-8883-3a19979c3c80",
+        "chunk_id": "b3a7516e456b04ea8b67393e",
+        "document_id": "nidcd-hoarseness",
+        "title": "Hoarseness",
+        "locator": "main/block[10]",
+        "source_url": "https://www.nidcd.nih.gov/health/hoarseness",
+        "text": "Misusing or overusing your voice. Cheering at sporting events, speaking loudly in noisy situations, talking for too long without resting your voice, singing loudly, or speaking with a voice that's too high or too low can cause temporary hoarseness. Resting, reducing voice use, and drinking lots of water should help relieve hoarseness from misuse or overuse. Sometimes people whose jobs depend on their voices—such as teachers, singers, or public speakers—develop hoarseness that won't go away. If you use your voice for a living and you regularly experience hoarseness, your doctor might suggest seeing a speech-language pathologist for voice therapy. In voice therapy, you'll be given vocal exercises and tips for avoiding hoarseness by changing the ways in which you use your voice.",
+        "quote_options": [
+          {
+            "quote_id": "E2.Q1",
+            "text": "Misusing or overusing your voice."
+          },
+          {
+            "quote_id": "E2.Q2",
+            "text": "Cheering at sporting events, speaking loudly in noisy situations, talking for too long without resting your voice, singing loudly, or speaking with a voice that's too high or too low can cause temporary hoarseness."
+          },
+          {
+            "quote_id": "E2.Q3",
+            "text": "Resting, reducing voice use, and drinking lots of water should help relieve hoarseness from misuse or overuse."
+          },
+          {
+            "quote_id": "E2.Q4",
+            "text": "Sometimes people whose jobs depend on their voices—such as teachers, singers, or public speakers—develop hoarseness that won't go away."
+          },
+          {
+            "quote_id": "E2.Q5",
+            "text": "If you use your voice for a living and you regularly experience hoarseness, your doctor might suggest seeing a speech-language pathologist for voice therapy."
+          },
+          {
+            "quote_id": "E2.Q6",
+            "text": "In voice therapy, you'll be given vocal exercises and tips for avoiding hoarseness by changing the ways in which you use your voice."
+          }
+        ],
+        "text_truncated": false,
+        "clinical_review": "pending"
+      },
+      {
+        "evidence_id": "E3",
+        "version_id": "11605fc0-df77-4d90-8883-3a19979c3c80",
+        "chunk_id": "11431f15a7d129a44f3dedfb",
+        "document_id": "nidcd-hoarseness",
+        "title": "Hoarseness",
+        "locator": "main/block[2]",
+        "source_url": "https://www.nidcd.nih.gov/health/hoarseness",
+        "text": "If you are hoarse, your voice will sound breathy, raspy, or strained, or will be softer in volume or lower in pitch. Your throat might feel scratchy. Hoarseness is often a symptom of problems in the vocal folds of the larynx.",
+        "quote_options": [
+          {
+            "quote_id": "E3.Q1",
+            "text": "If you are hoarse, your voice will sound breathy, raspy, or strained, or will be softer in volume or lower in pitch."
+          },
+          {
+            "quote_id": "E3.Q2",
+            "text": "Your throat might feel scratchy."
+          },
+          {
+            "quote_id": "E3.Q3",
+            "text": "Hoarseness is often a symptom of problems in the vocal folds of the larynx."
+          }
+        ],
+        "text_truncated": false,
+        "clinical_review": "pending"
+      },
+      {
+        "evidence_id": "E4",
+        "version_id": "11605fc0-df77-4d90-8883-3a19979c3c80",
+        "chunk_id": "e0df42209aff4e381b2cb825",
+        "document_id": "nidcd-hoarseness",
+        "title": "Hoarseness",
+        "locator": "main/block[3]",
+        "source_url": "https://www.nidcd.nih.gov/health/hoarseness",
+        "text": "The sound of our voice is produced by vibration of the vocal folds, which are two bands of smooth muscle tissue that are positioned opposite each other in the larynx. The larynx is located between the base of the tongue and the top of the trachea, which is the passageway to the lungs (see figure).",
+        "quote_options": [
+          {
+            "quote_id": "E4.Q1",
+            "text": "The sound of our voice is produced by vibration of the vocal folds, which are two bands of smooth muscle tissue that are positioned opposite each other in the larynx."
+          },
+          {
+            "quote_id": "E4.Q2",
+            "text": "The larynx is located between the base of the tongue and the top of the trachea, which is the passageway to the lungs (see figure)."
+          }
+        ],
+        "text_truncated": false,
+        "clinical_review": "pending"
+      },
+      {
+        "evidence_id": "E5",
+        "version_id": "11605fc0-df77-4d90-8883-3a19979c3c80",
+        "chunk_id": "855545214f4be7613e014f31",
+        "document_id": "nidcd-hoarseness",
+        "title": "Hoarseness",
+        "locator": "main/block[5]",
+        "source_url": "https://www.nidcd.nih.gov/health/hoarseness",
+        "text": "Individual variations in our voices are the result of how much tension we put on our vocal folds. For example, relaxing the vocal folds makes a voice deeper; tensing them makes a voice higher.",
+        "quote_options": [
+          {
+            "quote_id": "E5.Q1",
+            "text": "Individual variations in our voices are the result of how much tension we put on our vocal folds."
+          },
+          {
+            "quote_id": "E5.Q2",
+            "text": "For example, relaxing the vocal folds makes a voice deeper; tensing them makes a voice higher."
+          }
+        ],
+        "text_truncated": false,
+        "clinical_review": "pending"
+      },
+      {
+        "evidence_id": "E6",
+        "version_id": "11605fc0-df77-4d90-8883-3a19979c3c80",
+        "chunk_id": "ddce569b1dc49d9f8f091ae0",
+        "document_id": "nidcd-hoarseness",
+        "title": "Hoarseness",
+        "locator": "main/block[15]",
+        "source_url": "https://www.nidcd.nih.gov/health/hoarseness",
+        "text": "Neurological diseases and disorders. Neurological conditions that affect areas of the brain that control muscles in the throat or larynx can also cause hoarseness. Hoarseness is sometimes a symptom of Parkinson's disease or a stroke. Spasmodic dysphonia is a rare neurological disease that causes hoarseness and can also affect breathing. Treatment in these cases will depend upon the type of disease or disorder. For more information, read the NIDCD fact sheet, Spasmodic Dysphonia.",
+        "quote_options": [
+          {
+            "quote_id": "E6.Q1",
+            "text": "Neurological diseases and disorders."
+          },
+          {
+            "quote_id": "E6.Q2",
+            "text": "Neurological conditions that affect areas of the brain that control muscles in the throat or larynx can also cause hoarseness."
+          },
+          {
+            "quote_id": "E6.Q3",
+            "text": "Hoarseness is sometimes a symptom of Parkinson's disease or a stroke."
+          },
+          {
+            "quote_id": "E6.Q4",
+            "text": "Spasmodic dysphonia is a rare neurological disease that causes hoarseness and can also affect breathing."
+          },
+          {
+            "quote_id": "E6.Q5",
+            "text": "Treatment in these cases will depend upon the type of disease or disorder."
+          },
+          {
+            "quote_id": "E6.Q6",
+            "text": "For more information, read the NIDCD fact sheet, Spasmodic Dysphonia."
+          }
+        ],
+        "text_truncated": false,
+        "clinical_review": "pending"
+      }
+    ],
+    "validation": {
+      "citation_identity_and_quote_match": true,
+      "semantic_support": "model_judgment_only",
+      "clinical_approval": false,
+      "input_check": "exact_field_anchors_and_bounded_attribution_screen",
+      "requested_quote_selectors": 1,
+      "generation_evidence_ids": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6"
+      ],
+      "draft_summary_placeholder": true,
+      "citation_context_expansions": [],
+      "atomization": [],
+      "dose_screen": "heuristic_passed",
+      "quote_repair": {
+        "attempts": 0,
+        "accepted": false
+      },
+      "core_verification": {
+        "claims": [
+          {
+            "claim_id": "professional:0",
+            "supported": true,
+            "reason": "supported",
+            "checked_quote_indexes": [
+              0
+            ]
+          }
+        ],
+        "retained_answer_addresses_question": true,
+        "refusal_assessment": "not_applicable",
+        "refusal_supports": [],
+        "atom_groups": [],
+        "split_group_complete": true,
+        "mixed_group_withheld": false,
+        "retained_indexes": {
+          "professional": [
+            0
+          ],
+          "input_explanation": [],
+          "patient_summary": []
+        },
+        "withhold_causes": [],
+        "format_attempts": 1,
+        "format_errors": [],
+        "format_feedback": null,
+        "deterministic_record_claim_ids": []
+      },
+      "core_verification_metadata": {
+        "requested_model": "deepseek-flash",
+        "returned_model": "deepseek-flash",
+        "usage": {
+          "prompt_tokens": 2439,
+          "completion_tokens": 56,
+          "total_tokens": 2495
+        },
+        "prompt_sha256": "e5dfe4120c4a84c127102e4038da428682e8cb10702595855c420f7664068a5e",
+        "deterministic_record_claim_ids": []
+      },
+      "original_status": "answered",
+      "isolated_patient_summary": true,
+      "summary_core_selection": {
+        "selected_original_index": 0,
+        "professional_order": [
+          0
+        ],
+        "skipped": [
+          {
+            "index": 0,
+            "code": "patient_summary_unexplained_term",
+            "rule": "untranslated_voice_term_in_patient_text"
+          }
+        ]
+      },
+      "summary_metadata": {
+        "requested_model": "deepseek-flash",
+        "returned_model": "deepseek-flash",
+        "usage": {
+          "prompt_tokens": 615,
+          "completion_tokens": 25,
+          "total_tokens": 640
+        },
+        "prompt_sha256": "e1f112d2f87f6c7c1a94c4977d3563473c3bfa82c0b1a5b16e4749a3a1ffad00"
+      },
+      "verification": {
+        "claims": [
+          {
+            "claim_id": "professional:0",
+            "supported": true,
+            "reason": "supported",
+            "checked_quote_indexes": [
+              0
+            ]
+          },
+          {
+            "claim_id": "patient_summary:0",
+            "supported": true,
+            "reason": "supported",
+            "checked_quote_indexes": [
+              0
+            ]
+          }
+        ],
+        "retained_answer_addresses_question": true,
+        "refusal_assessment": "not_applicable",
+        "refusal_supports": [],
+        "atom_groups": [],
+        "split_group_complete": true,
+        "mixed_group_withheld": false,
+        "retained_indexes": {
+          "professional": [
+            0
+          ],
+          "input_explanation": [],
+          "patient_summary": [
+            0
+          ]
+        },
+        "withhold_causes": [],
+        "format_attempts": 1,
+        "format_errors": [],
+        "format_feedback": null,
+        "deterministic_record_claim_ids": []
+      },
+      "verification_metadata": {
+        "requested_model": "deepseek-flash",
+        "returned_model": "deepseek-flash",
+        "usage": {
+          "prompt_tokens": 2625,
+          "completion_tokens": 82,
+          "total_tokens": 2707
+        },
+        "prompt_sha256": "e5dfe4120c4a84c127102e4038da428682e8cb10702595855c420f7664068a5e",
+        "deterministic_record_claim_ids": []
+      },
+      "outcome_category": "answer_ready"
+    },
+    "model": "deepseek-flash",
+    "provider_base_url": "https://api.deepseek.com",
+    "elapsed_ms": 7210,
+    "synthetic_only": true,
+    "generation_metadata": {
+      "requested_model": "deepseek-flash",
+      "returned_model": "deepseek-flash",
+      "usage": {
+        "prompt_tokens": 4859,
+        "completion_tokens": 81,
+        "total_tokens": 4940
+      },
+      "prompt_sha256": "8549fc1bf7b1b34f6d5da424dbbf40c89b65a71382f36a27486891f5ee2d2c17"
+    }
+  }
+}

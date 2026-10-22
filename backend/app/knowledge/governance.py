@@ -13,6 +13,7 @@ from pydantic import Field
 
 from app.domain.models import DTO
 from app.knowledge.library import TOPICS, read_json, search_expression, verify_document
+from app.knowledge.population import population_restriction
 
 
 class ReviewAttestation(DTO):
@@ -340,6 +341,8 @@ class GovernanceStore:
                 if not bindings.get(row["version_id"], True):
                     continue
                 chunk, metadata = json.loads(row["payload"]), json.loads(row["metadata"])
+                if population_restriction(metadata):
+                    continue
                 if topic and topic not in metadata["topics"]:
                     continue
                 approved = (
@@ -398,6 +401,8 @@ class GovernanceStore:
                 "version_id": version_id,
                 "chunk": json.loads(row["payload"]),
                 "metadata": metadata,
+                "population_restriction": population_restriction(metadata),
+                "generation_eligible": False,
                 "current_state": row["state"],
                 "withdrawn": row["state"] == "withdrawn",
                 "purpose": "local_audit_only_not_a_generation_input",

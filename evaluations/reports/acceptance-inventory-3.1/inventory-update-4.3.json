@@ -1,0 +1,7 @@
+{
+  "delivery": "4.3",
+  "tests_passed": 614,
+  "eligible_chunks": 767,
+  "clinical_approval": false,
+  "proof": "evaluations/reports/population-restriction-4.3/corpus-proof.json"
+}

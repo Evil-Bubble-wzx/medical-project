@@ -5,6 +5,8 @@ import re
 
 def check_scope(payload):
     question = payload.question
+    chief = getattr(payload, "chief_complaint", "")
+    duration = getattr(payload, "duration", "")
     ages = [int(n) for n in re.findall(r"(\d{1,3})\s*岁", question)]
     if any(age < 18 for age in ages) and re.search(
         r"孩子|儿童|幼儿|宝宝|小儿|患儿|儿子|女儿", question
@@ -64,5 +66,16 @@ def check_scope(payload):
                 "请提供具体指南名称、版本和冲突条目；缺少这些资料时，"
                 "不能替个人任选一份作为治疗依据。"
             ),
+        }
+    if (
+        re.search(r"具体表现(?:未知|不详|不清楚)|症状(?:不详|未知|不清楚)", chief)
+        and re.search(r"不详|不清楚|未知|不确定|未提供", duration)
+        and re.search(r"我|这些信息|原因|判断|解释", question)
+    ):
+        return {
+            "code": "patient_symptom_details_missing",
+            "status": "needs_information",
+            "limitation": "missing_patient_details",
+            "message": "请先补充具体不适表现和开始时间；当前输入不足以作个体解释。",
         }
     return None

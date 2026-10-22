@@ -1,0 +1,24 @@
+{
+  "reviews": [
+    {
+      "consultation_id": "175a9d01-5549-47d2-ae8a-cc39f2d89663",
+      "patient_id": "7bfb2c95-b79f-4031-bd47-3299d6285af0",
+      "revision": 1,
+      "result_hash": "dfe6a0a7e02724e33fade5f9a3735afccba68a70bed420504f78d12e1e47c0cc",
+      "review": {
+        "relevance": "not_assessed",
+        "citation_support": "not_assessed",
+        "input_fidelity": "not_assessed",
+        "patient_readability": "not_assessed",
+        "overall": "not_assessed",
+        "comment": "自动化真实链路检查；未执行医生医学判断，所有评价保持尚未评估。"
+      },
+      "created_at": 1792638843.9134748,
+      "clinical_approval": false,
+      "reviewer_identity_authenticated": false
+    }
+  ],
+  "synthetic_only": true,
+  "clinical_approval": false,
+  "purpose": "doctor_usability_trial_not_formal_medical_signoff"
+}

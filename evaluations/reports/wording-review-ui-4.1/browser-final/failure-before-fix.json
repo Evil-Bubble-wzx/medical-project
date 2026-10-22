@@ -1,0 +1,6 @@
+{
+  "error": "Detached form element lookup prevented wording field rendering; browser wait timed out.",
+  "fix": "Look up proposed text within the detached form grid before appending the copy button.",
+  "writes_before_failure": 0,
+  "synthetic_only": true
+}

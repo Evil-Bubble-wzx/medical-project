@@ -33,6 +33,7 @@ def outcome_category(answer, validation):
         in {
             "invalid_input_anchor_selector",
             "input_attribution_mismatch",
+            "input_comparison_classification_failed",
             "unsupported_input_reference",
             "missing_input_reference",
         }
@@ -63,6 +64,7 @@ def outcome_category(answer, validation):
         "summary_core_expansion",
         "summary_core_reference_mismatch",
         "summary_no_eligible_core",
+        "patient_summary_unexplained_term",
         "patient_summary_personalization",
         "patient_summary_scope_shift",
         "patient_summary_diagnostic_overstatement",

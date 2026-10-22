@@ -15,6 +15,8 @@ from starlette.middleware.trustedhost import TrustedHostMiddleware
 from app.api.audit import register_audit_routes
 from app.api.business import register_business_routes
 from app.api.development import register_development_routes
+from app.api.local_settings import register_settings_routes
+from app.api.wording import register_wording_routes
 from app.application.business import BusinessStore
 from app.application.consultation_queue import ConsultationQueue
 from app.application.consultations import ConsultationService
@@ -23,14 +25,24 @@ from app.retrieval.answer_workflow import AnswerInput
 from app.retrieval.audit_service import AuditService
 from app.retrieval.development_service import DevelopmentService
 from app.retrieval.validation_service import ReviewInput, ValidationInput, ValidationService
+from app.retrieval.wording_review import WordingReviewService
 
 
 def create_validation_app(
-    service=None, audit_service=None, development_service=None, business_store=None
+    service=None,
+    audit_service=None,
+    development_service=None,
+    business_store=None,
+    wording_service=None,
 ):
     os.environ["LANGSMITH_TRACING"] = "false"
     os.environ["LANGCHAIN_TRACING_V2"] = "false"
     service = service or ValidationService()
+    business_member = (
+        "var/doctor-trial/business.sqlite3"
+        if os.environ.get("ENT_DOCTOR_TRIAL") == "1"
+        else "var/business-synthetic.sqlite3"
+    )
     audit_lock = threading.Lock()
     consultation_queue = None
 
@@ -38,9 +50,7 @@ def create_validation_app(
         nonlocal business_store
         with audit_lock:
             if business_store is None:
-                business_store = BusinessStore(
-                    getattr(service, "root", ROOT) / "var/business-synthetic.sqlite3"
-                )
+                business_store = BusinessStore(getattr(service, "root", ROOT) / business_member)
         return business_store
 
     def get_audit_service():
@@ -49,6 +59,13 @@ def create_validation_app(
             if audit_service is None:
                 audit_service = AuditService(getattr(service, "root", ROOT))
         return audit_service
+
+    def get_wording_service():
+        nonlocal wording_service
+        with audit_lock:
+            if wording_service is None:
+                wording_service = WordingReviewService(getattr(service, "root", ROOT))
+        return wording_service
 
     def get_consultation_queue():
         nonlocal consultation_queue
@@ -71,8 +88,7 @@ def create_validation_app(
     async def lifespan(app):
         try:
             if business_store is not None or (
-                isinstance(service, ValidationService)
-                and (service.root / "var/business-synthetic.sqlite3").exists()
+                isinstance(service, ValidationService) and (service.root / business_member).exists()
             ):
                 get_consultation_queue().start()
             yield
@@ -116,8 +132,12 @@ def create_validation_app(
         return JSONResponse(
             {
                 "error_code": "invalid_input",
-                "message": "请检查审核字段、版本号与内容长度。"
-                if request.url.path.startswith("/api/v1/validation/audit/")
+                "message": "请检查模型设置、版本号和数值范围。"
+                if request.url.path.startswith("/api/v1/validation/settings")
+                else "请检查审核字段、版本号与内容长度。"
+                if request.url.path.startswith(
+                    ("/api/v1/validation/audit/", "/api/v1/validation/development/")
+                )
                 else "请检查账号、合成资料字段及版本号。"
                 if request.url.path.startswith("/api/v1/business/")
                 else "请检查成人年龄、字段长度与总输入（不超过500字）。",
@@ -158,6 +178,30 @@ def create_validation_app(
     @app.get("/patients")
     def patients_page():
         response = FileResponse(ROOT / "frontend/validation/patients.html")
+        response.set_cookie("workbench_session", secret, httponly=True, samesite="strict")
+        return response
+
+    @app.get("/settings")
+    def settings_page():
+        response = FileResponse(ROOT / "frontend/validation/settings.html")
+        response.set_cookie("workbench_session", secret, httponly=True, samesite="strict")
+        return response
+
+    @app.get("/imports")
+    def imports_page():
+        response = FileResponse(ROOT / "frontend/validation/imports.html")
+        response.set_cookie("workbench_session", secret, httponly=True, samesite="strict")
+        return response
+
+    @app.get("/local")
+    def local_page():
+        response = FileResponse(ROOT / "frontend/validation/local.html")
+        response.set_cookie("workbench_session", secret, httponly=True, samesite="strict")
+        return response
+
+    @app.get("/doctor")
+    def doctor_page():
+        response = FileResponse(ROOT / "frontend/validation/doctor.html")
         response.set_cookie("workbench_session", secret, httponly=True, samesite="strict")
         return response
 
@@ -205,7 +249,9 @@ def create_validation_app(
         except (ValueError, FileNotFoundError):
             raise HTTPException(503, "生成配置或证据需要检查") from None
 
+    register_settings_routes(app, authorize, service, get_business_store)
     register_audit_routes(app, authorize, get_audit_service)
+    register_wording_routes(app, authorize, get_wording_service)
     register_business_routes(app, authorize, get_business_store, service, get_consultation_queue)
     register_development_routes(app, authorize, get_development_service)
     app.mount("/assets", StaticFiles(directory=ROOT / "frontend/validation"), name="assets")

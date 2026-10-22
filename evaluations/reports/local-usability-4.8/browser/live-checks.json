@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "live_port": 8012,
+  "checks": [
+    "hub_status",
+    "import_page",
+    "doctor_page",
+    "audit_page"
+  ],
+  "errors": [],
+  "additional_generation_requests": 0
+}

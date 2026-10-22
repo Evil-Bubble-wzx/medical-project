@@ -4,6 +4,8 @@ import re
 import sqlite3
 from pathlib import Path
 
+from app.knowledge.population import population_restriction
+
 TOPICS = {
     "rhinitis": ("鼻炎", "变应性鼻炎", "allergic rhinitis"),
     "sinusitis": ("鼻窦炎", "鼻息肉", "rhinosinusitis", "nasal polyps"),
@@ -184,6 +186,8 @@ def search(root: Path, query: str, limit=5, topic=None):
     verified = set()
     for row in rows:
         document = json.loads(row["metadata"])
+        if population_restriction(document):
+            continue
         if topic and topic not in document["topics"]:
             continue
         if document["id"] not in verified:

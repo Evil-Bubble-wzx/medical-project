@@ -1,0 +1,6 @@
+{
+  "base_url": "http://127.0.0.1:8011",
+  "writes_performed": false,
+  "model_calls": 0,
+  "error_kind": "ConnectError"
+}

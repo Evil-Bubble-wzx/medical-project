@@ -3,10 +3,14 @@
 import sqlite3
 from typing import Literal
 
-from fastapi import Depends, HTTPException
+from fastapi import Depends, HTTPException, Query, Request
 from pydantic import BaseModel, ConfigDict, Field
+from starlette.concurrency import run_in_threadpool
 
+from app.knowledge.document_extract import MAX_BYTES
 from app.retrieval.audit_service import AuditError
+from app.retrieval.document_preview import DocumentPrepare, create_preview, prepare_preview
+from app.retrieval.local_import import LocalTextInput, prepare_text
 
 
 class Selection(BaseModel):
@@ -58,6 +62,25 @@ def register_development_routes(app, authorize, get_service):
     @app.post(prefix + "/prepare", dependencies=[Depends(authorize)])
     def prepare(payload: Prepare):
         return call(lambda: get_service().prepare(**payload.model_dump()))
+
+    @app.post(prefix + "/document-preview", dependencies=[Depends(authorize)])
+    async def document_preview(request: Request, kind: Literal["pdf", "docx"] = Query()):
+        data = bytearray()
+        async for chunk in request.stream():
+            if len(data) + len(chunk) > MAX_BYTES:
+                raise HTTPException(413, {"error_code": "document_size_limit"})
+            data.extend(chunk)
+        return await run_in_threadpool(
+            call, lambda: create_preview(get_service().root, bytes(data), kind)
+        )
+
+    @app.post(prefix + "/document-prepare", dependencies=[Depends(authorize)])
+    def document_prepare(payload: DocumentPrepare):
+        return call(lambda: prepare_preview(get_service(), payload))
+
+    @app.post(prefix + "/local-text", dependencies=[Depends(authorize)])
+    def local_text(payload: LocalTextInput):
+        return call(lambda: prepare_text(get_service(), payload))
 
     @app.post(prefix + "/activate", dependencies=[Depends(authorize)])
     def activate(payload: Activate):

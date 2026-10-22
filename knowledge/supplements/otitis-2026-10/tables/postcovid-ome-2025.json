@@ -1,0 +1,17 @@
+[
+  {
+    "id": "T1",
+    "locator": ".//table-wrap[@id='T1']",
+    "text": "Table 1The characteristics of the OME secondary to SARS-CoV-2 infection.CategoryNumbers/percentage (N)Age54.9 ± 14.2GenderMale33 (63.5%)Female19 (36.5%)Affected sideBilateral20 (38.5%)Unilateral32 (61.5%)TympanocentesisOnce31 (59.6%)Twice or more21 (40.4%)COVID-19-19 in the Middle EarPositive17 (32.7%)Negative35 (67.3%)"
+  },
+  {
+    "id": "T2",
+    "locator": ".//table-wrap[@id='T2']",
+    "text": "Table 2Rate of effective between the two groups.Type of HLTherapeutic effectCuredEffectiveIneffectiveRate of effectiveCHL (37)3160100%MHL (15)010566.70%"
+  },
+  {
+    "id": "T3",
+    "locator": ".//table-wrap[@id='T3']",
+    "text": "Table 3The hearing level in conductive hearing loss (CHL) and mixed hearing loss (MHL) pre-treatment and post-treatment, which include air conduction (AC) and bone conduction (BC).Type of HLPure-tone HLAC p BC p pre-treatment (dB)post-treatment (dB)pre-treatment (dB)post-treatment (dB)CHL42.38 ± 12.1622.86 ± 9.16<0.000115.76 ± 3.9113.35 ± 2.830.0034MHL76.40 ± 21.1857.13 ± 23.880.026846.00 ± 15.3838.00 ± 14.840.1583"
+  }
+]

@@ -10,15 +10,18 @@ const base = '/api/v1/validation/audit';
 const topics = {rhinitis:'鼻炎', sinusitis:'鼻窦炎', otitis_media:'中耳炎', hearing_loss:'听力损失', tinnitus:'耳鸣', throat:'咽喉'};
 const states = {pending:'尚未记录', draft:'已存草稿', submitted:'已提交声明'};
 const decisions = {accept:'建议保留', revise:'需要修改', exclude:'建议排除'};
+const wordingDecisions = {accept:'确认候选表述', revise:'提出修改', exclude:'驳回候选表述'};
+const decisionLabels = () => state.selected?.kind === 'wording' ? wordingDecisions : decisions;
 const fields = {
   decision:'候选处理意见', reviewer:'审核人姓名', reviewed_at:'审核时间', notes:'审核说明与理由',
   adult_scope:'适用人群与成人范围', evidence_quality:'证据质量与研究限制', conflicts_of_interest:'资助及利益冲突说明',
   license_version_confirmed:'已确认许可及版本', source_family_aliases_checked:'已核查同源、译文及更新版本',
   question_clarity:'问题是否清晰', adult_applicability:'证据是否适用于题目中的成人范围',
+  proposed_text:'本次建议采用或修改后的表述', evidence_checked:'已逐项核对引用原文', scope_checked:'已核对疾病、人群、关系与语气范围',
   scope_limitations:'适用范围与限制', evidence_sufficiency:'所列证据是否充分',
   additional_relevant_evidence:'是否还需补充证据', boundary_expected_behavior_confirmed:'是否确认候选预期处理行为'
 };
-const state = {items:[], kind:'source', selected:null, dirty:false, busy:false, historyBefore:null, originalAdditional:null};
+const state = {items:[], kind:'source', selected:null, dirty:false, busy:false, historyBefore:null, originalAdditional:null, wordingLoaded:false};
 function say(text, success=false) {
   $('#message').textContent = text;
   $('#message').classList.toggle('success', success);
@@ -58,6 +61,8 @@ async function api(path, body, retry=true) {
     invalid_input:'请检查审核字段、时间和内容长度。',
     review_item_not_found:'该条目已不存在，请刷新列表。',
     review_component_unavailable:'审核库或资料暂不可用，请检查本地服务。',
+    wording_archive_changed:'表述审核包或原始引用已变化，操作已阻止。请先核对材料版本，再重新载入。',
+    wording_review_unavailable:'表述审核材料暂不可用，请检查4.0审核包与归档文件是否完整。其他资料审核仍可使用。',
     development_admission_not_ready:'所选题目或依赖来源尚未满足纳入条件，请核对已提交的保留声明、许可、成人范围和原文归档。',
     development_plan_changed:'资料、审核意见或当前版本已变化，请重新核对纳入范围。',
     development_snapshot_conflict:'当前开发版本已被更新，本次操作未启用。请刷新版本状态并重新准备。',
@@ -83,7 +88,7 @@ function markDirty() {
   $('#dirty-state').textContent = '有尚未保存的修改';
 }
 function canLeave() { return !state.dirty || window.confirm('当前意见尚未保存。是否放弃这些修改，切换条目？'); }
-function itemURL(item=state.selected) { return `${base}/items/${encodeURIComponent(item.kind)}/${encodeURIComponent(item.item_id)}`; }
+function itemURL(item=state.selected) { return item.kind === 'wording' ? `${base}/wording/items/${encodeURIComponent(item.item_id)}` : `${base}/items/${encodeURIComponent(item.kind)}/${encodeURIComponent(item.item_id)}`; }
 function renderList() {
   const search = $('#search').value.trim().toLowerCase();
   const status = $('#state-filter').value;
@@ -93,7 +98,7 @@ function renderList() {
   for (const item of visible) {
     const button = node('button', undefined, 'audit-item'); button.type = 'button';
     button.setAttribute('aria-current', String(state.selected?.kind === item.kind && state.selected?.item_id === item.item_id));
-    const label = item.kind === 'source' ? item.title : `${item.item_id} · ${item.case_kind === 'boundary_manual_review' ? '边界题':'证据题'}`;
+    const label = item.kind === 'source' || item.kind === 'wording' ? item.title : `${item.item_id} · ${item.case_kind === 'boundary_manual_review' ? '边界题':'证据题'}`;
     button.append(node('strong', label), node('small', `${topics[item.topic] || item.topic || ''} · ${states[item.state] || item.state}`));
     button.disabled = state.busy;
     button.addEventListener('click', () => selectItem(item)); container.append(button);
@@ -101,7 +106,8 @@ function renderList() {
   if (!visible.length) container.append(node('p', '没有符合当前筛选条件的条目。', 'audit-muted'));
   const sourceCount = state.items.filter(item => item.kind === 'source').length;
   const caseCount = state.items.filter(item => item.kind === 'case').length;
-  $('#totals').textContent = `${sourceCount} 份来源 · ${caseCount} 道题目\n已提交声明 ${state.items.filter(item => item.state === 'submitted').length} / ${state.items.length}`;
+  const wordingCount = state.items.filter(item => item.kind === 'wording').length;
+  $('#totals').textContent = `${sourceCount} 份来源 · ${caseCount} 道题目${state.wordingLoaded ? ` · ${wordingCount} 条表述`:''}\n已提交声明 ${state.items.filter(item => item.state === 'submitted').length} / ${state.items.length}`;
 }
 function safeLink(parent, value, label='打开原始来源 ↗') {
   try {
@@ -117,7 +123,23 @@ function identifiers(parent, pairs) {
 }
 function renderSource(item) {
   const content = $('#source-content'); content.replaceChildren(); const p = item.payload;
-  if (item.kind === 'source') {
+  if (item.kind === 'wording') {
+    content.append(node('p', '候选修改尚未应用。请对照原文填写自己的意见；提交不会替换历史回答或发布资料。', 'audit-muted'));
+    const comparison = node('div', undefined, 'wording-comparison');
+    for (const [title, text] of [['原回答表述', p.original_text], ['修改候选（待核对）', p.candidate_text]]) {
+      const box = node('article', undefined, 'audit-evidence');
+      box.append(node('h3', title), node('blockquote', text)); comparison.append(box);
+    }
+    content.append(comparison, node('p', `待核对问题：${p.observation}`, 'audit-muted'));
+    for (const support of p.supports) {
+      const box = node('article', undefined, 'audit-evidence');
+      box.append(node('h3', support.source_title), node('blockquote', support.quote));
+      safeLink(box, support.source_url);
+      identifiers(box, [['资料', support.document_id], ['版本', support.version_id], ['片段', support.chunk_id], ['定位', support.locator]]);
+      content.append(box);
+    }
+    identifiers(content, [['原论断', p.claim_id], ['材料版本', '4.0']]);
+  } else if (item.kind === 'source') {
     content.append(node('p', p.population_note || '请核对原文的适用人群。', 'audit-muted'));
     content.append(node('p', `出版日期：${p.publication_date || '待核对'} · 许可：${p.license || '待核对'}`, 'audit-muted'));
     safeLink(content, p.source_url);
@@ -141,7 +163,7 @@ function field(grid, name, kind, value, hint) {
   let input;
   if (kind === 'boolean' || kind === 'decision' || kind === 'additional') {
     input = node('select');
-    const choices = kind === 'decision' ? [['', '请选择'], ...Object.entries(decisions)] :
+    const choices = kind === 'decision' ? [['', '请选择'], ...Object.entries(decisionLabels())] :
       kind === 'additional' ? [['', '未完成核对或仍需补充'], ['none', '已确认无需补充'],
         ...(Array.isArray(value) && value.length ? [['needed', '已有补充证据，待绑定']]:[])] : [['', '尚未核对'], ['true', '是'], ['false', '否']];
     for (const [key, text] of choices) { const option = node('option', text); option.value = key; input.append(option); }
@@ -174,6 +196,13 @@ function renderForm(item) {
   if (item.kind === 'source') {
     for (const key of ['adult_scope', 'evidence_quality', 'conflicts_of_interest']) field(grid, key, 'area', r[key]);
     for (const key of ['license_version_confirmed', 'source_family_aliases_checked']) field(grid, key, 'boolean', r[key]);
+  } else if (item.kind === 'wording') {
+    field(grid, 'proposed_text', 'area', r.proposed_text, '确认候选或提出修改时，请填写完整表述；此处只保存审核意见。');
+    const copy = node('button', '填入候选供核对', 'link-button'); copy.type = 'button';
+    copy.addEventListener('click', () => { $('#field-proposed_text').value = item.payload.candidate_text; markDirty(); });
+    grid.querySelector('#field-proposed_text').parentElement.append(copy);
+    field(grid, 'evidence_checked', 'boolean', r.evidence_checked);
+    field(grid, 'scope_checked', 'boolean', r.scope_checked);
   } else {
     field(grid, 'question_clarity', 'boolean', r.question_clarity);
     field(grid, 'scope_limitations', 'area', r.scope_limitations);
@@ -199,8 +228,12 @@ function renderSelected(item) {
     title:item.payload.title, topic:item.payload.topic,
     case_kind:item.kind === 'case' ? item.payload.kind || 'evidence':null};
   $('#empty-detail').hidden = true; $('#selected-detail').hidden = false;
-  $('#item-topic').textContent = `${topics[item.payload.topic] || item.payload.topic || ''} / ${item.item_id}`;
-  $('#item-title').textContent = item.kind === 'source' ? item.payload.title : item.payload.question;
+  $('#item-topic').textContent = item.kind === 'wording' ? '回答表述 / 4.0' : `${topics[item.payload.topic] || item.payload.topic || ''} / ${item.item_id}`;
+  $('#item-title').textContent = item.kind === 'case' ? item.payload.question : item.payload.title;
+  $('#export').textContent = item.kind === 'wording' ? '导出表述审核记录（含草稿）' : '下载审核表';
+  $('#export-heading').textContent = item.kind === 'wording' ? '导出表述审核记录' : '导出已提交审核表';
+  $('#export-description').textContent = item.kind === 'wording' ? '导出这11项的当前记录及保存、提交历史，包含草稿。未保存输入不导出，候选修改不会自动应用。' : '导出数据库中已提交的意见及准入检查结果。未保存输入和草稿不计入提交表，导出不会激活资料或启动模型评分。';
+  $('#export-state').textContent = '';
   $('#item-state').textContent = states[item.state];
   $('#record-meta').textContent = `记录版本 ${item.revision} · ${item.updated_at ? '保存于 '+new Date(item.updated_at).toLocaleString():'尚未保存'} · 医学审核状态未授予`;
   renderSource(item); renderForm(item); state.dirty = false; $('#dirty-state').textContent = '当前没有未保存修改';
@@ -235,7 +268,7 @@ async function save(submit) {
   busy(true); say(submit ? '正在核对并提交声明…':'正在保存草稿…');
   try {
     const result = await api(itemURL() + (submit ? '/submit':'/draft'), body);
-    renderSelected(result); document.dispatchEvent(new Event('review-saved')); say(submit ? '审核声明已提交并保存。资料尚未发布，医学审核状态未自动授予。':'草稿已保存。未完成内容可以稍后继续填写。', true);
+    renderSelected(result); document.dispatchEvent(new Event('review-saved')); say(submit ? (result.kind === 'wording' ? '表述审核意见已提交。候选修改未应用，历史回答与医学审核状态保持原样。':'审核声明已提交并保存。资料尚未发布，医学审核状态未自动授予。'):'草稿已保存。未完成内容可以稍后继续填写。', true);
   } catch (error) { say(error.message); }
   finally { busy(false); }
 }
@@ -250,20 +283,26 @@ async function history(more=false) {
     for (const event of data.events) {
       const box = node('article', undefined, 'audit-history-event');
       box.append(node('strong', `记录版本 ${event.revision} · ${states[event.state]}${event.binding_hash !== state.selected.binding_hash ? ' · 旧资料版本':''}`));
-      box.append(node('p', `${new Date(event.created_at).toLocaleString()} · ${event.review.reviewer || '尚未填写审核人'} · ${decisions[event.review.decision] || '尚未决定'}`));
+      box.append(node('p', `${new Date(event.created_at).toLocaleString()} · ${event.review.reviewer || '尚未填写审核人'} · ${decisionLabels()[event.review.decision] || '尚未决定'}`));
       box.append(node('p', event.review.notes || '未填写说明。'));
       const d = node('details'); d.append(node('summary', '查看当时的审核字段'));
-      for (const [key, value] of Object.entries(event.review)) if (value !== null && !Array.isArray(value)) d.append(node('p', `${fields[key] || key}：${value === true ? '是':value === false ? '否':decisions[value] || value}`));
+      for (const [key, value] of Object.entries(event.review)) if (value !== null && !Array.isArray(value)) d.append(node('p', `${fields[key] || key}：${value === true ? '是':value === false ? '否':decisionLabels()[value] || value}`));
       box.append(d); container.append(box);
     }
     state.historyBefore = data.next_before; $('#more-history').hidden = !data.next_before;
   } catch (error) { say(error.message); }
   finally { busy(false); }
 }
-document.querySelectorAll('[data-kind]').forEach(button => button.addEventListener('click', () => {
+document.querySelectorAll('[data-kind]').forEach(button => button.addEventListener('click', async () => {
   if (state.busy || button.dataset.kind === state.kind || !canLeave()) return;
   state.kind = button.dataset.kind; state.dirty = false; state.selected = null; $('#selected-detail').hidden = true; $('#empty-detail').hidden = false;
   document.querySelectorAll('[data-kind]').forEach(b => b.setAttribute('aria-pressed', String(b === button)));
+  if (state.kind === 'wording' && !state.wordingLoaded) {
+    busy(true);
+    try { state.items.push(...(await api(`${base}/wording/items`)).items); state.wordingLoaded = true; say(''); }
+    catch (error) { say(error.message); }
+    finally { busy(false); }
+  }
   $('#search').value = ''; $('#state-filter').value = ''; renderList();
   const first = state.items.find(i => i.kind === state.kind); if (first) selectItem(first, true);
 }));
@@ -275,10 +314,11 @@ $('#load-history').addEventListener('click', () => history()); $('#more-history'
 $('#export').addEventListener('click', async () => {
   if (state.busy) return; busy(true); $('#export-state').textContent = '正在读取已提交审核表…';
   try {
-    const result = await api(`${base}/export`); const blob = new Blob([JSON.stringify(result, null, 2)], {type:'application/json'});
-    const url = URL.createObjectURL(blob); const link = node('a'); link.href = url; link.download = `ent-review-export-${new Date().toISOString().replace(/[:.]/g, '-')}.json`;
+    const wording = state.kind === 'wording';
+    const result = await api(`${base}${wording ? '/wording':''}/export`); const blob = new Blob([JSON.stringify(result, null, 2)], {type:'application/json'});
+    const url = URL.createObjectURL(blob); const link = node('a'); link.href = url; link.download = `ent-${wording ? 'wording-':''}review-export-${new Date().toISOString().replace(/[:.]/g, '-')}.json`;
     document.body.append(link); link.click(); link.remove(); setTimeout(() => URL.revokeObjectURL(url), 10000);
-    $('#export-state').textContent = result.validation.ready_for_manual_governance_binding ? '已导出。声明结构完整，可进入后续人工治理绑定；不是医学或上线合格证明。':'已导出。仍有待审或待修改项，尚不能进入后续治理绑定。';
+    $('#export-state').textContent = wording ? '已导出表述审核记录与历史（含草稿）。意见尚未应用，不代表医学审核通过。' : result.validation.ready_for_manual_governance_binding ? '已导出。声明结构完整，可进入后续人工治理绑定；不是医学或上线合格证明。':'已导出。仍有待审或待修改项，尚不能进入后续治理绑定。';
   } catch (error) { $('#export-state').textContent = error.message; }
   finally { busy(false); }
 });

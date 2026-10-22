@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "live_port": 8012,
+  "checks": [
+    "doctor_login_and_existing_cases",
+    "new_case_form_available",
+    "case_management_read_endpoint",
+    "name_filter"
+  ],
+  "errors": [],
+  "additional_generation_requests": 0,
+  "created_test_cases": 0
+}
