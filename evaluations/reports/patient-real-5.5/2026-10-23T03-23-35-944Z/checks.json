@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "checks": [
+    "general_saved_answer_summary_and_exact_quotes",
+    "changed_saved_answer_summary_and_exact_quotes",
+    "broad_saved_answer_summary_and_exact_quotes",
+    "changed_symptoms_new_version_same_symptoms_reused",
+    "refresh_and_relogin_preserve_results_without_resubmission"
+  ],
+  "errors": [],
+  "consultation_submissions": 0,
+  "total_saved_consultations": 3,
+  "resumed_readonly": true,
+  "synthetic_only": true,
+  "real_provider": true,
+  "medical_acceptance": false
+}

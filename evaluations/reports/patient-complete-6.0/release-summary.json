@@ -1,0 +1,82 @@
+{
+  "scope": "local adult ENT synthetic patient version",
+  "date": "2026-10-23",
+  "passed": true,
+  "backend": {
+    "name": "pytest",
+    "errors": "0",
+    "failures": "0",
+    "skipped": "0",
+    "tests": "740",
+    "time": "79.208",
+    "timestamp": "2026-10-23T14:27:12.463718+08:00",
+    "hostname": "DESKTOP-T469ISO"
+  },
+  "browser": {
+    "passed": true,
+    "rounds": 2,
+    "checks_per_round": 17,
+    "same_fingerprint": true,
+    "synthetic_fixture": true,
+    "provider_calls": 0
+  },
+  "browser_path": "evaluations\\reports\\patient-complete-6.0\\acceptance-20261023T060751Z",
+  "quality": [
+    {
+      "path": "evaluations\\reports\\patient-complete-6.0\\quality\\answer-20261023T060156Z",
+      "answered": 7,
+      "exact_quotes": true
+    },
+    {
+      "path": "evaluations\\reports\\patient-complete-6.0\\quality\\answer-20261023T060340Z",
+      "answered": 7,
+      "exact_quotes": true
+    }
+  ],
+  "knowledge_snapshot": "1d3af4ba-8a10-43fc-93e4-8e0ff1e1353c",
+  "live": {
+    "passed": true,
+    "synthetic_only": true,
+    "real_provider": true,
+    "consultation_submissions": 1,
+    "checks": [
+      "patient_ui_submit",
+      "saved_answer",
+      "configured_reranker_used",
+      "patient_summary_present",
+      "exact_source_quotes",
+      "refresh_recovers",
+      "relogin_recovers",
+      "no_duplicate_submission",
+      "readable_report_download",
+      "conversation_thread_available"
+    ],
+    "errors": [],
+    "clinical_acceptance": false
+  },
+  "preservation": {
+    "business_users": {
+      "original_rows": 12,
+      "unchanged": true
+    },
+    "business_patients": {
+      "original_rows": 11,
+      "unchanged": true
+    },
+    "patient_snapshots": {
+      "original_rows": 13,
+      "unchanged": true
+    },
+    "consultation_runs": {
+      "original_rows": 107,
+      "unchanged": true
+    },
+    "pending_jobs": 0,
+    "credential_recovery_pending": 0,
+    "schema_version": 6
+  },
+  "runtime_fingerprints_current": true,
+  "clinical_acceptance": false,
+  "instructions": "docs/患者端使用说明.md",
+  "delivery": "docs/患者端完整使用交付清单6.0.md"
+}

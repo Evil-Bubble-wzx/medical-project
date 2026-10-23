@@ -123,11 +123,13 @@ def test_schema_three_upgrade_preserves_accounts_and_patient_snapshots(request):
     b.store.save_snapshot(b.tokens["patient-a"], b.patient, DATA, 0)
     with b.store.connect() as db:
         db.execute("DROP TABLE doctor_cases")
+        db.execute("DROP TABLE IF EXISTS local_credential_updates")
+        db.execute("DROP TABLE IF EXISTS consultation_context")
         db.execute("PRAGMA user_version=3")
     reopened = BusinessStore(b.store.path, clock=b.store.clock)
     assert reopened.snapshots(b.tokens["patient-a"], b.patient)["snapshots"][0]["patient"] == DATA
     with reopened.connect() as db:
-        assert db.execute("PRAGMA user_version").fetchone()[0] == 4
+        assert db.execute("PRAGMA user_version").fetchone()[0] == 6
         assert db.execute("PRAGMA foreign_key_check").fetchall() == []
 
 

@@ -1,0 +1,34 @@
+{
+  "passed": true,
+  "cases": [
+    {
+      "case": "general",
+      "state": "completed",
+      "answer_status": "answered",
+      "snapshot_revision": 1,
+      "input_comparison_withheld": false
+    },
+    {
+      "case": "changed",
+      "state": "completed",
+      "answer_status": "answered",
+      "snapshot_revision": 2,
+      "input_comparison_withheld": true
+    },
+    {
+      "case": "broad",
+      "state": "completed",
+      "answer_status": "answered",
+      "snapshot_revision": 2,
+      "input_comparison_withheld": true
+    }
+  ],
+  "saved_consultations": 3,
+  "new_real_consultation_submissions": 3,
+  "read_only_resume_new_submissions": 0,
+  "active_qa_accounts_after_cleanup": 0,
+  "failure_browser_checks": 11,
+  "patient_backend_tests": 3,
+  "clinical_acceptance": false,
+  "limitation": "Broad input produced cited general knowledge; no live insufficient-evidence result was observed. Initial expectation was too narrow; existing results were inspected without rerunning generation."
+}

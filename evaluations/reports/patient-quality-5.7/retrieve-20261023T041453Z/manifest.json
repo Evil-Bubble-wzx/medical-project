@@ -1,0 +1,38 @@
+{
+  "cases": [
+    {
+      "id": "rhinitis",
+      "chief_complaint": "鼻痒、打喷嚏",
+      "question": "过敏性鼻炎资料描述了哪些常见症状？"
+    },
+    {
+      "id": "sinusitis",
+      "chief_complaint": "鼻塞、鼻涕多",
+      "question": "慢性鼻窦炎资料描述了哪些主要症状？"
+    },
+    {
+      "id": "tinnitus",
+      "chief_complaint": "耳鸣",
+      "question": "耳鸣资料中提到哪些声音感受？"
+    },
+    {
+      "id": "hearing",
+      "chief_complaint": "听不清",
+      "question": "成人听力损失资料提到哪些听觉困难？"
+    },
+    {
+      "id": "throat",
+      "chief_complaint": "声音嘶哑",
+      "question": "声嘶资料中描述了哪些声音变化？"
+    },
+    {
+      "id": "followup",
+      "chief_complaint": "声音嘶哑",
+      "question": "那这些变化在资料中是怎样描述的？"
+    }
+  ],
+  "synthetic_only": true,
+  "maximum_new_cases": 6,
+  "reranker": true,
+  "automatic_batch_retry": false
+}

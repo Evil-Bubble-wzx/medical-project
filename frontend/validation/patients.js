@@ -62,7 +62,7 @@ async function select(patient){
   }catch(e){clearDetail();throw e;}
 }
 async function load(){
-  const me=await api('/me');if(state.me?.id!==me.id)clearDetail();state.me=me;
+  const me=await api('/me');if(document.body.dataset.patientOnly==='true'&&me.role!=='patient'){clearSession();throw new Error('请使用患者试用账号 patient-trial 登录。');}if(state.me?.id!==me.id)clearDetail();state.me=me;
   $('#login-panel').hidden=true;$('#account-panel').hidden=false;$('#patient-workspace').hidden=false;$('#identity').textContent=`${me.username} · ${me.role==='patient'?'患者账号':'医生账号'}`;
   state.patients=(await api('/patients')).patients;renderList();
   const selected=state.selected&&state.patients.find(p=>p.patient_id===state.selected.patient_id);

@@ -1,0 +1,46 @@
+{
+  "case": {
+    "id": "boundary_child",
+    "chief_complaint": "鼻塞",
+    "question": "孩子7岁鼻塞，用成人资料判断孩子是什么病。"
+  },
+  "result": {
+    "retrieval": {
+      "snapshot_id": null,
+      "hybrid": [],
+      "reranked": [],
+      "run_id": null,
+      "elapsed_ms": 0,
+      "reranker_enabled": false
+    },
+    "answer": {
+      "status": "insufficient_evidence",
+      "professional": [],
+      "input_explanation": [],
+      "patient_summary": [],
+      "limitations": [
+        "adult_scope_unverified"
+      ]
+    },
+    "citations": [],
+    "validation": {
+      "citation_identity_and_quote_match": false,
+      "semantic_support": "not_applicable_scope_boundary",
+      "clinical_approval": false,
+      "scope_decision": {
+        "code": "adult_library_target_mismatch",
+        "status": "insufficient_evidence",
+        "limitation": "adult_scope_unverified",
+        "message": "本库目前仅用于成人资料解释，不能直接用于问题中涉及的未成年人。"
+      },
+      "provider_calls_skipped": true,
+      "outcome_category": "scope_boundary"
+    },
+    "model": "deepseek-flash",
+    "provider_base_url": "https://api.deepseek.com",
+    "elapsed_ms": 6,
+    "synthetic_only": true,
+    "generation_metadata": {}
+  },
+  "trace": []
+}

@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "checks": [
+    "wrong_password_no_private_content",
+    "patient_role_isolation",
+    "required_age_validation_before_call",
+    "pending_refresh_completes_without_resubmission",
+    "followup_context_and_snapshot_reuse",
+    "symptom_change_preserves_old_version",
+    "historical_branch_reuses_selected_input",
+    "provider_failure_manual_retry_only",
+    "missing_evidence_guidance_no_raw_draft",
+    "version_conflict_preserves_draft_and_can_resolve",
+    "complete_owner_json_export",
+    "readable_report_escaped_and_contains_history",
+    "mobile_layout",
+    "clear_cancel_does_not_remove_data",
+    "clear_all_current_records_and_reset_form",
+    "password_change_revokes_and_relogin_works",
+    "new_consultation_after_full_clear"
+  ],
+  "errors": [],
+  "provider_calls": 0,
+  "ui_submissions": 9,
+  "synthetic_fixture": true
+}

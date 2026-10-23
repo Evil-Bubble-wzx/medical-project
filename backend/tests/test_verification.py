@@ -126,6 +126,7 @@ def test_schema_diagnostics_never_include_values_or_unknown_field_names():
     "mode",
     [
         "success",
+        "conversation",
         "failure",
         "withdrawn",
         "invalid",
@@ -169,6 +170,8 @@ def test_workflow_second_call_and_failure_gate(tmp_path, monkeypatch, mode):
     class FakeGenerator:
         def generate(self, patient, evidence):
             generation_inputs.append(patient)
+            if mode == "conversation":
+                assert patient["conversation_history"][0]["question"] == "Previous question"
             candidate = answer()
             if mode == "schema_fails" or (mode == "schema_fixed" and len(generation_inputs) == 1):
                 candidate["limitations"] = ["unrecognized_limit"]
@@ -177,6 +180,8 @@ def test_workflow_second_call_and_failure_gate(tmp_path, monkeypatch, mode):
     class FakeVerifier:
         def verify(self, patient, draft, evidence):
             calls.append(1)
+            if mode == "conversation":
+                assert patient["conversation_history"][0]["question"] == "Previous question"
             if mode == "failure":
                 raise RuntimeError("provider_request_failed")
             review = judgment()
@@ -192,9 +197,14 @@ def test_workflow_second_call_and_failure_gate(tmp_path, monkeypatch, mode):
                 return "not JSON"
             return json.dumps(review)
 
+    payload = AnswerInput(age=35, chief_complaint="模拟", question="模拟问题", synthetic_only=True)
+    if mode == "conversation":
+        payload._conversation_history = [
+            {"id": "old", "question": "Previous question", "summary": "Old"}
+        ]
     result = answer_request(
         service,
-        AnswerInput(age=35, chief_complaint="模拟", question="模拟问题", synthetic_only=True),
+        payload,
         FakeGenerator(),
         FakeVerifier(),
     )
@@ -217,7 +227,7 @@ def test_workflow_second_call_and_failure_gate(tmp_path, monkeypatch, mode):
         assert generation_inputs[1]["revision_feedback"]["previous_draft"] == answer()
         assert result["validation"]["semantic_revision"]["attempts"] == 1
     assert not result["validation"]["clinical_approval"]
-    if mode in {"success", "revision_fixed", "schema_fixed", "invalid_fixed"}:
+    if mode in {"success", "conversation", "revision_fixed", "schema_fixed", "invalid_fixed"}:
         assert result["answer"]["status"] == "answered"
         assert result["validation"]["semantic_support"] == "model_judgment_only"
         if mode == "invalid_fixed":

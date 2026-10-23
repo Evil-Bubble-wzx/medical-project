@@ -1,0 +1,277 @@
+{
+  "consultation_id": "78d527f4-16f6-47a2-8338-32d719bb3db0",
+  "snapshot_id": "fb0cde3e-1971-4135-98a2-15cdb862692d",
+  "snapshot_revision": 2,
+  "patient": {
+    "age": 40,
+    "chief_complaint": "声音嘶哑",
+    "duration": "5天",
+    "history": "",
+    "pasted_text": ""
+  },
+  "question": "怎么办",
+  "state": "completed",
+  "stage": "completed",
+  "result": {
+    "answer": {
+      "status": "answered",
+      "professional": [
+        {
+          "text": "用声不当或用声过度可导致暂时性声音嘶哑。",
+          "supports": [
+            {
+              "evidence_id": "E2",
+              "quote": "Cheering at sporting events, speaking loudly in noisy situations, talking for too long without resting your voice, singing loudly, or speaking with a voice that's too high or too low can cause temporary hoarseness."
+            }
+          ],
+          "input_fields": []
+        },
+        {
+          "text": "休息、减少用声和多喝水应有助于缓解因用声不当或用声过度引起的声音嘶哑。",
+          "supports": [
+            {
+              "evidence_id": "E2",
+              "quote": "Resting, reducing voice use, and drinking lots of water should help relieve hoarseness from misuse or overuse."
+            }
+          ],
+          "input_fields": []
+        },
+        {
+          "text": "声音嘶哑可能有多种原因和相应的处理方式。",
+          "supports": [
+            {
+              "evidence_id": "E5",
+              "quote": "Hoarseness can have several possible causes and treatments, as described below:"
+            }
+          ],
+          "input_fields": []
+        }
+      ],
+      "input_explanation": [],
+      "patient_summary": [
+        {
+          "text": "说话方式不对或说话太多，可能让声音暂时变哑。",
+          "supports": [
+            {
+              "evidence_id": "E2",
+              "quote": "Cheering at sporting events, speaking loudly in noisy situations, talking for too long without resting your voice, singing loudly, or speaking with a voice that's too high or too low can cause temporary hoarseness."
+            }
+          ],
+          "input_fields": []
+        }
+      ],
+      "limitations": []
+    },
+    "citations": [
+      {
+        "evidence_id": "E1",
+        "version_id": "6c17226f-5c23-409e-b71d-2c7e29c607d1",
+        "chunk_id": "3b752d245c0875d969f16587",
+        "document_id": "nidcd-presbycusis",
+        "title": "Age-Related Hearing Loss (Presbycusis)",
+        "locator": "main/block[13]",
+        "source_url": "https://www.nidcd.nih.gov/health/age-related-hearing-loss",
+        "text": "Do you feel challenged by a hearing problem?",
+        "quote_options": [
+          {
+            "quote_id": "E1.Q1",
+            "text": "Do you feel challenged by a hearing problem?"
+          }
+        ],
+        "text_truncated": false,
+        "clinical_review": "pending"
+      },
+      {
+        "evidence_id": "E2",
+        "version_id": "11605fc0-df77-4d90-8883-3a19979c3c80",
+        "chunk_id": "b3a7516e456b04ea8b67393e",
+        "document_id": "nidcd-hoarseness",
+        "title": "Hoarseness",
+        "locator": "main/block[10]",
+        "source_url": "https://www.nidcd.nih.gov/health/hoarseness",
+        "text": "Misusing or overusing your voice. Cheering at sporting events, speaking loudly in noisy situations, talking for too long without resting your voice, singing loudly, or speaking with a voice that's too high or too low can cause temporary hoarseness. Resting, reducing voice use, and drinking lots of water should help relieve hoarseness from misuse or overuse. Sometimes people whose jobs depend on their voices—such as teachers, singers, or public speakers—develop hoarseness that won't go away. If you use your voice for a living and you regularly experience hoarseness, your doctor might suggest seeing a speech-language pathologist for voice therapy. In voice therapy, you'll be given vocal exercises and tips for avoiding hoarseness by changing the ways in which you use your voice.",
+        "quote_options": [
+          {
+            "quote_id": "E2.Q1",
+            "text": "Misusing or overusing your voice."
+          },
+          {
+            "quote_id": "E2.Q2",
+            "text": "Cheering at sporting events, speaking loudly in noisy situations, talking for too long without resting your voice, singing loudly, or speaking with a voice that's too high or too low can cause temporary hoarseness."
+          },
+          {
+            "quote_id": "E2.Q3",
+            "text": "Resting, reducing voice use, and drinking lots of water should help relieve hoarseness from misuse or overuse."
+          },
+          {
+            "quote_id": "E2.Q4",
+            "text": "Sometimes people whose jobs depend on their voices—such as teachers, singers, or public speakers—develop hoarseness that won't go away."
+          },
+          {
+            "quote_id": "E2.Q5",
+            "text": "If you use your voice for a living and you regularly experience hoarseness, your doctor might suggest seeing a speech-language pathologist for voice therapy."
+          },
+          {
+            "quote_id": "E2.Q6",
+            "text": "In voice therapy, you'll be given vocal exercises and tips for avoiding hoarseness by changing the ways in which you use your voice."
+          }
+        ],
+        "text_truncated": false,
+        "clinical_review": "pending"
+      },
+      {
+        "evidence_id": "E3",
+        "version_id": "11605fc0-df77-4d90-8883-3a19979c3c80",
+        "chunk_id": "b7c66fd4bd97a3fc3028156c",
+        "document_id": "nidcd-hoarseness",
+        "title": "Hoarseness",
+        "locator": "main/block[1]",
+        "source_url": "https://www.nidcd.nih.gov/health/hoarseness",
+        "text": "Structures involved in speech and voice production",
+        "quote_options": [
+          {
+            "quote_id": "E3.Q1",
+            "text": "Structures involved in speech and voice production"
+          }
+        ],
+        "text_truncated": false,
+        "clinical_review": "pending"
+      },
+      {
+        "evidence_id": "E4",
+        "version_id": "6c17226f-5c23-409e-b71d-2c7e29c607d1",
+        "chunk_id": "cea4a187bf18ea0daaacb29d",
+        "document_id": "nidcd-presbycusis",
+        "title": "Age-Related Hearing Loss (Presbycusis)",
+        "locator": "main/block[14]",
+        "source_url": "https://www.nidcd.nih.gov/health/age-related-hearing-loss",
+        "text": "Do you feel that any difficulty with your hearing limits or hampers your personal or social life?",
+        "quote_options": [
+          {
+            "quote_id": "E4.Q1",
+            "text": "Do you feel that any difficulty with your hearing limits or hampers your personal or social life?"
+          }
+        ],
+        "text_truncated": false,
+        "clinical_review": "pending"
+      },
+      {
+        "evidence_id": "E5",
+        "version_id": "11605fc0-df77-4d90-8883-3a19979c3c80",
+        "chunk_id": "dd91df5220a11c861d7948b4",
+        "document_id": "nidcd-hoarseness",
+        "title": "Hoarseness",
+        "locator": "main/block[8]",
+        "source_url": "https://www.nidcd.nih.gov/health/hoarseness",
+        "text": "Hoarseness can have several possible causes and treatments, as described below:",
+        "quote_options": [
+          {
+            "quote_id": "E5.Q1",
+            "text": "Hoarseness can have several possible causes and treatments, as described below:"
+          }
+        ],
+        "text_truncated": false,
+        "clinical_review": "pending"
+      },
+      {
+        "evidence_id": "E6",
+        "version_id": "6c17226f-5c23-409e-b71d-2c7e29c607d1",
+        "chunk_id": "c464aaddadb2ba45761fabaf",
+        "document_id": "nidcd-presbycusis",
+        "title": "Age-Related Hearing Loss (Presbycusis)",
+        "locator": "main/block[30]",
+        "source_url": "https://www.nidcd.nih.gov/health/age-related-hearing-loss",
+        "text": "Ask people to speak louder, but not shout. You may need to ask them to slow down when they speak, or to speak more clearly.",
+        "quote_options": [
+          {
+            "quote_id": "E6.Q1",
+            "text": "Ask people to speak louder, but not shout."
+          },
+          {
+            "quote_id": "E6.Q2",
+            "text": "You may need to ask them to slow down when they speak, or to speak more clearly."
+          }
+        ],
+        "text_truncated": false,
+        "clinical_review": "pending"
+      }
+    ],
+    "validation": {
+      "citation_identity_and_quote_match": true,
+      "semantic_support": "model_judgment_only",
+      "clinical_approval": false,
+      "input_comparison_withheld": {
+        "code": "input_comparison_classification_failed",
+        "count": 1
+      },
+      "scope_code": null,
+      "error_code": null,
+      "failure_stage": null,
+      "outcome_category": "answer_ready"
+    },
+    "model": "deepseek-flash",
+    "elapsed_ms": 7787,
+    "knowledge_snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+    "synthetic_only": true,
+    "runtime_components": {
+      "encoder_fingerprint": "a0bfaa9cc57ac19cba94fb00c0df2d1ca1a39815c61a9eb11273ced208323941",
+      "reranker_used": false
+    }
+  },
+  "error_code": null,
+  "created_at": 1792725834.3013432,
+  "provenance": {
+    "workflow": "existing_validated_answer_workflow",
+    "synthetic_only": true,
+    "external_generation_consent": true,
+    "files": {
+      "configs/generation.json": "4d0bf474a06106138ddeb9b0df97f54610b0dbc95546055d988d4e43b54f9a6f",
+      "configs/retrieval.json": "e34ab0df834d6ab3c0489bd423dfe3207fddac178033bcf4eae9a511e5fb746c",
+      "requirements.lock": "762a51e6bb0b8d6d313e09ae50502e84c290405a2f6f48bbf581274bcfc1056d",
+      "backend/app/application/consultations.py": "6fd944fc172b3a33d61e98555bc05f3a49add0e923298e4d15f9cdb6b056ecdd",
+      "backend/app/application/business.py": "4483ca3b04591a8f7a5d99de258942db9a239b8b82ada68bc5756d94d32b5896",
+      "backend/app/application/consultation_queue.py": "46426aa529502634679c25262cd025b2168d237d85d947aa86f29a842c2b1b8d",
+      "backend/app/retrieval/__init__.py": "6d6ecdf592e0d1d367eceda55ca170152259888b1fb9959697ef03f6c78aae48",
+      "backend/app/retrieval/answer_workflow.py": "390fd69dd6e7b28e2b9164ce77d51c0161cb7f5a70e7a202410f24d0aadc56a6",
+      "backend/app/retrieval/atomization.py": "c14695f3844970f132dc09f402612d98c03ae2e4f5770ed0aaaa0cfaa50b7468",
+      "backend/app/retrieval/audit_service.py": "0a736612b23f2e7246e3371f504000f2baa7e6c4ae9e9f5f439425db8b6ea668",
+      "backend/app/retrieval/benchmark.py": "31ec66a0030b0bcc147a420ab192c29b88ab7eb1eeddba80fa48c4cceeaf866e",
+      "backend/app/retrieval/claim_review.py": "5979a73c3ed00810c3c046f9e0418275cee0d9c25305d2d45a07728df966733e",
+      "backend/app/retrieval/cli.py": "aa115f0f621bc576a7774c5b66bb1626d3239c35a25c7573de0ae4928e565018",
+      "backend/app/retrieval/corpus.py": "724c3fd614c5737b3e557fb9749ffa46fdbec6d6b8cf62320e9775cda43a407f",
+      "backend/app/retrieval/dataset.py": "37782fbf793e9770674ed07bc9a672aafdb4f8ee1d20def7621f801ff3910eb0",
+      "backend/app/retrieval/development_service.py": "60a4a0be429b1d9a3967ee2d595eb9a13ee65c04444cf358501cb70b829d2e77",
+      "backend/app/retrieval/document_preview.py": "391b7fe4c1591b6f5ef350a597e2dd69eb3f6cf6369023ca4685e0b9d52fc9c1",
+      "backend/app/retrieval/embedding.py": "ee91d57f2764d63ab410bf770c3fe7dba01c2ad7cdb64a46052a4eb8630e1b96",
+      "backend/app/retrieval/engine.py": "9e55f242bfa3c4babf89fe90241bc3d27ec0c9aff2ed688937926c9d834f7552",
+      "backend/app/retrieval/evaluation_manifest.py": "135987fdcef635ec3fd74261fe3da41f5a245bb89379ad79c7322a509594e313",
+      "backend/app/retrieval/generation.py": "161d8433b9bd3691afbdde67ac3106d9c70a386a9378795c109831a51814d16e",
+      "backend/app/retrieval/input_anchor_report.py": "ffd880770227edb926f9293eae6eef2b9e4a6d81771c3197f1bc58d36af4d78b",
+      "backend/app/retrieval/input_fidelity.py": "fd658124743cb44f6ebdffa7a588d3163fb297a7765f2f88679427ffda4d328c",
+      "backend/app/retrieval/label_sensitivity.py": "3f66bda1adc5f366c5bb6c23d9585b1bd4b94b627a4d36887ac7181b06511055",
+      "backend/app/retrieval/local_import.py": "0fd55a6d27fe04fec780d9ccc4a607d80a2d959e364e3aaed43cbf59efe963bb",
+      "backend/app/retrieval/onnx_worker.py": "f5944dacf3f099ace62bf5197d85449a9a59a946813f3c8cead49e57c4bd2f0b",
+      "backend/app/retrieval/outcomes.py": "0090b7950b376be13d93d0bd48a9899084628edec56d1584fb2b96c3a021659e",
+      "backend/app/retrieval/patient_queries.py": "a91ca352be4b981e76ed32d46fa35590d1815ff2a8dca627e45133dba0bb3260",
+      "backend/app/retrieval/patient_summary.py": "9d69efab8b7429203c75f4b4d08784a997db78196fc7be365c2b016dd8120934",
+      "backend/app/retrieval/quote_catalog.py": "e9acace530d5e6c25b400ec651e39d51b949543e882fe6510e1f3d63e7340066",
+      "backend/app/retrieval/quote_repair.py": "97cb22ae11a2b34b44a0c155cc8d5e9493e3e8cf47d4fb7dfa3f38c3474d54a5",
+      "backend/app/retrieval/rerank_worker.py": "c4e386667013ad6332e6bed7cc81797c403a2db384134878c970368624e7e78f",
+      "backend/app/retrieval/reranking.py": "a4b47895a885bf0a6955013e15ad6fcb90ea8c0a49d1add681cd211044b2c548",
+      "backend/app/retrieval/review.py": "2837a6a17a870640d62ace7e60160ce29f7967bc2d582e1165acbfaf0805743e",
+      "backend/app/retrieval/review_archives.py": "72da1f564f2d5d0763e2b7146f30d2456ecbe335bb82c4044424f965218711c8",
+      "backend/app/retrieval/review_import.py": "c43d37178dcac75e1e293b79a66460d97eb6a945b4ba22b6aa8f03bb3622fee8",
+      "backend/app/retrieval/scope_guard.py": "e13b6c11da731949f8c63ebd87d983386f0d7c640972514f62d14a511d99846f",
+      "backend/app/retrieval/stratified_report.py": "72c69a6f2ece1ce4c7a81f19a831104474b2911f454fad405134eef1f85ac94f",
+      "backend/app/retrieval/summary_core.py": "b3a8bc6a365b2ef1f3dcde4cff52e9d72e0ef5890a3e8522a920a2f86a13a595",
+      "backend/app/retrieval/text_quality.py": "2c9bff7062fbbfe14e1bce907c248eba6befd0df81efaf9fd68f008ae92b0822",
+      "backend/app/retrieval/validation_service.py": "93874fac707de8e41d6d717a59126f49e1649c7cde6cf50281060094fb7c8f6b",
+      "backend/app/retrieval/verification.py": "6a6e465bd225a13876300615ad7e9569fd435f80fd812d526546412db84ffa8d",
+      "backend/app/retrieval/wording_review.py": "87743581d8aa8c876eecb646f5cdec166e7d1cbf2b25a65bcdceb70a98bed187",
+      "backend/app/retrieval/workflow.py": "550d8b25728313d295c12e61de5a49e3c45d0167afab291629971ebb109b6a1d"
+    }
+  },
+  "synthetic_only": true,
+  "current_comparison_issues": [],
+  "historical_evidence_currently_available": true
+}

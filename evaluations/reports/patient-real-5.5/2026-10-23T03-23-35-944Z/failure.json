@@ -1,0 +1,9 @@
+{
+  "error": "{\"citation_identity_and_quote_match\":true,\"semantic_support\":\"model_judgment_only\",\"clinical_approval\":false,\"input_comparison_withheld\":{\"code\":\"input_comparison_classification_failed\",\"count\":1},\"scope_code\":null,\"error_code\":null,\"failure_stage\":null,\"outcome_category\":\"answer_ready\"}\n+ actual - expected\n\n+ 'answered'\n- 'insufficient_evidence'\n",
+  "checks": [
+    "general_saved_answer_summary_and_exact_quotes",
+    "changed_saved_answer_summary_and_exact_quotes"
+  ],
+  "submissions": 3,
+  "errors": []
+}

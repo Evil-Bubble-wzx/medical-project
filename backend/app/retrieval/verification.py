@@ -64,6 +64,7 @@ supported=true时reason只能supported；否则不能supported。
 医学项supported=true时checked_quote_indexes必须列出完整支持该项全部内容的本项supports下标（从0开始），不得为空或越界；patient_input原话记录必须为[]。
 若patient.answer.patient_summary为空，这是先核验专业知识的阶段，只覆盖当前实际存在的项目，不为尚未生成的摘要编造ID；完整专业解释可回应资料问题。
 retained_answer_addresses_question表示只保留支持的句子后是否仍直接回答原问题，不能用空泛介绍代替。
+input.conversation_history仅用于理解追问指代，不是医学证据或当前患者事实。根据最近问答理解“这些、那、刚才”等指代后判断是否回应问题；支持医学句子的依据仍只能是本轮附带的引文，不能用历史回答补足引文缺失，也不能把历史问题当成患者已患疾病。
 该字段检查是否回应资料问题，不要求个体确诊或新增病因；不能因为正确拒绝个体诊断而判false。
 原话完整性由input_anchors核对；问题中的“请引用原话/不要补写”等操作要求不等于新增医学问题，但仍必须检查text是否忠实输入。
 草稿为answered时refusal_assessment只能not_applicable。草稿拒答时claims为空、retained_answer_addresses_question=false；

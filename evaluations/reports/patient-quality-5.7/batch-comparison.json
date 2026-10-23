@@ -1,0 +1,110 @@
+[
+  {
+    "folder": "answer-20261023T041103Z",
+    "cases": [
+      {
+        "case": "followup",
+        "status": "insufficient_evidence",
+        "exact_quote_check": null,
+        "elapsed_ms": 4323,
+        "outcome_category": "evidence_insufficient",
+        "clinical_approval": false
+      },
+      {
+        "case": "hearing",
+        "status": "insufficient_evidence",
+        "exact_quote_check": null,
+        "elapsed_ms": 13342,
+        "outcome_category": "content_rejected",
+        "clinical_approval": false
+      },
+      {
+        "case": "rhinitis",
+        "status": "insufficient_evidence",
+        "exact_quote_check": null,
+        "elapsed_ms": 12514,
+        "outcome_category": "content_rejected",
+        "clinical_approval": false
+      },
+      {
+        "case": "sinusitis",
+        "status": "answered",
+        "exact_quote_check": true,
+        "elapsed_ms": 14616,
+        "outcome_category": "answer_ready",
+        "clinical_approval": false
+      },
+      {
+        "case": "throat",
+        "status": "validation_failed",
+        "exact_quote_check": null,
+        "elapsed_ms": 12560,
+        "outcome_category": "content_rejected",
+        "clinical_approval": false
+      },
+      {
+        "case": "tinnitus",
+        "status": "validation_failed",
+        "exact_quote_check": null,
+        "elapsed_ms": 6054,
+        "outcome_category": "verification_failed",
+        "clinical_approval": false
+      }
+    ],
+    "answered": 1
+  },
+  {
+    "folder": "answer-20261023T041631Z",
+    "cases": [
+      {
+        "case": "followup",
+        "status": "answered",
+        "exact_quote_check": true,
+        "elapsed_ms": 10779,
+        "outcome_category": "answer_ready",
+        "clinical_approval": false
+      },
+      {
+        "case": "hearing",
+        "status": "answered",
+        "exact_quote_check": true,
+        "elapsed_ms": 9803,
+        "outcome_category": "answer_ready",
+        "clinical_approval": false
+      },
+      {
+        "case": "rhinitis",
+        "status": "answered",
+        "exact_quote_check": true,
+        "elapsed_ms": 12460,
+        "outcome_category": "answer_ready",
+        "clinical_approval": false
+      },
+      {
+        "case": "sinusitis",
+        "status": "answered",
+        "exact_quote_check": true,
+        "elapsed_ms": 11860,
+        "outcome_category": "answer_ready",
+        "clinical_approval": false
+      },
+      {
+        "case": "throat",
+        "status": "answered",
+        "exact_quote_check": true,
+        "elapsed_ms": 11241,
+        "outcome_category": "answer_ready",
+        "clinical_approval": false
+      },
+      {
+        "case": "tinnitus",
+        "status": "answered",
+        "exact_quote_check": true,
+        "elapsed_ms": 11369,
+        "outcome_category": "answer_ready",
+        "clinical_approval": false
+      }
+    ],
+    "answered": 6
+  }
+]

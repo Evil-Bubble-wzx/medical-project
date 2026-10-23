@@ -1,0 +1,34 @@
+{
+  "fixed_cases": 6,
+  "baseline_answered": 1,
+  "revised_answered": 6,
+  "all_revised_quotes_exact": true,
+  "randomized_comparison": false,
+  "clinical_acceptance": false,
+  "full_backend_tests": 725,
+  "ui_render_checks": 6,
+  "real_saved_patient_checks": 8,
+  "new_synthetic_generation_cases": 14,
+  "provider_http_requests": "not_equal_to_case_count_due_to_generation_and_verification_stages",
+  "existing_data": {
+    "business_users": {
+      "existing_rows": 11,
+      "changed_rows": 0
+    },
+    "business_patients": {
+      "existing_rows": 10,
+      "changed_rows": 0
+    },
+    "patient_snapshots": {
+      "existing_rows": 12,
+      "changed_rows": 0
+    },
+    "consultation_runs": {
+      "existing_rows": 106,
+      "changed_rows": 0
+    }
+  },
+  "active_qa_accounts": 0,
+  "patient_consultation_reranker": true,
+  "unresolved": "Small reused engineering sample; not evidence of clinical quality or long-term stability."
+}

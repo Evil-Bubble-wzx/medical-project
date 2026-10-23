@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "checks": [
+    "review_original_input",
+    "suggestion_only_drafts",
+    "fresh_consent_required",
+    "scope_boundary_not_retried",
+    "validation_failure_distinguished"
+  ],
+  "posts": [],
+  "errors": [],
+  "synthetic_render_fixture": true
+}

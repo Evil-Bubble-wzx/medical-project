@@ -1,0 +1,16 @@
+{
+  "frontend/validation/patient-trial.js": "a7e06750ea1e0e322105a6515e53d211ad7935911d38a2a3aced0c54c0ca3714",
+  "frontend/validation/patient.html": "a3773991c2958f0c7e8713c124281e1f2763af43ff709eb058f9cb0fed21abf0",
+  "frontend/validation/patients.js": "6f5f809b86b971b93a9046e179926c399484ba63fcb863e705afb04b1be6d3e9",
+  "backend/app/application/patient_tools.py": "554b49a03df119afeb23e60b6af050a732f8853a101c7a24db4d4a0004b9fd2e",
+  "backend/app/application/patient_credentials.py": "8ac6dd7fe075e605ecf3334126cad22cfe76080d1d532069621badfa51239971",
+  "backend/app/application/business.py": "967bfcaaebac3565014fd1b132a5a3fc94662e5e28a005db1ab1d4cd013cd917",
+  "backend/app/api/business.py": "cbd0fa23fd81aab340ade98b1d38e2d76cbe271aa4854cb6742d4f13f31e3023",
+  "configs/retrieval.json": "3c24ec4fad6b363a0fac337877a5f62b8e38a0d160696d22d55e76f8c06d19f6",
+  "configs/generation.json": "4d0bf474a06106138ddeb9b0df97f54610b0dbc95546055d988d4e43b54f9a6f",
+  "backend/app/retrieval/patient_queries.py": "82281d0bb4122d5c6acd0da9cc1c227d9dffc98538e6613a8d926430b82bc85f",
+  "backend/app/retrieval/answer_workflow.py": "911b989329b70ab7335a87f169ac9d959f133c084f6c9b5268c58d2b20db8675",
+  "backend/app/retrieval/generation.py": "35606332d1636fa427fa9d17a1725625cfc4d194d8e817413c14191e8212f405",
+  "backend/app/retrieval/verification.py": "93a10428fd138f87a4916e39e49079fc9a88217c0d5b2d43350dcec8d26ca650",
+  "backend/app/retrieval/summary_core.py": "b92c72c2f2d7d84dfcb0d399caa380071b3651735c460cf9cff2499a34b27745"
+}

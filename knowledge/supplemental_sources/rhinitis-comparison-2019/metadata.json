@@ -1,0 +1,160 @@
+{
+  "id": "31752308",
+  "source": "MED",
+  "pmid": "31752308",
+  "pmcid": "PMC6912750",
+  "fullTextIdList": {
+    "fullTextId": [
+      "PMC6912750"
+    ]
+  },
+  "doi": "10.3390/jcm8112019",
+  "title": "Allergic and Mixed Rhinitis: Diagnosis and Natural Evolution.",
+  "authorString": "Greiwe JC, Bernstein JA.",
+  "authorList": {
+    "author": [
+      {
+        "fullName": "Greiwe JC",
+        "lastName": "Greiwe",
+        "firstName": "Justin C",
+        "initials": "JC",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Bernstein Allergy Group 8444 Winton Road, Cincinnati, OH 45231, USA."
+            },
+            {
+              "affiliation": "Department of Internal Medicine, Division of Immunology/Allergy Section, The University of Cincinnati College of Medicine, 231 Albert Sabin Way, ML#563, Cincinnati, OH 45267-0563, USA."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Bernstein JA",
+        "lastName": "Bernstein",
+        "firstName": "Jonathan A",
+        "initials": "JA",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Bernstein Allergy Group 8444 Winton Road, Cincinnati, OH 45231, USA."
+            },
+            {
+              "affiliation": "Department of Internal Medicine, Division of Immunology/Allergy Section, The University of Cincinnati College of Medicine, 231 Albert Sabin Way, ML#563, Cincinnati, OH 45267-0563, USA."
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "dataLinksTagsList": {
+    "dataLinkstag": [
+      "altmetrics",
+      "supporting_data"
+    ]
+  },
+  "journalInfo": {
+    "issue": "11",
+    "volume": "8",
+    "journalIssueId": 2877544,
+    "dateOfPublication": "2019 Nov",
+    "monthOfPublication": 11,
+    "yearOfPublication": 2019,
+    "journal": {
+      "medlineAbbreviation": "J Clin Med",
+      "title": "Journal of clinical medicine",
+      "essn": "2077-0383",
+      "issn": "2077-0383",
+      "nlmid": "101606588",
+      "isoabbreviation": "J Clin Med"
+    },
+    "printPublicationDate": "2019-11-01"
+  },
+  "pubYear": "2019",
+  "pageInfo": "E2019",
+  "abstractText": "Chronic rhinitis (CR) is divided into two main categories: allergic rhinitis (AR) and nonallergic rhinitis (NAR). These conditions are more recognizable to an experienced clinician, as they can be more clearly demarcated diagnostically. However, an additional 30% to 50% of patients with CR might have an overlap of NAR and AR, referred to as mixed rhinitis (MR). Progress in elucidating the pathophysiologic mechanisms behind MR and NAR has been made in the past several years, and there are now several guidelines published to assist the clinician in accurately diagnosing AR, NAR, and MR. Clinical history and subjective symptoms can provide clues for differentiating AR from MR and NAR, but allergy testing is recommended to confirm these conditions. Progress in accurately diagnosing patients with CR will be made as studies incorporate subjective (i.e., validated questionnaires such as the irritant index questionnaire (IIQ), medication responsiveness, and quality-of-life tools) and objective (i.e., nasal cytologic testing, nasal provocation, and biomarkers) methods characterizing rhinitis subtypes.",
+  "affiliation": "Bernstein Allergy Group 8444 Winton Road, Cincinnati, OH 45231, USA.",
+  "publicationStatus": "epublish",
+  "language": "eng",
+  "pubModel": "Electronic",
+  "pubTypeList": {
+    "pubType": [
+      "review-article",
+      "Review",
+      "Journal Article"
+    ]
+  },
+  "keywordList": {
+    "keyword": [
+      "Diagnosis",
+      "Quality of life",
+      "allergic rhinitis",
+      "Guidelines",
+      "Allergy Testing",
+      "Mixed Rhinitis",
+      "Medication Responsiveness",
+      "Rhinitis Subtypes"
+    ]
+  },
+  "fullTextUrlList": {
+    "fullTextUrl": [
+      {
+        "availability": "Open access",
+        "availabilityCode": "OA",
+        "documentStyle": "pdf",
+        "site": "Unpaywall",
+        "url": "https://www.mdpi.com/2077-0383/8/11/2019/pdf?version=1574149293"
+      },
+      {
+        "availability": "Subscription required",
+        "availabilityCode": "S",
+        "documentStyle": "doi",
+        "site": "DOI",
+        "url": "https://doi.org/10.3390/jcm8112019"
+      },
+      {
+        "availability": "Open access",
+        "availabilityCode": "OA",
+        "documentStyle": "html",
+        "site": "Europe_PMC",
+        "url": "https://europepmc.org/articles/PMC6912750"
+      },
+      {
+        "availability": "Open access",
+        "availabilityCode": "OA",
+        "documentStyle": "pdf",
+        "site": "Europe_PMC",
+        "url": "https://europepmc.org/articles/PMC6912750?pdf=render"
+      }
+    ]
+  },
+  "isOpenAccess": "Y",
+  "inEPMC": "Y",
+  "inPMC": "Y",
+  "citedByCount": 21,
+  "hasReferences": "Y",
+  "hasTextMinedTerms": "Y",
+  "hasDbCrossReferences": "N",
+  "hasPDF": "Y",
+  "hasBook": "N",
+  "hasSuppl": "N",
+  "hasLabsLinks": "Y",
+  "hasData": "Y",
+  "license": "cc by",
+  "authMan": "N",
+  "epmcAuthMan": "N",
+  "nihAuthMan": "N",
+  "hasTMAccessionNumbers": "Y",
+  "tmAccessionTypeList": {
+    "accessionType": [
+      "doi"
+    ]
+  },
+  "dateOfCreation": "2019-11-23",
+  "dateOfRevision": "2020-09-28",
+  "electronicPublicationDate": "2019-11-19",
+  "firstPublicationDate": "2019-11-19",
+  "firstIndexDate": "2019-11-22",
+  "fullTextReceivedDate": "2025-02-03",
+  "hasEvaluations": "N"
+}

@@ -1,0 +1,26 @@
+{
+  "synthetic_only": true,
+  "cases": [
+    {
+      "id": "general",
+      "duration": "3天",
+      "question": "声嘶资料中描述了哪些声音变化？",
+      "expect": "answered"
+    },
+    {
+      "id": "changed",
+      "duration": "5天",
+      "question": "声音嘶哑资料如何描述声音变化？",
+      "expect": "answered"
+    },
+    {
+      "id": "broad",
+      "duration": "5天",
+      "question": "怎么办",
+      "expect": "insufficient_evidence"
+    }
+  ],
+  "maximum_submissions": 3,
+  "automatic_retries": false,
+  "medical_acceptance": false
+}

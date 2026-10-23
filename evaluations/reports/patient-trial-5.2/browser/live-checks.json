@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "checks": [
+    "independent_patient_login",
+    "one_owned_profile",
+    "six_doctor_cases_denied",
+    "patient_form_available"
+  ],
+  "errors": [],
+  "additional_generation_requests": 0
+}

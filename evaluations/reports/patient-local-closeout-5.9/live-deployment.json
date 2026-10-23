@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "readonly_routes_checked": true,
+  "existing_data": {
+    "business_users": {
+      "prior_rows": 12,
+      "changed": 0
+    },
+    "business_patients": {
+      "prior_rows": 11,
+      "changed": 0
+    },
+    "patient_snapshots": {
+      "prior_rows": 13,
+      "changed": 0
+    },
+    "consultation_runs": {
+      "prior_rows": 107,
+      "changed": 0
+    }
+  },
+  "real_patient_credentials_changed": false,
+  "real_patient_records_deleted": false
+}

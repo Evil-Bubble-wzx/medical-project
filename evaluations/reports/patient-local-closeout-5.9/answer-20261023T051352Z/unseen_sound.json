@@ -1,0 +1,1190 @@
+{
+  "case": {
+    "id": "unseen_sound",
+    "chief_complaint": "耳内有声音",
+    "question": "耳鸣资料如何描述声音的响度与持续方式？"
+  },
+  "result": {
+    "retrieval": {
+      "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+      "query_policy": "dual_question_first",
+      "hybrid": [
+        {
+          "end": 40,
+          "id": "ddad9daea5a59949555f3a4b",
+          "locator": "body/sec[8]/sec[3]/list[1]/list-item[7]/p[1]",
+          "population_status": "adult_dev_candidate",
+          "section": "5. Appendix / 5.3 Appendix 3: Medical history questions and clinical severity classification",
+          "start": 0,
+          "text": "Does your tinnitus drown out all sounds?",
+          "chunk_id": "ddad9daea5a59949555f3a4b",
+          "version_id": "d5005279-1bad-491f-8122-a2d05e558146",
+          "document_id": "tinnitus-s3-2022",
+          "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+          "title": "S3 Guideline: Chronic Tinnitus",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9581878/",
+          "topics": [
+            "tinnitus"
+          ],
+          "clinical_review": "pending",
+          "production_eligible": false,
+          "score": 0.04918032786885246,
+          "applicability_warning": null
+        },
+        {
+          "end": 58,
+          "id": "6c2ee97634b254388d56aed8",
+          "locator": "body/sec[8]/sec[3]/list[1]/list-item[9]/p[1]",
+          "population_status": "adult_dev_candidate",
+          "section": "5. Appendix / 5.3 Appendix 3: Medical history questions and clinical severity classification",
+          "start": 0,
+          "text": "Does normal environmental noise make your tinnitus louder?",
+          "chunk_id": "6c2ee97634b254388d56aed8",
+          "version_id": "d5005279-1bad-491f-8122-a2d05e558146",
+          "document_id": "tinnitus-s3-2022",
+          "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+          "title": "S3 Guideline: Chronic Tinnitus",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9581878/",
+          "topics": [
+            "tinnitus"
+          ],
+          "clinical_review": "pending",
+          "production_eligible": false,
+          "score": 0.04788306451612903,
+          "applicability_warning": null
+        },
+        {
+          "end": 362,
+          "id": "e6228c005748eba7217465a8",
+          "locator": "main/block[6]",
+          "population_status": "adult_dev_candidate",
+          "section": "What are the symptoms of tinnitus?",
+          "start": 0,
+          "text": "Most cases of tinnitus are subjective, meaning that only you can hear the sounds. In rare cases, the sound pulsates rhythmically, often in time to your heartbeat. In these cases, a doctor may be able to hear the sounds with a stethoscope and, if so, it is considered to be objective tinnitus. Often, objective tinnitus has an identifiable cause and is treatable.",
+          "chunk_id": "e6228c005748eba7217465a8",
+          "document_id": "nidcd-tinnitus",
+          "version_id": "9c16e968-6f17-438f-8ec9-8682ab0882b6",
+          "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+          "title": "Tinnitus",
+          "title_zh": "NIH/NIDCD 耳鸣患者教育",
+          "source_url": "https://www.nidcd.nih.gov/health/tinnitus",
+          "publication_date": "May 1, 2023",
+          "license": "NIDCD-public-domain-unless-noted",
+          "state": "draft",
+          "clinical_review": "pending",
+          "production_eligible": false,
+          "bm25": -5.5910506742898045,
+          "score": 0.047619047619047616,
+          "applicability_warning": null
+        },
+        {
+          "end": 53,
+          "id": "9e440ee33778c2ce09a7c979",
+          "locator": "body/sec[8]/sec[3]/list[1]/list-item[6]/p[1]",
+          "population_status": "adult_dev_candidate",
+          "section": "5. Appendix / 5.3 Appendix 3: Medical history questions and clinical severity classification",
+          "start": 0,
+          "text": "Can the tinnitus be masked by ordinary ambient noise?",
+          "chunk_id": "9e440ee33778c2ce09a7c979",
+          "version_id": "d5005279-1bad-491f-8122-a2d05e558146",
+          "document_id": "tinnitus-s3-2022",
+          "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+          "title": "S3 Guideline: Chronic Tinnitus",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9581878/",
+          "topics": [
+            "tinnitus"
+          ],
+          "clinical_review": "pending",
+          "production_eligible": false,
+          "score": 0.047379032258064516,
+          "applicability_warning": null
+        },
+        {
+          "end": 76,
+          "id": "018c9375444ca62b9c3ae74f",
+          "locator": "body/sec[8]/sec[2]/list[1]/list-item[1]/p[1]",
+          "population_status": "adult_dev_candidate",
+          "section": "5. Appendix / 5.2 Appendix 2: Counselling for Tinnitus",
+          "start": 0,
+          "text": "There are phantom sounds that others, including the doctor, do not perceive.",
+          "chunk_id": "018c9375444ca62b9c3ae74f",
+          "document_id": "tinnitus-s3-2022",
+          "version_id": "d5005279-1bad-491f-8122-a2d05e558146",
+          "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+          "title": "S3 Guideline: Chronic Tinnitus",
+          "title_zh": "慢性耳鸣 S3 指南（德国学会，2022）",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9581878/",
+          "publication_date": "2022-10-13",
+          "license": "CC-BY-4.0",
+          "state": "draft",
+          "clinical_review": "pending",
+          "production_eligible": false,
+          "bm25": -5.526249587634942,
+          "score": 0.046153846153846156,
+          "applicability_warning": null
+        },
+        {
+          "end": 447,
+          "id": "622c2d7f1f291b2600f48271",
+          "locator": "body/sec[5]/sec[2]/p[1]",
+          "population_status": "adult_dev_candidate",
+          "section": "2 Pathophysiological aspects and classification of chronic tinnitus / 2.1 Objective tinnitus/subjective tinnitus",
+          "start": 0,
+          "text": "The term ‘objective tinnitus’ means that there is an endogenous sound source in or near the ear whose sound emissions are heard (e.g. vascular or muscular sounds). In the strict sense, these are perceived sounds of one’s own body. In the case of ‘subjective tinnitus’, neither an external nor an endogenous sound source is present. Rather, subjective tinnitus is caused by abnormal activity in the inner ear and/or the central nervous system [40].",
+          "chunk_id": "622c2d7f1f291b2600f48271",
+          "document_id": "tinnitus-s3-2022",
+          "version_id": "d5005279-1bad-491f-8122-a2d05e558146",
+          "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+          "title": "S3 Guideline: Chronic Tinnitus",
+          "title_zh": "慢性耳鸣 S3 指南（德国学会，2022）",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9581878/",
+          "publication_date": "2022-10-13",
+          "license": "CC-BY-4.0",
+          "state": "draft",
+          "clinical_review": "pending",
+          "production_eligible": false,
+          "bm25": -5.229348527239874,
+          "score": 0.045008912655971484,
+          "applicability_warning": null
+        },
+        {
+          "end": 1612,
+          "id": "1f8c891eed87015442969920",
+          "locator": "main/block[26]",
+          "population_status": "adult_dev_candidate",
+          "section": "What treatments can help tinnitus?",
+          "start": 0,
+          "text": "Sound therapies. Sound therapies are based partly on the view that tinnitus stems from changes in neural circuits in the brain brought on by hearing loss. Some evidence suggests that exposure to sound can reverse some of these neural changes and help silence tinnitus. Sound therapy may also work by masking the tinnitus sounds, helping you grow accustomed to them, or distracting you. Several types of devices are used in sound therapy. They include the following: Tabletop or smartphone sound generators are typically used as an aid for relaxation or sleep. Placed near your bed, you can program a generator or set a smartphone app to play pleasant sounds such as waves, waterfalls, rain, or the sounds of a summer night. You may also use other sound generators, such as a radio or a household fan. If your tinnitus is mild, this might be all that you need to help you fall asleep. Hearing aids are one of the main treatment options for people with tinnitus who have hearing loss. They amplify external noises, allowing you to better engage with the world, while also making your tinnitus less noticeable. Wearable sound generators are small electronic devices that fit in the ear much like hearing aids and emit soft, pleasant sounds. Because they are portable, these devices can provide continuous relief from tinnitus throughout the day. Smartphone apps may also be used to generate these sounds. Combination devices, which fit into the ear like hearing aids, provide sound amplification and sound generation in one device. These devices are another option for treating tinnitus in people with hearing loss.",
+          "chunk_id": "1f8c891eed87015442969920",
+          "document_id": "nidcd-tinnitus",
+          "version_id": "9c16e968-6f17-438f-8ec9-8682ab0882b6",
+          "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+          "title": "Tinnitus",
+          "title_zh": "NIH/NIDCD 耳鸣患者教育",
+          "source_url": "https://www.nidcd.nih.gov/health/tinnitus",
+          "publication_date": "May 1, 2023",
+          "license": "NIDCD-public-domain-unless-noted",
+          "state": "draft",
+          "clinical_review": "pending",
+          "production_eligible": false,
+          "bm25": -5.106467964325879,
+          "score": 0.04390451832907076,
+          "applicability_warning": null
+        },
+        {
+          "end": 87,
+          "id": "77d468fc1ff4a8706348abde",
+          "locator": "body/sec[8]/sec[3]/list[1]/list-item[8]/p[1]",
+          "population_status": "adult_dev_candidate",
+          "section": "5. Appendix / 5.3 Appendix 3: Medical history questions and clinical severity classification",
+          "start": 0,
+          "text": "Is the volume of your tinnitus always the same or does it fluctuate throughout the day?",
+          "chunk_id": "77d468fc1ff4a8706348abde",
+          "version_id": "d5005279-1bad-491f-8122-a2d05e558146",
+          "document_id": "tinnitus-s3-2022",
+          "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+          "title": "S3 Guideline: Chronic Tinnitus",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9581878/",
+          "topics": [
+            "tinnitus"
+          ],
+          "clinical_review": "pending",
+          "production_eligible": false,
+          "score": 0.0437396351575456,
+          "applicability_warning": null
+        },
+        {
+          "end": 41,
+          "id": "789a95b61fbb441bb70703dc",
+          "locator": "body/sec[8]/sec[3]/list[1]/list-item[5]/p[1]",
+          "population_status": "adult_dev_candidate",
+          "section": "5. Appendix / 5.3 Appendix 3: Medical history questions and clinical severity classification",
+          "start": 0,
+          "text": "Is your tinnitus only audible in silence?",
+          "chunk_id": "789a95b61fbb441bb70703dc",
+          "version_id": "d5005279-1bad-491f-8122-a2d05e558146",
+          "document_id": "tinnitus-s3-2022",
+          "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+          "title": "S3 Guideline: Chronic Tinnitus",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9581878/",
+          "topics": [
+            "tinnitus"
+          ],
+          "clinical_review": "pending",
+          "production_eligible": false,
+          "score": 0.0432712215320911,
+          "applicability_warning": null
+        },
+        {
+          "end": 316,
+          "id": "4c9dbbe24a09ea4995bb8fc3",
+          "locator": "body/sec[8]/sec[2]/p[2]",
+          "population_status": "adult_dev_candidate",
+          "section": "5. Appendix / 5.2 Appendix 2: Counselling for Tinnitus",
+          "start": 0,
+          "text": "In particular, life situations will be addressed in which the tinnitus is perceived as disturbing (work, leisure, rest, falling asleep, tense situations), but also as bearable (background noise, music, the sound of the sea, fountains, machine noise, general distraction, use of hearing aids, drinking alcohol, etc.).",
+          "chunk_id": "4c9dbbe24a09ea4995bb8fc3",
+          "version_id": "d5005279-1bad-491f-8122-a2d05e558146",
+          "document_id": "tinnitus-s3-2022",
+          "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+          "title": "S3 Guideline: Chronic Tinnitus",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9581878/",
+          "topics": [
+            "tinnitus"
+          ],
+          "clinical_review": "pending",
+          "production_eligible": false,
+          "score": 0.042703150912106136,
+          "applicability_warning": null
+        }
+      ],
+      "reranked": [
+        {
+          "end": 575,
+          "id": "7bb37be516fd5c62989dad6b",
+          "locator": "main/block[5]",
+          "population_status": "adult_dev_candidate",
+          "section": "What are the symptoms of tinnitus?",
+          "start": 0,
+          "text": "The symptoms of tinnitus can vary significantly from person to person. You may hear phantom sounds in one ear, in both ears, and in your head. The phantom sound may ring, buzz, roar, whistle, hum, click, hiss, or squeal. The sound may be soft or loud and may be low or high pitched. It may come and go or be present all the time. Sometimes, moving your head, neck, or eyes, or touching certain parts of your body may produce tinnitus symptoms or temporarily change the quality of the perceived sound. This is called somatosensory (pronounced so-ma-toe-SENSE-uh-ree) tinnitus.",
+          "chunk_id": "7bb37be516fd5c62989dad6b",
+          "document_id": "nidcd-tinnitus",
+          "version_id": "9c16e968-6f17-438f-8ec9-8682ab0882b6",
+          "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+          "title": "Tinnitus",
+          "title_zh": "NIH/NIDCD 耳鸣患者教育",
+          "source_url": "https://www.nidcd.nih.gov/health/tinnitus",
+          "publication_date": "May 1, 2023",
+          "license": "NIDCD-public-domain-unless-noted",
+          "state": "draft",
+          "clinical_review": "pending",
+          "production_eligible": false,
+          "bm25": -3.413599053520767,
+          "score": 0.03409090909090909,
+          "rerank_score": -0.2117147594690323,
+          "applicability_warning": null
+        },
+        {
+          "end": 1673,
+          "id": "8ac0786db2c9afe772e1325a",
+          "locator": "body/sec[7]/sec[1]/sec[5]/sec[3]/p[5]",
+          "population_status": "adult_dev_candidate",
+          "section": "4 Therapy of chronic tinnitus / 4.1 Presentation of therapies with recommendations / 4.1.5 Music therapy approaches and sound therapy / Evidence-based recommendation",
+          "start": 0,
+          "text": "Not only music but tones or complex sequences of tones and auditory scenes have been studied in various ways for the treatment of tinnitus. Durai and Searchfield [203] compared the influence of listening to natural sounds with static broadband noise in a cross-over design. Patients were randomly assigned to two groups in which the order of the listening condition was counterbalanced. The two phases lasted 8 weeks each, whereby the individual duration varied greatly. Overall, various effects were measured over time for both conditions, but as there was no untreated control group, these effects are difficult to interpret. The TFI as the primary outcome variable showed a greater reduction in the broadband noise condition, but the tinnitus loudness matching worsened. Overall, nature noise was expected to lead to improvement, but the opposite was true. In another study, broadband noise was compared as a control condition against a variant of sound therapy called ‘harmonic sound therapy’ [204]. In this therapy, sounds with narrowband noise around the first and fourth subharmonic are presented around the tinnitus frequency. A total of 18 patients were randomly assigned in a cross-over design with two arms and received the respective therapy conditions for 2 h a day for 3 months. Again, when the study arms were compared independently, several effects were seen in various variables over the time of treatment and when the arms were compared independently. When the study arms were compared directly, there was only a reduction in perceived loudness and THI. The analysis strategy has statistical flaws as not all comparison cells are included in the analysis.",
+          "chunk_id": "8ac0786db2c9afe772e1325a",
+          "document_id": "tinnitus-s3-2022",
+          "version_id": "d5005279-1bad-491f-8122-a2d05e558146",
+          "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+          "title": "S3 Guideline: Chronic Tinnitus",
+          "title_zh": "慢性耳鸣 S3 指南（德国学会，2022）",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9581878/",
+          "publication_date": "2022-10-13",
+          "license": "CC-BY-4.0",
+          "state": "draft",
+          "clinical_review": "pending",
+          "production_eligible": false,
+          "bm25": -3.175208912238441,
+          "score": 0.03296703296703297,
+          "rerank_score": -0.7704970240592957,
+          "applicability_warning": null
+        },
+        {
+          "end": 921,
+          "id": "d4757f40655e71d80a61c09d",
+          "locator": "body/sec[8]/sec[2]/list[1]/list-item[7]/p[1]",
+          "population_status": "adult_dev_candidate",
+          "section": "5. Appendix / 5.2 Appendix 2: Counselling for Tinnitus",
+          "start": 0,
+          "text": "Advice on sound enrichment: The focus is on avoiding silence. Several ways are available. Enrich sound in the daily environment pleasantly. Irritating or disturbing sounds must be avoided at all costs. The best sound signals are sound events in nature. In summer, one may simply open the window if the sound environment of the house is perceived as pleasant by the patient. Most people find the sounds of nature relaxing. Tinnitus (and sometimes hyperacusis) patients find forests, gardens or beaches pleasant places to be and also like to hear rain and wind. For other patients, the pleasant sound of a fan or table fountain may be suitable in summer. Often, sustained sound enrichment means using CDs that produce white noise, physiological noise or volume-modulated noise (wave noise) for several hours at a time (not a volume that leads to tinnitus suppression; the sound signal must be level and pleasantly audible).",
+          "chunk_id": "d4757f40655e71d80a61c09d",
+          "document_id": "tinnitus-s3-2022",
+          "version_id": "d5005279-1bad-491f-8122-a2d05e558146",
+          "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+          "title": "S3 Guideline: Chronic Tinnitus",
+          "title_zh": "慢性耳鸣 S3 指南（德国学会，2022）",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9581878/",
+          "publication_date": "2022-10-13",
+          "license": "CC-BY-4.0",
+          "state": "draft",
+          "clinical_review": "pending",
+          "production_eligible": false,
+          "bm25": -4.165592167234448,
+          "score": 0.037191358024691354,
+          "rerank_score": -1.1137416362762451,
+          "applicability_warning": null
+        },
+        {
+          "end": 362,
+          "id": "e6228c005748eba7217465a8",
+          "locator": "main/block[6]",
+          "population_status": "adult_dev_candidate",
+          "section": "What are the symptoms of tinnitus?",
+          "start": 0,
+          "text": "Most cases of tinnitus are subjective, meaning that only you can hear the sounds. In rare cases, the sound pulsates rhythmically, often in time to your heartbeat. In these cases, a doctor may be able to hear the sounds with a stethoscope and, if so, it is considered to be objective tinnitus. Often, objective tinnitus has an identifiable cause and is treatable.",
+          "chunk_id": "e6228c005748eba7217465a8",
+          "document_id": "nidcd-tinnitus",
+          "version_id": "9c16e968-6f17-438f-8ec9-8682ab0882b6",
+          "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+          "title": "Tinnitus",
+          "title_zh": "NIH/NIDCD 耳鸣患者教育",
+          "source_url": "https://www.nidcd.nih.gov/health/tinnitus",
+          "publication_date": "May 1, 2023",
+          "license": "NIDCD-public-domain-unless-noted",
+          "state": "draft",
+          "clinical_review": "pending",
+          "production_eligible": false,
+          "bm25": -5.5910506742898045,
+          "score": 0.047619047619047616,
+          "rerank_score": -1.1874585151672363,
+          "applicability_warning": null
+        },
+        {
+          "end": 1612,
+          "id": "1f8c891eed87015442969920",
+          "locator": "main/block[26]",
+          "population_status": "adult_dev_candidate",
+          "section": "What treatments can help tinnitus?",
+          "start": 0,
+          "text": "Sound therapies. Sound therapies are based partly on the view that tinnitus stems from changes in neural circuits in the brain brought on by hearing loss. Some evidence suggests that exposure to sound can reverse some of these neural changes and help silence tinnitus. Sound therapy may also work by masking the tinnitus sounds, helping you grow accustomed to them, or distracting you. Several types of devices are used in sound therapy. They include the following: Tabletop or smartphone sound generators are typically used as an aid for relaxation or sleep. Placed near your bed, you can program a generator or set a smartphone app to play pleasant sounds such as waves, waterfalls, rain, or the sounds of a summer night. You may also use other sound generators, such as a radio or a household fan. If your tinnitus is mild, this might be all that you need to help you fall asleep. Hearing aids are one of the main treatment options for people with tinnitus who have hearing loss. They amplify external noises, allowing you to better engage with the world, while also making your tinnitus less noticeable. Wearable sound generators are small electronic devices that fit in the ear much like hearing aids and emit soft, pleasant sounds. Because they are portable, these devices can provide continuous relief from tinnitus throughout the day. Smartphone apps may also be used to generate these sounds. Combination devices, which fit into the ear like hearing aids, provide sound amplification and sound generation in one device. These devices are another option for treating tinnitus in people with hearing loss.",
+          "chunk_id": "1f8c891eed87015442969920",
+          "document_id": "nidcd-tinnitus",
+          "version_id": "9c16e968-6f17-438f-8ec9-8682ab0882b6",
+          "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+          "title": "Tinnitus",
+          "title_zh": "NIH/NIDCD 耳鸣患者教育",
+          "source_url": "https://www.nidcd.nih.gov/health/tinnitus",
+          "publication_date": "May 1, 2023",
+          "license": "NIDCD-public-domain-unless-noted",
+          "state": "draft",
+          "clinical_review": "pending",
+          "production_eligible": false,
+          "bm25": -5.106467964325879,
+          "score": 0.04390451832907076,
+          "rerank_score": -1.9438037872314453,
+          "applicability_warning": null
+        },
+        {
+          "end": 333,
+          "id": "2b75fb27060f14aae918af84",
+          "locator": "main/block[20]",
+          "population_status": "adult_dev_candidate",
+          "section": "What creates the perception of noise in the ears?",
+          "start": 0,
+          "text": "One leading theory is that tinnitus can occur when damage to the inner ear changes the signal carried by nerves to the parts of your brain that process sound. A way to think about this is that while tinnitus may seem to occur in your ear, the phantom sounds are instead generated by your brain, in an area called the auditory cortex.",
+          "chunk_id": "2b75fb27060f14aae918af84",
+          "document_id": "nidcd-tinnitus",
+          "version_id": "9c16e968-6f17-438f-8ec9-8682ab0882b6",
+          "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+          "title": "Tinnitus",
+          "title_zh": "NIH/NIDCD 耳鸣患者教育",
+          "source_url": "https://www.nidcd.nih.gov/health/tinnitus",
+          "publication_date": "May 1, 2023",
+          "license": "NIDCD-public-domain-unless-noted",
+          "state": "draft",
+          "clinical_review": "pending",
+          "production_eligible": false,
+          "bm25": -4.174412136800486,
+          "score": 0.038461538461538464,
+          "rerank_score": -1.9985685348510742,
+          "applicability_warning": null
+        },
+        {
+          "end": 563,
+          "id": "61870d756a241d25fbda92f6",
+          "locator": "main/block[37]",
+          "population_status": "adult_dev_candidate",
+          "section": "What types of tinnitus-related research are scientists conducting?",
+          "start": 0,
+          "text": "Personalized treatment. Tinnitus symptoms are diverse, with different people hearing different sounds in different patterns. The results of brain imaging studies in people with tinnitus also vary considerably from person to person. Using data gathered from study participants who are tracking their tinnitus using a smartphone app, along with brain imaging data, scientists are working to characterize the many forms that the condition can take. They aim to describe distinct tinnitus profiles and to identify the most effective treatment approaches for each one.",
+          "chunk_id": "61870d756a241d25fbda92f6",
+          "document_id": "nidcd-tinnitus",
+          "version_id": "9c16e968-6f17-438f-8ec9-8682ab0882b6",
+          "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+          "title": "Tinnitus",
+          "title_zh": "NIH/NIDCD 耳鸣患者教育",
+          "source_url": "https://www.nidcd.nih.gov/health/tinnitus",
+          "publication_date": "May 1, 2023",
+          "license": "NIDCD-public-domain-unless-noted",
+          "state": "draft",
+          "clinical_review": "pending",
+          "production_eligible": false,
+          "bm25": -3.7467017243742045,
+          "score": 0.03488372093023256,
+          "rerank_score": -2.409982442855835,
+          "applicability_warning": null
+        },
+        {
+          "end": 333,
+          "id": "f12c47a43164295afe9dfda1",
+          "locator": "main/block[23]",
+          "population_status": "adult_dev_candidate",
+          "section": "How is tinnitus diagnosed?",
+          "start": 0,
+          "text": "Next, you may be referred to an otolaryngologist (commonly called an ear, nose, and throat doctor, or an ENT). The ENT will ask you to describe the tinnitus sounds and when they started, and will examine your head, neck, and ears. You might also be referred to an audiologist, who can measure your hearing and evaluate your tinnitus.",
+          "chunk_id": "f12c47a43164295afe9dfda1",
+          "document_id": "nidcd-tinnitus",
+          "version_id": "9c16e968-6f17-438f-8ec9-8682ab0882b6",
+          "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+          "title": "Tinnitus",
+          "title_zh": "NIH/NIDCD 耳鸣患者教育",
+          "source_url": "https://www.nidcd.nih.gov/health/tinnitus",
+          "publication_date": "May 1, 2023",
+          "license": "NIDCD-public-domain-unless-noted",
+          "state": "draft",
+          "clinical_review": "pending",
+          "production_eligible": false,
+          "bm25": -4.267198593280426,
+          "score": 0.039473684210526314,
+          "rerank_score": -2.438091993331909,
+          "applicability_warning": null
+        },
+        {
+          "end": 1173,
+          "id": "898ca14c6b81a8d5748f6e62",
+          "locator": "main/block[27]",
+          "population_status": "adult_dev_candidate",
+          "section": "What treatments can help tinnitus?",
+          "start": 0,
+          "text": "Behavioral therapy. Counseling can improve your well-being by helping you reduce the impact of tinnitus on your life. Education about tinnitus can reduce anxiety by helping you recognize that the condition, in most cases, is unlikely to be linked to a serious medical condition. Through counseling, you can learn coping techniques and strategies to avoid making symptoms worse, such as by limiting your exposure to loud noise. Cognitive behavioral therapy teaches you how to identify negative thoughts that cause you distress. Your counselor will train you to change your response to negative thoughts and to focus on positive changes you can make to reduce the impact of tinnitus on your life. Studies have shown that this type of therapy can help improve the well-being of people with the condition. Tinnitus retraining therapy uses counseling and sound therapy to “retrain” the brain, both emotionally and physiologically, so that you no longer notice your tinnitus. The counseling aspect of therapy aims to help you reclassify tinnitus sounds as neutral, while the continuous low-level sound from a device worn in the ear helps you get used to the presence of tinnitus.",
+          "chunk_id": "898ca14c6b81a8d5748f6e62",
+          "document_id": "nidcd-tinnitus",
+          "version_id": "9c16e968-6f17-438f-8ec9-8682ab0882b6",
+          "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+          "title": "Tinnitus",
+          "title_zh": "NIH/NIDCD 耳鸣患者教育",
+          "source_url": "https://www.nidcd.nih.gov/health/tinnitus",
+          "publication_date": "May 1, 2023",
+          "license": "NIDCD-public-domain-unless-noted",
+          "state": "draft",
+          "clinical_review": "pending",
+          "production_eligible": false,
+          "bm25": -2.4537362719250515,
+          "score": 0.031914893617021274,
+          "rerank_score": -2.620507001876831,
+          "applicability_warning": null
+        },
+        {
+          "end": 1800,
+          "id": "2d43e7d1754d456b4d893e78",
+          "locator": "body/sec[7]/sec[1]/sec[8]/sec[3]/p[7]",
+          "population_status": "adult_dev_candidate",
+          "section": "4 Therapy of chronic tinnitus / 4.1 Presentation of therapies with recommendations / 4.1.8 Electrostimulation / Evidence-based recommendation",
+          "start": 0,
+          "text": "Another method combines the presentation of tones with electrostimulation of the tongue [281]. Again, only a pilot study or study protocol has been published to date, but this does not include a placebo group [282]. Although these seem to document general tolerability, valid and above all placebo-controlled studies are not yet available, but have been announced. The new study will include 192 patients who will be treated in four arms and followed up for 1 year. This study will also include an acoustic-stimulation-only arm without tongue stimulation [283]. In 2020, Conlon et al. [284] published the results of the study presented in 2017, unfortunately without placebo control. For this, 326 patients were recruited in two centres and randomly assigned to three equally sized stimulation groups each in a double-blind fashion. These groups differed in stimulus parameters and the sounds paired with them, whereby the first group used high-frequency sounds with synchronously applied electrical stimulation of the tongue, the second group used comparable stimuli without synchronisation, and the third group used acoustic stimulation with low-frequency sounds that were not synchronised with electrical tongue stimulation. Treatment was given for 12 weeks with 2 × 30 min of application daily. After treatment, the scores of all three groups improved significantly, the findings were measured with THI and TFI and checked again after 12 months, where they remained stable. The data of 20% of the participants did not improve with the bimodal stimulation. The evaluation does not differentiate which different hearing losses were present and especially why the values of all groups improved, although the stimulation parameters of the third group were relatively unsuitable for the postulate of n",
+          "chunk_id": "2d43e7d1754d456b4d893e78",
+          "document_id": "tinnitus-s3-2022",
+          "version_id": "d5005279-1bad-491f-8122-a2d05e558146",
+          "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+          "title": "S3 Guideline: Chronic Tinnitus",
+          "title_zh": "慢性耳鸣 S3 指南（德国学会，2022）",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9581878/",
+          "publication_date": "2022-10-13",
+          "license": "CC-BY-4.0",
+          "state": "draft",
+          "clinical_review": "pending",
+          "production_eligible": false,
+          "bm25": -3.9150638364315196,
+          "score": 0.03658536585365854,
+          "rerank_score": -2.6624908447265625,
+          "applicability_warning": null
+        }
+      ],
+      "run_id": "04baa67e-9069-4721-ad7a-0fc0a7e20c5a",
+      "elapsed_ms": 7153,
+      "reranker_enabled": true
+    },
+    "answer": {
+      "status": "answered",
+      "professional": [
+        {
+          "text": "耳鸣的声音可能较轻或较响，音调可能较低或较高。",
+          "supports": [
+            {
+              "evidence_id": "E1",
+              "quote": "The sound may be soft or loud and may be low or high pitched."
+            }
+          ],
+          "input_fields": []
+        },
+        {
+          "text": "耳鸣声音可能时有时无，也可能一直存在。",
+          "supports": [
+            {
+              "evidence_id": "E1",
+              "quote": "It may come and go or be present all the time."
+            }
+          ],
+          "input_fields": []
+        }
+      ],
+      "input_explanation": [],
+      "patient_summary": [
+        {
+          "text": "耳鸣的声音可能较轻或较响，音调可能较低或较高。",
+          "supports": [
+            {
+              "evidence_id": "E1",
+              "quote": "The sound may be soft or loud and may be low or high pitched."
+            }
+          ],
+          "input_fields": []
+        }
+      ],
+      "limitations": [
+        "missing_patient_details"
+      ]
+    },
+    "citations": [
+      {
+        "evidence_id": "E1",
+        "version_id": "9c16e968-6f17-438f-8ec9-8682ab0882b6",
+        "chunk_id": "7bb37be516fd5c62989dad6b",
+        "document_id": "nidcd-tinnitus",
+        "title": "Tinnitus",
+        "locator": "main/block[5]",
+        "source_url": "https://www.nidcd.nih.gov/health/tinnitus",
+        "text": "The symptoms of tinnitus can vary significantly from person to person. You may hear phantom sounds in one ear, in both ears, and in your head. The phantom sound may ring, buzz, roar, whistle, hum, click, hiss, or squeal. The sound may be soft or loud and may be low or high pitched. It may come and go or be present all the time. Sometimes, moving your head, neck, or eyes, or touching certain parts of your body may produce tinnitus symptoms or temporarily change the quality of the perceived sound. This is called somatosensory (pronounced so-ma-toe-SENSE-uh-ree) tinnitus.",
+        "quote_options": [
+          {
+            "quote_id": "E1.Q1",
+            "text": "The symptoms of tinnitus can vary significantly from person to person."
+          },
+          {
+            "quote_id": "E1.Q2",
+            "text": "You may hear phantom sounds in one ear, in both ears, and in your head."
+          },
+          {
+            "quote_id": "E1.Q3",
+            "text": "The phantom sound may ring, buzz, roar, whistle, hum, click, hiss, or squeal."
+          },
+          {
+            "quote_id": "E1.Q4",
+            "text": "The sound may be soft or loud and may be low or high pitched."
+          },
+          {
+            "quote_id": "E1.Q5",
+            "text": "It may come and go or be present all the time."
+          },
+          {
+            "quote_id": "E1.Q6",
+            "text": "Sometimes, moving your head, neck, or eyes, or touching certain parts of your body may produce tinnitus symptoms or temporarily change the quality of the perceived sound."
+          },
+          {
+            "quote_id": "E1.Q7",
+            "text": "This is called somatosensory (pronounced so-ma-toe-SENSE-uh-ree) tinnitus."
+          }
+        ],
+        "text_truncated": false,
+        "clinical_review": "pending"
+      },
+      {
+        "evidence_id": "E2",
+        "version_id": "d5005279-1bad-491f-8122-a2d05e558146",
+        "chunk_id": "8ac0786db2c9afe772e1325a",
+        "document_id": "tinnitus-s3-2022",
+        "title": "S3 Guideline: Chronic Tinnitus",
+        "locator": "body/sec[7]/sec[1]/sec[5]/sec[3]/p[5]",
+        "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9581878/",
+        "text": "Not only music but tones or complex sequences of tones and auditory scenes have been studied in various ways for the treatment of tinnitus. Durai and Searchfield [203] compared the influence of listening to natural sounds with static broadband noise in a cross-over design. Patients were randomly assigned to two groups in which the order of the listening condition was counterbalanced. The two phases lasted 8 weeks each, whereby the individual duration varied greatly. Overall, various effects were measured over time for both conditions, but as there was no untreated control group, these effects are difficult to interpret. The TFI as the primary outcome variable showed a greater reduction in the broadband noise condition, but the tinnitus loudness matching worsened. Overall, nature noise was expected to lead to improvement, but the opposite was true. In another study, broadband noise was compared as a control condition against a variant of sound therapy called ‘harmonic sound therapy’ [204]. In this therapy, sounds with narrowband noise around the first and fourth subharmonic are presented around the tinnitus frequency. A total of 18 patients were randomly assigned in a cross-over design with two arms and received the respective therapy conditions for 2 h a day for 3 months. Again, when the study arms were compared independently, several effects were seen in various variables over the time of treatment and when the arms were compared independently. When the study arms were compared directly, there was only a reduction in perceived loudness and THI. The analysis strategy has statistical flaws as not all comparison cells are included in the analysis.",
+        "quote_options": [
+          {
+            "quote_id": "E2.Q1",
+            "text": "Not only music but tones or complex sequences of tones and auditory scenes have been studied in various ways for the treatment of tinnitus."
+          },
+          {
+            "quote_id": "E2.Q2",
+            "text": "Durai and Searchfield [203] compared the influence of listening to natural sounds with static broadband noise in a cross-over design."
+          },
+          {
+            "quote_id": "E2.Q3",
+            "text": "Patients were randomly assigned to two groups in which the order of the listening condition was counterbalanced."
+          },
+          {
+            "quote_id": "E2.Q4",
+            "text": "The two phases lasted 8 weeks each, whereby the individual duration varied greatly."
+          },
+          {
+            "quote_id": "E2.Q5",
+            "text": "Overall, various effects were measured over time for both conditions, but as there was no untreated control group, these effects are difficult to interpret."
+          },
+          {
+            "quote_id": "E2.Q6",
+            "text": "The TFI as the primary outcome variable showed a greater reduction in the broadband noise condition, but the tinnitus loudness matching worsened."
+          },
+          {
+            "quote_id": "E2.Q7",
+            "text": "Overall, nature noise was expected to lead to improvement, but the opposite was true."
+          },
+          {
+            "quote_id": "E2.Q8",
+            "text": "In another study, broadband noise was compared as a control condition against a variant of sound therapy called ‘harmonic sound therapy’ [204]."
+          },
+          {
+            "quote_id": "E2.Q9",
+            "text": "In this therapy, sounds with narrowband noise around the first and fourth subharmonic are presented around the tinnitus frequency."
+          },
+          {
+            "quote_id": "E2.Q10",
+            "text": "A total of 18 patients were randomly assigned in a cross-over design with two arms and received the respective therapy conditions for 2 h a day for 3 months."
+          },
+          {
+            "quote_id": "E2.Q11",
+            "text": "Again, when the study arms were compared independently, several effects were seen in various variables over the time of treatment and when the arms were compared independently."
+          },
+          {
+            "quote_id": "E2.Q12",
+            "text": "When the study arms were compared directly, there was only a reduction in perceived loudness and THI."
+          },
+          {
+            "quote_id": "E2.Q13",
+            "text": "The analysis strategy has statistical flaws as not all comparison cells are included in the analysis."
+          }
+        ],
+        "text_truncated": false,
+        "clinical_review": "pending"
+      },
+      {
+        "evidence_id": "E3",
+        "version_id": "d5005279-1bad-491f-8122-a2d05e558146",
+        "chunk_id": "d4757f40655e71d80a61c09d",
+        "document_id": "tinnitus-s3-2022",
+        "title": "S3 Guideline: Chronic Tinnitus",
+        "locator": "body/sec[8]/sec[2]/list[1]/list-item[7]/p[1]",
+        "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9581878/",
+        "text": "Advice on sound enrichment: The focus is on avoiding silence. Several ways are available. Enrich sound in the daily environment pleasantly. Irritating or disturbing sounds must be avoided at all costs. The best sound signals are sound events in nature. In summer, one may simply open the window if the sound environment of the house is perceived as pleasant by the patient. Most people find the sounds of nature relaxing. Tinnitus (and sometimes hyperacusis) patients find forests, gardens or beaches pleasant places to be and also like to hear rain and wind. For other patients, the pleasant sound of a fan or table fountain may be suitable in summer. Often, sustained sound enrichment means using CDs that produce white noise, physiological noise or volume-modulated noise (wave noise) for several hours at a time (not a volume that leads to tinnitus suppression; the sound signal must be level and pleasantly audible).",
+        "quote_options": [
+          {
+            "quote_id": "E3.Q1",
+            "text": "Advice on sound enrichment: The focus is on avoiding silence."
+          },
+          {
+            "quote_id": "E3.Q2",
+            "text": "Several ways are available."
+          },
+          {
+            "quote_id": "E3.Q3",
+            "text": "Enrich sound in the daily environment pleasantly."
+          },
+          {
+            "quote_id": "E3.Q4",
+            "text": "Irritating or disturbing sounds must be avoided at all costs."
+          },
+          {
+            "quote_id": "E3.Q5",
+            "text": "The best sound signals are sound events in nature."
+          },
+          {
+            "quote_id": "E3.Q6",
+            "text": "In summer, one may simply open the window if the sound environment of the house is perceived as pleasant by the patient."
+          },
+          {
+            "quote_id": "E3.Q7",
+            "text": "Most people find the sounds of nature relaxing."
+          },
+          {
+            "quote_id": "E3.Q8",
+            "text": "Tinnitus (and sometimes hyperacusis) patients find forests, gardens or beaches pleasant places to be and also like to hear rain and wind."
+          },
+          {
+            "quote_id": "E3.Q9",
+            "text": "For other patients, the pleasant sound of a fan or table fountain may be suitable in summer."
+          },
+          {
+            "quote_id": "E3.Q10",
+            "text": "Often, sustained sound enrichment means using CDs that produce white noise, physiological noise or volume-modulated noise (wave noise) for several hours at a time (not a volume that leads to tinnitus suppression; the sound signal must be level and pleasantly audible)."
+          }
+        ],
+        "text_truncated": false,
+        "clinical_review": "pending"
+      },
+      {
+        "evidence_id": "E4",
+        "version_id": "9c16e968-6f17-438f-8ec9-8682ab0882b6",
+        "chunk_id": "e6228c005748eba7217465a8",
+        "document_id": "nidcd-tinnitus",
+        "title": "Tinnitus",
+        "locator": "main/block[6]",
+        "source_url": "https://www.nidcd.nih.gov/health/tinnitus",
+        "text": "Most cases of tinnitus are subjective, meaning that only you can hear the sounds. In rare cases, the sound pulsates rhythmically, often in time to your heartbeat. In these cases, a doctor may be able to hear the sounds with a stethoscope and, if so, it is considered to be objective tinnitus. Often, objective tinnitus has an identifiable cause and is treatable.",
+        "quote_options": [
+          {
+            "quote_id": "E4.Q1",
+            "text": "Most cases of tinnitus are subjective, meaning that only you can hear the sounds."
+          },
+          {
+            "quote_id": "E4.Q2",
+            "text": "In rare cases, the sound pulsates rhythmically, often in time to your heartbeat."
+          },
+          {
+            "quote_id": "E4.Q3",
+            "text": "In these cases, a doctor may be able to hear the sounds with a stethoscope and, if so, it is considered to be objective tinnitus."
+          },
+          {
+            "quote_id": "E4.Q4",
+            "text": "Often, objective tinnitus has an identifiable cause and is treatable."
+          }
+        ],
+        "text_truncated": false,
+        "clinical_review": "pending"
+      },
+      {
+        "evidence_id": "E5",
+        "version_id": "9c16e968-6f17-438f-8ec9-8682ab0882b6",
+        "chunk_id": "1f8c891eed87015442969920",
+        "document_id": "nidcd-tinnitus",
+        "title": "Tinnitus",
+        "locator": "main/block[26]",
+        "source_url": "https://www.nidcd.nih.gov/health/tinnitus",
+        "text": "Sound therapies. Sound therapies are based partly on the view that tinnitus stems from changes in neural circuits in the brain brought on by hearing loss. Some evidence suggests that exposure to sound can reverse some of these neural changes and help silence tinnitus. Sound therapy may also work by masking the tinnitus sounds, helping you grow accustomed to them, or distracting you. Several types of devices are used in sound therapy. They include the following: Tabletop or smartphone sound generators are typically used as an aid for relaxation or sleep. Placed near your bed, you can program a generator or set a smartphone app to play pleasant sounds such as waves, waterfalls, rain, or the sounds of a summer night. You may also use other sound generators, such as a radio or a household fan. If your tinnitus is mild, this might be all that you need to help you fall asleep. Hearing aids are one of the main treatment options for people with tinnitus who have hearing loss. They amplify external noises, allowing you to better engage with the world, while also making your tinnitus less noticeable. Wearable sound generators are small electronic devices that fit in the ear much like hearing aids and emit soft, pleasant sounds. Because they are portable, these devices can provide continuous relief from tinnitus throughout the day. Smartphone apps may also be used to generate these sounds. Combination devices, which fit into the ear like hearing aids, provide sound amplification and sound generation in one device. These devices are another option for treating tinnitus in people with hearing loss.",
+        "quote_options": [
+          {
+            "quote_id": "E5.Q1",
+            "text": "Sound therapies."
+          },
+          {
+            "quote_id": "E5.Q2",
+            "text": "Sound therapies are based partly on the view that tinnitus stems from changes in neural circuits in the brain brought on by hearing loss."
+          },
+          {
+            "quote_id": "E5.Q3",
+            "text": "Some evidence suggests that exposure to sound can reverse some of these neural changes and help silence tinnitus."
+          },
+          {
+            "quote_id": "E5.Q4",
+            "text": "Sound therapy may also work by masking the tinnitus sounds, helping you grow accustomed to them, or distracting you."
+          },
+          {
+            "quote_id": "E5.Q5",
+            "text": "Several types of devices are used in sound therapy."
+          },
+          {
+            "quote_id": "E5.Q6",
+            "text": "They include the following: Tabletop or smartphone sound generators are typically used as an aid for relaxation or sleep."
+          },
+          {
+            "quote_id": "E5.Q7",
+            "text": "Placed near your bed, you can program a generator or set a smartphone app to play pleasant sounds such as waves, waterfalls, rain, or the sounds of a summer night."
+          },
+          {
+            "quote_id": "E5.Q8",
+            "text": "You may also use other sound generators, such as a radio or a household fan."
+          },
+          {
+            "quote_id": "E5.Q9",
+            "text": "If your tinnitus is mild, this might be all that you need to help you fall asleep."
+          },
+          {
+            "quote_id": "E5.Q10",
+            "text": "Hearing aids are one of the main treatment options for people with tinnitus who have hearing loss."
+          },
+          {
+            "quote_id": "E5.Q11",
+            "text": "They amplify external noises, allowing you to better engage with the world, while also making your tinnitus less noticeable."
+          },
+          {
+            "quote_id": "E5.Q12",
+            "text": "Wearable sound generators are small electronic devices that fit in the ear much like hearing aids and emit soft, pleasant sounds."
+          },
+          {
+            "quote_id": "E5.Q13",
+            "text": "Because they are portable, these devices can provide continuous relief from tinnitus throughout the day."
+          },
+          {
+            "quote_id": "E5.Q14",
+            "text": "Smartphone apps may also be used to generate these sounds."
+          },
+          {
+            "quote_id": "E5.Q15",
+            "text": "Combination devices, which fit into the ear like hearing aids, provide sound amplification and sound generation in one device."
+          },
+          {
+            "quote_id": "E5.Q16",
+            "text": "These devices are another option for treating tinnitus in people with hearing loss."
+          }
+        ],
+        "text_truncated": false,
+        "clinical_review": "pending"
+      },
+      {
+        "evidence_id": "E6",
+        "version_id": "9c16e968-6f17-438f-8ec9-8682ab0882b6",
+        "chunk_id": "2b75fb27060f14aae918af84",
+        "document_id": "nidcd-tinnitus",
+        "title": "Tinnitus",
+        "locator": "main/block[20]",
+        "source_url": "https://www.nidcd.nih.gov/health/tinnitus",
+        "text": "One leading theory is that tinnitus can occur when damage to the inner ear changes the signal carried by nerves to the parts of your brain that process sound. A way to think about this is that while tinnitus may seem to occur in your ear, the phantom sounds are instead generated by your brain, in an area called the auditory cortex.",
+        "quote_options": [
+          {
+            "quote_id": "E6.Q1",
+            "text": "One leading theory is that tinnitus can occur when damage to the inner ear changes the signal carried by nerves to the parts of your brain that process sound."
+          },
+          {
+            "quote_id": "E6.Q2",
+            "text": "A way to think about this is that while tinnitus may seem to occur in your ear, the phantom sounds are instead generated by your brain, in an area called the auditory cortex."
+          }
+        ],
+        "text_truncated": false,
+        "clinical_review": "pending"
+      }
+    ],
+    "validation": {
+      "citation_identity_and_quote_match": true,
+      "semantic_support": "model_judgment_only",
+      "clinical_approval": false,
+      "input_check": "exact_field_anchors_and_bounded_attribution_screen",
+      "requested_quote_selectors": 4,
+      "generation_evidence_ids": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6"
+      ],
+      "draft_summary_placeholder": true,
+      "citation_context_expansions": [],
+      "atomization": [],
+      "input_comparison_withheld": {
+        "code": "input_comparison_classification_failed",
+        "count": 2
+      },
+      "dose_screen": "heuristic_passed",
+      "quote_repair": {
+        "attempts": 0,
+        "accepted": false
+      },
+      "core_verification": {
+        "claims": [
+          {
+            "claim_id": "professional:0",
+            "supported": true,
+            "reason": "supported",
+            "checked_quote_indexes": [
+              0
+            ]
+          },
+          {
+            "claim_id": "professional:1",
+            "supported": true,
+            "reason": "supported",
+            "checked_quote_indexes": [
+              0
+            ]
+          }
+        ],
+        "retained_answer_addresses_question": true,
+        "refusal_assessment": "not_applicable",
+        "refusal_supports": [],
+        "atom_groups": [],
+        "split_group_complete": true,
+        "mixed_group_withheld": false,
+        "retained_indexes": {
+          "professional": [
+            0,
+            1
+          ],
+          "input_explanation": [],
+          "patient_summary": []
+        },
+        "withhold_causes": [],
+        "format_attempts": 1,
+        "format_errors": [],
+        "format_feedback": null,
+        "deterministic_record_claim_ids": []
+      },
+      "core_verification_metadata": {
+        "requested_model": "deepseek-flash",
+        "returned_model": "deepseek-flash",
+        "usage": {
+          "prompt_tokens": 2595,
+          "completion_tokens": 80,
+          "total_tokens": 2675
+        },
+        "prompt_sha256": "5c00fe1fcda7be7945e595ac9e7268ab641a8a5469fa10eaf7d07ec4f48db9c0",
+        "deterministic_record_claim_ids": []
+      },
+      "original_status": "answered",
+      "isolated_patient_summary": true,
+      "summary_core_selection": {
+        "selected_original_index": 0,
+        "professional_order": [
+          0,
+          1
+        ],
+        "skipped": []
+      },
+      "summary_metadata": {
+        "requested_model": "deepseek-flash",
+        "returned_model": "deepseek-flash",
+        "usage": {
+          "prompt_tokens": 603,
+          "completion_tokens": 19,
+          "total_tokens": 622
+        },
+        "prompt_sha256": "e1f112d2f87f6c7c1a94c4977d3563473c3bfa82c0b1a5b16e4749a3a1ffad00"
+      },
+      "verification": {
+        "claims": [
+          {
+            "claim_id": "professional:0",
+            "supported": true,
+            "reason": "supported",
+            "checked_quote_indexes": [
+              0
+            ]
+          },
+          {
+            "claim_id": "professional:1",
+            "supported": true,
+            "reason": "supported",
+            "checked_quote_indexes": [
+              0
+            ]
+          },
+          {
+            "claim_id": "patient_summary:0",
+            "supported": true,
+            "reason": "supported",
+            "checked_quote_indexes": [
+              0
+            ]
+          }
+        ],
+        "retained_answer_addresses_question": true,
+        "refusal_assessment": "not_applicable",
+        "refusal_supports": [],
+        "atom_groups": [],
+        "split_group_complete": true,
+        "mixed_group_withheld": false,
+        "retained_indexes": {
+          "professional": [
+            0,
+            1
+          ],
+          "input_explanation": [],
+          "patient_summary": [
+            0
+          ]
+        },
+        "withhold_causes": [],
+        "format_attempts": 1,
+        "format_errors": [],
+        "format_feedback": null,
+        "deterministic_record_claim_ids": []
+      },
+      "verification_metadata": {
+        "requested_model": "deepseek-flash",
+        "returned_model": "deepseek-flash",
+        "usage": {
+          "prompt_tokens": 2747,
+          "completion_tokens": 106,
+          "total_tokens": 2853
+        },
+        "prompt_sha256": "5c00fe1fcda7be7945e595ac9e7268ab641a8a5469fa10eaf7d07ec4f48db9c0",
+        "deterministic_record_claim_ids": []
+      },
+      "outcome_category": "answer_ready"
+    },
+    "model": "deepseek-flash",
+    "provider_base_url": "https://api.deepseek.com",
+    "elapsed_ms": 11587,
+    "synthetic_only": true,
+    "generation_metadata": {
+      "requested_model": "deepseek-flash",
+      "returned_model": "deepseek-flash",
+      "usage": {
+        "prompt_tokens": 6675,
+        "completion_tokens": 211,
+        "total_tokens": 6886
+      },
+      "prompt_sha256": "cf1aa4b9dfccb72886de0f2be05cf4620dc1ac542456cec5260efedf23191c07"
+    }
+  },
+  "trace": [
+    {
+      "stage": "draft",
+      "candidate": {
+        "status": "answered",
+        "professional": [
+          {
+            "text": "耳鸣的声音可能较轻或较响，音调可能较低或较高。",
+            "supports": [
+              {
+                "evidence_id": "E1",
+                "quote_id": "E1.Q4"
+              }
+            ],
+            "input_fields": []
+          },
+          {
+            "text": "耳鸣声音可能时有时无，也可能一直存在。",
+            "supports": [
+              {
+                "evidence_id": "E1",
+                "quote_id": "E1.Q5"
+              }
+            ],
+            "input_fields": []
+          }
+        ],
+        "input_explanation": [
+          {
+            "text": "输入记录为耳内有声音并持续3天，资料描述耳鸣声音可较轻或较响、音调可较低或较高，也可时有时无或一直存在；这只是对应比较。",
+            "source_kind": "medical_comparison",
+            "supports": [
+              {
+                "evidence_id": "E1",
+                "quote_id": "E1.Q4"
+              },
+              {
+                "evidence_id": "E1",
+                "quote_id": "E1.Q5"
+              }
+            ],
+            "input_anchor_ids": [
+              "I2",
+              "I3"
+            ]
+          }
+        ],
+        "patient_summary": [],
+        "limitations": [
+          "missing_patient_details"
+        ]
+      }
+    },
+    {
+      "stage": "verify",
+      "candidate": {
+        "status": "answered",
+        "professional": [
+          {
+            "text": "耳鸣的声音可能较轻或较响，音调可能较低或较高。",
+            "supports": [
+              {
+                "evidence_id": "E1",
+                "quote": "The sound may be soft or loud and may be low or high pitched."
+              }
+            ],
+            "input_fields": []
+          },
+          {
+            "text": "耳鸣声音可能时有时无，也可能一直存在。",
+            "supports": [
+              {
+                "evidence_id": "E1",
+                "quote": "It may come and go or be present all the time."
+              }
+            ],
+            "input_fields": []
+          }
+        ],
+        "input_explanation": [],
+        "patient_summary": [],
+        "limitations": [
+          "missing_patient_details"
+        ]
+      },
+      "judgment": {
+        "claims": [
+          {
+            "claim_id": "professional:0",
+            "supported": true,
+            "reason": "supported",
+            "checked_quote_indexes": [
+              0
+            ]
+          },
+          {
+            "claim_id": "professional:1",
+            "supported": true,
+            "reason": "supported",
+            "checked_quote_indexes": [
+              0
+            ]
+          }
+        ],
+        "retained_answer_addresses_question": true,
+        "refusal_assessment": "not_applicable",
+        "refusal_supports": []
+      }
+    },
+    {
+      "stage": "verify",
+      "candidate": {
+        "status": "answered",
+        "professional": [
+          {
+            "text": "耳鸣的声音可能较轻或较响，音调可能较低或较高。",
+            "supports": [
+              {
+                "evidence_id": "E1",
+                "quote": "The sound may be soft or loud and may be low or high pitched."
+              }
+            ],
+            "input_fields": []
+          },
+          {
+            "text": "耳鸣声音可能时有时无，也可能一直存在。",
+            "supports": [
+              {
+                "evidence_id": "E1",
+                "quote": "It may come and go or be present all the time."
+              }
+            ],
+            "input_fields": []
+          }
+        ],
+        "input_explanation": [],
+        "patient_summary": [
+          {
+            "text": "耳鸣的声音可能较轻或较响，音调可能较低或较高。",
+            "supports": [
+              {
+                "evidence_id": "E1",
+                "quote": "The sound may be soft or loud and may be low or high pitched."
+              }
+            ],
+            "input_fields": []
+          }
+        ],
+        "limitations": [
+          "missing_patient_details"
+        ]
+      },
+      "judgment": {
+        "claims": [
+          {
+            "claim_id": "professional:0",
+            "supported": true,
+            "reason": "supported",
+            "checked_quote_indexes": [
+              0
+            ]
+          },
+          {
+            "claim_id": "professional:1",
+            "supported": true,
+            "reason": "supported",
+            "checked_quote_indexes": [
+              0
+            ]
+          },
+          {
+            "claim_id": "patient_summary:0",
+            "supported": true,
+            "reason": "supported",
+            "checked_quote_indexes": [
+              0
+            ]
+          }
+        ],
+        "retained_answer_addresses_question": true,
+        "refusal_assessment": "not_applicable",
+        "refusal_supports": []
+      }
+    }
+  ]
+}

@@ -211,6 +211,8 @@ def test_v2_migration_preserves_completed_and_interrupts_unknown_running(job_con
     with b.store.connect() as db:
         db.execute("DROP TABLE consultation_jobs")
         db.execute("DROP TABLE consultation_worker")
+        db.execute("DROP TABLE IF EXISTS local_credential_updates")
+        db.execute("DROP TABLE IF EXISTS consultation_context")
         db.execute("PRAGMA user_version=2")
     BusinessStore(b.store.path, clock=b.store.clock)
     assert detail(b, completed)["state"] == "completed"

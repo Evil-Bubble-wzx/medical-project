@@ -1,0 +1,34 @@
+{
+  "offline_tests": 711,
+  "offline_failures": 0,
+  "ruff_passed": true,
+  "browser": {
+    "passed": true,
+    "checks": [
+      "doctor_account_not_rendered_in_patient_entry",
+      "independent_patient_with_empty_owned_profile",
+      "save_submit_and_patient_summary_first",
+      "professional_answer_and_citations_retained",
+      "refresh_saved_history_without_resubmission",
+      "optional_doctor_grant_and_revocation",
+      "mobile_no_horizontal_overflow",
+      "logout_clears_patient_content"
+    ],
+    "errors": [],
+    "synthetic_fixture": true,
+    "provider_calls": 0
+  },
+  "live": {
+    "passed": true,
+    "checks": [
+      "independent_patient_login",
+      "one_owned_profile",
+      "six_doctor_cases_denied",
+      "patient_form_available"
+    ],
+    "errors": [],
+    "additional_generation_requests": 0
+  },
+  "clinical_approval": false,
+  "additional_paid_generation_requests": 0
+}

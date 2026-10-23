@@ -5,6 +5,7 @@ from time import perf_counter
 from typing import Literal, TypedDict
 
 from langgraph.graph import END, START, StateGraph
+from pydantic import PrivateAttr
 
 from app.knowledge.library import read_json
 from app.retrieval.atomization import atomize_draft
@@ -31,6 +32,8 @@ from app.retrieval.verification import ModelVerifier, apply_judgment
 class AnswerInput(ValidationInput):
     synthetic_only: Literal[True]
     evaluation_case_id: str | None = None
+    # Only the authorized persistence layer can attach conversation history.
+    _conversation_history: list[dict] = PrivateAttr(default_factory=list)
 
 
 def answer_request(
@@ -68,6 +71,14 @@ def answer_request(
     patient = payload.model_dump(
         exclude={"compare_reranker", "synthetic_only", "evaluation_case_id"}
     )
+    context_patient = {
+        **patient,
+        **(
+            {"conversation_history": payload._conversation_history}
+            if payload._conversation_history
+            else {}
+        ),
+    }
     started = perf_counter()
 
     class State(TypedDict, total=False):
@@ -138,7 +149,15 @@ def answer_request(
             }
         return {
             "draft": generator.generate(
-                {**patient, "summary_mode": "deferred"} if summarizer is not None else patient,
+                {
+                    **patient,
+                    **({"summary_mode": "deferred"} if summarizer is not None else {}),
+                    **(
+                        {"conversation_history": payload._conversation_history}
+                        if payload._conversation_history
+                        else {}
+                    ),
+                },
                 selectable,
             ),
             "generation_evidence_ids": [e["evidence_id"] for e in selectable],
@@ -335,7 +354,7 @@ def answer_request(
                 },
             }
 
-    def verify(state, *, core_only=False):
+    def verify(state, *, core_only=False, summary_recovery=False):
         if (
             state["answer"]["status"] == "validation_failed"
             or not state["validation"]["citation_identity_and_quote_match"]
@@ -356,9 +375,9 @@ def answer_request(
             for verification_attempt in range(2):
                 try:
                     raw = verifier.verify(
-                        {**patient, "verification_format_feedback": format_feedback}
+                        {**context_patient, "verification_format_feedback": format_feedback}
                         if format_feedback
-                        else patient,
+                        else context_patient,
                         candidate,
                         state["evidence"],
                     )
@@ -414,6 +433,56 @@ def answer_request(
                         "original_status": state["answer"]["status"],
                     },
                 }
+            if (
+                not summary_recovery
+                and config.get("verified_core_summary_fallback", False)
+                and candidate["status"] == "answered"
+                and audit.get("withhold_causes") == ["no_patient_summary"]
+                and all(
+                    c["supported"]
+                    for c in audit["claims"]
+                    if not c["claim_id"].startswith("patient_summary:")
+                )
+            ):
+                core = candidate["professional"][0]
+                options = [
+                    (
+                        "verified_core_fallback",
+                        {
+                            "text": core["text"],
+                            "supports": core["supports"],
+                            "input_fields": [],
+                        },
+                    )
+                ]
+                excerpt = readable_voice_excerpt(core)
+                if excerpt:
+                    options.append(("verified_core_excerpt", excerpt))
+                for strategy, summary in options:
+                    if candidate["patient_summary"] == [summary]:
+                        continue  # Do not resubmit an unchanged claim hoping for a lucky judgment.
+                    try:
+                        recovered = validate_answer(
+                            json.dumps({**candidate, "patient_summary": [summary]}),
+                            state["evidence"],
+                            patient,
+                        )
+                    except ValueError:
+                        continue
+                    next_state = {
+                        **state,
+                        "answer": recovered,
+                        "validation": {
+                            **validation,
+                            "summary_metadata": {"strategy": strategy},
+                        },
+                    }
+                    response = verify(next_state, summary_recovery=True)
+                    response["validation"]["summary_semantic_recovery"] = {
+                        "attempts": 1,
+                        "accepted": response["answer"]["status"] == "answered",
+                    }
+                    return response
             return {
                 "answer": answer,
                 "validation": {
@@ -478,6 +547,7 @@ def answer_request(
         result["answer"]["status"] == "insufficient_evidence"
         and result["validation"].get("original_status") == "answered"
         and bool(audit.get("claims"))
+        and not result["validation"].get("summary_semantic_recovery")
     )
     schema_retry = result["answer"]["status"] == "validation_failed" and result["validation"].get(
         "error_code"

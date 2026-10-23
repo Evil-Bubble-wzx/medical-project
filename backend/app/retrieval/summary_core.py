@@ -80,13 +80,15 @@ def readable_voice_excerpt(core):
     """Reuse only Chinese facts already in the verified core, with a bounded source check.
 
     This is not a term translation or an approved clinical template. All returned
-    words are present in the core; citations and final verification remain required.
+    medical facets are present in the core; only 可/可能 modality is normalized.
+    Citations and final verification remain required.
     """
     text = core["text"]
     quotes = " ".join(s["quote"] for s in core["supports"])
     facet = re.search(r"音量变小或音调变低", text)
     subject = re.search(r"声音嘶哑|嗓音嘶哑|声嘶", text)
-    if not facet or not subject or "可能" not in text:
+    modality = re.search(r"(?<!不)(?:可能|可(?:表现为|呈现为|呈现|呈|为))", text)
+    if not facet or not subject or not modality:
         return None
     if not re.search(r"If you are hoarse", quotes, re.I) or not re.search(
         r"softer in volume or lower in pitch", quotes, re.I

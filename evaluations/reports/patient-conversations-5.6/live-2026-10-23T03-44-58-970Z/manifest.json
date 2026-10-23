@@ -1,0 +1,11 @@
+{
+  "questions": [
+    "声嘶资料中描述了哪些声音变化？",
+    "那这些变化在资料中是怎样描述的？",
+    "刚才这个主题，资料还描述了哪些表现？"
+  ],
+  "maximum_new_submissions": 3,
+  "automatic_retries": false,
+  "synthetic_only": true,
+  "live": true
+}

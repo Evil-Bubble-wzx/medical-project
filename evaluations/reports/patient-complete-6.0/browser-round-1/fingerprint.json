@@ -1,0 +1,11 @@
+{
+  "frontend/validation/patient-trial.js": "a7e06750ea1e0e322105a6515e53d211ad7935911d38a2a3aced0c54c0ca3714",
+  "frontend/validation/patient.html": "a3773991c2958f0c7e8713c124281e1f2763af43ff709eb058f9cb0fed21abf0",
+  "frontend/validation/patients.js": "6f5f809b86b971b93a9046e179926c399484ba63fcb863e705afb04b1be6d3e9",
+  "backend/app/application/patient_tools.py": "554b49a03df119afeb23e60b6af050a732f8853a101c7a24db4d4a0004b9fd2e",
+  "backend/app/application/patient_credentials.py": "8ac6dd7fe075e605ecf3334126cad22cfe76080d1d532069621badfa51239971",
+  "backend/app/application/business.py": "967bfcaaebac3565014fd1b132a5a3fc94662e5e28a005db1ab1d4cd013cd917",
+  "backend/app/api/business.py": "cbd0fa23fd81aab340ade98b1d38e2d76cbe271aa4854cb6742d4f13f31e3023",
+  "configs/retrieval.json": "3c24ec4fad6b363a0fac337877a5f62b8e38a0d160696d22d55e76f8c06d19f6",
+  "configs/generation.json": "4d0bf474a06106138ddeb9b0df97f54610b0dbc95546055d988d4e43b54f9a6f"
+}

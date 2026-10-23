@@ -28,7 +28,7 @@ class BusinessStore:
         self.path.parent.mkdir(parents=True, exist_ok=True)
         with self.connect() as db:
             schema = db.execute("PRAGMA user_version").fetchone()[0]
-            if schema not in (0, 1, 2, 3, 4):
+            if schema not in (0, 1, 2, 3, 4, 5, 6):
                 raise ValueError("unsupported_business_schema")
             if schema == 0:
                 db.executescript(Path(__file__).with_name("business_schema.sql").read_text())
@@ -74,6 +74,22 @@ class BusinessStore:
                     revision INTEGER NOT NULL CHECK(revision>=1), archived_at REAL,
                     UNIQUE(doctor_id,request_key))""")
                 db.execute("PRAGMA user_version=4")
+            if schema < 5:
+                db.execute("""CREATE TABLE consultation_context (
+                    run_id TEXT PRIMARY KEY REFERENCES consultation_runs(id),
+                    parent_id TEXT REFERENCES consultation_runs(id),
+                    root_id TEXT NOT NULL REFERENCES consultation_runs(id),
+                    history TEXT NOT NULL)""")
+                db.execute(
+                    "CREATE INDEX consultation_context_root ON consultation_context(root_id)"
+                )
+                db.execute("PRAGMA user_version=5")
+            if schema < 6:
+                db.execute("""CREATE TABLE local_credential_updates (
+                    user_id TEXT PRIMARY KEY REFERENCES business_users(id),
+                    password_hash TEXT NOT NULL, encrypted_xml BLOB NOT NULL,
+                    sha256 TEXT NOT NULL, created_at REAL NOT NULL)""")
+                db.execute("PRAGMA user_version=6")
 
     @contextmanager
     def connect(self):

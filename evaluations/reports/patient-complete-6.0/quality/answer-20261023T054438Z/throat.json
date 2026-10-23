@@ -1,0 +1,1137 @@
+{
+  "case": {
+    "id": "throat",
+    "chief_complaint": "声音嘶哑",
+    "question": "声嘶资料中描述了哪些声音变化？"
+  },
+  "result": {
+    "retrieval": {
+      "snapshot_id": "1d3af4ba-8a10-43fc-93e4-8e0ff1e1353c",
+      "query_policy": "dual_question_first",
+      "hybrid": [
+        {
+          "end": 786,
+          "id": "b3a7516e456b04ea8b67393e",
+          "locator": "main/block[10]",
+          "population_status": "adult_dev_candidate",
+          "section": "What are some of the disorders that cause hoarseness and how are they treated?",
+          "start": 0,
+          "text": "Misusing or overusing your voice. Cheering at sporting events, speaking loudly in noisy situations, talking for too long without resting your voice, singing loudly, or speaking with a voice that's too high or too low can cause temporary hoarseness. Resting, reducing voice use, and drinking lots of water should help relieve hoarseness from misuse or overuse. Sometimes people whose jobs depend on their voices—such as teachers, singers, or public speakers—develop hoarseness that won't go away. If you use your voice for a living and you regularly experience hoarseness, your doctor might suggest seeing a speech-language pathologist for voice therapy. In voice therapy, you'll be given vocal exercises and tips for avoiding hoarseness by changing the ways in which you use your voice.",
+          "chunk_id": "b3a7516e456b04ea8b67393e",
+          "document_id": "nidcd-hoarseness",
+          "version_id": "11605fc0-df77-4d90-8883-3a19979c3c80",
+          "snapshot_id": "1d3af4ba-8a10-43fc-93e4-8e0ff1e1353c",
+          "title": "Hoarseness",
+          "title_zh": "NIH/NIDCD 声嘶患者教育",
+          "source_url": "https://www.nidcd.nih.gov/health/hoarseness",
+          "publication_date": "March 6, 2017",
+          "license": "NIDCD-public-domain-unless-noted",
+          "state": "draft",
+          "clinical_review": "pending",
+          "production_eligible": false,
+          "bm25": -6.334037297231223,
+          "score": 0.04838709677419355,
+          "applicability_warning": null
+        },
+        {
+          "end": 40,
+          "id": "ddad9daea5a59949555f3a4b",
+          "locator": "body/sec[8]/sec[3]/list[1]/list-item[7]/p[1]",
+          "population_status": "adult_dev_candidate",
+          "section": "5. Appendix / 5.3 Appendix 3: Medical history questions and clinical severity classification",
+          "start": 0,
+          "text": "Does your tinnitus drown out all sounds?",
+          "chunk_id": "ddad9daea5a59949555f3a4b",
+          "version_id": "d5005279-1bad-491f-8122-a2d05e558146",
+          "document_id": "tinnitus-s3-2022",
+          "snapshot_id": "1d3af4ba-8a10-43fc-93e4-8e0ff1e1353c",
+          "title": "S3 Guideline: Chronic Tinnitus",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9581878/",
+          "topics": [
+            "tinnitus"
+          ],
+          "clinical_review": "pending",
+          "production_eligible": false,
+          "score": 0.047643442622950824,
+          "applicability_warning": null
+        },
+        {
+          "end": 79,
+          "id": "dd91df5220a11c861d7948b4",
+          "locator": "main/block[8]",
+          "population_status": "adult_dev_candidate",
+          "section": "What are some of the disorders that cause hoarseness and how are they treated?",
+          "start": 0,
+          "text": "Hoarseness can have several possible causes and treatments, as described below:",
+          "chunk_id": "dd91df5220a11c861d7948b4",
+          "document_id": "nidcd-hoarseness",
+          "version_id": "11605fc0-df77-4d90-8883-3a19979c3c80",
+          "snapshot_id": "1d3af4ba-8a10-43fc-93e4-8e0ff1e1353c",
+          "title": "Hoarseness",
+          "title_zh": "NIH/NIDCD 声嘶患者教育",
+          "source_url": "https://www.nidcd.nih.gov/health/hoarseness",
+          "publication_date": "March 6, 2017",
+          "license": "NIDCD-public-domain-unless-noted",
+          "state": "draft",
+          "clinical_review": "pending",
+          "production_eligible": false,
+          "bm25": -6.106706042071806,
+          "score": 0.046897546897546896,
+          "applicability_warning": null
+        },
+        {
+          "end": 50,
+          "id": "b7c66fd4bd97a3fc3028156c",
+          "locator": "main/block[1]",
+          "population_status": "adult_dev_candidate",
+          "section": "What is hoarseness?",
+          "start": 0,
+          "text": "Structures involved in speech and voice production",
+          "chunk_id": "b7c66fd4bd97a3fc3028156c",
+          "version_id": "11605fc0-df77-4d90-8883-3a19979c3c80",
+          "document_id": "nidcd-hoarseness",
+          "snapshot_id": "1d3af4ba-8a10-43fc-93e4-8e0ff1e1353c",
+          "title": "Hoarseness",
+          "source_url": "https://www.nidcd.nih.gov/health/hoarseness",
+          "topics": [
+            "throat"
+          ],
+          "clinical_review": "pending",
+          "production_eligible": false,
+          "score": 0.04572376214167259,
+          "applicability_warning": null
+        },
+        {
+          "end": 225,
+          "id": "11431f15a7d129a44f3dedfb",
+          "locator": "main/block[2]",
+          "population_status": "adult_dev_candidate",
+          "section": "What is hoarseness?",
+          "start": 0,
+          "text": "If you are hoarse, your voice will sound breathy, raspy, or strained, or will be softer in volume or lower in pitch. Your throat might feel scratchy. Hoarseness is often a symptom of problems in the vocal folds of the larynx.",
+          "chunk_id": "11431f15a7d129a44f3dedfb",
+          "document_id": "nidcd-hoarseness",
+          "version_id": "11605fc0-df77-4d90-8883-3a19979c3c80",
+          "snapshot_id": "1d3af4ba-8a10-43fc-93e4-8e0ff1e1353c",
+          "title": "Hoarseness",
+          "title_zh": "NIH/NIDCD 声嘶患者教育",
+          "source_url": "https://www.nidcd.nih.gov/health/hoarseness",
+          "publication_date": "March 6, 2017",
+          "license": "NIDCD-public-domain-unless-noted",
+          "state": "draft",
+          "clinical_review": "pending",
+          "production_eligible": false,
+          "bm25": -5.092545705141657,
+          "score": 0.045445113094002905,
+          "applicability_warning": null
+        },
+        {
+          "end": 483,
+          "id": "ddce569b1dc49d9f8f091ae0",
+          "locator": "main/block[15]",
+          "population_status": "adult_dev_candidate",
+          "section": "What are some of the disorders that cause hoarseness and how are they treated?",
+          "start": 0,
+          "text": "Neurological diseases and disorders. Neurological conditions that affect areas of the brain that control muscles in the throat or larynx can also cause hoarseness. Hoarseness is sometimes a symptom of Parkinson's disease or a stroke. Spasmodic dysphonia is a rare neurological disease that causes hoarseness and can also affect breathing. Treatment in these cases will depend upon the type of disease or disorder. For more information, read the NIDCD fact sheet, Spasmodic Dysphonia.",
+          "chunk_id": "ddce569b1dc49d9f8f091ae0",
+          "document_id": "nidcd-hoarseness",
+          "version_id": "11605fc0-df77-4d90-8883-3a19979c3c80",
+          "snapshot_id": "1d3af4ba-8a10-43fc-93e4-8e0ff1e1353c",
+          "title": "Hoarseness",
+          "title_zh": "NIH/NIDCD 声嘶患者教育",
+          "source_url": "https://www.nidcd.nih.gov/health/hoarseness",
+          "publication_date": "March 6, 2017",
+          "license": "NIDCD-public-domain-unless-noted",
+          "state": "draft",
+          "clinical_review": "pending",
+          "production_eligible": false,
+          "bm25": -6.218381968389537,
+          "score": 0.04503676470588235,
+          "applicability_warning": null
+        },
+        {
+          "end": 673,
+          "id": "7c1c3a0c51cd6bc879962ab2",
+          "locator": "main/block[16]",
+          "population_status": "adult_dev_candidate",
+          "section": "What are some of the disorders that cause hoarseness and how are they treated?",
+          "start": 0,
+          "text": "Other causes. Thyroid problems and injury to the larynx can cause hoarseness. Hoarseness may sometimes be a symptom of laryngeal cancer, which is why it is so important to see your doctor if you are hoarse for more than three weeks. Read the National Cancer Institute fact sheet, Head and Neck Cancer--Patient version. Hoarseness is also the most common symptom of a disease called recurrent respiratory papillomatosis (RRP), or laryngeal papillomatosis, which causes noncancerous tumors to grow in the larynx and other air passages leading from the nose and mouth into the lungs. Read the NIDCD fact sheet, Recurrent Respiratory Papillomatosis or Laryngeal Papillomatosis.",
+          "chunk_id": "7c1c3a0c51cd6bc879962ab2",
+          "document_id": "nidcd-hoarseness",
+          "version_id": "11605fc0-df77-4d90-8883-3a19979c3c80",
+          "snapshot_id": "1d3af4ba-8a10-43fc-93e4-8e0ff1e1353c",
+          "title": "Hoarseness",
+          "title_zh": "NIH/NIDCD 声嘶患者教育",
+          "source_url": "https://www.nidcd.nih.gov/health/hoarseness",
+          "publication_date": "March 6, 2017",
+          "license": "NIDCD-public-domain-unless-noted",
+          "state": "draft",
+          "clinical_review": "pending",
+          "production_eligible": false,
+          "bm25": -5.765339746619442,
+          "score": 0.04327731092436975,
+          "applicability_warning": null
+        },
+        {
+          "end": 58,
+          "id": "6c2ee97634b254388d56aed8",
+          "locator": "body/sec[8]/sec[3]/list[1]/list-item[9]/p[1]",
+          "population_status": "adult_dev_candidate",
+          "section": "5. Appendix / 5.3 Appendix 3: Medical history questions and clinical severity classification",
+          "start": 0,
+          "text": "Does normal environmental noise make your tinnitus louder?",
+          "chunk_id": "6c2ee97634b254388d56aed8",
+          "version_id": "d5005279-1bad-491f-8122-a2d05e558146",
+          "document_id": "tinnitus-s3-2022",
+          "snapshot_id": "1d3af4ba-8a10-43fc-93e4-8e0ff1e1353c",
+          "title": "S3 Guideline: Chronic Tinnitus",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9581878/",
+          "topics": [
+            "tinnitus"
+          ],
+          "clinical_review": "pending",
+          "production_eligible": false,
+          "score": 0.04316239316239316,
+          "applicability_warning": null
+        },
+        {
+          "end": 679,
+          "id": "ae55fda5b78117ee68fc84b9",
+          "locator": "main/block[11]",
+          "population_status": "adult_dev_candidate",
+          "section": "What are some of the disorders that cause hoarseness and how are they treated?",
+          "start": 0,
+          "text": "Gastroesophageal reflux (GERD). GERD—commonly called heartburn—can cause hoarseness when stomach acid rises up the throat and irritates the tissues. Usually hoarseness caused by GERD is worse in the morning and improves throughout the day. In some people, the stomach acid rises all the way up to the throat and larynx and irritates the vocal folds. This is called laryngopharyngeal reflux (LPR). LPR can happen during the day or night. Some people will have no heartburn with LPR, but they may feel as if they constantly have to cough to clear their throat and they may become hoarse. GERD and LPR are treated with dietary modifications and medications that reduce stomach acid.",
+          "chunk_id": "ae55fda5b78117ee68fc84b9",
+          "document_id": "nidcd-hoarseness",
+          "version_id": "11605fc0-df77-4d90-8883-3a19979c3c80",
+          "snapshot_id": "1d3af4ba-8a10-43fc-93e4-8e0ff1e1353c",
+          "title": "Hoarseness",
+          "title_zh": "NIH/NIDCD 声嘶患者教育",
+          "source_url": "https://www.nidcd.nih.gov/health/hoarseness",
+          "publication_date": "March 6, 2017",
+          "license": "NIDCD-public-domain-unless-noted",
+          "state": "draft",
+          "clinical_review": "pending",
+          "production_eligible": false,
+          "bm25": -4.9160095457796364,
+          "score": 0.04311490978157645,
+          "applicability_warning": null
+        },
+        {
+          "end": 362,
+          "id": "e6228c005748eba7217465a8",
+          "locator": "main/block[6]",
+          "population_status": "adult_dev_candidate",
+          "section": "What are the symptoms of tinnitus?",
+          "start": 0,
+          "text": "Most cases of tinnitus are subjective, meaning that only you can hear the sounds. In rare cases, the sound pulsates rhythmically, often in time to your heartbeat. In these cases, a doctor may be able to hear the sounds with a stethoscope and, if so, it is considered to be objective tinnitus. Often, objective tinnitus has an identifiable cause and is treatable.",
+          "chunk_id": "e6228c005748eba7217465a8",
+          "document_id": "nidcd-tinnitus",
+          "version_id": "9c16e968-6f17-438f-8ec9-8682ab0882b6",
+          "snapshot_id": "1d3af4ba-8a10-43fc-93e4-8e0ff1e1353c",
+          "title": "Tinnitus",
+          "title_zh": "NIH/NIDCD 耳鸣患者教育",
+          "source_url": "https://www.nidcd.nih.gov/health/tinnitus",
+          "publication_date": "May 1, 2023",
+          "license": "NIDCD-public-domain-unless-noted",
+          "state": "draft",
+          "clinical_review": "pending",
+          "production_eligible": false,
+          "bm25": -5.595985109967217,
+          "score": 0.04111153406928055,
+          "applicability_warning": null
+        }
+      ],
+      "reranked": [
+        {
+          "end": 225,
+          "id": "11431f15a7d129a44f3dedfb",
+          "locator": "main/block[2]",
+          "population_status": "adult_dev_candidate",
+          "section": "What is hoarseness?",
+          "start": 0,
+          "text": "If you are hoarse, your voice will sound breathy, raspy, or strained, or will be softer in volume or lower in pitch. Your throat might feel scratchy. Hoarseness is often a symptom of problems in the vocal folds of the larynx.",
+          "chunk_id": "11431f15a7d129a44f3dedfb",
+          "document_id": "nidcd-hoarseness",
+          "version_id": "11605fc0-df77-4d90-8883-3a19979c3c80",
+          "snapshot_id": "1d3af4ba-8a10-43fc-93e4-8e0ff1e1353c",
+          "title": "Hoarseness",
+          "title_zh": "NIH/NIDCD 声嘶患者教育",
+          "source_url": "https://www.nidcd.nih.gov/health/hoarseness",
+          "publication_date": "March 6, 2017",
+          "license": "NIDCD-public-domain-unless-noted",
+          "state": "draft",
+          "clinical_review": "pending",
+          "production_eligible": false,
+          "bm25": -5.092545705141657,
+          "score": 0.045445113094002905,
+          "rerank_score": -0.5212647318840027,
+          "applicability_warning": null
+        },
+        {
+          "end": 1074,
+          "id": "18fadfbeb49989d392cbb5c5",
+          "locator": "body/sec[7]/sec[1]/sec[5]/sec[2]/p[6]",
+          "population_status": "adult_dev_candidate",
+          "section": "4 Therapy of chronic tinnitus / 4.1 Presentation of therapies with recommendations / 4.1.5 Music therapy approaches and sound therapy / Evidence-based recommendation",
+          "start": 0,
+          "text": "These initial study results prompted a large-scale placebo-controlled trial of TMNMT. Stein et al. [197] published these results, in which 100 patients were randomly treated with a verum alienation (i.e. analogous to the previously determined tinnitus frequency) and 100 patients with a placebo alienation. The primary outcome measure (Tinnitus Questionnaire) did not show the predicted effect of treatment, but patients in the verum group reported a reduction in perceived loudness using a visual analogue scale (this effect was found only in the no-dropout analysis—F [1, 81] = 4.075; p = 0.047— and not in an intention-to-treat analysis). In a Chinese study, 43 patients with chronic idiopathic tinnitus were assigned to either a group receiving TMNMT or masking treatment (sound masking). The authors reported significant or highly significant changes in perceived loudness (visual analogue scale) and the Tinnitus Handicap Inventory ([198]; the publication is available in Chinese; only the abstract is available in English). Methodological aspects remain very unclear.",
+          "chunk_id": "18fadfbeb49989d392cbb5c5",
+          "version_id": "d5005279-1bad-491f-8122-a2d05e558146",
+          "document_id": "tinnitus-s3-2022",
+          "snapshot_id": "1d3af4ba-8a10-43fc-93e4-8e0ff1e1353c",
+          "title": "S3 Guideline: Chronic Tinnitus",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9581878/",
+          "topics": [
+            "tinnitus"
+          ],
+          "clinical_review": "pending",
+          "production_eligible": false,
+          "score": 0.011494252873563218,
+          "rerank_score": -1.8632715940475464,
+          "applicability_warning": null
+        },
+        {
+          "end": 1673,
+          "id": "8ac0786db2c9afe772e1325a",
+          "locator": "body/sec[7]/sec[1]/sec[5]/sec[3]/p[5]",
+          "population_status": "adult_dev_candidate",
+          "section": "4 Therapy of chronic tinnitus / 4.1 Presentation of therapies with recommendations / 4.1.5 Music therapy approaches and sound therapy / Evidence-based recommendation",
+          "start": 0,
+          "text": "Not only music but tones or complex sequences of tones and auditory scenes have been studied in various ways for the treatment of tinnitus. Durai and Searchfield [203] compared the influence of listening to natural sounds with static broadband noise in a cross-over design. Patients were randomly assigned to two groups in which the order of the listening condition was counterbalanced. The two phases lasted 8 weeks each, whereby the individual duration varied greatly. Overall, various effects were measured over time for both conditions, but as there was no untreated control group, these effects are difficult to interpret. The TFI as the primary outcome variable showed a greater reduction in the broadband noise condition, but the tinnitus loudness matching worsened. Overall, nature noise was expected to lead to improvement, but the opposite was true. In another study, broadband noise was compared as a control condition against a variant of sound therapy called ‘harmonic sound therapy’ [204]. In this therapy, sounds with narrowband noise around the first and fourth subharmonic are presented around the tinnitus frequency. A total of 18 patients were randomly assigned in a cross-over design with two arms and received the respective therapy conditions for 2 h a day for 3 months. Again, when the study arms were compared independently, several effects were seen in various variables over the time of treatment and when the arms were compared independently. When the study arms were compared directly, there was only a reduction in perceived loudness and THI. The analysis strategy has statistical flaws as not all comparison cells are included in the analysis.",
+          "chunk_id": "8ac0786db2c9afe772e1325a",
+          "version_id": "d5005279-1bad-491f-8122-a2d05e558146",
+          "document_id": "tinnitus-s3-2022",
+          "snapshot_id": "1d3af4ba-8a10-43fc-93e4-8e0ff1e1353c",
+          "title": "S3 Guideline: Chronic Tinnitus",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9581878/",
+          "topics": [
+            "tinnitus"
+          ],
+          "clinical_review": "pending",
+          "production_eligible": false,
+          "score": 0.011764705882352941,
+          "rerank_score": -2.611156463623047,
+          "applicability_warning": null
+        },
+        {
+          "end": 192,
+          "id": "855545214f4be7613e014f31",
+          "locator": "main/block[5]",
+          "population_status": "adult_dev_candidate",
+          "section": "How does our voice work?",
+          "start": 0,
+          "text": "Individual variations in our voices are the result of how much tension we put on our vocal folds. For example, relaxing the vocal folds makes a voice deeper; tensing them makes a voice higher.",
+          "chunk_id": "855545214f4be7613e014f31",
+          "version_id": "11605fc0-df77-4d90-8883-3a19979c3c80",
+          "document_id": "nidcd-hoarseness",
+          "snapshot_id": "1d3af4ba-8a10-43fc-93e4-8e0ff1e1353c",
+          "title": "Hoarseness",
+          "source_url": "https://www.nidcd.nih.gov/health/hoarseness",
+          "topics": [
+            "throat"
+          ],
+          "clinical_review": "pending",
+          "production_eligible": false,
+          "score": 0.0273972602739726,
+          "rerank_score": -2.839308738708496,
+          "applicability_warning": null
+        },
+        {
+          "end": 1800,
+          "id": "2d43e7d1754d456b4d893e78",
+          "locator": "body/sec[7]/sec[1]/sec[8]/sec[3]/p[7]",
+          "population_status": "adult_dev_candidate",
+          "section": "4 Therapy of chronic tinnitus / 4.1 Presentation of therapies with recommendations / 4.1.8 Electrostimulation / Evidence-based recommendation",
+          "start": 0,
+          "text": "Another method combines the presentation of tones with electrostimulation of the tongue [281]. Again, only a pilot study or study protocol has been published to date, but this does not include a placebo group [282]. Although these seem to document general tolerability, valid and above all placebo-controlled studies are not yet available, but have been announced. The new study will include 192 patients who will be treated in four arms and followed up for 1 year. This study will also include an acoustic-stimulation-only arm without tongue stimulation [283]. In 2020, Conlon et al. [284] published the results of the study presented in 2017, unfortunately without placebo control. For this, 326 patients were recruited in two centres and randomly assigned to three equally sized stimulation groups each in a double-blind fashion. These groups differed in stimulus parameters and the sounds paired with them, whereby the first group used high-frequency sounds with synchronously applied electrical stimulation of the tongue, the second group used comparable stimuli without synchronisation, and the third group used acoustic stimulation with low-frequency sounds that were not synchronised with electrical tongue stimulation. Treatment was given for 12 weeks with 2 × 30 min of application daily. After treatment, the scores of all three groups improved significantly, the findings were measured with THI and TFI and checked again after 12 months, where they remained stable. The data of 20% of the participants did not improve with the bimodal stimulation. The evaluation does not differentiate which different hearing losses were present and especially why the values of all groups improved, although the stimulation parameters of the third group were relatively unsuitable for the postulate of n",
+          "chunk_id": "2d43e7d1754d456b4d893e78",
+          "document_id": "tinnitus-s3-2022",
+          "version_id": "d5005279-1bad-491f-8122-a2d05e558146",
+          "snapshot_id": "1d3af4ba-8a10-43fc-93e4-8e0ff1e1353c",
+          "title": "S3 Guideline: Chronic Tinnitus",
+          "title_zh": "慢性耳鸣 S3 指南（德国学会，2022）",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9581878/",
+          "publication_date": "2022-10-13",
+          "license": "CC-BY-4.0",
+          "state": "draft",
+          "clinical_review": "pending",
+          "production_eligible": false,
+          "bm25": -3.9151779844092127,
+          "score": 0.03170945797673908,
+          "rerank_score": -3.509502649307251,
+          "applicability_warning": null
+        },
+        {
+          "end": 135,
+          "id": "9c24d45b4e0f2cdfcac1506c",
+          "locator": "body/sec[8]/sec[2]/list[1]/list-item[2]/p[1]",
+          "population_status": "adult_dev_candidate",
+          "section": "5. Appendix / 5.2 Appendix 2: Counselling for Tinnitus",
+          "start": 0,
+          "text": "There are physiological noises such as swallowing, which are usually louder than the subjective ear noise, but which are not perceived.",
+          "chunk_id": "9c24d45b4e0f2cdfcac1506c",
+          "version_id": "d5005279-1bad-491f-8122-a2d05e558146",
+          "document_id": "tinnitus-s3-2022",
+          "snapshot_id": "1d3af4ba-8a10-43fc-93e4-8e0ff1e1353c",
+          "title": "S3 Guideline: Chronic Tinnitus",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9581878/",
+          "topics": [
+            "tinnitus"
+          ],
+          "clinical_review": "pending",
+          "production_eligible": false,
+          "score": 0.010638297872340425,
+          "rerank_score": -3.5785999298095703,
+          "applicability_warning": null
+        },
+        {
+          "end": 786,
+          "id": "b3a7516e456b04ea8b67393e",
+          "locator": "main/block[10]",
+          "population_status": "adult_dev_candidate",
+          "section": "What are some of the disorders that cause hoarseness and how are they treated?",
+          "start": 0,
+          "text": "Misusing or overusing your voice. Cheering at sporting events, speaking loudly in noisy situations, talking for too long without resting your voice, singing loudly, or speaking with a voice that's too high or too low can cause temporary hoarseness. Resting, reducing voice use, and drinking lots of water should help relieve hoarseness from misuse or overuse. Sometimes people whose jobs depend on their voices—such as teachers, singers, or public speakers—develop hoarseness that won't go away. If you use your voice for a living and you regularly experience hoarseness, your doctor might suggest seeing a speech-language pathologist for voice therapy. In voice therapy, you'll be given vocal exercises and tips for avoiding hoarseness by changing the ways in which you use your voice.",
+          "chunk_id": "b3a7516e456b04ea8b67393e",
+          "document_id": "nidcd-hoarseness",
+          "version_id": "11605fc0-df77-4d90-8883-3a19979c3c80",
+          "snapshot_id": "1d3af4ba-8a10-43fc-93e4-8e0ff1e1353c",
+          "title": "Hoarseness",
+          "title_zh": "NIH/NIDCD 声嘶患者教育",
+          "source_url": "https://www.nidcd.nih.gov/health/hoarseness",
+          "publication_date": "March 6, 2017",
+          "license": "NIDCD-public-domain-unless-noted",
+          "state": "draft",
+          "clinical_review": "pending",
+          "production_eligible": false,
+          "bm25": -6.334037297231223,
+          "score": 0.04838709677419355,
+          "rerank_score": -3.649733543395996,
+          "applicability_warning": null
+        },
+        {
+          "end": 1612,
+          "id": "1f8c891eed87015442969920",
+          "locator": "main/block[26]",
+          "population_status": "adult_dev_candidate",
+          "section": "What treatments can help tinnitus?",
+          "start": 0,
+          "text": "Sound therapies. Sound therapies are based partly on the view that tinnitus stems from changes in neural circuits in the brain brought on by hearing loss. Some evidence suggests that exposure to sound can reverse some of these neural changes and help silence tinnitus. Sound therapy may also work by masking the tinnitus sounds, helping you grow accustomed to them, or distracting you. Several types of devices are used in sound therapy. They include the following: Tabletop or smartphone sound generators are typically used as an aid for relaxation or sleep. Placed near your bed, you can program a generator or set a smartphone app to play pleasant sounds such as waves, waterfalls, rain, or the sounds of a summer night. You may also use other sound generators, such as a radio or a household fan. If your tinnitus is mild, this might be all that you need to help you fall asleep. Hearing aids are one of the main treatment options for people with tinnitus who have hearing loss. They amplify external noises, allowing you to better engage with the world, while also making your tinnitus less noticeable. Wearable sound generators are small electronic devices that fit in the ear much like hearing aids and emit soft, pleasant sounds. Because they are portable, these devices can provide continuous relief from tinnitus throughout the day. Smartphone apps may also be used to generate these sounds. Combination devices, which fit into the ear like hearing aids, provide sound amplification and sound generation in one device. These devices are another option for treating tinnitus in people with hearing loss.",
+          "chunk_id": "1f8c891eed87015442969920",
+          "document_id": "nidcd-tinnitus",
+          "version_id": "9c16e968-6f17-438f-8ec9-8682ab0882b6",
+          "snapshot_id": "1d3af4ba-8a10-43fc-93e4-8e0ff1e1353c",
+          "title": "Tinnitus",
+          "title_zh": "NIH/NIDCD 耳鸣患者教育",
+          "source_url": "https://www.nidcd.nih.gov/health/tinnitus",
+          "publication_date": "May 1, 2023",
+          "license": "NIDCD-public-domain-unless-noted",
+          "state": "draft",
+          "clinical_review": "pending",
+          "production_eligible": false,
+          "bm25": -5.108885939074703,
+          "score": 0.037987012987012986,
+          "rerank_score": -3.6609535217285156,
+          "applicability_warning": null
+        },
+        {
+          "end": 298,
+          "id": "e0df42209aff4e381b2cb825",
+          "locator": "main/block[3]",
+          "population_status": "adult_dev_candidate",
+          "section": "How does our voice work?",
+          "start": 0,
+          "text": "The sound of our voice is produced by vibration of the vocal folds, which are two bands of smooth muscle tissue that are positioned opposite each other in the larynx. The larynx is located between the base of the tongue and the top of the trachea, which is the passageway to the lungs (see figure).",
+          "chunk_id": "e0df42209aff4e381b2cb825",
+          "version_id": "11605fc0-df77-4d90-8883-3a19979c3c80",
+          "document_id": "nidcd-hoarseness",
+          "snapshot_id": "1d3af4ba-8a10-43fc-93e4-8e0ff1e1353c",
+          "title": "Hoarseness",
+          "source_url": "https://www.nidcd.nih.gov/health/hoarseness",
+          "topics": [
+            "throat"
+          ],
+          "clinical_review": "pending",
+          "production_eligible": false,
+          "score": 0.02666666666666667,
+          "rerank_score": -3.828739643096924,
+          "applicability_warning": null
+        },
+        {
+          "end": 483,
+          "id": "d9f978e15f2632020aa77756",
+          "locator": "main/block[17]",
+          "population_status": "adult_dev_candidate",
+          "section": "What research is being done to better understand and treat hoarseness?",
+          "start": 0,
+          "text": "Researchers funded by the NIDCD are working with teachers to devise strategies to help them reduce the stress and strain on their voices. In one study, the teachers use a voice \"dosimeter\" that takes into account the frequency and loudness of their speech along with the duration of vibration in their vocal folds to determine their daily \"dose\" of vocal use. The researcher hopes to establish a safe level of voice use, as well as recommended recovery times from prolonged speaking.",
+          "chunk_id": "d9f978e15f2632020aa77756",
+          "version_id": "11605fc0-df77-4d90-8883-3a19979c3c80",
+          "document_id": "nidcd-hoarseness",
+          "snapshot_id": "1d3af4ba-8a10-43fc-93e4-8e0ff1e1353c",
+          "title": "Hoarseness",
+          "source_url": "https://www.nidcd.nih.gov/health/hoarseness",
+          "topics": [
+            "throat"
+          ],
+          "clinical_review": "pending",
+          "production_eligible": false,
+          "score": 0.028985507246376812,
+          "rerank_score": -3.8422157764434814,
+          "applicability_warning": null
+        }
+      ],
+      "run_id": "10b313e6-ff5c-4258-a90d-fb3f8196207c",
+      "elapsed_ms": 7460,
+      "reranker_enabled": true
+    },
+    "answer": {
+      "status": "answered",
+      "professional": [
+        {
+          "text": "资料描述声音嘶哑时，声音可能表现为气息声、raspy或strained，也可能音量变小或音调变低。",
+          "supports": [
+            {
+              "evidence_id": "E1",
+              "quote": "If you are hoarse, your voice will sound breathy, raspy, or strained, or will be softer in volume or lower in pitch."
+            }
+          ],
+          "input_fields": []
+        }
+      ],
+      "input_explanation": [
+        {
+          "text": "输入记录的主诉为声音嘶哑，与资料中描述声音嘶哑时声音变化的条目相对应。",
+          "supports": [
+            {
+              "evidence_id": "E1",
+              "quote": "If you are hoarse, your voice will sound breathy, raspy, or strained, or will be softer in volume or lower in pitch."
+            }
+          ],
+          "input_fields": [
+            "chief_complaint"
+          ],
+          "source_kind": "medical_comparison",
+          "input_anchors": [
+            {
+              "field": "chief_complaint",
+              "quote": "声音嘶哑",
+              "state": "reported"
+            }
+          ]
+        }
+      ],
+      "patient_summary": [
+        {
+          "text": "声音嘶哑时，说话声可能变得气息声、沙哑或紧绷，也可能音量变小或音调变低。",
+          "supports": [
+            {
+              "evidence_id": "E1",
+              "quote": "If you are hoarse, your voice will sound breathy, raspy, or strained, or will be softer in volume or lower in pitch."
+            }
+          ],
+          "input_fields": []
+        }
+      ],
+      "limitations": []
+    },
+    "citations": [
+      {
+        "evidence_id": "E1",
+        "version_id": "11605fc0-df77-4d90-8883-3a19979c3c80",
+        "chunk_id": "11431f15a7d129a44f3dedfb",
+        "document_id": "nidcd-hoarseness",
+        "title": "Hoarseness",
+        "locator": "main/block[2]",
+        "source_url": "https://www.nidcd.nih.gov/health/hoarseness",
+        "text": "If you are hoarse, your voice will sound breathy, raspy, or strained, or will be softer in volume or lower in pitch. Your throat might feel scratchy. Hoarseness is often a symptom of problems in the vocal folds of the larynx.",
+        "quote_options": [
+          {
+            "quote_id": "E1.Q1",
+            "text": "If you are hoarse, your voice will sound breathy, raspy, or strained, or will be softer in volume or lower in pitch."
+          },
+          {
+            "quote_id": "E1.Q2",
+            "text": "Your throat might feel scratchy."
+          },
+          {
+            "quote_id": "E1.Q3",
+            "text": "Hoarseness is often a symptom of problems in the vocal folds of the larynx."
+          }
+        ],
+        "text_truncated": false,
+        "clinical_review": "pending"
+      },
+      {
+        "evidence_id": "E2",
+        "version_id": "d5005279-1bad-491f-8122-a2d05e558146",
+        "chunk_id": "18fadfbeb49989d392cbb5c5",
+        "document_id": "tinnitus-s3-2022",
+        "title": "S3 Guideline: Chronic Tinnitus",
+        "locator": "body/sec[7]/sec[1]/sec[5]/sec[2]/p[6]",
+        "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9581878/",
+        "text": "These initial study results prompted a large-scale placebo-controlled trial of TMNMT. Stein et al. [197] published these results, in which 100 patients were randomly treated with a verum alienation (i.e. analogous to the previously determined tinnitus frequency) and 100 patients with a placebo alienation. The primary outcome measure (Tinnitus Questionnaire) did not show the predicted effect of treatment, but patients in the verum group reported a reduction in perceived loudness using a visual analogue scale (this effect was found only in the no-dropout analysis—F [1, 81] = 4.075; p = 0.047— and not in an intention-to-treat analysis). In a Chinese study, 43 patients with chronic idiopathic tinnitus were assigned to either a group receiving TMNMT or masking treatment (sound masking). The authors reported significant or highly significant changes in perceived loudness (visual analogue scale) and the Tinnitus Handicap Inventory ([198]; the publication is available in Chinese; only the abstract is available in English). Methodological aspects remain very unclear.",
+        "quote_options": [
+          {
+            "quote_id": "E2.Q1",
+            "text": "These initial study results prompted a large-scale placebo-controlled trial of TMNMT."
+          },
+          {
+            "quote_id": "E2.Q2",
+            "text": "Stein et al."
+          },
+          {
+            "quote_id": "E2.Q3",
+            "text": "[197] published these results, in which 100 patients were randomly treated with a verum alienation (i.e. analogous to the previously determined tinnitus frequency) and 100 patients with a placebo alienation."
+          },
+          {
+            "quote_id": "E2.Q4",
+            "text": "In a Chinese study, 43 patients with chronic idiopathic tinnitus were assigned to either a group receiving TMNMT or masking treatment (sound masking)."
+          },
+          {
+            "quote_id": "E2.Q5",
+            "text": "The authors reported significant or highly significant changes in perceived loudness (visual analogue scale) and the Tinnitus Handicap Inventory ([198]; the publication is available in Chinese; only the abstract is available in English)."
+          },
+          {
+            "quote_id": "E2.Q6",
+            "text": "Methodological aspects remain very unclear."
+          }
+        ],
+        "text_truncated": false,
+        "clinical_review": "pending"
+      },
+      {
+        "evidence_id": "E3",
+        "version_id": "d5005279-1bad-491f-8122-a2d05e558146",
+        "chunk_id": "8ac0786db2c9afe772e1325a",
+        "document_id": "tinnitus-s3-2022",
+        "title": "S3 Guideline: Chronic Tinnitus",
+        "locator": "body/sec[7]/sec[1]/sec[5]/sec[3]/p[5]",
+        "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9581878/",
+        "text": "Not only music but tones or complex sequences of tones and auditory scenes have been studied in various ways for the treatment of tinnitus. Durai and Searchfield [203] compared the influence of listening to natural sounds with static broadband noise in a cross-over design. Patients were randomly assigned to two groups in which the order of the listening condition was counterbalanced. The two phases lasted 8 weeks each, whereby the individual duration varied greatly. Overall, various effects were measured over time for both conditions, but as there was no untreated control group, these effects are difficult to interpret. The TFI as the primary outcome variable showed a greater reduction in the broadband noise condition, but the tinnitus loudness matching worsened. Overall, nature noise was expected to lead to improvement, but the opposite was true. In another study, broadband noise was compared as a control condition against a variant of sound therapy called ‘harmonic sound therapy’ [204]. In this therapy, sounds with narrowband noise around the first and fourth subharmonic are presented around the tinnitus frequency. A total of 18 patients were randomly assigned in a cross-over design with two arms and received the respective therapy conditions for 2 h a day for 3 months. Again, when the study arms were compared independently, several effects were seen in various variables over the time of treatment and when the arms were compared independently. When the study arms were compared directly, there was only a reduction in perceived loudness and THI. The analysis strategy has statistical flaws as not all comparison cells are included in the analysis.",
+        "quote_options": [
+          {
+            "quote_id": "E3.Q1",
+            "text": "Not only music but tones or complex sequences of tones and auditory scenes have been studied in various ways for the treatment of tinnitus."
+          },
+          {
+            "quote_id": "E3.Q2",
+            "text": "Durai and Searchfield [203] compared the influence of listening to natural sounds with static broadband noise in a cross-over design."
+          },
+          {
+            "quote_id": "E3.Q3",
+            "text": "Patients were randomly assigned to two groups in which the order of the listening condition was counterbalanced."
+          },
+          {
+            "quote_id": "E3.Q4",
+            "text": "The two phases lasted 8 weeks each, whereby the individual duration varied greatly."
+          },
+          {
+            "quote_id": "E3.Q5",
+            "text": "Overall, various effects were measured over time for both conditions, but as there was no untreated control group, these effects are difficult to interpret."
+          },
+          {
+            "quote_id": "E3.Q6",
+            "text": "The TFI as the primary outcome variable showed a greater reduction in the broadband noise condition, but the tinnitus loudness matching worsened."
+          },
+          {
+            "quote_id": "E3.Q7",
+            "text": "Overall, nature noise was expected to lead to improvement, but the opposite was true."
+          },
+          {
+            "quote_id": "E3.Q8",
+            "text": "In another study, broadband noise was compared as a control condition against a variant of sound therapy called ‘harmonic sound therapy’ [204]."
+          },
+          {
+            "quote_id": "E3.Q9",
+            "text": "In this therapy, sounds with narrowband noise around the first and fourth subharmonic are presented around the tinnitus frequency."
+          },
+          {
+            "quote_id": "E3.Q10",
+            "text": "A total of 18 patients were randomly assigned in a cross-over design with two arms and received the respective therapy conditions for 2 h a day for 3 months."
+          },
+          {
+            "quote_id": "E3.Q11",
+            "text": "Again, when the study arms were compared independently, several effects were seen in various variables over the time of treatment and when the arms were compared independently."
+          },
+          {
+            "quote_id": "E3.Q12",
+            "text": "When the study arms were compared directly, there was only a reduction in perceived loudness and THI."
+          },
+          {
+            "quote_id": "E3.Q13",
+            "text": "The analysis strategy has statistical flaws as not all comparison cells are included in the analysis."
+          }
+        ],
+        "text_truncated": false,
+        "clinical_review": "pending"
+      },
+      {
+        "evidence_id": "E4",
+        "version_id": "11605fc0-df77-4d90-8883-3a19979c3c80",
+        "chunk_id": "855545214f4be7613e014f31",
+        "document_id": "nidcd-hoarseness",
+        "title": "Hoarseness",
+        "locator": "main/block[5]",
+        "source_url": "https://www.nidcd.nih.gov/health/hoarseness",
+        "text": "Individual variations in our voices are the result of how much tension we put on our vocal folds. For example, relaxing the vocal folds makes a voice deeper; tensing them makes a voice higher.",
+        "quote_options": [
+          {
+            "quote_id": "E4.Q1",
+            "text": "Individual variations in our voices are the result of how much tension we put on our vocal folds."
+          },
+          {
+            "quote_id": "E4.Q2",
+            "text": "For example, relaxing the vocal folds makes a voice deeper; tensing them makes a voice higher."
+          }
+        ],
+        "text_truncated": false,
+        "clinical_review": "pending"
+      },
+      {
+        "evidence_id": "E5",
+        "version_id": "d5005279-1bad-491f-8122-a2d05e558146",
+        "chunk_id": "2d43e7d1754d456b4d893e78",
+        "document_id": "tinnitus-s3-2022",
+        "title": "S3 Guideline: Chronic Tinnitus",
+        "locator": "body/sec[7]/sec[1]/sec[8]/sec[3]/p[7]",
+        "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9581878/",
+        "text": "Another method combines the presentation of tones with electrostimulation of the tongue [281]. Again, only a pilot study or study protocol has been published to date, but this does not include a placebo group [282]. Although these seem to document general tolerability, valid and above all placebo-controlled studies are not yet available, but have been announced. The new study will include 192 patients who will be treated in four arms and followed up for 1 year. This study will also include an acoustic-stimulation-only arm without tongue stimulation [283]. In 2020, Conlon et al. [284] published the results of the study presented in 2017, unfortunately without placebo control. For this, 326 patients were recruited in two centres and randomly assigned to three equally sized stimulation groups each in a double-blind fashion. These groups differed in stimulus parameters and the sounds paired with them, whereby the first group used high-frequency sounds with synchronously applied electrical stimulation of the tongue, the second group used comparable stimuli without synchronisation, and the third group used acoustic stimulation with low-frequency sounds that were not synchronised with electrical tongue stimulation. Treatment was given for 12 weeks with 2 × 30 min of application daily. After treatment, the scores of all three groups improved significantly, the findings were measured with THI and TFI and checked again after 12 months, where they remained stable. The data of 20% of the participants did not improve with the bimodal stimulation. The evaluation does not differentiate which different hearing losses were present and especially why the values of all groups improved, although the stimulation parameters of the third group were relatively unsuitable for the postulate of n",
+        "quote_options": [
+          {
+            "quote_id": "E5.Q1",
+            "text": "Another method combines the presentation of tones with electrostimulation of the tongue [281]."
+          },
+          {
+            "quote_id": "E5.Q2",
+            "text": "Again, only a pilot study or study protocol has been published to date, but this does not include a placebo group [282]."
+          },
+          {
+            "quote_id": "E5.Q3",
+            "text": "Although these seem to document general tolerability, valid and above all placebo-controlled studies are not yet available, but have been announced."
+          },
+          {
+            "quote_id": "E5.Q4",
+            "text": "The new study will include 192 patients who will be treated in four arms and followed up for 1 year."
+          },
+          {
+            "quote_id": "E5.Q5",
+            "text": "This study will also include an acoustic-stimulation-only arm without tongue stimulation [283]."
+          },
+          {
+            "quote_id": "E5.Q6",
+            "text": "In 2020, Conlon et al."
+          },
+          {
+            "quote_id": "E5.Q7",
+            "text": "[284] published the results of the study presented in 2017, unfortunately without placebo control."
+          },
+          {
+            "quote_id": "E5.Q8",
+            "text": "For this, 326 patients were recruited in two centres and randomly assigned to three equally sized stimulation groups each in a double-blind fashion."
+          },
+          {
+            "quote_id": "E5.Q9",
+            "text": "Treatment was given for 12 weeks with 2 × 30 min of application daily."
+          },
+          {
+            "quote_id": "E5.Q10",
+            "text": "After treatment, the scores of all three groups improved significantly, the findings were measured with THI and TFI and checked again after 12 months, where they remained stable."
+          },
+          {
+            "quote_id": "E5.Q11",
+            "text": "The data of 20% of the participants did not improve with the bimodal stimulation."
+          },
+          {
+            "quote_id": "E5.Q12",
+            "text": "The evaluation does not differentiate which different hearing losses were present and especially why the values of all groups improved, although the stimulation parameters of the third group were relatively unsuitable for the postulate of n"
+          }
+        ],
+        "text_truncated": false,
+        "clinical_review": "pending"
+      },
+      {
+        "evidence_id": "E6",
+        "version_id": "d5005279-1bad-491f-8122-a2d05e558146",
+        "chunk_id": "9c24d45b4e0f2cdfcac1506c",
+        "document_id": "tinnitus-s3-2022",
+        "title": "S3 Guideline: Chronic Tinnitus",
+        "locator": "body/sec[8]/sec[2]/list[1]/list-item[2]/p[1]",
+        "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9581878/",
+        "text": "There are physiological noises such as swallowing, which are usually louder than the subjective ear noise, but which are not perceived.",
+        "quote_options": [
+          {
+            "quote_id": "E6.Q1",
+            "text": "There are physiological noises such as swallowing, which are usually louder than the subjective ear noise, but which are not perceived."
+          }
+        ],
+        "text_truncated": false,
+        "clinical_review": "pending"
+      }
+    ],
+    "validation": {
+      "citation_identity_and_quote_match": true,
+      "semantic_support": "model_judgment_only",
+      "clinical_approval": false,
+      "input_check": "exact_field_anchors_and_bounded_attribution_screen",
+      "requested_quote_selectors": 2,
+      "generation_evidence_ids": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6"
+      ],
+      "draft_summary_placeholder": true,
+      "citation_context_expansions": [],
+      "atomization": [],
+      "dose_screen": "heuristic_passed",
+      "quote_repair": {
+        "attempts": 0,
+        "accepted": false
+      },
+      "core_verification": {
+        "claims": [
+          {
+            "claim_id": "professional:0",
+            "supported": true,
+            "reason": "supported",
+            "checked_quote_indexes": [
+              0
+            ]
+          },
+          {
+            "claim_id": "input_explanation:0",
+            "supported": true,
+            "reason": "supported",
+            "checked_quote_indexes": [
+              0
+            ]
+          }
+        ],
+        "retained_answer_addresses_question": true,
+        "refusal_assessment": "not_applicable",
+        "refusal_supports": [],
+        "atom_groups": [],
+        "split_group_complete": true,
+        "mixed_group_withheld": false,
+        "retained_indexes": {
+          "professional": [
+            0
+          ],
+          "input_explanation": [
+            0
+          ],
+          "patient_summary": []
+        },
+        "withhold_causes": [],
+        "format_attempts": 1,
+        "format_errors": [],
+        "format_feedback": null,
+        "deterministic_record_claim_ids": []
+      },
+      "core_verification_metadata": {
+        "requested_model": "deepseek-flash",
+        "returned_model": "deepseek-flash",
+        "usage": {
+          "prompt_tokens": 2701,
+          "completion_tokens": 83,
+          "total_tokens": 2784
+        },
+        "prompt_sha256": "5c00fe1fcda7be7945e595ac9e7268ab641a8a5469fa10eaf7d07ec4f48db9c0",
+        "deterministic_record_claim_ids": []
+      },
+      "original_status": "answered",
+      "isolated_patient_summary": true,
+      "summary_core_selection": {
+        "selected_original_index": 0,
+        "professional_order": [
+          0
+        ],
+        "skipped": [
+          {
+            "index": 0,
+            "code": "patient_summary_unexplained_term",
+            "rule": "untranslated_voice_term_in_patient_text"
+          }
+        ]
+      },
+      "summary_metadata": {
+        "requested_model": "deepseek-flash",
+        "returned_model": "deepseek-flash",
+        "usage": {
+          "prompt_tokens": 616,
+          "completion_tokens": 30,
+          "total_tokens": 646
+        },
+        "prompt_sha256": "e1f112d2f87f6c7c1a94c4977d3563473c3bfa82c0b1a5b16e4749a3a1ffad00"
+      },
+      "verification": {
+        "claims": [
+          {
+            "claim_id": "professional:0",
+            "supported": true,
+            "reason": "supported",
+            "checked_quote_indexes": [
+              0
+            ]
+          },
+          {
+            "claim_id": "input_explanation:0",
+            "supported": true,
+            "reason": "supported",
+            "checked_quote_indexes": [
+              0
+            ]
+          },
+          {
+            "claim_id": "patient_summary:0",
+            "supported": true,
+            "reason": "supported",
+            "checked_quote_indexes": [
+              0
+            ]
+          }
+        ],
+        "retained_answer_addresses_question": true,
+        "refusal_assessment": "not_applicable",
+        "refusal_supports": [],
+        "atom_groups": [],
+        "split_group_complete": true,
+        "mixed_group_withheld": false,
+        "retained_indexes": {
+          "professional": [
+            0
+          ],
+          "input_explanation": [
+            0
+          ],
+          "patient_summary": [
+            0
+          ]
+        },
+        "withhold_causes": [],
+        "format_attempts": 1,
+        "format_errors": [],
+        "format_feedback": null,
+        "deterministic_record_claim_ids": []
+      },
+      "verification_metadata": {
+        "requested_model": "deepseek-flash",
+        "returned_model": "deepseek-flash",
+        "usage": {
+          "prompt_tokens": 2893,
+          "completion_tokens": 109,
+          "total_tokens": 3002
+        },
+        "prompt_sha256": "5c00fe1fcda7be7945e595ac9e7268ab641a8a5469fa10eaf7d07ec4f48db9c0",
+        "deterministic_record_claim_ids": []
+      },
+      "outcome_category": "answer_ready"
+    },
+    "model": "deepseek-flash",
+    "provider_base_url": "https://api.deepseek.com",
+    "elapsed_ms": 11694,
+    "synthetic_only": true,
+    "generation_metadata": {
+      "requested_model": "deepseek-flash",
+      "returned_model": "deepseek-flash",
+      "usage": {
+        "prompt_tokens": 6235,
+        "completion_tokens": 145,
+        "total_tokens": 6380
+      },
+      "prompt_sha256": "cf1aa4b9dfccb72886de0f2be05cf4620dc1ac542456cec5260efedf23191c07"
+    }
+  },
+  "trace": [
+    {
+      "stage": "draft",
+      "candidate": {
+        "status": "answered",
+        "professional": [
+          {
+            "text": "资料描述声音嘶哑时，声音可能表现为气息声、raspy或strained，也可能音量变小或音调变低。",
+            "supports": [
+              {
+                "evidence_id": "E1",
+                "quote_id": "E1.Q1"
+              }
+            ],
+            "input_fields": []
+          }
+        ],
+        "input_explanation": [
+          {
+            "text": "输入记录的主诉为声音嘶哑，与资料中描述声音嘶哑时声音变化的条目相对应。",
+            "source_kind": "medical_comparison",
+            "supports": [
+              {
+                "evidence_id": "E1",
+                "quote_id": "E1.Q1"
+              }
+            ],
+            "input_anchor_ids": [
+              "I2"
+            ]
+          }
+        ],
+        "patient_summary": [],
+        "limitations": []
+      }
+    },
+    {
+      "stage": "verify",
+      "candidate": {
+        "status": "answered",
+        "professional": [
+          {
+            "text": "资料描述声音嘶哑时，声音可能表现为气息声、raspy或strained，也可能音量变小或音调变低。",
+            "supports": [
+              {
+                "evidence_id": "E1",
+                "quote": "If you are hoarse, your voice will sound breathy, raspy, or strained, or will be softer in volume or lower in pitch."
+              }
+            ],
+            "input_fields": []
+          }
+        ],
+        "input_explanation": [
+          {
+            "text": "输入记录的主诉为声音嘶哑，与资料中描述声音嘶哑时声音变化的条目相对应。",
+            "supports": [
+              {
+                "evidence_id": "E1",
+                "quote": "If you are hoarse, your voice will sound breathy, raspy, or strained, or will be softer in volume or lower in pitch."
+              }
+            ],
+            "input_fields": [
+              "chief_complaint"
+            ],
+            "source_kind": "medical_comparison",
+            "input_anchors": [
+              {
+                "field": "chief_complaint",
+                "quote": "声音嘶哑",
+                "state": "reported"
+              }
+            ]
+          }
+        ],
+        "patient_summary": [],
+        "limitations": []
+      },
+      "judgment": {
+        "claims": [
+          {
+            "claim_id": "professional:0",
+            "supported": true,
+            "reason": "supported",
+            "checked_quote_indexes": [
+              0
+            ]
+          },
+          {
+            "claim_id": "input_explanation:0",
+            "supported": true,
+            "reason": "supported",
+            "checked_quote_indexes": [
+              0
+            ]
+          }
+        ],
+        "retained_answer_addresses_question": true,
+        "refusal_assessment": "not_applicable",
+        "refusal_supports": []
+      }
+    },
+    {
+      "stage": "verify",
+      "candidate": {
+        "status": "answered",
+        "professional": [
+          {
+            "text": "资料描述声音嘶哑时，声音可能表现为气息声、raspy或strained，也可能音量变小或音调变低。",
+            "supports": [
+              {
+                "evidence_id": "E1",
+                "quote": "If you are hoarse, your voice will sound breathy, raspy, or strained, or will be softer in volume or lower in pitch."
+              }
+            ],
+            "input_fields": []
+          }
+        ],
+        "input_explanation": [
+          {
+            "text": "输入记录的主诉为声音嘶哑，与资料中描述声音嘶哑时声音变化的条目相对应。",
+            "supports": [
+              {
+                "evidence_id": "E1",
+                "quote": "If you are hoarse, your voice will sound breathy, raspy, or strained, or will be softer in volume or lower in pitch."
+              }
+            ],
+            "input_fields": [
+              "chief_complaint"
+            ],
+            "source_kind": "medical_comparison",
+            "input_anchors": [
+              {
+                "field": "chief_complaint",
+                "quote": "声音嘶哑",
+                "state": "reported"
+              }
+            ]
+          }
+        ],
+        "patient_summary": [
+          {
+            "text": "声音嘶哑时，说话声可能变得气息声、沙哑或紧绷，也可能音量变小或音调变低。",
+            "supports": [
+              {
+                "evidence_id": "E1",
+                "quote": "If you are hoarse, your voice will sound breathy, raspy, or strained, or will be softer in volume or lower in pitch."
+              }
+            ],
+            "input_fields": []
+          }
+        ],
+        "limitations": []
+      },
+      "judgment": {
+        "claims": [
+          {
+            "claim_id": "professional:0",
+            "supported": true,
+            "reason": "supported",
+            "checked_quote_indexes": [
+              0
+            ]
+          },
+          {
+            "claim_id": "input_explanation:0",
+            "supported": true,
+            "reason": "supported",
+            "checked_quote_indexes": [
+              0
+            ]
+          },
+          {
+            "claim_id": "patient_summary:0",
+            "supported": true,
+            "reason": "supported",
+            "checked_quote_indexes": [
+              0
+            ]
+          }
+        ],
+        "retained_answer_addresses_question": true,
+        "refusal_assessment": "not_applicable",
+        "refusal_supports": []
+      }
+    }
+  ]
+}

@@ -19,6 +19,7 @@ try {
     finally { [Runtime.InteropServices.Marshal]::ZeroFreeBSTR($pointer) }
     & (Join-Path $trialRoot '.venv\Scripts\python.exe') (Join-Path $PSScriptRoot 'prepare_doctor_trial.py')
     if ($LASTEXITCODE -ne 0) { throw 'Doctor trial initialization failed; existing records were preserved.' }
+    & (Join-Path $PSScriptRoot 'prepare_patient_trial.ps1')
     $env:ENT_TRIAL_PASSWORD=$null
     $env:ENT_DOCTOR_TRIAL='1'
     Write-Host ('Doctor trial: http://127.0.0.1:'+ $Port +'/doctor')

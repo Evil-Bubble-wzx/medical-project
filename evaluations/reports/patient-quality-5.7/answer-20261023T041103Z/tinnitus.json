@@ -1,0 +1,747 @@
+{
+  "case": {
+    "id": "tinnitus",
+    "chief_complaint": "耳鸣",
+    "question": "耳鸣资料中提到哪些声音感受？"
+  },
+  "result": {
+    "retrieval": {
+      "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+      "query_policy": "dual_question_first",
+      "hybrid": [
+        {
+          "end": 449,
+          "id": "b2e23134549a2cdea4235394",
+          "locator": "body/sec[5]/sec[4]/p[1]",
+          "population_status": "adult_dev_candidate",
+          "section": "2 Pathophysiological aspects and classification of chronic tinnitus / 2.3 Possible comorbidities",
+          "start": 0,
+          "text": "Comorbidities (see Table 1) may be pre-existing, independent of tinnitus or tinnitus-induced. Psychological and/or psychosomatic comorbidities are frequently found in connection with tinnitus [48, 49]. In particular, anxiety disorders, depression and sleep disorders are found more frequently in patients with tinnitus. Depression and other psychological disorders are risk factors for the development of tinnitus and can intensify tinnitus [9, 50].",
+          "chunk_id": "b2e23134549a2cdea4235394",
+          "document_id": "tinnitus-s3-2022",
+          "version_id": "d5005279-1bad-491f-8122-a2d05e558146",
+          "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+          "title": "S3 Guideline: Chronic Tinnitus",
+          "title_zh": "慢性耳鸣 S3 指南（德国学会，2022）",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9581878/",
+          "publication_date": "2022-10-13",
+          "license": "CC-BY-4.0",
+          "state": "draft",
+          "clinical_review": "pending",
+          "production_eligible": false,
+          "bm25": -1.8701572989501518e-06,
+          "score": 0.04891591750396616,
+          "applicability_warning": null
+        },
+        {
+          "end": 40,
+          "id": "c0c1fe5fa6732adaedba9df6",
+          "locator": "body/sec[8]/sec[3]/list[1]/list-item[13]/p[1]",
+          "population_status": "adult_dev_candidate",
+          "section": "5. Appendix / 5.3 Appendix 3: Medical history questions and clinical severity classification",
+          "start": 0,
+          "text": "Are you particularly sensitive to noise?",
+          "chunk_id": "c0c1fe5fa6732adaedba9df6",
+          "version_id": "d5005279-1bad-491f-8122-a2d05e558146",
+          "document_id": "tinnitus-s3-2022",
+          "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+          "title": "S3 Guideline: Chronic Tinnitus",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9581878/",
+          "topics": [
+            "tinnitus"
+          ],
+          "clinical_review": "pending",
+          "production_eligible": false,
+          "score": 0.04764267990074442,
+          "applicability_warning": null
+        },
+        {
+          "end": 374,
+          "id": "abe9d3b01af033917c38f753",
+          "locator": "body/sec[7]/sec[1]/sec[4]/sec[1]/p[6]",
+          "population_status": "adult_dev_candidate",
+          "section": "4 Therapy of chronic tinnitus / 4.1 Presentation of therapies with recommendations / 4.1.4 Tinnitus retraining therapy / Evidence-based recommendation",
+          "start": 0,
+          "text": "TRT is a habituation technique that reduces the auditory, emotional and autonomic impact of the tinnitus noise and thus reduces the stress response to the tinnitus stimulus. It integrates three to five intervention steps including a detailed tinnitus history, auditory distraction from the tinnitus by broadband noise via a tinnitus instrument and psychological counselling.",
+          "chunk_id": "abe9d3b01af033917c38f753",
+          "document_id": "tinnitus-s3-2022",
+          "version_id": "d5005279-1bad-491f-8122-a2d05e558146",
+          "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+          "title": "S3 Guideline: Chronic Tinnitus",
+          "title_zh": "慢性耳鸣 S3 指南（德国学会，2022）",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9581878/",
+          "publication_date": "2022-10-13",
+          "license": "CC-BY-4.0",
+          "state": "draft",
+          "clinical_review": "pending",
+          "production_eligible": false,
+          "bm25": -1.8468544026145756e-06,
+          "score": 0.047371031746031744,
+          "applicability_warning": null
+        },
+        {
+          "end": 58,
+          "id": "6c2ee97634b254388d56aed8",
+          "locator": "body/sec[8]/sec[3]/list[1]/list-item[9]/p[1]",
+          "population_status": "adult_dev_candidate",
+          "section": "5. Appendix / 5.3 Appendix 3: Medical history questions and clinical severity classification",
+          "start": 0,
+          "text": "Does normal environmental noise make your tinnitus louder?",
+          "chunk_id": "6c2ee97634b254388d56aed8",
+          "version_id": "d5005279-1bad-491f-8122-a2d05e558146",
+          "document_id": "tinnitus-s3-2022",
+          "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+          "title": "S3 Guideline: Chronic Tinnitus",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9581878/",
+          "topics": [
+            "tinnitus"
+          ],
+          "clinical_review": "pending",
+          "production_eligible": false,
+          "score": 0.04664224664224664,
+          "applicability_warning": null
+        },
+        {
+          "end": 377,
+          "id": "ebcf8a9adb0d86e5772eb6e7",
+          "locator": "body/sec[7]/sec[1]/sec[6]/sec[1]/p[9]",
+          "population_status": "adult_dev_candidate",
+          "section": "4 Therapy of chronic tinnitus / 4.1 Presentation of therapies with recommendations / 4.1.6 Pharmacological treatment / Evidence-based recommendation",
+          "start": 0,
+          "text": "Therapeutic approaches such as intratympanic steroid treatment do not affect chronic tinnitus [218, 219] if it does not occur in conjunction with acute hearing loss. A temporary increase in tinnitus intensity and tinnitus distress is not considered new-onset tinnitus but should be considered and treated as a fluctuation in the subjective perception of chronic tinnitus [220].",
+          "chunk_id": "ebcf8a9adb0d86e5772eb6e7",
+          "document_id": "tinnitus-s3-2022",
+          "version_id": "d5005279-1bad-491f-8122-a2d05e558146",
+          "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+          "title": "S3 Guideline: Chronic Tinnitus",
+          "title_zh": "慢性耳鸣 S3 指南（德国学会，2022）",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9581878/",
+          "publication_date": "2022-10-13",
+          "license": "CC-BY-4.0",
+          "state": "draft",
+          "clinical_review": "pending",
+          "production_eligible": false,
+          "bm25": -1.8370490022697843e-06,
+          "score": 0.045454545454545456,
+          "applicability_warning": null
+        },
+        {
+          "end": 1439,
+          "id": "1872c87f8af0d2dc4fcb341f",
+          "locator": "body/sec[1]/sec[1]/p[3]",
+          "population_status": "adult_dev_candidate",
+          "section": "1. Introduction / 1.1. Tinnitus and Evidence-Based Medicine",
+          "start": 0,
+          "text": "In the field of tinnitus, many different treatments have been offered to patients, which also reflects that no treatments are highly effective in all types of patients. With the advent of EBM, clinical researchers aimed to evaluate the effectiveness of various treatments by conducting clinical trials. This is far from trivial in tinnitus for several reasons [8,9,10]. First, tinnitus is a heterogeneous condition. Second, it is mostly purely subjective, which makes outcome measurement challenging, and third, suffering from tinnitus has many facets, which vary from patient to patient. All these aspects have been addressed in the last few years. Research has focused on identifying clinically relevant subtypes of tinnitus (ref). This was only partly successful, as the heterogeneity is better described by dimensional variability of tinnitus characteristics than by distinct categories (e.g., more or less somatic involvement instead of a category “somatic tinnitus”). Concerning the many facets of tinnitus burden, research aimed to identify consensus-based core outcome domains [11]. For outcome measurement, various tools have been developed and tested for psychometric adequacy. These efforts revealed that tinnitus questionnaires and visual analogue scales represent reliable and valid tools for quantifying tinnitus impact. In contrast, psychometric measurements of tinnitus loudness are not helpful for this purpose [12,13,14].",
+          "chunk_id": "1872c87f8af0d2dc4fcb341f",
+          "document_id": "tinnitus-evidence-2023",
+          "version_id": "47e957cd-7024-4947-b317-c51de4d88837",
+          "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+          "title": "Tinnitus Guidelines and Their Evidence Base",
+          "title_zh": "耳鸣指南及其证据基础比较（2023）",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10178961/",
+          "publication_date": "2023-4-24",
+          "license": "CC-BY-4.0",
+          "state": "draft",
+          "clinical_review": "pending",
+          "production_eligible": false,
+          "bm25": -1.7709323335620478e-06,
+          "score": 0.04477611940298507,
+          "applicability_warning": null
+        },
+        {
+          "end": 40,
+          "id": "ddad9daea5a59949555f3a4b",
+          "locator": "body/sec[8]/sec[3]/list[1]/list-item[7]/p[1]",
+          "population_status": "adult_dev_candidate",
+          "section": "5. Appendix / 5.3 Appendix 3: Medical history questions and clinical severity classification",
+          "start": 0,
+          "text": "Does your tinnitus drown out all sounds?",
+          "chunk_id": "ddad9daea5a59949555f3a4b",
+          "version_id": "d5005279-1bad-491f-8122-a2d05e558146",
+          "document_id": "tinnitus-s3-2022",
+          "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+          "title": "S3 Guideline: Chronic Tinnitus",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9581878/",
+          "topics": [
+            "tinnitus"
+          ],
+          "clinical_review": "pending",
+          "production_eligible": false,
+          "score": 0.04407051282051282,
+          "applicability_warning": null
+        },
+        {
+          "end": 41,
+          "id": "789a95b61fbb441bb70703dc",
+          "locator": "body/sec[8]/sec[3]/list[1]/list-item[5]/p[1]",
+          "population_status": "adult_dev_candidate",
+          "section": "5. Appendix / 5.3 Appendix 3: Medical history questions and clinical severity classification",
+          "start": 0,
+          "text": "Is your tinnitus only audible in silence?",
+          "chunk_id": "789a95b61fbb441bb70703dc",
+          "version_id": "d5005279-1bad-491f-8122-a2d05e558146",
+          "document_id": "tinnitus-s3-2022",
+          "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+          "title": "S3 Guideline: Chronic Tinnitus",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9581878/",
+          "topics": [
+            "tinnitus"
+          ],
+          "clinical_review": "pending",
+          "production_eligible": false,
+          "score": 0.043478260869565216,
+          "applicability_warning": null
+        },
+        {
+          "end": 754,
+          "id": "f0056eb93ba3a42b598a9968",
+          "locator": "body/sec[7]/sec[1]/sec[10]/sec[1]/p[5]",
+          "population_status": "adult_dev_candidate",
+          "section": "4 Therapy of chronic tinnitus / 4.1 Presentation of therapies with recommendations / 4.1.10 Nutritional supplements / Evidence-based recommendation",
+          "start": 0,
+          "text": "Several nutritional supplements have been used for tinnitus, including lipoflavonoids, garlic, homeopathy, traditional Chinese–Korean herbal medicine, honeybee larvae, and various vitamins and minerals. Evidence of the efficacy of these therapies for tinnitus is not available [232]. A more recent review also finds that there is no evidence of dietary supplements on tinnitus. In particular, a reduction of salt or caffeine had neither a positive nor a negative effect on tinnitus perception [303]. In a review by Wegner et al. [226], five studies with approx. 300 tinnitus patients each were examined concerning betahistine administration versus placebo (vitamin B12), and no effect (−0.16) on tinnitus loudness and impairment was found after 12 weeks.",
+          "chunk_id": "f0056eb93ba3a42b598a9968",
+          "document_id": "tinnitus-s3-2022",
+          "version_id": "d5005279-1bad-491f-8122-a2d05e558146",
+          "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+          "title": "S3 Guideline: Chronic Tinnitus",
+          "title_zh": "慢性耳鸣 S3 指南（德国学会，2022）",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9581878/",
+          "publication_date": "2022-10-13",
+          "license": "CC-BY-4.0",
+          "state": "draft",
+          "clinical_review": "pending",
+          "production_eligible": false,
+          "bm25": -1.7387870937139794e-06,
+          "score": 0.04285714285714286,
+          "applicability_warning": null
+        },
+        {
+          "end": 617,
+          "id": "68b15e11210dc541755c17cb",
+          "locator": "body/sec[5]/sec[4]/p[4]",
+          "population_status": "adult_dev_candidate",
+          "section": "2 Pathophysiological aspects and classification of chronic tinnitus / 2.3 Possible comorbidities",
+          "start": 0,
+          "text": "The prevalence of tinnitus is significantly higher in patients with pain and dysfunctions of the masticatory muscles, temporomandibular joints and teeth than in patients without craniomandibular dysfunctions (CMD). There seems to be a bidirectional relationship between tinnitus and CMD so that they are assessed as respective comorbidities. Tinnitus associated with CMD and/or craniocervical symptoms is also called ‘somatosensory tinnitus’ and is classified as a subtype of subjective tinnitus because there is usually normal hearing, the average age of the patients is lower and women are over-represented [58–62].",
+          "chunk_id": "68b15e11210dc541755c17cb",
+          "document_id": "tinnitus-s3-2022",
+          "version_id": "d5005279-1bad-491f-8122-a2d05e558146",
+          "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+          "title": "S3 Guideline: Chronic Tinnitus",
+          "title_zh": "慢性耳鸣 S3 指南（德国学会，2022）",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9581878/",
+          "publication_date": "2022-10-13",
+          "license": "CC-BY-4.0",
+          "state": "draft",
+          "clinical_review": "pending",
+          "production_eligible": false,
+          "bm25": -1.7356822397937033e-06,
+          "score": 0.04225352112676056,
+          "applicability_warning": null
+        }
+      ],
+      "reranked": [],
+      "run_id": "5ca7d975-f2bb-4d19-bd51-99031e01fdce",
+      "elapsed_ms": 2900,
+      "reranker_enabled": false
+    },
+    "answer": {
+      "status": "validation_failed",
+      "professional": [],
+      "input_explanation": [],
+      "patient_summary": [],
+      "limitations": []
+    },
+    "citations": [
+      {
+        "evidence_id": "E1",
+        "version_id": "d5005279-1bad-491f-8122-a2d05e558146",
+        "chunk_id": "b2e23134549a2cdea4235394",
+        "document_id": "tinnitus-s3-2022",
+        "title": "S3 Guideline: Chronic Tinnitus",
+        "locator": "body/sec[5]/sec[4]/p[1]",
+        "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9581878/",
+        "text": "Comorbidities (see Table 1) may be pre-existing, independent of tinnitus or tinnitus-induced. Psychological and/or psychosomatic comorbidities are frequently found in connection with tinnitus [48, 49]. In particular, anxiety disorders, depression and sleep disorders are found more frequently in patients with tinnitus. Depression and other psychological disorders are risk factors for the development of tinnitus and can intensify tinnitus [9, 50].",
+        "quote_options": [
+          {
+            "quote_id": "E1.Q1",
+            "text": "Comorbidities (see Table 1) may be pre-existing, independent of tinnitus or tinnitus-induced."
+          },
+          {
+            "quote_id": "E1.Q2",
+            "text": "Psychological and/or psychosomatic comorbidities are frequently found in connection with tinnitus [48, 49]."
+          },
+          {
+            "quote_id": "E1.Q3",
+            "text": "In particular, anxiety disorders, depression and sleep disorders are found more frequently in patients with tinnitus."
+          },
+          {
+            "quote_id": "E1.Q4",
+            "text": "Depression and other psychological disorders are risk factors for the development of tinnitus and can intensify tinnitus [9, 50]."
+          }
+        ],
+        "text_truncated": false,
+        "clinical_review": "pending"
+      },
+      {
+        "evidence_id": "E2",
+        "version_id": "d5005279-1bad-491f-8122-a2d05e558146",
+        "chunk_id": "c0c1fe5fa6732adaedba9df6",
+        "document_id": "tinnitus-s3-2022",
+        "title": "S3 Guideline: Chronic Tinnitus",
+        "locator": "body/sec[8]/sec[3]/list[1]/list-item[13]/p[1]",
+        "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9581878/",
+        "text": "Are you particularly sensitive to noise?",
+        "quote_options": [
+          {
+            "quote_id": "E2.Q1",
+            "text": "Are you particularly sensitive to noise?"
+          }
+        ],
+        "text_truncated": false,
+        "clinical_review": "pending"
+      },
+      {
+        "evidence_id": "E3",
+        "version_id": "d5005279-1bad-491f-8122-a2d05e558146",
+        "chunk_id": "abe9d3b01af033917c38f753",
+        "document_id": "tinnitus-s3-2022",
+        "title": "S3 Guideline: Chronic Tinnitus",
+        "locator": "body/sec[7]/sec[1]/sec[4]/sec[1]/p[6]",
+        "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9581878/",
+        "text": "TRT is a habituation technique that reduces the auditory, emotional and autonomic impact of the tinnitus noise and thus reduces the stress response to the tinnitus stimulus. It integrates three to five intervention steps including a detailed tinnitus history, auditory distraction from the tinnitus by broadband noise via a tinnitus instrument and psychological counselling.",
+        "quote_options": [
+          {
+            "quote_id": "E3.Q1",
+            "text": "TRT is a habituation technique that reduces the auditory, emotional and autonomic impact of the tinnitus noise and thus reduces the stress response to the tinnitus stimulus."
+          },
+          {
+            "quote_id": "E3.Q2",
+            "text": "It integrates three to five intervention steps including a detailed tinnitus history, auditory distraction from the tinnitus by broadband noise via a tinnitus instrument and psychological counselling."
+          }
+        ],
+        "text_truncated": false,
+        "clinical_review": "pending"
+      },
+      {
+        "evidence_id": "E4",
+        "version_id": "d5005279-1bad-491f-8122-a2d05e558146",
+        "chunk_id": "6c2ee97634b254388d56aed8",
+        "document_id": "tinnitus-s3-2022",
+        "title": "S3 Guideline: Chronic Tinnitus",
+        "locator": "body/sec[8]/sec[3]/list[1]/list-item[9]/p[1]",
+        "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9581878/",
+        "text": "Does normal environmental noise make your tinnitus louder?",
+        "quote_options": [
+          {
+            "quote_id": "E4.Q1",
+            "text": "Does normal environmental noise make your tinnitus louder?"
+          }
+        ],
+        "text_truncated": false,
+        "clinical_review": "pending"
+      },
+      {
+        "evidence_id": "E5",
+        "version_id": "d5005279-1bad-491f-8122-a2d05e558146",
+        "chunk_id": "ebcf8a9adb0d86e5772eb6e7",
+        "document_id": "tinnitus-s3-2022",
+        "title": "S3 Guideline: Chronic Tinnitus",
+        "locator": "body/sec[7]/sec[1]/sec[6]/sec[1]/p[9]",
+        "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9581878/",
+        "text": "Therapeutic approaches such as intratympanic steroid treatment do not affect chronic tinnitus [218, 219] if it does not occur in conjunction with acute hearing loss. A temporary increase in tinnitus intensity and tinnitus distress is not considered new-onset tinnitus but should be considered and treated as a fluctuation in the subjective perception of chronic tinnitus [220].",
+        "quote_options": [
+          {
+            "quote_id": "E5.Q1",
+            "text": "Therapeutic approaches such as intratympanic steroid treatment do not affect chronic tinnitus [218, 219] if it does not occur in conjunction with acute hearing loss."
+          },
+          {
+            "quote_id": "E5.Q2",
+            "text": "A temporary increase in tinnitus intensity and tinnitus distress is not considered new-onset tinnitus but should be considered and treated as a fluctuation in the subjective perception of chronic tinnitus [220]."
+          }
+        ],
+        "text_truncated": false,
+        "clinical_review": "pending"
+      },
+      {
+        "evidence_id": "E6",
+        "version_id": "47e957cd-7024-4947-b317-c51de4d88837",
+        "chunk_id": "1872c87f8af0d2dc4fcb341f",
+        "document_id": "tinnitus-evidence-2023",
+        "title": "Tinnitus Guidelines and Their Evidence Base",
+        "locator": "body/sec[1]/sec[1]/p[3]",
+        "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10178961/",
+        "text": "In the field of tinnitus, many different treatments have been offered to patients, which also reflects that no treatments are highly effective in all types of patients. With the advent of EBM, clinical researchers aimed to evaluate the effectiveness of various treatments by conducting clinical trials. This is far from trivial in tinnitus for several reasons [8,9,10]. First, tinnitus is a heterogeneous condition. Second, it is mostly purely subjective, which makes outcome measurement challenging, and third, suffering from tinnitus has many facets, which vary from patient to patient. All these aspects have been addressed in the last few years. Research has focused on identifying clinically relevant subtypes of tinnitus (ref). This was only partly successful, as the heterogeneity is better described by dimensional variability of tinnitus characteristics than by distinct categories (e.g., more or less somatic involvement instead of a category “somatic tinnitus”). Concerning the many facets of tinnitus burden, research aimed to identify consensus-based core outcome domains [11]. For outcome measurement, various tools have been developed and tested for psychometric adequacy. These efforts revealed that tinnitus questionnaires and visual analogue scales represent reliable and valid tools for quantifying tinnitus impact. In contrast, psychometric measurements of tinnitus loudness are not helpful for this purpose [12,13,14].",
+        "quote_options": [
+          {
+            "quote_id": "E6.Q1",
+            "text": "In the field of tinnitus, many different treatments have been offered to patients, which also reflects that no treatments are highly effective in all types of patients."
+          },
+          {
+            "quote_id": "E6.Q2",
+            "text": "With the advent of EBM, clinical researchers aimed to evaluate the effectiveness of various treatments by conducting clinical trials."
+          },
+          {
+            "quote_id": "E6.Q3",
+            "text": "This is far from trivial in tinnitus for several reasons [8,9,10]."
+          },
+          {
+            "quote_id": "E6.Q4",
+            "text": "First, tinnitus is a heterogeneous condition."
+          },
+          {
+            "quote_id": "E6.Q5",
+            "text": "Second, it is mostly purely subjective, which makes outcome measurement challenging, and third, suffering from tinnitus has many facets, which vary from patient to patient."
+          },
+          {
+            "quote_id": "E6.Q6",
+            "text": "All these aspects have been addressed in the last few years."
+          },
+          {
+            "quote_id": "E6.Q7",
+            "text": "Research has focused on identifying clinically relevant subtypes of tinnitus (ref)."
+          },
+          {
+            "quote_id": "E6.Q8",
+            "text": "This was only partly successful, as the heterogeneity is better described by dimensional variability of tinnitus characteristics than by distinct categories (e.g., more or less somatic involvement instead of a category “somatic tinnitus”)."
+          },
+          {
+            "quote_id": "E6.Q9",
+            "text": "Concerning the many facets of tinnitus burden, research aimed to identify consensus-based core outcome domains [11]."
+          },
+          {
+            "quote_id": "E6.Q10",
+            "text": "For outcome measurement, various tools have been developed and tested for psychometric adequacy."
+          },
+          {
+            "quote_id": "E6.Q11",
+            "text": "These efforts revealed that tinnitus questionnaires and visual analogue scales represent reliable and valid tools for quantifying tinnitus impact."
+          },
+          {
+            "quote_id": "E6.Q12",
+            "text": "In contrast, psychometric measurements of tinnitus loudness are not helpful for this purpose [12,13,14]."
+          }
+        ],
+        "text_truncated": false,
+        "clinical_review": "pending"
+      }
+    ],
+    "validation": {
+      "citation_identity_and_quote_match": true,
+      "semantic_support": "verification_failed",
+      "clinical_approval": false,
+      "input_check": "exact_field_anchors_and_bounded_attribution_screen",
+      "requested_quote_selectors": 3,
+      "generation_evidence_ids": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6"
+      ],
+      "draft_summary_placeholder": true,
+      "citation_context_expansions": [],
+      "atomization": [],
+      "dose_screen": "heuristic_passed",
+      "quote_repair": {
+        "attempts": 0,
+        "accepted": false
+      },
+      "core_verification": {
+        "claims": [
+          {
+            "claim_id": "professional:0",
+            "supported": true,
+            "reason": "supported",
+            "checked_quote_indexes": [
+              0
+            ]
+          },
+          {
+            "claim_id": "professional:1",
+            "supported": true,
+            "reason": "supported",
+            "checked_quote_indexes": [
+              0
+            ]
+          },
+          {
+            "claim_id": "input_explanation:0",
+            "supported": true,
+            "reason": "supported",
+            "checked_quote_indexes": [
+              0
+            ]
+          },
+          {
+            "claim_id": "input_explanation:1",
+            "supported": true,
+            "reason": "supported",
+            "checked_quote_indexes": [
+              0
+            ]
+          }
+        ],
+        "retained_answer_addresses_question": false,
+        "refusal_assessment": "not_applicable",
+        "refusal_supports": [],
+        "atom_groups": [
+          {
+            "section": "input_explanation",
+            "original_index": 0,
+            "output_indexes": [
+              0,
+              1
+            ]
+          }
+        ],
+        "split_group_complete": true,
+        "mixed_group_withheld": false,
+        "retained_indexes": {
+          "professional": [],
+          "input_explanation": [],
+          "patient_summary": []
+        },
+        "withhold_causes": [
+          "question_not_addressed"
+        ],
+        "format_attempts": 1,
+        "format_errors": [],
+        "format_feedback": null,
+        "deterministic_record_claim_ids": []
+      },
+      "core_verification_metadata": {
+        "requested_model": "deepseek-flash",
+        "returned_model": "deepseek-flash",
+        "usage": {
+          "prompt_tokens": 3089,
+          "completion_tokens": 134,
+          "total_tokens": 3223
+        },
+        "prompt_sha256": "5c00fe1fcda7be7945e595ac9e7268ab641a8a5469fa10eaf7d07ec4f48db9c0",
+        "deterministic_record_claim_ids": []
+      },
+      "original_status": "answered",
+      "error_code": "verification_invalid_quote",
+      "schema_issues": [],
+      "verification_diagnostic": null,
+      "failure_stage": "verify_claims",
+      "outcome_category": "verification_failed"
+    },
+    "model": "deepseek-flash",
+    "provider_base_url": "https://api.deepseek.com",
+    "elapsed_ms": 6054,
+    "synthetic_only": true,
+    "generation_metadata": {
+      "requested_model": "deepseek-flash",
+      "returned_model": "deepseek-flash",
+      "usage": {
+        "prompt_tokens": 5023,
+        "completion_tokens": 197,
+        "total_tokens": 5220
+      },
+      "prompt_sha256": "d4f795d53a5de9881073d157779c60f1136e07073ed7cd46e3d3be369c09cbb2"
+    }
+  },
+  "trace": [
+    {
+      "stage": "draft",
+      "candidate": {
+        "status": "answered",
+        "professional": [
+          {
+            "text": "该资料指出耳鸣主要是纯主观的体验，这使结果测量具有挑战性。",
+            "supports": [
+              {
+                "evidence_id": "E6",
+                "quote_id": "E6.Q5"
+              }
+            ],
+            "input_fields": []
+          },
+          {
+            "text": "该资料提到耳鸣的负担有多方面表现，且因患者而异。",
+            "supports": [
+              {
+                "evidence_id": "E6",
+                "quote_id": "E6.Q5"
+              }
+            ],
+            "input_fields": []
+          }
+        ],
+        "input_explanation": [
+          {
+            "text": "输入记录的主诉为耳鸣、持续3天，与资料所讨论的耳鸣主题一致；本次所引片段未给出与3天病程直接对应的内容。",
+            "source_kind": "medical_comparison",
+            "supports": [
+              {
+                "evidence_id": "E6",
+                "quote_id": "E6.Q5"
+              }
+            ],
+            "input_anchor_ids": [
+              "I2",
+              "I3"
+            ]
+          }
+        ],
+        "patient_summary": [],
+        "limitations": [
+          "missing_patient_details"
+        ]
+      }
+    },
+    {
+      "stage": "verify",
+      "candidate": {
+        "status": "answered",
+        "professional": [
+          {
+            "text": "该资料指出耳鸣主要是纯主观的体验，这使结果测量具有挑战性。",
+            "supports": [
+              {
+                "evidence_id": "E6",
+                "quote": "Second, it is mostly purely subjective, which makes outcome measurement challenging, and third, suffering from tinnitus has many facets, which vary from patient to patient."
+              }
+            ],
+            "input_fields": []
+          },
+          {
+            "text": "该资料提到耳鸣的负担有多方面表现，且因患者而异。",
+            "supports": [
+              {
+                "evidence_id": "E6",
+                "quote": "Second, it is mostly purely subjective, which makes outcome measurement challenging, and third, suffering from tinnitus has many facets, which vary from patient to patient."
+              }
+            ],
+            "input_fields": []
+          }
+        ],
+        "input_explanation": [
+          {
+            "text": "输入记录的主诉为耳鸣、持续3天，与资料所讨论的耳鸣主题一致；",
+            "supports": [
+              {
+                "evidence_id": "E6",
+                "quote": "Second, it is mostly purely subjective, which makes outcome measurement challenging, and third, suffering from tinnitus has many facets, which vary from patient to patient."
+              }
+            ],
+            "input_fields": [
+              "chief_complaint",
+              "duration"
+            ],
+            "source_kind": "medical_comparison",
+            "input_anchors": [
+              {
+                "field": "chief_complaint",
+                "quote": "耳鸣",
+                "state": "reported"
+              },
+              {
+                "field": "duration",
+                "quote": "3天",
+                "state": "reported"
+              }
+            ]
+          },
+          {
+            "text": "本次所引片段未给出与3天病程直接对应的内容。",
+            "supports": [
+              {
+                "evidence_id": "E6",
+                "quote": "Second, it is mostly purely subjective, which makes outcome measurement challenging, and third, suffering from tinnitus has many facets, which vary from patient to patient."
+              }
+            ],
+            "input_fields": [
+              "chief_complaint",
+              "duration"
+            ],
+            "source_kind": "medical_comparison",
+            "input_anchors": [
+              {
+                "field": "chief_complaint",
+                "quote": "耳鸣",
+                "state": "reported"
+              },
+              {
+                "field": "duration",
+                "quote": "3天",
+                "state": "reported"
+              }
+            ]
+          }
+        ],
+        "patient_summary": [],
+        "limitations": [
+          "missing_patient_details"
+        ]
+      },
+      "judgment": {
+        "claims": [
+          {
+            "claim_id": "professional:0",
+            "supported": true,
+            "reason": "supported",
+            "checked_quote_indexes": [
+              0
+            ]
+          },
+          {
+            "claim_id": "professional:1",
+            "supported": true,
+            "reason": "supported",
+            "checked_quote_indexes": [
+              0
+            ]
+          },
+          {
+            "claim_id": "input_explanation:0",
+            "supported": true,
+            "reason": "supported",
+            "checked_quote_indexes": [
+              0
+            ]
+          },
+          {
+            "claim_id": "input_explanation:1",
+            "supported": true,
+            "reason": "supported",
+            "checked_quote_indexes": [
+              0
+            ]
+          }
+        ],
+        "retained_answer_addresses_question": false,
+        "refusal_assessment": "not_applicable",
+        "refusal_supports": []
+      }
+    },
+    {
+      "stage": "verify",
+      "candidate": {
+        "status": "insufficient_evidence",
+        "professional": [],
+        "input_explanation": [],
+        "patient_summary": [],
+        "limitations": [
+          "insufficient_support"
+        ]
+      },
+      "judgment": {
+        "claims": [],
+        "retained_answer_addresses_question": false,
+        "refusal_assessment": "possible_over_refusal",
+        "refusal_supports": [
+          {
+            "evidence_id": "E6",
+            "quote": "Third, suffering from tinnitus has many facets, which vary from patient to patient."
+          }
+        ]
+      }
+    }
+  ]
+}

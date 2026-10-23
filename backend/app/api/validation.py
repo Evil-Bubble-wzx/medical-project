@@ -175,6 +175,12 @@ def create_validation_app(
         response.set_cookie("workbench_session", secret, httponly=True, samesite="strict")
         return response
 
+    @app.get("/patient")
+    def patient_trial_page():
+        response = FileResponse(ROOT / "frontend/validation/patient.html")
+        response.set_cookie("workbench_session", secret, httponly=True, samesite="strict")
+        return response
+
     @app.get("/patients")
     def patients_page():
         response = FileResponse(ROOT / "frontend/validation/patients.html")

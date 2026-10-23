@@ -15,6 +15,7 @@ TOPICS = {
     "throat": ("咽喉", "咽痛", "扁桃体", "声嘶", "hoarseness", "sore throat"),
 }
 QUERY_ALIASES = {
+    "过敏性鼻炎": "allergic rhinitis",
     "鼻炎": "rhinitis",
     "变应性鼻炎": "allergic rhinitis",
     "鼻窦炎": "rhinosinusitis",

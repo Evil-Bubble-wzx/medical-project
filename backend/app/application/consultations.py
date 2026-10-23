@@ -7,7 +7,7 @@ from uuid import uuid4
 from pydantic import ValidationError
 
 from app.application.business import BusinessError
-from app.knowledge.library import file_hash
+from app.knowledge.library import file_hash, read_json
 from app.retrieval.answer_workflow import AnswerInput
 from app.retrieval.corpus import eligible_corpus
 from app.retrieval.generation import validate_answer
@@ -79,6 +79,34 @@ def safe_validation_diagnostic(validation):
     scope = validation.get("scope_decision")
     scope_code = scope.get("code") if isinstance(scope, dict) else None
     audit = validation.get("verification") or validation.get("core_verification") or {}
+    stages = {}
+    allowed_causes = {
+        "atomic_group_incomplete",
+        "summary_core_removed",
+        "no_professional_claim",
+        "no_patient_summary",
+        "question_not_addressed",
+    }
+    allowed_reasons = {
+        "disease_mismatch",
+        "population_mismatch",
+        "claim_overreach",
+        "input_mismatch",
+        "unrelated_quote",
+        "uncertain",
+    }
+    for field, label in (("core_verification", "professional"), ("verification", "final")):
+        item = validation.get(field)
+        if not isinstance(item, dict):
+            continue
+        causes = [c for c in item.get("withhold_causes", []) if c in allowed_causes]
+        rejected = {}
+        for claim in item.get("claims", [])[:12]:
+            reason = claim.get("reason") if isinstance(claim, dict) else None
+            if reason in allowed_reasons:
+                rejected[reason] = rejected.get(reason, 0) + 1
+        if causes or rejected:
+            stages[label] = {"withhold_causes": causes, "rejections": rejected}
     reasons = {}
     for claim in audit.get("claims", []) if isinstance(audit, dict) else []:
         reason = claim.get("reason") if isinstance(claim, dict) else None
@@ -100,6 +128,7 @@ def safe_validation_diagnostic(validation):
         and 0 < withheld["count"] <= 3
     )
     return {
+        **({"verification_stages": stages} if stages else {}),
         **({"verification_rejections": reasons} if reasons else {}),
         **(
             {"input_comparison_withheld": {"code": withheld["code"], "count": withheld["count"]}}
@@ -141,6 +170,72 @@ def safe_validation_diagnostic(validation):
 class ConsultationService:
     def __init__(self, store, answer_service):
         self.store, self.answer_service = store, answer_service
+
+    def context(self, db, user, patient, parent_id):
+        if not parent_id:
+            return None, []
+        parent = db.execute(
+            "SELECT r.*,c.root_id FROM consultation_runs r LEFT JOIN consultation_context c "
+            "ON c.run_id=r.id WHERE r.id=? AND r.patient_id=? AND r.author_id=?",
+            (parent_id, patient, user["id"]),
+        ).fetchone()
+        if parent is None:
+            raise BusinessError("record_not_found")
+        if parent["state"] != "completed":
+            raise BusinessError("conversation_parent_not_completed", 409)
+        root = parent["root_id"] or parent_id
+        count = db.execute(
+            "SELECT count(*) FROM consultation_runs r LEFT JOIN consultation_context c "
+            "ON c.run_id=r.id WHERE COALESCE(c.root_id,r.id)=?",
+            (root,),
+        ).fetchone()[0]
+        if count >= 30:
+            raise BusinessError("conversation_turn_limit", 409)
+        history, current = [], parent
+        for _ in range(3):
+            answer = json.loads(current["result"]) if current["result"] else {}
+            summary = "；".join(
+                c["text"] for c in answer.get("answer", {}).get("patient_summary", [])
+            )[:600]
+            history.append(
+                {"id": current["id"], "question": current["question"], "summary": summary}
+            )
+            link = db.execute(
+                "SELECT parent_id FROM consultation_context WHERE run_id=?", (current["id"],)
+            ).fetchone()
+            if not link or not link["parent_id"]:
+                break
+            current = db.execute(
+                "SELECT * FROM consultation_runs WHERE id=? AND patient_id=? AND author_id=?",
+                (link["parent_id"], patient, user["id"]),
+            ).fetchone()
+            if current is None:
+                raise BusinessError("record_not_found")
+        return root, list(reversed(history))
+
+    def thread(self, token, patient, identity):
+        selected = self.detail(token, patient, identity)
+        root = selected["conversation_id"]
+        with self.store.connect() as db:
+            user = self.store.identity(db, token)
+            self.store.allowed(db, user, patient)
+            rows = db.execute(
+                "SELECT r.id FROM consultation_runs r LEFT JOIN consultation_context c "
+                "ON c.run_id=r.id WHERE r.patient_id=? AND COALESCE(c.root_id,r.id)=? "
+                "ORDER BY r.rowid LIMIT 30",
+                (patient, root),
+            ).fetchall()
+        return {
+            "conversation_id": root,
+            "turns": [self.detail(token, patient, row["id"]) for row in rows],
+        }
+
+    def use_patient_reranker(self):
+        root = getattr(self.answer_service, "root", None)
+        path = root / "configs/retrieval.json" if root else None
+        return bool(
+            path and path.exists() and read_json(path).get("patient_consultation_reranker") is True
+        )
 
     def provenance(self):
         root = getattr(self.answer_service, "root", None)
@@ -233,10 +328,14 @@ class ConsultationService:
             "synthetic_only": True,
         }
 
-    def reserve(self, token, patient, snapshot_id, question, request_key, *, queued=False):
+    def reserve(
+        self, token, patient, snapshot_id, question, request_key, *, queued=False, parent_id=None
+    ):
         s = self.store
         request_hash = hashlib.sha256(
-            json.dumps([snapshot_id, question], ensure_ascii=False).encode()
+            json.dumps(
+                [snapshot_id, question] + ([parent_id] if parent_id else []), ensure_ascii=False
+            ).encode()
         ).hexdigest()
         with s.connect() as db:
             user = s.identity(db, token)
@@ -251,7 +350,10 @@ class ConsultationService:
                 raise BusinessError("record_not_found")
             try:
                 payload = AnswerInput(
-                    **json.loads(snapshot["payload"]), question=question, synthetic_only=True
+                    **json.loads(snapshot["payload"]),
+                    question=question,
+                    synthetic_only=True,
+                    compare_reranker=self.use_patient_reranker(),
                 )
             except ValidationError:
                 raise BusinessError("consultation_input_too_long", 422) from None
@@ -265,6 +367,8 @@ class ConsultationService:
                     raise BusinessError("consultation_request_conflict", 409)
                 identity, reserved = previous["id"], False
             else:
+                root_id, history = self.context(db, user, patient, parent_id)
+                payload._conversation_history = history
                 identity, reserved = str(uuid4()), True
                 db.execute(
                     "INSERT INTO consultation_runs VALUES(?,?,?,?,?,?,?,'running',?,NULL,NULL,?,?)",
@@ -281,6 +385,15 @@ class ConsultationService:
                         s.clock(),
                     ),
                 )
+                db.execute(
+                    "INSERT INTO consultation_context VALUES(?,?,?,?)",
+                    (
+                        identity,
+                        parent_id,
+                        root_id or identity,
+                        json.dumps(history, ensure_ascii=False),
+                    ),
+                )
                 s.event(db, user["id"], "start_synthetic_consultation", identity)
                 if queued:
                     db.execute(
@@ -289,13 +402,15 @@ class ConsultationService:
                     )
         return identity, reserved, user, payload, provenance
 
-    def enqueue(self, token, patient, snapshot_id, question, request_key):
-        identity, *_ = self.reserve(token, patient, snapshot_id, question, request_key, queued=True)
+    def enqueue(self, token, patient, snapshot_id, question, request_key, parent_id=None):
+        identity, *_ = self.reserve(
+            token, patient, snapshot_id, question, request_key, queued=True, parent_id=parent_id
+        )
         return self.detail(token, patient, identity)
 
-    def create(self, token, patient, snapshot_id, question, request_key):
+    def create(self, token, patient, snapshot_id, question, request_key, parent_id=None):
         identity, reserved, user, payload, provenance = self.reserve(
-            token, patient, snapshot_id, question, request_key
+            token, patient, snapshot_id, question, request_key, parent_id=parent_id
         )
         if not reserved:
             return self.detail(token, patient, identity)
@@ -324,8 +439,15 @@ class ConsultationService:
                 if provenance != self.provenance():
                     raise BusinessError("consultation_configuration_changed", 409)
                 payload = AnswerInput(
-                    **json.loads(row["payload"]), question=row["question"], synthetic_only=True
+                    **json.loads(row["payload"]),
+                    question=row["question"],
+                    synthetic_only=True,
+                    compare_reranker=self.use_patient_reranker(),
                 )
+                context = db.execute(
+                    "SELECT history FROM consultation_context WHERE run_id=?", (identity,)
+                ).fetchone()
+                payload._conversation_history = json.loads(context["history"]) if context else []
             except (BusinessError, ValidationError) as exc:
                 code = exc.code if isinstance(exc, BusinessError) else "consultation_input_too_long"
                 db.execute(
@@ -425,9 +547,18 @@ class ConsultationService:
             ).fetchone()
             if row is None:
                 raise BusinessError("record_not_found")
+            context = db.execute(
+                "SELECT parent_id,root_id,history FROM consultation_context WHERE run_id=?",
+                (identity,),
+            ).fetchone()
             result = json.loads(row["result"]) if row["result"] else None
             response = {
                 "consultation_id": row["id"],
+                "parent_consultation_id": context["parent_id"] if context else None,
+                "conversation_id": context["root_id"] if context else row["id"],
+                "context_turn_ids": [h["id"] for h in json.loads(context["history"])]
+                if context
+                else [],
                 "snapshot_id": row["snapshot_id"],
                 "snapshot_revision": row["revision"],
                 "patient": json.loads(row["payload"]),
@@ -469,14 +600,26 @@ class ConsultationService:
             rows = db.execute(
                 "SELECT r.rowid,r.id,r.question,COALESCE(j.state,CASE WHEN "
                 "r.error_code='consultation_interrupted' "
-                "THEN 'interrupted' ELSE r.state END) AS state,r.snapshot_id,r.created_at,j.stage "
+                "THEN 'interrupted' ELSE r.state END) AS state,r.snapshot_id,r.created_at,j.stage,"
+                "COALESCE(c.root_id,r.id) AS conversation_id "
                 "FROM consultation_runs r LEFT JOIN consultation_jobs j ON j.run_id=r.id "
+                "LEFT JOIN consultation_context c ON c.run_id=r.id "
                 "WHERE r.patient_id=? AND (? IS NULL OR r.rowid<?) ORDER BY r.rowid DESC LIMIT 20",
                 (patient, before, before),
             ).fetchall()
             return {
                 "consultations": [
-                    {k: r[k] for k in ("id", "question", "state", "snapshot_id", "created_at")}
+                    {
+                        k: r[k]
+                        for k in (
+                            "id",
+                            "question",
+                            "state",
+                            "snapshot_id",
+                            "created_at",
+                            "conversation_id",
+                        )
+                    }
                     for r in rows
                 ],
                 "next_before": rows[-1]["rowid"] if len(rows) == 20 else None,

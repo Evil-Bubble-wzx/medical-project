@@ -1,0 +1,579 @@
+{
+  "http_status": 200,
+  "synthetic_only": true,
+  "saved_patient_history": false,
+  "result": {
+    "retrieval": {
+      "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+      "query_policy": "dual_question_first",
+      "hybrid": [
+        {
+          "end": 44,
+          "id": "3b752d245c0875d969f16587",
+          "locator": "main/block[13]",
+          "population_status": "adult_dev_candidate",
+          "section": "How can I tell if I have a hearing problem?",
+          "start": 0,
+          "text": "Do you feel challenged by a hearing problem?",
+          "chunk_id": "3b752d245c0875d969f16587",
+          "version_id": "6c17226f-5c23-409e-b71d-2c7e29c607d1",
+          "document_id": "nidcd-presbycusis",
+          "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+          "title": "Age-Related Hearing Loss (Presbycusis)",
+          "source_url": "https://www.nidcd.nih.gov/health/age-related-hearing-loss",
+          "topics": [
+            "hearing_loss"
+          ],
+          "clinical_review": "pending",
+          "production_eligible": false,
+          "score": 0.04793840039741679,
+          "applicability_warning": null
+        },
+        {
+          "end": 786,
+          "id": "b3a7516e456b04ea8b67393e",
+          "locator": "main/block[10]",
+          "population_status": "adult_dev_candidate",
+          "section": "What are some of the disorders that cause hoarseness and how are they treated?",
+          "start": 0,
+          "text": "Misusing or overusing your voice. Cheering at sporting events, speaking loudly in noisy situations, talking for too long without resting your voice, singing loudly, or speaking with a voice that's too high or too low can cause temporary hoarseness. Resting, reducing voice use, and drinking lots of water should help relieve hoarseness from misuse or overuse. Sometimes people whose jobs depend on their voices—such as teachers, singers, or public speakers—develop hoarseness that won't go away. If you use your voice for a living and you regularly experience hoarseness, your doctor might suggest seeing a speech-language pathologist for voice therapy. In voice therapy, you'll be given vocal exercises and tips for avoiding hoarseness by changing the ways in which you use your voice.",
+          "chunk_id": "b3a7516e456b04ea8b67393e",
+          "document_id": "nidcd-hoarseness",
+          "version_id": "11605fc0-df77-4d90-8883-3a19979c3c80",
+          "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+          "title": "Hoarseness",
+          "title_zh": "NIH/NIDCD 声嘶患者教育",
+          "source_url": "https://www.nidcd.nih.gov/health/hoarseness",
+          "publication_date": "March 6, 2017",
+          "license": "NIDCD-public-domain-unless-noted",
+          "state": "draft",
+          "clinical_review": "pending",
+          "production_eligible": false,
+          "bm25": -6.327780627618168,
+          "score": 0.04404202995752292,
+          "applicability_warning": null
+        },
+        {
+          "end": 50,
+          "id": "b7c66fd4bd97a3fc3028156c",
+          "locator": "main/block[1]",
+          "population_status": "adult_dev_candidate",
+          "section": "What is hoarseness?",
+          "start": 0,
+          "text": "Structures involved in speech and voice production",
+          "chunk_id": "b7c66fd4bd97a3fc3028156c",
+          "version_id": "11605fc0-df77-4d90-8883-3a19979c3c80",
+          "document_id": "nidcd-hoarseness",
+          "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+          "title": "Hoarseness",
+          "source_url": "https://www.nidcd.nih.gov/health/hoarseness",
+          "topics": [
+            "throat"
+          ],
+          "clinical_review": "pending",
+          "production_eligible": false,
+          "score": 0.04306010928961749,
+          "applicability_warning": null
+        },
+        {
+          "end": 55,
+          "id": "14296189262d08be1c7a9150",
+          "locator": "body/sec[3]/sec[1]/p[3]",
+          "population_status": "adult_dev_candidate",
+          "section": "What is new? / The most important recommendations at a glance",
+          "start": 0,
+          "text": "No or only very insufficient evidence is available for:",
+          "chunk_id": "14296189262d08be1c7a9150",
+          "version_id": "d5005279-1bad-491f-8122-a2d05e558146",
+          "document_id": "tinnitus-s3-2022",
+          "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+          "title": "S3 Guideline: Chronic Tinnitus",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9581878/",
+          "topics": [
+            "tinnitus"
+          ],
+          "clinical_review": "pending",
+          "production_eligible": false,
+          "score": 0.04235074626865672,
+          "applicability_warning": null
+        },
+        {
+          "end": 79,
+          "id": "dd91df5220a11c861d7948b4",
+          "locator": "main/block[8]",
+          "population_status": "adult_dev_candidate",
+          "section": "What are some of the disorders that cause hoarseness and how are they treated?",
+          "start": 0,
+          "text": "Hoarseness can have several possible causes and treatments, as described below:",
+          "chunk_id": "dd91df5220a11c861d7948b4",
+          "document_id": "nidcd-hoarseness",
+          "version_id": "11605fc0-df77-4d90-8883-3a19979c3c80",
+          "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+          "title": "Hoarseness",
+          "title_zh": "NIH/NIDCD 声嘶患者教育",
+          "source_url": "https://www.nidcd.nih.gov/health/hoarseness",
+          "publication_date": "March 6, 2017",
+          "license": "NIDCD-public-domain-unless-noted",
+          "state": "draft",
+          "clinical_review": "pending",
+          "production_eligible": false,
+          "bm25": -6.098392142486743,
+          "score": 0.03992537313432836,
+          "applicability_warning": null
+        },
+        {
+          "end": 91,
+          "id": "b5a9b75771819c53a705aed8",
+          "locator": "main/block[12]",
+          "population_status": "adult_dev_candidate",
+          "section": "How can I tell if I have a hearing problem?",
+          "start": 0,
+          "text": "Does a hearing problem cause you difficulty when visiting friends, relatives, or neighbors?",
+          "chunk_id": "b5a9b75771819c53a705aed8",
+          "version_id": "6c17226f-5c23-409e-b71d-2c7e29c607d1",
+          "document_id": "nidcd-presbycusis",
+          "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+          "title": "Age-Related Hearing Loss (Presbycusis)",
+          "source_url": "https://www.nidcd.nih.gov/health/age-related-hearing-loss",
+          "topics": [
+            "hearing_loss"
+          ],
+          "clinical_review": "pending",
+          "production_eligible": false,
+          "score": 0.03225806451612903,
+          "applicability_warning": null
+        },
+        {
+          "end": 97,
+          "id": "cea4a187bf18ea0daaacb29d",
+          "locator": "main/block[14]",
+          "population_status": "adult_dev_candidate",
+          "section": "How can I tell if I have a hearing problem?",
+          "start": 0,
+          "text": "Do you feel that any difficulty with your hearing limits or hampers your personal or social life?",
+          "chunk_id": "cea4a187bf18ea0daaacb29d",
+          "version_id": "6c17226f-5c23-409e-b71d-2c7e29c607d1",
+          "document_id": "nidcd-presbycusis",
+          "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+          "title": "Age-Related Hearing Loss (Presbycusis)",
+          "source_url": "https://www.nidcd.nih.gov/health/age-related-hearing-loss",
+          "topics": [
+            "hearing_loss"
+          ],
+          "clinical_review": "pending",
+          "production_eligible": false,
+          "score": 0.031746031746031744,
+          "applicability_warning": null
+        },
+        {
+          "end": 59,
+          "id": "8d6a8fe6b1032a9cc62f4eed",
+          "locator": "main/block[16]",
+          "population_status": "adult_dev_candidate",
+          "section": "How can I tell if I have a hearing problem?",
+          "start": 0,
+          "text": "Does a hearing problem cause you to avoid groups of people?",
+          "chunk_id": "8d6a8fe6b1032a9cc62f4eed",
+          "version_id": "6c17226f-5c23-409e-b71d-2c7e29c607d1",
+          "document_id": "nidcd-presbycusis",
+          "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+          "title": "Age-Related Hearing Loss (Presbycusis)",
+          "source_url": "https://www.nidcd.nih.gov/health/age-related-hearing-loss",
+          "topics": [
+            "hearing_loss"
+          ],
+          "clinical_review": "pending",
+          "production_eligible": false,
+          "score": 0.03125,
+          "applicability_warning": null
+        },
+        {
+          "end": 67,
+          "id": "41b72564df26b2524809d4c4",
+          "locator": "main/block[9]",
+          "population_status": "adult_dev_candidate",
+          "section": "How can I tell if I have a hearing problem?",
+          "start": 0,
+          "text": "Does a hearing problem cause you difficulty when attending a party?",
+          "chunk_id": "41b72564df26b2524809d4c4",
+          "version_id": "6c17226f-5c23-409e-b71d-2c7e29c607d1",
+          "document_id": "nidcd-presbycusis",
+          "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+          "title": "Age-Related Hearing Loss (Presbycusis)",
+          "source_url": "https://www.nidcd.nih.gov/health/age-related-hearing-loss",
+          "topics": [
+            "hearing_loss"
+          ],
+          "clinical_review": "pending",
+          "production_eligible": false,
+          "score": 0.03076923076923077,
+          "applicability_warning": null
+        },
+        {
+          "end": 91,
+          "id": "5ab2e0ec693e6902f50fd945",
+          "locator": "main/block[10]",
+          "population_status": "adult_dev_candidate",
+          "section": "How can I tell if I have a hearing problem?",
+          "start": 0,
+          "text": "Does a hearing problem cause you to feel frustrated when talking to members of your family?",
+          "chunk_id": "5ab2e0ec693e6902f50fd945",
+          "version_id": "6c17226f-5c23-409e-b71d-2c7e29c607d1",
+          "document_id": "nidcd-presbycusis",
+          "snapshot_id": "afaf8187-9cda-45f3-a80c-457433e2d2a2",
+          "title": "Age-Related Hearing Loss (Presbycusis)",
+          "source_url": "https://www.nidcd.nih.gov/health/age-related-hearing-loss",
+          "topics": [
+            "hearing_loss"
+          ],
+          "clinical_review": "pending",
+          "production_eligible": false,
+          "score": 0.030303030303030304,
+          "applicability_warning": null
+        }
+      ],
+      "reranked": [],
+      "run_id": "b92b85c2-7181-4b3b-9009-bc6e36f77277",
+      "elapsed_ms": 2885,
+      "reranker_enabled": false
+    },
+    "answer": {
+      "status": "insufficient_evidence",
+      "professional": [],
+      "input_explanation": [],
+      "patient_summary": [],
+      "limitations": [
+        "insufficient_support"
+      ]
+    },
+    "citations": [
+      {
+        "evidence_id": "E1",
+        "version_id": "6c17226f-5c23-409e-b71d-2c7e29c607d1",
+        "chunk_id": "3b752d245c0875d969f16587",
+        "document_id": "nidcd-presbycusis",
+        "title": "Age-Related Hearing Loss (Presbycusis)",
+        "locator": "main/block[13]",
+        "source_url": "https://www.nidcd.nih.gov/health/age-related-hearing-loss",
+        "text": "Do you feel challenged by a hearing problem?",
+        "quote_options": [
+          {
+            "quote_id": "E1.Q1",
+            "text": "Do you feel challenged by a hearing problem?"
+          }
+        ],
+        "text_truncated": false,
+        "clinical_review": "pending"
+      },
+      {
+        "evidence_id": "E2",
+        "version_id": "11605fc0-df77-4d90-8883-3a19979c3c80",
+        "chunk_id": "b3a7516e456b04ea8b67393e",
+        "document_id": "nidcd-hoarseness",
+        "title": "Hoarseness",
+        "locator": "main/block[10]",
+        "source_url": "https://www.nidcd.nih.gov/health/hoarseness",
+        "text": "Misusing or overusing your voice. Cheering at sporting events, speaking loudly in noisy situations, talking for too long without resting your voice, singing loudly, or speaking with a voice that's too high or too low can cause temporary hoarseness. Resting, reducing voice use, and drinking lots of water should help relieve hoarseness from misuse or overuse. Sometimes people whose jobs depend on their voices—such as teachers, singers, or public speakers—develop hoarseness that won't go away. If you use your voice for a living and you regularly experience hoarseness, your doctor might suggest seeing a speech-language pathologist for voice therapy. In voice therapy, you'll be given vocal exercises and tips for avoiding hoarseness by changing the ways in which you use your voice.",
+        "quote_options": [
+          {
+            "quote_id": "E2.Q1",
+            "text": "Misusing or overusing your voice."
+          },
+          {
+            "quote_id": "E2.Q2",
+            "text": "Cheering at sporting events, speaking loudly in noisy situations, talking for too long without resting your voice, singing loudly, or speaking with a voice that's too high or too low can cause temporary hoarseness."
+          },
+          {
+            "quote_id": "E2.Q3",
+            "text": "Resting, reducing voice use, and drinking lots of water should help relieve hoarseness from misuse or overuse."
+          },
+          {
+            "quote_id": "E2.Q4",
+            "text": "Sometimes people whose jobs depend on their voices—such as teachers, singers, or public speakers—develop hoarseness that won't go away."
+          },
+          {
+            "quote_id": "E2.Q5",
+            "text": "If you use your voice for a living and you regularly experience hoarseness, your doctor might suggest seeing a speech-language pathologist for voice therapy."
+          },
+          {
+            "quote_id": "E2.Q6",
+            "text": "In voice therapy, you'll be given vocal exercises and tips for avoiding hoarseness by changing the ways in which you use your voice."
+          }
+        ],
+        "text_truncated": false,
+        "clinical_review": "pending"
+      },
+      {
+        "evidence_id": "E3",
+        "version_id": "11605fc0-df77-4d90-8883-3a19979c3c80",
+        "chunk_id": "b7c66fd4bd97a3fc3028156c",
+        "document_id": "nidcd-hoarseness",
+        "title": "Hoarseness",
+        "locator": "main/block[1]",
+        "source_url": "https://www.nidcd.nih.gov/health/hoarseness",
+        "text": "Structures involved in speech and voice production",
+        "quote_options": [
+          {
+            "quote_id": "E3.Q1",
+            "text": "Structures involved in speech and voice production"
+          }
+        ],
+        "text_truncated": false,
+        "clinical_review": "pending"
+      },
+      {
+        "evidence_id": "E4",
+        "version_id": "d5005279-1bad-491f-8122-a2d05e558146",
+        "chunk_id": "14296189262d08be1c7a9150",
+        "document_id": "tinnitus-s3-2022",
+        "title": "S3 Guideline: Chronic Tinnitus",
+        "locator": "body/sec[3]/sec[1]/p[3]",
+        "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9581878/",
+        "text": "No or only very insufficient evidence is available for:",
+        "quote_options": [
+          {
+            "quote_id": "E4.Q1",
+            "text": "No or only very insufficient evidence is available for:"
+          }
+        ],
+        "text_truncated": false,
+        "clinical_review": "pending"
+      },
+      {
+        "evidence_id": "E5",
+        "version_id": "11605fc0-df77-4d90-8883-3a19979c3c80",
+        "chunk_id": "dd91df5220a11c861d7948b4",
+        "document_id": "nidcd-hoarseness",
+        "title": "Hoarseness",
+        "locator": "main/block[8]",
+        "source_url": "https://www.nidcd.nih.gov/health/hoarseness",
+        "text": "Hoarseness can have several possible causes and treatments, as described below:",
+        "quote_options": [
+          {
+            "quote_id": "E5.Q1",
+            "text": "Hoarseness can have several possible causes and treatments, as described below:"
+          }
+        ],
+        "text_truncated": false,
+        "clinical_review": "pending"
+      },
+      {
+        "evidence_id": "E6",
+        "version_id": "6c17226f-5c23-409e-b71d-2c7e29c607d1",
+        "chunk_id": "b5a9b75771819c53a705aed8",
+        "document_id": "nidcd-presbycusis",
+        "title": "Age-Related Hearing Loss (Presbycusis)",
+        "locator": "main/block[12]",
+        "source_url": "https://www.nidcd.nih.gov/health/age-related-hearing-loss",
+        "text": "Does a hearing problem cause you difficulty when visiting friends, relatives, or neighbors?",
+        "quote_options": [
+          {
+            "quote_id": "E6.Q1",
+            "text": "Does a hearing problem cause you difficulty when visiting friends, relatives, or neighbors?"
+          }
+        ],
+        "text_truncated": false,
+        "clinical_review": "pending"
+      }
+    ],
+    "validation": {
+      "citation_identity_and_quote_match": true,
+      "semantic_support": "model_judgment_only",
+      "clinical_approval": false,
+      "input_check": "exact_field_anchors_and_bounded_attribution_screen",
+      "requested_quote_selectors": 5,
+      "generation_evidence_ids": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6"
+      ],
+      "draft_summary_placeholder": true,
+      "citation_context_expansions": [],
+      "atomization": [],
+      "input_comparison_withheld": {
+        "code": "input_comparison_classification_failed",
+        "count": 2
+      },
+      "dose_screen": "heuristic_passed",
+      "quote_repair": {
+        "attempts": 0,
+        "accepted": false
+      },
+      "core_verification": {
+        "claims": [
+          {
+            "claim_id": "professional:0",
+            "supported": true,
+            "reason": "supported",
+            "checked_quote_indexes": [
+              0
+            ]
+          },
+          {
+            "claim_id": "professional:1",
+            "supported": true,
+            "reason": "supported",
+            "checked_quote_indexes": [
+              0
+            ]
+          },
+          {
+            "claim_id": "professional:2",
+            "supported": true,
+            "reason": "supported",
+            "checked_quote_indexes": [
+              0
+            ]
+          }
+        ],
+        "retained_answer_addresses_question": false,
+        "refusal_assessment": "not_applicable",
+        "refusal_supports": [],
+        "atom_groups": [],
+        "split_group_complete": true,
+        "mixed_group_withheld": false,
+        "retained_indexes": {
+          "professional": [],
+          "input_explanation": [],
+          "patient_summary": []
+        },
+        "withhold_causes": [
+          "question_not_addressed"
+        ],
+        "format_attempts": 1,
+        "format_errors": [],
+        "format_feedback": null,
+        "deterministic_record_claim_ids": []
+      },
+      "core_verification_metadata": {
+        "requested_model": "deepseek-flash",
+        "returned_model": "deepseek-flash",
+        "usage": {
+          "prompt_tokens": 2707,
+          "completion_tokens": 96,
+          "total_tokens": 2803
+        },
+        "prompt_sha256": "e5dfe4120c4a84c127102e4038da428682e8cb10702595855c420f7664068a5e",
+        "deterministic_record_claim_ids": []
+      },
+      "original_status": "answered",
+      "verification": {
+        "claims": [],
+        "retained_answer_addresses_question": false,
+        "refusal_assessment": "possible_over_refusal",
+        "refusal_supports": [
+          {
+            "evidence_id": "E2",
+            "quote": "Resting, reducing voice use, and drinking lots of water should help relieve hoarseness from misuse or overuse."
+          }
+        ],
+        "atom_groups": [],
+        "split_group_complete": true,
+        "mixed_group_withheld": false,
+        "retained_indexes": {
+          "professional": [],
+          "input_explanation": [],
+          "patient_summary": []
+        },
+        "withhold_causes": [],
+        "format_attempts": 1,
+        "format_errors": [],
+        "format_feedback": null,
+        "deterministic_record_claim_ids": []
+      },
+      "verification_metadata": {
+        "requested_model": "deepseek-flash",
+        "returned_model": "deepseek-flash",
+        "usage": {
+          "prompt_tokens": 3719,
+          "completion_tokens": 66,
+          "total_tokens": 3785
+        },
+        "prompt_sha256": "e5dfe4120c4a84c127102e4038da428682e8cb10702595855c420f7664068a5e",
+        "deterministic_record_claim_ids": []
+      },
+      "outcome_category": "content_rejected",
+      "semantic_revision": {
+        "attempts": 1,
+        "initial_verification": {
+          "claims": [
+            {
+              "claim_id": "professional:0",
+              "supported": true,
+              "reason": "supported",
+              "checked_quote_indexes": [
+                0
+              ]
+            },
+            {
+              "claim_id": "professional:1",
+              "supported": true,
+              "reason": "supported",
+              "checked_quote_indexes": [
+                0
+              ]
+            },
+            {
+              "claim_id": "patient_summary:0",
+              "supported": true,
+              "reason": "supported",
+              "checked_quote_indexes": [
+                0
+              ]
+            }
+          ],
+          "retained_answer_addresses_question": false,
+          "refusal_assessment": "not_applicable",
+          "refusal_supports": [],
+          "atom_groups": [],
+          "split_group_complete": true,
+          "mixed_group_withheld": false,
+          "retained_indexes": {
+            "professional": [],
+            "input_explanation": [],
+            "patient_summary": []
+          },
+          "withhold_causes": [
+            "question_not_addressed"
+          ],
+          "format_attempts": 1,
+          "format_errors": [],
+          "format_feedback": null,
+          "deterministic_record_claim_ids": []
+        },
+        "trigger": "semantic",
+        "initial_schema_issues": [],
+        "initial_selector_diagnostic": null,
+        "initial_quality_diagnostic": null,
+        "initial_generation_metadata": {
+          "requested_model": "deepseek-flash",
+          "returned_model": "deepseek-flash",
+          "usage": {
+            "prompt_tokens": 4183,
+            "completion_tokens": 219,
+            "total_tokens": 4402
+          },
+          "prompt_sha256": "8549fc1bf7b1b34f6d5da424dbbf40c89b65a71382f36a27486891f5ee2d2c17"
+        },
+        "accepted": false
+      }
+    },
+    "model": "deepseek-flash",
+    "provider_base_url": "https://api.deepseek.com",
+    "elapsed_ms": 14247,
+    "synthetic_only": true,
+    "generation_metadata": {
+      "requested_model": "deepseek-flash",
+      "returned_model": "deepseek-flash",
+      "usage": {
+        "prompt_tokens": 4766,
+        "completion_tokens": 296,
+        "total_tokens": 5062
+      },
+      "prompt_sha256": "8549fc1bf7b1b34f6d5da424dbbf40c89b65a71382f36a27486891f5ee2d2c17"
+    }
+  }
+}

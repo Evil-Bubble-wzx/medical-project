@@ -1,0 +1,12 @@
+{
+  "cases": [
+    {
+      "id": "followup",
+      "chief_complaint": "声音嘶哑",
+      "question": "那这些变化在资料中是怎样描述的？"
+    }
+  ],
+  "synthetic_only": true,
+  "maximum_new_cases": 1,
+  "automatic_batch_retry": false
+}

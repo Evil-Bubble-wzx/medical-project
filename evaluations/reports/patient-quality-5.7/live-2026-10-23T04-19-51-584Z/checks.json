@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "synthetic_only": true,
+  "real_provider": true,
+  "consultation_submissions": 1,
+  "checks": [
+    "patient_ui_submit",
+    "saved_answer",
+    "configured_reranker_used",
+    "patient_summary_present",
+    "exact_source_quotes",
+    "refresh_recovers",
+    "relogin_recovers",
+    "no_duplicate_submission"
+  ],
+  "errors": [],
+  "clinical_acceptance": false
+}

@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "powershell_scripts_parse": 3,
+  "patient_entry_batch_target_valid": true,
+  "browser_not_opened_by_probe": true
+}

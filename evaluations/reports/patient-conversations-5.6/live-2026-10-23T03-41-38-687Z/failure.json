@@ -1,0 +1,8 @@
+{
+  "error": "{\"citation_identity_and_quote_match\":true,\"semantic_support\":\"model_judgment_only\",\"clinical_approval\":false,\"scope_code\":null,\"error_code\":null,\"failure_stage\":null,\"outcome_category\":\"evidence_insufficient\"}\n+ actual - expected\n\n+ 'insufficient_evidence'\n- 'answered'\n",
+  "checks": [
+    "turn_1_context_and_fresh_citations"
+  ],
+  "errors": [],
+  "submissions": 2
+}

@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "checks": [
+    "doctor_account_not_rendered_in_patient_entry",
+    "independent_patient_with_empty_owned_profile",
+    "pre_send_503_manual_retry_same_key_and_single_snapshot",
+    "one_form_auto_save",
+    "followup_reuses_symptoms_without_duplicate_snapshot",
+    "professional_answer_and_citations_retained",
+    "refresh_saved_history_without_resubmission",
+    "changed_symptoms_create_new_immutable_version",
+    "optional_doctor_grant_and_revocation",
+    "mobile_no_horizontal_overflow",
+    "logout_clears_patient_content"
+  ],
+  "errors": [],
+  "synthetic_fixture": true,
+  "provider_calls": 0
+}

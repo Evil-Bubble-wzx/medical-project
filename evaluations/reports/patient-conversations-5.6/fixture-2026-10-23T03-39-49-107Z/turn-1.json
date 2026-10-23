@@ -1,0 +1,99 @@
+{
+  "consultation_id": "6869afda-1481-4419-8004-e3a28bc56a2d",
+  "parent_consultation_id": null,
+  "conversation_id": "6869afda-1481-4419-8004-e3a28bc56a2d",
+  "context_turn_ids": [],
+  "snapshot_id": "596d4cba-7494-4b30-872f-3dbd0b11f048",
+  "snapshot_revision": 1,
+  "patient": {
+    "age": 40,
+    "chief_complaint": "声音嘶哑",
+    "duration": "3天",
+    "history": "",
+    "pasted_text": ""
+  },
+  "question": "声嘶资料中描述了哪些声音变化？",
+  "state": "completed",
+  "stage": "completed",
+  "result": {
+    "answer": {
+      "status": "answered",
+      "professional": [
+        {
+          "text": "This is a synthetic workflow explanation",
+          "supports": [
+            {
+              "evidence_id": "E1",
+              "quote": "This is synthetic evidence for engineering workflow tests only."
+            }
+          ],
+          "input_fields": []
+        }
+      ],
+      "input_explanation": [],
+      "patient_summary": [
+        {
+          "text": "This is a synthetic workflow explanation",
+          "supports": [
+            {
+              "evidence_id": "E1",
+              "quote": "This is synthetic evidence for engineering workflow tests only."
+            }
+          ],
+          "input_fields": []
+        }
+      ],
+      "limitations": []
+    },
+    "citations": [
+      {
+        "evidence_id": "E1",
+        "version_id": "87292d9b-38e0-4fba-8595-65b873f8c3ff",
+        "chunk_id": "synthetic-chunk",
+        "document_id": "synthetic-consultation-source",
+        "title": "Synthetic workflow evidence",
+        "locator": "synthetic-paragraph",
+        "source_url": "https://example.org/",
+        "text": "This is synthetic evidence for engineering workflow tests only.",
+        "quote_options": [
+          {
+            "quote_id": "E1.Q1",
+            "text": "This is synthetic evidence for engineering workflow tests only."
+          }
+        ],
+        "text_truncated": false,
+        "clinical_review": "pending"
+      }
+    ],
+    "validation": {
+      "citation_identity_and_quote_match": true,
+      "semantic_support": "synthetic_fixture_only",
+      "clinical_approval": false,
+      "scope_code": null,
+      "error_code": null,
+      "failure_stage": null,
+      "outcome_category": null
+    },
+    "model": "synthetic-answer-fixture",
+    "elapsed_ms": 1,
+    "knowledge_snapshot_id": "509b528b-b7af-46b3-9e0c-cca88a18aaee",
+    "synthetic_only": true,
+    "runtime_components": {
+      "encoder_fingerprint": null,
+      "reranker_used": false
+    }
+  },
+  "error_code": null,
+  "created_at": 1792726790.558694,
+  "provenance": {
+    "workflow": "existing_validated_answer_workflow",
+    "synthetic_only": true,
+    "external_generation_consent": true,
+    "files": {
+      "configs/generation.json": "9f7d076ab5237b865f8c44b946b5f3477c29a527328710975a8cabc70e5b01e1"
+    }
+  },
+  "synthetic_only": true,
+  "current_comparison_issues": [],
+  "historical_evidence_currently_available": true
+}

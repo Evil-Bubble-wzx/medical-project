@@ -93,6 +93,37 @@ def test_unauthorized_cannot_create_list_or_read_even_with_known_ids(consulting)
     assert b.answer.calls == 1
 
 
+def test_history_cursor_covers_all_rows_without_foreign_patient_or_duplicates(consulting):
+    b = consulting
+    other = b.store.create_patient(b.tokens["patient-b"], "Synthetic other")["patient_id"]
+    other_snapshot = b.store.save_snapshot(b.tokens["patient-b"], other, DATA, 0)["snapshot_id"]
+    expected = []
+    for index in range(41):
+        row = b.service.enqueue(
+            b.tokens["patient-a"], b.patient, b.snapshot,
+            f"Synthetic page item {index}", str(uuid4()),
+        )
+        expected.append(row["consultation_id"])
+        if index % 10 == 0:
+            b.service.enqueue(
+                b.tokens["patient-b"], other, other_snapshot,
+                "Foreign synthetic item", str(uuid4()),
+            )
+    seen, sizes, cursor = [], [], None
+    while True:
+        page = b.service.listing(b.tokens["patient-a"], b.patient, cursor)
+        seen.extend(row["id"] for row in page["consultations"])
+        sizes.append(len(page["consultations"]))
+        cursor = page["next_before"]
+        if cursor is None:
+            break
+        assert len(sizes) < 4
+    assert sizes == [20, 20, 1]
+    assert seen == list(reversed(expected))
+    assert len(set(seen)) == 41
+    assert b.answer.calls == 0
+
+
 def test_foreign_snapshot_is_rejected_before_model(consulting):
     b = consulting
     other = b.store.create_patient(b.tokens["patient-b"], "Synthetic B")["patient_id"]
@@ -221,6 +252,8 @@ def test_schema_one_migration_preserves_existing_account_and_snapshot(consulting
         db.execute("DROP TABLE consultation_jobs")
         db.execute("DROP TABLE consultation_worker")
         db.execute("DROP TABLE consultation_runs")
+        db.execute("DROP TABLE IF EXISTS local_credential_updates")
+        db.execute("DROP TABLE IF EXISTS consultation_context")
         db.execute("PRAGMA user_version=1")
     reopened = BusinessStore(b.store.path, clock=b.store.clock)
     assert reopened.me(b.tokens["patient-a"])["role"] == "patient"
@@ -229,7 +262,7 @@ def test_schema_one_migration_preserves_existing_account_and_snapshot(consulting
         == b.snapshot
     )
     with reopened.connect() as db:
-        assert db.execute("PRAGMA user_version").fetchone()[0] == 4
+        assert db.execute("PRAGMA user_version").fetchone()[0] == 6
 
 
 @pytest.mark.parametrize(

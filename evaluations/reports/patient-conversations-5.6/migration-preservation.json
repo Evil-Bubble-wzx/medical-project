@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "schema_after": 5,
+  "existing_data": {
+    "business_users": {
+      "existing_rows": 9,
+      "changed_rows": 0
+    },
+    "business_patients": {
+      "existing_rows": 8,
+      "changed_rows": 0
+    },
+    "patient_snapshots": {
+      "existing_rows": 10,
+      "changed_rows": 0
+    },
+    "consultation_runs": {
+      "existing_rows": 101,
+      "changed_rows": 0
+    }
+  },
+  "active_qa_accounts": 0
+}

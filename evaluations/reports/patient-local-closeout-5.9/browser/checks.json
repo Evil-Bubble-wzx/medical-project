@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "checks": [
+    "two_turn_fixture_ready",
+    "owner_json_export_complete_without_credentials",
+    "delete_cancel_preserves_conversation",
+    "delete_removes_whole_thread",
+    "password_repeat_validation",
+    "password_change_logout_and_new_login"
+  ],
+  "errors": [],
+  "synthetic_only": true,
+  "provider_calls": 0
+}

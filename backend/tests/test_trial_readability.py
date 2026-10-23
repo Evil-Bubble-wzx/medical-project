@@ -208,3 +208,89 @@ def test_general_knowledge_question_not_blocked_by_unknown_personal_details():
         )
         is None
     )
+
+
+@pytest.mark.parametrize("accept_recovery", [True, False])
+def test_semantic_summary_repair_rechecks_all_claims_and_is_bounded(
+    tmp_path, monkeypatch, accept_recovery
+):
+    from types import SimpleNamespace
+
+    from test_generation import config, draft, source
+
+    from app.knowledge.library import write_json
+    from app.retrieval.answer_workflow import AnswerInput, answer_request
+
+    write_json(
+        tmp_path / "configs/generation.json", {**config(), "verified_core_summary_fallback": True}
+    )
+    monkeypatch.setattr(
+        "app.retrieval.answer_workflow.eligible_corpus", lambda *args: ("s", [source()])
+    )
+    service = SimpleNamespace(
+        root=tmp_path, retrieve=lambda p: {"hybrid": [source()], "reranked": [], "snapshot_id": "s"}
+    )
+    calls = []
+
+    class Generator:
+        def generate(self, *args):
+            return json.dumps(draft())
+
+    class Summary:
+        def summarize(self, core):
+            return {
+                "text": "这段模拟资料提供了解释。",
+                "supports": core["supports"],
+                "input_fields": [],
+            }
+
+    class Verifier:
+        def verify(self, patient, answer, evidence):
+            final = bool(answer["patient_summary"])
+            calls.append(answer)
+            final_count = sum(bool(a["patient_summary"]) for a in calls)
+            accepted = not final or (accept_recovery and final_count == 2)
+            if final_count == 2:
+                assert answer["patient_summary"][0]["text"] == answer["professional"][0]["text"]
+                assert (
+                    answer["patient_summary"][0]["supports"]
+                    == answer["professional"][0]["supports"]
+                )
+            return json.dumps(
+                {
+                    "claims": [
+                        {
+                            "claim_id": f"{section}:{i}",
+                            "supported": accepted if section == "patient_summary" else True,
+                            "reason": "supported"
+                            if accepted or section != "patient_summary"
+                            else "claim_overreach",
+                            "checked_quote_indexes": [0]
+                            if accepted or section != "patient_summary"
+                            else [],
+                        }
+                        for section in ("professional", "input_explanation", "patient_summary")
+                        for i, _ in enumerate(answer[section])
+                    ],
+                    "retained_answer_addresses_question": True,
+                    "refusal_assessment": "not_applicable",
+                    "refusal_supports": [],
+                }
+            )
+
+    result = answer_request(
+        service,
+        AnswerInput(age=40, chief_complaint="synthetic", question="synthetic", synthetic_only=True),
+        Generator(),
+        Verifier(),
+        summarizer=Summary(),
+        _allow_revision=False,
+    )
+    assert len(calls) == 3
+    assert result["answer"]["status"] == (
+        "answered" if accept_recovery else "insufficient_evidence"
+    )
+    assert result["validation"]["summary_semantic_recovery"] == {
+        "attempts": 1,
+        "accepted": accept_recovery,
+    }

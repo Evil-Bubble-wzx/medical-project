@@ -10,6 +10,7 @@ from app.application.business import BusinessError
 from app.application.consultations import ConsultationService
 from app.application.doctor_cases import DoctorCases
 from app.application.doctor_feedback import DoctorFeedback
+from app.application.patient_tools import PatientTools
 from app.config import ROOT
 from app.knowledge.library import read_json
 
@@ -18,6 +19,17 @@ class Login(BaseModel):
     model_config = ConfigDict(extra="forbid", strict=True)
     username: str = Field(min_length=3, max_length=80)
     password: str = Field(min_length=1, max_length=200, repr=False)
+
+
+class PasswordChange(BaseModel):
+    model_config = ConfigDict(extra="forbid", strict=True)
+    current_password: str = Field(min_length=1, max_length=200, repr=False)
+    new_password: str = Field(min_length=12, max_length=200, repr=False)
+
+
+class DeleteConversation(BaseModel):
+    model_config = ConfigDict(extra="forbid", strict=True)
+    confirm: Literal["DELETE"]
 
 
 class Profile(BaseModel):
@@ -59,6 +71,7 @@ class Consultation(BaseModel):
     snapshot_id: str = Field(min_length=1, max_length=100)
     question: str = Field(min_length=1, max_length=160)
     request_key: str = Field(pattern=r"^[0-9a-f-]{36}$")
+    parent_consultation_id: str | None = Field(default=None, min_length=1, max_length=100)
 
     @field_validator("synthetic_only", "provider_consent", mode="before")
     @classmethod
@@ -112,6 +125,37 @@ def register_business_routes(app, authorize, get_store, answer_service, get_queu
     def me(request: Request):
         return call(lambda: get_store().me(token(request)))
 
+    def patient_tools():
+        return PatientTools(get_store(), getattr(answer_service, "root", ROOT))
+
+    @app.post(prefix + "/password", dependencies=[Depends(authorize)])
+    def password_change(payload: PasswordChange, request: Request, response: Response):
+        result = call(
+            lambda: patient_tools().change_password(
+                token(request), payload.current_password, payload.new_password
+            )
+        )
+        response.delete_cookie(cookie, path=prefix)
+        return result
+
+    @app.get(prefix + "/patients/{patient}/export", dependencies=[Depends(authorize)])
+    def patient_export(patient: str, request: Request, response: Response):
+        response.headers["Cache-Control"] = "no-store"
+        return call(lambda: patient_tools().export(token(request), patient))
+
+    @app.post(
+        prefix + "/patients/{patient}/consultations/{identity}/delete",
+        dependencies=[Depends(authorize)],
+    )
+    def conversation_delete(
+        patient: str, identity: str, payload: DeleteConversation, request: Request
+    ):
+        return call(lambda: patient_tools().delete(token(request), patient, identity))
+
+    @app.post(prefix + "/patients/{patient}/clear", dependencies=[Depends(authorize)])
+    def clear_patient_data(patient: str, payload: DeleteConversation, request: Request):
+        return call(lambda: patient_tools().clear_data(token(request), patient))
+
     @app.get(prefix + "/patients", dependencies=[Depends(authorize)])
     def patients(request: Request):
         return call(lambda: get_store().patients(token(request)))
@@ -161,7 +205,12 @@ def register_business_routes(app, authorize, get_store, answer_service, get_queu
     def consultation(patient: str, payload: Consultation, request: Request):
         def submit():
             record = ConsultationService(get_store(), answer_service).enqueue(
-                token(request), patient, payload.snapshot_id, payload.question, payload.request_key
+                token(request),
+                patient,
+                payload.snapshot_id,
+                payload.question,
+                payload.request_key,
+                parent_id=payload.parent_consultation_id,
             )
             get_queue().start()
             return record
@@ -182,6 +231,17 @@ def register_business_routes(app, authorize, get_store, answer_service, get_queu
     def consultation_detail(patient: str, identity: str, request: Request):
         return call(
             lambda: ConsultationService(get_store(), answer_service).detail(
+                token(request), patient, identity
+            )
+        )
+
+    @app.get(
+        prefix + "/patients/{patient}/consultations/{identity}/thread",
+        dependencies=[Depends(authorize)],
+    )
+    def conversation_thread(patient: str, identity: str, request: Request):
+        return call(
+            lambda: ConsultationService(get_store(), answer_service).thread(
                 token(request), patient, identity
             )
         )

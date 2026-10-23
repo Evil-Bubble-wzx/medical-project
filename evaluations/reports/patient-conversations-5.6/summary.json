@@ -1,0 +1,34 @@
+{
+  "engineering_checks_passed": true,
+  "full_backend_tests": 716,
+  "backend_failures": 0,
+  "fixture_browser_checks": 8,
+  "real_browser_checks": 8,
+  "real_attempts": [
+    {
+      "folder": "live-2026-10-23T03-41-38-687Z",
+      "saved_turns": 2,
+      "outcomes": [
+        "answered",
+        "insufficient_evidence"
+      ],
+      "notes": "Stopped at second turn; verifier lacked context."
+    },
+    {
+      "folder": "live-2026-10-23T03-44-58-970Z",
+      "saved_turns": 3,
+      "outcomes": [
+        "answered",
+        "insufficient_evidence",
+        "answered"
+      ],
+      "notes": "Verifier context fixed; second answer still safely withheld. Third completed after resuming without replay."
+    }
+  ],
+  "new_saved_consultations_total": 5,
+  "all_followups_answered": false,
+  "clinical_acceptance": false,
+  "backup": "var/local-backups/20261023T034036Z-c8930ead",
+  "existing_data_preserved": true,
+  "test_accounts_disabled": true
+}

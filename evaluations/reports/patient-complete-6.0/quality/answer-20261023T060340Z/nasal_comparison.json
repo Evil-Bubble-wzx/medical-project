@@ -1,0 +1,1027 @@
+{
+  "case": {
+    "id": "nasal_comparison",
+    "chief_complaint": "鼻塞",
+    "question": "资料怎样区分过敏性鼻炎与非过敏性鼻炎？"
+  },
+  "result": {
+    "retrieval": {
+      "snapshot_id": "1d3af4ba-8a10-43fc-93e4-8e0ff1e1353c",
+      "query_policy": "dual_question_first",
+      "hybrid": [
+        {
+          "end": 113,
+          "id": "57f3e5706ed2fd9bfbd702c9",
+          "locator": "Abstract sentence 1 · extracted chars [0:113]",
+          "population_status": "adult_dev_candidate",
+          "section": "Abstract",
+          "start": 0,
+          "text": "Chronic rhinitis (CR) is divided into two main categories: allergic rhinitis (AR) and nonallergic rhinitis (NAR).",
+          "chunk_id": "57f3e5706ed2fd9bfbd702c9",
+          "version_id": "7ec876d6-8e59-4ca2-82fa-5fca72743cdc",
+          "document_id": "local-text-f5e185532bfc4dd484bdd0bb2b388dbb",
+          "snapshot_id": "1d3af4ba-8a10-43fc-93e4-8e0ff1e1353c",
+          "title": "Allergic and Mixed Rhinitis: Diagnosis and Natural Evolution (2019 review abstract)",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6912750/",
+          "topics": [
+            "rhinitis"
+          ],
+          "clinical_review": "pending",
+          "production_eligible": false,
+          "score": 0.04918032786885246,
+          "applicability_warning": null
+        },
+        {
+          "end": 366,
+          "id": "e9097b3973e9630d9a65ada7",
+          "locator": "body/sec[3]/sec[1]/sec[1]/p[3]",
+          "population_status": "adult_dev_candidate",
+          "section": "Multi-morbidities of allergic rhinitis / Asthma / Extent of co-occurrence",
+          "start": 0,
+          "text": "In fact the majority of inflammatory asthma sufferers have some form of upper airway disease (ARIA 2001) [8], either AR, non-allergic rhinitis or rhinosinusitis, usually with nasal polyposis (EPOS 2012) [9]. The extent of inflammation is usually proportional between upper and lower respiratory tracts with equivalence in eosinophils [10] and clinical severity [11].",
+          "chunk_id": "e9097b3973e9630d9a65ada7",
+          "version_id": "aa15af9b-2ffa-4cf8-89b7-ccafd90db10e",
+          "document_id": "adult-rhinitis-eaaci-2017",
+          "snapshot_id": "1d3af4ba-8a10-43fc-93e4-8e0ff1e1353c",
+          "title": "Multi-morbidities of allergic rhinitis in adults: European Academy of Allergy and Clinical Immunology Task Force Report",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5452333/",
+          "topics": [
+            "rhinitis"
+          ],
+          "clinical_review": "pending",
+          "production_eligible": false,
+          "score": 0.048131080389144903,
+          "applicability_warning": null
+        },
+        {
+          "end": 909,
+          "id": "0370c731a72f7a660936113c",
+          "locator": "body/sec[3]/sec[6]/sec[3]/p[1]",
+          "population_status": "adult_dev_candidate",
+          "section": "Multi-morbidities of allergic rhinitis / Rhinosinusitis / Chronic rhinosinusitis with nasal polyps (CRSwNP)",
+          "start": 0,
+          "text": "Chronic rhinosinusitis with nasal polyps (CRSwNP) is associated with high concentrations of IgE in nasal polyp (NP) tissue. CRSwNP often coexists with asthma and this group is particularly characterized with tissue eosinophilia and high local IgE levels [62]. Therefore, an allergic aetiology of NPs has been presumed, though never firmly demonstrated. Between 0.5 and 4.5% of subjects with AR have NPs, which compares with the normal population [9]. In a retrospective study by Settipane and Chafee [63], the nasal polyps were present in 4.2% of the total population of 4986 subjects. Nasal polyp frequency rate was 6.7% in asthmatic patients and 2.2% in the rhinitis alone group. Of the total 211 cases of nasal polyps, 71% had asthma and 29% had rhinitis alone [63]. Pang et al. [64] reported that food allergen intradermal tests were more positive in nasal polyp patients (81%) compared to controls (11%).",
+          "chunk_id": "0370c731a72f7a660936113c",
+          "version_id": "aa15af9b-2ffa-4cf8-89b7-ccafd90db10e",
+          "document_id": "adult-rhinitis-eaaci-2017",
+          "snapshot_id": "1d3af4ba-8a10-43fc-93e4-8e0ff1e1353c",
+          "title": "Multi-morbidities of allergic rhinitis in adults: European Academy of Allergy and Clinical Immunology Task Force Report",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5452333/",
+          "topics": [
+            "rhinitis"
+          ],
+          "clinical_review": "pending",
+          "production_eligible": false,
+          "score": 0.047371031746031744,
+          "applicability_warning": null
+        },
+        {
+          "end": 357,
+          "id": "458b87e3ca6a9da1c6f0430b",
+          "locator": "body/sec[3]/sec[6]/sec[2]/p[2]",
+          "population_status": "adult_dev_candidate",
+          "section": "Multi-morbidities of allergic rhinitis / Rhinosinusitis / Effects of co-occurrence",
+          "start": 0,
+          "text": "Several mechanisms could explain the link between allergic inflammation and sinus disease. Allergic inflammation of the nasal mucosa may give rise to mucosal congestion leading to impaired mucus drainage at the ostiomeatal complex in predisposed patients. Ostiomeatal pathology is considered to be essential to the generation of sinus-related symptoms [59].",
+          "chunk_id": "458b87e3ca6a9da1c6f0430b",
+          "version_id": "aa15af9b-2ffa-4cf8-89b7-ccafd90db10e",
+          "document_id": "adult-rhinitis-eaaci-2017",
+          "snapshot_id": "1d3af4ba-8a10-43fc-93e4-8e0ff1e1353c",
+          "title": "Multi-morbidities of allergic rhinitis in adults: European Academy of Allergy and Clinical Immunology Task Force Report",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5452333/",
+          "topics": [
+            "rhinitis"
+          ],
+          "clinical_review": "pending",
+          "production_eligible": false,
+          "score": 0.04640151515151515,
+          "applicability_warning": null
+        },
+        {
+          "end": 126,
+          "id": "fe491ed23c6aae3c0ff90684",
+          "locator": "Abstract sentence 3 · extracted chars [0:126]",
+          "population_status": "adult_dev_candidate",
+          "section": "Abstract",
+          "start": 0,
+          "text": "However, an additional 30% to 50% of patients with CR might have an overlap of NAR and AR, referred to as mixed rhinitis (MR).",
+          "chunk_id": "fe491ed23c6aae3c0ff90684",
+          "version_id": "7ec876d6-8e59-4ca2-82fa-5fca72743cdc",
+          "document_id": "local-text-f5e185532bfc4dd484bdd0bb2b388dbb",
+          "snapshot_id": "1d3af4ba-8a10-43fc-93e4-8e0ff1e1353c",
+          "title": "Allergic and Mixed Rhinitis: Diagnosis and Natural Evolution (2019 review abstract)",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6912750/",
+          "topics": [
+            "rhinitis"
+          ],
+          "clinical_review": "pending",
+          "production_eligible": false,
+          "score": 0.046153846153846156,
+          "applicability_warning": null
+        },
+        {
+          "end": 124,
+          "id": "aca0e617998d6dd0e3faae93",
+          "locator": "body/sec[3]/sec[1]/sec[1]/p[6]",
+          "population_status": "adult_dev_candidate",
+          "section": "Multi-morbidities of allergic rhinitis / Asthma / Extent of co-occurrence",
+          "start": 0,
+          "text": "Certainly the presence of rhinitis, both allergic and non-allergic, is a risk factor for subsequent asthma development [14].",
+          "chunk_id": "aca0e617998d6dd0e3faae93",
+          "document_id": "adult-rhinitis-eaaci-2017",
+          "version_id": "aa15af9b-2ffa-4cf8-89b7-ccafd90db10e",
+          "snapshot_id": "1d3af4ba-8a10-43fc-93e4-8e0ff1e1353c",
+          "title": "Multi-morbidities of allergic rhinitis in adults: European Academy of Allergy and Clinical Immunology Task Force Report",
+          "title_zh": "成人变应性鼻炎共病：EAACI工作组报告（2017）",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5452333/",
+          "publication_date": "2017-6-1",
+          "license": "CC-BY-4.0",
+          "state": "draft",
+          "clinical_review": "pending",
+          "production_eligible": false,
+          "bm25": -6.028504915802561,
+          "score": 0.04479578392621871,
+          "applicability_warning": null
+        },
+        {
+          "end": 928,
+          "id": "71b7bcd21c2c7f0b83de9096",
+          "locator": "body/sec[3]/sec[6]/sec[3]/p[2]",
+          "population_status": "adult_dev_candidate",
+          "section": "Multi-morbidities of allergic rhinitis / Rhinosinusitis / Chronic rhinosinusitis with nasal polyps (CRSwNP)",
+          "start": 0,
+          "text": "In mucosal tissues, mRNA for the ε-chain of IgE was associated with a significant proportion of B cells [65, 66]. Recent evidence has shown local IgE synthesis, local receptor revision, class switch recombination and B-cell differentiation into IgE-secreting plasma cells in NPs [64]. In NPs, the level of IgE is independent of the atopic status of the patient [65, 67, 68] whereas specific IgE in NPs is only partly related to skin prick test positivity [65, 67, 68]. The local IgE in NPs is the result of two types of IgE production: systemic allergic IgE formation and a local polyclonal IgE formation [65, 66]. Local polyclonal IgE correlates with the presence of Staphylococcus aureus enterotoxins (SAE) [9, 65–67]. Finally, Gevaert et al. [69] demonstrated that antagonizing IgE by injections of omalizumab is effective for both allergic and nonallergic CRSwNP. The later finding proves the relevance of local mucosal IgE.",
+          "chunk_id": "71b7bcd21c2c7f0b83de9096",
+          "version_id": "aa15af9b-2ffa-4cf8-89b7-ccafd90db10e",
+          "document_id": "adult-rhinitis-eaaci-2017",
+          "snapshot_id": "1d3af4ba-8a10-43fc-93e4-8e0ff1e1353c",
+          "title": "Multi-morbidities of allergic rhinitis in adults: European Academy of Allergy and Clinical Immunology Task Force Report",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5452333/",
+          "topics": [
+            "rhinitis"
+          ],
+          "clinical_review": "pending",
+          "production_eligible": false,
+          "score": 0.044136460554371,
+          "applicability_warning": null
+        },
+        {
+          "end": 520,
+          "id": "be0f654d6100bdcb9550e12a",
+          "locator": "body/sec[1]/p[1]",
+          "population_status": "adult_dev_candidate",
+          "section": "Introduction",
+          "start": 0,
+          "text": "This report was prepared by the European Academy of Allergy and Clinical Immunology (EAACI) Task Force on “Allergic Rhinitis (AR) comorbidities”. This was initiated, based on the rationale that AR is rarely found in isolation and needs to be considered in the context of systemic allergic disease associated with numerous comorbid disorders including asthma, chronic middle ear effusions, sinusitis, lymphoid hypertrophy with obstructive sleep apnea, disordered sleep, and consequent behavioural and educational effects.",
+          "chunk_id": "be0f654d6100bdcb9550e12a",
+          "document_id": "adult-rhinitis-eaaci-2017",
+          "version_id": "aa15af9b-2ffa-4cf8-89b7-ccafd90db10e",
+          "snapshot_id": "1d3af4ba-8a10-43fc-93e4-8e0ff1e1353c",
+          "title": "Multi-morbidities of allergic rhinitis in adults: European Academy of Allergy and Clinical Immunology Task Force Report",
+          "title_zh": "成人变应性鼻炎共病：EAACI工作组报告（2017）",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5452333/",
+          "publication_date": "2017-6-1",
+          "license": "CC-BY-4.0",
+          "state": "draft",
+          "clinical_review": "pending",
+          "production_eligible": false,
+          "bm25": -6.004298093825466,
+          "score": 0.043496271748135876,
+          "applicability_warning": null
+        },
+        {
+          "end": 463,
+          "id": "fc15156bcf44886475edb327",
+          "locator": "body/sec[3]/sec[13]/sec[3]/p[1]",
+          "population_status": "adult_dev_candidate",
+          "section": "Multi-morbidities of allergic rhinitis / Fatigue and learning impairment / Treatment",
+          "start": 0,
+          "text": "In a study involving major examinations, sedating antihistamines increased the likelihood of dropping an examination grade [99]. The medications used to treat allergic rhinitis may cause central nervous system adverse effects and contribute to learning impairment. The newer relatively nonsedating medications such as loratadine, cetirizine, and fexofenadine have less potential to impair central nervous system function and learning than their predecessors [96].",
+          "chunk_id": "fc15156bcf44886475edb327",
+          "document_id": "adult-rhinitis-eaaci-2017",
+          "version_id": "aa15af9b-2ffa-4cf8-89b7-ccafd90db10e",
+          "snapshot_id": "1d3af4ba-8a10-43fc-93e4-8e0ff1e1353c",
+          "title": "Multi-morbidities of allergic rhinitis in adults: European Academy of Allergy and Clinical Immunology Task Force Report",
+          "title_zh": "成人变应性鼻炎共病：EAACI工作组报告（2017）",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5452333/",
+          "publication_date": "2017-6-1",
+          "license": "CC-BY-4.0",
+          "state": "draft",
+          "clinical_review": "pending",
+          "production_eligible": false,
+          "bm25": -5.718367867578514,
+          "score": 0.042684137383363116,
+          "applicability_warning": null
+        },
+        {
+          "end": 230,
+          "id": "7f89106963a11f28dc2a60ad",
+          "locator": "body/sec[3]/sec[7]/sec[1]/p[2]",
+          "population_status": "adult_dev_candidate",
+          "section": "Multi-morbidities of allergic rhinitis / Otitis media with effusion (OME) / Extent of co-occurrence",
+          "start": 0,
+          "text": "OME is much rarer in adults and is usually found in association with more severe rhinosinusitis (such as aspirin exacerbated respiratory disease, allergic fungal sinusitis and Churg Strauss syndrome) rather than with rhinitis [9].",
+          "chunk_id": "7f89106963a11f28dc2a60ad",
+          "document_id": "adult-rhinitis-eaaci-2017",
+          "version_id": "aa15af9b-2ffa-4cf8-89b7-ccafd90db10e",
+          "snapshot_id": "1d3af4ba-8a10-43fc-93e4-8e0ff1e1353c",
+          "title": "Multi-morbidities of allergic rhinitis in adults: European Academy of Allergy and Clinical Immunology Task Force Report",
+          "title_zh": "成人变应性鼻炎共病：EAACI工作组报告（2017）",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5452333/",
+          "publication_date": "2017-6-1",
+          "license": "CC-BY-4.0",
+          "state": "draft",
+          "clinical_review": "pending",
+          "production_eligible": false,
+          "bm25": -5.043127340418215,
+          "score": 0.04208494208494208,
+          "applicability_warning": null
+        }
+      ],
+      "reranked": [
+        {
+          "end": 113,
+          "id": "57f3e5706ed2fd9bfbd702c9",
+          "locator": "Abstract sentence 1 · extracted chars [0:113]",
+          "population_status": "adult_dev_candidate",
+          "section": "Abstract",
+          "start": 0,
+          "text": "Chronic rhinitis (CR) is divided into two main categories: allergic rhinitis (AR) and nonallergic rhinitis (NAR).",
+          "chunk_id": "57f3e5706ed2fd9bfbd702c9",
+          "version_id": "7ec876d6-8e59-4ca2-82fa-5fca72743cdc",
+          "document_id": "local-text-f5e185532bfc4dd484bdd0bb2b388dbb",
+          "snapshot_id": "1d3af4ba-8a10-43fc-93e4-8e0ff1e1353c",
+          "title": "Allergic and Mixed Rhinitis: Diagnosis and Natural Evolution (2019 review abstract)",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6912750/",
+          "topics": [
+            "rhinitis"
+          ],
+          "clinical_review": "pending",
+          "production_eligible": false,
+          "score": 0.04918032786885246,
+          "rerank_score": 3.641294479370117,
+          "applicability_warning": null
+        },
+        {
+          "end": 124,
+          "id": "aca0e617998d6dd0e3faae93",
+          "locator": "body/sec[3]/sec[1]/sec[1]/p[6]",
+          "population_status": "adult_dev_candidate",
+          "section": "Multi-morbidities of allergic rhinitis / Asthma / Extent of co-occurrence",
+          "start": 0,
+          "text": "Certainly the presence of rhinitis, both allergic and non-allergic, is a risk factor for subsequent asthma development [14].",
+          "chunk_id": "aca0e617998d6dd0e3faae93",
+          "document_id": "adult-rhinitis-eaaci-2017",
+          "version_id": "aa15af9b-2ffa-4cf8-89b7-ccafd90db10e",
+          "snapshot_id": "1d3af4ba-8a10-43fc-93e4-8e0ff1e1353c",
+          "title": "Multi-morbidities of allergic rhinitis in adults: European Academy of Allergy and Clinical Immunology Task Force Report",
+          "title_zh": "成人变应性鼻炎共病：EAACI工作组报告（2017）",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5452333/",
+          "publication_date": "2017-6-1",
+          "license": "CC-BY-4.0",
+          "state": "draft",
+          "clinical_review": "pending",
+          "production_eligible": false,
+          "bm25": -6.028504915802561,
+          "score": 0.04479578392621871,
+          "rerank_score": 0.8607975244522095,
+          "applicability_warning": null
+        },
+        {
+          "end": 162,
+          "id": "78fa830eae8c68f4907eb5d3",
+          "locator": "Abstract sentence 5 · extracted chars [0:162]",
+          "population_status": "adult_dev_candidate",
+          "section": "Abstract",
+          "start": 0,
+          "text": "Clinical history and subjective symptoms can provide clues for differentiating AR from MR and NAR, but allergy testing is recommended to confirm these conditions.",
+          "chunk_id": "78fa830eae8c68f4907eb5d3",
+          "version_id": "7ec876d6-8e59-4ca2-82fa-5fca72743cdc",
+          "document_id": "local-text-f5e185532bfc4dd484bdd0bb2b388dbb",
+          "snapshot_id": "1d3af4ba-8a10-43fc-93e4-8e0ff1e1353c",
+          "title": "Allergic and Mixed Rhinitis: Diagnosis and Natural Evolution (2019 review abstract)",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6912750/",
+          "topics": [
+            "rhinitis"
+          ],
+          "clinical_review": "pending",
+          "production_eligible": false,
+          "score": 0.03866146848602989,
+          "rerank_score": 0.7320964336395264,
+          "applicability_warning": null
+        },
+        {
+          "end": 366,
+          "id": "e9097b3973e9630d9a65ada7",
+          "locator": "body/sec[3]/sec[1]/sec[1]/p[3]",
+          "population_status": "adult_dev_candidate",
+          "section": "Multi-morbidities of allergic rhinitis / Asthma / Extent of co-occurrence",
+          "start": 0,
+          "text": "In fact the majority of inflammatory asthma sufferers have some form of upper airway disease (ARIA 2001) [8], either AR, non-allergic rhinitis or rhinosinusitis, usually with nasal polyposis (EPOS 2012) [9]. The extent of inflammation is usually proportional between upper and lower respiratory tracts with equivalence in eosinophils [10] and clinical severity [11].",
+          "chunk_id": "e9097b3973e9630d9a65ada7",
+          "version_id": "aa15af9b-2ffa-4cf8-89b7-ccafd90db10e",
+          "document_id": "adult-rhinitis-eaaci-2017",
+          "snapshot_id": "1d3af4ba-8a10-43fc-93e4-8e0ff1e1353c",
+          "title": "Multi-morbidities of allergic rhinitis in adults: European Academy of Allergy and Clinical Immunology Task Force Report",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5452333/",
+          "topics": [
+            "rhinitis"
+          ],
+          "clinical_review": "pending",
+          "production_eligible": false,
+          "score": 0.048131080389144903,
+          "rerank_score": 0.5747395157814026,
+          "applicability_warning": null
+        },
+        {
+          "end": 909,
+          "id": "0370c731a72f7a660936113c",
+          "locator": "body/sec[3]/sec[6]/sec[3]/p[1]",
+          "population_status": "adult_dev_candidate",
+          "section": "Multi-morbidities of allergic rhinitis / Rhinosinusitis / Chronic rhinosinusitis with nasal polyps (CRSwNP)",
+          "start": 0,
+          "text": "Chronic rhinosinusitis with nasal polyps (CRSwNP) is associated with high concentrations of IgE in nasal polyp (NP) tissue. CRSwNP often coexists with asthma and this group is particularly characterized with tissue eosinophilia and high local IgE levels [62]. Therefore, an allergic aetiology of NPs has been presumed, though never firmly demonstrated. Between 0.5 and 4.5% of subjects with AR have NPs, which compares with the normal population [9]. In a retrospective study by Settipane and Chafee [63], the nasal polyps were present in 4.2% of the total population of 4986 subjects. Nasal polyp frequency rate was 6.7% in asthmatic patients and 2.2% in the rhinitis alone group. Of the total 211 cases of nasal polyps, 71% had asthma and 29% had rhinitis alone [63]. Pang et al. [64] reported that food allergen intradermal tests were more positive in nasal polyp patients (81%) compared to controls (11%).",
+          "chunk_id": "0370c731a72f7a660936113c",
+          "version_id": "aa15af9b-2ffa-4cf8-89b7-ccafd90db10e",
+          "document_id": "adult-rhinitis-eaaci-2017",
+          "snapshot_id": "1d3af4ba-8a10-43fc-93e4-8e0ff1e1353c",
+          "title": "Multi-morbidities of allergic rhinitis in adults: European Academy of Allergy and Clinical Immunology Task Force Report",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5452333/",
+          "topics": [
+            "rhinitis"
+          ],
+          "clinical_review": "pending",
+          "production_eligible": false,
+          "score": 0.047371031746031744,
+          "rerank_score": 0.39077550172805786,
+          "applicability_warning": null
+        },
+        {
+          "end": 928,
+          "id": "71b7bcd21c2c7f0b83de9096",
+          "locator": "body/sec[3]/sec[6]/sec[3]/p[2]",
+          "population_status": "adult_dev_candidate",
+          "section": "Multi-morbidities of allergic rhinitis / Rhinosinusitis / Chronic rhinosinusitis with nasal polyps (CRSwNP)",
+          "start": 0,
+          "text": "In mucosal tissues, mRNA for the ε-chain of IgE was associated with a significant proportion of B cells [65, 66]. Recent evidence has shown local IgE synthesis, local receptor revision, class switch recombination and B-cell differentiation into IgE-secreting plasma cells in NPs [64]. In NPs, the level of IgE is independent of the atopic status of the patient [65, 67, 68] whereas specific IgE in NPs is only partly related to skin prick test positivity [65, 67, 68]. The local IgE in NPs is the result of two types of IgE production: systemic allergic IgE formation and a local polyclonal IgE formation [65, 66]. Local polyclonal IgE correlates with the presence of Staphylococcus aureus enterotoxins (SAE) [9, 65–67]. Finally, Gevaert et al. [69] demonstrated that antagonizing IgE by injections of omalizumab is effective for both allergic and nonallergic CRSwNP. The later finding proves the relevance of local mucosal IgE.",
+          "chunk_id": "71b7bcd21c2c7f0b83de9096",
+          "version_id": "aa15af9b-2ffa-4cf8-89b7-ccafd90db10e",
+          "document_id": "adult-rhinitis-eaaci-2017",
+          "snapshot_id": "1d3af4ba-8a10-43fc-93e4-8e0ff1e1353c",
+          "title": "Multi-morbidities of allergic rhinitis in adults: European Academy of Allergy and Clinical Immunology Task Force Report",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5452333/",
+          "topics": [
+            "rhinitis"
+          ],
+          "clinical_review": "pending",
+          "production_eligible": false,
+          "score": 0.044136460554371,
+          "rerank_score": 0.17514581978321075,
+          "applicability_warning": null
+        },
+        {
+          "end": 1170,
+          "id": "ab8d4503309ff24efbfe5436",
+          "locator": "body/sec[5]/p[1]",
+          "population_status": "adult_dev_candidate",
+          "section": "5. CRS classification",
+          "start": 0,
+          "text": "In EPOS 2020, CRS is classified firstly on the basis of disease distribution, that is, localized (unilateral) and diffuse (bilateral), and then on the basis of the dominant endotype (eg, the presence/absence of type 2 inflammation) and the clinical phenotype [1, 2]. Diffuse CRS disease with predominantly type 2 inflammatory endotype includes CRSwNP (although other conditions with predominantly type 2 inflammatory pathways are also included within this category). These include allergic fungal rhinosinusitis (AFRS) and central compartment atopic disease (CCAD), a relatively recently described variant of CRS associated with inhalant allergen exposure [1]. While both AFRS and CCAD are characterized by the presence of polyps, these conditions are classified separately from CRSwNP [1, 2]. AFRS can be distinguished from CRSwNP by the presence of eosinophilic mucin with noninvasive fungal hyphae within the sinonasal mucosa, and often (but not always) a type I hypersensitivity reaction to fungi [2, 22, 23]. In CCAD, polypoid mucosal changes are observed, and while this may seem similar to CRSwNP on CT, these can be differentiated on CT and nasal endoscopy [24].",
+          "chunk_id": "ab8d4503309ff24efbfe5436",
+          "version_id": "e068d0bb-2d00-4a54-bd0c-ee791a53309c",
+          "document_id": "crs-apac-2024",
+          "snapshot_id": "1d3af4ba-8a10-43fc-93e4-8e0ff1e1353c",
+          "title": "Management of chronic rhinosinusitis with nasal polyps in the Asia-Pacific region and Russia: Recommendations from an expert working group",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11142757/",
+          "topics": [
+            "sinusitis"
+          ],
+          "clinical_review": "pending",
+          "production_eligible": false,
+          "score": 0.03675461339026994,
+          "rerank_score": 0.11115358024835587,
+          "applicability_warning": null
+        },
+        {
+          "end": 350,
+          "id": "745acc140de782f6fb2ead9a",
+          "locator": "body/sec[3]/p[2]",
+          "population_status": "adult_dev_candidate",
+          "section": "Multi-morbidities of allergic rhinitis",
+          "start": 0,
+          "text": "These can be subdivided into:Disorders which are part of the spectrum of allergic diseases, e.g. asthma, AD, food allergy, anaphylaxis;Disorders anatomically related to the nose: conjunctivitis, sinusitis, middle ear problems, throat and laryngeal effects;Sleep problems and secondary effects on concentration and behaviour; andTurbinate hypertrophy.",
+          "chunk_id": "745acc140de782f6fb2ead9a",
+          "document_id": "adult-rhinitis-eaaci-2017",
+          "version_id": "aa15af9b-2ffa-4cf8-89b7-ccafd90db10e",
+          "snapshot_id": "1d3af4ba-8a10-43fc-93e4-8e0ff1e1353c",
+          "title": "Multi-morbidities of allergic rhinitis in adults: European Academy of Allergy and Clinical Immunology Task Force Report",
+          "title_zh": "成人变应性鼻炎共病：EAACI工作组报告（2017）",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5452333/",
+          "publication_date": "2017-6-1",
+          "license": "CC-BY-4.0",
+          "state": "draft",
+          "clinical_review": "pending",
+          "production_eligible": false,
+          "bm25": -3.2379981935808844,
+          "score": 0.0327281414237936,
+          "rerank_score": -0.11439874023199081,
+          "applicability_warning": null
+        },
+        {
+          "end": 520,
+          "id": "be0f654d6100bdcb9550e12a",
+          "locator": "body/sec[1]/p[1]",
+          "population_status": "adult_dev_candidate",
+          "section": "Introduction",
+          "start": 0,
+          "text": "This report was prepared by the European Academy of Allergy and Clinical Immunology (EAACI) Task Force on “Allergic Rhinitis (AR) comorbidities”. This was initiated, based on the rationale that AR is rarely found in isolation and needs to be considered in the context of systemic allergic disease associated with numerous comorbid disorders including asthma, chronic middle ear effusions, sinusitis, lymphoid hypertrophy with obstructive sleep apnea, disordered sleep, and consequent behavioural and educational effects.",
+          "chunk_id": "be0f654d6100bdcb9550e12a",
+          "document_id": "adult-rhinitis-eaaci-2017",
+          "version_id": "aa15af9b-2ffa-4cf8-89b7-ccafd90db10e",
+          "snapshot_id": "1d3af4ba-8a10-43fc-93e4-8e0ff1e1353c",
+          "title": "Multi-morbidities of allergic rhinitis in adults: European Academy of Allergy and Clinical Immunology Task Force Report",
+          "title_zh": "成人变应性鼻炎共病：EAACI工作组报告（2017）",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5452333/",
+          "publication_date": "2017-6-1",
+          "license": "CC-BY-4.0",
+          "state": "draft",
+          "clinical_review": "pending",
+          "production_eligible": false,
+          "bm25": -6.004298093825466,
+          "score": 0.043496271748135876,
+          "rerank_score": -0.34640124440193176,
+          "applicability_warning": null
+        },
+        {
+          "end": 250,
+          "id": "ec0c183d791351a9698b7357",
+          "locator": "body/sec[3]/p[1]",
+          "population_status": "adult_dev_candidate",
+          "section": "Multi-morbidities of allergic rhinitis",
+          "start": 0,
+          "text": "AR is an organ-specific manifestation of allergic disease. As such, it coexists with other organ-specific disorders that have a common allergic basis. It is therefore rarely found in isolation but frequently has associated multi-morbid disorders [5].",
+          "chunk_id": "ec0c183d791351a9698b7357",
+          "document_id": "adult-rhinitis-eaaci-2017",
+          "version_id": "aa15af9b-2ffa-4cf8-89b7-ccafd90db10e",
+          "snapshot_id": "1d3af4ba-8a10-43fc-93e4-8e0ff1e1353c",
+          "title": "Multi-morbidities of allergic rhinitis in adults: European Academy of Allergy and Clinical Immunology Task Force Report",
+          "title_zh": "成人变应性鼻炎共病：EAACI工作组报告（2017）",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5452333/",
+          "publication_date": "2017-6-1",
+          "license": "CC-BY-4.0",
+          "state": "draft",
+          "clinical_review": "pending",
+          "production_eligible": false,
+          "bm25": -3.965948072758557,
+          "score": 0.039653679653679656,
+          "rerank_score": -0.6808245778083801,
+          "applicability_warning": null
+        }
+      ],
+      "run_id": "1e197c66-167f-4da1-bb9e-87386c98838b",
+      "elapsed_ms": 6919,
+      "reranker_enabled": true
+    },
+    "answer": {
+      "status": "answered",
+      "professional": [
+        {
+          "text": "慢性鼻炎主要分为过敏性鼻炎和非过敏性鼻炎两类。",
+          "supports": [
+            {
+              "evidence_id": "E1",
+              "quote": "Chronic rhinitis (CR) is divided into two main categories: allergic rhinitis (AR) and nonallergic rhinitis (NAR)."
+            }
+          ],
+          "input_fields": []
+        },
+        {
+          "text": "临床病史和主观症状可为区分过敏性鼻炎、混合性鼻炎与非过敏性鼻炎提供线索，但建议通过过敏检测来确认。",
+          "supports": [
+            {
+              "evidence_id": "E3",
+              "quote": "Clinical history and subjective symptoms can provide clues for differentiating AR from MR and NAR, but allergy testing is recommended to confirm these conditions."
+            }
+          ],
+          "input_fields": []
+        }
+      ],
+      "input_explanation": [],
+      "patient_summary": [
+        {
+          "text": "慢性鼻炎主要分为过敏性鼻炎和非过敏性鼻炎两类。",
+          "supports": [
+            {
+              "evidence_id": "E1",
+              "quote": "Chronic rhinitis (CR) is divided into two main categories: allergic rhinitis (AR) and nonallergic rhinitis (NAR)."
+            }
+          ],
+          "input_fields": []
+        }
+      ],
+      "limitations": []
+    },
+    "citations": [
+      {
+        "evidence_id": "E1",
+        "version_id": "7ec876d6-8e59-4ca2-82fa-5fca72743cdc",
+        "chunk_id": "57f3e5706ed2fd9bfbd702c9",
+        "document_id": "local-text-f5e185532bfc4dd484bdd0bb2b388dbb",
+        "title": "Allergic and Mixed Rhinitis: Diagnosis and Natural Evolution (2019 review abstract)",
+        "locator": "Abstract sentence 1 · extracted chars [0:113]",
+        "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6912750/",
+        "text": "Chronic rhinitis (CR) is divided into two main categories: allergic rhinitis (AR) and nonallergic rhinitis (NAR).",
+        "quote_options": [
+          {
+            "quote_id": "E1.Q1",
+            "text": "Chronic rhinitis (CR) is divided into two main categories: allergic rhinitis (AR) and nonallergic rhinitis (NAR)."
+          }
+        ],
+        "text_truncated": false,
+        "clinical_review": "pending"
+      },
+      {
+        "evidence_id": "E2",
+        "version_id": "aa15af9b-2ffa-4cf8-89b7-ccafd90db10e",
+        "chunk_id": "aca0e617998d6dd0e3faae93",
+        "document_id": "adult-rhinitis-eaaci-2017",
+        "title": "Multi-morbidities of allergic rhinitis in adults: European Academy of Allergy and Clinical Immunology Task Force Report",
+        "locator": "body/sec[3]/sec[1]/sec[1]/p[6]",
+        "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5452333/",
+        "text": "Certainly the presence of rhinitis, both allergic and non-allergic, is a risk factor for subsequent asthma development [14].",
+        "quote_options": [
+          {
+            "quote_id": "E2.Q1",
+            "text": "Certainly the presence of rhinitis, both allergic and non-allergic, is a risk factor for subsequent asthma development [14]."
+          }
+        ],
+        "text_truncated": false,
+        "clinical_review": "pending"
+      },
+      {
+        "evidence_id": "E3",
+        "version_id": "7ec876d6-8e59-4ca2-82fa-5fca72743cdc",
+        "chunk_id": "78fa830eae8c68f4907eb5d3",
+        "document_id": "local-text-f5e185532bfc4dd484bdd0bb2b388dbb",
+        "title": "Allergic and Mixed Rhinitis: Diagnosis and Natural Evolution (2019 review abstract)",
+        "locator": "Abstract sentence 5 · extracted chars [0:162]",
+        "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6912750/",
+        "text": "Clinical history and subjective symptoms can provide clues for differentiating AR from MR and NAR, but allergy testing is recommended to confirm these conditions.",
+        "quote_options": [
+          {
+            "quote_id": "E3.Q1",
+            "text": "Clinical history and subjective symptoms can provide clues for differentiating AR from MR and NAR, but allergy testing is recommended to confirm these conditions."
+          }
+        ],
+        "text_truncated": false,
+        "clinical_review": "pending"
+      },
+      {
+        "evidence_id": "E4",
+        "version_id": "aa15af9b-2ffa-4cf8-89b7-ccafd90db10e",
+        "chunk_id": "e9097b3973e9630d9a65ada7",
+        "document_id": "adult-rhinitis-eaaci-2017",
+        "title": "Multi-morbidities of allergic rhinitis in adults: European Academy of Allergy and Clinical Immunology Task Force Report",
+        "locator": "body/sec[3]/sec[1]/sec[1]/p[3]",
+        "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5452333/",
+        "text": "In fact the majority of inflammatory asthma sufferers have some form of upper airway disease (ARIA 2001) [8], either AR, non-allergic rhinitis or rhinosinusitis, usually with nasal polyposis (EPOS 2012) [9]. The extent of inflammation is usually proportional between upper and lower respiratory tracts with equivalence in eosinophils [10] and clinical severity [11].",
+        "quote_options": [
+          {
+            "quote_id": "E4.Q1",
+            "text": "In fact the majority of inflammatory asthma sufferers have some form of upper airway disease (ARIA 2001) [8], either AR, non-allergic rhinitis or rhinosinusitis, usually with nasal polyposis (EPOS 2012) [9]."
+          },
+          {
+            "quote_id": "E4.Q2",
+            "text": "The extent of inflammation is usually proportional between upper and lower respiratory tracts with equivalence in eosinophils [10] and clinical severity [11]."
+          }
+        ],
+        "text_truncated": false,
+        "clinical_review": "pending"
+      },
+      {
+        "evidence_id": "E5",
+        "version_id": "aa15af9b-2ffa-4cf8-89b7-ccafd90db10e",
+        "chunk_id": "0370c731a72f7a660936113c",
+        "document_id": "adult-rhinitis-eaaci-2017",
+        "title": "Multi-morbidities of allergic rhinitis in adults: European Academy of Allergy and Clinical Immunology Task Force Report",
+        "locator": "body/sec[3]/sec[6]/sec[3]/p[1]",
+        "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5452333/",
+        "text": "Chronic rhinosinusitis with nasal polyps (CRSwNP) is associated with high concentrations of IgE in nasal polyp (NP) tissue. CRSwNP often coexists with asthma and this group is particularly characterized with tissue eosinophilia and high local IgE levels [62]. Therefore, an allergic aetiology of NPs has been presumed, though never firmly demonstrated. Between 0.5 and 4.5% of subjects with AR have NPs, which compares with the normal population [9]. In a retrospective study by Settipane and Chafee [63], the nasal polyps were present in 4.2% of the total population of 4986 subjects. Nasal polyp frequency rate was 6.7% in asthmatic patients and 2.2% in the rhinitis alone group. Of the total 211 cases of nasal polyps, 71% had asthma and 29% had rhinitis alone [63]. Pang et al. [64] reported that food allergen intradermal tests were more positive in nasal polyp patients (81%) compared to controls (11%).",
+        "quote_options": [
+          {
+            "quote_id": "E5.Q1",
+            "text": "Chronic rhinosinusitis with nasal polyps (CRSwNP) is associated with high concentrations of IgE in nasal polyp (NP) tissue."
+          },
+          {
+            "quote_id": "E5.Q2",
+            "text": "CRSwNP often coexists with asthma and this group is particularly characterized with tissue eosinophilia and high local IgE levels [62]."
+          },
+          {
+            "quote_id": "E5.Q3",
+            "text": "Therefore, an allergic aetiology of NPs has been presumed, though never firmly demonstrated."
+          },
+          {
+            "quote_id": "E5.Q4",
+            "text": "Between 0.5 and 4.5% of subjects with AR have NPs, which compares with the normal population [9]."
+          },
+          {
+            "quote_id": "E5.Q5",
+            "text": "In a retrospective study by Settipane and Chafee [63], the nasal polyps were present in 4.2% of the total population of 4986 subjects."
+          },
+          {
+            "quote_id": "E5.Q6",
+            "text": "Nasal polyp frequency rate was 6.7% in asthmatic patients and 2.2% in the rhinitis alone group."
+          },
+          {
+            "quote_id": "E5.Q7",
+            "text": "Of the total 211 cases of nasal polyps, 71% had asthma and 29% had rhinitis alone [63]."
+          },
+          {
+            "quote_id": "E5.Q8",
+            "text": "Pang et al."
+          },
+          {
+            "quote_id": "E5.Q9",
+            "text": "[64] reported that food allergen intradermal tests were more positive in nasal polyp patients (81%) compared to controls (11%)."
+          }
+        ],
+        "text_truncated": false,
+        "clinical_review": "pending"
+      },
+      {
+        "evidence_id": "E6",
+        "version_id": "aa15af9b-2ffa-4cf8-89b7-ccafd90db10e",
+        "chunk_id": "71b7bcd21c2c7f0b83de9096",
+        "document_id": "adult-rhinitis-eaaci-2017",
+        "title": "Multi-morbidities of allergic rhinitis in adults: European Academy of Allergy and Clinical Immunology Task Force Report",
+        "locator": "body/sec[3]/sec[6]/sec[3]/p[2]",
+        "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5452333/",
+        "text": "In mucosal tissues, mRNA for the ε-chain of IgE was associated with a significant proportion of B cells [65, 66]. Recent evidence has shown local IgE synthesis, local receptor revision, class switch recombination and B-cell differentiation into IgE-secreting plasma cells in NPs [64]. In NPs, the level of IgE is independent of the atopic status of the patient [65, 67, 68] whereas specific IgE in NPs is only partly related to skin prick test positivity [65, 67, 68]. The local IgE in NPs is the result of two types of IgE production: systemic allergic IgE formation and a local polyclonal IgE formation [65, 66]. Local polyclonal IgE correlates with the presence of Staphylococcus aureus enterotoxins (SAE) [9, 65–67]. Finally, Gevaert et al. [69] demonstrated that antagonizing IgE by injections of omalizumab is effective for both allergic and nonallergic CRSwNP. The later finding proves the relevance of local mucosal IgE.",
+        "quote_options": [
+          {
+            "quote_id": "E6.Q1",
+            "text": "In mucosal tissues, mRNA for the ε-chain of IgE was associated with a significant proportion of B cells [65, 66]."
+          },
+          {
+            "quote_id": "E6.Q2",
+            "text": "Recent evidence has shown local IgE synthesis, local receptor revision, class switch recombination and B-cell differentiation into IgE-secreting plasma cells in NPs [64]."
+          },
+          {
+            "quote_id": "E6.Q3",
+            "text": "In NPs, the level of IgE is independent of the atopic status of the patient [65, 67, 68] whereas specific IgE in NPs is only partly related to skin prick test positivity [65, 67, 68]."
+          },
+          {
+            "quote_id": "E6.Q4",
+            "text": "The local IgE in NPs is the result of two types of IgE production: systemic allergic IgE formation and a local polyclonal IgE formation [65, 66]."
+          },
+          {
+            "quote_id": "E6.Q5",
+            "text": "Local polyclonal IgE correlates with the presence of Staphylococcus aureus enterotoxins (SAE) [9, 65–67]."
+          },
+          {
+            "quote_id": "E6.Q6",
+            "text": "Finally, Gevaert et al."
+          },
+          {
+            "quote_id": "E6.Q7",
+            "text": "[69] demonstrated that antagonizing IgE by injections of omalizumab is effective for both allergic and nonallergic CRSwNP."
+          },
+          {
+            "quote_id": "E6.Q8",
+            "text": "The later finding proves the relevance of local mucosal IgE."
+          }
+        ],
+        "text_truncated": false,
+        "clinical_review": "pending"
+      }
+    ],
+    "validation": {
+      "citation_identity_and_quote_match": true,
+      "semantic_support": "model_judgment_only",
+      "clinical_approval": false,
+      "input_check": "exact_field_anchors_and_bounded_attribution_screen",
+      "requested_quote_selectors": 2,
+      "generation_evidence_ids": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6"
+      ],
+      "draft_summary_placeholder": true,
+      "citation_context_expansions": [],
+      "atomization": [],
+      "dose_screen": "heuristic_passed",
+      "quote_repair": {
+        "attempts": 0,
+        "accepted": false
+      },
+      "core_verification": {
+        "claims": [
+          {
+            "claim_id": "professional:0",
+            "supported": true,
+            "reason": "supported",
+            "checked_quote_indexes": [
+              0
+            ]
+          },
+          {
+            "claim_id": "professional:1",
+            "supported": true,
+            "reason": "supported",
+            "checked_quote_indexes": [
+              0
+            ]
+          }
+        ],
+        "retained_answer_addresses_question": true,
+        "refusal_assessment": "not_applicable",
+        "refusal_supports": [],
+        "atom_groups": [],
+        "split_group_complete": true,
+        "mixed_group_withheld": false,
+        "retained_indexes": {
+          "professional": [
+            0,
+            1
+          ],
+          "input_explanation": [],
+          "patient_summary": []
+        },
+        "withhold_causes": [],
+        "format_attempts": 1,
+        "format_errors": [],
+        "format_feedback": null,
+        "deterministic_record_claim_ids": []
+      },
+      "core_verification_metadata": {
+        "requested_model": "deepseek-flash",
+        "returned_model": "deepseek-flash",
+        "usage": {
+          "prompt_tokens": 2658,
+          "completion_tokens": 80,
+          "total_tokens": 2738
+        },
+        "prompt_sha256": "5c00fe1fcda7be7945e595ac9e7268ab641a8a5469fa10eaf7d07ec4f48db9c0",
+        "deterministic_record_claim_ids": []
+      },
+      "original_status": "answered",
+      "isolated_patient_summary": true,
+      "summary_core_selection": {
+        "selected_original_index": 0,
+        "professional_order": [
+          0,
+          1
+        ],
+        "skipped": []
+      },
+      "summary_metadata": {
+        "requested_model": "deepseek-flash",
+        "returned_model": "deepseek-flash",
+        "usage": {
+          "prompt_tokens": 599,
+          "completion_tokens": 15,
+          "total_tokens": 614
+        },
+        "prompt_sha256": "e1f112d2f87f6c7c1a94c4977d3563473c3bfa82c0b1a5b16e4749a3a1ffad00"
+      },
+      "verification": {
+        "claims": [
+          {
+            "claim_id": "professional:0",
+            "supported": true,
+            "reason": "supported",
+            "checked_quote_indexes": [
+              0
+            ]
+          },
+          {
+            "claim_id": "professional:1",
+            "supported": true,
+            "reason": "supported",
+            "checked_quote_indexes": [
+              0
+            ]
+          },
+          {
+            "claim_id": "patient_summary:0",
+            "supported": true,
+            "reason": "supported",
+            "checked_quote_indexes": [
+              0
+            ]
+          }
+        ],
+        "retained_answer_addresses_question": true,
+        "refusal_assessment": "not_applicable",
+        "refusal_supports": [],
+        "atom_groups": [],
+        "split_group_complete": true,
+        "mixed_group_withheld": false,
+        "retained_indexes": {
+          "professional": [
+            0,
+            1
+          ],
+          "input_explanation": [],
+          "patient_summary": [
+            0
+          ]
+        },
+        "withhold_causes": [],
+        "format_attempts": 1,
+        "format_errors": [],
+        "format_feedback": null,
+        "deterministic_record_claim_ids": []
+      },
+      "verification_metadata": {
+        "requested_model": "deepseek-flash",
+        "returned_model": "deepseek-flash",
+        "usage": {
+          "prompt_tokens": 2832,
+          "completion_tokens": 106,
+          "total_tokens": 2938
+        },
+        "prompt_sha256": "5c00fe1fcda7be7945e595ac9e7268ab641a8a5469fa10eaf7d07ec4f48db9c0",
+        "deterministic_record_claim_ids": []
+      },
+      "outcome_category": "answer_ready"
+    },
+    "model": "deepseek-flash",
+    "provider_base_url": "https://api.deepseek.com",
+    "elapsed_ms": 11728,
+    "synthetic_only": true,
+    "generation_metadata": {
+      "requested_model": "deepseek-flash",
+      "returned_model": "deepseek-flash",
+      "usage": {
+        "prompt_tokens": 5490,
+        "completion_tokens": 119,
+        "total_tokens": 5609
+      },
+      "prompt_sha256": "cf1aa4b9dfccb72886de0f2be05cf4620dc1ac542456cec5260efedf23191c07"
+    }
+  },
+  "trace": [
+    {
+      "stage": "draft",
+      "candidate": {
+        "status": "answered",
+        "professional": [
+          {
+            "text": "慢性鼻炎主要分为过敏性鼻炎和非过敏性鼻炎两类。",
+            "supports": [
+              {
+                "evidence_id": "E1",
+                "quote_id": "E1.Q1"
+              }
+            ],
+            "input_fields": []
+          },
+          {
+            "text": "临床病史和主观症状可为区分过敏性鼻炎、混合性鼻炎与非过敏性鼻炎提供线索，但建议通过过敏检测来确认。",
+            "supports": [
+              {
+                "evidence_id": "E3",
+                "quote_id": "E3.Q1"
+              }
+            ],
+            "input_fields": []
+          }
+        ],
+        "input_explanation": [],
+        "patient_summary": [],
+        "limitations": []
+      }
+    },
+    {
+      "stage": "verify",
+      "candidate": {
+        "status": "answered",
+        "professional": [
+          {
+            "text": "慢性鼻炎主要分为过敏性鼻炎和非过敏性鼻炎两类。",
+            "supports": [
+              {
+                "evidence_id": "E1",
+                "quote": "Chronic rhinitis (CR) is divided into two main categories: allergic rhinitis (AR) and nonallergic rhinitis (NAR)."
+              }
+            ],
+            "input_fields": []
+          },
+          {
+            "text": "临床病史和主观症状可为区分过敏性鼻炎、混合性鼻炎与非过敏性鼻炎提供线索，但建议通过过敏检测来确认。",
+            "supports": [
+              {
+                "evidence_id": "E3",
+                "quote": "Clinical history and subjective symptoms can provide clues for differentiating AR from MR and NAR, but allergy testing is recommended to confirm these conditions."
+              }
+            ],
+            "input_fields": []
+          }
+        ],
+        "input_explanation": [],
+        "patient_summary": [],
+        "limitations": []
+      },
+      "judgment": {
+        "claims": [
+          {
+            "claim_id": "professional:0",
+            "supported": true,
+            "reason": "supported",
+            "checked_quote_indexes": [
+              0
+            ]
+          },
+          {
+            "claim_id": "professional:1",
+            "supported": true,
+            "reason": "supported",
+            "checked_quote_indexes": [
+              0
+            ]
+          }
+        ],
+        "retained_answer_addresses_question": true,
+        "refusal_assessment": "not_applicable",
+        "refusal_supports": []
+      }
+    },
+    {
+      "stage": "verify",
+      "candidate": {
+        "status": "answered",
+        "professional": [
+          {
+            "text": "慢性鼻炎主要分为过敏性鼻炎和非过敏性鼻炎两类。",
+            "supports": [
+              {
+                "evidence_id": "E1",
+                "quote": "Chronic rhinitis (CR) is divided into two main categories: allergic rhinitis (AR) and nonallergic rhinitis (NAR)."
+              }
+            ],
+            "input_fields": []
+          },
+          {
+            "text": "临床病史和主观症状可为区分过敏性鼻炎、混合性鼻炎与非过敏性鼻炎提供线索，但建议通过过敏检测来确认。",
+            "supports": [
+              {
+                "evidence_id": "E3",
+                "quote": "Clinical history and subjective symptoms can provide clues for differentiating AR from MR and NAR, but allergy testing is recommended to confirm these conditions."
+              }
+            ],
+            "input_fields": []
+          }
+        ],
+        "input_explanation": [],
+        "patient_summary": [
+          {
+            "text": "慢性鼻炎主要分为过敏性鼻炎和非过敏性鼻炎两类。",
+            "supports": [
+              {
+                "evidence_id": "E1",
+                "quote": "Chronic rhinitis (CR) is divided into two main categories: allergic rhinitis (AR) and nonallergic rhinitis (NAR)."
+              }
+            ],
+            "input_fields": []
+          }
+        ],
+        "limitations": []
+      },
+      "judgment": {
+        "claims": [
+          {
+            "claim_id": "professional:0",
+            "supported": true,
+            "reason": "supported",
+            "checked_quote_indexes": [
+              0
+            ]
+          },
+          {
+            "claim_id": "professional:1",
+            "supported": true,
+            "reason": "supported",
+            "checked_quote_indexes": [
+              0
+            ]
+          },
+          {
+            "claim_id": "patient_summary:0",
+            "supported": true,
+            "reason": "supported",
+            "checked_quote_indexes": [
+              0
+            ]
+          }
+        ],
+        "retained_answer_addresses_question": true,
+        "refusal_assessment": "not_applicable",
+        "refusal_supports": []
+      }
+    }
+  ]
+}

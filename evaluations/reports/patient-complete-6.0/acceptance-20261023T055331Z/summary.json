@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "rounds": 2,
+  "checks_per_round": 17,
+  "same_fingerprint": true,
+  "synthetic_fixture": true,
+  "provider_calls": 0
+}

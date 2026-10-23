@@ -1,0 +1,1156 @@
+{
+  "case": {
+    "id": "rhinitis",
+    "chief_complaint": "鼻痒、打喷嚏",
+    "question": "过敏性鼻炎资料描述了哪些常见症状？"
+  },
+  "result": {
+    "retrieval": {
+      "snapshot_id": "1d3af4ba-8a10-43fc-93e4-8e0ff1e1353c",
+      "query_policy": "dual_question_first",
+      "hybrid": [
+        {
+          "end": 366,
+          "id": "e9097b3973e9630d9a65ada7",
+          "locator": "body/sec[3]/sec[1]/sec[1]/p[3]",
+          "population_status": "adult_dev_candidate",
+          "section": "Multi-morbidities of allergic rhinitis / Asthma / Extent of co-occurrence",
+          "start": 0,
+          "text": "In fact the majority of inflammatory asthma sufferers have some form of upper airway disease (ARIA 2001) [8], either AR, non-allergic rhinitis or rhinosinusitis, usually with nasal polyposis (EPOS 2012) [9]. The extent of inflammation is usually proportional between upper and lower respiratory tracts with equivalence in eosinophils [10] and clinical severity [11].",
+          "chunk_id": "e9097b3973e9630d9a65ada7",
+          "version_id": "aa15af9b-2ffa-4cf8-89b7-ccafd90db10e",
+          "document_id": "adult-rhinitis-eaaci-2017",
+          "snapshot_id": "1d3af4ba-8a10-43fc-93e4-8e0ff1e1353c",
+          "title": "Multi-morbidities of allergic rhinitis in adults: European Academy of Allergy and Clinical Immunology Task Force Report",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5452333/",
+          "topics": [
+            "rhinitis"
+          ],
+          "clinical_review": "pending",
+          "production_eligible": false,
+          "score": 0.04918032786885246,
+          "applicability_warning": null
+        },
+        {
+          "end": 113,
+          "id": "57f3e5706ed2fd9bfbd702c9",
+          "locator": "Abstract sentence 1 · extracted chars [0:113]",
+          "population_status": "adult_dev_candidate",
+          "section": "Abstract",
+          "start": 0,
+          "text": "Chronic rhinitis (CR) is divided into two main categories: allergic rhinitis (AR) and nonallergic rhinitis (NAR).",
+          "chunk_id": "57f3e5706ed2fd9bfbd702c9",
+          "version_id": "7ec876d6-8e59-4ca2-82fa-5fca72743cdc",
+          "document_id": "local-text-f5e185532bfc4dd484bdd0bb2b388dbb",
+          "snapshot_id": "1d3af4ba-8a10-43fc-93e4-8e0ff1e1353c",
+          "title": "Allergic and Mixed Rhinitis: Diagnosis and Natural Evolution (2019 review abstract)",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6912750/",
+          "topics": [
+            "rhinitis"
+          ],
+          "clinical_review": "pending",
+          "production_eligible": false,
+          "score": 0.048131080389144903,
+          "applicability_warning": null
+        },
+        {
+          "end": 212,
+          "id": "ca4b9b2429472a2b56353d5e",
+          "locator": "body/sec[3]/sec[5]/sec[2]/p[1]",
+          "population_status": "adult_dev_candidate",
+          "section": "Multi-morbidities of allergic rhinitis / Allergic conjunctivitis / Effects of co-occurrence",
+          "start": 0,
+          "text": "Eye symptoms include itching, watering, redness and difficulty with vision due to these. Ocular symptoms are reduced by nasal air filters [54], suggesting that some eye involvement is secondary to nasal reflexes.",
+          "chunk_id": "ca4b9b2429472a2b56353d5e",
+          "version_id": "aa15af9b-2ffa-4cf8-89b7-ccafd90db10e",
+          "document_id": "adult-rhinitis-eaaci-2017",
+          "snapshot_id": "1d3af4ba-8a10-43fc-93e4-8e0ff1e1353c",
+          "title": "Multi-morbidities of allergic rhinitis in adults: European Academy of Allergy and Clinical Immunology Task Force Report",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5452333/",
+          "topics": [
+            "rhinitis"
+          ],
+          "clinical_review": "pending",
+          "production_eligible": false,
+          "score": 0.046875,
+          "applicability_warning": null
+        },
+        {
+          "end": 1712,
+          "id": "8073961684788d1508e1d026",
+          "locator": "body/sec[3]/p[2]",
+          "population_status": "adult_dev_candidate",
+          "section": "3. Disease definitions and diagnostic approach",
+          "start": 0,
+          "text": "The cardinal symptoms of CRS are similar to acute disease, that is, nasal obstruction, congestion or discharge, facial pain/pressure, and olfactory disturbance/loss of smell [1, 2, 11, 12]. Overt facial pain with CRSwNP is uncommon in the Asian patients, where headache (or complaints of pressure or fullness) or nasal obstruction may be more common presenting symptoms. While allergic symptoms (eg, sneezing or itching) are not part of existing diagnostic criteria, their presence may indicate an additional diagnosis of allergic rhinitis. In EPOS 2020, the diagnosis of CRS requires rhinosinusitis lasting for ≥12 weeks (without interruption, as patients may experience recurrent episodes of acute rhinosinusitis) [1, 2]. This assumes that any acute rhinosinusitis has been managed appropriately (ie, with nasal irrigation and INS). Diagnosis of CRSwNP requires the presence of bilateral, endoscopically visualized polyps in the middle meatus [1, 2]. While a minimum duration of 12 weeks reflects a useful policy for chronic disease diagnosis from a symptomatic perspective, this need not be considered absolute. For example, if evidence of more chronic and significant disease already exists (eg, objective findings of nasal polyps on endoscopic examination), then an earlier presumptive diagnosis of CRSwNP would seem appropriate. As discussed later, what is perhaps most important is the need for timely referral for specialist evaluation at the earliest opportunity. Where polyps are absent, patients are considered to have chronic rhinosinusitis without nasal polyps (CRSsNP). When endoscopy or CT shows only unilateral disease, then alternative diagnoses (especially neoplasia) must be considered [1, 2].",
+          "chunk_id": "8073961684788d1508e1d026",
+          "version_id": "e068d0bb-2d00-4a54-bd0c-ee791a53309c",
+          "document_id": "crs-apac-2024",
+          "snapshot_id": "1d3af4ba-8a10-43fc-93e4-8e0ff1e1353c",
+          "title": "Management of chronic rhinosinusitis with nasal polyps in the Asia-Pacific region and Russia: Recommendations from an expert working group",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11142757/",
+          "topics": [
+            "sinusitis"
+          ],
+          "clinical_review": "pending",
+          "production_eligible": false,
+          "score": 0.04643206256109482,
+          "applicability_warning": null
+        },
+        {
+          "end": 1428,
+          "id": "122f9d976dfcf2276b24acc7",
+          "locator": "body/sec[3]/sec[3]/sec[1]/p[1]",
+          "population_status": "adult_dev_candidate",
+          "section": "Multi-morbidities of allergic rhinitis / Food allergy / Extent of co-occurrence",
+          "start": 0,
+          "text": "AR can be associated with primary food allergy; however, it is more frequently associated with secondary food allergy, also known as pollen food syndrome (PFS). Some medical professionals refer to pollen food syndrome as oral allergy syndrome (OAS), although strictly speaking the two are not the same. When the term OAS was first used in 1987 it had no connection with pollen allergy but referred to any allergic symptoms in the mouth that often preceded more serious symptoms. The term pollen food syndrome is preferred when referring to those allergy symptoms to food that are linked to pollen allergy, are limited to the mouth and throat, and are usually mild. [26]. The most typical example is the cross-reactivity in patients with birch pollen AR who develop oral symptoms when eating apples, hazelnut, celery, etc. Typically, when these foods are cooked or processed they can be eaten without causing allergic reactions. Allergic reactions in secondary allergy are usually less severe than in primary food allergy [27]. Common symptoms, which usually come on immediately, include: redness, mild swelling or itching of the lips, tongue, inside of the mouth, soft palate and ears, itching and mild swelling affecting the throat. Occasionally, people might also experience symptoms in the oesophagus (gullet) or stomach, causing abdominal pain, nausea and even vomiting. Sneezing, runny nose, or eye symptoms can also occur.",
+          "chunk_id": "122f9d976dfcf2276b24acc7",
+          "version_id": "aa15af9b-2ffa-4cf8-89b7-ccafd90db10e",
+          "document_id": "adult-rhinitis-eaaci-2017",
+          "snapshot_id": "1d3af4ba-8a10-43fc-93e4-8e0ff1e1353c",
+          "title": "Multi-morbidities of allergic rhinitis in adults: European Academy of Allergy and Clinical Immunology Task Force Report",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5452333/",
+          "topics": [
+            "rhinitis"
+          ],
+          "clinical_review": "pending",
+          "production_eligible": false,
+          "score": 0.046153846153846156,
+          "applicability_warning": null
+        },
+        {
+          "end": 413,
+          "id": "97586a5d149c251deddc0115",
+          "locator": "body/sec[3]/sec[4]/sec[2]/p[1]",
+          "population_status": "adult_dev_candidate",
+          "section": "Multi-morbidities of allergic rhinitis / Eosinophilic oesophagitis (EoE) / Extent of co-occurrence",
+          "start": 0,
+          "text": "EoE is commonly associated with other atopic diatheses (e.g. food allergy, asthma, eczema, chronic rhinitis, environmental allergies) [39]. In adults, solid food dysphagia is the most common presenting symptom [40, 41], with food impaction necessitating endoscopic bolus removal occurs in 33–54% of adult EoE patients [42]. Other symptoms in adults include chest pain, heartburn and upper abdominal pain [38, 43].",
+          "chunk_id": "97586a5d149c251deddc0115",
+          "version_id": "aa15af9b-2ffa-4cf8-89b7-ccafd90db10e",
+          "document_id": "adult-rhinitis-eaaci-2017",
+          "snapshot_id": "1d3af4ba-8a10-43fc-93e4-8e0ff1e1353c",
+          "title": "Multi-morbidities of allergic rhinitis in adults: European Academy of Allergy and Clinical Immunology Task Force Report",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5452333/",
+          "topics": [
+            "rhinitis"
+          ],
+          "clinical_review": "pending",
+          "production_eligible": false,
+          "score": 0.04500226142017187,
+          "applicability_warning": null
+        },
+        {
+          "end": 357,
+          "id": "458b87e3ca6a9da1c6f0430b",
+          "locator": "body/sec[3]/sec[6]/sec[2]/p[2]",
+          "population_status": "adult_dev_candidate",
+          "section": "Multi-morbidities of allergic rhinitis / Rhinosinusitis / Effects of co-occurrence",
+          "start": 0,
+          "text": "Several mechanisms could explain the link between allergic inflammation and sinus disease. Allergic inflammation of the nasal mucosa may give rise to mucosal congestion leading to impaired mucus drainage at the ostiomeatal complex in predisposed patients. Ostiomeatal pathology is considered to be essential to the generation of sinus-related symptoms [59].",
+          "chunk_id": "458b87e3ca6a9da1c6f0430b",
+          "document_id": "adult-rhinitis-eaaci-2017",
+          "version_id": "aa15af9b-2ffa-4cf8-89b7-ccafd90db10e",
+          "snapshot_id": "1d3af4ba-8a10-43fc-93e4-8e0ff1e1353c",
+          "title": "Multi-morbidities of allergic rhinitis in adults: European Academy of Allergy and Clinical Immunology Task Force Report",
+          "title_zh": "成人变应性鼻炎共病：EAACI工作组报告（2017）",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5452333/",
+          "publication_date": "2017-6-1",
+          "license": "CC-BY-4.0",
+          "state": "draft",
+          "clinical_review": "pending",
+          "production_eligible": false,
+          "bm25": -5.815206535505295,
+          "score": 0.04490392648287385,
+          "applicability_warning": null
+        },
+        {
+          "end": 389,
+          "id": "e0c1451075e34dc9eab35ed2",
+          "locator": "body/sec[3]/sec[5]/sec[1]/p[1]",
+          "population_status": "adult_dev_candidate",
+          "section": "Multi-morbidities of allergic rhinitis / Allergic conjunctivitis / Extent of co-occurrence",
+          "start": 0,
+          "text": "Allergic conjunctivitis is the typical conjunctival reaction in AR. It occurs following exposure to allergens. Ocular symptoms occur in 50–70% of patients with rhinitis, being more common with outdoor than with indoor allergens [52]. Pitt et al. [53] reported that seasonal allergic conjunctivitis (SAC) is associated with significant reductions in both ocular and general quality of life.",
+          "chunk_id": "e0c1451075e34dc9eab35ed2",
+          "document_id": "adult-rhinitis-eaaci-2017",
+          "version_id": "aa15af9b-2ffa-4cf8-89b7-ccafd90db10e",
+          "snapshot_id": "1d3af4ba-8a10-43fc-93e4-8e0ff1e1353c",
+          "title": "Multi-morbidities of allergic rhinitis in adults: European Academy of Allergy and Clinical Immunology Task Force Report",
+          "title_zh": "成人变应性鼻炎共病：EAACI工作组报告（2017）",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5452333/",
+          "publication_date": "2017-6-1",
+          "license": "CC-BY-4.0",
+          "state": "draft",
+          "clinical_review": "pending",
+          "production_eligible": false,
+          "bm25": -6.987948871044911,
+          "score": 0.04210314262691378,
+          "applicability_warning": null
+        },
+        {
+          "end": 358,
+          "id": "fdead5202bd1d996c48083e5",
+          "locator": "body/sec[3]/sec[6]/sec[2]/p[4]",
+          "population_status": "adult_dev_candidate",
+          "section": "Multi-morbidities of allergic rhinitis / Rhinosinusitis / Effects of co-occurrence",
+          "start": 0,
+          "text": "Symptoms of IgE-mediated allergic inflammation should be asked for during history taking in patients with CRS and specific allergy evaluation should be performed in case of clinical suspicion. With regard to treatment, it is recommended that anti-allergic therapy is added to the treatment of patients with chronic sinus disease and concomitant allergy [61].",
+          "chunk_id": "fdead5202bd1d996c48083e5",
+          "document_id": "adult-rhinitis-eaaci-2017",
+          "version_id": "aa15af9b-2ffa-4cf8-89b7-ccafd90db10e",
+          "snapshot_id": "1d3af4ba-8a10-43fc-93e4-8e0ff1e1353c",
+          "title": "Multi-morbidities of allergic rhinitis in adults: European Academy of Allergy and Clinical Immunology Task Force Report",
+          "title_zh": "成人变应性鼻炎共病：EAACI工作组报告（2017）",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5452333/",
+          "publication_date": "2017-6-1",
+          "license": "CC-BY-4.0",
+          "state": "draft",
+          "clinical_review": "pending",
+          "production_eligible": false,
+          "bm25": -5.698316527618736,
+          "score": 0.04191176470588236,
+          "applicability_warning": null
+        },
+        {
+          "end": 363,
+          "id": "2eedd812f124099327f053ee",
+          "locator": "body/sec[3]/sec[5]/sec[3]/p[1]",
+          "population_status": "adult_dev_candidate",
+          "section": "Multi-morbidities of allergic rhinitis / Allergic conjunctivitis / Treatment",
+          "start": 0,
+          "text": "Some INS reduce eye symptoms as well as nasal ones, the recent molecules appear more consistently effective [55]. The combination of intranasal antihistamine plus INS shows greater efficacy on rhinoconjunctivitis [56]. The topical ocular antihistamines, antazoline, azelastine, and emedastine, provide rapid relief of the symptoms of allergic conjunctivitis [57].",
+          "chunk_id": "2eedd812f124099327f053ee",
+          "document_id": "adult-rhinitis-eaaci-2017",
+          "version_id": "aa15af9b-2ffa-4cf8-89b7-ccafd90db10e",
+          "snapshot_id": "1d3af4ba-8a10-43fc-93e4-8e0ff1e1353c",
+          "title": "Multi-morbidities of allergic rhinitis in adults: European Academy of Allergy and Clinical Immunology Task Force Report",
+          "title_zh": "成人变应性鼻炎共病：EAACI工作组报告（2017）",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5452333/",
+          "publication_date": "2017-6-1",
+          "license": "CC-BY-4.0",
+          "state": "draft",
+          "clinical_review": "pending",
+          "production_eligible": false,
+          "bm25": -6.067670869464408,
+          "score": 0.041519780650215436,
+          "applicability_warning": null
+        }
+      ],
+      "reranked": [
+        {
+          "end": 212,
+          "id": "ca4b9b2429472a2b56353d5e",
+          "locator": "body/sec[3]/sec[5]/sec[2]/p[1]",
+          "population_status": "adult_dev_candidate",
+          "section": "Multi-morbidities of allergic rhinitis / Allergic conjunctivitis / Effects of co-occurrence",
+          "start": 0,
+          "text": "Eye symptoms include itching, watering, redness and difficulty with vision due to these. Ocular symptoms are reduced by nasal air filters [54], suggesting that some eye involvement is secondary to nasal reflexes.",
+          "chunk_id": "ca4b9b2429472a2b56353d5e",
+          "version_id": "aa15af9b-2ffa-4cf8-89b7-ccafd90db10e",
+          "document_id": "adult-rhinitis-eaaci-2017",
+          "snapshot_id": "1d3af4ba-8a10-43fc-93e4-8e0ff1e1353c",
+          "title": "Multi-morbidities of allergic rhinitis in adults: European Academy of Allergy and Clinical Immunology Task Force Report",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5452333/",
+          "topics": [
+            "rhinitis"
+          ],
+          "clinical_review": "pending",
+          "production_eligible": false,
+          "score": 0.046875,
+          "rerank_score": 4.528560638427734,
+          "applicability_warning": null
+        },
+        {
+          "end": 1428,
+          "id": "122f9d976dfcf2276b24acc7",
+          "locator": "body/sec[3]/sec[3]/sec[1]/p[1]",
+          "population_status": "adult_dev_candidate",
+          "section": "Multi-morbidities of allergic rhinitis / Food allergy / Extent of co-occurrence",
+          "start": 0,
+          "text": "AR can be associated with primary food allergy; however, it is more frequently associated with secondary food allergy, also known as pollen food syndrome (PFS). Some medical professionals refer to pollen food syndrome as oral allergy syndrome (OAS), although strictly speaking the two are not the same. When the term OAS was first used in 1987 it had no connection with pollen allergy but referred to any allergic symptoms in the mouth that often preceded more serious symptoms. The term pollen food syndrome is preferred when referring to those allergy symptoms to food that are linked to pollen allergy, are limited to the mouth and throat, and are usually mild. [26]. The most typical example is the cross-reactivity in patients with birch pollen AR who develop oral symptoms when eating apples, hazelnut, celery, etc. Typically, when these foods are cooked or processed they can be eaten without causing allergic reactions. Allergic reactions in secondary allergy are usually less severe than in primary food allergy [27]. Common symptoms, which usually come on immediately, include: redness, mild swelling or itching of the lips, tongue, inside of the mouth, soft palate and ears, itching and mild swelling affecting the throat. Occasionally, people might also experience symptoms in the oesophagus (gullet) or stomach, causing abdominal pain, nausea and even vomiting. Sneezing, runny nose, or eye symptoms can also occur.",
+          "chunk_id": "122f9d976dfcf2276b24acc7",
+          "version_id": "aa15af9b-2ffa-4cf8-89b7-ccafd90db10e",
+          "document_id": "adult-rhinitis-eaaci-2017",
+          "snapshot_id": "1d3af4ba-8a10-43fc-93e4-8e0ff1e1353c",
+          "title": "Multi-morbidities of allergic rhinitis in adults: European Academy of Allergy and Clinical Immunology Task Force Report",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5452333/",
+          "topics": [
+            "rhinitis"
+          ],
+          "clinical_review": "pending",
+          "production_eligible": false,
+          "score": 0.046153846153846156,
+          "rerank_score": 3.2466182708740234,
+          "applicability_warning": null
+        },
+        {
+          "end": 570,
+          "id": "292fcea86b8b4013767d5c67",
+          "locator": "body/sec[3]/sec[10]/sec[1]/p[1]",
+          "population_status": "adult_dev_candidate",
+          "section": "Multi-morbidities of allergic rhinitis / Laryngitis, cough and vocal problems / Effects of co-occurrence",
+          "start": 0,
+          "text": "The passage of mediators, cytokines and secretions backwards from the nose should not reach the larynx, unless epiglottic function is disturbed. However, many patients with AR do experience throat symptoms, including irritation, the sensation of difficult to shift mucus and cough [89]. In a recent study on AR and laryngeal symptoms, involving six controls and six adult singers, nasal provocation with pollen extracts caused a rapid induction of laryngeal irritation and globus sensation. However, no objective changes occurred then, nor during the pollen season [90].",
+          "chunk_id": "292fcea86b8b4013767d5c67",
+          "version_id": "aa15af9b-2ffa-4cf8-89b7-ccafd90db10e",
+          "document_id": "adult-rhinitis-eaaci-2017",
+          "snapshot_id": "1d3af4ba-8a10-43fc-93e4-8e0ff1e1353c",
+          "title": "Multi-morbidities of allergic rhinitis in adults: European Academy of Allergy and Clinical Immunology Task Force Report",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5452333/",
+          "topics": [
+            "rhinitis"
+          ],
+          "clinical_review": "pending",
+          "production_eligible": false,
+          "score": 0.04129129129129129,
+          "rerank_score": 3.0233256816864014,
+          "applicability_warning": null
+        },
+        {
+          "end": 413,
+          "id": "97586a5d149c251deddc0115",
+          "locator": "body/sec[3]/sec[4]/sec[2]/p[1]",
+          "population_status": "adult_dev_candidate",
+          "section": "Multi-morbidities of allergic rhinitis / Eosinophilic oesophagitis (EoE) / Extent of co-occurrence",
+          "start": 0,
+          "text": "EoE is commonly associated with other atopic diatheses (e.g. food allergy, asthma, eczema, chronic rhinitis, environmental allergies) [39]. In adults, solid food dysphagia is the most common presenting symptom [40, 41], with food impaction necessitating endoscopic bolus removal occurs in 33–54% of adult EoE patients [42]. Other symptoms in adults include chest pain, heartburn and upper abdominal pain [38, 43].",
+          "chunk_id": "97586a5d149c251deddc0115",
+          "version_id": "aa15af9b-2ffa-4cf8-89b7-ccafd90db10e",
+          "document_id": "adult-rhinitis-eaaci-2017",
+          "snapshot_id": "1d3af4ba-8a10-43fc-93e4-8e0ff1e1353c",
+          "title": "Multi-morbidities of allergic rhinitis in adults: European Academy of Allergy and Clinical Immunology Task Force Report",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5452333/",
+          "topics": [
+            "rhinitis"
+          ],
+          "clinical_review": "pending",
+          "production_eligible": false,
+          "score": 0.04500226142017187,
+          "rerank_score": 2.859607696533203,
+          "applicability_warning": null
+        },
+        {
+          "end": 503,
+          "id": "bcee4deb66dbecfa5fd1c6c1",
+          "locator": "body/sec[3]/sec[8]/p[1]",
+          "population_status": "adult_dev_candidate",
+          "section": "Multi-morbidities of allergic rhinitis / Adenoid hypertrophy (AH)",
+          "start": 0,
+          "text": "The adenoid tissue is a peripheral lymphoid organ located in the nasopharynx, forming part of Waldeyer’s ring. It contributes to the development of immunity against inhaled micro-organisms in early life. The volume of the adenoid increases with age and is maximal at 5–6 years, followed by a gradual decrease in volume by the age of 8–9 years [79]. Symptoms related to AH are nasal obstruction, open mouth breathing and snoring. ‘Adenoid face’ can be caused by AH or by severe obstructive rhinitis [61].",
+          "chunk_id": "bcee4deb66dbecfa5fd1c6c1",
+          "document_id": "adult-rhinitis-eaaci-2017",
+          "version_id": "aa15af9b-2ffa-4cf8-89b7-ccafd90db10e",
+          "snapshot_id": "1d3af4ba-8a10-43fc-93e4-8e0ff1e1353c",
+          "title": "Multi-morbidities of allergic rhinitis in adults: European Academy of Allergy and Clinical Immunology Task Force Report",
+          "title_zh": "成人变应性鼻炎共病：EAACI工作组报告（2017）",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5452333/",
+          "publication_date": "2017-6-1",
+          "license": "CC-BY-4.0",
+          "state": "draft",
+          "clinical_review": "pending",
+          "production_eligible": false,
+          "bm25": -4.369895304542706,
+          "score": 0.034366925064599485,
+          "rerank_score": 2.7977592945098877,
+          "applicability_warning": null
+        },
+        {
+          "end": 1712,
+          "id": "8073961684788d1508e1d026",
+          "locator": "body/sec[3]/p[2]",
+          "population_status": "adult_dev_candidate",
+          "section": "3. Disease definitions and diagnostic approach",
+          "start": 0,
+          "text": "The cardinal symptoms of CRS are similar to acute disease, that is, nasal obstruction, congestion or discharge, facial pain/pressure, and olfactory disturbance/loss of smell [1, 2, 11, 12]. Overt facial pain with CRSwNP is uncommon in the Asian patients, where headache (or complaints of pressure or fullness) or nasal obstruction may be more common presenting symptoms. While allergic symptoms (eg, sneezing or itching) are not part of existing diagnostic criteria, their presence may indicate an additional diagnosis of allergic rhinitis. In EPOS 2020, the diagnosis of CRS requires rhinosinusitis lasting for ≥12 weeks (without interruption, as patients may experience recurrent episodes of acute rhinosinusitis) [1, 2]. This assumes that any acute rhinosinusitis has been managed appropriately (ie, with nasal irrigation and INS). Diagnosis of CRSwNP requires the presence of bilateral, endoscopically visualized polyps in the middle meatus [1, 2]. While a minimum duration of 12 weeks reflects a useful policy for chronic disease diagnosis from a symptomatic perspective, this need not be considered absolute. For example, if evidence of more chronic and significant disease already exists (eg, objective findings of nasal polyps on endoscopic examination), then an earlier presumptive diagnosis of CRSwNP would seem appropriate. As discussed later, what is perhaps most important is the need for timely referral for specialist evaluation at the earliest opportunity. Where polyps are absent, patients are considered to have chronic rhinosinusitis without nasal polyps (CRSsNP). When endoscopy or CT shows only unilateral disease, then alternative diagnoses (especially neoplasia) must be considered [1, 2].",
+          "chunk_id": "8073961684788d1508e1d026",
+          "version_id": "e068d0bb-2d00-4a54-bd0c-ee791a53309c",
+          "document_id": "crs-apac-2024",
+          "snapshot_id": "1d3af4ba-8a10-43fc-93e4-8e0ff1e1353c",
+          "title": "Management of chronic rhinosinusitis with nasal polyps in the Asia-Pacific region and Russia: Recommendations from an expert working group",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11142757/",
+          "topics": [
+            "sinusitis"
+          ],
+          "clinical_review": "pending",
+          "production_eligible": false,
+          "score": 0.04643206256109482,
+          "rerank_score": 2.7842648029327393,
+          "applicability_warning": null
+        },
+        {
+          "end": 350,
+          "id": "745acc140de782f6fb2ead9a",
+          "locator": "body/sec[3]/p[2]",
+          "population_status": "adult_dev_candidate",
+          "section": "Multi-morbidities of allergic rhinitis",
+          "start": 0,
+          "text": "These can be subdivided into:Disorders which are part of the spectrum of allergic diseases, e.g. asthma, AD, food allergy, anaphylaxis;Disorders anatomically related to the nose: conjunctivitis, sinusitis, middle ear problems, throat and laryngeal effects;Sleep problems and secondary effects on concentration and behaviour; andTurbinate hypertrophy.",
+          "chunk_id": "745acc140de782f6fb2ead9a",
+          "version_id": "aa15af9b-2ffa-4cf8-89b7-ccafd90db10e",
+          "document_id": "adult-rhinitis-eaaci-2017",
+          "snapshot_id": "1d3af4ba-8a10-43fc-93e4-8e0ff1e1353c",
+          "title": "Multi-morbidities of allergic rhinitis in adults: European Academy of Allergy and Clinical Immunology Task Force Report",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5452333/",
+          "topics": [
+            "rhinitis"
+          ],
+          "clinical_review": "pending",
+          "production_eligible": false,
+          "score": 0.025974025974025976,
+          "rerank_score": 1.494969129562378,
+          "applicability_warning": null
+        },
+        {
+          "end": 389,
+          "id": "e0c1451075e34dc9eab35ed2",
+          "locator": "body/sec[3]/sec[5]/sec[1]/p[1]",
+          "population_status": "adult_dev_candidate",
+          "section": "Multi-morbidities of allergic rhinitis / Allergic conjunctivitis / Extent of co-occurrence",
+          "start": 0,
+          "text": "Allergic conjunctivitis is the typical conjunctival reaction in AR. It occurs following exposure to allergens. Ocular symptoms occur in 50–70% of patients with rhinitis, being more common with outdoor than with indoor allergens [52]. Pitt et al. [53] reported that seasonal allergic conjunctivitis (SAC) is associated with significant reductions in both ocular and general quality of life.",
+          "chunk_id": "e0c1451075e34dc9eab35ed2",
+          "document_id": "adult-rhinitis-eaaci-2017",
+          "version_id": "aa15af9b-2ffa-4cf8-89b7-ccafd90db10e",
+          "snapshot_id": "1d3af4ba-8a10-43fc-93e4-8e0ff1e1353c",
+          "title": "Multi-morbidities of allergic rhinitis in adults: European Academy of Allergy and Clinical Immunology Task Force Report",
+          "title_zh": "成人变应性鼻炎共病：EAACI工作组报告（2017）",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5452333/",
+          "publication_date": "2017-6-1",
+          "license": "CC-BY-4.0",
+          "state": "draft",
+          "clinical_review": "pending",
+          "production_eligible": false,
+          "bm25": -6.987948871044911,
+          "score": 0.04210314262691378,
+          "rerank_score": 0.8849003314971924,
+          "applicability_warning": null
+        },
+        {
+          "end": 218,
+          "id": "4cdd170328bb678470ee8677",
+          "locator": "body/sec[3]/sec[4]/sec[1]/p[1]",
+          "population_status": "adult_dev_candidate",
+          "section": "Multi-morbidities of allergic rhinitis / Eosinophilic oesophagitis (EoE) / Description",
+          "start": 0,
+          "text": "EoE is currently defined as a “chronic, immune/antigen-mediated esophageal disease characterized clinically by symptoms related to esophageal dysfunction and histologically by eosinophil-predominant inflammation” [37].",
+          "chunk_id": "4cdd170328bb678470ee8677",
+          "document_id": "adult-rhinitis-eaaci-2017",
+          "version_id": "aa15af9b-2ffa-4cf8-89b7-ccafd90db10e",
+          "snapshot_id": "1d3af4ba-8a10-43fc-93e4-8e0ff1e1353c",
+          "title": "Multi-morbidities of allergic rhinitis in adults: European Academy of Allergy and Clinical Immunology Task Force Report",
+          "title_zh": "成人变应性鼻炎共病：EAACI工作组报告（2017）",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5452333/",
+          "publication_date": "2017-6-1",
+          "license": "CC-BY-4.0",
+          "state": "draft",
+          "clinical_review": "pending",
+          "production_eligible": false,
+          "bm25": -4.648204707458694,
+          "score": 0.035437430786267994,
+          "rerank_score": 0.8767121434211731,
+          "applicability_warning": null
+        },
+        {
+          "end": 846,
+          "id": "dc7fbe51d26bc80b151f60fd",
+          "locator": "body/sec[3]/sec[1]/sec[1]/p[5]",
+          "population_status": "adult_dev_candidate",
+          "section": "Multi-morbidities of allergic rhinitis / Asthma / Extent of co-occurrence",
+          "start": 0,
+          "text": "Several possible causal mechanisms have been postulated to explain a link between AR and asthma:Lack of nasal function, i.e. purifying, warming and humidifying inspired air;Nasobronchial reflex (nasal irritants, allergens or cold stimuli);Rhinovirus adhesion theory (increased susceptibility to allergic inflammation and intracellular adhesion molecule (ICAM)-1 expression) [12]; and“Migration” of T cell responses to other tissues after initial sensitization. Braunstahl [13] has shown that allergen challenge in one part of the airway is followed by a response in all other parts;The idea of postnasal drip (carriage of inflammatory cytokines/mediators from nasopharynx to lower airways) has been largely abandoned, since the ‘drip’ travels to the gut, by virtue of the larynx, not to the lower airway, unless the subject is deeply unconscious.",
+          "chunk_id": "dc7fbe51d26bc80b151f60fd",
+          "version_id": "aa15af9b-2ffa-4cf8-89b7-ccafd90db10e",
+          "document_id": "adult-rhinitis-eaaci-2017",
+          "snapshot_id": "1d3af4ba-8a10-43fc-93e4-8e0ff1e1353c",
+          "title": "Multi-morbidities of allergic rhinitis in adults: European Academy of Allergy and Clinical Immunology Task Force Report",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5452333/",
+          "topics": [
+            "rhinitis"
+          ],
+          "clinical_review": "pending",
+          "production_eligible": false,
+          "score": 0.037662134708548206,
+          "rerank_score": 0.4489881694316864,
+          "applicability_warning": null
+        }
+      ],
+      "run_id": "c4da5fd2-f0c6-490e-95b6-eb41fb8980a3",
+      "elapsed_ms": 7139,
+      "reranker_enabled": true
+    },
+    "answer": {
+      "status": "answered",
+      "professional": [
+        {
+          "text": "资料提到过敏性鼻炎可伴有眼部症状，包括瘙痒、流泪和发红。",
+          "supports": [
+            {
+              "evidence_id": "E1",
+              "quote": "Eye symptoms include itching, watering, redness and difficulty with vision due to these."
+            }
+          ],
+          "input_fields": []
+        },
+        {
+          "text": "资料提到许多过敏性鼻炎患者确实会出现咽喉症状，包括刺激感、痰液难以清除的感觉和咳嗽。",
+          "supports": [
+            {
+              "evidence_id": "E3",
+              "quote": "However, many patients with AR do experience throat symptoms, including irritation, the sensation of difficult to shift mucus and cough [89]."
+            }
+          ],
+          "input_fields": []
+        }
+      ],
+      "input_explanation": [],
+      "patient_summary": [
+        {
+          "text": "过敏性鼻炎有时会伴有眼睛痒、流眼泪和眼睛发红这些眼部症状。",
+          "supports": [
+            {
+              "evidence_id": "E1",
+              "quote": "Eye symptoms include itching, watering, redness and difficulty with vision due to these."
+            }
+          ],
+          "input_fields": []
+        }
+      ],
+      "limitations": []
+    },
+    "citations": [
+      {
+        "evidence_id": "E1",
+        "version_id": "aa15af9b-2ffa-4cf8-89b7-ccafd90db10e",
+        "chunk_id": "ca4b9b2429472a2b56353d5e",
+        "document_id": "adult-rhinitis-eaaci-2017",
+        "title": "Multi-morbidities of allergic rhinitis in adults: European Academy of Allergy and Clinical Immunology Task Force Report",
+        "locator": "body/sec[3]/sec[5]/sec[2]/p[1]",
+        "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5452333/",
+        "text": "Eye symptoms include itching, watering, redness and difficulty with vision due to these. Ocular symptoms are reduced by nasal air filters [54], suggesting that some eye involvement is secondary to nasal reflexes.",
+        "quote_options": [
+          {
+            "quote_id": "E1.Q1",
+            "text": "Eye symptoms include itching, watering, redness and difficulty with vision due to these."
+          },
+          {
+            "quote_id": "E1.Q2",
+            "text": "Ocular symptoms are reduced by nasal air filters [54], suggesting that some eye involvement is secondary to nasal reflexes."
+          }
+        ],
+        "text_truncated": false,
+        "clinical_review": "pending"
+      },
+      {
+        "evidence_id": "E2",
+        "version_id": "aa15af9b-2ffa-4cf8-89b7-ccafd90db10e",
+        "chunk_id": "122f9d976dfcf2276b24acc7",
+        "document_id": "adult-rhinitis-eaaci-2017",
+        "title": "Multi-morbidities of allergic rhinitis in adults: European Academy of Allergy and Clinical Immunology Task Force Report",
+        "locator": "body/sec[3]/sec[3]/sec[1]/p[1]",
+        "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5452333/",
+        "text": "AR can be associated with primary food allergy; however, it is more frequently associated with secondary food allergy, also known as pollen food syndrome (PFS). Some medical professionals refer to pollen food syndrome as oral allergy syndrome (OAS), although strictly speaking the two are not the same. When the term OAS was first used in 1987 it had no connection with pollen allergy but referred to any allergic symptoms in the mouth that often preceded more serious symptoms. The term pollen food syndrome is preferred when referring to those allergy symptoms to food that are linked to pollen allergy, are limited to the mouth and throat, and are usually mild. [26]. The most typical example is the cross-reactivity in patients with birch pollen AR who develop oral symptoms when eating apples, hazelnut, celery, etc. Typically, when these foods are cooked or processed they can be eaten without causing allergic reactions. Allergic reactions in secondary allergy are usually less severe than in primary food allergy [27]. Common symptoms, which usually come on immediately, include: redness, mild swelling or itching of the lips, tongue, inside of the mouth, soft palate and ears, itching and mild swelling affecting the throat. Occasionally, people might also experience symptoms in the oesophagus (gullet) or stomach, causing abdominal pain, nausea and even vomiting. Sneezing, runny nose, or eye symptoms can also occur.",
+        "quote_options": [
+          {
+            "quote_id": "E2.Q1",
+            "text": "AR can be associated with primary food allergy; however, it is more frequently associated with secondary food allergy, also known as pollen food syndrome (PFS)."
+          },
+          {
+            "quote_id": "E2.Q2",
+            "text": "Some medical professionals refer to pollen food syndrome as oral allergy syndrome (OAS), although strictly speaking the two are not the same."
+          },
+          {
+            "quote_id": "E2.Q3",
+            "text": "When the term OAS was first used in 1987 it had no connection with pollen allergy but referred to any allergic symptoms in the mouth that often preceded more serious symptoms."
+          },
+          {
+            "quote_id": "E2.Q4",
+            "text": "The term pollen food syndrome is preferred when referring to those allergy symptoms to food that are linked to pollen allergy, are limited to the mouth and throat, and are usually mild."
+          },
+          {
+            "quote_id": "E2.Q5",
+            "text": "The most typical example is the cross-reactivity in patients with birch pollen AR who develop oral symptoms when eating apples, hazelnut, celery, etc. Typically, when these foods are cooked or processed they can be eaten without causing allergic reactions."
+          },
+          {
+            "quote_id": "E2.Q6",
+            "text": "Allergic reactions in secondary allergy are usually less severe than in primary food allergy [27]."
+          },
+          {
+            "quote_id": "E2.Q7",
+            "text": "Common symptoms, which usually come on immediately, include: redness, mild swelling or itching of the lips, tongue, inside of the mouth, soft palate and ears, itching and mild swelling affecting the throat."
+          },
+          {
+            "quote_id": "E2.Q8",
+            "text": "Occasionally, people might also experience symptoms in the oesophagus (gullet) or stomach, causing abdominal pain, nausea and even vomiting."
+          },
+          {
+            "quote_id": "E2.Q9",
+            "text": "Sneezing, runny nose, or eye symptoms can also occur."
+          }
+        ],
+        "text_truncated": false,
+        "clinical_review": "pending"
+      },
+      {
+        "evidence_id": "E3",
+        "version_id": "aa15af9b-2ffa-4cf8-89b7-ccafd90db10e",
+        "chunk_id": "292fcea86b8b4013767d5c67",
+        "document_id": "adult-rhinitis-eaaci-2017",
+        "title": "Multi-morbidities of allergic rhinitis in adults: European Academy of Allergy and Clinical Immunology Task Force Report",
+        "locator": "body/sec[3]/sec[10]/sec[1]/p[1]",
+        "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5452333/",
+        "text": "The passage of mediators, cytokines and secretions backwards from the nose should not reach the larynx, unless epiglottic function is disturbed. However, many patients with AR do experience throat symptoms, including irritation, the sensation of difficult to shift mucus and cough [89]. In a recent study on AR and laryngeal symptoms, involving six controls and six adult singers, nasal provocation with pollen extracts caused a rapid induction of laryngeal irritation and globus sensation. However, no objective changes occurred then, nor during the pollen season [90].",
+        "quote_options": [
+          {
+            "quote_id": "E3.Q1",
+            "text": "The passage of mediators, cytokines and secretions backwards from the nose should not reach the larynx, unless epiglottic function is disturbed."
+          },
+          {
+            "quote_id": "E3.Q2",
+            "text": "However, many patients with AR do experience throat symptoms, including irritation, the sensation of difficult to shift mucus and cough [89]."
+          },
+          {
+            "quote_id": "E3.Q3",
+            "text": "In a recent study on AR and laryngeal symptoms, involving six controls and six adult singers, nasal provocation with pollen extracts caused a rapid induction of laryngeal irritation and globus sensation."
+          },
+          {
+            "quote_id": "E3.Q4",
+            "text": "However, no objective changes occurred then, nor during the pollen season [90]."
+          }
+        ],
+        "text_truncated": false,
+        "clinical_review": "pending"
+      },
+      {
+        "evidence_id": "E4",
+        "version_id": "aa15af9b-2ffa-4cf8-89b7-ccafd90db10e",
+        "chunk_id": "97586a5d149c251deddc0115",
+        "document_id": "adult-rhinitis-eaaci-2017",
+        "title": "Multi-morbidities of allergic rhinitis in adults: European Academy of Allergy and Clinical Immunology Task Force Report",
+        "locator": "body/sec[3]/sec[4]/sec[2]/p[1]",
+        "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5452333/",
+        "text": "EoE is commonly associated with other atopic diatheses (e.g. food allergy, asthma, eczema, chronic rhinitis, environmental allergies) [39]. In adults, solid food dysphagia is the most common presenting symptom [40, 41], with food impaction necessitating endoscopic bolus removal occurs in 33–54% of adult EoE patients [42]. Other symptoms in adults include chest pain, heartburn and upper abdominal pain [38, 43].",
+        "quote_options": [
+          {
+            "quote_id": "E4.Q1",
+            "text": "EoE is commonly associated with other atopic diatheses (e.g. food allergy, asthma, eczema, chronic rhinitis, environmental allergies) [39]."
+          },
+          {
+            "quote_id": "E4.Q2",
+            "text": "In adults, solid food dysphagia is the most common presenting symptom [40, 41], with food impaction necessitating endoscopic bolus removal occurs in 33–54% of adult EoE patients [42]."
+          },
+          {
+            "quote_id": "E4.Q3",
+            "text": "Other symptoms in adults include chest pain, heartburn and upper abdominal pain [38, 43]."
+          }
+        ],
+        "text_truncated": false,
+        "clinical_review": "pending"
+      },
+      {
+        "evidence_id": "E5",
+        "version_id": "aa15af9b-2ffa-4cf8-89b7-ccafd90db10e",
+        "chunk_id": "bcee4deb66dbecfa5fd1c6c1",
+        "document_id": "adult-rhinitis-eaaci-2017",
+        "title": "Multi-morbidities of allergic rhinitis in adults: European Academy of Allergy and Clinical Immunology Task Force Report",
+        "locator": "body/sec[3]/sec[8]/p[1]",
+        "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5452333/",
+        "text": "The adenoid tissue is a peripheral lymphoid organ located in the nasopharynx, forming part of Waldeyer’s ring. It contributes to the development of immunity against inhaled micro-organisms in early life. The volume of the adenoid increases with age and is maximal at 5–6 years, followed by a gradual decrease in volume by the age of 8–9 years [79]. Symptoms related to AH are nasal obstruction, open mouth breathing and snoring. ‘Adenoid face’ can be caused by AH or by severe obstructive rhinitis [61].",
+        "quote_options": [
+          {
+            "quote_id": "E5.Q1",
+            "text": "The adenoid tissue is a peripheral lymphoid organ located in the nasopharynx, forming part of Waldeyer’s ring."
+          },
+          {
+            "quote_id": "E5.Q2",
+            "text": "It contributes to the development of immunity against inhaled micro-organisms in early life."
+          },
+          {
+            "quote_id": "E5.Q3",
+            "text": "The volume of the adenoid increases with age and is maximal at 5–6 years, followed by a gradual decrease in volume by the age of 8–9 years [79]."
+          },
+          {
+            "quote_id": "E5.Q4",
+            "text": "Symptoms related to AH are nasal obstruction, open mouth breathing and snoring."
+          },
+          {
+            "quote_id": "E5.Q5",
+            "text": "‘Adenoid face’ can be caused by AH or by severe obstructive rhinitis [61]."
+          }
+        ],
+        "text_truncated": false,
+        "clinical_review": "pending"
+      },
+      {
+        "evidence_id": "E6",
+        "version_id": "e068d0bb-2d00-4a54-bd0c-ee791a53309c",
+        "chunk_id": "8073961684788d1508e1d026",
+        "document_id": "crs-apac-2024",
+        "title": "Management of chronic rhinosinusitis with nasal polyps in the Asia-Pacific region and Russia: Recommendations from an expert working group",
+        "locator": "body/sec[3]/p[2]",
+        "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11142757/",
+        "text": "The cardinal symptoms of CRS are similar to acute disease, that is, nasal obstruction, congestion or discharge, facial pain/pressure, and olfactory disturbance/loss of smell [1, 2, 11, 12]. Overt facial pain with CRSwNP is uncommon in the Asian patients, where headache (or complaints of pressure or fullness) or nasal obstruction may be more common presenting symptoms. While allergic symptoms (eg, sneezing or itching) are not part of existing diagnostic criteria, their presence may indicate an additional diagnosis of allergic rhinitis. In EPOS 2020, the diagnosis of CRS requires rhinosinusitis lasting for ≥12 weeks (without interruption, as patients may experience recurrent episodes of acute rhinosinusitis) [1, 2]. This assumes that any acute rhinosinusitis has been managed appropriately (ie, with nasal irrigation and INS). Diagnosis of CRSwNP requires the presence of bilateral, endoscopically visualized polyps in the middle meatus [1, 2]. While a minimum duration of 12 weeks reflects a useful policy for chronic disease diagnosis from a symptomatic perspective, this need not be considered absolute. For example, if evidence of more chronic and significant disease already exists (eg, objective findings of nasal polyps on endoscopic examination), then an earlier presumptive diagnosis of CRSwNP would seem appropriate. As discussed later, what is perhaps most important is the need for timely referral for specialist evaluation at the earliest opportunity. Where polyps are absent, patients are considered to have chronic rhinosinusitis without nasal polyps (CRSsNP). When endoscopy or CT shows only unilateral disease, then alternative diagnoses (especially neoplasia) must be considered [1, 2].",
+        "quote_options": [
+          {
+            "quote_id": "E6.Q1",
+            "text": "The cardinal symptoms of CRS are similar to acute disease, that is, nasal obstruction, congestion or discharge, facial pain/pressure, and olfactory disturbance/loss of smell [1, 2, 11, 12]."
+          },
+          {
+            "quote_id": "E6.Q2",
+            "text": "Overt facial pain with CRSwNP is uncommon in the Asian patients, where headache (or complaints of pressure or fullness) or nasal obstruction may be more common presenting symptoms."
+          },
+          {
+            "quote_id": "E6.Q3",
+            "text": "While allergic symptoms (eg, sneezing or itching) are not part of existing diagnostic criteria, their presence may indicate an additional diagnosis of allergic rhinitis."
+          },
+          {
+            "quote_id": "E6.Q4",
+            "text": "In EPOS 2020, the diagnosis of CRS requires rhinosinusitis lasting for ≥12 weeks (without interruption, as patients may experience recurrent episodes of acute rhinosinusitis) [1, 2]."
+          },
+          {
+            "quote_id": "E6.Q5",
+            "text": "This assumes that any acute rhinosinusitis has been managed appropriately (ie, with nasal irrigation and INS)."
+          },
+          {
+            "quote_id": "E6.Q6",
+            "text": "Diagnosis of CRSwNP requires the presence of bilateral, endoscopically visualized polyps in the middle meatus [1, 2]."
+          },
+          {
+            "quote_id": "E6.Q7",
+            "text": "While a minimum duration of 12 weeks reflects a useful policy for chronic disease diagnosis from a symptomatic perspective, this need not be considered absolute."
+          },
+          {
+            "quote_id": "E6.Q8",
+            "text": "For example, if evidence of more chronic and significant disease already exists (eg, objective findings of nasal polyps on endoscopic examination), then an earlier presumptive diagnosis of CRSwNP would seem appropriate."
+          },
+          {
+            "quote_id": "E6.Q9",
+            "text": "As discussed later, what is perhaps most important is the need for timely referral for specialist evaluation at the earliest opportunity."
+          },
+          {
+            "quote_id": "E6.Q10",
+            "text": "Where polyps are absent, patients are considered to have chronic rhinosinusitis without nasal polyps (CRSsNP)."
+          },
+          {
+            "quote_id": "E6.Q11",
+            "text": "When endoscopy or CT shows only unilateral disease, then alternative diagnoses (especially neoplasia) must be considered [1, 2]."
+          }
+        ],
+        "text_truncated": false,
+        "clinical_review": "pending"
+      }
+    ],
+    "validation": {
+      "citation_identity_and_quote_match": true,
+      "semantic_support": "model_judgment_only",
+      "clinical_approval": false,
+      "input_check": "exact_field_anchors_and_bounded_attribution_screen",
+      "requested_quote_selectors": 4,
+      "generation_evidence_ids": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6"
+      ],
+      "draft_summary_placeholder": true,
+      "citation_context_expansions": [],
+      "atomization": [],
+      "input_comparison_withheld": {
+        "code": "input_comparison_classification_failed",
+        "count": 2
+      },
+      "dose_screen": "heuristic_passed",
+      "quote_repair": {
+        "attempts": 0,
+        "accepted": false
+      },
+      "core_verification": {
+        "claims": [
+          {
+            "claim_id": "professional:0",
+            "supported": true,
+            "reason": "supported",
+            "checked_quote_indexes": [
+              0
+            ]
+          },
+          {
+            "claim_id": "professional:1",
+            "supported": true,
+            "reason": "supported",
+            "checked_quote_indexes": [
+              0
+            ]
+          },
+          {
+            "claim_id": "professional:2",
+            "supported": true,
+            "reason": "supported",
+            "checked_quote_indexes": [
+              0
+            ]
+          }
+        ],
+        "retained_answer_addresses_question": true,
+        "refusal_assessment": "not_applicable",
+        "refusal_supports": [],
+        "atom_groups": [],
+        "split_group_complete": true,
+        "mixed_group_withheld": false,
+        "retained_indexes": {
+          "professional": [
+            0,
+            1,
+            2
+          ],
+          "input_explanation": [],
+          "patient_summary": []
+        },
+        "withhold_causes": [],
+        "format_attempts": 1,
+        "format_errors": [],
+        "format_feedback": null,
+        "deterministic_record_claim_ids": []
+      },
+      "core_verification_metadata": {
+        "requested_model": "deepseek-flash",
+        "returned_model": "deepseek-flash",
+        "usage": {
+          "prompt_tokens": 2807,
+          "completion_tokens": 104,
+          "total_tokens": 2911
+        },
+        "prompt_sha256": "5c00fe1fcda7be7945e595ac9e7268ab641a8a5469fa10eaf7d07ec4f48db9c0",
+        "deterministic_record_claim_ids": []
+      },
+      "original_status": "answered",
+      "isolated_patient_summary": true,
+      "summary_core_selection": {
+        "selected_original_index": 0,
+        "professional_order": [
+          0,
+          1,
+          2
+        ],
+        "skipped": []
+      },
+      "summary_metadata": {
+        "requested_model": "deepseek-flash",
+        "returned_model": "deepseek-flash",
+        "usage": {
+          "prompt_tokens": 605,
+          "completion_tokens": 22,
+          "total_tokens": 627
+        },
+        "prompt_sha256": "e1f112d2f87f6c7c1a94c4977d3563473c3bfa82c0b1a5b16e4749a3a1ffad00"
+      },
+      "verification": {
+        "claims": [
+          {
+            "claim_id": "professional:0",
+            "supported": true,
+            "reason": "supported",
+            "checked_quote_indexes": [
+              0
+            ]
+          },
+          {
+            "claim_id": "professional:1",
+            "supported": false,
+            "reason": "claim_overreach",
+            "checked_quote_indexes": [
+              0
+            ]
+          },
+          {
+            "claim_id": "professional:2",
+            "supported": true,
+            "reason": "supported",
+            "checked_quote_indexes": [
+              0
+            ]
+          },
+          {
+            "claim_id": "patient_summary:0",
+            "supported": true,
+            "reason": "supported",
+            "checked_quote_indexes": [
+              0
+            ]
+          }
+        ],
+        "retained_answer_addresses_question": true,
+        "refusal_assessment": "not_applicable",
+        "refusal_supports": [],
+        "atom_groups": [],
+        "split_group_complete": true,
+        "mixed_group_withheld": false,
+        "retained_indexes": {
+          "professional": [
+            0,
+            2
+          ],
+          "input_explanation": [],
+          "patient_summary": [
+            0
+          ]
+        },
+        "withhold_causes": [],
+        "format_attempts": 1,
+        "format_errors": [],
+        "format_feedback": null,
+        "deterministic_record_claim_ids": []
+      },
+      "verification_metadata": {
+        "requested_model": "deepseek-flash",
+        "returned_model": "deepseek-flash",
+        "usage": {
+          "prompt_tokens": 2984,
+          "completion_tokens": 132,
+          "total_tokens": 3116
+        },
+        "prompt_sha256": "5c00fe1fcda7be7945e595ac9e7268ab641a8a5469fa10eaf7d07ec4f48db9c0",
+        "deterministic_record_claim_ids": []
+      },
+      "outcome_category": "answer_ready"
+    },
+    "model": "deepseek-flash",
+    "provider_base_url": "https://api.deepseek.com",
+    "elapsed_ms": 12409,
+    "synthetic_only": true,
+    "generation_metadata": {
+      "requested_model": "deepseek-flash",
+      "returned_model": "deepseek-flash",
+      "usage": {
+        "prompt_tokens": 6443,
+        "completion_tokens": 257,
+        "total_tokens": 6700
+      },
+      "prompt_sha256": "cf1aa4b9dfccb72886de0f2be05cf4620dc1ac542456cec5260efedf23191c07"
+    }
+  },
+  "trace": [
+    {
+      "stage": "draft",
+      "candidate": {
+        "status": "answered",
+        "professional": [
+          {
+            "text": "资料提到过敏性鼻炎可伴有眼部症状，包括瘙痒、流泪和发红。",
+            "supports": [
+              {
+                "evidence_id": "E1",
+                "quote_id": "E1.Q1"
+              }
+            ],
+            "input_fields": []
+          },
+          {
+            "text": "在花粉食物综合征相关段落中，资料提到打喷嚏、流鼻涕或眼部症状也可能出现。",
+            "supports": [
+              {
+                "evidence_id": "E2",
+                "quote_id": "E2.Q9"
+              }
+            ],
+            "input_fields": []
+          },
+          {
+            "text": "资料提到许多过敏性鼻炎患者确实会出现咽喉症状，包括刺激感、痰液难以清除的感觉和咳嗽。",
+            "supports": [
+              {
+                "evidence_id": "E3",
+                "quote_id": "E3.Q2"
+              }
+            ],
+            "input_fields": []
+          }
+        ],
+        "input_explanation": [
+          {
+            "text": "输入记录为鼻痒、打喷嚏已3天；资料中慢性鼻窦炎相关段落提到，打喷嚏或鼻痒这类过敏症状不属于现有诊断标准，但出现时可能提示合并过敏性鼻炎。",
+            "source_kind": "medical_comparison",
+            "supports": [
+              {
+                "evidence_id": "E6",
+                "quote_id": "E6.Q3"
+              }
+            ],
+            "input_anchor_ids": [
+              "I2",
+              "I3"
+            ]
+          }
+        ],
+        "patient_summary": [],
+        "limitations": []
+      }
+    },
+    {
+      "stage": "verify",
+      "candidate": {
+        "status": "answered",
+        "professional": [
+          {
+            "text": "资料提到过敏性鼻炎可伴有眼部症状，包括瘙痒、流泪和发红。",
+            "supports": [
+              {
+                "evidence_id": "E1",
+                "quote": "Eye symptoms include itching, watering, redness and difficulty with vision due to these."
+              }
+            ],
+            "input_fields": []
+          },
+          {
+            "text": "在花粉食物综合征相关段落中，资料提到打喷嚏、流鼻涕或眼部症状也可能出现。",
+            "supports": [
+              {
+                "evidence_id": "E2",
+                "quote": "Sneezing, runny nose, or eye symptoms can also occur."
+              }
+            ],
+            "input_fields": []
+          },
+          {
+            "text": "资料提到许多过敏性鼻炎患者确实会出现咽喉症状，包括刺激感、痰液难以清除的感觉和咳嗽。",
+            "supports": [
+              {
+                "evidence_id": "E3",
+                "quote": "However, many patients with AR do experience throat symptoms, including irritation, the sensation of difficult to shift mucus and cough [89]."
+              }
+            ],
+            "input_fields": []
+          }
+        ],
+        "input_explanation": [],
+        "patient_summary": [],
+        "limitations": []
+      },
+      "judgment": {
+        "claims": [
+          {
+            "claim_id": "professional:0",
+            "supported": true,
+            "reason": "supported",
+            "checked_quote_indexes": [
+              0
+            ]
+          },
+          {
+            "claim_id": "professional:1",
+            "supported": true,
+            "reason": "supported",
+            "checked_quote_indexes": [
+              0
+            ]
+          },
+          {
+            "claim_id": "professional:2",
+            "supported": true,
+            "reason": "supported",
+            "checked_quote_indexes": [
+              0
+            ]
+          }
+        ],
+        "retained_answer_addresses_question": true,
+        "refusal_assessment": "not_applicable",
+        "refusal_supports": []
+      }
+    },
+    {
+      "stage": "verify",
+      "candidate": {
+        "status": "answered",
+        "professional": [
+          {
+            "text": "资料提到过敏性鼻炎可伴有眼部症状，包括瘙痒、流泪和发红。",
+            "supports": [
+              {
+                "evidence_id": "E1",
+                "quote": "Eye symptoms include itching, watering, redness and difficulty with vision due to these."
+              }
+            ],
+            "input_fields": []
+          },
+          {
+            "text": "在花粉食物综合征相关段落中，资料提到打喷嚏、流鼻涕或眼部症状也可能出现。",
+            "supports": [
+              {
+                "evidence_id": "E2",
+                "quote": "Sneezing, runny nose, or eye symptoms can also occur."
+              }
+            ],
+            "input_fields": []
+          },
+          {
+            "text": "资料提到许多过敏性鼻炎患者确实会出现咽喉症状，包括刺激感、痰液难以清除的感觉和咳嗽。",
+            "supports": [
+              {
+                "evidence_id": "E3",
+                "quote": "However, many patients with AR do experience throat symptoms, including irritation, the sensation of difficult to shift mucus and cough [89]."
+              }
+            ],
+            "input_fields": []
+          }
+        ],
+        "input_explanation": [],
+        "patient_summary": [
+          {
+            "text": "过敏性鼻炎有时会伴有眼睛痒、流眼泪和眼睛发红这些眼部症状。",
+            "supports": [
+              {
+                "evidence_id": "E1",
+                "quote": "Eye symptoms include itching, watering, redness and difficulty with vision due to these."
+              }
+            ],
+            "input_fields": []
+          }
+        ],
+        "limitations": []
+      },
+      "judgment": {
+        "claims": [
+          {
+            "claim_id": "professional:0",
+            "supported": true,
+            "reason": "supported",
+            "checked_quote_indexes": [
+              0
+            ]
+          },
+          {
+            "claim_id": "professional:1",
+            "supported": false,
+            "reason": "claim_overreach",
+            "checked_quote_indexes": [
+              0
+            ]
+          },
+          {
+            "claim_id": "professional:2",
+            "supported": true,
+            "reason": "supported",
+            "checked_quote_indexes": [
+              0
+            ]
+          },
+          {
+            "claim_id": "patient_summary:0",
+            "supported": true,
+            "reason": "supported",
+            "checked_quote_indexes": [
+              0
+            ]
+          }
+        ],
+        "retained_answer_addresses_question": true,
+        "refusal_assessment": "not_applicable",
+        "refusal_supports": []
+      }
+    }
+  ]
+}

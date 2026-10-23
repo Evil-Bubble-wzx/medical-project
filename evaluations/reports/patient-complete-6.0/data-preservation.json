@@ -1,0 +1,21 @@
+{
+  "business_users": {
+    "original_rows": 12,
+    "unchanged": true
+  },
+  "business_patients": {
+    "original_rows": 11,
+    "unchanged": true
+  },
+  "patient_snapshots": {
+    "original_rows": 13,
+    "unchanged": true
+  },
+  "consultation_runs": {
+    "original_rows": 107,
+    "unchanged": true
+  },
+  "pending_jobs": 0,
+  "credential_recovery_pending": 0,
+  "schema_version": 6
+}

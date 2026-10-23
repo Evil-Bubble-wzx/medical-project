@@ -1,0 +1,53 @@
+{
+  "patient_password_change": true,
+  "encrypted_trial_helper_synchronized": true,
+  "owner_export": true,
+  "whole_conversation_delete": true,
+  "symptom_history_and_backups_retained": true,
+  "backend_full_regression": 728,
+  "final_targeted_tests": 4,
+  "isolated_browser_checks": 6,
+  "dpapi_roundtrip": true,
+  "new_question_cases": [
+    {
+      "case": "boundary_child",
+      "status": "insufficient_evidence",
+      "scope_code": "adult_library_target_mismatch",
+      "quotes_exact": null
+    },
+    {
+      "case": "boundary_prescription",
+      "status": "needs_information",
+      "scope_code": "individual_prescription_unsupported",
+      "quotes_exact": null
+    },
+    {
+      "case": "unseen_nasal",
+      "status": "insufficient_evidence",
+      "scope_code": null,
+      "quotes_exact": null
+    },
+    {
+      "case": "unseen_smell",
+      "status": "answered",
+      "scope_code": null,
+      "quotes_exact": true
+    },
+    {
+      "case": "unseen_sound",
+      "status": "answered",
+      "scope_code": null,
+      "quotes_exact": true
+    },
+    {
+      "case": "unseen_voice",
+      "status": "answered",
+      "scope_code": null,
+      "quotes_exact": true
+    }
+  ],
+  "general_answers": "3/4",
+  "scope_boundaries": "2/2",
+  "clinical_approval": false,
+  "new_patient_real_generation_records": 0
+}
