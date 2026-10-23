@@ -28,6 +28,8 @@ def ranking_query(payload, policy):
         (r"症状|表现", "symptoms"),
         (r"声音|鸣声|声响", "sounds"),
         (r"听觉困难|听不清|听不懂", "hearing difficulty understanding"),
+        (r"区别|差异|不同", "differences comparison"),
+        (r"缺少|还缺|补充.*信息", "clinical history diagnosis evaluation"),
     ):
         if re.search(pattern, query) and translation not in query.casefold():
             query += " " + translation
@@ -65,3 +67,24 @@ def patient_candidate_pool(engine, payload, policy):
             focused["results"], contextual["results"], sparse_weight=2, dense_weight=1
         )[:50],
     }
+def patient_evidence_candidates(payload, result):
+    """Keep complementary hybrid context for questions asking for assessment information.
+
+    A single cross-encoder score can discard an assessment facet in a compound
+    symptom question. Preserve two hybrid candidates, then the reranked order;
+    the unchanged quote and semantic checks decide which claims can be shown.
+    """
+    if not payload.compare_reranker:
+        return result["hybrid"]
+    ranked = result["reranked"]
+    if not re.search(r"缺少|还缺|补充.*信息", payload.question):
+        return ranked
+    seen, selected = set(), []
+    for candidate in result["hybrid"][:2] + ranked:
+        identity = (candidate["version_id"], candidate["chunk_id"])
+        if identity not in seen:
+            seen.add(identity)
+            selected.append(candidate)
+    return selected
+
+

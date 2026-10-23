@@ -1,0 +1,60 @@
+{
+  "passed_functional_walkthrough": true,
+  "date": "2026-10-23",
+  "final_run": "evaluations\\reports\\patient-nasal-6.1\\live-2026-10-23T07-49-48-298Z",
+  "checks": {
+    "passed": true,
+    "checks": [
+      "saved_missing_fields_are_not_negative_history",
+      "turn_1_context_and_fresh_citations",
+      "turn_2_context_and_fresh_citations",
+      "two_turns_one_conversation",
+      "refresh_resumes_latest_turn",
+      "relogin_preserves_conversation_no_resubmission",
+      "mobile_layout",
+      "new_conversation_clears_context_without_call"
+    ],
+    "errors": [],
+    "live": true,
+    "synthetic_only": true,
+    "consultation_submissions": 2,
+    "total_saved_turns": 2,
+    "outcomes": [
+      "answered",
+      "answered"
+    ],
+    "clinical_acceptance": false
+  },
+  "results": [
+    {
+      "turn": 1,
+      "status": "answered",
+      "personal_comparisons_shown": 0,
+      "limitations": [
+        "missing_patient_details",
+        "adult_scope_unverified"
+      ]
+    },
+    {
+      "turn": 2,
+      "status": "answered",
+      "personal_comparisons_shown": 1,
+      "limitations": []
+    }
+  ],
+  "backend_passed": 741,
+  "source_snapshot": "ad0cddee-70e7-4727-a022-71c4709d34ff",
+  "clinical_acceptance": false,
+  "first_turn_individual_comparison_not_demonstrated": true,
+  "fingerprints": {
+    "frontend/validation/patient-trial.js": "a51586caacf7f804627429ccee727dc28426265627748133282b7b5534741455",
+    "backend/app/retrieval/generation.py": "a7721463675a123d5edc2bf6080816ee5c4849a870ce4c7a8a569d447890919a",
+    "backend/app/retrieval/patient_queries.py": "cfa0979f6be907e48e5c366b1111a3210e199d1139dc6aeb0faa4d834a9f9e95",
+    "backend/app/retrieval/answer_workflow.py": "de5efadbb407994e92668d6c4be04af03e769c0d862ae2f2ce396673aa384d28"
+  },
+  "earlier_findings": [
+    "answered did not explain requested difference",
+    "assessment facet lost by reranker; semantic gate refused answer"
+  ],
+  "automatic_unchanged_model_retry": false
+}

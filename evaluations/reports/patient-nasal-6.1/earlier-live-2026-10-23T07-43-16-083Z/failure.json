@@ -1,0 +1,6 @@
+{
+  "error": "{\"citation_identity_and_quote_match\":true,\"semantic_support\":\"model_judgment_only\",\"clinical_approval\":false,\"verification_stages\":{\"professional\":{\"withhold_causes\":[\"question_not_addressed\"],\"rejections\":{}}},\"scope_code\":null,\"error_code\":null,\"failure_stage\":null,\"outcome_category\":\"content_rejected\"}\n+ actual - expected\n\n+ 'insufficient_evidence'\n- 'answered'\n",
+  "checks": [],
+  "errors": [],
+  "submissions": 1
+}

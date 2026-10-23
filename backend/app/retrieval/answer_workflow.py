@@ -20,6 +20,7 @@ from app.retrieval.generation import (
 )
 from app.retrieval.input_fidelity import resolve_input_anchor_ids
 from app.retrieval.outcomes import outcome_category
+from app.retrieval.patient_queries import patient_evidence_candidates
 from app.retrieval.patient_summary import PatientSummarizer
 from app.retrieval.quote_catalog import resolve_quote_ids, selector_count
 from app.retrieval.quote_repair import QuoteRepairer, apply_quote_repair, repair_paths
@@ -126,7 +127,7 @@ def answer_request(
 
     def retrieve(state):
         result = service.retrieve(payload)
-        chosen = result["reranked"] if payload.compare_reranker else result["hybrid"]
+        chosen = patient_evidence_candidates(payload, result)
         return {"retrieval": result, "evidence": evidence_packet(chosen)}
 
     def generate(state):

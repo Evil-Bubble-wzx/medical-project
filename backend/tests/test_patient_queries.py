@@ -3,7 +3,11 @@ from types import SimpleNamespace
 import pytest
 
 from app.knowledge.library import search_expression
-from app.retrieval.patient_queries import patient_candidate_pool, ranking_query
+from app.retrieval.patient_queries import (
+    patient_candidate_pool,
+    patient_evidence_candidates,
+    ranking_query,
+)
 from app.retrieval.validation_service import ValidationInput
 
 
@@ -14,6 +18,22 @@ def payload():
         history="PRIVATE_HISTORY",
         question="具体的问题",
     )
+
+
+def test_assessment_facet_survives_reranker_without_duplicate_sources():
+    p = payload()
+    p.question = "这些表现还缺少哪些信息？"
+    p.compare_reranker = True
+    assessment = {"version_id": "v", "chunk_id": "assessment"}
+    symptoms = {"version_id": "v", "chunk_id": "symptoms"}
+    other = {"version_id": "v", "chunk_id": "other"}
+    result = {"hybrid": [assessment, symptoms], "reranked": [other, symptoms]}
+    selected = patient_evidence_candidates(p, result)
+    assert selected == [assessment, symptoms, other]
+    p.question = "有哪些症状？"
+    assert patient_evidence_candidates(p, result) == result["reranked"]
+    p.compare_reranker = False
+    assert patient_evidence_candidates(p, result) == result["hybrid"]
 
 
 def test_question_first_keeps_context_candidates_without_reranking_boilerplate():

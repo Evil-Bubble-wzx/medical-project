@@ -1,0 +1,223 @@
+{
+  "title": "Allergic and Mixed Rhinitis: Diagnosis and Natural Evolution",
+  "authors": [
+    "Greiwe JC",
+    "Bernstein JA"
+  ],
+  "year": 2019,
+  "doi": "10.3390/jcm8112019",
+  "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6912750/",
+  "retrieved_from": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6912750/fullTextXML",
+  "license": "© 2019 by the authors.Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (http://creativecommons.org/licenses/by/4.0/).",
+  "xml_sha256": "64c293f9ce39e3e774812749532303f42499f0c003423b865e8adf98c86c413d",
+  "selected_units": [
+    {
+      "text": "Allergic rhinitis is a ubiquitous condition estimated to affect approximately 20% of the U.S. population and can be triggered by seasonal allergens, perennial allergens, or both [4].",
+      "section": "1.1. Allergic Rhinitis",
+      "locator": "1.1. Allergic Rhinitis, paragraph 1, sentence 1"
+    },
+    {
+      "text": "Seasonal AR symptoms can occur in spring, summer, and early fall, and are caused by allergic sensitivity to airborne pollens from grass, trees, and weeds or to mold spores.",
+      "section": "1.1. Allergic Rhinitis",
+      "locator": "1.1. Allergic Rhinitis, paragraph 1, sentence 2"
+    },
+    {
+      "text": "Perennial AR sufferers experience symptoms year-round triggered by dust mites, pet hair or dander, cockroaches, or mold.",
+      "section": "1.1. Allergic Rhinitis",
+      "locator": "1.1. Allergic Rhinitis, paragraph 1, sentence 3"
+    },
+    {
+      "text": "The pathogenesis of AR involves several effector cell types, cytokines, and bioactive mediators that contribute to the inflammatory process, leading to a biphasic inflammatory reaction characterized clinically as immediate (early) and late-phase symptoms.",
+      "section": "1.1. Allergic Rhinitis",
+      "locator": "1.1. Allergic Rhinitis, paragraph 1, sentence 4"
+    },
+    {
+      "text": "Patients genetically predisposed to developing allergic rhinitis develop specific immunoglobulin E (sIgE) to an inciting allergen (e.g., grass pollen) that binds to high-affinity IgE receptors on mast cells and basophils.",
+      "section": "1.1. Allergic Rhinitis",
+      "locator": "1.1. Allergic Rhinitis, paragraph 1, sentence 5"
+    },
+    {
+      "text": "The early phase clinical response occurs after these previously sensitized mast cells are activated by exposure to the specific relevant allergen, resulting in the release of pre-formed and newly formed bioactive mediators.",
+      "section": "1.1. Allergic Rhinitis",
+      "locator": "1.1. Allergic Rhinitis, paragraph 1, sentence 6"
+    },
+    {
+      "text": "These mediators bind to receptors on blood vessels, resulting in physiologic changes that manifest as nasal congestion; anterior rhinorrhea; or posterior nasal drainage, sneezing, and itching.",
+      "section": "1.1. Allergic Rhinitis",
+      "locator": "1.1. Allergic Rhinitis, paragraph 1, sentence 7"
+    },
+    {
+      "text": "The late-phase response typically begins 4–8 h after allergen exposure and involves cellular migration and activation of lymphocytes, eosinophils, and basophils that release of cytokines and chemotactic factors, resulting in additional pro-inflammatory changes that manifest as persistent nasal obstruction, anterior and posterior rhinorrhea, fatigue, and malaise [5].",
+      "section": "1.1. Allergic Rhinitis",
+      "locator": "1.1. Allergic Rhinitis, paragraph 1, sentence 8"
+    },
+    {
+      "text": "Whereas confirmation of AR requires positive skin-prick or serologic sIgE testing that correlates with symptoms after exposure to the sensitizing aeroallergen, a diagnosis of NAR is made after negative skin-prick or serum sIgE testing to aeroallergens.",
+      "section": "1.2. Non-Allergic Rhinitis",
+      "locator": "1.2. Non-Allergic Rhinitis, paragraph 1, sentence 1"
+    },
+    {
+      "text": "Patients with NAR often exhibit similar symptoms to AR patients but complain less of sneezing and itching and more of worsening nasal congestion, rhinorrhea, sinus headaches, and post-nasal drip [6,7].",
+      "section": "1.2. Non-Allergic Rhinitis",
+      "locator": "1.2. Non-Allergic Rhinitis, paragraph 1, sentence 2"
+    },
+    {
+      "text": "Triggers for NAR patients include irritants (cigarette smoke, perfumes, cleaning products), weather changes (barometric pressure, temperature), and other strong odors.",
+      "section": "1.2. Non-Allergic Rhinitis",
+      "locator": "1.2. Non-Allergic Rhinitis, paragraph 1, sentence 3"
+    },
+    {
+      "text": "However, many NAR patients are unable to identify specific triggers, which may reflect exposure opportunity or lack of awareness of what is causing their symptoms.",
+      "section": "1.2. Non-Allergic Rhinitis",
+      "locator": "1.2. Non-Allergic Rhinitis, paragraph 1, sentence 4"
+    },
+    {
+      "text": "Although NAR consists of a broad category of rhinitis subtypes, vasomotor rhinitis is the most common form and constitutes the majority of cases [1].",
+      "section": "1.2. Non-Allergic Rhinitis",
+      "locator": "1.2. Non-Allergic Rhinitis, paragraph 1, sentence 5"
+    },
+    {
+      "text": "Vasomotor rhinitis (VMR) and NAR are commonly used interchangeably because a consensus definition has yet to be agreed upon due to a poor understanding of the underlying mechanism(s) of action and lack of objective diagnostic biomarkers for these conditions [8].",
+      "section": "1.2. Non-Allergic Rhinitis",
+      "locator": "1.2. Non-Allergic Rhinitis, paragraph 1, sentence 6"
+    },
+    {
+      "text": "However, several studies now strongly suggest that the pathophysiologic mechanism of VMR involves neurogenic pathways leading to a hypercholinergic response [9,10].",
+      "section": "1.2. Non-Allergic Rhinitis",
+      "locator": "1.2. Non-Allergic Rhinitis, paragraph 1, sentence 7"
+    },
+    {
+      "text": "Stimulation of transient response potential (TRP) calcium ion channels in the nose by nonspecific environmental factors such as temperature, mechanical, osmotic or chemicals and irritants is known to activate nasal afferent nerve fibers that lead to their depolarization and release of neuropeptides (substance P, neurokinin A, calcitonin gene related peptide), as well as signaling through the central nervous leading to subsequent efferent responses (i.e., glandular, and/or vascular responses manifested as rhinorrhea and nasal congestion, respectively) [11,12].",
+      "section": "1.2. Non-Allergic Rhinitis",
+      "locator": "1.2. Non-Allergic Rhinitis, paragraph 1, sentence 8"
+    },
+    {
+      "text": "Additional nasal symptoms that can be caused by the local release of the neuropeptides include itching, cough and sinus pain. [12,13].",
+      "section": "1.2. Non-Allergic Rhinitis",
+      "locator": "1.2. Non-Allergic Rhinitis, paragraph 1, sentence 9"
+    },
+    {
+      "text": "Distinguishing between the various rhinitis phenotypes can be confusing as the clinical presentation for each can be similar.",
+      "section": "1.4. Diagnosis",
+      "locator": "1.4. Diagnosis, paragraph 1, sentence 1"
+    },
+    {
+      "text": "Understanding the subtle differences between these conditions allows for a more accurate diagnostic approach, leading to better symptom control and improvement of quality of life.",
+      "section": "1.4. Diagnosis",
+      "locator": "1.4. Diagnosis, paragraph 1, sentence 2"
+    },
+    {
+      "text": "Bernstein et al. reported that when an objective irritant index questionnaire is used to diagnose chronic rhinitis patients, almost 25% of patients previously assigned a physician diagnosis of AR were reclassified as MR because of their high total irritant burden [14].",
+      "section": "1.4. Diagnosis",
+      "locator": "1.4. Diagnosis, paragraph 1, sentence 3"
+    },
+    {
+      "text": "Reclassification of AR to MR revealed that patients with MR had more frequent and severe symptoms, as well as an increase in physician-diagnosed asthma.",
+      "section": "1.4. Diagnosis",
+      "locator": "1.4. Diagnosis, paragraph 1, sentence 4"
+    },
+    {
+      "text": "Thus, although clinical symptoms such as congestion, rhinorrhea, sneezing, or post-nasal drainage can overlap between AR and MR phenotypes, other characteristics such as triggers, response to treatment, and prevalence of comorbidities such as sinusitis and asthma are often significantly different. ",
+      "section": "1.4. Diagnosis",
+      "locator": "1.4. Diagnosis, paragraph 1, sentence 5"
+    },
+    {
+      "text": "A comprehensive past medical history and focused physical exam serves as the cornerstone for a complete workup that can provide clues for what rhinitis phenotype the patient may have.",
+      "section": "1.4. Diagnosis",
+      "locator": "1.4. Diagnosis, paragraph 2, sentence 1"
+    },
+    {
+      "text": "The focus of the exam should be on the nasal mucosa but also include the oropharynx, eyes, ears, neck, lungs, and skin.",
+      "section": "1.4. Diagnosis",
+      "locator": "1.4. Diagnosis, paragraph 2, sentence 2"
+    },
+    {
+      "text": "Classic physical findings suggestive of seasonal AR include “allergic shiners” (i.e., discoloration under the lower eyelids related to vasodilation or venous congestion); “allergic salute” or horizontal nasal crease across the lower half of the bridge of the nose caused by repeated upward rubbing of the tip of the nose by the palm of the hand; mouth breathing; conjunctivitis; and edematous, pale, boggy nasal mucosa.",
+      "section": "1.4. Diagnosis",
+      "locator": "1.4. Diagnosis, paragraph 2, sentence 3"
+    },
+    {
+      "text": "In addition, AR is often associated with other comorbid allergic conditions such as asthma, atopic dermatitis, and food allergy.",
+      "section": "1.4. Diagnosis",
+      "locator": "1.4. Diagnosis, paragraph 2, sentence 4"
+    },
+    {
+      "text": "Physical exam findings for perennial AR and NAR can be more subtle with normal or erythematous nasal mucosa, often with evidence of prominent post-nasal drip manifesting as “cobblestoning”, which refers to streaks of lymphoid tissue on the posterior pharynx.",
+      "section": "1.4. Diagnosis",
+      "locator": "1.4. Diagnosis, paragraph 2, sentence 5"
+    },
+    {
+      "text": "Fiber-optic nasal endoscopy provides the best visualization of intranasal structures, but this more invasive exam is not always available or necessary.",
+      "section": "1.4. Diagnosis",
+      "locator": "1.4. Diagnosis, paragraph 2, sentence 6"
+    },
+    {
+      "text": "Many patients with chronic rhinitis, especially MR and NAR, have a decreased sense of smell and sometimes distorted taste.",
+      "section": "1.4. Diagnosis",
+      "locator": "1.4. Diagnosis, paragraph 2, sentence 7"
+    },
+    {
+      "text": "A persistent absence of smell after proper treatment could suggest nasal polyps, which are often visualized by nasal exam if they are advanced but can easily be missed if they are not anterior and prolapsed.",
+      "section": "1.4. Diagnosis",
+      "locator": "1.4. Diagnosis, paragraph 2, sentence 8"
+    },
+    {
+      "text": "Finally, patients with MR and NAR also experience ear popping and pressure due to eustachian tube dysfunction, manifesting as retraction of the tympanic membranes that are caused by increased negative pressure in the middle ear. ",
+      "section": "1.4. Diagnosis",
+      "locator": "1.4. Diagnosis, paragraph 2, sentence 9"
+    },
+    {
+      "text": "As demonstrated in previous studies highlighted above, depending exclusively on the medical history to determine the appropriate rhinitis subtype can be confusing.",
+      "section": "2.1. Skin and Serum Testing",
+      "locator": "2.1. Skin and Serum Testing, paragraph 1, sentence 1"
+    },
+    {
+      "text": "Patients often refer to their diagnosis as “hay fever” or AR on the basis of pre-conceived notions of CR and triggers emphasized in the news and by advertisements.",
+      "section": "2.1. Skin and Serum Testing",
+      "locator": "2.1. Skin and Serum Testing, paragraph 1, sentence 2"
+    },
+    {
+      "text": "Because of the ambiguity of clinical histories, objective assessment by allergen skin prick testing (SPT) or specific in vitro IgE testing is essential.",
+      "section": "2.1. Skin and Serum Testing",
+      "locator": "2.1. Skin and Serum Testing, paragraph 1, sentence 3"
+    },
+    {
+      "text": "Skin testing involves introducing measured amounts of seasonal and perennial aeroallergens, indigenous to the geographic location the patient resides, in conjunction with a positive histamine and negative saline control onto the skin followed by a prick with a special bifurcated needle.",
+      "section": "2.1. Skin and Serum Testing",
+      "locator": "2.1. Skin and Serum Testing, paragraph 1, sentence 4"
+    },
+    {
+      "text": "If the SPT is negative but the clinical history is concerning for aeroallergen sensitivity, intracutaneous testing (ICT) can also be performed.",
+      "section": "2.1. Skin and Serum Testing",
+      "locator": "2.1. Skin and Serum Testing, paragraph 1, sentence 5"
+    },
+    {
+      "text": "However, several studies have found that ICT has a high sensitivity but is less specific than SPT, and as a result might lead to false positive testing if previous percutaneous testing was unremarkable [29,30].",
+      "section": "2.1. Skin and Serum Testing",
+      "locator": "2.1. Skin and Serum Testing, paragraph 1, sentence 6"
+    },
+    {
+      "text": "The goal of SPT is to elicit an immediate wheal and flare response within 15 min after application, confirming the patient has specific IgE antibody directed to the allergen on high affinity (FcER1) IgE receptors located on cutaneous mast cells.",
+      "section": "2.1. Skin and Serum Testing",
+      "locator": "2.1. Skin and Serum Testing, paragraph 1, sentence 7"
+    },
+    {
+      "text": "Cross-linking of the allergen to the specific IgE antibody binding regions results in mast cell activation and release of bioactive mediators, resulting in the physiologic characteristics of AR [24]. ",
+      "section": "2.1. Skin and Serum Testing",
+      "locator": "2.1. Skin and Serum Testing, paragraph 1, sentence 8"
+    },
+    {
+      "text": "Serum-specific IgE antibody testing to aeroallergens is often ordered when the patient is dermatographic, has a severe skin disease (e.g., poorly controlled atopic dermatitis, chronic urticaria), or is on medications that interfere with the histamine response (e.g., antihistamines, tricyclic antidepressants) necessary for skin test interpretation.",
+      "section": "2.1. Skin and Serum Testing",
+      "locator": "2.1. Skin and Serum Testing, paragraph 2, sentence 1"
+    },
+    {
+      "text": "It is important to remember that a positive skin or serum sIgE test only implies sensitization and should always be correlated with the patient’s reaction history upon exposure to that allergen before the diagnosis of “allergy” can be made. ",
+      "section": "2.1. Skin and Serum Testing",
+      "locator": "2.1. Skin and Serum Testing, paragraph 2, sentence 2"
+    }
+  ],
+  "development_only": true,
+  "clinical_approval": false,
+  "population_note": "General rhinitis review; not adult-exclusive cohort. Development adult scope only."
+}

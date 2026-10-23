@@ -1,0 +1,18 @@
+{
+  "snapshot_id": "ad0cddee-70e7-4727-a022-71c4709d34ff",
+  "version_id": "33f5a8d9-6b29-4176-be18-9d6e0c3cf4ac",
+  "status": "indexed",
+  "active": false,
+  "chunks": 41,
+  "index": {
+    "snapshot_id": "ad0cddee-70e7-4727-a022-71c4709d34ff",
+    "channel": "development",
+    "encoder_fingerprint": "a0bfaa9cc57ac19cba94fb00c0df2d1ca1a39815c61a9eb11273ced208323941",
+    "corpus_fingerprint": "f6c906c66f8b515fe485bcd1599f14bc82a9e98ac13144718bbccaab5e18e481",
+    "dimension": 384,
+    "chunks": 814
+  },
+  "clinical_approval": false,
+  "reviewer_identity_authenticated": false,
+  "eligible_for_formal_independent_scoring": false
+}

@@ -1,4 +1,14 @@
 "use strict";
+function appendMissingInputDetails(record){
+ const box=document.querySelector('#consultation-result');
+ if(!box||record.state!=='completed'||!(/缺少|还缺|补充.*信息/.test(record.question||'')||record.result?.answer?.limitations?.includes('missing_patient_details')))return;
+ const missing=[['history','既往史'],['pasted_text','已有检查或报告（如有）']].filter(([key])=>!String(record.patient?.[key]||'').trim());
+ if(!missing.length)return;
+ const panel=node('section',undefined,'audit-panel');panel.id='patient-missing-inputs';panel.append(node('h3','本次尚未填写的信息'));
+ panel.append(node('p',missing.map(([,label])=>label).join('、')+'。'));
+ panel.append(node('p','这是已保存表单的缺项，不代表没有相关病史，也不表示需要去做检查。可展开“本次症状”补充已经知道的信息；系统仍不能据此确诊。','audit-muted'));
+ box.append(panel);
+}
 const patientBaseLoad=load;
 load=async function(){const me=await api('/me');if(me.role!=='patient'){clearSession();throw new Error('当前不是患者账号，请使用 patient-trial 登录此入口。');}await patientBaseLoad();};
 const patientBaseClear=clearDetail;
@@ -6,7 +16,7 @@ clearDetail=function(){patientBaseClear();document.querySelector("#patient-works
 const patientBaseSelect=select;
 select=async function(patient){await patientBaseSelect(patient);$('#patient-list').hidden=true;document.querySelector('#patient-workspace > aside').hidden=true;$('#list-note').textContent='仅显示本人合成资料。医生授权是可选项，不影响自己咨询。';};
 const patientBaseRender=renderConsultation;
-renderConsultation=function(record){patientBaseRender(record);const box=$('#consultation-result');const summary=[...box.querySelectorAll('.answer-section')].find(s=>s.querySelector('h3')?.textContent==='患者易懂版');const first=box.querySelector('.answer-section');if(summary&&first&&summary!==first)box.insertBefore(summary,first);};
+renderConsultation=function(record){patientBaseRender(record);const box=$('#consultation-result');const summary=[...box.querySelectorAll('.answer-section')].find(s=>s.querySelector('h3')?.textContent==='患者易懂版');const first=box.querySelector('.answer-section');if(summary&&first&&summary!==first)box.insertBefore(summary,first);appendMissingInputDetails(record);};
 
 const patientResultWithSummary=renderConsultation;
 renderConsultation=function(record){

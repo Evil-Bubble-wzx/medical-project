@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "checks": [
+    "saved_missing_fields_are_not_negative_history",
+    "turn_1_context_and_fresh_citations",
+    "turn_2_context_and_fresh_citations",
+    "two_turns_one_conversation",
+    "refresh_resumes_latest_turn",
+    "relogin_preserves_conversation_no_resubmission",
+    "mobile_layout",
+    "new_conversation_clears_context_without_call"
+  ],
+  "errors": [],
+  "live": true,
+  "synthetic_only": true,
+  "consultation_submissions": 2,
+  "total_saved_turns": 2,
+  "outcomes": [
+    "answered",
+    "answered"
+  ],
+  "clinical_acceptance": false
+}

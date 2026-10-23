@@ -1,0 +1,371 @@
+{
+  "consultation_id": "3be95d1a-2747-49e8-9257-17df2cc9b7d4",
+  "parent_consultation_id": null,
+  "conversation_id": "3be95d1a-2747-49e8-9257-17df2cc9b7d4",
+  "context_turn_ids": [],
+  "snapshot_id": "ed4eb2f0-51a8-4bc3-aa4e-22b2e91abb44",
+  "snapshot_revision": 1,
+  "patient": {
+    "age": 30,
+    "chief_complaint": "鼻痒、连续打喷嚏、流清鼻涕",
+    "duration": "两周",
+    "history": "",
+    "pasted_text": ""
+  },
+  "question": "这些表现与资料中的过敏性鼻炎有哪些相似之处？还缺少哪些信息？",
+  "state": "completed",
+  "stage": "completed",
+  "result": {
+    "answer": {
+      "status": "answered",
+      "professional": [
+        {
+          "text": "资料提到，过敏性鼻炎患者也可能出现打喷嚏、流鼻涕或眼部症状。",
+          "supports": [
+            {
+              "evidence_id": "E2",
+              "quote": "Sneezing, runny nose, or eye symptoms can also occur."
+            }
+          ],
+          "input_fields": []
+        },
+        {
+          "text": "资料指出，打喷嚏或瘙痒等过敏症状虽不属于慢性鼻窦炎的现有诊断标准，但这些症状出现时可能提示还需考虑过敏性鼻炎的诊断。",
+          "supports": [
+            {
+              "evidence_id": "E3",
+              "quote": "While allergic symptoms (eg, sneezing or itching) are not part of existing diagnostic criteria, their presence may indicate an additional diagnosis of allergic rhinitis."
+            }
+          ],
+          "input_fields": []
+        },
+        {
+          "text": "资料提到，非过敏性鼻炎患者常有与过敏性鼻炎相似的症状，但打喷嚏和瘙痒的主诉较少。",
+          "supports": [
+            {
+              "evidence_id": "E1",
+              "quote": "Patients with NAR often exhibit similar symptoms to AR patients but complain less of sneezing and itching and more of worsening nasal congestion, rhinorrhea, sinus headaches, and post-nasal drip [6,7]."
+            }
+          ],
+          "input_fields": []
+        }
+      ],
+      "input_explanation": [
+        {
+          "text": "输入记录的是鼻痒、连续打喷嚏和流清鼻涕，资料描述过敏性鼻炎也可出现打喷嚏、流鼻涕或眼部症状，这里仅说明两者的相似之处，不代表确诊。",
+          "supports": [
+            {
+              "evidence_id": "E2",
+              "quote": "Sneezing, runny nose, or eye symptoms can also occur."
+            }
+          ],
+          "input_fields": [
+            "chief_complaint"
+          ],
+          "source_kind": "medical_comparison",
+          "input_anchors": [
+            {
+              "field": "chief_complaint",
+              "quote": "鼻痒、连续打喷嚏、流清鼻涕",
+              "state": "reported"
+            }
+          ]
+        }
+      ],
+      "patient_summary": [
+        {
+          "text": "资料显示，过敏性鼻炎患者也可能有打喷嚏、流鼻涕或眼部症状。",
+          "supports": [
+            {
+              "evidence_id": "E2",
+              "quote": "Sneezing, runny nose, or eye symptoms can also occur."
+            }
+          ],
+          "input_fields": []
+        }
+      ],
+      "limitations": [
+        "missing_patient_details"
+      ]
+    },
+    "citations": [
+      {
+        "evidence_id": "E1",
+        "version_id": "33f5a8d9-6b29-4176-be18-9d6e0c3cf4ac",
+        "chunk_id": "002deb8a57957b9832c477e9",
+        "document_id": "local-text-b3b68ca1f8cb4c078170c6c965018e44",
+        "title": "Allergic and Mixed Rhinitis: Diagnosis and Natural Evolution (2019 full-text selected sections)",
+        "locator": "1.2. Non-Allergic Rhinitis, paragraph 1, sentence 2 · extracted chars [0:201]",
+        "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6912750/",
+        "text": "Patients with NAR often exhibit similar symptoms to AR patients but complain less of sneezing and itching and more of worsening nasal congestion, rhinorrhea, sinus headaches, and post-nasal drip [6,7].",
+        "quote_options": [
+          {
+            "quote_id": "E1.Q1",
+            "text": "Patients with NAR often exhibit similar symptoms to AR patients but complain less of sneezing and itching and more of worsening nasal congestion, rhinorrhea, sinus headaches, and post-nasal drip [6,7]."
+          }
+        ],
+        "text_truncated": false,
+        "clinical_review": "pending"
+      },
+      {
+        "evidence_id": "E2",
+        "version_id": "aa15af9b-2ffa-4cf8-89b7-ccafd90db10e",
+        "chunk_id": "122f9d976dfcf2276b24acc7",
+        "document_id": "adult-rhinitis-eaaci-2017",
+        "title": "Multi-morbidities of allergic rhinitis in adults: European Academy of Allergy and Clinical Immunology Task Force Report",
+        "locator": "body/sec[3]/sec[3]/sec[1]/p[1]",
+        "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5452333/",
+        "text": "AR can be associated with primary food allergy; however, it is more frequently associated with secondary food allergy, also known as pollen food syndrome (PFS). Some medical professionals refer to pollen food syndrome as oral allergy syndrome (OAS), although strictly speaking the two are not the same. When the term OAS was first used in 1987 it had no connection with pollen allergy but referred to any allergic symptoms in the mouth that often preceded more serious symptoms. The term pollen food syndrome is preferred when referring to those allergy symptoms to food that are linked to pollen allergy, are limited to the mouth and throat, and are usually mild. [26]. The most typical example is the cross-reactivity in patients with birch pollen AR who develop oral symptoms when eating apples, hazelnut, celery, etc. Typically, when these foods are cooked or processed they can be eaten without causing allergic reactions. Allergic reactions in secondary allergy are usually less severe than in primary food allergy [27]. Common symptoms, which usually come on immediately, include: redness, mild swelling or itching of the lips, tongue, inside of the mouth, soft palate and ears, itching and mild swelling affecting the throat. Occasionally, people might also experience symptoms in the oesophagus (gullet) or stomach, causing abdominal pain, nausea and even vomiting. Sneezing, runny nose, or eye symptoms can also occur.",
+        "quote_options": [
+          {
+            "quote_id": "E2.Q1",
+            "text": "AR can be associated with primary food allergy; however, it is more frequently associated with secondary food allergy, also known as pollen food syndrome (PFS)."
+          },
+          {
+            "quote_id": "E2.Q2",
+            "text": "Some medical professionals refer to pollen food syndrome as oral allergy syndrome (OAS), although strictly speaking the two are not the same."
+          },
+          {
+            "quote_id": "E2.Q3",
+            "text": "When the term OAS was first used in 1987 it had no connection with pollen allergy but referred to any allergic symptoms in the mouth that often preceded more serious symptoms."
+          },
+          {
+            "quote_id": "E2.Q4",
+            "text": "The term pollen food syndrome is preferred when referring to those allergy symptoms to food that are linked to pollen allergy, are limited to the mouth and throat, and are usually mild."
+          },
+          {
+            "quote_id": "E2.Q5",
+            "text": "The most typical example is the cross-reactivity in patients with birch pollen AR who develop oral symptoms when eating apples, hazelnut, celery, etc. Typically, when these foods are cooked or processed they can be eaten without causing allergic reactions."
+          },
+          {
+            "quote_id": "E2.Q6",
+            "text": "Allergic reactions in secondary allergy are usually less severe than in primary food allergy [27]."
+          },
+          {
+            "quote_id": "E2.Q7",
+            "text": "Common symptoms, which usually come on immediately, include: redness, mild swelling or itching of the lips, tongue, inside of the mouth, soft palate and ears, itching and mild swelling affecting the throat."
+          },
+          {
+            "quote_id": "E2.Q8",
+            "text": "Occasionally, people might also experience symptoms in the oesophagus (gullet) or stomach, causing abdominal pain, nausea and even vomiting."
+          },
+          {
+            "quote_id": "E2.Q9",
+            "text": "Sneezing, runny nose, or eye symptoms can also occur."
+          }
+        ],
+        "text_truncated": false,
+        "clinical_review": "pending"
+      },
+      {
+        "evidence_id": "E3",
+        "version_id": "e068d0bb-2d00-4a54-bd0c-ee791a53309c",
+        "chunk_id": "8073961684788d1508e1d026",
+        "document_id": "crs-apac-2024",
+        "title": "Management of chronic rhinosinusitis with nasal polyps in the Asia-Pacific region and Russia: Recommendations from an expert working group",
+        "locator": "body/sec[3]/p[2]",
+        "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11142757/",
+        "text": "The cardinal symptoms of CRS are similar to acute disease, that is, nasal obstruction, congestion or discharge, facial pain/pressure, and olfactory disturbance/loss of smell [1, 2, 11, 12]. Overt facial pain with CRSwNP is uncommon in the Asian patients, where headache (or complaints of pressure or fullness) or nasal obstruction may be more common presenting symptoms. While allergic symptoms (eg, sneezing or itching) are not part of existing diagnostic criteria, their presence may indicate an additional diagnosis of allergic rhinitis. In EPOS 2020, the diagnosis of CRS requires rhinosinusitis lasting for ≥12 weeks (without interruption, as patients may experience recurrent episodes of acute rhinosinusitis) [1, 2]. This assumes that any acute rhinosinusitis has been managed appropriately (ie, with nasal irrigation and INS). Diagnosis of CRSwNP requires the presence of bilateral, endoscopically visualized polyps in the middle meatus [1, 2]. While a minimum duration of 12 weeks reflects a useful policy for chronic disease diagnosis from a symptomatic perspective, this need not be considered absolute. For example, if evidence of more chronic and significant disease already exists (eg, objective findings of nasal polyps on endoscopic examination), then an earlier presumptive diagnosis of CRSwNP would seem appropriate. As discussed later, what is perhaps most important is the need for timely referral for specialist evaluation at the earliest opportunity. Where polyps are absent, patients are considered to have chronic rhinosinusitis without nasal polyps (CRSsNP). When endoscopy or CT shows only unilateral disease, then alternative diagnoses (especially neoplasia) must be considered [1, 2].",
+        "quote_options": [
+          {
+            "quote_id": "E3.Q1",
+            "text": "The cardinal symptoms of CRS are similar to acute disease, that is, nasal obstruction, congestion or discharge, facial pain/pressure, and olfactory disturbance/loss of smell [1, 2, 11, 12]."
+          },
+          {
+            "quote_id": "E3.Q2",
+            "text": "Overt facial pain with CRSwNP is uncommon in the Asian patients, where headache (or complaints of pressure or fullness) or nasal obstruction may be more common presenting symptoms."
+          },
+          {
+            "quote_id": "E3.Q3",
+            "text": "While allergic symptoms (eg, sneezing or itching) are not part of existing diagnostic criteria, their presence may indicate an additional diagnosis of allergic rhinitis."
+          },
+          {
+            "quote_id": "E3.Q4",
+            "text": "In EPOS 2020, the diagnosis of CRS requires rhinosinusitis lasting for ≥12 weeks (without interruption, as patients may experience recurrent episodes of acute rhinosinusitis) [1, 2]."
+          },
+          {
+            "quote_id": "E3.Q5",
+            "text": "This assumes that any acute rhinosinusitis has been managed appropriately (ie, with nasal irrigation and INS)."
+          },
+          {
+            "quote_id": "E3.Q6",
+            "text": "Diagnosis of CRSwNP requires the presence of bilateral, endoscopically visualized polyps in the middle meatus [1, 2]."
+          },
+          {
+            "quote_id": "E3.Q7",
+            "text": "While a minimum duration of 12 weeks reflects a useful policy for chronic disease diagnosis from a symptomatic perspective, this need not be considered absolute."
+          },
+          {
+            "quote_id": "E3.Q8",
+            "text": "For example, if evidence of more chronic and significant disease already exists (eg, objective findings of nasal polyps on endoscopic examination), then an earlier presumptive diagnosis of CRSwNP would seem appropriate."
+          },
+          {
+            "quote_id": "E3.Q9",
+            "text": "As discussed later, what is perhaps most important is the need for timely referral for specialist evaluation at the earliest opportunity."
+          },
+          {
+            "quote_id": "E3.Q10",
+            "text": "Where polyps are absent, patients are considered to have chronic rhinosinusitis without nasal polyps (CRSsNP)."
+          },
+          {
+            "quote_id": "E3.Q11",
+            "text": "When endoscopy or CT shows only unilateral disease, then alternative diagnoses (especially neoplasia) must be considered [1, 2]."
+          }
+        ],
+        "text_truncated": false,
+        "clinical_review": "pending"
+      },
+      {
+        "evidence_id": "E4",
+        "version_id": "aa15af9b-2ffa-4cf8-89b7-ccafd90db10e",
+        "chunk_id": "292fcea86b8b4013767d5c67",
+        "document_id": "adult-rhinitis-eaaci-2017",
+        "title": "Multi-morbidities of allergic rhinitis in adults: European Academy of Allergy and Clinical Immunology Task Force Report",
+        "locator": "body/sec[3]/sec[10]/sec[1]/p[1]",
+        "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5452333/",
+        "text": "The passage of mediators, cytokines and secretions backwards from the nose should not reach the larynx, unless epiglottic function is disturbed. However, many patients with AR do experience throat symptoms, including irritation, the sensation of difficult to shift mucus and cough [89]. In a recent study on AR and laryngeal symptoms, involving six controls and six adult singers, nasal provocation with pollen extracts caused a rapid induction of laryngeal irritation and globus sensation. However, no objective changes occurred then, nor during the pollen season [90].",
+        "quote_options": [
+          {
+            "quote_id": "E4.Q1",
+            "text": "The passage of mediators, cytokines and secretions backwards from the nose should not reach the larynx, unless epiglottic function is disturbed."
+          },
+          {
+            "quote_id": "E4.Q2",
+            "text": "However, many patients with AR do experience throat symptoms, including irritation, the sensation of difficult to shift mucus and cough [89]."
+          },
+          {
+            "quote_id": "E4.Q3",
+            "text": "In a recent study on AR and laryngeal symptoms, involving six controls and six adult singers, nasal provocation with pollen extracts caused a rapid induction of laryngeal irritation and globus sensation."
+          },
+          {
+            "quote_id": "E4.Q4",
+            "text": "However, no objective changes occurred then, nor during the pollen season [90]."
+          }
+        ],
+        "text_truncated": false,
+        "clinical_review": "pending"
+      },
+      {
+        "evidence_id": "E5",
+        "version_id": "aa15af9b-2ffa-4cf8-89b7-ccafd90db10e",
+        "chunk_id": "ca4b9b2429472a2b56353d5e",
+        "document_id": "adult-rhinitis-eaaci-2017",
+        "title": "Multi-morbidities of allergic rhinitis in adults: European Academy of Allergy and Clinical Immunology Task Force Report",
+        "locator": "body/sec[3]/sec[5]/sec[2]/p[1]",
+        "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5452333/",
+        "text": "Eye symptoms include itching, watering, redness and difficulty with vision due to these. Ocular symptoms are reduced by nasal air filters [54], suggesting that some eye involvement is secondary to nasal reflexes.",
+        "quote_options": [
+          {
+            "quote_id": "E5.Q1",
+            "text": "Eye symptoms include itching, watering, redness and difficulty with vision due to these."
+          },
+          {
+            "quote_id": "E5.Q2",
+            "text": "Ocular symptoms are reduced by nasal air filters [54], suggesting that some eye involvement is secondary to nasal reflexes."
+          }
+        ],
+        "text_truncated": false,
+        "clinical_review": "pending"
+      },
+      {
+        "evidence_id": "E6",
+        "version_id": "aa15af9b-2ffa-4cf8-89b7-ccafd90db10e",
+        "chunk_id": "97586a5d149c251deddc0115",
+        "document_id": "adult-rhinitis-eaaci-2017",
+        "title": "Multi-morbidities of allergic rhinitis in adults: European Academy of Allergy and Clinical Immunology Task Force Report",
+        "locator": "body/sec[3]/sec[4]/sec[2]/p[1]",
+        "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5452333/",
+        "text": "EoE is commonly associated with other atopic diatheses (e.g. food allergy, asthma, eczema, chronic rhinitis, environmental allergies) [39]. In adults, solid food dysphagia is the most common presenting symptom [40, 41], with food impaction necessitating endoscopic bolus removal occurs in 33–54% of adult EoE patients [42]. Other symptoms in adults include chest pain, heartburn and upper abdominal pain [38, 43].",
+        "quote_options": [
+          {
+            "quote_id": "E6.Q1",
+            "text": "EoE is commonly associated with other atopic diatheses (e.g. food allergy, asthma, eczema, chronic rhinitis, environmental allergies) [39]."
+          },
+          {
+            "quote_id": "E6.Q2",
+            "text": "In adults, solid food dysphagia is the most common presenting symptom [40, 41], with food impaction necessitating endoscopic bolus removal occurs in 33–54% of adult EoE patients [42]."
+          },
+          {
+            "quote_id": "E6.Q3",
+            "text": "Other symptoms in adults include chest pain, heartburn and upper abdominal pain [38, 43]."
+          }
+        ],
+        "text_truncated": false,
+        "clinical_review": "pending"
+      }
+    ],
+    "validation": {
+      "citation_identity_and_quote_match": true,
+      "semantic_support": "model_judgment_only",
+      "clinical_approval": false,
+      "scope_code": null,
+      "error_code": null,
+      "failure_stage": null,
+      "outcome_category": "answer_ready"
+    },
+    "model": "deepseek-flash",
+    "elapsed_ms": 23129,
+    "knowledge_snapshot_id": "ad0cddee-70e7-4727-a022-71c4709d34ff",
+    "synthetic_only": true,
+    "runtime_components": {
+      "encoder_fingerprint": "a0bfaa9cc57ac19cba94fb00c0df2d1ca1a39815c61a9eb11273ced208323941",
+      "reranker_used": true
+    }
+  },
+  "error_code": null,
+  "created_at": 1792741194.8484871,
+  "provenance": {
+    "workflow": "existing_validated_answer_workflow",
+    "synthetic_only": true,
+    "external_generation_consent": true,
+    "files": {
+      "configs/generation.json": "4d0bf474a06106138ddeb9b0df97f54610b0dbc95546055d988d4e43b54f9a6f",
+      "configs/retrieval.json": "3c24ec4fad6b363a0fac337877a5f62b8e38a0d160696d22d55e76f8c06d19f6",
+      "requirements.lock": "762a51e6bb0b8d6d313e09ae50502e84c290405a2f6f48bbf581274bcfc1056d",
+      "backend/app/application/consultations.py": "b2f3059aca7093d159f7c34d971e2064aeb66eba5a50af1b3549f7933f1d3755",
+      "backend/app/application/business.py": "967bfcaaebac3565014fd1b132a5a3fc94662e5e28a005db1ab1d4cd013cd917",
+      "backend/app/application/consultation_queue.py": "46426aa529502634679c25262cd025b2168d237d85d947aa86f29a842c2b1b8d",
+      "backend/app/retrieval/__init__.py": "6d6ecdf592e0d1d367eceda55ca170152259888b1fb9959697ef03f6c78aae48",
+      "backend/app/retrieval/answer_workflow.py": "911b989329b70ab7335a87f169ac9d959f133c084f6c9b5268c58d2b20db8675",
+      "backend/app/retrieval/atomization.py": "c14695f3844970f132dc09f402612d98c03ae2e4f5770ed0aaaa0cfaa50b7468",
+      "backend/app/retrieval/audit_service.py": "0a736612b23f2e7246e3371f504000f2baa7e6c4ae9e9f5f439425db8b6ea668",
+      "backend/app/retrieval/benchmark.py": "31ec66a0030b0bcc147a420ab192c29b88ab7eb1eeddba80fa48c4cceeaf866e",
+      "backend/app/retrieval/claim_review.py": "5979a73c3ed00810c3c046f9e0418275cee0d9c25305d2d45a07728df966733e",
+      "backend/app/retrieval/cli.py": "aa115f0f621bc576a7774c5b66bb1626d3239c35a25c7573de0ae4928e565018",
+      "backend/app/retrieval/corpus.py": "724c3fd614c5737b3e557fb9749ffa46fdbec6d6b8cf62320e9775cda43a407f",
+      "backend/app/retrieval/dataset.py": "37782fbf793e9770674ed07bc9a672aafdb4f8ee1d20def7621f801ff3910eb0",
+      "backend/app/retrieval/development_service.py": "60a4a0be429b1d9a3967ee2d595eb9a13ee65c04444cf358501cb70b829d2e77",
+      "backend/app/retrieval/document_preview.py": "391b7fe4c1591b6f5ef350a597e2dd69eb3f6cf6369023ca4685e0b9d52fc9c1",
+      "backend/app/retrieval/embedding.py": "ee91d57f2764d63ab410bf770c3fe7dba01c2ad7cdb64a46052a4eb8630e1b96",
+      "backend/app/retrieval/engine.py": "9e55f242bfa3c4babf89fe90241bc3d27ec0c9aff2ed688937926c9d834f7552",
+      "backend/app/retrieval/evaluation_manifest.py": "135987fdcef635ec3fd74261fe3da41f5a245bb89379ad79c7322a509594e313",
+      "backend/app/retrieval/generation.py": "63bf9aa16f9b92f351a2e52c1e6d29edade29992dedd1209179a5ed0b84b8a11",
+      "backend/app/retrieval/input_anchor_report.py": "ffd880770227edb926f9293eae6eef2b9e4a6d81771c3197f1bc58d36af4d78b",
+      "backend/app/retrieval/input_fidelity.py": "fd658124743cb44f6ebdffa7a588d3163fb297a7765f2f88679427ffda4d328c",
+      "backend/app/retrieval/label_sensitivity.py": "3f66bda1adc5f366c5bb6c23d9585b1bd4b94b627a4d36887ac7181b06511055",
+      "backend/app/retrieval/local_import.py": "0fd55a6d27fe04fec780d9ccc4a607d80a2d959e364e3aaed43cbf59efe963bb",
+      "backend/app/retrieval/onnx_worker.py": "f5944dacf3f099ace62bf5197d85449a9a59a946813f3c8cead49e57c4bd2f0b",
+      "backend/app/retrieval/outcomes.py": "0090b7950b376be13d93d0bd48a9899084628edec56d1584fb2b96c3a021659e",
+      "backend/app/retrieval/patient_queries.py": "82281d0bb4122d5c6acd0da9cc1c227d9dffc98538e6613a8d926430b82bc85f",
+      "backend/app/retrieval/patient_summary.py": "9d69efab8b7429203c75f4b4d08784a997db78196fc7be365c2b016dd8120934",
+      "backend/app/retrieval/quote_catalog.py": "e9acace530d5e6c25b400ec651e39d51b949543e882fe6510e1f3d63e7340066",
+      "backend/app/retrieval/quote_repair.py": "97cb22ae11a2b34b44a0c155cc8d5e9493e3e8cf47d4fb7dfa3f38c3474d54a5",
+      "backend/app/retrieval/rerank_worker.py": "c4e386667013ad6332e6bed7cc81797c403a2db384134878c970368624e7e78f",
+      "backend/app/retrieval/reranking.py": "a4b47895a885bf0a6955013e15ad6fcb90ea8c0a49d1add681cd211044b2c548",
+      "backend/app/retrieval/review.py": "2837a6a17a870640d62ace7e60160ce29f7967bc2d582e1165acbfaf0805743e",
+      "backend/app/retrieval/review_archives.py": "72da1f564f2d5d0763e2b7146f30d2456ecbe335bb82c4044424f965218711c8",
+      "backend/app/retrieval/review_import.py": "c43d37178dcac75e1e293b79a66460d97eb6a945b4ba22b6aa8f03bb3622fee8",
+      "backend/app/retrieval/scope_guard.py": "e13b6c11da731949f8c63ebd87d983386f0d7c640972514f62d14a511d99846f",
+      "backend/app/retrieval/stratified_report.py": "72c69a6f2ece1ce4c7a81f19a831104474b2911f454fad405134eef1f85ac94f",
+      "backend/app/retrieval/summary_core.py": "b92c72c2f2d7d84dfcb0d399caa380071b3651735c460cf9cff2499a34b27745",
+      "backend/app/retrieval/text_quality.py": "2c9bff7062fbbfe14e1bce907c248eba6befd0df81efaf9fd68f008ae92b0822",
+      "backend/app/retrieval/validation_service.py": "93874fac707de8e41d6d717a59126f49e1649c7cde6cf50281060094fb7c8f6b",
+      "backend/app/retrieval/verification.py": "93a10428fd138f87a4916e39e49079fc9a88217c0d5b2d43350dcec8d26ca650",
+      "backend/app/retrieval/wording_review.py": "87743581d8aa8c876eecb646f5cdec166e7d1cbf2b25a65bcdceb70a98bed187",
+      "backend/app/retrieval/workflow.py": "550d8b25728313d295c12e61de5a49e3c45d0167afab291629971ebb109b6a1d"
+    }
+  },
+  "synthetic_only": true,
+  "current_comparison_issues": [],
+  "historical_evidence_currently_available": true
+}
